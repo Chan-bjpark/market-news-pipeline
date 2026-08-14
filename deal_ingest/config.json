@@ -1,0 +1,144 @@
+{
+  "_comment": "deal_ingest config",
+  "collectors": {
+    "thebell_rss": {
+      "enabled": false,
+      "rss_urls": [
+        "https://www.thebell.co.kr/free/content/Rss.asp"
+      ],
+      "_note": "DEAD: 404"
+    },
+    "thebell_html": {
+      "enabled": true,
+      "list_urls": [
+        "https://www.thebell.co.kr/free/",
+        "https://www.thebell.co.kr/front/index.asp"
+      ]
+    },
+    "hankyung_rss": {
+      "enabled": false,
+      "rss_urls": [
+        "http://rss.hankyung.com/leaders.xml"
+      ],
+      "_note": "RSS bozo=1"
+    },
+    "dealsite_html": {
+      "enabled": true,
+      "list_urls": [
+        "https://dealsite.co.kr/",
+        "https://dealsite.co.kr/categories/080000"
+      ]
+    },
+    "investchosun_html": {
+      "enabled": true,
+      "list_urls": [
+        "https://www.investchosun.com/",
+        "https://www.investchosun.com/svc/news/list.html?catid=2",
+        "https://www.investchosun.com/svc/news/list.html?catid=1"
+      ]
+    },
+    "marketinsight_html": {
+      "enabled": true,
+      "list_urls": [
+        "https://markets.hankyung.com/"
+      ]
+    },
+    "einfomax_html": {
+      "enabled": true,
+      "list_urls": [
+        "https://news.einfomax.co.kr/news/articleList.html?sc_section_code=S1N7",
+        "https://news.einfomax.co.kr/news/articleList.html?sc_section_code=S1N3"
+      ]
+    },
+    "naver_news_api": {
+      "enabled": true,
+      "client_id": "",
+      "client_secret": "",
+      "queries": [
+        "M&A 인수합병",
+        "PEF 사모펀드 결성",
+        "기관 출자 GP 선정",
+        "국고채 금리",
+        "국민성장펀드 투자 집행",
+        "국민성장펀드 출자 대출",
+        "국민성장펀드 저리대출",
+        "국민성장펀드 기금운용심의회",
+        "국민성장펀드 컴퓨팅센터",
+        "국민성장펀드 첨단전략산업기금",
+        "HLB 리보세라닙",
+        "리보세라닙 FDA",
+        "HLB 보완요구서한",
+        "HLB 재신청 승인",
+        "HLB 블랙록 지분",
+        "HLB 대량보유 공시",
+        "HLB MSCI 지수",
+        "HLB 외국인 순매수",
+        "HLB 공매도",
+        "HLB 유상증자",
+        "HLB 합병",
+        "HLB 넥스트사이언스",
+        "넥스트사이언스 지분",
+        "HLB생명과학",
+        "HLB제약",
+        "HLB이노베이션",
+        "HLB파나진",
+        "HLB테라퓨틱스",
+        "HLB바이오스텝",
+        "HLB글로벌"
+      ],
+      "_queries_note": "HLB그룹 확대(2026-08-14, 박이사 지시 — 전 계열 상장사 커버). ①파이프라인/FDA: 리보세라닙·보완요구서한·재신청·승인. ②지수: MSCI 편입/제외. ③수급/해외투자자: 블랙록 대량보유·외국인 순매수·공매도. ④지배구조/조달: 합병·유상증자·넥스트사이언스. ⑤종목별: HLB생명과학·제약·이노베이션·파나진·테라퓨틱스·바이오스텝·글로벌. 블랙록 오타(과거 '블랙락') 표준 '블랙록'으로 수정. 종목 promo성 뉴스는 HOST_MAP 화이트리스트로 1차 필터, 고임팩트 신호는 category='hlb_signal'로 2차 등급화(keywords.json 참조)."
+    }
+  },
+  "ecos": {
+    "enabled": true,
+    "api_key": ""
+  },
+  "kfp": {
+    "enabled": true,
+    "service_key": ""
+  },
+  "fred": {
+    "enabled": true,
+    "api_key": ""
+  },
+  "policy_schedule": {
+    "bok_2026": [
+      "2026-01-15",
+      "2026-02-26",
+      "2026-04-09",
+      "2026-05-28",
+      "2026-07-16",
+      "2026-08-27",
+      "2026-10-22",
+      "2026-11-26"
+    ],
+    "fomc_2026": [
+      "2026-01-28",
+      "2026-03-18",
+      "2026-04-29",
+      "2026-06-17",
+      "2026-07-29",
+      "2026-09-16",
+      "2026-10-28",
+      "2026-12-09"
+    ],
+    "_note": "박이사님이 한국은행/Fed 공식 페이지에서 정확한 일정 확인하여 매년 업데이트"
+  },
+  "storage": {
+    "db_path": "store/articles.db",
+    "log_dir": "logs",
+    "retention_days": 90
+  },
+  "filter": {
+    "recency_days": 3
+  },
+  "fund_flow": {
+    "lookback_days": 90,
+    "_note": "정책자금 펀드 라이프사이클 추적 기간 (DB retention과 동일 권장)"
+  },
+  "kgf_execution": {
+    "lookback_days": 90,
+    "_note": "국민성장펀드 개별 기업 집행 추적. 기존 JSON 병합 누적이므로 DB purge 후에도 deal 보존. 범위 계속 확대 가능."
+  },
+  "_secrets_note": "시크릿은 GitHub Actions Secrets로 주입(NAVER_CLIENT_ID/NAVER_CLIENT_SECRET/ECOS_API_KEY/KFP_SERVICE_KEY/FRED_API_KEY). 로컬 PC 실행 시엔 이 파일에 값을 채우면 됨(env 우선)."
+}

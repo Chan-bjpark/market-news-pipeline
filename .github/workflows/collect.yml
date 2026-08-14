@@ -1,0 +1,84 @@
+name: deal_ingest collect
+
+# 06:00 KST 평일 = 21:00 UTC 일~목 (KST = UTC+9).
+# 발송(07:00 KST) 세션이 이 커밋 결과를 raw로 읽는다.
+on:
+  schedule:
+    - cron: "0 21 * * 0-4"   # Sun-Thu 21:00 UTC = Mon-Fri 06:00 KST
+  workflow_dispatch:          # 수동 실행(첫 검증·오류시 재실행)
+
+permissions:
+  contents: write             # 산출물 커밋용(GITHUB_TOKEN)
+
+concurrency:
+  group: deal-ingest
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore SQLite DB (cross-run state)
+        uses: actions/cache@v4
+        with:
+          path: deal_ingest/store/articles.db
+          key: articles-db-${{ github.run_id }}
+          restore-keys: |
+            articles-db-
+
+      - name: Install deps
+        run: pip install -r deal_ingest/requirements.txt
+
+      - name: Run collector
+        id: run
+        working-directory: deal_ingest
+        continue-on-error: true          # 무결성 exit(2)여도 산출물 커밋·진단은 진행
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
+          KFP_SERVICE_KEY: ${{ secrets.KFP_SERVICE_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python orchestrator.py
+
+      - name: Collector health summary (datacenter-IP 수집 가능여부 진단)
+        if: always()
+        working-directory: deal_ingest
+        run: |
+          echo "===== last_run_status.json ====="
+          cat logs/last_run_status.json || echo "(없음)"
+          echo ""
+          echo "===== 소스별 수집 건수 (오늘 로그) ====="
+          grep -E "fetched=|kept=|failed" logs/ingest_*.log | tail -40 || true
+
+      - name: Commit outputs
+        if: always()
+        run: |
+          git config user.name  "deal-ingest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f deal_ingest/recent_briefing.json \
+                     deal_ingest/rate_summary.json \
+                     deal_ingest/fund_flow_summary.json \
+                     deal_ingest/kgf_execution_summary.json \
+                     deal_ingest/logs/last_run_status.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 스킵"
+          else
+            git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ) collect run ${{ github.run_id }}"
+            git push
+          fi
+
+      - name: Fail job if collector reported corruption
+        if: steps.run.outcome == 'failure'
+        run: |
+          echo "orchestrator가 무결성 실패(exit 2)를 보고했습니다. 위 health summary 확인."
+          exit 1

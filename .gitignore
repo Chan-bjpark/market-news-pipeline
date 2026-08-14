@@ -1,0 +1,27 @@
+# deal_ingest 무인 파이프라인 (GitHub Actions)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+
+# 로컬 실행용 실 키(커밋 금지). CI는 GitHub Secrets 사용.
+config.local.json
+
+# SQLite DB는 actions/cache로 런 간 유지(커밋 안 함 — 바이너리 churn 방지)
+deal_ingest/store/articles.db
+deal_ingest/store/articles.db-*
+deal_ingest/logs/*.log
+deal_ingest/**/*.tmp
+
+# 민감: 한계기업 워치리스트는 공개 리포에 커밋하지 않음(발송 세션이 별도 채널로 관리)
+deal_ingest/distressed_watchlist.json
+
+# 커밋되는 산출물(발송 세션이 raw로 읽음):
+#   deal_ingest/recent_briefing.json
+#   deal_ingest/rate_summary.json
+#   deal_ingest/fund_flow_summary.json
+#   deal_ingest/kgf_execution_summary.json
+#   deal_ingest/logs/last_run_status.json  (아래 예외로 강제 포함)
+!deal_ingest/logs/last_run_status.json
