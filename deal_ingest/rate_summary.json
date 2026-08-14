@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-08-14T03:49:20.850391+00:00",
+  "items": {
+    "CD(91일)": {
+      "error": "인증키가 유효하지 않습니다. 인증키를 확인하십시오! 인증키가 없는 경우 인증키를 신청하십시오!",
+      "source": "ECOS"
+    },
+    "미국채(2년)": {
+      "latest_date": null,
+      "latest_value": null,
+      "prev_day_date": null,
+      "vs_prev_day_bp": null,
+      "prev_month_date": null,
+      "vs_prev_month_bp": null,
+      "recent_series": [],
+      "source": "FRED",
+      "series_id": "DGS2",
+      "error": "FRED DGS2 retry 3 failed: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DGS2&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2026-05-16&observation_end=2026-08-14"
+    },
+    "미국채(10년)": {
+      "latest_date": null,
+      "latest_value": null,
+      "prev_day_date": null,
+      "vs_prev_day_bp": null,
+      "prev_month_date": null,
+      "vs_prev_month_bp": null,
+      "recent_series": [],
+      "source": "FRED",
+      "series_id": "DGS10",
+      "error": "FRED DGS10 retry 3 failed: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DGS10&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2026-05-16&observation_end=2026-08-14"
+    }
+  },
+  "market": {
+    "원달러환율": {
+      "error": "FRED DEXKOUS retry 3 failed: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DEXKOUS&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2026-05-16&observation_end=2026-08-14",
+      "unit": "KRW",
+      "source": "FRED",
+      "series_id": "DEXKOUS"
+    },
+    "WTI유가": {
+      "error": "FRED DCOILWTICO retry 3 failed: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DCOILWTICO&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2026-05-16&observation_end=2026-08-14",
+      "unit": "USD",
+      "source": "FRED",
+      "series_id": "DCOILWTICO"
+    }
+  },
+  "policy_rates": {
+    "한국 기준금리": {
+      "error": "no series",
+      "next_meeting": "2026-08-27",
+      "last_meeting": "2026-07-16",
+      "meeting_direction": "동결",
+      "source": "ECOS"
+    },
+    "미국 기준금리": {
+      "error": "400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DFEDTARU&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2025-08-14&observation_end=2026-08-14"
+    }
+  }
+}

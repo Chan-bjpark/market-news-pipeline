@@ -1,0 +1,28 @@
+{
+  "run_at_utc": "2026-08-14T03:49:57.798889+00:00",
+  "run_at_kst": "2026-08-14 12:49:57 KST",
+  "fetched_total": 137,
+  "new_total": 137,
+  "status": "ok",
+  "exit_code": 0,
+  "files": {
+    "recent_briefing.json": {
+      "valid": true,
+      "size": 73412,
+      "error": null,
+      "generated_at": "2026-08-14T03:49:20.839508+00:00"
+    },
+    "rate_summary.json": {
+      "valid": true,
+      "size": 2682,
+      "error": null,
+      "generated_at": "2026-08-14T03:49:20.850391+00:00"
+    },
+    "fund_flow_summary.json": {
+      "valid": true,
+      "size": 1522,
+      "error": null,
+      "generated_at": "2026-08-14T03:49:57.090369+00:00"
+    }
+  }
+}
