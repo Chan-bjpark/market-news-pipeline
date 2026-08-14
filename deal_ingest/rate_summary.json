@@ -1,44 +1,576 @@
 {
-  "generated_at": "2026-08-14T03:49:20.850391+00:00",
+  "generated_at": "2026-08-14T03:54:03.993651+00:00",
   "items": {
     "CD(91일)": {
-      "error": "인증키가 유효하지 않습니다. 인증키를 확인하십시오! 인증키가 없는 경우 인증키를 신청하십시오!",
+      "item_code": "010502000",
+      "latest_date": "2026-08-13",
+      "latest_value": 2.93,
+      "prev_day_date": "2026-08-12",
+      "vs_prev_day_bp": -1.0,
+      "prev_month_date": "2026-07-14",
+      "vs_prev_month_bp": 3.0,
+      "recent_series": [
+        {
+          "date": "2026-07-24",
+          "value": 2.91
+        },
+        {
+          "date": "2026-07-27",
+          "value": 2.92
+        },
+        {
+          "date": "2026-07-28",
+          "value": 2.92
+        },
+        {
+          "date": "2026-07-29",
+          "value": 2.92
+        },
+        {
+          "date": "2026-07-30",
+          "value": 2.93
+        },
+        {
+          "date": "2026-07-31",
+          "value": 2.95
+        },
+        {
+          "date": "2026-08-03",
+          "value": 2.93
+        },
+        {
+          "date": "2026-08-04",
+          "value": 2.93
+        },
+        {
+          "date": "2026-08-05",
+          "value": 2.93
+        },
+        {
+          "date": "2026-08-06",
+          "value": 2.93
+        },
+        {
+          "date": "2026-08-07",
+          "value": 2.93
+        },
+        {
+          "date": "2026-08-10",
+          "value": 2.93
+        },
+        {
+          "date": "2026-08-11",
+          "value": 2.93
+        },
+        {
+          "date": "2026-08-12",
+          "value": 2.94
+        },
+        {
+          "date": "2026-08-13",
+          "value": 2.93
+        }
+      ],
       "source": "ECOS"
     },
+    "국고채(3년)": {
+      "latest_date": "2026-08-13",
+      "latest_value": 3.782,
+      "isin": "KR103501GG62",
+      "name": "국고03500-2906(26-5)",
+      "prev_day_date": "2026-08-12",
+      "vs_prev_day_bp": -1.7,
+      "prev_month_date": "2026-07-14",
+      "vs_prev_month_bp": -10.1,
+      "recent_series": [
+        {
+          "date": "2026-07-24",
+          "value": 3.963,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-07-27",
+          "value": 3.861,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-07-28",
+          "value": 3.827,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-07-29",
+          "value": 3.794,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-07-30",
+          "value": 3.837,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-07-31",
+          "value": 3.755,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-08-03",
+          "value": 3.742,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-08-04",
+          "value": 3.74,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-08-05",
+          "value": 3.665,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-08-06",
+          "value": 3.742,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-08-07",
+          "value": 3.744,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-08-10",
+          "value": 3.78,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-08-11",
+          "value": 3.808,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-08-12",
+          "value": 3.799,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-08-13",
+          "value": 3.782,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
+        }
+      ],
+      "source": "KFP/KRX"
+    },
+    "국고채(10년)": {
+      "latest_date": "2026-08-13",
+      "latest_value": 4.297,
+      "isin": "KR103503GG60",
+      "name": "국고04250-3606(26-6)",
+      "prev_day_date": "2026-08-12",
+      "vs_prev_day_bp": 0.2,
+      "prev_month_date": "2026-07-14",
+      "vs_prev_month_bp": -3.3,
+      "recent_series": [
+        {
+          "date": "2026-07-24",
+          "value": 4.449,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-07-27",
+          "value": 4.335,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-07-28",
+          "value": 4.286,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-07-29",
+          "value": 4.26,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-07-30",
+          "value": 4.315,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-07-31",
+          "value": 4.259,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-08-03",
+          "value": 4.266,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-08-04",
+          "value": 4.264,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-08-05",
+          "value": 4.148,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-08-06",
+          "value": 4.194,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-08-07",
+          "value": 4.204,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-08-10",
+          "value": 4.241,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-08-11",
+          "value": 4.303,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-08-12",
+          "value": 4.295,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-08-13",
+          "value": 4.297,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        }
+      ],
+      "source": "KFP/KRX"
+    },
     "미국채(2년)": {
-      "latest_date": null,
-      "latest_value": null,
-      "prev_day_date": null,
-      "vs_prev_day_bp": null,
-      "prev_month_date": null,
-      "vs_prev_month_bp": null,
-      "recent_series": [],
+      "latest_date": "2026-08-12",
+      "latest_value": 4.2,
+      "prev_day_date": "2026-08-11",
+      "vs_prev_day_bp": -2.0,
+      "prev_month_date": "2026-07-13",
+      "vs_prev_month_bp": -6.0,
+      "recent_series": [
+        {
+          "date": "2026-07-23",
+          "value": 4.37
+        },
+        {
+          "date": "2026-07-24",
+          "value": 4.33
+        },
+        {
+          "date": "2026-07-27",
+          "value": 4.31
+        },
+        {
+          "date": "2026-07-28",
+          "value": 4.26
+        },
+        {
+          "date": "2026-07-29",
+          "value": 4.22
+        },
+        {
+          "date": "2026-07-30",
+          "value": 4.23
+        },
+        {
+          "date": "2026-07-31",
+          "value": 4.28
+        },
+        {
+          "date": "2026-08-03",
+          "value": 4.25
+        },
+        {
+          "date": "2026-08-04",
+          "value": 4.2
+        },
+        {
+          "date": "2026-08-05",
+          "value": 4.18
+        },
+        {
+          "date": "2026-08-06",
+          "value": 4.25
+        },
+        {
+          "date": "2026-08-07",
+          "value": 4.19
+        },
+        {
+          "date": "2026-08-10",
+          "value": 4.25
+        },
+        {
+          "date": "2026-08-11",
+          "value": 4.22
+        },
+        {
+          "date": "2026-08-12",
+          "value": 4.2
+        }
+      ],
       "source": "FRED",
       "series_id": "DGS2",
-      "error": "FRED DGS2 retry 3 failed: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DGS2&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2026-05-16&observation_end=2026-08-14"
+      "error": null
     },
     "미국채(10년)": {
-      "latest_date": null,
-      "latest_value": null,
-      "prev_day_date": null,
-      "vs_prev_day_bp": null,
-      "prev_month_date": null,
-      "vs_prev_month_bp": null,
-      "recent_series": [],
+      "latest_date": "2026-08-12",
+      "latest_value": 4.68,
+      "prev_day_date": "2026-08-11",
+      "vs_prev_day_bp": -2.0,
+      "prev_month_date": "2026-07-13",
+      "vs_prev_month_bp": 6.0,
+      "recent_series": [
+        {
+          "date": "2026-07-23",
+          "value": 4.71
+        },
+        {
+          "date": "2026-07-24",
+          "value": 4.69
+        },
+        {
+          "date": "2026-07-27",
+          "value": 4.65
+        },
+        {
+          "date": "2026-07-28",
+          "value": 4.61
+        },
+        {
+          "date": "2026-07-29",
+          "value": 4.67
+        },
+        {
+          "date": "2026-07-30",
+          "value": 4.68
+        },
+        {
+          "date": "2026-07-31",
+          "value": 4.75
+        },
+        {
+          "date": "2026-08-03",
+          "value": 4.7
+        },
+        {
+          "date": "2026-08-04",
+          "value": 4.63
+        },
+        {
+          "date": "2026-08-05",
+          "value": 4.63
+        },
+        {
+          "date": "2026-08-06",
+          "value": 4.69
+        },
+        {
+          "date": "2026-08-07",
+          "value": 4.65
+        },
+        {
+          "date": "2026-08-10",
+          "value": 4.72
+        },
+        {
+          "date": "2026-08-11",
+          "value": 4.7
+        },
+        {
+          "date": "2026-08-12",
+          "value": 4.68
+        }
+      ],
       "source": "FRED",
       "series_id": "DGS10",
-      "error": "FRED DGS10 retry 3 failed: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DGS10&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2026-05-16&observation_end=2026-08-14"
+      "error": null
     }
   },
   "market": {
     "원달러환율": {
-      "error": "FRED DEXKOUS retry 3 failed: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DEXKOUS&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2026-05-16&observation_end=2026-08-14",
+      "latest_date": "2026-08-07",
+      "latest_value": 1409.94,
+      "prev_day_date": "2026-08-06",
+      "vs_prev_day": -13.67,
+      "prev_month_date": "2026-07-08",
+      "vs_prev_month": -101.23,
+      "delta_unit": "KRW",
+      "recent_series": [
+        {
+          "date": "2026-07-20",
+          "value": 1478.31
+        },
+        {
+          "date": "2026-07-21",
+          "value": 1479.77
+        },
+        {
+          "date": "2026-07-22",
+          "value": 1476.63
+        },
+        {
+          "date": "2026-07-23",
+          "value": 1474.88
+        },
+        {
+          "date": "2026-07-24",
+          "value": 1460.76
+        },
+        {
+          "date": "2026-07-27",
+          "value": 1467.54
+        },
+        {
+          "date": "2026-07-28",
+          "value": 1453.26
+        },
+        {
+          "date": "2026-07-29",
+          "value": 1446.32
+        },
+        {
+          "date": "2026-07-30",
+          "value": 1424.05
+        },
+        {
+          "date": "2026-07-31",
+          "value": 1436.81
+        },
+        {
+          "date": "2026-08-03",
+          "value": 1467.54
+        },
+        {
+          "date": "2026-08-04",
+          "value": 1427.48
+        },
+        {
+          "date": "2026-08-05",
+          "value": 1424.0
+        },
+        {
+          "date": "2026-08-06",
+          "value": 1423.61
+        },
+        {
+          "date": "2026-08-07",
+          "value": 1409.94
+        }
+      ],
       "unit": "KRW",
       "source": "FRED",
       "series_id": "DEXKOUS"
     },
     "WTI유가": {
-      "error": "FRED DCOILWTICO retry 3 failed: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DCOILWTICO&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2026-05-16&observation_end=2026-08-14",
+      "latest_date": "2026-08-11",
+      "latest_value": 84.77,
+      "prev_day_date": "2026-08-10",
+      "vs_prev_day": 1.01,
+      "prev_month_date": "2026-07-10",
+      "vs_prev_month": 12.32,
+      "delta_unit": "USD",
+      "recent_series": [
+        {
+          "date": "2026-07-22",
+          "value": 87.66
+        },
+        {
+          "date": "2026-07-23",
+          "value": 93.08
+        },
+        {
+          "date": "2026-07-24",
+          "value": 91.74
+        },
+        {
+          "date": "2026-07-27",
+          "value": 84.25
+        },
+        {
+          "date": "2026-07-28",
+          "value": 80.91
+        },
+        {
+          "date": "2026-07-29",
+          "value": 86.08
+        },
+        {
+          "date": "2026-07-30",
+          "value": 85.15
+        },
+        {
+          "date": "2026-07-31",
+          "value": 86.16
+        },
+        {
+          "date": "2026-08-03",
+          "value": 81.96
+        },
+        {
+          "date": "2026-08-04",
+          "value": 77.33
+        },
+        {
+          "date": "2026-08-05",
+          "value": 76.78
+        },
+        {
+          "date": "2026-08-06",
+          "value": 78.88
+        },
+        {
+          "date": "2026-08-07",
+          "value": 79.77
+        },
+        {
+          "date": "2026-08-10",
+          "value": 83.76
+        },
+        {
+          "date": "2026-08-11",
+          "value": 84.77
+        }
+      ],
       "unit": "USD",
       "source": "FRED",
       "series_id": "DCOILWTICO"
@@ -46,14 +578,29 @@
   },
   "policy_rates": {
     "한국 기준금리": {
-      "error": "no series",
+      "latest_date": "2026-08-11",
+      "latest_value": 2.75,
+      "last_change_date": "2026-07-16",
+      "last_change_from": 2.5,
+      "direction": "인상",
       "next_meeting": "2026-08-27",
       "last_meeting": "2026-07-16",
-      "meeting_direction": "동결",
+      "meeting_direction": "인상",
       "source": "ECOS"
     },
     "미국 기준금리": {
-      "error": "400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DFEDTARU&api_key=%EF%BB%BF89149b6773d462f622bbecd6b3b772f5&file_type=json&observation_start=2025-08-14&observation_end=2026-08-14"
+      "latest_date": "2026-08-13",
+      "latest_value": 3.75,
+      "last_change_date": "2025-12-11",
+      "last_change_from": 4.0,
+      "direction": "인하",
+      "latest_value_upper": 3.75,
+      "latest_value_lower": 3.5,
+      "latest_value_str": "3.50-3.75",
+      "next_meeting": "2026-09-16",
+      "last_meeting": "2026-07-29",
+      "meeting_direction": "동결",
+      "source": "FRED"
     }
   }
 }

@@ -1,19 +1,1669 @@
 {
-  "generated_at": "2026-08-14T03:49:57.090369+00:00",
+  "generated_at": "2026-08-14T03:54:10.844140+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 3,
-  "matched_funds_count": 1,
-  "unmatched_count": 2,
+  "total_policy_articles": 205,
+  "matched_funds_count": 2,
+  "unmatched_count": 39,
   "funds": [
     {
       "fund_name": "국민성장펀드",
-      "current_stage_code": "uncategorized",
-      "current_stage_label": "단계 미상",
-      "next_expected_event": "추가 정보 필요",
-      "first_seen": "2026-08-12",
-      "last_updated": "2026-08-12",
-      "event_count": 1,
+      "current_stage_code": "closed",
+      "current_stage_label": "결성 완료",
+      "next_expected_event": "(완료)",
+      "first_seen": "2026-07-02",
+      "last_updated": "2026-08-14",
+      "event_count": 165,
       "timeline": [
+        {
+          "date": "2026-07-02",
+          "published_at": "2026-07-02T16:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "16조",
+          "title": "국민성장펀드 800억 지원 낙점한 LS전선...비결은?",
+          "summary": "금융위, 피지컬AI 6개 분야 16조원 투입 2일 업계에 따르면 금융위는 지난달 25일 국민성장펀드 기금운용심의회를 열고 영양군 육상풍력사업에 대한 인프라 투융자와 케이블·반도체 밸류체인 업체에 대한 저리대출...",
+          "url": "http://www.fntimes.com/html/view.php?ud=202607021428126863fa6b69a559_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-07-07",
+          "published_at": "2026-07-07T08:17:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5000억",
+          "title": "정부가 선택한 리가켐...5000억이 바꿀 K-바이오 투자 공식",
+          "summary": "금융위원회는 지난달 25일 국민성장펀드 기금운용심의회를 열고 리가켐바이오(141080)에 대한 5000억원 규모 직접투자를 승인했다. 이번 투자는 첨단전략산업기금 2500억원과 최대주주 측인 팬오리온, 국내 기관투자자...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02656806645512224",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-07-09",
+          "published_at": "2026-07-09T05:32:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3700억원",
+          "title": "대형 투자기관, 국내 데이터센터·전력설비 투자금 쏟아진다 [메가프로...",
+          "summary": "금융위원회는 지난달 국민성장펀드 기금운용심의회를 열고 영양 육상풍력 발전사업 인프라투융자, LS전선 초고압 해저케이블 양산시설 증설 대출, 심텍 차세대 메모리 기판 생산공장 증설 대출 등 3700억원 규모...",
+          "url": "https://www.etoday.co.kr/news/view/2601566",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T08:18:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1000억",
+          "title": "[더벨]5대 금융, '국민성장펀드 매칭' 리가켐바이오에 1000억 투자한다",
+          "summary": "지난달 25일 기금운용심의회 승인을 마쳤다. 투자 방식은 전환사채(CB) 1700억원과 전환우선주(CPS) 3300억원이다. CB 발행일은 이달 24일이다. 국민성장펀드 직접투자는 그동안 리벨리온 등 AI 반도체 기업을 중심으로...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607091046283320101013",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T15:17:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": null,
+          "title": "국민성장펀드 2차 운용사에 스틱·도미누스·한투파 등 7곳 선정",
+          "summary": "간접투자는 사모펀드(PEF), 벤처캐피털(VC), 증권사 등 민간에 자금 운용을 위탁하는 것을 일컫는다. 자펀드... 펀드 규모가 가장 큰 ‘스케일업’ 리그에는 스틱인베스트먼트가 선정됐다. 펀드 목표 결성액은...",
+          "url": "https://www.hankyung.com/article/202607131944r",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T16:14:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": null,
+          "title": "국민성장펀드 2차 GP에 스틱·도미누스·우리벤처·한투파 등 선정 [시그...",
+          "summary": "대형 사모펀드(PEF) 운용사와 우리벤처파트너스·한국투자파트너스 등 벤처캐피털(VC)이 선정됐다. 13일... 최종 선정 운용사는 목표 결성액 이상으로 민간 자금을 모집해 펀드를 결성할 수 있다. 국민성장펀드...",
+          "url": "https://www.sedaily.com/article/20067127",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T17:36:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "5000억",
+          "title": "[마켓인]국민성장펀드 2차 GP 확정…5000억 스케일업펀드 스틱 품으로",
+          "summary": "초과 결성 한도인 하드캡도 적용되지 않아 민간 출자자(LP) 모집 결과에 따라 펀드 규모가 5000억원을... 도미누스는 중형 리그 숏리스트 가운데 유일한 사모펀드(PEF) 운용사로, VC 4곳과 경쟁해 최종 GP 자리를 따냈다. AI...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04368966645514192",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T17:55:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": null,
+          "title": "스틱, 국민성장펀드 굴린다",
+          "summary": "5천억 스케일업 운용사 선정 스틱인베스트먼트가 '단군 이래 최대 펀드'로 평가받는 국민성장펀드 2차... 운용사가 출자금을 받기 위해 발품을 팔아야 하는 분위기와 달리 최근에는 기관(LP)들이 앞다퉈 GP들에 자금을...",
+          "url": "https://www.mk.co.kr/article/12097507",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T20:41:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": null,
+          "title": "'PE업계 맏형' 스틱, 국민성장펀드 최대어 따냈다…메가펀드 시동 [fn마...",
+          "summary": "2차 출자사업의 최종 GP 선정을 마무리하고 개별 통보를 완료했다. 이번 출자사업은 중형, 스케일업... 최근 대형 정책펀드와 기관 출자사업에서 잇달아 존재감을 키우고 있는 스틱은 국내 PE '맏형' 운용사로서 대형...",
+          "url": "http://www.fnnews.com/news/202607132036444717",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-07-15",
+          "published_at": "2026-07-15T08:16:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "[150조 국민성장펀드] [간접투자 2차] 메자닌 1인자 정도현…헤비급 감...",
+          "summary": "대형 사모펀드(PEF) 운용사들이 대거 고배를 마신 가운데 도미누스는 사모펀드 하우스 중에서 유일하게... 중형 리그는 운용사별로 2000억원에서 4000억원 안팎의 중형 자펀드를 결성하는 분야다. 제안서 접수 당시...",
+          "url": "https://dealsite.co.kr/articles/165291",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-07-15",
+          "published_at": "2026-07-15T08:22:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "150조",
+          "title": "[150조 국민성장펀드] [간접투자 2차] 스틱 스케일업 최종 낙점…1조 펀...",
+          "summary": "업고 펀드레이징 시동 스틱인베스트먼트가 국민성장펀드 간접투자 분야 2차 출자사업에서 펀드 결성 규모가... 조 파트너는 한국교직원공제회에서 16년간 사모펀드(PEF) 등 대규모 자금 운용을 책임졌던 인물로...",
+          "url": "https://dealsite.co.kr/articles/165262",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-07-16",
+          "published_at": "2026-07-16T10:23:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": null,
+          "title": "‘대체투자 큰손’ PEF 출자 재개…하반기 펀드레이징 달아오른다",
+          "summary": "주요 PEF 운용사와 VC들이 국민성장펀드 GP 선정에 사활을 건 것도 이런 배경 때문이다. 하반기 들어 대형 기관들이 대체투자 출자를 확대하며 PEF 운용사들은 한숨을 돌리고 있다. 업계 관계자는 “국민성장펀드를...",
+          "url": "https://www.hankyung.com/article/202607144735r",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-07-17",
+          "published_at": "2026-07-17T06:01:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": null,
+          "title": "하이브 ‘9배 대박’ 성적표, 두달 차로 인정받아... 펀딩 성공한 스틱...",
+          "summary": "사모펀드(PEF) 운용사 스틱인베스트먼트가 조 단위 신규 펀드 결성을 추진한다. 수출입은행 출자사업 위탁운용사(GP)로 선정되고도 줄곧 펀딩 난항을 겪었지만, 최근 국민성장펀드 간접투자 2차 GP로 선정되며 반전을...",
+          "url": "https://biz.chosun.com/stock/market_trend/2026/07/17/IU7ZPFZSBBCSJAOMWVJHHUZ7SE/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-07-17",
+          "published_at": "2026-07-17T06:42:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "국민성장펀드 출자길 열렸지만…선정 구경도 못한 하우스들 '속앓이'",
+          "summary": "이투데이=유한새 기자 | 올해 사모펀드(PEF) 업계 최대어로 꼽히는 국민성장펀드 간접투자 출자 사업이... 이에 따라 블라인드펀드 결성이 어려워진 운용사들은 딜 발생 시 프로젝트펀드로 눈을 돌려야 하지만 이마저도...",
+          "url": "https://www.etoday.co.kr/news/view/2604396",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-07-17",
+          "published_at": "2026-07-17T13:02:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "3500억원",
+          "title": "産銀에 국민연금까지…돈벼락 맞은 에이티넘",
+          "summary": "두 기관에서만 최대 3500억원의 출자를 받게 된다. 펀드레이징은 국민성장펀드 GP 선정 직후부터 급물살을 탔다. 국민성장펀드에 적용되는 위험가중자산(RWA) 특례와 생산적 금융 확대 기조가 맞물리면서 시중은행과...",
+          "url": "https://dealsite.co.kr/articles/165248",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-07-19",
+          "published_at": "2026-07-19T18:40:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": null,
+          "title": "박터진 국민성장펀드 쟁탈전 끝…'수익성 저하' 우려도 [PE는 지금]",
+          "summary": "올해 국민성장펀드 운용사(GP) 선정 작업이 1·2차 출자사업으로 마무리되면서 사모펀드(PEF) 업계의 희비도... IB업계 관계자는 \"민간 블라인드펀드를 만들 때 펀드 결성 가능성이 가장 중요한데, 국민성장펀드는 선정만...",
+          "url": "https://view.asiae.co.kr/article/2026071611025083100",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-07-20",
+          "published_at": "2026-07-20T06:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1000억 원",
+          "title": "2027년 전고체 양산 임박… K-배터리 골든타임",
+          "summary": "핵심 소재 공급망의 국산화를 위해 2026년 2월, 국민성장펀드 기금운용심의회에서 전고체 소재 공장 구축 사업에 1000억 원 저리대출을 의결하기도 했다. 전고체 배터리 개발에 뛰어든 주요 기업들은 2027~2030년을 양산...",
+          "url": "https://magazine.hankyung.com/money/article/202606111084c",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-07-20",
+          "published_at": "2026-07-20T07:02:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "8000억",
+          "title": "[DQN] KB '정책매칭'·우리 '디노랩 연계'...5대 금융, 8000억 모펀드 출...",
+          "summary": "국민성장펀드를 비롯한 주요 정책 출자기관이 조성하는 펀드에 민간 매칭 자금을 공급하고, 세컨더리·지역·청년 등 목적별 펀드도 제한 없이 검토할 방침이다. 운용사 선정에서는 벤처캐피탈(VC)과 사모펀드(PE)를...",
+          "url": "https://www.fntimes.com/html/view.php?ud=2026071617172951071b5a221379_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-07-20",
+          "published_at": "2026-07-20T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[Invest]목에 힘주는 국민성장펀드 운용사…기본 2배 펀딩에 병행펀드 출...",
+          "summary": "국민성장펀드 관련 실적을 쌓아야 하는 민간 출자자(LP)들이 몸이 달았는데 선정된 GP들은 느긋한 분위기다.... 출자금을 한 푼이라도 더 모으기 위해 LP를 찾아다녔다. 하지만 이번에는 오히려 출자자를 선별하거나 기관...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/16/2026071680151.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-07-20",
+          "published_at": "2026-07-20T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8조",
+          "title": "[더벨][thebell League Table | 2026년 상반기] ICT 투자에 2.8조 몰렸다…...",
+          "summary": "리벨리온은 국민성장펀드 직접투자 1호 기업으로 선정돼 기금운용심의회 직접투자 2500억원과 산업은행 500억원, 미래에셋 등 민간 매칭 3000억원을 합쳐 6000억원을 수령했다. 정부가 국민성장펀드를 통해 직접...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607150819126360106375",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-07-21",
+          "published_at": "2026-07-21T07:32:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "150조",
+          "title": "[150조 국민성장펀드] 은행이 운용사 만나려 줄섰다…李 덕분에 甲乙 역...",
+          "summary": "포함한 기관투자가(LP)들이 국민성장펀드 위탁운용사(GP)로 선정된 벤처캐피탈과 사모펀드를 모시기 위해... 국민성장펀드 외에 다른 출자사업에서 GP로 선정된 운용사들도 민간에서 자금을 끌어와 최소결성금액을...",
+          "url": "https://dealsite.co.kr/articles/163310",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-07-21",
+          "published_at": "2026-07-21T19:40:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "30조",
+          "title": "“나락이 따로 없다” 믿기 힘든 ‘이 그래프’…답 안 나오는 코스닥 ...",
+          "summary": "정부는 국민성장펀드를 올해 30조원 이상 집행하고, 대형 투자은행(IB)의 모험자본 공급 의무를 통해 2028년까지 20조원 이상의 신규 모험자본도 공급하기로 했다. 개인투자자 중심의 코스닥 수급 구조를 연기금과...",
+          "url": "https://biz.heraldcorp.com/article/10814986",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-07-22",
+          "published_at": "2026-07-22T08:08:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": null,
+          "title": "[더벨][국민성장펀드 열전] 최대어 '스케일업' 품은 스틱, 27년 성장자본...",
+          "summary": "위탁운용사(GP)에 선정됐다. 스틱은 이번 출자사업의 '최대어'로 꼽혔던 스케일업 리그를 따내며 27년간... 이후 산업은행, 수출입은행, 한국정책금융공사, 성장금융, 아시아인프라투자은행(AIIB) 등 정책기관과 함께...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607200746119500104855",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-07-22",
+          "published_at": "2026-07-22T09:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2000억원",
+          "title": "[2026 상반기 VC 리그테이블] [하우스] 젊은피 박세근 내세운 아주IB…15...",
+          "summary": "이달 GP로 선정되면 사학연금 출자금을 국민성장펀드 자금과 매칭해 2000억원 규모의 펀드 결성에 속도를... 이 가운데 패션 B2B 플랫폼 신상마켓을 운영하는 딜리셔스는 기업공개(IPO)를 앞두고 있으며 이번 주 기관투자...",
+          "url": "https://dealsite.co.kr/articles/165464",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-07-22",
+          "published_at": "2026-07-22T18:48:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "1500억원",
+          "title": "K-컬처에 1500억원 출자… 밸류업 펀드 출격",
+          "summary": "정책자금 800억 투입… AI IP·콘텐츠 혁신 운용사 2곳 선정 예정 국민성장펀드를 운용하는 한국산업은행과 한국성장금융, 첨단전략산업기금 등이 'K-컬처 밸류업 펀드' 운용사 선정에 나선다. 22일 투자업계에 따르면...",
+          "url": "https://dealsite.co.kr/articles/165766",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-07-23",
+          "published_at": "2026-07-23T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2조",
+          "title": "[Invest]2조 세컨더리펀드도 예고편?…국민성장펀드가 부를 더 큰 '회수...",
+          "summary": "21일 금융투자업계에 따르면 금융당국과 금융투자협회는 증권사와 금융 유관기관이 참여하는 2조원 안팎의... 국민성장펀드가 출자한 자펀드에 우선적으로 매칭자금을 배정하는 분위기다. 국민성장펀드 GP로 선정된...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/22/2026072280154.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-07-23",
+          "published_at": "2026-07-23T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "8000억원",
+          "title": "[더벨][상장 VC 동전주 점검] 주가의 구조적 한계…포트폴리오에 ‘울고...",
+          "summary": "AUM이 크다는 것은 출자자 신뢰와 펀드레이징 역량을 바탕으로 대규모 투자와 후속 투자를 집행할 기반을... 퓨리오사AI 투자사도 비슷했다. 국민성장펀드의 퓨리오사AI 8000억원 투자 소식이 전해진 5월 29일...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607210812104260108531",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-07-23",
+          "published_at": "2026-07-23T17:49:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "국민성장펀드, LG디스플레이에 1.3조 저리 대출",
+          "summary": "23일 금융계에 따르면 금융위원회는 21일 국민성장펀드 투자심의위원회를 열고 이 같은 방안을 의결했다. 조만간 기금운용심의회를 열고 지원안을 확정할 예정이다. 이번 지원은 국내 산업이 OLED 분야에서 기술...",
+          "url": "https://www.sedaily.com/article/20071150",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-07-23",
+          "published_at": "2026-07-23T20:18:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "국민성장펀드, LG디스플레이에 1조원대 저리대출",
+          "summary": "23일 금융권에 따르면 금융위원회는 지난 21일 국민성장펀드 투자심의위원회를 개최해 이 같은 방안을 결정한 것으로 알려졌다. 다음 주 기금운용심의회를 거쳐 지원안이 최종 확정될 걸로 보인다. LG디스플레이는 이...",
+          "url": "https://www.yna.co.kr/view/AKR20260723190100002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-07-23",
+          "published_at": "2026-07-23T20:39:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "국민성장펀드, LG디스플레이에 1조원대 저리대출 추진…OLED 경쟁력 지원",
+          "summary": "23일 연합뉴스와 금융권에 따르면 금융위원회는 지난 21일 국민성장펀드 투자심의위원회를 열고 LG디스플레이에 1조원대 저리 대출을 지원하는 방안을 의결했다. 지원안은 다음 주 기금운용심의회를 거쳐 최종 확정될...",
+          "url": "https://view.asiae.co.kr/article/2026072320393699965",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-07-23",
+          "published_at": "2026-07-23T20:42:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "국민성장펀드, LG디스플레이에 1조원대 저리 대출 추진",
+          "summary": "23일 연합뉴스에 따르면 따르면 금융위원회는 21일 국민성장펀드 투자심의위원회를 열고 LG디스플레이에 1조원대 저리 대출을 제공하는 방안을 의결한 것으로 알려졌다. 지원안은 다음 주 열리는 기금운용심의회를...",
+          "url": "https://www.etoday.co.kr/news/view/2606882",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-07-23",
+          "published_at": "2026-07-23T20:50:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "국민성장펀드, LGD에 1조원대 저리 대출",
+          "summary": "(사진=금융위) 23일 금융권에 따르면 금융위원회는 지난 21일 국민성장펀드 투자심의위원회를 개최해 이 같은 방안을 결정한 것으로 알려졌다. 다음주 기금운용심의회를 거쳐 지원안을 최종 확정할 것으로 예상되고...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=06389446645517472",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-07-24",
+          "published_at": "2026-07-24T13:52:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[Invest]국민연금, 9월 블라인드펀드 출자 재개…'중형 리그' 부활 검토",
+          "summary": "국내 기관투자가 '큰손'인 국민연금공단이 지난해 중단했던 국내 사모펀드(PEF) 블라인드펀드 출자사업을... 국민성장펀드를 통해 주요 운용사들이 이미 펀드 결성을 상당 부분 마친 데다 신규 블라인드펀드를 조성 중인...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/24/2026072480095.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-07-25",
+          "published_at": "2026-07-25T06:02:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": null,
+          "title": "[인터뷰] 남두우 라이프운용 대표 “숨어있는 좋은 기업 찾아 성장시키...",
+          "summary": "이 같은 투자 철학은 최근 국민성장펀드 중형 GP 선정으로도 이어졌다. 남 대표는 “업력이 길지 않지만 첨단 산업 투자 역량과 트랙 레코드를 인정받은 결과라고 생각한다”며 “국민들이 출자한 자금을 운용하는 만큼...",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/07/25/TFU2JDDHQNFSTJLQCE5E6LEIG4/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-07-25",
+          "published_at": "2026-07-25T06:32:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "다음주 금융당국 일정",
+          "summary": "보이스피싱 피해예방 홍보도 함께 갑니다!(12:00) △30일(목) -국민성장펀드, 7월 기금운용심의회 개최 및 승인결과(배포시) -은행권 ETF 신탁 거래 관련 소비자경보 발령(12:00) -제약·바이오 공시, 투자자...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01813846645518128",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-07-25",
+          "published_at": "2026-07-25T08:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+          "summary": "(Beyond finance, into the future)\" 코리아 핀테크 위크 2026 개최 안내(30일 조간) *7월30일(목) ▲10:00 부위원장 차관회의 ※국민성장펀드, 7월 기금운용심의회 개최 및 승인결과(배포시) *7월31일(금) ▲10:00 위원장...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426803",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-07-25",
+          "published_at": "2026-07-25T17:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이번주 국내 주요 금융일정(7.27~7.31)",
+          "summary": "금융위원회, 국민성장펀드 7월 기금운용심의회 개최 및 승인결과(배포시) 한국은행, 2026년 7월 기업경기조사 결과 및 경제심리지수(6시) 금융감독원, 은행권 ETF 신탁 거래 관련 소비자경보 발령(12시) 금융감독원...",
+          "url": "https://www.newspim.com/news/view/20260724001100",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-07-26",
+          "published_at": "2026-07-26T17:18:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조 3000억",
+          "title": "산은·하나·농협 등 LGD에 2000억 추가대출",
+          "summary": "이번 공동대출은 국민성장펀드의 저리대출과 연계해 추진된다. 앞서 국민성장펀드는 LG디스플레이에 1조 3000억 원 규모의 저리대출을 지원하는 방안을 투자심의위원회에서 의결했다. 금융위원회는 조만간...",
+          "url": "https://www.sedaily.com/article/20071971",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-07-27",
+          "published_at": "2026-07-27T05:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[기자수첩] 초장기펀드가 놓친 '가장 오래 기다린 사람들'",
+          "summary": "국민성장펀드가 새로 내놓은 '초장기기술투자펀드(이하 초장기펀드)'의 존속기간이다. 반도체와 AI... 건당 수억원에서 수십억원 규모를 집행해 온 AC의 체급으로는 단독 운용이 버거운 규모인 것은 분명한 사실이다....",
+          "url": "https://www.mt.co.kr/future/2026/07/27/2026072601260938753",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-07-27",
+          "published_at": "2026-07-27T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+          "summary": "(Beyond finance, into the future)\" 코리아 핀테크 위크 2026 개최 안내(30일 조간) *7월30일(목) ▲10:00 부위원장 차관회의 ※국민성장펀드, 7월 기금운용심의회 개최 및 승인결과(배포시) *7월31일(금) ▲10:00 위원장...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426903",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-07-27",
+          "published_at": "2026-07-27T14:42:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "'실리콘밸리 자본까지' 모험자본 넘친다… 기업 몸값 인플레 우려도",
+          "summary": "규모의 국민성장펀드까지 본격 가동되면 국내 VC 생태계에는 정책자금과 민간 자금, 해외 투자자금이... 결국, 오버밸류 상태에서 집행된 투자는 펀드 수익률 저하로 이어질 공산이 크다. 펀드 만기 시점까지 적정 가격에...",
+          "url": "https://www.etoday.co.kr/news/view/2607806",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-07-28",
+          "published_at": "2026-07-28T11:26:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "코스닥 침체 언제까지…\"활성화 펀드 조성 필요\"",
+          "summary": "있어 대출 한도가 제한되는 등 만성적인 자금조달 문제다\"고 말했다. 이어 \"코스닥 기업의 특성상 위험감내... 국민성장펀드, 정책기관 및 연기금 출자를 통해 민간 투자의 마중물 역할을 수행하는 모(母)펀드를 조성하고...",
+          "url": "https://www.newsis.com/view/NISX20260728_0003726198",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-07-28",
+          "published_at": "2026-07-28T16:52:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "30조",
+          "title": "“코스닥에 30조원 풀자”…VC업계, 활성화 펀드 제안",
+          "summary": "국민성장펀드·정책기관·연기금 출자로 모(母)펀드를 만든 뒤 민간 자금을 매칭해 자(子)펀드를 결성하는 방식이다. 모펀드 운용은 산업은행이 맡고 자펀드는 기관전용 사모펀드(PEF) 운용사·자산운용사·신기술금융사...",
+          "url": "https://www.mk.co.kr/article/12109522",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-07-29",
+          "published_at": "2026-07-29T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200조",
+          "title": "케이스톤, 6호 펀드 소진 속도…내년 국민성장펀드 도전",
+          "summary": "연내 소진율 70~80% 요건 조기 충족 전망 200조원 규모 국민성장펀드 등으로 모험자본 시장이 커지고 있는 가운데 국내 사모펀드(PEF) 운용사 케이스톤파트너스가 빠른 자금 집행 행보를 보이고 있다. 올해 결성한 6호...",
+          "url": "https://dealsite.co.kr/articles/165402",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-07-29",
+          "published_at": "2026-07-29T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "16조",
+          "title": "[Invest]증시 쏠림 꺾이고 예금 16조 복귀…LP 출자 가뭄도 풀리나",
+          "summary": "하반기 집행 여력을 다시 계산하기 시작했다.상반기와 비교하면 자금 흐름의 변화는 뚜렷하다. 지난 1월... 은행이 일반 PEF에 지분성 자금을 출자하면 높은 위험가중치가 적용되지만 국민성장펀드 연계 투자에는...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/28/2026072880177.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-07-29",
+          "published_at": "2026-07-29T09:10:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2200억원",
+          "title": "엘앤에프, 美 코어셸과 LFP 양극재 공급계약…북미 공략 확대",
+          "summary": "엘앤에프의 LFP 생산 자회사 엘앤에프플러스는 최근 국민성장펀드의 2200억원 규모 장기·저리 정책대출 지원 대상으로 선정됐다. 회사는 올해 3분기 말 연산 3만톤(t) 규모로 초기 가동을 시작해 2027년 상반기까지 연산...",
+          "url": "https://www.etoday.co.kr/news/view/2608572",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-07-29",
+          "published_at": "2026-07-29T09:12:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2200억원",
+          "title": "엘앤에프, 美 코어셸과 LFP 양극재 공급계약…북미 공급망 공략 속도",
+          "summary": "한편 리튬인산철(LFP) 양극재 생산을 담당하는 자회사 엘앤에프플러스는 최근 국민성장펀드로부터 2200억원 규모의 장기·저리 정책대출 지원 대상으로 선정됐다. 해당 자금은 리튬인산철(LFP) 전용 양극재 공장 설비...",
+          "url": "https://view.asiae.co.kr/article/2026072909120259816",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-07-29",
+          "published_at": "2026-07-29T09:23:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2200억원",
+          "title": "엘앤에프, 美 코어셸과 LFP 공급계약…북미 방산 공급망 공략",
+          "summary": "한편 LFP 양극재 생산과 판매를 전담하는 자회사 엘앤에프플러스는 최근 국민성장펀드로부터 2200억원 규모의 장기·저리 정책대출 지원 대상으로 선정됐다. 해당 자금은 LFP 전용 양극재 공장 설비 투자에 투입되며...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03417766645519440",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-07-29",
+          "published_at": "2026-07-29T12:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8600억",
+          "title": "[2026 상반기 VC 리그테이블] [하우스] 8600억 펀드 70% 소진…에이티넘...",
+          "summary": "티켓 사이즈 키우고 메자닌 집중해 지낸해 실적 웃도는 1845억 소진…국민성장펀드·국민연금 지원 포석 국내 최대 8600억원 규모의 펀드를 만든 에이티넘인베스트먼트가 올해 상반기 1832억원의 투자를 집행해 지난해...",
+          "url": "https://dealsite.co.kr/articles/164544",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-07-29",
+          "published_at": "2026-07-29T18:08:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드, CJ CGV 신사업에 대규모 투자 추진",
+          "summary": "투자심의위원회와 기금운용심의회 등을 거쳐 구체적인 투자 조건을 확정할 계획이다. 정부 관계자는 “아직 초기 검토 단계로 투자 여부와 조건은 논의 중”이라고 말했다. 이번 투자가 확정되면 국민성장펀드...",
+          "url": "https://www.hankyung.com/article/2026072938601",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T05:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[오늘의 주요일정]금융·증권(7월30일 목요일)",
+          "summary": "국민성장펀드, 7월 기금운용심의회 개최 및 승인결과 ▲12:00 코너스톤투자자 등 도입 자본시장법 하위법규 개정안 입법예고 실시 &lt;금융감독원&gt; ▲12:00 은행권 ETF 신탁 거래 관련 소비자경보 발령 ▲12:00 제약...",
+          "url": "https://www.newsis.com/view/NISX20260729_0003728171",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[오늘 재경부 등 경제부처 일정]",
+          "summary": "차관회의 ※국민성장펀드, 7월 기금운용심의회 개최 및 승인결과(배포시) [금융감독원] ※은행권 ETF 신탁 거래 관련 소비자경보 발령(조간) ※제약·바이오 공시, 투자자 눈높이로 전면 개편 - \"꿈의 신약\"보다...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427648",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T08:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[LP Scope] 美인큐텔 벤치마크 한국형 방산투자사…최철훈 공격대형",
+          "summary": "방산 뿐만 아니라 국가 안보와 관련한 사이버·우주항공 등을 영위하는 스타트업에 자금을 집행할 예정이다. 일부 VC들은 이러한 정부 정책 방향에 적잖은 불만을 드러내는 것으로 전해졌다. 국민성장펀드 출자사업을...",
+          "url": "https://dealsite.co.kr/articles/166123",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T09:26:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[오늘의 채권ㆍ외환 메모] (07월30일)",
+          "summary": "차관회의 ※국민성장펀드, 7월 기금운용심의회 개최 및 승인결과(배포시) ◇금융감독원 ※은행권 ETF 신탁 거래 관련 소비자경보 발령(조간) ※제약·바이오 공시, 투자자 눈높이로 전면 개편...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427691",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T15:50:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "8조",
+          "title": "국민성장펀드, LG디스플레이 OLED·HBM 공급망에 1.8조 지원",
+          "summary": "한편 국민성장펀드는 이번 승인까지 포함해 올해 들어 총 24건, 16조3천억원 규모의 투자와 대출을 승인했다. 이 가운데 지방 비중은 42.4%를 기록했다. 국민성장펀드 초창기기술투자펀드 출자사업 공청회(서울...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427844",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T15:50:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조3500억",
+          "title": "국민성장펀드, LG디스플레이·테크윙에 1조3500억원 지원",
+          "summary": "금융위는 국민성장펀드가 올해 1~7월 직접투자, 간접투자, 인프라투융자, 저리대출 등을 통해 16조3000억원의 승인을 완료했다고 설명했다. 이 중 지방 비중은 42.4%로 집계됐다.",
+          "url": "https://www.etoday.co.kr/news/view/2609378",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T15:57:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "국민성장펀드, LG디스플레이 OLED 신기술 설비 1.3조 저리대출",
+          "summary": "국민성장펀드는 장기·저리대출 지원을 통해 기업이 단독으로 추진하기 어려운 대규모 설비투자를 뒷받침함으로써 우리나라의 주력 수출산업 중 하나인 디스플레이 기술의 글로벌 우위를 지속할 수 있는 기반을...",
+          "url": "https://www.news1.kr/finance/general-finance/6244406",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:02:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": "1조3500억",
+          "title": "국민성장펀드, LG디스플레이·테크윙에 1조3500억 저리대출 지원",
+          "summary": "LG디스플레이에는 1조3000억원, 테크윙에는 500억원의 저리대출이 각각 지원된다. LG디스플레이 지원은 지난 4월 국민성장펀드 전략위원회가 발표한 'OLED 초격차 확보' 메가프로젝트의 일환이며 테크윙 지원은 일반...",
+          "url": "https://www.newsis.com/view/NISX20260730_0003730290",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "국민성장펀드, LG디스플레이 1.3조 저리대출 의결…OLED 초격차 기술 투...",
+          "summary": "국민성장펀드의 초저리대출 지원을 받으면서 이자 비용을 크게 줄이며 차세대 기술 개발에 몰두할 수 있게 됐다. 또 반도체 장비사 테크윙에 대해서도 첨단전략산업기금 500억원 대출을 지원하는 안건도 이날...",
+          "url": "https://www.mk.co.kr/article/12112039",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:05:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[기고] 지방 소멸은 자본이 떠난 결과…투자하는 지방정부가 미래 바꾼...",
+          "summary": "지난 반세기 동안 우리의 성장전략은 중앙정부가 재정을 배분하고 지방정부는 이를 집행하는 구조였다.... 지역활성화투자펀드, 국민성장펀드와 같은 정책금융은 단순히 재정을 지원하는 제도가 아니다. 공공재정을...",
+          "url": "https://www.hankyung.com/article/2026073047801",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:07:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "국민성장펀드, LG디스플레이·테크윙에 1.3조 저리 대출 지원",
+          "summary": "저금리 대출을 지원한다. 금융위원회는 30일 국민성장펀드 기금운용심의회를 열고 디스플레이 산업의... 충남 천안에 HBM 전용 테스트 장비 생산 시설 증설을 추진 중인 테크윙에도 500억원의 저리 대출을 지원한다....",
+          "url": "https://biz.chosun.com/stock/finance/2026/07/30/J2JPXGJR7ZARRPI6OWV4FKH2TQ/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:12:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "국민성장펀드, LGD에 1.3조 지원…OLED 초격차 투자",
+          "summary": "금융위는 LG디스플레이에 1조3000억원 저리대출을 승인했다. 금융위원회는 30일 열린 국민성장펀드 기금운용심의회에서 LG디스플레이와 테크윙의 설비투자 사업 2건에 대한 자금지원을 승인했다고 밝혔다. 이번...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05556326645519768",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:14:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5조",
+          "title": "국민성장펀드, 'OLED 초격차' LG디스플레이에 1.5조 저리대출",
+          "summary": "HBM 공급망 강화 테크윙에도 500억원 저리대출 국민성장펀드가 디스플레이와 고대역폭메모리(HBM) 공급망 경쟁력 강화를 위한 대규모 설비 투자를 지원한다. 금융위원회는 30일 국민성장펀드 기금운용심의회에서...",
+          "url": "https://www.yna.co.kr/view/AKR20260730152400002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:16:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "LG디스플레이, 차세대 OLED에 3조 투자...국민성장펀드 1.5조 확보",
+          "summary": "규모의 투자를 본격화한다. LG디스플레이는 국민성장펀드 2차 메가프로젝트의 일환인 ‘OLED 초격차... 3조원 투자는 기술 초격차를 통해 OLED 기술 주권을 지키겠다는 의지”라며 “확보된 재원을 효율적으로 집행해...",
+          "url": "https://www.chosun.com/economy/tech_it/2026/07/30/CY4GTOSUWRCFLOSXZWI5YVAA4E/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:17:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조3500억",
+          "title": "국민성장펀드, LG디스플레이·테크윙에 1조3500억 저리대출 지원",
+          "summary": "국민성장펀드는 이 가운데 1조3000억원을 저리 대출로 지원한다. 나머지 투자금은 LG디스플레이의 자체 자금(1조5000억원)과 민간은행 대출(2000억원)을 통해 조달한다. 이번 투자를 통해 LG디스플레이는 저전력·고휘도...",
+          "url": "https://www.chosun.com/economy/economy_general/2026/07/30/NM7HXWSXGFDVLN7SENUJKJN2PI/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:20:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "5조",
+          "title": "국민성장펀드, LGD에 1.5조원 저리 대출…OLED 초격차 가속",
+          "summary": "LG디스플레이는 이번 선정을 통해 1조5000억원 규모의 장기·저금리 대출을 지원받게 됐다. 회사는 국민성장펀드 지원금과 자체 재원을 합친 총 3조원을 차세대 OLED 신기술 개발과 생산 인프라 구축에 투입할 예정이다....",
+          "url": "https://biz.heraldcorp.com/article/10826056",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:20:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "국민성장펀드, LG디스플레이 OLED 투자에 1.3조원 지원",
+          "summary": "com 서울 종로구 소재 금융위원회 내부 전경 [사진=연합뉴스] 국민성장펀드가 LG디스플레이의 차세대... 1조3000억원의 저리대출을 지원한다. LG디스플레이는 전체 투자금 가운데 1조5000억원을 자체 조달하고, 나머지...",
+          "url": "https://www.ajunews.com/view/20260730161509846",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:48:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "국민성장펀드, LG디스플레이 OLED 설비투자에 1.3조 대출",
+          "summary": "금융위원회는 30일 국민성장펀드 기금운용심의회가 디스플레이와 메모리반도체 공급망 경쟁력 강화를 위한 설비투자 사업 2건에 대한 지원을 승인했다고 밝혔다. 금융위는 지난 4월 2차 메가프로젝트로 'OLED...",
+          "url": "https://www.mt.co.kr/finance/2026/07/30/2026073016343084114",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T16:53:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "국민성장펀드, LGD에 1.3조 저리대출…OLED 초격차 지원",
+          "summary": "국민성장펀드가 LG디스플레이의 차세대 유기발광다이오드(OLED) 설비투자에 1조3000억원 규모의 저리대출을 지원한다. 금융위원회는 30일 열린 국민성장펀드 기금운용심의위원회에서 LG디스플레이와 테크윙에 대한...",
+          "url": "https://view.asiae.co.kr/article/2026073016532740401",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T17:04:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조5",
+          "title": "국민성장펀드, LG디스플레이 ‘OLED 고도화’ 사업에 1조5천억원 저리 대...",
+          "summary": "금융위원회는 30일 국민성장펀드 기금운용심의회를 열어 엘지디스플레이의 ‘유기발광다이오드 신기술 고도화 설비투자 사업’에 첨단전략산업기금 1조3천억원과 민간은행 대출 2천억원 등 모두 1조5천억원을...",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1270726.html",
+          "source_label": "한겨레"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T17:36:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조 5000억",
+          "title": "국민성장펀드, HBM 장비사 ‘테크윙’ 550억 대출",
+          "summary": "LG디스플레이의 유기발광다이오드(OLED) 신기술 설비 투자에도 저리대출 1조 5000억 원을 공급한다. 금융위원회는 30일 국민성장펀드 기금운용심의회를 통해 테크윙과 LG디스플레이 설비투자 2건에 대한 지원을...",
+          "url": "https://www.sedaily.com/article/20073968",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T17:42:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5조",
+          "title": "LGD, 1.5조 국민성장펀드 투자 받는다",
+          "summary": "국민성장펀드는 고대역폭메모리(HBM) 테스트 장비 제조업체 테크윙에도 500억원을 저리 대출한다. 테크윙은 HBM 생산 확대에 대응해 916억원 규모의 생산시설 증설을 추진하고 있다.",
+          "url": "https://www.hankyung.com/article/2026073063781",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T17:58:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": null,
+          "title": "[더벨][thebell desk] 국민성장펀드, 마중물은 흘러야 한다",
+          "summary": "국민성장펀드 위탁운용사 선정 결과가 나오자마자 시장에서는 이례적인 장면이 연출됐다. 통상 운용사(GP)가... 운용사 선정도 빠르게 마무리됐다. 여기에 연내 출자를 집행해야 하는 기관투자가들의 일정, 금융회사의...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607270924541440102290",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T18:08:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "LGD, 국민성장펀드 타고 3조 투자…OLED 기술 초격차 속도",
+          "summary": "선제적 투자로 기술 경쟁력을 다지겠다는 구상이다. LG디스플레이는 국민성장펀드 '2차 메가프로젝트'의... 투자가 집행되는 경기 파주 등 지역 사회의 고용 창출과 국내 소재·부품·장비 기업들과의 협력도...",
+          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092167005",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T18:50:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "국민성장펀드, LG디스플레이에 1.3조 저리대출",
+          "summary": "국민성장펀드의 장기·저리 대출을 통해 대규모 설비투자를 뒷받침해 디스플레이 기술의 글로벌 우위 지속 기반을 마련할 것으로 기대된다. 기금운용심의회는 충남 천안에 차세대 HBM 전용 테스트 장비 생산시설...",
+          "url": "http://www.fnnews.com/news/202607301843283927",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-07-30",
+          "published_at": "2026-07-30T18:53:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "35조",
+          "title": "국민성장펀드, LG디스플레이·테크윙에 1.35조 저리 대출…“HBM 경쟁력...",
+          "summary": "국민성장펀드가 고대역폭메모리(HBM) 공급망 활성화를 위해 LG디스플레이와 테크윙에 1조3500억원 규모의 저리 대출을 공급한다. 금융위원회는 30일 국민성장펀드 기금운용심의회에서 디스플레이 산업의 글로벌 초격차...",
+          "url": "https://biz.heraldcorp.com/article/10826247",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T07:48:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "1800억원",
+          "title": "[더벨]아크앤파트너스, 국민성장펀드 열풍 속 신규 펀드 조성 순항",
+          "summary": "국내외 LP와 추가 협의를 진행하면서 펀드 결성 작업은 순항하고 있다. 주요 기관 출자사업도 적극적으로... 산재보험기금은 PEF(사모펀드) 부문에서 3개 운용사에 총 1800억원을 출자할 계획이다. 총회연금재단은 PEF와 VC...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607291043536320105664",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T07:52:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "\"인센티브 15년 뒤에 받으라고?\" 초장기 VC펀드가 쏘아올린 고민 [VC는지...",
+          "summary": "\" 지난 20일 한국산업은행 본점 IR센터에서 열린 국민성장펀드 초장기기술투자펀드 공청회. 홍원호... 일반 정책펀드가 8~10년, 정책출자 비중이 20~40% 수준인 것과 비교하면 조건이 확연히 다르다. 다만 15년이라는 긴...",
+          "url": "https://view.asiae.co.kr/article/2026073014591932013",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "'한국판 국부펀드' KIC로 통합…8월 '한국투자공사법' 개정안 발의",
+          "summary": "투자대상은 △파급효과가 크고 잠재성장률을 높일 수 있는 전략산업(국민성장펀드 첨단산업, 소재·부품... 앵커투자자로서 해외 국부펀드, 글로벌 자산운용사들과 공동 투자도 가능하다. 공급망안정화기금 등과 협업해...",
+          "url": "https://www.mt.co.kr/economy/2026/07/31/2026073022473987374",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "20조",
+          "title": "'20조+α 전략형 국부펀드' 윤곽…公企 주식 활용해 'AI·반도체' 장기투...",
+          "summary": "배당을 투자재원으로 활용할 계획이다. 다만 국부펀드가 출범과 동시에 20조원을 현금으로 집행할 수 있는... 정책펀드 투자 공백 메우고 해외자본 유치 국부펀드가 국민성장펀드나 모태펀드 등 기존 정책펀드와 투자...",
+          "url": "https://www.ajunews.com/view/20260730142225412",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:30:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "20조",
+          "title": "20조 원+α '한국판 국부펀드' 내년 가동…AI·반도체 등 만기 없는 직접...",
+          "summary": "원을 출자해 초기자본금을 마련한다. 다만 20조 원 전체가 즉시 투자할 수 있는 현금은 아니다. 공공기관... 모태펀드와 국민성장펀드 등 기존 정책펀드가 청산할 때 유망기업의 지분을 인수하는 '이어달리기 투자'도...",
+          "url": "https://www.news1.kr/economy/trend/6244643",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:30:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "16조",
+          "title": "'한국판 국부펀드' 내년 가동…전략산업 초장기 투자",
+          "summary": "산업은행과 수출입은행 등 정부 보유 공공기관 주식 16조원 이상과 상속·증여세 물납주식 약 4조원이 출자된... 모태펀드나 국민성장펀드 등이 청산 단계에 들어가면 우수 기업을 선별해 후속 투자하는 '이어달리기...",
+          "url": "https://www.yna.co.kr/view/AKR20260730188400002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "16조",
+          "title": "산은 등 16조 끌어모아 6000억 실탄…20조 전략형 국부펀드, 관치 논란 ...",
+          "summary": "지분 투자를 집행하게 된다. 정부는 이번 펀드가 해외 자본 유치의 마중물이자 국가 핵심 기술의 해외... 국민성장펀드가 정책 목적의 간접투자와 융자에 무게를 둔다면 전략형 국부펀드는 수익성을 기반으로 한 초장기...",
+          "url": "https://view.asiae.co.kr/article/2026073107334543312",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:31:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "20조",
+          "title": "AI·방산·우주에 ‘초장기 투자’…20조+α 국부펀드 내년 출범",
+          "summary": "모태펀드·국민성장펀드 등 기존 정책펀드가 일정 기간 기업을 육성한 뒤 청산하면 지분을 넘겨받아 장기로... 현물출자한다. 국부펀드는 공공기관 경영권 행사가 아닌 배당수익을 목적으로만 해당 지분을 보유하기로...",
+          "url": "https://www.sedaily.com/article/20074151",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:31:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "20조",
+          "title": "한국판 ‘전략형 국부펀드’ 뜬다…KIC에 20조+α, 첨단산업 직접투자 나...",
+          "summary": "전략산업 투자 관심이 높아지고 있다는 점을 도입 배경으로 제시했다. 해외 국부펀드와 연기금 등이... 정부는 전략형 국부펀드가 국민성장펀드 등 기존 정책펀드와 상호 보완적으로 운영될 것이라고 밝혔다. 해외...",
+          "url": "https://biz.heraldcorp.com/article/10826390",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:32:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "20조",
+          "title": "한국형 국부펀드, 신설 대신 KIC 산하로…20조 규모 출범",
+          "summary": "재원은 정부 출자와 기부금, 운용수익 등으로 구성한다. 초기자본금은 정부가 보유한 공공기관 주식 중... 모태펀드·국민성장펀드 등 정책펀드들과 협업투자를 하고, 펀드 청산 시 우수기업을 선별해 이어달리기 투자를...",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1270808.html",
+          "source_label": "한겨레"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:32:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "20조",
+          "title": "'20조+α' 전략형 국부펀드 내년 출범…초기 투자실탄 6천억",
+          "summary": "공공기관 주식에 대한 가치평가 결과가 현재 추산보다 높게 나오거나 추가 출자가 이뤄질 경우 전체 펀드... 기존 모태펀드나 국민성장펀드와는 공동투자와 '이어달리기 투자'를 추진한다. 기존 정책펀드가 청산 과정에서...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427940",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T08:49:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "20조",
+          "title": "정부, 'K-국부펀드'로 전략적 투자 나선다…20조+α 규모",
+          "summary": "펀드 재원은 정부 출자금과 기부금, 운용수입 등으로 조성한다. 초기자본금은 산업은행, 수출입은행... 정부는 향후 국민성장펀드·모태펀드 등 국내 정책펀드, 해외 국부펀드·자산운용사 등 글로벌 투자자본 등과...",
+          "url": "https://www.newsis.com/view/NISX20260731_0003730789",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T09:12:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "20조",
+          "title": "20조 규모 ‘한국판 전략형 국부펀드’ 내년 출범…AI·반도체 등 투자",
+          "summary": "초장기 투자를 집행하는 20조 원 규모의 ‘한국판 전략형 국부펀드’를 내년 공식 출범시킨다. 정부는 31일... 또한 기존 모태펀드나 국민성장펀드가 만기 청산에 들어갈 경우 우수 기업을 이어받아 후속 투자하는...",
+          "url": "https://www.joongang.co.kr/article/25449772",
+          "source_label": "중앙일보"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T14:00:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "20조",
+          "title": "베일 벗은 국부펀드···초기자본금 20조원으로 전략산업 투자, 필요시...",
+          "summary": "4조원을 출자한다. 개인과 단체가 기부하는 현금·증권도 재원으로 활용되고 향후 미래대응기금이나 세수를... 국민성장펀드 등 정책펀드가 대출이나 보증 등의 투자 방식을 택한 것과 달리 국부펀드는 주식을 직접...",
+          "url": "https://www.khan.co.kr/article/202607311400021",
+          "source_label": "경향신문"
+        },
+        {
+          "date": "2026-07-31",
+          "published_at": "2026-07-31T14:54:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "5000억원",
+          "title": "한국형 국부펀드 뜬다...매년 6천억 신산업 투자",
+          "summary": "현물 출자해 마련한다. ▶ 관련기사 2026년 4월 7일자 A10면 공기업 출자에 따른 연간 배당금 약 5000억원과... 정부는 향후 국민성장펀드·모태펀드 등 국내 정책펀드, 해외 국부펀드·자산운용사 등 글로벌 투자자본 등과...",
+          "url": "https://www.mk.co.kr/article/12113361",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-01",
+          "published_at": "2026-08-01T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2000억원",
+          "title": "[베스트&워스트] 2분기 실적에 엇갈린 코스피⋯LG생건 15%↑ㆍGS건설 22%...",
+          "summary": "앞서 CJ 4D플렉스가 2000억원 규모의 외부 투자 유치를 추진 중이며, 이 중 일부를 국민성장펀드 첨단전략산업기금에서 조달하는 방안을 검토하고 있다는 보도가 나오면서 매수세가 집중됐다. 아모레퍼시픽은...",
+          "url": "https://www.etoday.co.kr/news/view/2609947",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T04:31:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억 원",
+          "title": "中 노광장비 자립, 美日도 소부장 증설… 韓은 자금줄 말라가",
+          "summary": "실제로 심텍은 생산 시설 확장을 위해 자금 조달을 모색하던 중 국민성장펀드를 통해 200억 원 규모의 저리 대출을 받았다. 국내 주요 반도체 장비 및 부품 기업 대표를 지냈던 한 전문가는 “지금과 같은 호황이 4...",
+          "url": "https://www.donga.com/news/Economy/article/all/20260803/134409679/2",
+          "source_label": "동아일보"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T05:22:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2000억원",
+          "title": "\"무리한 외형 확장보다 안정\"…파라투스 30대 운용역이 말하는 투자 원...",
+          "summary": "최근 파라투스는 국민성장펀드 GP로 선정되며 2000억원 규모 신규 블라인드펀드 결성에 속도를 내고 있다. 두 사람은 선정 비결로 '꾸준함'과 출자자(LP)와의 신뢰를 꼽았다. 이 차장은 \"우리가 다른 하우스보다 특별히...",
+          "url": "https://www.etoday.co.kr/news/view/2609250",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T09:06:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": "1조3000억",
+          "title": "[특징주] 테크윙, 국민성장펀드 금융 지원 소식에 2거래일 상승세",
+          "summary": "LG디스플레이에는 1조3000억원, 테크윙에는 500억원의 저리대출이 각각 지원된다. LG디스플레이 지원은 지난 4월 국민성장펀드 전략위원회가 발표한 'OLED 초격차 확보' 메가프로젝트의 일환이며 테크윙 지원은 일반...",
+          "url": "https://www.etoday.co.kr/news/view/2610232",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T09:08:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2200억원",
+          "title": "엘앤에프플러스, 국내 첫 LFP 양극재 시생산품 출하…3분기 양산 돌입",
+          "summary": "같은 달 국민성장펀드에서 2200억원 규모의 12년 장기·저리 대출도 확보했다. 회사는 설비 시운전과 공정 최적화를 마친 뒤 올해 3분기 말 연산 3만t(톤) 규모의 양산에 들어갈 계획이다. 생산능력은 2027년 상반기까지...",
+          "url": "https://www.etoday.co.kr/news/view/2610235",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T09:22:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": null,
+          "title": "국민성장펀드 이끈 산업銀, 5년 만에 경영평가 'S'…기업銀 'A' 회복",
+          "summary": "3일 금융권에 따르면 금융위원회 경영예산심의회는 지난달 10일과 22일 두 차례 회의를 열고 산업은행에... 산업은행은 국민성장펀드 부문을 신설해 펀드 운용 실무를 지원한다. 정부와 산업은행의 노력 끝에 '단군...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428246",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T09:25:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2200억 원",
+          "title": "엘앤에프플러스, 국내 첫 LFP 양극재 양산라인 시생산품 첫 출하",
+          "summary": "같은 달 국민성장펀드로부터 총 2200억 원 규모의 장기 저리 대출 지원을 받는다. 엘앤에프는 중국 외 지역의 LFP 양극재 공급망 확대 수요에 선제적으로 대응한다는 방침이다. 북미 에너지저장장치(ESS) 시장 확대와...",
+          "url": "https://www.sedaily.com/article/20074942",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T09:26:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억원",
+          "title": "엘앤에프플러스, 국내 최초 LFP양극재 양산라인 시제품 출하",
+          "summary": "같은 달 국민성장펀드로부터 총 2천200억원 규모의 12년 장기·저리 대출 지원을 확보해 양산체제 구축을 위한 기반도 마련했다. 엘앤에프플러스는 이번 시제품 첫 출하를 시작으로 고객사 평가와 추가적인 공정...",
+          "url": "https://www.yna.co.kr/view/AKR20260803035200003?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T09:27:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "1조6000억",
+          "title": "엘앤에프플러스 LFP 양극재 공장, 시제품 첫 출하…\"3분기말 양산\"",
+          "summary": "이 공장은 국민성장펀드로부터 총 2200억원 규모의 12년 장기 저리 대출 지원을 확보해 양산 체계 구축을 위한 기반을 마련했다. 엘앤에프는 앞서 올해 3월 삼성SDI와 약 1조6000억원 규모의 LFP 양극재 중장기 공급계약을...",
+          "url": "https://view.asiae.co.kr/article/2026080309270518272",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T09:48:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "2200억원",
+          "title": "엘앤에프플러스, 국내 첫 LFP 양극재 양산라인 시생산품 첫 출하",
+          "summary": "글로벌 시장에서의 입지를 지속적으로 확대해 나가겠다\"고 밝혔다. 한편 엘앤에프플러스는 지난 5월 열린 국민성장펀드 기금운용심의위원회에서 2200억원 규모의 장기·저리대출 지원 대상으로 최종 선정된 바 있다.",
+          "url": "https://www.ajunews.com/view/20260803092008161",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T10:08:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2200억원",
+          "title": "엘앤에프플러스, 국내 첫 LFP 양극재 양산라인 시생산품 첫 출하…“3분...",
+          "summary": "같은 달 국민성장펀드로부터 총 2200억원 규모의 12년 장기·저리 대출 지원을 확보하며 양산체제 구축을 위한 기반을 마련했다. 공장 준공 이후 엘앤에프플러스는 설비 시운전과 공정 조건 최적화, 생산 안정화 및...",
+          "url": "https://biz.heraldcorp.com/article/10828748",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T14:00:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "1160억 원",
+          "title": "'국가 AI 컴퓨팅센터' 첫 삽…2028년까지 GPU 1.5만장 구축",
+          "summary": "아울러 재원 마련을 위해 지난 4월 국민성장펀드 기금운용심의회 등에서 국가 AI 컴퓨팅센터 사업 추진을 위한 특수목적법인(SPC) 출자를 승인, 공공 1160억 원과 민간 2840억 원을 합친 총 4000억원 규모의 민·관...",
+          "url": "https://www.news1.kr/it-science/general-science/6247366",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T14:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "'AI 3대 강국' 위한 고속도로 착공… 28년까지 AI반도체 1.5만장 확보",
+          "summary": "아울러 공공의 마중물 투자를 바탕으로 민간 자본과 전문성을 결집하기 위해 과기정통부와 금융위원회 국민성장펀드, 삼성SDS 컨소시엄의 민관합작 출자를 바탕으로 지난 6월 특수목적법인(SPC)인 ‘한국AI컴퓨팅센터...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03430886645543712",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T14:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "‘국가 AI 컴퓨팅센터’ 구축 첫 삽…완공 전 AI 컴퓨팅 자원 조기 서비...",
+          "summary": "과기정통부와 금융위원회 국민성장펀드, 삼성SDS 컨소시엄의 민·관 합작 출자를 바탕으로 한국에이아이컴퓨팅센터 주식회사(코아크)가 6월 10일 설립됐다. 코아크는 국가 AI 컴퓨팅센터 구축·운영을 전담해 추진한다....",
+          "url": "https://www.etoday.co.kr/news/view/2610397",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T14:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국가 AI컴퓨팅센터 해남서 착공…AI반도체 1만5천장 구축",
+          "summary": "정부와 국민성장펀드, 민간 컨소시엄은 지난 6월 민관 합작법인 한국에이아이컴퓨팅센터(KOACC·코아크)를 설립했으며 코아크가 구축과 운영을 전담한다. 삼성SDS 컨소시엄은 지난해 10월 사업에 단독 응찰한 뒤...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428321",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T14:18:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "국가 AI 컴퓨팅센터 해남서 착공…AI 인프라 아시아 허브 구축",
+          "summary": "또 과기정통부와 금융위원회 국민성장펀드, 삼성SDS 컨소시엄의 민‧관 합작 출자를 바탕으로 한국에이아이컴퓨팅센터 주식회사(이하 코아크)를 올해 6월 설립했다. 공공의 마중물 투자를 바탕으로 민간의 자본과...",
+          "url": "https://www.ajunews.com/view/20260803070137878",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T14:20:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2조4000억",
+          "title": "해남 국가AI컴퓨팅센터 착공…일부 자원 내년 조기 공급",
+          "summary": "국가AI컴퓨팅센터 착공식을 열었다. 센터 구축과 운영은 코아크가 맡는다. 삼성SDS 컨소시엄과 금융위원회 국민성장펀드, 과기정통부가 민관 합작으로 출자해 세운 법인이다. 총사업비는 2조4000억 원이다. 연면적...",
+          "url": "https://www.sedaily.com/article/20075113",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T14:31:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "“아시아 AI 인프라 허브로 도약”…국가 AI 컴퓨팅센터 첫삽",
+          "summary": "과기정통부는 공공의 투자와 민간의 자본을 결집하기 위해 지난 6월 금융위원회 국민성장펀드, 삼성SDS 컨소시엄의 민·관 합작 출자를 바탕으로 한국AI컴퓨팅센터 주식회사(코아크, KOACC)를 설립했다. 코아크는...",
+          "url": "https://view.asiae.co.kr/article/2026080313080357696",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T15:15:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2200억 원",
+          "title": "엘앤에프플러스, 국내 첫 LFP 양극재 양산라인 시제품 출하",
+          "summary": "같은 달 국민성장펀드로부터 총 2200억 원 규모의 12년 장기·저리 대출 지원을 확보했다. 이후 설비 시운전과 공정 조건 최적화, 생산 안정화 등을 단계적으로 진행해 왔다. 신공장 준공과 시생산품 출하는 국내외...",
+          "url": "https://www.news1.kr/industry/general-industry/6247491",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T15:33:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": null,
+          "title": "국가 AI 컴퓨팅센터 첫 삽…'AI 고속도로' 구축 본격화(종합)",
+          "summary": "5만장 규모 컴퓨팅 인프라 구축 인공지능(AI) 인프라 확충의 핵심 사업인 국가 AI 컴퓨팅센터가 전남... 금융심사, 국민성장펀드 출자 승인 등 절차를 거쳐 최종 사업자로 선정됐다. 컨소시엄에는 삼성SDS를 비롯해...",
+          "url": "https://www.yna.co.kr/view/AKR20260803008051017?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T15:46:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국가AI컴퓨팅센터 ‘첫 삽’...배경훈 “아시아 AI 인프라 허브로 도약...",
+          "summary": "정부와 금융위원회 국민성장펀드, 삼성SDS 컨소시엄은 지난 6월 민관 합작 특수목적법인(SPC)인 코아크를 세웠고, 코아크가 센터 구축·운영을 전담한다. 향후 확보한 연산 자원은 스타트업·중소기업·대학·연구기관에...",
+          "url": "https://www.mk.co.kr/article/12115230",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T16:04:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "5조",
+          "title": "‘국가 AI 컴퓨팅센터’ 첫 삽…2.5조 투입해 최신 AI반도체 1.5만장 구축",
+          "summary": "센터 구축·운영을 전담하는 한국AI컴퓨팅센터(코아크)는 과기정통부와 금융위원회 국민성장펀드, 삼성SDS 컨소시엄의 민·관 합작 출자를 바탕으로 6월 10일 설립됐다. 코아크는 전력·용수를 확보하기 위해...",
+          "url": "https://www.etoday.co.kr/news/view/2610479",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T16:20:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "\"토큰 팩토리로 자리잡을 것\"…국가 AI컴퓨팅센터 첫 삽(종합)",
+          "summary": "과기정통부는 공공의 투자와 민간의 자본을 결집하기 위해 지난 6월 금융위원회 국민성장펀드, 삼성SDS 컨소시엄의 민·관 합작 출자를 바탕으로 한국AI컴퓨팅센터 주식회사(코아크, KOACC)를 설립했다. 코아크는...",
+          "url": "https://view.asiae.co.kr/article/2026080315565102630",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T16:32:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국가 AI컴퓨팅센터 해남서 착공…AI반도체 1만5천장 구축(종합)",
+          "summary": "정부와 국민성장펀드, 민간 컨소시엄은 지난 6월 민관 합작법인 한국에이아이컴퓨팅센터(KOACC·코아크)를 설립했으며 코아크가 구축과 운영을 전담한다. 삼성SDS 컨소시엄은 지난해 10월 사업에 단독 응찰한 뒤 기술...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428337",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T16:46:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2조 4000억",
+          "title": "해남서 국가AI컴퓨팅센터 첫 삽...정부·민간 2조 4000억 투입",
+          "summary": "과기정통부와 금융위 국민성장펀드, 삼성SDS 컨소시엄 출자를 바탕으로 민관 합작 특수목적법인(SPC)인 한국에이아이컴퓨팅센터(코아크·KOACC)가 올해 6월 설립됐다. 배경훈 장관은 기념사에서 \"오늘은 대한민국 AI...",
+          "url": "https://www.newspim.com/news/view/20260803001139",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T17:22:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "허허벌판에서 AI 허브로…해남 '국가 AI컴퓨팅센터' 착공 현장 가보니",
+          "summary": "데이터센터 파크. 국가 인공지능(AI) 컴퓨팅센터가 들어설 부지는 모래바람만 날리는 황무지였다.... 센터 구축과 운영은 과기정통부와 금융위 국민성장펀드, 삼성SDS 컨소시엄이 공동 출자해 만든 합작법인 '코아크'가...",
+          "url": "https://www.newsis.com/view/NISX20260803_0003734656",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T17:23:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "해남 ‘국가 AI컴퓨팅센터’ 첫삽…28년까지 GPU 1.5만장 [팩플]",
+          "summary": "센터 구축과 운영은 민·관 합작 법인인 한국에이아이컴퓨팅센터 주식회사 코아크(KOACC)가 전담한다. 과기정통부와 금융위원회 국민성장펀드, 삼성SDS 컨소시엄이 손잡고 지난 6월 설립한 회사다. 코아크는 한국전력에...",
+          "url": "https://www.joongang.co.kr/article/25450469",
+          "source_label": "중앙일보"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T17:34:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "GPU 1.5만개 품는 AI 컴퓨팅센터, 해남서 첫삽",
+          "summary": "삼성SDS 컨소시엄이 구축을 맡았으며 정부와 국민성장펀드, 민간이 공동 출자해 설립한 특수목적법인(SPC) ‘한국AI컴퓨팅센터(KOACC·코아크)’가 건설과 운영을 담당한다. 센터엔 2028년까지 그래픽처리장치(GPU)...",
+          "url": "https://www.hankyung.com/article/2026080323661",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T17:44:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "‘AI고속도로 핵심’ 국가 AI 컴퓨팅센터, 해남에 구축 첫 삽",
+          "summary": "이번 사업은 한국에이아이컴퓨팅센터 주식회사(KOACC·코아크)가 맡는다. 코아크는 민간 사업자로 선정된 삼성에스디에스(SDS) 컨소시엄과 과기정통부·금융위워원회 국민성장펀드가 공동 출자해 지난 6월 설립한...",
+          "url": "https://www.hani.co.kr/arti/economy/it/1271182.html",
+          "source_label": "한겨레"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T18:00:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "국내 생산량만큼 세금 깎아준다…정부, 한국판 IRA 추진[세제개편]",
+          "summary": "직접 출자하는 경우 법인세 세액공제율을 5%에서 7%로 상향 조정키로 했다. 자본시장 활성화 방안도... 이외에도 생산적 금융 활성화를 위해 창업·벤처기업, 국민성장펀드 관련 대출 등에 대해 금융회사의 대손충당금...",
+          "url": "https://www.newsis.com/view/NISX20260731_0003730864",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T18:04:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[세제개편] 생산적 ISA 배당 전액 비과세…주가누르기 평가기간 확장",
+          "summary": "창업·벤처기업과 국민성장펀드 관련 대출 등 생산적 영역에 대한 금융회사의 대손충당금 설정 한도도... 주식 현물출자 과세특례를 적용받아 취득한 지주회사 주식이 합병 과정에서 자기주식으로 전환·소각되는...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428351",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T18:20:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "\"글로벌 핵심 공급망으로\"… 국가 AI 컴퓨팅센터 해남에 첫 삽",
+          "summary": "정부는 공공의 마중물 투자와 민간 자본을 결합하기 위해 과기정통부와 금융위원회 국민성장펀드, 삼성SDS 컨소시엄이 공동 출자한 특수목적법인(SPC)인 한국에이아이컴퓨팅센터(코아크·KOACC)를 지난 6월 설립했다....",
+          "url": "http://www.fnnews.com/news/202608031819152693",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T19:28:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "5조",
+          "title": "2.5조원 '국가 AI 컴퓨팅센터' 착공… AI 반도체 1.5만장 2028년 구축",
+          "summary": "과기정통부와 금융위원회 국민성장펀드, 삼성SDS 컨소시엄은 민관 합작 출자를 바탕으로 지난 6월 사업 수행 법인 코아크를 설립했다. 코아크가 센터 구축과 운영을 전담하고, 삼성SDS는 컨소시엄 대표사로 사업...",
+          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092167195",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-03",
+          "published_at": "2026-08-03T20:34:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "해남 ‘국가 AI컴퓨팅센터’ 첫 삽",
+          "summary": "정부와 국민성장펀드, 삼성SDS 컨소시엄이 공동 출자해 지난 6월 설립한 ‘한국에이아이컴퓨팅센터’가 센터 구축·운영을 맡는다. 컨소시엄에는 삼성SDS를 비롯해 네이버클라우드·삼성물산·카카오·삼성전자·KT...",
+          "url": "https://www.khan.co.kr/article/202608032034005",
+          "source_label": "경향신문"
+        },
+        {
+          "date": "2026-08-04",
+          "published_at": "2026-08-04T00:09:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5조",
+          "title": "2.5조 대한민국 ‘AI 고속도로’ 첫삽…2028년 가동 목표",
+          "summary": "센터 구축과 운영은 민·관 합작 법인인 한국AI컴퓨팅센터(코아크·KOACC)가 전담한다. 과기정통부와 금융위원회 국민성장펀드, 삼성SDS 컨소시엄이 손잡고 지난 6월 설립한 회사다. 오태원 코아크...",
+          "url": "https://www.joongang.co.kr/article/25450542",
+          "source_label": "중앙일보"
+        },
+        {
+          "date": "2026-08-04",
+          "published_at": "2026-08-04T06:01:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "5조",
+          "title": "황무지 위에 첫 삽 뜬 韓 'AI 심장'…2.5조 프로젝트 출항[르포]",
+          "summary": "지난 4월 국민성장펀드 기금운용심의회 등에서 특수목적법인(SPC) 출자를 승인하면서 공공 1160억 원과 민간 2840억 원을 합친 총 4000억 원 규모의 민관 출자가 확정됐다. 이후 지난 6월 10일 한국AI컴퓨팅센터(코아크...",
+          "url": "https://www.news1.kr/it-science/internet-platform/6247849",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-08-04",
+          "published_at": "2026-08-04T06:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "[K바이오 펀드 上] 국민성장펀드에 1조 메가펀드까지… '데스벨리' 메우...",
+          "summary": "기대감에 머물던 지원은 실제 집행으로 이어지고 있다. 오리온그룹 계열사 리가켐바이오사이언스는 지난 6월 국민성장펀드 기금운용심의회에서 5000억원 규모의 직접투자를 승인받았다. 바이오 기업이...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01863046645544040",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-04",
+          "published_at": "2026-08-04T06:12:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1350억원",
+          "title": "[K바이오 펀드 下] 임상 3상 펀드 이끄는 황만순 대표 \"연내 첫 투자 목...",
+          "summary": "특화펀드의 투자 집행 시점을 이같이 전망했다. 보건복지부는 지난 27일 한국투자파트너스를 임상3상... 바이오 투자 명가…국민성장펀드도 운용 한국투자파트너스는 1350억원 규모의 '한국투자글로벌제약산업육성...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01974566645544040",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-04",
+          "published_at": "2026-08-04T13:39:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2조4000억",
+          "title": "“GPU 1만5000장 시대 열린다” 해남 AI센터 착공…취준생 기회 확대",
+          "summary": "해남 AI컴퓨팅센터 착공…GPU 1만5000장 인프라 구축 핵심 요약: 과기정통부와 코아크가 총사업비 2조4000억 원을 투입해 전남 해남 솔라시도에 국가AI컴퓨팅센터 착공식을 열었다. 삼성SDS 컨소시엄·국민성장펀드...",
+          "url": "https://www.sedaily.com/article/20075515",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-08-04",
+          "published_at": "2026-08-04T16:14:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200조",
+          "title": "\"2년 만에 두 배\"…디앤티 인수전이 뜨거웠던 이유는?[마켓인]",
+          "summary": "200조원 규모 국민성장펀드를 앞두고 사모펀드(PEF) 운용사들이 드라이파우더 소진과 회수 실적 확보에... 이음PE는 지난해 말 5000억원을 넘는 규모의 2호 단독 블라인드 펀드를 결성한 바 있다. 국민성장펀드는 정부가...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05398886645544040",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-04",
+          "published_at": "2026-08-04T19:06:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[하반기 업무보고]李 \"배달앱 수수료 항목 공개 등 중기부·공정위 조치...",
+          "summary": "95%가 집행될 정도로 수요가 많았다\"고 답했다. 이 대통령은 이어 \"소상공인 지원 대신 대출로 가계부채비율이... 금융위원회와 협업해 모태펀드가 AI와 딥테크 유망기업에 국민성장펀드의 후속 투자를 지원하는 이어달리기...",
+          "url": "https://view.asiae.co.kr/article/2026080419061582255",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-05",
+          "published_at": "2026-08-05T06:00:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": null,
+          "title": "\"3거래일 만에 21%↑\"…코스닥의 시간 오나",
+          "summary": "성장주 투자의 상대적 기회비용도 하락한다\"며 \"여기에 연기금 벤치마크의 코스닥 반영, 국민성장펀드 내... 코스닥 펀드 신설, BDC 시행과 특히 다음 달 출시될 코스닥 프리미엄 지수 등 정책도 실제 집행 단계로...",
+          "url": "https://www.newsis.com/view/NISX20260804_0003736352",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-08-05",
+          "published_at": "2026-08-05T08:46:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "4조",
+          "title": "6.4조 경제효과 ‘AI 컴퓨팅센터’ 품은 해남…명현관 군수가 소회한 비...",
+          "summary": "삼성SDS 컨소시엄이 구축을 맡았으며 정부와 국민성장펀드, 민간이 공동 출자해 설립한 특수목적법인(SPC) ‘한국AI컴퓨팅센터(KOACC·코아크)’가 건설과 운영을 담당한다. 민관 합작 컨소시엄으로 오는 2030년까지 2조...",
+          "url": "https://www.sedaily.com/article/20075831",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-08-06",
+          "published_at": "2026-08-06T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[Invest]국민성장펀드가 GP 먼저 쓸어갔다…연기금·공제회도 출자사업...",
+          "summary": "국민성장펀드가 정책자금과 민간 매칭자금을 앞세워 주요 사모펀드(PEF) 운용사(GP)의 펀드 결성을 예상보다 빠르게 마무리하면서 연기금과 공제회 등 기관투자가(LP)들의 하반기 출자 전략도 달라지고 있다. 과거에는...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/05/2026080580117.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-08-07",
+          "published_at": "2026-08-07T05:31:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "“코스닥 상관 없이 국민성장펀드 대박 계속될 것”",
+          "summary": "운용사(GP)들이 자금을 대는 캐피털, 저축은행, 증권사(LP)들 위에서 큰소리를 치는 상황이 벌어지고 있다는 말이 나온다. 보통 펀드 운용사들이 자금을 끌어모으기 위해 돈줄을 쥔 금융 기관을 찾아다니며 읍소하는 것이...",
+          "url": "https://www.chosun.com/economy/money/2026/08/07/DXVXRAXSCFFSTLCVVBXO2CYQPA/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-07",
+          "published_at": "2026-08-07T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[Invest]KIC 앞세운 국민성장펀드…'해외 국부펀드 앵커' 역할은 아직 물...",
+          "summary": "정부는 국민성장펀드·모태펀드가 청산하는 시점에 우수기업을 선별해 지분을 이어받는 '이어달리기 투자'로 차별화를 설명했다. 다만 국민성장펀드가 아직 집행 초기 단계인 점을 고려하면 최소 수년간 역할 중복...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/06/2026080680084.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-08-07",
+          "published_at": "2026-08-07T07:02:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": null,
+          "title": "[Invest]'심사보다 속도전'이 흔든 증시, 국민성장펀드라고 안전할까",
+          "summary": "반면 국민성장펀드가 투자한 기업의 사업성과 회수 가능성은 수년 뒤에야 판가름 난다. 당시 제시한... 지금의 집행 실적이 몇 년 뒤 더 늦고 더 큰 책임론으로 돌아올 수 있다는 우려가 커지는 이유다. [인베스트조선...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/06/2026080680083.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-08-07",
+          "published_at": "2026-08-07T12:08:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "3대 메가프로젝트 성공하려면 ‘3가지 질문’에 답 찾아야",
+          "summary": "또한 정부는 반도체 대호황이 가져다줄 추가세수를 기반으로 미래대응기금을 설립해 미래산업, 청년, 지방... 물론 국민성장펀드는 바이오와 2차전지 등 12개의 다양한 첨단전략산업이 투자대상이지만, 여전히 현 정부...",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1271885.html",
+          "source_label": "한겨레"
+        },
+        {
+          "date": "2026-08-09",
+          "published_at": "2026-08-09T18:06:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "6조4",
+          "title": "비상장 투자 6조4천억… 자금회수는 '안갯속'[IPO 시장 위축]",
+          "summary": "상반기만 6조4000억원이 집행된 비상장기업 투자가 반년도 안돼 회수 고민에 빠졌다. 국민성장펀드를 중심으로 올해 투자유치 규모는 지난해 연간 실적에 육박했지만, 증시 급락으로 밸류에이션이 낮아지며 기업공개...",
+          "url": "http://www.fnnews.com/news/202608091804499033",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-08-10",
+          "published_at": "2026-08-10T00:02:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": null,
+          "title": "김지원 아주IB투자 대표, 엠비디 등 IPO 채비·국민성장펀드 결성 [VC 202...",
+          "summary": "있게 투자를 집행하고자 한다\"라며 \"국내외 증시 변동성에 유연하게 대응하여 성공적인 포트폴리오 회수 통해 이익 극대화 예정\"이라고 말했다. 하반기 주요 계획이었던 국민성장펀드 결성도 마무리했다....",
+          "url": "https://www.fntimes.com/html/view.php?ud=202608072351085001dd55077bc2_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-08-10",
+          "published_at": "2026-08-10T00:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "생산적금융 시대…'중기특화 2.0' 역할론 [중기특화 증권사 제도 점검 (...",
+          "summary": "국민성장펀드 출범…“재정-민간 협업 중요성 커져” 9일 금융당국에 따르면, 정부가 추진 중인 생산적금융... 중소·벤처기업의 성장 단계별 모험자본 공급과 금융 지원을 지속해 왔다. 직접투자·출자, 채권 발행 지원...",
+          "url": "https://www.fntimes.com/html/view.php?ud=202608072313222933dd55077bc2_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-08-10",
+          "published_at": "2026-08-10T07:02:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2200억원",
+          "title": "[더벨][IR Briefing] 엘앤에프, 하반기 'NCM·LFP' 투트랙 성장 본격화",
+          "summary": "이 공장은 국민성장펀드로부터 총 2200억원 규모의 12년 장기·저리 대출 지원을 확보하며 양산체제 구축을 위한 기반을 마련했다. 엘앤에프플러스는 시제품 첫 출하를 시작으로 고객사 평가와 추가적인 공정 안정화...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608061653574240102036",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-08-10",
+          "published_at": "2026-08-10T15:04:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국책은행 3사 노조 뭉쳤다…지방이전 저지 공동투쟁",
+          "summary": "산업은행은 국민성장펀드와 첨단전략산업기금 등 첨단산업 지원을, 기업은행은 중소기업·소상공인 금융을, 수출입은행은 수출금융과 경제안보·금융외교, 외환시장 안정 기능을 맡고 있다. 이들 기관을 이전할 경우 관련...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03578486645546008",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-10",
+          "published_at": "2026-08-10T16:40:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국책은행 3사 노조 \"지방 이전 검토 중단하라\"… 11일 결의대회",
+          "summary": "또 산업은행이 국민성장펀드와 첨단전략산업기금 등을, 기업은행이 중소기업·소상공인 정책금융을, 수출입은행이 수출금융과 경제안보 지원을 각각 담당하고 있는 만큼 고도의 전문성과 네트워크가 필요한 정책금융...",
+          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092167729",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-10",
+          "published_at": "2026-08-10T18:09:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "금융 공공기관 노조 “지방 이전땐 첨단산업 지원생태계 흔들려”",
+          "summary": "그러면서 “산은은 국가적 명운이 달린 국민성장펀드와 첨단전략산업기금을 책임지고 있고 기업은행은 실물경제의 뿌리인 중소기업과 소상공인에 대한 정책금융을 최전선에서 담당하고 있다”며 “수은은 수출산업을...",
+          "url": "https://www.sedaily.com/article/20077786",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-08-11",
+          "published_at": "2026-08-11T08:54:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "\"CGV, 불확실성 속 체질개선 계속…특화관은 긍정적\"-삼성",
+          "summary": "보여주는 사례가 잇따르고 있다\"며 \"기술 특별관 콘텐츠 적용이 확대된 가운데, 자회사 CJ 4D플렉스가 국민성장펀드 첨단전략산업기금 등 외부 투자유치를 추진 중으로 알려져 관심이 높아질 전망\"이라고 밝혔다.",
+          "url": "https://www.mt.co.kr/stock/2026/08/11/2026081108243982388",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-08-11",
+          "published_at": "2026-08-11T09:08:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "“지방 가면 홍콩·도쿄랑 어떻게 경쟁하냐” 산은·기은·수은 노조 ‘...",
+          "summary": "특히 산업은행은 국민성장펀드와 첨단전략산업기금 등 대규모 정책금융을 맡고 있고, 기업은행은 중소기업·소상공인 금융을 담당하고 있다. 수출입은행 역시 수출기업 지원과 경제안보 관련 금융을 수행하고 있어...",
+          "url": "https://biz.heraldcorp.com/article/10836823",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-08-11",
+          "published_at": "2026-08-11T11:16:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "“지방 가면 홍콩·도쿄랑 어떻게 경쟁하나” …산은·기은·수은 노조...",
+          "summary": "산은은 국민성장펀드와 첨단전략산업기금 등 대규모 정책금융을 담당하고 있으며, 기은은 중소기업과 소상공인에 대한 금융 지원을 맡고 있다. 수은도 수출기업 지원과 경제안보 관련 금융을 수행하고 있어 각 기관별...",
+          "url": "https://biz.heraldcorp.com/article/10837201",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-08-11",
+          "published_at": "2026-08-11T21:27:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "산업·기업·수출입은행 노조 2000명 모였다…“지방 이전 결사반대”",
+          "summary": "산은은 국민성장펀드와 첨단전략산업기금 등 대규모 정책금융을 담당하고 있으며, 기은은 중소기업과 소상공인에 대한 금융 지원을 맡고 있다. 수은도 수출기업 지원과 경제안보 관련 금융을 수행하고 있다. 금융노조는...",
+          "url": "https://biz.heraldcorp.com/article/10837983",
+          "source_label": "헤럴드경제"
+        },
         {
           "date": "2026-08-12",
           "published_at": "2026-08-12T00:00:00+00:00",
@@ -24,11 +1674,397 @@
           "summary": "",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/08/12/2026081280088.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-08-12",
+          "published_at": "2026-08-12T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[Invest]쏟아지는 정책성 펀드…대기업들은 출자 부담에 고심",
+          "summary": "모태펀드가 맞춤형 사업을 설계해 기업 등 경험이 부족한 출자자의 참여를 유도한다.전남광주통합특별시에 첫 삽을 뜬 국가AI컴퓨팅센터 사업은 국민성장펀드와 삼성SDS 컨소시엄 등이 출자한 특수목적법인(SPC...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/11/2026081180057.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-08-12",
+          "published_at": "2026-08-12T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[현장] “정책금융 심장 쪼개지 말라”…산은·기은·수은 2000명 여의도...",
+          "summary": "산업은행은 국민성장펀드와 첨단전략산업기금 등을 통해 국가 전략·첨단산업을 지원하고, 기업은행은 중소기업·소상공인 금융을, 수출입은행은 수출금융과 경제안보·금융외교 등을 담당하고 있다. 3사 노조는...",
+          "url": "https://www.fntimes.com/html/view.php?ud=2026081119375892435e6e69892f_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T00:31:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "‘생산적 금융’에도… 1년간 대출증가 58%는 대기업몫",
+          "summary": "커질수록 은행은 자본을 더 쌓아야 해 대출 여력이 줄어든다. 금융당국은 생산적 금융 활성화를 위해 RWA 규제를 완화하고, 국민성장펀드에 참여하는 금융기관의 출자·융자 업무에 대해 고의·중과실 등을 제외하고...",
+          "url": "https://www.donga.com/news/Economy/article/all/20260812/134467911/2",
+          "source_label": "동아일보"
+        },
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T07:06:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "3000억",
+          "title": "[2026 상반기 VC 리그테이블] [하우스] SBI 3000억 실탄 장전…200억 결손...",
+          "summary": "SBI인베스트먼트가 보유한 미집행 약정액은 2507억원으로 전체 8위에 올랐다. 보유 AUM 순위보다 일곱 계단... 기존 드라이파우더 2507억원에 7월 결성한 430억원 펀드의 투자재원이 더해졌고, 국민성장펀드 지역...",
+          "url": "https://dealsite.co.kr/articles/167077",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T08:28:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2조9000억",
+          "title": "현대차 정몽구 재단, ‘AI 시대의 기후테크 혁신 포럼’ 개최",
+          "summary": "정부는 올해 기후대응기금 운용 규모를 역대 최대인 2조9000억원으로 늘렸고, 첨단전략산업에 5년간 150조원을 공급하는 국민성장펀드를 조성해 재정이 후순위로 손실을 우선 부담하는 방식으로 민간자본을 유인하고...",
+          "url": "https://biz.heraldcorp.com/article/10839564",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T08:30:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "9290억",
+          "title": "미래에셋벤처투자, 올해 주요 정책기관 출자로 9290억 펀드 결성 전망",
+          "summary": "업계 주요 정책 출자기관을 잇달아 확보했다는 점도 눈에 띈다. 미래에셋벤처투자는 산업은행이 운용하는 국민성장펀드를 비롯해 국민연금공단, 한국벤처투자, 한국성장금융의 출자사업에 모두 선정됐다. 업계에서는...",
+          "url": "https://view.asiae.co.kr/article/2026081308305562203",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T08:57:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2조9000억",
+          "title": "현대차 정몽구 재단, 제2회 'AI 시대의 기후테크 혁신 포럼' 개최",
+          "summary": "정부는 올해 기후대응기금 운용 규모를 역대 최대인 2조9000억원으로 늘렸고, 첨단전략산업에 5년간 150조원을 공급하는 국민성장펀드를 조성해 재정이 후순위로 손실을 우선 부담하는 방식으로 민간자본을 유인하고...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03781846645546992",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T09:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "기후테크에 150조 풀리는데…왜 기업은 여전히 돈이 없나",
+          "summary": "정부는 올해 기후대응기금 운용 규모를 역대 최대인 2조9000억 원으로 확대했다. 첨단전략산업에 5년간 150조 원을 공급하는 국민성장펀드도 조성해 재정이 후순위로 손실을 우선 부담하는 방식으로 민간자본의 참여를...",
+          "url": "https://futurechosun.com/?p=157467",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T11:03:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "4690억원",
+          "title": "미래에셋벤처투자, 올해 주요 정책기관들로부터 출자 아 펀드 결성규모...",
+          "summary": "미래에셋벤처투자(100790)가 올해 주요 정책기관의 출자 사업을 연이어 따내며 8월 누적으로 4690억원 규모의... 출자자인 산업은행(국민성장펀드), 국민연금공단, 한국벤처투자, 한국성장금융의 출자사업에 모두 선정...",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04490326645546992",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T11:40:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2조9000억",
+          "title": "“AI 시대, 기후테크 금융 해법 논의”…현대차 정몽구재단, 포럼 개최",
+          "summary": "정부는 올해 기후대응기금 운용 규모를 역대 최대인 2조9000억원으로 늘렸고, 첨단전략산업에 5년간 150조원을 공급하는 국민성장펀드를 통해 민간자본 유입을 유도하고 있다. 기후테크 특별법안 발의로 제도적 근거도...",
+          "url": "https://www.mk.co.kr/article/12126385",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T14:00:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "9000억원",
+          "title": "미래에셋벤처투자, 올해 정책기관 출자 펀드 '9000억원' 돌파 전망",
+          "summary": "미래에셋벤처투자가 올해 주요 정책기관의 출자 사업을 연이어 따내며 8월 누적 기준 4690억원 규모의 신규... 출자자인 산업은행(국민성장펀드), 국민연금공단, 한국벤처투자, 한국성장금융의 출자사업에 모두 선정돼...",
+          "url": "https://www.mt.co.kr/stock/2026/08/13/2026081308514192921",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-08-14",
+          "published_at": "2026-08-14T09:54:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "1조",
+          "title": "\"1조도 다 못 썼는데 5조라니\"…은행권, PF 확대 주문에 부담 커진다",
+          "summary": "금융당국이 부동산 프로젝트파이낸싱(PF) 시장 자금난 해소를 위해 신디케이트론(공동대출) 규모를... 이에 더해 기존 5년간 150조원에서 200조원 규모로 확대된 국민성장펀드 출자와 생산적 금융 전환 요구가...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430136",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-14",
+          "published_at": "2026-08-14T10:21:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": "18조",
+          "title": "産銀, AI·반도체 투자 위해 18조원 국가채무보증 요청",
+          "summary": "정부는 지난해 산업은행에 첨단전략산업기금을 신설하고 이에 매칭해 150조원 규모의 국민성장펀드를 출범했다. 국민성장펀드는 당초 연간 30조원, 5년간 150조원 규모로 운영할 계획이었지만 정부는 내년부터 이를 연간...",
+          "url": "https://biz.chosun.com/stock/finance/2026/08/14/VIWULGSVNJDLRPGJO4PRXLRTGA/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-14",
+          "published_at": "2026-08-14T10:43:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "265억",
+          "title": "세보엠이씨, 265억 규모 국가 AI 컴퓨팅센터 설비공사 수주",
+          "summary": "발주·운영은 과학기술정보통신부, 금융위 국민성장펀드, 지자체 등이 공동 출자해 설립한 특수목적법인 한국에이아이컴퓨팅센터가 전담한다. 삼성에스디에스 컨소시엄(삼성물산 포함)이 사업자로 선정돼 구축을...",
+          "url": "https://www.newsis.com/view/NISX20260814_0003749155",
+          "source_label": "뉴시스"
+        }
+      ]
+    },
+    {
+      "fund_name": "성장사다리펀드",
+      "current_stage_code": "gp_open",
+      "current_stage_label": "GP 모집",
+      "next_expected_event": "뷰티콘테스트 / GP 심사",
+      "first_seen": "2026-08-13",
+      "last_updated": "2026-08-13",
+      "event_count": 1,
+      "timeline": [
+        {
+          "date": "2026-08-13",
+          "published_at": "2026-08-13T14:40:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "250억 원",
+          "title": "성장금융, 성장사다리펀드2 3차년도 GP 10곳 확정",
+          "summary": "한국성장금융투자운용이 2026년 성장사다리펀드2 출자사업의 세 번째 위탁운용사(GP) 명단을 발표했다. 13일... 두 출자기관을 합쳐 자펀드당 250억 원을 출자한다. 선정 운용사는 500억 원 이상의 펀드를 조성해야 한다....",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430014",
+          "source_label": "연합인포맥스"
         }
       ]
     }
   ],
   "unmatched_titles": [
+    {
+      "date": "2026-07-15",
+      "title": "아크앤파트너스, ‘성장형 바이아웃’ 영토 확장…제조업서도 통할까",
+      "url": "https://www.donga.com/news/Economy/article/all/20260715/134302456/1",
+      "source_label": "동아일보"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "[마켓인] “15년 투자만은 부족”…초장기기술펀드, 회수·사업화 지원...",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03598166645516488",
+      "source_label": "이데일리"
+    },
+    {
+      "date": "2026-07-23",
+      "title": "[더벨][티에스인베 PEF 밸류업] '중소기업 M&A' 전략…1호 펀드 IRR 23.3%",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607201701149160107447",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-07-23",
+      "title": "[마켓인] ‘모태 신입’ 한컴, 비전벤처스와 맞손…관광 AI로 첫 GP 도전",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05579286645517472",
+      "source_label": "이데일리"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "[더벨][티에스인베 PEF 밸류업] 1600억 3호 펀드 결성…AI·로봇·방산 중...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607221536184440101286",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "[충정로에서] 벤처투자사 지방이전 성공 조건",
+      "url": "https://dealsite.co.kr/articles/165782",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-07-27",
+      "title": "은둔 깬 1세대 VC 새한창투, 첫 정책 펀드 굴린다…모태펀드 GP 낙점",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427067",
+      "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "[더벨][영상 | 2026년 상반기] 벤처펀드 50조 시대…VC 시장, 역대급 상반...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607280904425260108042",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "산은인프라, RE100 母펀드 운용사 선정…신한·이지스와 3파전 끝 낙점",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/07/28/46TX5YE4TBHYZGEE6SV5FT4NHE/",
+      "source_label": "조선일보"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "PEF협회 전환 셈법 분분…감시 우려 일부 이탈 기류",
+      "url": "https://dealsite.co.kr/articles/165831",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "[LP Scope] \"국민성장 탈락사에 기회\"…교공 PEF 5000억 출자",
+      "url": "https://dealsite.co.kr/articles/165990",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "5000억 실탄 모은다…코람코, 공무원연금 부동산펀드 연내 투자 '시동'",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=06028646645519440",
+      "source_label": "이데일리"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "핀테크혁신펀드 7차 GP에 서울대기술지주·원익투자 등 4곳",
+      "url": "https://dealsite.co.kr/articles/166209",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "사학연금, '백주현 CIO 체제' 첫 VC 출자…IMM인베 등 5곳 낙점 [fn마켓워...",
+      "url": "http://www.fnnews.com/news/202607311424144366",
+      "source_label": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "'20조+α' 국부펀드 뜬다…추가 세수도 투입 검토",
+      "url": "https://www.hankyung.com/article/2026073186041",
+      "source_label": "한국경제"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "국내 PE·VC 출자시장 '큰 장'…사학연금·군인공제회 4000억원 집행 [fn...",
+      "url": "http://www.fnnews.com/news/202607312003093695",
+      "source_label": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "대신증권, 현대코퍼레이션 VC와 첫 펀드 동맹…펀드레이징 돌입",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428323",
+      "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "[마켓인]사학연금도 꿰찼다…IMM인베, '7호' 펀드레이징 순항",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=06068006645544040",
+      "source_label": "이데일리"
+    },
+    {
+      "date": "2026-08-05",
+      "title": "[Invest]금융지주 벤처모펀드 본격화…\"VC 숨통 트여 vs \"특정 GP 쏠림\"",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/04/2026080480177.html",
+      "source_label": "인베스트조선"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "[더벨]케이엘앤, '굿리치 콜옵션 딜' 합류…베이사이드PE와 공동운용 추...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608040841469040109375",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "[더벨][창조경제혁신센터 점검] 정책 출자 강자 부상…'금수저 역차별'...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608050950359000109080",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "[더벨]SG PE, 성장금융 출자금 500억 확보…5호 펀드레이징 본궤도",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041851565920103157",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "'빅3 러브콜' KDB생명, 삼성·교보 불참했지만…3파전 '매각 청신호'(종...",
+      "url": "https://www.news1.kr/finance/insurance-card/6252786",
+      "source_label": "뉴스1"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "미래에셋증권, 고용보험기금 PE·VC 출자사업 개시…1천200억 배정",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4429250",
+      "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-09",
+      "title": "CPS 권고한 정부, RCPS 고수하는 VC…현장 '온도차' 이유는",
+      "url": "https://www.mt.co.kr/future/2026/08/10/2026080615152811144",
+      "source_label": "머니투데이"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "[2026 모태펀드] [1차] 모태 3관왕 일신창투…프랜차이즈 스타 김진국 첫...",
+      "url": "https://dealsite.co.kr/articles/166750",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "신한벤처, 모펀드 GP 11곳에 400억 매칭 출자",
+      "url": "https://dealsite.co.kr/articles/166934",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "고용보험기금 1200억 PEF·VC 출자사업 개시",
+      "url": "https://dealsite.co.kr/articles/166843",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "'애물단지' 보험사 매각 잇단 '흥행'…다음 타자는 '롯데손보'",
+      "url": "https://www.news1.kr/finance/insurance-card/6255948",
+      "source_label": "뉴스1"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "[더벨][LP Radar] 수출입은행, 첫 벤처펀드 출자…LP성장펀드 참여",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608100839242940106125",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "우리銀, 상반기 생산적 금융 16.3조 공급…AI·반도체 등 첨단전략산업...",
+      "url": "https://biz.heraldcorp.com/article/10838296",
+      "source_label": "헤럴드경제"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "[더벨]부산창투원, 2대 원장 공모…서종군 초대원장 재도전 촉각",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608110853346880106122",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "산은·국민연금까지 잇단 낙점…미래에셋벤처, 정책 LP '4관왕' [fn마켓워...",
+      "url": "http://www.fnnews.com/news/202608130826302388",
+      "source_label": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "보험사 없는 한국투자금융, KDB생명 품는다…우선협상대상자 선정",
+      "url": "https://www.news1.kr/finance/insurance-card/6258607",
+      "source_label": "뉴스1"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "한국금융지주, KDB생명 인수 우선협상대상자로 선정",
+      "url": "https://www.news1.kr/finance/general-stock/6258616",
+      "source_label": "뉴스1"
+    },
     {
       "date": "2026-08-14",
       "title": "정부 움직인다...수은, 우주항공 경쟁력 컨설팅 용역",
@@ -40,6 +2076,18 @@
       "title": "'수은-한화 협력' 과도기 체제 가능성은",
       "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608131455340200102623",
       "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "[더벨][현장 줌인] LP성장펀드 출범, 연기금·기업 벤처투자 대거 참여",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608131528465880107433",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "KDB생명 품는 한투…보험사 M&A 판도 바뀐다",
+      "url": "https://biz.heraldcorp.com/article/10841482",
+      "source_label": "헤럴드경제"
     }
   ]
 }
