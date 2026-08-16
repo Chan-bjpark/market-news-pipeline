@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T03:54:10.844140+00:00",
+  "generated_at": "2026-08-16T21:26:59.454842+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 205,
+  "total_policy_articles": 211,
   "matched_funds_count": 2,
-  "unmatched_count": 39,
+  "unmatched_count": 43,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-08-14",
-      "event_count": 165,
+      "last_updated": "2026-08-15",
+      "event_count": 167,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -1828,6 +1828,28 @@
           "summary": "발주·운영은 과학기술정보통신부, 금융위 국민성장펀드, 지자체 등이 공동 출자해 설립한 특수목적법인 한국에이아이컴퓨팅센터가 전담한다. 삼성에스디에스 컨소시엄(삼성물산 포함)이 사업자로 선정돼 구축을...",
           "url": "https://www.newsis.com/view/NISX20260814_0003749155",
           "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-08-15",
+          "published_at": "2026-08-15T06:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억",
+          "title": "\"잘 키운 스타트업 美에 뺏길라\"…EU판 국민성장펀드 첫 투자처는?",
+          "summary": "AI 보안기업 팬서(Panther) 등 스타트업을 잇달아 인수하며 M&A(인수합병)에도 적극적으로 나서고 있다. 데이터브릭스는 최근 20개월 동안 200억달러에 달하는 자금을 비상장 시장에서 조달했다. 알리 고드시...",
+          "url": "https://www.mt.co.kr/future/2026/08/15/2026081410330832777",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-08-15",
+          "published_at": "2026-08-15T07:08:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "싱가포르 벤처펀드 '대박 예감'…SV인베, 5개사 해외 상장 가능성",
+          "summary": "이 펀드는 SV인베스트먼트가 동남아 진출을 위해 2022년 최초로 결성했으며, 싱가포르 법인을 업무집행조... 국민성장펀드 1호 투자기업인 리벨리온도 펀드 포트폴리오 기업 중 하나다. 신경망처리장치(NPU) 기업인...",
+          "url": "https://view.asiae.co.kr/article/2026081414175782478",
+          "source_label": "아시아경제"
         }
       ]
     },
@@ -2088,6 +2110,30 @@
       "title": "KDB생명 품는 한투…보험사 M&A 판도 바뀐다",
       "url": "https://biz.heraldcorp.com/article/10841482",
       "source_label": "헤럴드경제"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "롯데손보, 2분기 영업익·순익 흑자전환⋯기본자본 개선",
+      "url": "https://www.etoday.co.kr/news/view/2614681",
+      "source_label": "이투데이"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "6번 퇴짜맞던 KDB생명 '반전'…1조 수혈에 새 주인 찾기 눈앞",
+      "url": "https://www.news1.kr/finance/insurance-card/6259176",
+      "source_label": "뉴스1"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "신보, 투자기업 649곳 가치 재평가⋯옥석 가려 ‘회수전략’ 마련",
+      "url": "https://www.etoday.co.kr/news/view/2614731",
+      "source_label": "이투데이"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "이도윤 전 노란우산 본부장, 연임으로 입증한 '조직관리 역량'",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608071003290600106715",
+      "source_label": "더벨"
     }
   ]
 }

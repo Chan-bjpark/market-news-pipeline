@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T03:54:11.376712+00:00",
+  "generated_at": "2026-08-16T21:27:00.306098+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-14T03:54:11.376680+00:00",
+    "sheet_synced_at": "2026-08-16T21:27:00.306074+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
@@ -515,6 +515,16 @@
           "status_label": "집행완료",
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607150819126360106375",
           "source": "더벨"
+        },
+        {
+          "date": "2026-08-15",
+          "event": "싱가포르 벤처펀드 '대박 예감'…SV인베, 5개사 해외 상장 가능성",
+          "methods": [],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://view.asiae.co.kr/article/2026081414175782478",
+          "source": "아시아경제"
         }
       ]
     },
@@ -2683,6 +2693,28 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "처는",
+      "sector": null,
+      "methods": [],
+      "amount": "200억",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "timeline": [
+        {
+          "date": "2026-08-15",
+          "event": "\"잘 키운 스타트업 美에 뺏길라\"…EU판 국민성장펀드 첫 투자처는?",
+          "methods": [],
+          "amount": "200억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.mt.co.kr/future/2026/08/15/2026081410330832777",
+          "source": "머니투데이"
+        }
+      ]
+    },
     {
       "company_name": "위해",
       "sector": null,
@@ -7349,6 +7381,6 @@
       "source": "연합인포맥스"
     }
   ],
-  "matched_articles_this_run": 165,
+  "matched_articles_this_run": 167,
   "confirmed_deals_count": 16
 }
