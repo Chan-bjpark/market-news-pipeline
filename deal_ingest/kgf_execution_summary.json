@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T21:27:00.306098+00:00",
+  "generated_at": "2026-08-17T21:31:37.875643+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-16T21:27:00.306074+00:00",
+    "sheet_synced_at": "2026-08-17T21:31:37.875613+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
