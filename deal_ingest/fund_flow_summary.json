@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-17T21:31:36.981306+00:00",
+  "generated_at": "2026-08-18T21:31:16.902034+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 211,
+  "total_policy_articles": 218,
   "matched_funds_count": 2,
-  "unmatched_count": 43,
+  "unmatched_count": 47,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-08-15",
-      "event_count": 167,
+      "last_updated": "2026-08-19",
+      "event_count": 170,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -1850,6 +1850,39 @@
           "summary": "이 펀드는 SV인베스트먼트가 동남아 진출을 위해 2022년 최초로 결성했으며, 싱가포르 법인을 업무집행조... 국민성장펀드 1호 투자기업인 리벨리온도 펀드 포트폴리오 기업 중 하나다. 신경망처리장치(NPU) 기업인...",
           "url": "https://view.asiae.co.kr/article/2026081414175782478",
           "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-18",
+          "published_at": "2026-08-18T11:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "임상수탁 기업들 상반기 외형 회복…수익성 '양극화'",
+          "summary": "정책펀드 조성·투자 확대…하반기 수주 기대감 업계에서는 하반기부터 국내 바이오 생태계에 대규모... 정부 주도의 K-바이오·백신 메가펀드 및 바이오 3상 펀드, 국민성장펀드 등 대형 펀드들의 자금 집행이...",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/08/18/0003",
+          "source_label": "비즈워치"
+        },
+        {
+          "date": "2026-08-18",
+          "published_at": "2026-08-18T12:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200조",
+          "title": "[금융공기관 지방이전]②'나눠먹기식' 지역 안배에 국가 금융경쟁력 흔...",
+          "summary": "산은은 산업 구조조정과 기업금융을 비롯해 200조원 규모의 국민성장펀드 등을 통해 첨단전략산업과 벤처... 국민연금이 보여준 이전 비용…우수 인력 이탈은 '진행형' 국민연금 기금운용본부의 전주 이전은 금융기관 지방...",
+          "url": "https://view.asiae.co.kr/article/2026081418071304471",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-19",
+          "published_at": "2026-08-19T05:00:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": "20조",
+          "title": "20조 ‘한국판 국부펀드’ 신설 법안 이달 윤곽…내년부터 1조 투자 전망...",
+          "summary": "본격적인 투자에 나선다는 계획이다. 당장 내년부터 집행되는 투자 규모는 최소 6000억 원에서 1조 원 이상에... 국민성장펀드·모태펀드 등 국내 정책펀드와 공동투자하고 해외 국부펀드와 글로벌 자산운용사 등과도...",
+          "url": "https://www.sedaily.com/article/20080642",
+          "source_label": "서울경제"
         }
       ]
     },
@@ -2134,6 +2167,30 @@
       "title": "이도윤 전 노란우산 본부장, 연임으로 입증한 '조직관리 역량'",
       "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608071003290600106715",
       "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "[더벨]S&S인베, 모태 청년펀드 800억까지 키운다",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608130907293780103357",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "[채권-마감] 약세 스티프닝…유가 급등 속 10년 입찰 소화",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430615",
+      "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "미래·삼성증권, 전기공사업체 신보 상장 주관사로 낙점",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608121800512800106262",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "06.국내주식 고점에 판 사학·공무원연금…국민연금과 달랐다",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430492",
+      "source_label": "연합인포맥스"
     }
   ]
 }
