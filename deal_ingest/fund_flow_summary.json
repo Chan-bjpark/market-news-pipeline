@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-18T21:31:16.902034+00:00",
+  "generated_at": "2026-08-19T21:32:08.266063+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 218,
+  "total_policy_articles": 221,
   "matched_funds_count": 2,
-  "unmatched_count": 47,
+  "unmatched_count": 48,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -12,7 +12,7 @@
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
       "last_updated": "2026-08-19",
-      "event_count": 170,
+      "event_count": 172,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -1883,6 +1883,28 @@
           "summary": "본격적인 투자에 나선다는 계획이다. 당장 내년부터 집행되는 투자 규모는 최소 6000억 원에서 1조 원 이상에... 국민성장펀드·모태펀드 등 국내 정책펀드와 공동투자하고 해외 국부펀드와 글로벌 자산운용사 등과도...",
           "url": "https://www.sedaily.com/article/20080642",
           "source_label": "서울경제"
+        },
+        {
+          "date": "2026-08-19",
+          "published_at": "2026-08-19T08:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[더벨][로보티즈 블록딜] 자회사 지원 보이콧한 이사회, 신사업 균형잡...",
+          "summary": "김 대표가 이번 자금활용 목적을 자회사 지원과 국민성장펀드 매칭투자(휴머노이드 본업) 참여로 밝힌 만큼... 추가적인 투자 집행이 이뤄진 것으로 파악된다. 지난달에는 액추에이터 생산 자동화 시너지를 목적으로...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608122319422000105181",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-08-19",
+          "published_at": "2026-08-19T18:56:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "\"기술 연결로 새로운 시장\" 제2회 상생포럼, 양자·반도체·로봇 딥테크...",
+          "summary": "이 가운데 양자컴퓨팅 스타트업 SDT는 지난 3월 엔비디아가 주도하는 양자-GPU 통합 생태계 ‘NVQLink’에... 대표적으로 국민성장펀드 투자를 받은 리벨리온과 퓨리오사AI가 초기 창업 당시 서울대 SIPC의 도움을...",
+          "url": "https://it.donga.com/109379/",
+          "source_label": "동아일보"
         }
       ]
     },
@@ -2191,6 +2213,12 @@
       "title": "06.국내주식 고점에 판 사학·공무원연금…국민연금과 달랐다",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430492",
       "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "의약품 유통 시장 108조…약은 넘치는데 약국엔 없다 [약의 길을 바꾸자...",
+      "url": "https://www.etoday.co.kr/news/view/2615984",
+      "source_label": "이투데이"
     }
   ]
 }

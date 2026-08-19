@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T21:31:17.873155+00:00",
+  "generated_at": "2026-08-19T21:32:09.205351+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-18T21:31:17.873116+00:00",
+    "sheet_synced_at": "2026-08-19T21:32:09.205314+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
@@ -525,6 +525,16 @@
           "status_label": "관련 동향",
           "url": "https://view.asiae.co.kr/article/2026081414175782478",
           "source": "아시아경제"
+        },
+        {
+          "date": "2026-08-19",
+          "event": "\"기술 연결로 새로운 시장\" 제2회 상생포럼, 양자·반도체·로봇 딥테크...",
+          "methods": [],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://it.donga.com/109379/",
+          "source": "동아일보"
         }
       ]
     },
@@ -7413,8 +7423,14 @@
       "title": "[금융공기관 지방이전]②'나눠먹기식' 지역 안배에 국가 금융경쟁력 흔...",
       "url": "https://view.asiae.co.kr/article/2026081418071304471",
       "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "[더벨][로보티즈 블록딜] 자회사 지원 보이콧한 이사회, 신사업 균형잡...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608122319422000105181",
+      "source": "더벨"
     }
   ],
-  "matched_articles_this_run": 170,
+  "matched_articles_this_run": 172,
   "confirmed_deals_count": 16
 }
