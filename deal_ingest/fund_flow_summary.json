@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-19T21:32:08.266063+00:00",
+  "generated_at": "2026-08-20T21:34:40.086005+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 221,
+  "total_policy_articles": 245,
   "matched_funds_count": 2,
-  "unmatched_count": 48,
+  "unmatched_count": 52,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-08-19",
-      "event_count": 172,
+      "last_updated": "2026-08-20",
+      "event_count": 192,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -1875,6 +1875,17 @@
         },
         {
           "date": "2026-08-19",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "'을' 찾아뵙는 '갑'…국민성장펀드 '출자 배정' 기다리는 LP들",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/19/2026081980080.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-08-19",
           "published_at": "2026-08-19T05:00:00+09:00",
           "stage_code": "planning",
           "stage_label": "조성 계획",
@@ -1905,6 +1916,215 @@
           "summary": "이 가운데 양자컴퓨팅 스타트업 SDT는 지난 3월 엔비디아가 주도하는 양자-GPU 통합 생태계 ‘NVQLink’에... 대표적으로 국민성장펀드 투자를 받은 리벨리온과 퓨리오사AI가 초기 창업 당시 서울대 SIPC의 도움을...",
           "url": "https://it.donga.com/109379/",
           "source_label": "동아일보"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T13:02:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "1조",
+          "title": "단기간에 1조 결성 예정…국민성장펀드로 '초대형 실탄' 장전[넥스트 스...",
+          "summary": "대표 사모펀드(PEF) 운용사 스틱인베스트먼트를 조명한다. 스틱인베스트먼트는 국민성장펀드 위탁운용사(GP)... 대형 PE 몰렸던 국민성장펀드 스케일업 리그 선정 10월 1조 펀드 결성 예정…그로쓰캐피탈 부문 운용...",
+          "url": "https://www.etoday.co.kr/news/view/2615737",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T14:06:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": null,
+          "title": "'멀티 본부' 시너지…PE·그로쓰캐피탈·크레딧 삼각편대 [넥스트 스틱]...",
+          "summary": "대표 사모펀드(PEF) 운용사 스틱인베스트먼트를 조명한다. 스틱인베스트먼트는 국민성장펀드 위탁운용사(GP)... 스틱AI기술혁신펀드를 결성해 딥테크 투자에 속도를 내고 있다. IB업계 관계자는 \"시장 국면이 바이아웃에...",
+          "url": "https://www.etoday.co.kr/news/view/2615743",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T14:26:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "800억",
+          "title": "'최대 16년' 초장기 기술투자펀드 띄운다…8천800억 규모",
+          "summary": "첨단전략산업기금 6천억원과 재정 800억원이 투입되고 나머지 약 2천억원은 민간이 부담한다. 기존 정책성... 하반기에는 산업은행법 시행령을 개정해 우주항공 등 첨단산업 분야도 국민성장펀드 투자 대상으로...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431011",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T14:40:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "금융위, 최대 16년 초장기펀드 조성…내년에도 새 펀드 출시",
+          "summary": "이르면 연말부터 실제 자금 집행과 투자를 시작할 계획이다. 금융위는 올해 운용 성과와 시장 수요를... 시행령’을 개정해 우주항공 등의 첨단산업 분야를 국민성장펀드 투자대상으로 확대할 계획”이라고 말했다.",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04273846645549288",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T14:48:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "8800억",
+          "title": "'최대 16년' 초장기기술펀드 8800억 가동…장기 인내자본 공급",
+          "summary": "접수 후 심사를 거쳐 10월까지 운용사를 최종 선정해 이르면 연말부터 자금 집행을 개시한다. 또 하반기 중 한국산업은행법 시행령을 개정해 우주항공 등의 첨단산업분야를 국민성장펀드의 투자대상으로 확대할 계획이다.",
+          "url": "https://www.news1.kr/finance/general-finance/6264433",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T15:02:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "8800억",
+          "title": "최대 16년 장기투자…8800억짜리 '초장기기술투자펀드' 조성한다",
+          "summary": "정부는 이르면 연말부터 자금 집행을 시작할 계획이다. 위탁운용사는 10월께 최종 선정할 예정이다. 아울러 국민성장펀드의 투자 대상도 단계적으로 확대한다. 하반기 중 한국산업은행법 시행령을 개정해 우주항공 등...",
+          "url": "https://www.ajunews.com/view/20260820145418970",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T15:08:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": null,
+          "title": "국민성장펀드, 16년 초장기기술투자펀드 시동⋯운용사 최대 7곳 뽑는다",
+          "summary": "초장기기술투자펀드는 국민성장펀드의 간접투자 프로그램으로, 상용화까지 오랜 시간이 걸리는 첨단기술... 3일 접수하고, 심사를 거쳐 10월까지 최종 운용사를 선정한다. 투자 집행은 이르면 연말부터 시작될 예정이다.",
+          "url": "https://www.etoday.co.kr/news/view/2616425",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T15:15:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "8800억원",
+          "title": "최대 16년 '초장기 기술투자펀드' 출범…8800억원 규모",
+          "summary": "제안서 접수는 다음 달 3일까지로, 오는 10월까지 운용사를 최종 선정해 이르면 연말 자금 집행을 시작한다.... 금융당국은 하반기 산업은행법 시행령을 개정해 우주항공 등 첨단산업 분야도 국민성장펀드 투자...",
+          "url": "https://www.newsis.com/view/NISX20260820_0003756183",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T15:38:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": null,
+          "title": "초장기기술투자펀드 운용사 선정 돌입…이르면 연말부터 투자",
+          "summary": "이후 이르면 연말부터 자금 집행이 시작된다. 총 7개 운용사를 선정한다. 다양한 유망기업을 발굴하기 위해... 초장기기술투자펀드는 국민성장펀드의 간접투자 방식의 하나다. 상용화까지 긴 시간이 걸리는 첨단기술...",
+          "url": "https://www.yna.co.kr/view/AKR20260820127200002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T15:40:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8800억",
+          "title": "우주항공·바이오 등에 최대 16년 투자…8800억 ‘인내자본’ 뜬다",
+          "summary": "불확실성이 높은 초장기 투자 특성상 재원 구조도 전체(8800억원)의 77% 가량인 6800억원을 첨단전략산업기금... 아울러 올해 하반기 중 한국산업은행 시행령을 개정해 우주항공 등 첨단산업 분야를 국민성장펀드의...",
+          "url": "https://www.mk.co.kr/article/12132326",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T16:21:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "초장기 기술투자펀드 운용사 10월 선정…이르면 연내 자금집행",
+          "summary": "이르면 연말부터 자금집행(투자)에 나서는 일정이다. 운용사는 초기단계 기술에 집중 투자하는 펀드 특성과... 분야를 국민성장펀드의 투자 대상으로 확대할 계획이다. 초장기 기술투자펀드는 첨단기술·원천기술...",
+          "url": "https://www.mt.co.kr/stock/2026/08/20/2026082014491612920",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T16:36:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "기술개발 기다려주는 ‘초장기 16년 펀드’ 첫발…흥행 성공할까",
+          "summary": "오는 10월까지 운용사 7곳을 선정하고 투자금을 모집한 뒤 이르면 올해 말부터 투자를 집행한다는 계획이다. 초장기기술투자펀드는 국민성장펀드의 간접투자 프로그램이다. 반도체와 바이오, 방산 등 첨단·원천기술을...",
+          "url": "https://www.hani.co.kr/arti/economy/finance/1273831.html",
+          "source_label": "한겨레"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T17:00:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "8800억원",
+          "title": "금융위, 초장기 기술투자펀드 운용사 선정 돌입",
+          "summary": "전체 재원 8800억원 가운데 6800억원(77%)을 첨단전략산업기금 6000억원과 재정 800억원으로 마련해 민간 자금... 하반기에는 산업은행법 시행령을 개정해 우주항공 등 첨단 산업으로 국민성장펀드의 투자 대상을 확대할...",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/08/20/QYLFGSUD7FF55GAXZULADI64KI/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T17:27:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "8800억",
+          "title": "8800억 규모 '초장기 기술투자펀드' 출범…16년 간 장기자본 공급",
+          "summary": "제안서 접수는 다음 달 3일까지로, 오는 10월까지 운용사를 최종 선정해 이르면 연말 자금 집행을 시작한다.... 금융당국은 하반기 산업은행법 시행령을 개정해 우주항공 등 첨단산업 분야도 국민성장펀드 투자...",
+          "url": "http://www.fnnews.com/news/202608201627485638",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T17:34:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8800억",
+          "title": "최대 16년 ‘인내자본’…8800억 초장기기술투자펀드 본격 조성",
+          "summary": "초장기기술투자펀드는 국민성장펀드의 간접투자 프로그램으로, 상용화에 긴 시간이 소요되는 첨단기술... 운용사 제안서 접수는 다음달 3일까지로, 오는 10월까지 운용사를 선정해 이르면 연말에 자금 집행을...",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/08/20/R3EKYWRWURGIXBOJT5WS5KPRWA/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T17:37:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3000억",
+          "title": "[단독] '로봇손' 원익로보틱스 3000억 유치 나선다…국민성장펀드도 투...",
+          "summary": "국민성장펀드의 투자 규모 등 구체적인 조건은 투자심의위원회와 기금운용심의회를 거쳐 정해질 전망이다. 정부 관계자는 “아직 검토 단계로 최종 투자 여부와 조건은 논의 중”이라고 말했다. 이번 투자는 범부처...",
+          "url": "https://www.hankyung.com/article/2026082029651",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T18:26:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "8800억",
+          "title": "산은·우리운용, 8800억 초장기기술투자펀드 공모",
+          "summary": "규모의 국민성장펀드(간접투자분야) 초장기기술투자펀드 위탁운용사(GP) 선정에 나선다. 20일 투자업계에... 이번 사업에는 재정모펀드 800억원과 첨단전략산업기금 6000억원 등 총 6800억원 규모의 정책출자금이...",
+          "url": "https://dealsite.co.kr/articles/167579",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T20:39:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8800억",
+          "title": "‘초장기기술투자펀드’ 올해 8800억 조성…40%가 AI·반도체 外 분야",
+          "summary": "투자 집행은 이르면 연말부터 시작될 예정이다. 초장기기술투자펀드는 국민성장펀드의 간접투자 프로그램으로 차세대 반도체와 첨단바이오 등 연구개발과 사업화에 장기간이 필요한 기술기업을 지원하기 위해...",
+          "url": "https://biz.heraldcorp.com/article/10847351",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-08-20",
+          "published_at": "2026-08-20T20:56:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8800억",
+          "title": "산은·우리운용, 딥테크에 8800억 쏜다…'15년 초장기펀드' 출격 [fn마켓...",
+          "summary": "국민성장펀드가 최대 15년간 첨단기술 기업에 투자하는 8800억원 규모의 '초장기 자금'을 푼다. 인공지능(AI)... 재정모펀드 800억원과 첨단전략산업기금 6000억원 등 정책자금 6800억원을 마중물로 최소 8800억원 규모의...",
+          "url": "http://www.fnnews.com/news/202608202051080938",
+          "source_label": "파이낸셜뉴스"
         }
       ]
     },
@@ -2216,9 +2436,21 @@
     },
     {
       "date": "2026-08-20",
+      "title": "산은, 세컨더리펀드 소형 분야 GP에 '컴퍼니케이' 선정",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/20/2026082080110.html",
+      "source_label": "인베스트조선"
+    },
+    {
+      "date": "2026-08-20",
       "title": "의약품 유통 시장 108조…약은 넘치는데 약국엔 없다 [약의 길을 바꾸자...",
       "url": "https://www.etoday.co.kr/news/view/2615984",
       "source_label": "이투데이"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "서울·인천서 맞붙는다…은행권, 시·구금고 쟁탈전 개막",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430914",
+      "source_label": "연합인포맥스"
     }
   ]
 }

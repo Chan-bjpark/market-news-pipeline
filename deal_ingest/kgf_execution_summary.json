@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T21:32:09.205351+00:00",
+  "generated_at": "2026-08-20T21:34:41.027723+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-19T21:32:09.205314+00:00",
+    "sheet_synced_at": "2026-08-20T21:34:41.027693+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
@@ -2704,6 +2704,192 @@
   ],
   "news_discovered": [
     {
+      "company_name": "인내자본",
+      "sector": null,
+      "methods": [],
+      "amount": "8800억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-08-20",
+      "timeline": [
+        {
+          "date": "2026-07-20",
+          "event": "정부, 8800억 규모 초장기 기술투자펀드 출시…15년 '인내자본' 공급",
+          "methods": [],
+          "amount": "8800억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://view.asiae.co.kr/article/2026072015135701124",
+          "source": "아시아경제"
+        },
+        {
+          "date": "2026-08-20",
+          "event": "우주항공·바이오 등에 최대 16년 투자…8800억 ‘인내자본’ 뜬다",
+          "methods": [],
+          "amount": "8800억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.mk.co.kr/article/12132326",
+          "source": "매일경제"
+        },
+        {
+          "date": "2026-08-20",
+          "event": "최대 16년 ‘인내자본’…8800억 초장기기술투자펀드 본격 조성",
+          "methods": [],
+          "amount": "8800억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/08/20/R3EKYWRWURGIXBOJT5WS5KPRWA/",
+          "source": "조선일보"
+        }
+      ]
+    },
+    {
+      "company_name": "초장기기술투자펀드",
+      "sector": null,
+      "methods": [],
+      "amount": "8800억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-08-20",
+      "timeline": [
+        {
+          "date": "2026-07-20",
+          "event": "국민성장펀드, 8800억원 규모 '초장기기술투자펀드' 신설…3분기 운용사...",
+          "methods": [],
+          "amount": "8800억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.ajunews.com/view/20260720144354876",
+          "source": "아주경제"
+        },
+        {
+          "date": "2026-07-20",
+          "event": "금융위, 15년 만기 '초장기기술투자펀드' 8천800억 조성…연내 투자 개시",
+          "methods": [],
+          "amount": "800억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4425815",
+          "source": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-20",
+          "event": "최대 16년 장기투자…8800억짜리 '초장기기술투자펀드' 조성한다",
+          "methods": [],
+          "amount": "8800억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.ajunews.com/view/20260820145418970",
+          "source": "아주경제"
+        },
+        {
+          "date": "2026-08-20",
+          "event": "‘초장기기술투자펀드’ 올해 8800억 조성…40%가 AI·반도체 外 분야",
+          "methods": [],
+          "amount": "8800억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://biz.heraldcorp.com/article/10847351",
+          "source": "헤럴드경제"
+        }
+      ]
+    },
+    {
+      "company_name": "단기간",
+      "sector": null,
+      "methods": [],
+      "amount": "1조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "timeline": [
+        {
+          "date": "2026-08-20",
+          "event": "단기간에 1조 결성 예정…국민성장펀드로 '초대형 실탄' 장전[넥스트 스...",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2615737",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "company_name": "로봇손",
+      "sector": null,
+      "methods": [],
+      "amount": "3000억",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "timeline": [
+        {
+          "date": "2026-08-20",
+          "event": "[단독] '로봇손' 원익로보틱스 3000억 유치 나선다…국민성장펀드도 투...",
+          "methods": [],
+          "amount": "3000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.hankyung.com/article/2026082029651",
+          "source": "한국경제"
+        }
+      ]
+    },
+    {
+      "company_name": "·우리운용",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "8800억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "timeline": [
+        {
+          "date": "2026-08-20",
+          "event": "산은·우리운용, 8800억 초장기기술투자펀드 공모",
+          "methods": [
+            "출자"
+          ],
+          "amount": "8800억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://dealsite.co.kr/articles/167579",
+          "source": "딜인사이트"
+        }
+      ]
+    },
+    {
+      "company_name": "딥테크",
+      "sector": null,
+      "methods": [],
+      "amount": "8800억원",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "timeline": [
+        {
+          "date": "2026-08-20",
+          "event": "산은·우리운용, 딥테크에 8800억 쏜다…'15년 초장기펀드' 출격 [fn마켓...",
+          "methods": [],
+          "amount": "8800억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "http://www.fnnews.com/news/202608202051080938",
+          "source": "파이낸셜뉴스"
+        }
+      ]
+    },
+    {
       "company_name": "전망",
       "sector": null,
       "methods": [],
@@ -3890,60 +4076,6 @@
           "status_label": "승인·확정",
           "url": "https://www.news1.kr/finance/general-finance/6232513",
           "source": "뉴스1"
-        }
-      ]
-    },
-    {
-      "company_name": "인내자본",
-      "sector": null,
-      "methods": [],
-      "amount": "8800억",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-07-20",
-      "last_seen": "2026-07-20",
-      "timeline": [
-        {
-          "date": "2026-07-20",
-          "event": "정부, 8800억 규모 초장기 기술투자펀드 출시…15년 '인내자본' 공급",
-          "methods": [],
-          "amount": "8800억",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://view.asiae.co.kr/article/2026072015135701124",
-          "source": "아시아경제"
-        }
-      ]
-    },
-    {
-      "company_name": "초장기기술투자펀드",
-      "sector": null,
-      "methods": [],
-      "amount": "8800억원",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-07-20",
-      "last_seen": "2026-07-20",
-      "timeline": [
-        {
-          "date": "2026-07-20",
-          "event": "국민성장펀드, 8800억원 규모 '초장기기술투자펀드' 신설…3분기 운용사...",
-          "methods": [],
-          "amount": "8800억원",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.ajunews.com/view/20260720144354876",
-          "source": "아주경제"
-        },
-        {
-          "date": "2026-07-20",
-          "event": "금융위, 15년 만기 '초장기기술투자펀드' 8천800억 조성…연내 투자 개시",
-          "methods": [],
-          "amount": "800억",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4425815",
-          "source": "연합인포맥스"
         }
       ]
     },
@@ -6885,24 +7017,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-07-02",
-      "title": "국민성장펀드 800억 지원 낙점한 LS전선...비결은?",
-      "url": "http://www.fntimes.com/html/view.php?ud=202607021428126863fa6b69a559_18",
-      "source": "한국금융신문"
-    },
-    {
-      "date": "2026-07-13",
-      "title": "국민성장펀드 2차 운용사에 스틱·도미누스·한투파 등 7곳 선정",
-      "url": "https://www.hankyung.com/article/202607131944r",
-      "source": "한국경제"
-    },
-    {
-      "date": "2026-07-13",
-      "title": "국민성장펀드 2차 GP에 스틱·도미누스·우리벤처·한투파 등 선정 [시그...",
-      "url": "https://www.sedaily.com/article/20067127",
-      "source": "서울경제"
-    },
-    {
       "date": "2026-07-13",
       "title": "[마켓인]국민성장펀드 2차 GP 확정…5000억 스케일업펀드 스틱 품으로",
       "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04368966645514192",
@@ -7426,11 +7540,83 @@
     },
     {
       "date": "2026-08-19",
+      "title": "'을' 찾아뵙는 '갑'…국민성장펀드 '출자 배정' 기다리는 LP들",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/19/2026081980080.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-08-19",
       "title": "[더벨][로보티즈 블록딜] 자회사 지원 보이콧한 이사회, 신사업 균형잡...",
       "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608122319422000105181",
       "source": "더벨"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "'멀티 본부' 시너지…PE·그로쓰캐피탈·크레딧 삼각편대 [넥스트 스틱]...",
+      "url": "https://www.etoday.co.kr/news/view/2615743",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "'최대 16년' 초장기 기술투자펀드 띄운다…8천800억 규모",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431011",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "금융위, 최대 16년 초장기펀드 조성…내년에도 새 펀드 출시",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04273846645549288",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "'최대 16년' 초장기기술펀드 8800억 가동…장기 인내자본 공급",
+      "url": "https://www.news1.kr/finance/general-finance/6264433",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "국민성장펀드, 16년 초장기기술투자펀드 시동⋯운용사 최대 7곳 뽑는다",
+      "url": "https://www.etoday.co.kr/news/view/2616425",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "최대 16년 '초장기 기술투자펀드' 출범…8800억원 규모",
+      "url": "https://www.newsis.com/view/NISX20260820_0003756183",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "초장기기술투자펀드 운용사 선정 돌입…이르면 연말부터 투자",
+      "url": "https://www.yna.co.kr/view/AKR20260820127200002?input=1195m",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "초장기 기술투자펀드 운용사 10월 선정…이르면 연내 자금집행",
+      "url": "https://www.mt.co.kr/stock/2026/08/20/2026082014491612920",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "기술개발 기다려주는 ‘초장기 16년 펀드’ 첫발…흥행 성공할까",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1273831.html",
+      "source": "한겨레"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "금융위, 초장기 기술투자펀드 운용사 선정 돌입",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/08/20/QYLFGSUD7FF55GAXZULADI64KI/",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "8800억 규모 '초장기 기술투자펀드' 출범…16년 간 장기자본 공급",
+      "url": "http://www.fnnews.com/news/202608201627485638",
+      "source": "파이낸셜뉴스"
     }
   ],
-  "matched_articles_this_run": 172,
+  "matched_articles_this_run": 192,
   "confirmed_deals_count": 16
 }
