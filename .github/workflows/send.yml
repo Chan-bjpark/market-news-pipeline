@@ -1,0 +1,31 @@
+name: send briefing
+
+# 07:00 KST weekdays = 22:00 UTC Sun-Thu. Reads morning-collected JSON and posts to Slack.
+on:
+  schedule:
+    - cron: "0 22 * * 0-4"
+  workflow_dispatch:
+
+concurrency:
+  group: send-briefing
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send briefing to Slack
+        working-directory: deal_ingest
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          BRIEFING_DIR: "."
+        run: python slack_briefing.py
