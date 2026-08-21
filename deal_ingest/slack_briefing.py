@@ -13,7 +13,7 @@ LLM·Cowork·승인·크롬 불필요 → 매 평일 100% 무인 발송.
 어떤 섹션이 비어도 나머지로 발송을 완료한다(부분 실패로 전체 중단 금지).
 """
 from __future__ import annotations
-import json, os, sys, urllib.request
+import json, os, re, sys, urllib.request
 from datetime import datetime, timezone, timedelta
 
 DIR = os.environ.get("BRIEFING_DIR", "deal_ingest")
@@ -68,6 +68,63 @@ def recent(articles, days=3):
     return out
 
 
+# ---------- 근접 중복(같은 사건·여러 매체) 제거 ----------
+_STOP = set("의장 대표 사장 회장 부회장 계열사 주식 장내 규모 관련 종목 시장 그룹 사업 최대 최소 신규 기존 이달 내년 올해 상반기 하반기 국내 해외 억원 조원 만주 지분 본격 동시 선택 선택지 새 각각 등".split())
+_THEME = set("hlb hlb그룹 금융위 금감원 기재부 재경부 정부 한국 미국 코스피 코스닥 증시".split())
+_GEN = set("결정 추진 검토 전망 예상 발표 계획 논의 나서 밝혀 관측 확대 강화 완화 시동 향방 출범 조성한다 한다 위해 관련해".split())
+_ACT = ["매수", "매도", "매각", "인수", "합병", "발행", "조성", "출시", "상장", "결성",
+        "공모", "증자", "유상증자", "무상증자", "배당", "공시", "모집", "인상", "인하",
+        "부도", "회생", "청산", "출자"]
+
+
+def _dw(t):
+    t = (t or "")
+    for e in ("&quot;", "&amp;", "&lt;", "&gt;", "&#39;"):
+        t = t.replace(e, "")
+    t = re.sub(r"[^0-9A-Za-z가-힣]", " ", t)
+    return [w.lower() for w in t.split() if w and not re.search(r"\d", w) and len(w) >= 2]
+
+
+def _ents(ws):
+    return [w for w in ws if w not in _STOP and w not in _THEME and w not in _GEN and w not in _ACT]
+
+
+def _acts(ws):
+    g = set()
+    for w in ws:
+        for a in _ACT:
+            if w.startswith(a):
+                g.add(a)
+    return g
+
+
+def _ematch(ea, eb):
+    m = []
+    for a in ea:
+        for b in eb:
+            if a == b or (min(len(a), len(b)) >= 4 and (a in b or b in a)):
+                m.append(min(a, b, key=len))
+    return m
+
+
+def _same_story(ta, tb):
+    wa, wb = _dw(ta), _dw(tb)
+    me = _ematch(_ents(wa), _ents(wb))
+    aa = _acts(set(wa)) & _acts(set(wb))
+    # 병합 조건: 공유 고유명 2개↑  OR  (공유 고유명 1개↑ AND 공유 행위 1개↑)  OR  긴 고유명(8자↑) 공유
+    return len(set(me)) >= 2 or (len(me) >= 1 and len(aa) >= 1) or any(len(x) >= 8 for x in me)
+
+
+def dedupe_stories(arts):
+    """같은 사건을 여러 매체가 쓴 근접중복을 사건당 1건(먼저 나온 것)으로 축약."""
+    kept = []
+    for a in arts:
+        if any(_same_story(a.get("title", ""), k.get("title", "")) for k in kept):
+            continue
+        kept.append(a)
+    return kept
+
+
 # ---------- 섹션 빌더 ----------
 def sec_rates(rate):
     items = rate.get("items", {}) or {}
@@ -115,6 +172,7 @@ def sec_global(articles):
             and any(k in (a.get("title", "")) for k in ("뉴욕", "글로벌", "S&P", "나스닥", "미 국채", "국제유가", "연준", "FOMC"))]
     if not hits:
         return "🌐 *[글로벌 시장]*\n특별한 뉴스없음"
+    hits = dedupe_stories(hits)
     L = ["🌐 *[글로벌 시장]*"]
     for a in hits[:4]:
         L.append(f"• {a.get('title','').strip()} <{a.get('url')}|{medialabel(a.get('url'), a.get('source_label'))}>")
@@ -126,6 +184,7 @@ def sec_policy(articles, fund):
     pol = [a for a in recent(articles, 3)
            if any(k in (a.get("title", "") + (a.get("summary") or ""))
                   for k in ("금융위", "금감원", "기재부", "정부", "규제", "법안", "시행", "세제"))]
+    pol = dedupe_stories(pol)
     seen = set(); n = 0
     for a in pol:
         if a.get("url") in seen:
@@ -185,6 +244,7 @@ def sec_hlb(articles):
         if ("코스피" in t or "코스닥" in t) and not any(n in t for n in names):
             continue
         seen.add(a.get("url")); rows.append(a)
+    rows = dedupe_stories(rows)
     if not rows:
         L.append("특별한 뉴스없음")
     else:
@@ -206,6 +266,7 @@ def sec_distress(articles):
             if a.get("url") in seen:
                 continue
             seen.add(a.get("url")); rows.append(a)
+    rows = dedupe_stories(rows)
     if not rows:
         L.append("특별한 뉴스없음")
     else:
@@ -220,20 +281,28 @@ def sec_deals(articles):
     label = {"M&A": "M&A", "PE": "PE동향", "fund_raise": "PE동향",
              "lp_commit": "기관출자", "cap_market": "자본시장", "other": "거버넌스"}
     L = ["🤝 *[딜·M&A]*"]
-    seen = set(); count = 0
     rc = recent(articles, 3)
+    # 1) 카테고리 우선순위 순으로 후보 수집(정확 URL 중복 제거)
+    cand = []; seen = set()
     for cat in order:
-        c = 0
         for a in rc:
-            if a.get("category") != cat:
-                continue
-            if a.get("url") in seen:
+            if a.get("category") != cat or a.get("url") in seen:
                 continue
             seen.add(a.get("url"))
-            L.append(f"[{label.get(cat)}] {a.get('title','').strip()} <{a.get('url')}|{medialabel(a.get('url'), a.get('source_label'))}>")
-            c += 1; count += 1
-            if c >= cap[cat]:
-                break
+            cand.append((cat, a))
+    # 2) 같은 사건(여러 매체) 근접중복 제거 — 전 카테고리 통합, 먼저 나온 것 유지
+    kept = []; kept_arts = []
+    for cat, a in cand:
+        if any(_same_story(a.get("title", ""), k.get("title", "")) for k in kept_arts):
+            continue
+        kept.append((cat, a)); kept_arts.append(a)
+    # 3) 카테고리별 상한·전체 상한 적용해 출력
+    cnt = {}; count = 0
+    for cat, a in kept:
+        if cnt.get(cat, 0) >= cap[cat]:
+            continue
+        L.append(f"[{label.get(cat)}] {a.get('title','').strip()} <{a.get('url')}|{medialabel(a.get('url'), a.get('source_label'))}>")
+        cnt[cat] = cnt.get(cat, 0) + 1; count += 1
         if count >= 15:
             break
     if count == 0:
