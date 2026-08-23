@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-20T21:34:40.086005+00:00",
+  "generated_at": "2026-08-23T21:27:50.721035+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 245,
+  "total_policy_articles": 258,
   "matched_funds_count": 2,
-  "unmatched_count": 52,
+  "unmatched_count": 59,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-08-20",
-      "event_count": 192,
+      "last_updated": "2026-08-24",
+      "event_count": 198,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -1919,6 +1919,17 @@
         },
         {
           "date": "2026-08-20",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "국민연금 vs 산은 최대출자자 누구?…국민성장펀드發 GP 규약 조율도 골머리",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/20/2026082080098.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-08-20",
           "published_at": "2026-08-20T13:02:00+09:00",
           "stage_code": "closed",
           "stage_label": "결성 완료",
@@ -2125,6 +2136,61 @@
           "summary": "국민성장펀드가 최대 15년간 첨단기술 기업에 투자하는 8800억원 규모의 '초장기 자금'을 푼다. 인공지능(AI)... 재정모펀드 800억원과 첨단전략산업기금 6000억원 등 정책자금 6800억원을 마중물로 최소 8800억원 규모의...",
           "url": "http://www.fnnews.com/news/202608202051080938",
           "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-08-22",
+          "published_at": "2026-08-22T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "다음주 금융당국 일정",
+          "summary": "(12:00) △27일(목) -2026년 상반기 여신전문금융회사 영업실적(잠정)(06:00) -2026년 상반기 보험회사 경영실적(잠정)(06:00) -FIU, 자금세탁방지 유관기관 협의회 개최(15:00) -국민성장펀드, 8월 기금 운용심의회 개최...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01718726645549944&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-22",
+          "published_at": "2026-08-22T08:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+          "summary": "(27일 조간) *8월27일(목) ※FIU, 자금세탁방지 유관기관 협의회 개최(15:00) ※국민성장펀드, 8월 기금 운용심의회 개최 및 승인 결과(배포시) *8월 28일(금) ▲10:00 부위원장 금융·건설업계 간담회(미정) ※금융위...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431315",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-22",
+          "published_at": "2026-08-22T17:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이번주 국내 주요 금융일정(8.24~8.28)",
+          "summary": "금융위원회, 국민성장펀드, 8월 기금 운용심의회 개최 및 승인 결과(배포시) 이찬진 금융감독원장, 금융소비자보호자문위원회(14시) 금융감독원, 2026년 상반기 여신전문금융회사 영업실적(잠정)(6시) 금융감독원...",
+          "url": "https://www.newspim.com/news/view/20260821000888",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-08-23",
+          "published_at": "2026-08-23T15:03:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2500억원",
+          "title": "엔비디아 젠슨 황, 리벨리온 박성현 만났다…기술협력 넘어 인수까지?",
+          "summary": "특히 국민성장펀드 직접투자 1호로 선정돼 첨단전략산업기금 2500억원과 산업은행 500억원 등 정책자금 3000억원을 유치했다. 향후 인수 논의가 현실화될 경우 기존 주주들과 함께 정부의 입장도 관심을 모을 것으로...",
+          "url": "https://www.mt.co.kr/tech/2026/08/23/2026082313424448962",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-08-24",
+          "published_at": "2026-08-24T04:33:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "[단독]혈세 투입 정책펀드 10개중 6개, 제대로 투자하는지 ‘깜깜이’",
+          "summary": "정부가 인공지능(AI) 등과 같이 첨단·전략산업 육성 등을 위해 세금을 투입한 정책펀드 10개 중 6개가... 150조 원 규모의 국민성장펀드가 출범하는 등 정책펀드를 통한 전략산업 육성에 나선 가운데 투자 실태에 대한...",
+          "url": "https://www.donga.com/news/Society/article/all/20260824/134528223/2",
+          "source_label": "동아일보"
         }
       ]
     },

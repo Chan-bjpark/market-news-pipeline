@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T21:34:41.027723+00:00",
+  "generated_at": "2026-08-23T21:27:51.509532+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-20T21:34:41.027693+00:00",
+    "sheet_synced_at": "2026-08-23T21:27:51.509504+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
@@ -535,6 +535,16 @@
           "status_label": "관련 동향",
           "url": "https://it.donga.com/109379/",
           "source": "동아일보"
+        },
+        {
+          "date": "2026-08-23",
+          "event": "엔비디아 젠슨 황, 리벨리온 박성현 만났다…기술협력 넘어 인수까지?",
+          "methods": [],
+          "amount": "3000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.mt.co.kr/tech/2026/08/23/2026082313424448962",
+          "source": "머니투데이"
         }
       ]
     },
@@ -7017,36 +7027,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-07-13",
-      "title": "[마켓인]국민성장펀드 2차 GP 확정…5000억 스케일업펀드 스틱 품으로",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04368966645514192",
-      "source": "이데일리"
-    },
-    {
-      "date": "2026-07-13",
-      "title": "'PE업계 맏형' 스틱, 국민성장펀드 최대어 따냈다…메가펀드 시동 [fn마...",
-      "url": "http://www.fnnews.com/news/202607132036444717",
-      "source": "파이낸셜뉴스"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "[150조 국민성장펀드] [간접투자 2차] 메자닌 1인자 정도현…헤비급 감...",
-      "url": "https://dealsite.co.kr/articles/165291",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "[150조 국민성장펀드] [간접투자 2차] 스틱 스케일업 최종 낙점…1조 펀...",
-      "url": "https://dealsite.co.kr/articles/165262",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "하이브 ‘9배 대박’ 성적표, 두달 차로 인정받아... 펀딩 성공한 스틱...",
-      "url": "https://biz.chosun.com/stock/market_trend/2026/07/17/IU7ZPFZSBBCSJAOMWVJHHUZ7SE/",
-      "source": "조선일보"
-    },
-    {
       "date": "2026-07-17",
       "title": "産銀에 국민연금까지…돈벼락 맞은 에이티넘",
       "url": "https://dealsite.co.kr/articles/165248",
@@ -7552,6 +7532,12 @@
     },
     {
       "date": "2026-08-20",
+      "title": "국민연금 vs 산은 최대출자자 누구?…국민성장펀드發 GP 규약 조율도 골머리",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/20/2026082080098.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-08-20",
       "title": "'멀티 본부' 시너지…PE·그로쓰캐피탈·크레딧 삼각편대 [넥스트 스틱]...",
       "url": "https://www.etoday.co.kr/news/view/2615743",
       "source": "이투데이"
@@ -7615,8 +7601,32 @@
       "title": "8800억 규모 '초장기 기술투자펀드' 출범…16년 간 장기자본 공급",
       "url": "http://www.fnnews.com/news/202608201627485638",
       "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "다음주 금융당국 일정",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01718726645549944&mediaCodeNo=257",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431315",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "이번주 국내 주요 금융일정(8.24~8.28)",
+      "url": "https://www.newspim.com/news/view/20260821000888",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "[단독]혈세 투입 정책펀드 10개중 6개, 제대로 투자하는지 ‘깜깜이’",
+      "url": "https://www.donga.com/news/Society/article/all/20260824/134528223/2",
+      "source": "동아일보"
     }
   ],
-  "matched_articles_this_run": 192,
+  "matched_articles_this_run": 198,
   "confirmed_deals_count": 16
 }
