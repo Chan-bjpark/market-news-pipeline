@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-23T21:27:50.721035+00:00",
+  "generated_at": "2026-08-24T21:36:09.015732+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 258,
+  "total_policy_articles": 265,
   "matched_funds_count": 2,
-  "unmatched_count": 59,
+  "unmatched_count": 61,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-08-24",
-      "event_count": 198,
+      "last_updated": "2026-08-25",
+      "event_count": 203,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -2191,6 +2191,61 @@
           "summary": "정부가 인공지능(AI) 등과 같이 첨단·전략산업 육성 등을 위해 세금을 투입한 정책펀드 10개 중 6개가... 150조 원 규모의 국민성장펀드가 출범하는 등 정책펀드를 통한 전략산업 육성에 나선 가운데 투자 실태에 대한...",
           "url": "https://www.donga.com/news/Society/article/all/20260824/134528223/2",
           "source_label": "동아일보"
+        },
+        {
+          "date": "2026-08-24",
+          "published_at": "2026-08-24T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+          "summary": "(27일 조간) *8월27일(목) ※FIU, 자금세탁방지 유관기관 협의회 개최(15:00) ※국민성장펀드, 8월 기금 운용심의회 개최 및 승인 결과(배포시) *8월 28일(금) ▲10:00 부위원장 금융·건설업계 간담회(미정) ※금융위...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431374",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-24",
+          "published_at": "2026-08-24T07:54:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "[대형VC 대해부]④\"10년의 신뢰, 23배의 결실\" 에이티넘인베, 1조 메가펀...",
+          "summary": "최근에는 국민성장펀드 간접투자 '생태계 전반·대형 리그'에서 VC 중 유일한 운용사(GP)로 선정되며 올해... 특히 최근 AI와 딥테크 분야를 중심으로 투자가 몰리면서 거품 논란이 일고 있는 점은 대형 자금을 집행해야...",
+          "url": "https://view.asiae.co.kr/article/2026082011425768833",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-24",
+          "published_at": "2026-08-24T08:18:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1000억",
+          "title": "[더벨]뤼튼테크놀로지스, 1000억대 시리즈C 투자 종결 임박",
+          "summary": "100억원가량을 집행했다. 이밖에 굿워터캐피탈과 앤틀러, Z벤처캐피탈, 캡스톤파트너스 등도 후속 투자에 참여했다. 뤼튼테크놀로지스는 앞서 국민성장펀드의 직접투자 유치도 추진했던 것으로 알려졌다. 그러나...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608200144508510102831",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-08-24",
+          "published_at": "2026-08-24T21:35:03.094319+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드 투자 양면…밸류에이션 거품 우려",
+          "summary": "",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608241434090040103352",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-08-25",
+          "published_at": "2026-08-25T06:01:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드 풍선효과... 코스닥 CB, 기본 무이자에 40% 할증 발행까지...",
+          "summary": "당시 투자도 코벤펀드를 통해 집행됐다. 자본시장 업계의 한 관계자는 “표면·만기이자 0%에 10~20% 수준의... 규모의 투자를 단행한다는 계획을 밝혔다. 국민성장펀드 자금의 일정 부분은 코스닥 기술특례상장사에 대한...",
+          "url": "https://biz.chosun.com/stock/market_trend/2026/08/25/VXSXGXU2ZVFOFFYRGSZOFEK33Q/",
+          "source_label": "조선일보"
         }
       ]
     },

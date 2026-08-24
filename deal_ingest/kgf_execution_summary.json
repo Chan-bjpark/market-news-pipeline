@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T21:27:51.509532+00:00",
+  "generated_at": "2026-08-24T21:36:10.028815+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-23T21:27:51.509504+00:00",
+    "sheet_synced_at": "2026-08-24T21:36:10.028780+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
@@ -2713,6 +2713,28 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "종결",
+      "sector": null,
+      "methods": [],
+      "amount": "1000억",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "timeline": [
+        {
+          "date": "2026-08-24",
+          "event": "[더벨]뤼튼테크놀로지스, 1000억대 시리즈C 투자 종결 임박",
+          "methods": [],
+          "amount": "1000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608200144508510102831",
+          "source": "더벨"
+        }
+      ]
+    },
     {
       "company_name": "인내자본",
       "sector": null,
@@ -7027,30 +7049,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-07-17",
-      "title": "産銀에 국민연금까지…돈벼락 맞은 에이티넘",
-      "url": "https://dealsite.co.kr/articles/165248",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-07-19",
-      "title": "박터진 국민성장펀드 쟁탈전 끝…'수익성 저하' 우려도 [PE는 지금]",
-      "url": "https://view.asiae.co.kr/article/2026071611025083100",
-      "source": "아시아경제"
-    },
-    {
-      "date": "2026-07-20",
-      "title": "2027년 전고체 양산 임박… K-배터리 골든타임",
-      "url": "https://magazine.hankyung.com/money/article/202606111084c",
-      "source": "한국경제"
-    },
-    {
-      "date": "2026-07-20",
-      "title": "[Invest]목에 힘주는 국민성장펀드 운용사…기본 2배 펀딩에 병행펀드 출...",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/07/16/2026071680151.html",
-      "source": "인베스트조선"
-    },
-    {
       "date": "2026-07-21",
       "title": "“나락이 따로 없다” 믿기 힘든 ‘이 그래프’…답 안 나오는 코스닥 ...",
       "url": "https://biz.heraldcorp.com/article/10814986",
@@ -7625,8 +7623,32 @@
       "title": "[단독]혈세 투입 정책펀드 10개중 6개, 제대로 투자하는지 ‘깜깜이’",
       "url": "https://www.donga.com/news/Society/article/all/20260824/134528223/2",
       "source": "동아일보"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431374",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "[대형VC 대해부]④\"10년의 신뢰, 23배의 결실\" 에이티넘인베, 1조 메가펀...",
+      "url": "https://view.asiae.co.kr/article/2026082011425768833",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "국민성장펀드 투자 양면…밸류에이션 거품 우려",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608241434090040103352",
+      "source": "더벨"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "국민성장펀드 풍선효과... 코스닥 CB, 기본 무이자에 40% 할증 발행까지...",
+      "url": "https://biz.chosun.com/stock/market_trend/2026/08/25/VXSXGXU2ZVFOFFYRGSZOFEK33Q/",
+      "source": "조선일보"
     }
   ],
-  "matched_articles_this_run": 198,
+  "matched_articles_this_run": 203,
   "confirmed_deals_count": 16
 }
