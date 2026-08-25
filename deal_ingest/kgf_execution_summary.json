@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T21:36:10.028815+00:00",
+  "generated_at": "2026-08-25T21:34:59.833533+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-24T21:36:10.028780+00:00",
+    "sheet_synced_at": "2026-08-25T21:34:59.833497+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
@@ -7049,36 +7049,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-07-21",
-      "title": "“나락이 따로 없다” 믿기 힘든 ‘이 그래프’…답 안 나오는 코스닥 ...",
-      "url": "https://biz.heraldcorp.com/article/10814986",
-      "source": "헤럴드경제"
-    },
-    {
-      "date": "2026-07-22",
-      "title": "[2026 상반기 VC 리그테이블] [하우스] 젊은피 박세근 내세운 아주IB…15...",
-      "url": "https://dealsite.co.kr/articles/165464",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "[Invest]2조 세컨더리펀드도 예고편?…국민성장펀드가 부를 더 큰 '회수...",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/07/22/2026072280154.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "국민성장펀드, LG디스플레이에 1.3조 저리 대출",
-      "url": "https://www.sedaily.com/article/20071150",
-      "source": "서울경제"
-    },
-    {
-      "date": "2026-07-25",
-      "title": "[인터뷰] 남두우 라이프운용 대표 “숨어있는 좋은 기업 찾아 성장시키...",
-      "url": "https://biz.chosun.com/stock/stock_general/2026/07/25/TFU2JDDHQNFSTJLQCE5E6LEIG4/",
-      "source": "조선일보"
-    },
-    {
       "date": "2026-07-25",
       "title": "다음주 금융당국 일정",
       "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01813846645518128",
@@ -7620,6 +7590,18 @@
     },
     {
       "date": "2026-08-24",
+      "title": "'을' 찾아뵙는 '갑'…국민성장펀드 '출자 배정' 기다리는 LP들",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/24/2026082480128.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "국민연금 vs 산은 최대출자자 누구?…국민성장펀드發 GP 규약 조율도 골머리",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/24/2026082480127.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-08-24",
       "title": "[단독]혈세 투입 정책펀드 10개중 6개, 제대로 투자하는지 ‘깜깜이’",
       "url": "https://www.donga.com/news/Society/article/all/20260824/134528223/2",
       "source": "동아일보"
@@ -7647,8 +7629,26 @@
       "title": "국민성장펀드 풍선효과... 코스닥 CB, 기본 무이자에 40% 할증 발행까지...",
       "url": "https://biz.chosun.com/stock/market_trend/2026/08/25/VXSXGXU2ZVFOFFYRGSZOFEK33Q/",
       "source": "조선일보"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "[단독] 200조 성장펀드 집행 더딘데 … 부처별 유사펀드 홍수",
+      "url": "https://www.mk.co.kr/article/12135966",
+      "source": "매일경제"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "[단독] 부처마다 정책펀드 쏟아내는데…집행실적은 가뭄에 콩나듯",
+      "url": "https://www.mk.co.kr/article/12136073",
+      "source": "매일경제"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "01.국민성장펀드 5호 투자에 원익로보틱스…첫 로봇기업 낙점",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431570",
+      "source": "연합인포맥스"
     }
   ],
-  "matched_articles_this_run": 203,
+  "matched_articles_this_run": 208,
   "confirmed_deals_count": 16
 }

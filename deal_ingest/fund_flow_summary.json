@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-24T21:36:09.015732+00:00",
+  "generated_at": "2026-08-25T21:34:59.009614+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 265,
+  "total_policy_articles": 272,
   "matched_funds_count": 2,
-  "unmatched_count": 61,
+  "unmatched_count": 63,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -12,7 +12,7 @@
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
       "last_updated": "2026-08-25",
-      "event_count": 203,
+      "event_count": 208,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -2183,6 +2183,28 @@
         },
         {
           "date": "2026-08-24",
+          "published_at": "2026-08-24T00:00:00+00:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "국민연금 vs 산은 최대출자자 누구?…국민성장펀드發 GP 규약 조율도 골머리",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/24/2026082480127.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-08-24",
+          "published_at": "2026-08-24T00:00:00+00:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "'을' 찾아뵙는 '갑'…국민성장펀드 '출자 배정' 기다리는 LP들",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/24/2026082480128.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-08-24",
           "published_at": "2026-08-24T04:33:00+09:00",
           "stage_code": "uncategorized",
           "stage_label": "단계 미상",
@@ -2246,6 +2268,39 @@
           "summary": "당시 투자도 코벤펀드를 통해 집행됐다. 자본시장 업계의 한 관계자는 “표면·만기이자 0%에 10~20% 수준의... 규모의 투자를 단행한다는 계획을 밝혔다. 국민성장펀드 자금의 일정 부분은 코스닥 기술특례상장사에 대한...",
           "url": "https://biz.chosun.com/stock/market_trend/2026/08/25/VXSXGXU2ZVFOFFYRGSZOFEK33Q/",
           "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-25",
+          "published_at": "2026-08-25T17:25:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200조",
+          "title": "[단독] 200조 성장펀드 집행 더딘데 … 부처별 유사펀드 홍수",
+          "summary": "9조…20%에 그쳐 대표 정책펀드 속도 못내는데 국부펀드·미래기금 잇단 추진 \"성과 의문인데 정책펀드 과신\" 이재명 정부가 첨단전략산업에 200조원을 투자하겠다며 '국민성장펀드'를 띄웠지만, 자금 집행 실적은 더딘...",
+          "url": "https://www.mk.co.kr/article/12135966",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-25",
+          "published_at": "2026-08-25T17:52:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "[단독] 부처마다 정책펀드 쏟아내는데…집행실적은 가뭄에 콩나듯",
+          "summary": "150조원을 투자하겠다며 ‘국민성장펀드’를 띄웠지만, 실제 자금 집행 실적은 저조한 것으로 나타났다. 대한민국 미래 경쟁력을 키우기 위해 대규모 정책형 투자 펀드를 설립했지만 아직 속도를 내지 못하고 있는...",
+          "url": "https://www.mk.co.kr/article/12136073",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-25",
+          "published_at": "2026-08-25T21:34:32.675077+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "01.국민성장펀드 5호 투자에 원익로보틱스…첫 로봇기업 낙점",
+          "summary": "",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431570",
+          "source_label": "연합인포맥스"
         }
       ]
     },
