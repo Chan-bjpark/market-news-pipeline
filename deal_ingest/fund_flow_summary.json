@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-25T21:34:59.009614+00:00",
+  "generated_at": "2026-08-27T00:37:37.233206+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 272,
+  "total_policy_articles": 293,
   "matched_funds_count": 2,
-  "unmatched_count": 63,
+  "unmatched_count": 77,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-08-25",
-      "event_count": 208,
+      "last_updated": "2026-08-27",
+      "event_count": 215,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -2300,6 +2300,83 @@
           "title": "01.국민성장펀드 5호 투자에 원익로보틱스…첫 로봇기업 낙점",
           "summary": "",
           "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431570",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-26",
+          "published_at": "2026-08-26T07:42:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "14조6000억",
+          "title": "[코스피 1만의 조건] 인위적 증시부양 아닌…AI 3강 투자로 李코노믹스...",
+          "summary": "국민성장펀드는 올해 상반기 17개 기업과 4개 인프라 사업 등 총 21건에 14조6000억원 규모의 자금 공급을 승인했다. 자세히 보면 ▲직접투자 2조5000억원 ▲간접투자 1조2200억원 ▲인프라 투융자 6조8700억원 ▲저리대출...",
+          "url": "https://dealsite.co.kr/articles/167493",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-08-26",
+          "published_at": "2026-08-26T10:35:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "리벨리온, 英 칼로섬과 맞손…‘이기종 AI’로 유럽 소버린 인프라 공략",
+          "summary": "‘이기종 컴퓨팅’으로 시장이 확대되는 가운데, 리벨리온은 추론 특화 NPU를 앞세워 유럽 시장 진출을... 리벨리온은 한국 국민성장펀드 직접투자 1호 기업이며, 칼로섬은 영국 소버린 AI 펀드의 첫 지분 투자...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03266886645551256&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-26",
+          "published_at": "2026-08-26T21:01:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "폭주하는 경제 강국들…‘닥공 재정’의 실체 [스페셜리포트]",
+          "summary": "또 다른 축은 국민성장펀드다. 정부는 당초 5년간 150조원으로 설계한 펀드를 지난 7월 200조원으로 확대하기로 했다. AI·반도체·바이오·방산·로봇 등 첨단 산업에 더해 우주항공을 비롯한 미래전략 산업까지 지원...",
+          "url": "https://www.mk.co.kr/article/12133022",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T04:33:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": "80조",
+          "title": "李 “한국 문제 출발점은 극심한 국토 불균형”",
+          "summary": "수도권을 제외한 7개 권역별로 첨단 전략산업과 관련해 3, 4개씩 총 25개의 성장엔진을 선정했다. 또 ‘성장엔진 특별보조금’도 신설해 대규모 지방 투자를 지원하고, 국민성장펀드 80조 원 이상(약 40%)을 지방에 투자할...",
+          "url": "https://www.donga.com/news/Politics/article/all/20260827/134552334/2",
+          "source_label": "동아일보"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T05:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[오늘의 주요일정]금융·증권(8월27일 목요일)",
+          "summary": "개최 ▲배포시 국민성장펀드, 8월 기금 운용심의회 개최 및 승인 결과 &lt;금융감독원&gt; ▲06:00 2026년 상반기 여신전문금융회사 영업실적(잠정) ▲06:00 2026년 상반기 보험회사 경영실적(잠정) ▲15:00 FIU...",
+          "url": "https://www.newsis.com/view/NISX20260826_0003763405",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T06:30:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "3700억원",
+          "title": "'AI 유망주' 선점 나선 증권사… 비상장 투자 1.5배 증가",
+          "summary": "5월 금융위원회 산하 국민성장펀드로부터 첨단전략산업기금 3700억원을 포함해 총 8000억원의 직접 투자를 받았다. 현재 8000억원 규모의 프리IPO(상장 전 투자)를 진행 중이다. 투자가 마무리되면 기업가치는...",
+          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092168899",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[오늘 재경부 등 경제부처 일정]",
+          "summary": "(15:00) ※국민성장펀드, 8월 기금 운용심의회 개최 및 승인 결과(배포시) [금융감독원] ▲14:00 금융소비자보호자문위원회(비공개) ※2026년 상반기 여신전문금융회사 영업실적(잠정)(석간) ※2026년 상반기...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431996",
           "source_label": "연합인포맥스"
         }
       ]
