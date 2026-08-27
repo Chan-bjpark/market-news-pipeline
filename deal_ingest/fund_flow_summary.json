@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-27T00:37:37.233206+00:00",
+  "generated_at": "2026-08-27T23:41:19.859297+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 293,
+  "total_policy_articles": 317,
   "matched_funds_count": 2,
-  "unmatched_count": 77,
+  "unmatched_count": 82,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-08-27",
-      "event_count": 215,
+      "last_updated": "2026-08-28",
+      "event_count": 234,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -2378,6 +2378,215 @@
           "summary": "(15:00) ※국민성장펀드, 8월 기금 운용심의회 개최 및 승인 결과(배포시) [금융감독원] ▲14:00 금융소비자보호자문위원회(비공개) ※2026년 상반기 여신전문금융회사 영업실적(잠정)(석간) ※2026년 상반기...",
           "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431996",
           "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T18:51:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "9조",
+          "title": "국민성장펀드, 로봇·K-콘텐츠 자금 지원…누적 17.9조 원 승인",
+          "summary": "미래성장동력 구축을 위해 활용된다. 첨단전략산업기금은 500억 원을 프로젝트펀드에 출자하는 방식으로... 원의 대출을 지원한다. 이번 지원을 통해 국민성장펀드는 8월 말까지 총 17조 9000억 원의 자금지원이...",
+          "url": "https://www.news1.kr/finance/general-finance/6271962",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T18:56:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드, 원익로보틱스·CJ포디플렉스에 지분 투자",
+          "summary": "금융위원회는 27일 국민성장펀드 기금운용심의회에서 원익로보틱스·CJ포디플렉스 등에 대한 직·간접 투자, LG에너지솔루션·TKG솔믹스·두산테스나·삼동·경보제약에 대한 저리 대출 등 자금 지원 7건을 의결했다고...",
+          "url": "https://www.sedaily.com/article/20084232",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T18:58:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2조",
+          "title": "휴머노이드 키우고 배터리 초격차…국민성장펀드 1.2조 푼다",
+          "summary": "국민성장펀드의 실제 지원 규모는 지분투자와 저리대출을 합쳐 1조1900억원이다. 우선 국민성장펀드는... 펀드 자금을 적극 공급하겠다고 발표했다. CJ포디플렉스에는 첨단전략산업기금이 프로젝트펀드 출자...",
+          "url": "https://www.newsis.com/view/NISX20260827_0003766036",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T19:01:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "500억원",
+          "title": "국민성장펀드, 왜 'K극장 기술'에 투자했나",
+          "summary": "전체 투자액 가운데 첨단전략산업기금이 500억원을 출자한다. 나머지 1700억원은 민간 금융권 등의 자금으로 조달할 계획이다. ▶본지 7월 30일자 A13면 참조 국민성장펀드가 그동안 리벨리온·퓨리오사AI 등 AI...",
+          "url": "https://www.hankyung.com/article/2026082778221",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T19:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "3500억원",
+          "title": "국민성장펀드, 로봇기업에 3500억원 지분투자…‘피지컬AI’ 처음 담는다",
+          "summary": "이재명 정부의 신산업 투자펀드인 국민성장펀드가 로봇 기업에 처음으로 직접 지분투자를 결정했다.... 첨단전략산업기금이 500억원을 출자하고, 나머지 1700억원은 우리은행 등 민간 금융권이 맡는다. CJ포디플렉스는...",
+          "url": "https://www.khan.co.kr/article/202608271902001",
+          "source_label": "경향신문"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T19:03:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "1500억",
+          "title": "국민성장펀드, 원익로보틱스에 1500억 직접 투자",
+          "summary": "첨단전략산업기금 500억원을 프로젝트펀드에 출자하는 방식으로 씨제이포디플렉스에 대한 지분투자... 저리대출 3000억원을 각각 실행하기로 했다. 한편 금융위는 지난 7월 하반기 업무보고를 통해 국민성장펀드 향후...",
+          "url": "https://www.fnnews.com/news/202608271856211817",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T19:04:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2200억원",
+          "title": "국민성장펀드, 원익로보틱스·CJ포디플렉스 등 7건 지원 승인…누적 17....",
+          "summary": "저리대출 지원을 승인했다고 밝혔다. 이번 승인으로 국민성장펀드의 누적 승인·결성 규모는 총 31건... 총 2200억원을 조달하며, 첨단전략산업기금은 프로젝트펀드에 500억원을 출자하는 방식으로 지원한다....",
+          "url": "https://www.etoday.co.kr/news/view/2619082",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T19:08:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "9조",
+          "title": "국민성장펀드, 로봇·K콘텐츠 집중 지원...누적 17.9조 원 승인",
+          "summary": "첨단전략산업기금이 500억원을 프로젝트펀드로 출자하고 민간 금융권이 1700억원을 대는 구조다.... 저리대출이 각각 승인됐다. 금융위에 따르면 국민성장펀드는 이번 7건을 포함해 8월 말 기준 누적 17조9000억원(총...",
+          "url": "https://www.newspim.com/news/view/20260827001262",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T19:26:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "17조9",
+          "title": "국민성장펀드, 로봇기업 원익로보틱스에 3천500억 투자",
+          "summary": "이중 첨단전략산업기금은 500억원을 프로젝트펀드에 출자한다. 이번 투자로 관련 생태계 경쟁력이 강화될... 1천700억원 대출도 지원한다. 이로써 국민성장펀드는 이달 말까지 총 31건, 누적 17조9천억원의 자금지원을...",
+          "url": "https://www.yna.co.kr/view/AKR20260827185900002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T19:28:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "6조",
+          "title": "국민성장펀드, 로봇·K-콘텐츠 집중 육성…1.6조 지원",
+          "summary": "저리대출 지원을 승인했다고 밝혔다. 이번 승인으로 국민성장펀드의 누적 승인·결성 규모는 총 31건... 첨단전략산업기금이 500억원을 출자하고, 나머지 1700억원은 우리은행 등 민간 금융권이 맡는다....",
+          "url": "https://www.ajunews.com/view/20260827191215881",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T19:36:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2조",
+          "title": "국민성장펀드, 휴머노이드 등 첨단전략산업에 1.2조 공급",
+          "summary": "첨단전략산업기금이 프로젝트펀드 출자 방식으로 500억원을 투자하며 민간자금을 포함한 전체 투자... 각각 대출된다. 국민성장펀드가 올해 1~8월 승인하거나 결성한 자금은 총 17조9000억원, 31건으로 확대됐다. 이...",
+          "url": "https://www.g-enews.com/view.php?ud=202608271932079405153ddfb15a_1",
+          "source_label": "글로벌이코노믹"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T19:53:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "9조",
+          "title": "CJ CGV, 국민성장펀드 2200억 투자받는다...CJ 4DPLEX 지원 확정",
+          "summary": "국민성장펀드의 1~8월 누적 승인 실적은 17.9조원으로, 30조원 목표액 대비 직접투자 2.83조원(목표 3조원)... 59조원(목표 10조원)이 각각 집행됐다. 지방 소재 사업 비중은 42.5%다. 지원 대상은 26개 기업과 4개 인프라...",
+          "url": "https://www.newspim.com/news/view/20260827001273",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T20:23:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "17조9000억",
+          "title": "국민성장펀드, 원익로보틱스에 3500억 투자…전북 AX 센터 신축 자금 조...",
+          "summary": "이중 첨단전략산업기금은 500억원을 프로젝트펀드에 출자한다. 이번 투자로 관련 생태계 경쟁력이 강화될... 1700억원 대출도 지원한다. 이로써 국민성장펀드는 이달 말까지 총 31건, 누적 17조9000억원의 자금지원을...",
+          "url": "https://view.asiae.co.kr/article/2026082720234611380",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T21:03:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3500억",
+          "title": "국민성장펀드, 로봇 기업에 3500억 지분투자",
+          "summary": "금융위원회는 27일 국민성장펀드 기금운용심의회를 열고 원익로보틱스에 대한 3500억원 규모의 지분투자를 포함해 총 7건의 자금지원 안건을 승인했다. 원익로보틱스는 로봇핸드(손·사진)와 자율이동조작로봇(AMMR)...",
+          "url": "https://www.khan.co.kr/article/202608272103025",
+          "source_label": "경향신문"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T21:05:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2조",
+          "title": "국민성장펀드, 로봇에 1500억 직접투자…첨단산업 1.2조 지원",
+          "summary": "첨단전략산업기금은 CJ포디플렉스의 글로벌 기술특별관 인프라 확장을 위해 프로젝트펀드 출자 방식으로... 100억원을 대출한다. 국민성장펀드가 올해 1~8월 승인하거나 결성한 자금은 총 31건, 17조9000억원으로...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=05674406645551584&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-27",
+          "published_at": "2026-08-27T23:40:20.738677+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "500억",
+          "title": "06.국민성장펀드, 원익로보틱스에 3천500억 투자…K-콘텐츠도 자금지원",
+          "summary": "",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432268",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T05:08:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[단독] LG는 왜 주니어 AI 연구자 이직 막나…‘독파모’ 인재전쟁 법정...",
+          "summary": "그는 “리벨리온, 퓨리오사AI, 업스테이지 등 국민성장펀드로부터 자금 지원을 받은 AI 기업들이 같은... 정부가 막대한 국가 예산과 컴퓨팅 자원을 투입해 AI 생태계를 키우는 상황에서 기업의 R&D 투자와 영업비밀은...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01735126645551912&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "93조",
+          "title": "실적·밸류업 넘어 미래전략까지···양종희 연임 '마지막 관문' [2026 K...",
+          "summary": "93조 생산적금융···국민성장펀드 1호서 2.9조 금융주선 생산적금융은 양 회장의 다음 임기 적합성을... 규모의 대출 조달 구조를 책임진다는 점이 중요하다. 단순 출자에 그치는 것이 아니라, 대형 인프라...",
+          "url": "https://www.fntimes.com/html/view.php?ud=202608271915391659b4a7c6999c_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T07:51:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "남들보다 한발 앞서 투자…DSC인베의 ‘홈런’ 스윙[대형VC 대해부]⑧",
+          "summary": "집중적으로 펀드를 결성·집행한 것\"이라고 말했다. \"좋은 빈티지는 결국 언제, 어떤 환경에서... 퓨리오사AI의 기업가치는 3조원을 넘어섰고, 국민성장펀드는 지난 5월 28일 이 회사에 8000억원 투자를 승인했다. 대표...",
+          "url": "https://view.asiae.co.kr/article/2026082610564246914",
+          "source_label": "아시아경제"
         }
       ]
     },

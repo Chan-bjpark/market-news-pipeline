@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-08-27T00:37:07.749174+00:00",
+  "generated_at": "2026-08-27T23:40:49.894738+00:00",
   "items": {
     "CD(91일)": {
       "item_code": "010502000",
-      "latest_date": "2026-08-26",
-      "latest_value": 2.97,
-      "prev_day_date": "2026-08-25",
-      "vs_prev_day_bp": 2.0,
-      "prev_month_date": "2026-07-27",
-      "vs_prev_month_bp": 5.0,
+      "latest_date": "2026-08-27",
+      "latest_value": 3.12,
+      "prev_day_date": "2026-08-26",
+      "vs_prev_day_bp": 15.0,
+      "prev_month_date": "2026-07-28",
+      "vs_prev_month_bp": 20.0,
       "recent_series": [
-        {
-          "date": "2026-08-05",
-          "value": 2.93
-        },
         {
           "date": "2026-08-06",
           "value": 2.93
@@ -69,22 +65,22 @@
         {
           "date": "2026-08-26",
           "value": 2.97
+        },
+        {
+          "date": "2026-08-27",
+          "value": 3.12
         }
       ],
       "source": "ECOS"
     },
     "미국채(2년)": {
-      "latest_date": "2026-08-25",
-      "latest_value": 4.17,
-      "prev_day_date": "2026-08-24",
-      "vs_prev_day_bp": -7.0,
-      "prev_month_date": "2026-07-24",
-      "vs_prev_month_bp": -16.0,
+      "latest_date": "2026-08-26",
+      "latest_value": 4.19,
+      "prev_day_date": "2026-08-25",
+      "vs_prev_day_bp": 2.0,
+      "prev_month_date": "2026-07-27",
+      "vs_prev_month_bp": -12.0,
       "recent_series": [
-        {
-          "date": "2026-08-05",
-          "value": 4.18
-        },
         {
           "date": "2026-08-06",
           "value": 4.25
@@ -140,6 +136,10 @@
         {
           "date": "2026-08-25",
           "value": 4.17
+        },
+        {
+          "date": "2026-08-26",
+          "value": 4.19
         }
       ],
       "source": "FRED",
@@ -147,17 +147,13 @@
       "error": null
     },
     "미국채(10년)": {
-      "latest_date": "2026-08-25",
-      "latest_value": 4.64,
-      "prev_day_date": "2026-08-24",
-      "vs_prev_day_bp": -6.0,
-      "prev_month_date": "2026-07-24",
-      "vs_prev_month_bp": -5.0,
+      "latest_date": "2026-08-26",
+      "latest_value": 4.66,
+      "prev_day_date": "2026-08-25",
+      "vs_prev_day_bp": 2.0,
+      "prev_month_date": "2026-07-27",
+      "vs_prev_month_bp": 1.0,
       "recent_series": [
-        {
-          "date": "2026-08-05",
-          "value": 4.63
-        },
         {
           "date": "2026-08-06",
           "value": 4.69
@@ -213,6 +209,10 @@
         {
           "date": "2026-08-25",
           "value": 4.64
+        },
+        {
+          "date": "2026-08-26",
+          "value": 4.66
         }
       ],
       "source": "FRED",
@@ -372,10 +372,10 @@
   },
   "policy_rates": {
     "한국 기준금리": {
-      "latest_date": "2026-08-24",
-      "latest_value": 2.75,
-      "last_change_date": "2026-07-16",
-      "last_change_from": 2.5,
+      "latest_date": "2026-08-27",
+      "latest_value": 3.0,
+      "last_change_date": "2026-08-27",
+      "last_change_from": 2.75,
       "direction": "인상",
       "next_meeting": "2026-08-27",
       "last_meeting": "2026-07-16",
@@ -383,7 +383,7 @@
       "source": "ECOS"
     },
     "미국 기준금리": {
-      "latest_date": "2026-08-26",
+      "latest_date": "2026-08-27",
       "latest_value": 3.75,
       "last_change_date": "2025-12-11",
       "last_change_from": 4.0,

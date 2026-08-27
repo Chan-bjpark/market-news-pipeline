@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T00:37:38.319798+00:00",
+  "generated_at": "2026-08-27T23:41:20.880198+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-27T00:37:38.319775+00:00",
+    "sheet_synced_at": "2026-08-27T23:41:20.880162+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
@@ -556,6 +556,28 @@
           "status_code": "mention",
           "status_label": "관련 동향",
           "url": "https://www.edaily.co.kr/News/Read?newsId=03266886645551256&mediaCodeNo=257",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 왜 'K극장 기술'에 투자했나",
+          "methods": [
+            "출자"
+          ],
+          "amount": "1700억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.hankyung.com/article/2026082778221",
+          "source": "한국경제"
+        },
+        {
+          "date": "2026-08-28",
+          "event": "[단독] LG는 왜 주니어 AI 연구자 이직 막나…‘독파모’ 인재전쟁 법정...",
+          "methods": [],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01735126645551912&mediaCodeNo=257",
           "source": "이데일리"
         }
       ]
@@ -2237,6 +2259,16 @@
           "status_label": "관련 동향",
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607210812104260108531",
           "source": "더벨"
+        },
+        {
+          "date": "2026-08-28",
+          "event": "남들보다 한발 앞서 투자…DSC인베의 ‘홈런’ 스윙[대형VC 대해부]⑧",
+          "methods": [],
+          "amount": "3조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://view.asiae.co.kr/article/2026082610564246914",
+          "source": "아시아경제"
         }
       ]
     },
@@ -2725,6 +2757,149 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "로봇기업",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "3500억원",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "timeline": [
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 로봇기업에 3500억원 지분투자…‘피지컬AI’ 처음 담는다",
+          "methods": [
+            "출자"
+          ],
+          "amount": "3500억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.khan.co.kr/article/202608271902001",
+          "source": "경향신문"
+        }
+      ]
+    },
+    {
+      "company_name": "원익로보틱스",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "3000억원",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "timeline": [
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 원익로보틱스에 1500억 직접 투자",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.fnnews.com/news/202608271856211817",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 원익로보틱스에 3500억 투자…전북 AX 센터 신축 자금 조...",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "17조9000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://view.asiae.co.kr/article/2026082720234611380",
+          "source": "아시아경제"
+        }
+      ]
+    },
+    {
+      "company_name": "받는다",
+      "sector": null,
+      "methods": [],
+      "amount": "10조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "timeline": [
+        {
+          "date": "2026-08-27",
+          "event": "CJ CGV, 국민성장펀드 2200억 투자받는다...CJ 4DPLEX 지원 확정",
+          "methods": [],
+          "amount": "10조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.newspim.com/news/view/20260827001273",
+          "source": "뉴스핌"
+        }
+      ]
+    },
+    {
+      "company_name": "로봇 기업",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "3500억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "timeline": [
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 로봇 기업에 3500억 지분투자",
+          "methods": [
+            "출자"
+          ],
+          "amount": "3500억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.khan.co.kr/article/202608272103025",
+          "source": "경향신문"
+        }
+      ]
+    },
+    {
+      "company_name": "로봇",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "17조9000억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "timeline": [
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 로봇에 1500억 직접투자…첨단산업 1.2조 지원",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "17조9000억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=05674406645551584&mediaCodeNo=257",
+          "source": "이데일리"
+        }
+      ]
+    },
     {
       "company_name": "종결",
       "sector": null,
@@ -7061,66 +7236,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-07-29",
-      "title": "[Invest]증시 쏠림 꺾이고 예금 16조 복귀…LP 출자 가뭄도 풀리나",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/07/28/2026072880177.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "케이스톤, 6호 펀드 소진 속도…내년 국민성장펀드 도전",
-      "url": "https://dealsite.co.kr/articles/165402",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "[2026 상반기 VC 리그테이블] [하우스] 8600억 펀드 70% 소진…에이티넘...",
-      "url": "https://dealsite.co.kr/articles/164544",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "국민성장펀드, CJ CGV 신사업에 대규모 투자 추진",
-      "url": "https://www.hankyung.com/article/2026072938601",
-      "source": "한국경제"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "[오늘의 주요일정]금융·증권(7월30일 목요일)",
-      "url": "https://www.newsis.com/view/NISX20260729_0003728171",
-      "source": "뉴시스"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "[오늘 재경부 등 경제부처 일정]",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427648",
-      "source": "연합인포맥스"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "[LP Scope] 美인큐텔 벤치마크 한국형 방산투자사…최철훈 공격대형",
-      "url": "https://dealsite.co.kr/articles/166123",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "[오늘의 채권ㆍ외환 메모] (07월30일)",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427691",
-      "source": "연합인포맥스"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, LG디스플레이 OLED·HBM 공급망에 1.8조 지원",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427844",
-      "source": "연합인포맥스"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, LG디스플레이 OLED 신기술 설비 1.3조 저리대출",
-      "url": "https://www.news1.kr/finance/general-finance/6244406",
-      "source": "뉴스1"
-    },
-    {
       "date": "2026-07-30",
       "title": "국민성장펀드, LG디스플레이 1.3조 저리대출 의결…OLED 초격차 기술 투...",
       "url": "https://www.mk.co.kr/article/12112039",
@@ -7659,8 +7774,68 @@
       "title": "[오늘 재경부 등 경제부처 일정]",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431996",
       "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "국민성장펀드, 로봇·K-콘텐츠 자금 지원…누적 17.9조 원 승인",
+      "url": "https://www.news1.kr/finance/general-finance/6271962",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "국민성장펀드, 원익로보틱스·CJ포디플렉스에 지분 투자",
+      "url": "https://www.sedaily.com/article/20084232",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "휴머노이드 키우고 배터리 초격차…국민성장펀드 1.2조 푼다",
+      "url": "https://www.newsis.com/view/NISX20260827_0003766036",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "국민성장펀드, 원익로보틱스·CJ포디플렉스 등 7건 지원 승인…누적 17....",
+      "url": "https://www.etoday.co.kr/news/view/2619082",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "국민성장펀드, 로봇·K콘텐츠 집중 지원...누적 17.9조 원 승인",
+      "url": "https://www.newspim.com/news/view/20260827001262",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "국민성장펀드, 로봇기업 원익로보틱스에 3천500억 투자",
+      "url": "https://www.yna.co.kr/view/AKR20260827185900002?input=1195m",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "국민성장펀드, 로봇·K-콘텐츠 집중 육성…1.6조 지원",
+      "url": "https://www.ajunews.com/view/20260827191215881",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "국민성장펀드, 휴머노이드 등 첨단전략산업에 1.2조 공급",
+      "url": "https://www.g-enews.com/view.php?ud=202608271932079405153ddfb15a_1",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "06.국민성장펀드, 원익로보틱스에 3천500억 투자…K-콘텐츠도 자금지원",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432268",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "실적·밸류업 넘어 미래전략까지···양종희 연임 '마지막 관문' [2026 K...",
+      "url": "https://www.fntimes.com/html/view.php?ud=202608271915391659b4a7c6999c_18",
+      "source": "한국금융신문"
     }
   ],
-  "matched_articles_this_run": 216,
+  "matched_articles_this_run": 235,
   "confirmed_deals_count": 16
 }
