@@ -1,9 +1,10 @@
 name: send briefing
 
-# 07:00 KST weekdays = 22:00 UTC Sun-Thu. Reads morning-collected JSON and posts to Slack.
+# 수집(deal_ingest collect) 완료 직후 자동 실행 → 항상 최신 데이터, cron 정시지연 회피.
 on:
-  schedule:
-    - cron: "0 22 * * 0-4"
+  workflow_run:
+    workflows: ["deal_ingest collect"]
+    types: [completed]
   workflow_dispatch:
 
 concurrency:
@@ -12,6 +13,7 @@ concurrency:
 
 jobs:
   send:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
