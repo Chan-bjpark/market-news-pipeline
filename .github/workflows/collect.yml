@@ -4,7 +4,7 @@ name: deal_ingest collect
 # 발송(07:00 KST) 세션이 이 커밋 결과를 raw로 읽는다.
 on:
   schedule:
-    - cron: "0 21 * * 0-4"   # Sun-Thu 21:00 UTC = Mon-Fri 06:00 KST
+    - cron: "47 20 * * 0-4"   # Sun-Thu 21:00 UTC = Mon-Fri 06:00 KST
   workflow_dispatch:          # 수동 실행(첫 검증·오류시 재실행)
 
 permissions:
