@@ -59,11 +59,29 @@ def kst_date(iso):
         return None
 
 
-def recent(articles, days=3):
+def kst_dt(iso):
+    try:
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(KST)
+    except Exception:
+        return None
+
+
+def recent(articles, hours=None):
+    """직전 영업일 브리핑 이후 기사만 (전일 중복 노출 방지).
+
+    평일: 28시간(전 영업일 발송 이후 + 소폭 여유).
+    월요일: 74시간(금요일 발송 이후 주말분 포함).
+    """
+    if hours is None:
+        hours = 74 if NOW.weekday() == 0 else 28
+    cutoff = NOW - timedelta(hours=hours)
     out = []
     for a in articles:
-        d = kst_date(a.get("published_at", ""))
-        if d and (TODAY - d).days <= days:
+        dt = kst_dt(a.get("published_at", ""))
+        if dt and dt >= cutoff:
             out.append(a)
     return out
 
@@ -74,7 +92,17 @@ _THEME = set("hlb hlb그룹 금융위 금감원 기재부 재경부 정부 한�
 _GEN = set("결정 추진 검토 전망 예상 발표 계획 논의 나서 밝혀 관측 확대 강화 완화 시동 향방 출범 조성한다 한다 위해 관련해".split())
 _ACT = ["매수", "매도", "매각", "인수", "합병", "발행", "조성", "출시", "상장", "결성",
         "공모", "증자", "유상증자", "무상증자", "배당", "공시", "모집", "인상", "인하",
-        "부도", "회생", "청산", "출자"]
+        "부도", "회생", "청산", "출자", "베팅", "도입"]
+
+
+def _amt(t):
+    """제목에서 금액 시그니처 추출(조/억) — 같은 딜(동일 금액) 병합용."""
+    s = set()
+    for m in re.findall(r"(\d+(?:\.\d+)?)\s*조", t or ""):
+        s.add(m + "조")
+    for m in re.findall(r"(\d+(?:,\d{3})*(?:\.\d+)?)\s*억", t or ""):
+        s.add(m.replace(",", "") + "억")
+    return s
 
 
 def _dw(t):
@@ -111,8 +139,13 @@ def _same_story(ta, tb):
     wa, wb = _dw(ta), _dw(tb)
     me = _ematch(_ents(wa), _ents(wb))
     aa = _acts(set(wa)) & _acts(set(wb))
-    # 병합 조건: 공유 고유명 2개↑  OR  (공유 고유명 1개↑ AND 공유 행위 1개↑)  OR  긴 고유명(8자↑) 공유
-    return len(set(me)) >= 2 or (len(me) >= 1 and len(aa) >= 1) or any(len(x) >= 8 for x in me)
+    am = _amt(ta) & _amt(tb)
+    # 병합 조건: 공유 고유명 2개↑  OR  (공유 고유명 1개↑ AND 공유 행위 1개↑)
+    #            OR (공유 고유명 1개↑ AND 동일 금액 1개↑)  OR  긴 고유명(8자↑) 공유
+    return (len(set(me)) >= 2
+            or (len(me) >= 1 and len(aa) >= 1)
+            or (len(me) >= 1 and len(am) >= 1)
+            or any(len(x) >= 8 for x in me))
 
 
 def dedupe_stories(arts):
@@ -159,15 +192,16 @@ def sec_rates(rate):
         val = d.get("latest_value_str") or d.get("latest_value")
         if val is None:
             L.append(f"• {label} 기준금리: _미확보_"); continue
+        dir_ = d.get("meeting_direction") or d.get("direction", "")
         L.append(f"• {label} 기준금리: {val}% on {d.get('last_meeting','')} "
-                 f"({d.get('direction','')}, 다음 {d.get('next_meeting','')})".replace("%%", "%"))
+                 f"({dir_}, 다음 {d.get('next_meeting','')})".replace("%%", "%"))
     L.append("")
     L.append("출처: <https://ecos.bok.or.kr/|한국은행 ECOS> / <https://fred.stlouisfed.org/|FRED>")
     return "\n".join(L)
 
 
 def sec_global(articles):
-    hits = [a for a in recent(articles, 3)
+    hits = [a for a in recent(articles)
             if a.get("source") == "einfomax"
             and any(k in (a.get("title", "")) for k in ("뉴욕", "글로벌", "S&P", "나스닥", "미 국채", "국제유가", "연준", "FOMC"))]
     if not hits:
@@ -179,21 +213,83 @@ def sec_global(articles):
     return "\n".join(L)
 
 
+# 정책 뉴스 = 산업·경제·기업에 영향을 주는 '규제·세제·제도·통화정책의 변화'.
+# 정부 지출/투자 발표, 시장 시황·반응, 사설/칼럼, 인사/거버넌스는 정책이 아님.
+
+# (A) 규제·세제·제도 변화 키워드 — 그 자체로 제도성이 강한 것만(느슨한 단어 배제)
+_REG_POS = [
+    # 세제
+    "법인세", "소득세", "상속세", "증여세", "양도소득세", "양도세", "종부세", "종합부동산세",
+    "부동산 세제", "부동산세제", "재산세", "취득세", "금투세", "금융투자소득세",
+    "세제개편", "세제 개편", "세법개정", "세법 개정", "비과세", "분리과세", "감세", "증세", "세액공제",
+    # 자본시장 제도
+    "공매도", "밸류업 프로그램", "밸류업 지수", "밸류업 공시", "밸류업 가이드라인", "밸류업 지원", "밸류업 세제",
+    "상장폐지", "상장 폐지", "퇴출기준", "퇴출 기준", "상장규정", "상장 요건",
+    "배당소득 분리과세", "스튜어드십", "의무보유", "보호예수", "공시 의무", "공시제도",
+    # 법·규제 변화
+    "자본시장법", "상법 개정", "상법개정", "공정거래법", "금융지주회사법", "은행법", "보험업법",
+    "시행령", "시행규칙", "고시 개정", "입법예고", "규제 완화", "규제완화", "규제 강화", "규제강화",
+    "규제개혁", "규제 개혁", "감독규정", "제도 개선방안", "의무화", "허용키로", "금지키로", "도입키로",
+]
+# 시황·시장반응·사설/칼럼·인사 → 정책 아님(배제)
+_POLICY_NEG = ["사설", "칼럼", "기고", "오피니언", "시론", "취재수첩", "기자수첩", "데스크",
+               "마감]", "[채권", "[증시", "[마켓", "칠천피", "육천피", "스팁", "엔비디아",
+               "달러화 강세", "연임", "취임", "선임", "동정]", "포토]", "인사]"]
+_RATE_VERB = ("인상", "인하", "동결", "의결", "결정", "찬성", "소수의견", "점도표", "통화정책방향")
+
+
+def _is_rate_decision(a):
+    """한국 통화정책 '결정' 뉴스(시장 시황·해설 아님)."""
+    t = a.get("title", "") + (a.get("summary") or "")
+    if any(m in t for m in _POLICY_NEG):
+        return False
+    if not any(k in t for k in ("금통위", "통화정책방향", "기준금리")):
+        return False
+    return any(v in t for v in _RATE_VERB)
+
+
+def _rate_score(a):
+    t = a.get("title", "") + (a.get("summary") or "")
+    s = 0
+    for k, v in (("찬성", 2), ("의결", 2), ("소수의견", 2), ("[전문]", 2),
+                 ("통화정책방향", 1), ("인상", 1), ("인하", 1), ("동결", 1),
+                 ("3.00", 1), ("점도표", 1)):
+        if k in t:
+            s += v
+    return s
+
+
 def sec_policy(articles, fund):
-    L = ["🏛️ *[한국 정책 변화]*"]
-    pol = [a for a in recent(articles, 3)
-           if any(k in (a.get("title", "") + (a.get("summary") or ""))
-                  for k in ("금융위", "금감원", "기재부", "정부", "규제", "법안", "시행", "세제"))]
-    pol = dedupe_stories(pol)
-    seen = set(); n = 0
-    for a in pol:
+    L = ["🏛️ *[한국 정책·제도 변화]*"]
+    rc = recent(articles)
+    # (1) 통화정책 결정 — 최대 2건(대표만)
+    rate = dedupe_stories(sorted([a for a in rc if _is_rate_decision(a)],
+                                 key=_rate_score, reverse=True))[:2]
+    # (2) 규제·세제·제도 변화
+    reg = []
+    for a in rc:
+        t = a.get("title", "") + " " + (a.get("summary") or "")
+        if any(j in t for j in _POLICY_NEG):
+            continue
+        if any(k in t for k in _REG_POS):
+            reg.append(a)
+    reg.sort(key=lambda a: a.get("published_at", ""), reverse=True)
+    reg = dedupe_stories(reg)
+    seen = {a.get("url") for a in rate}
+    n = 0
+    for a in rate:
+        L.append(f"• {a.get('title','').strip()} <{a.get('url')}|{medialabel(a.get('url'), a.get('source_label'))}>")
+        n += 1
+    for a in reg:
         if a.get("url") in seen:
             continue
         seen.add(a.get("url"))
         L.append(f"• {a.get('title','').strip()} <{a.get('url')}|{medialabel(a.get('url'), a.get('source_label'))}>")
         n += 1
-        if n >= 3:
+        if n >= 6:
             break
+    if n == 0:
+        L.append("• 특별한 뉴스없음")
     if n == 0:
         L.append("• 특별한 뉴스없음")
     funds = (fund.get("funds") or [])
@@ -214,7 +310,7 @@ def sec_policy(articles, fund):
 def _kgf_news(articles):
     """국민성장펀드 관련 뉴스(집행추적과 별개 기사)."""
     keys = ("국민성장펀드", "국민참여성장펀드")
-    hits = [a for a in recent(articles or [], 3)
+    hits = [a for a in recent(articles or [])
             if any(k in (a.get("title", "") + (a.get("summary") or "")) for k in keys)]
     return dedupe_stories(hits)
 
@@ -246,9 +342,9 @@ def sec_kgf(kgf, articles=None):
 
 def sec_hlb(articles):
     L = ["🔬 *[HLB그룹 관련]*"]
-    sig = [a for a in recent(articles, 3) if a.get("category") == "hlb_signal"]
+    sig = [a for a in recent(articles) if a.get("category") == "hlb_signal"]
     names = ["HLB", "넥스트사이언스", "리보세라닙", "에이치엘비"]
-    flow = [a for a in recent(articles, 3)
+    flow = [a for a in recent(articles)
             if a.get("category") == "flow_index" and any(n in a.get("title", "") for n in names)]
     seen = set(); rows = []
     for a in sig + flow:
@@ -275,7 +371,7 @@ def sec_distress(articles):
     L = ["🆘 *[한계기업·저가매수 기회 (제약·바이오·K뷰티·헬스)]*",
          "※ 모니터링 목적. DD 트리거 별도 필요."]
     rows = []; seen = set()
-    for a in recent(articles, 3):
+    for a in recent(articles):
         txt = a.get("title", "") + (a.get("summary") or "")
         if any(c in txt for c in crisis) and any(s in txt for s in sector):
             if a.get("url") in seen:
@@ -300,7 +396,7 @@ _DEAL_ACT = ["인수", "매각", "합병", "경영권", "지분", "투자유치"
 _DEAL_JUNK = ["에세이", "칼럼", "출간", "별세", "부고", "인생", "여정", "자서전", "회고록",
               "르포", "기고", "오피니언", "소탈", "온화", "브런치", "레시피", "맛집",
               "다이소", "홍삼", "인터뷰[", "책 출간", "신간", "수필",
-              "로펌이슈", " 진단]", "평행이론", "영입", "위촉", "취임", "시론", "사설",
+              "로펌이슈", " 진단]", "평행이론", "영입", "위촉", "취임", "연임", "시론", "사설",
               "취재수첩", "기자수첩", "전망대", "동정]", "포토]", "부음", "인사]",
               "[사람]", "일문일답", "라이프", "여행", "골프", "와인", "부고·인사"]
 _PE_NAMES = ["mbk", "한앤컴퍼니", "한앤코", "imm", "스틱", "글랜우드", "어피너티", "칼라일",
@@ -341,7 +437,7 @@ def sec_deals(articles):
     label = {"M&A": "M&A", "PE": "PE동향", "fund_raise": "PE동향",
              "lp_commit": "기관출자", "cap_market": "자본시장", "other": "거버넌스"}
     L = ["🤝 *[딜·M&A]*"]
-    rc = recent(articles, 3)
+    rc = recent(articles)
     # 1) 후보 수집 + 품질 스코어링(딜 신호 없음·잡문 제외)
     cand = []; seen = set()
     for cat in order:
