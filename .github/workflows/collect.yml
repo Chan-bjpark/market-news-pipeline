@@ -3,8 +3,8 @@ name: deal_ingest collect
 # 06:00 KST 평일 = 21:00 UTC 일~목 (KST = UTC+9).
 # 발송(07:00 KST) 세션이 이 커밋 결과를 raw로 읽는다.
 on:
-  schedule:
-    - cron: "10 22 * * 0-4"   # Sun-Thu 22:10 UTC = Mon-Fri 07:10 KST
+  # schedule 비활성(2026-08-28): cron-job.org 외부 트리거가 평일 07:10 KST에 workflow_dispatch를 호출
+  # - cron: "10 22 * * 0-4"
   workflow_dispatch:          # 수동 실행(첫 검증·오류시 재실행)
 
 permissions:
