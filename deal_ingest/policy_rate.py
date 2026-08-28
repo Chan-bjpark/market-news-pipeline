@@ -127,14 +127,14 @@ def detect_last_change(series: list[dict]) -> dict:
 
 
 def next_meeting(schedule: list[str], today: str | None = None) -> str | None:
-    today = today or datetime.now().strftime("%Y-%m-%d")
-    future = [d for d in schedule if d >= today]
+    today = today or datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+    future = [d for d in schedule if d > today]
     return min(future) if future else None
 
 
 def last_meeting(schedule: list[str], today: str | None = None) -> str | None:
-    today = today or datetime.now().strftime("%Y-%m-%d")
-    past = [d for d in schedule if d < today]
+    today = today or datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+    past = [d for d in schedule if d <= today]
     return max(past) if past else None
 
 
