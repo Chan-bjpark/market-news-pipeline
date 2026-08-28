@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-27T23:41:19.859297+00:00",
+  "generated_at": "2026-08-28T01:05:28.796637+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 317,
+  "total_policy_articles": 322,
   "matched_funds_count": 2,
-  "unmatched_count": 82,
+  "unmatched_count": 83,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -12,7 +12,7 @@
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
       "last_updated": "2026-08-28",
-      "event_count": 234,
+      "event_count": 238,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -2587,6 +2587,50 @@
           "summary": "집중적으로 펀드를 결성·집행한 것\"이라고 말했다. \"좋은 빈티지는 결국 언제, 어떤 환경에서... 퓨리오사AI의 기업가치는 3조원을 넘어섰고, 국민성장펀드는 지난 5월 28일 이 회사에 8000억원 투자를 승인했다. 대표...",
           "url": "https://view.asiae.co.kr/article/2026082610564246914",
           "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T09:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200조",
+          "title": "[2026 증권포럼] \"국민성장펀드 200조 확대…민간투자 난제 푼다\"",
+          "summary": "국민성장펀드는 속도감 있게 자금을 집행하고 있다\"며 \"이에 최초 계획한 자금 규모도 부족할 것으로 예상돼 5년간 운영규모를 200조원으로 확대할 계획을 가지고 있다\"고 말했다. 이어 \"신기술에 적극적으로 투자를 해야...",
+          "url": "https://dealsite.co.kr/articles/167870",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T09:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "[2026 증권포럼] \"코스피 1만 시대 향한 도약…투자자 중심 질서 회복 관...",
+          "summary": "지난해 12월 출범한 국민성장펀드는 5년간 150조원 규모로, 첨단전략산업기금 75조원과 민간자금 75조원으로 구성된다. 자금은 직접투자·간접투자·인프라투자·대출프로그램 네 갈래로 집행된다. 출범 7개월 만에 23개...",
+          "url": "https://dealsite.co.kr/articles/167856",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T09:14:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드 원익로보 투자금 회수는?…'중복상장 이슈' 주목",
+          "summary": "28일 금융투자업계에 따르면 전일 열린 국민성장펀드 기금운용심의회는 원익로보틱스 등 총 7건 사업에 대한 지분투자와 저리대출 지원을 승인했다. 원익로보틱스는 전북 완주에 로봇핸드 생산공장과 AX센터를 신축하기...",
+          "url": "https://www.yna.co.kr/view/AKR20260828023900008?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T10:01:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "5600억 원",
+          "title": "AI가 대출금리 깎아준다…뱅크샐러드 “연 이자 930만원 절감”",
+          "summary": "저리 대출 등 자금 지원 7건을 의결했다고 밝혔다. 두 기업은 올해 4월 국민성장펀드 전략위원회가... 원을 출자한다. 또한 두산테스나(131970) 신공장 증설에 5600억 원, LG에너지솔루션(373220) 충북 차세대 이차전지...",
+          "url": "https://www.sedaily.com/article/20084319",
+          "source_label": "서울경제"
         }
       ]
     },

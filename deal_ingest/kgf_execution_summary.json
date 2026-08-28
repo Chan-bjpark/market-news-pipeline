@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T23:41:20.880198+00:00",
+  "generated_at": "2026-08-28T01:05:29.789379+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-27T23:41:20.880162+00:00",
+    "sheet_synced_at": "2026-08-28T01:05:29.789351+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
@@ -7237,30 +7237,6 @@
   "candidates": [
     {
       "date": "2026-07-30",
-      "title": "국민성장펀드, LG디스플레이 1.3조 저리대출 의결…OLED 초격차 기술 투...",
-      "url": "https://www.mk.co.kr/article/12112039",
-      "source": "매일경제"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "[기고] 지방 소멸은 자본이 떠난 결과…투자하는 지방정부가 미래 바꾼...",
-      "url": "https://www.hankyung.com/article/2026073047801",
-      "source": "한국경제"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, LG디스플레이·테크윙에 1.3조 저리 대출 지원",
-      "url": "https://biz.chosun.com/stock/finance/2026/07/30/J2JPXGJR7ZARRPI6OWV4FKH2TQ/",
-      "source": "조선일보"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, LGD에 1.3조 지원…OLED 초격차 투자",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05556326645519768",
-      "source": "이데일리"
-    },
-    {
-      "date": "2026-07-30",
       "title": "국민성장펀드, 'OLED 초격차' LG디스플레이에 1.5조 저리대출",
       "url": "https://www.yna.co.kr/view/AKR20260730152400002?input=1195m",
       "source": "연합뉴스"
@@ -7834,8 +7810,32 @@
       "title": "실적·밸류업 넘어 미래전략까지···양종희 연임 '마지막 관문' [2026 K...",
       "url": "https://www.fntimes.com/html/view.php?ud=202608271915391659b4a7c6999c_18",
       "source": "한국금융신문"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "[2026 증권포럼] \"코스피 1만 시대 향한 도약…투자자 중심 질서 회복 관...",
+      "url": "https://dealsite.co.kr/articles/167856",
+      "source": "딜인사이트"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "[2026 증권포럼] \"국민성장펀드 200조 확대…민간투자 난제 푼다\"",
+      "url": "https://dealsite.co.kr/articles/167870",
+      "source": "딜인사이트"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "국민성장펀드 원익로보 투자금 회수는?…'중복상장 이슈' 주목",
+      "url": "https://www.yna.co.kr/view/AKR20260828023900008?input=1195m",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "AI가 대출금리 깎아준다…뱅크샐러드 “연 이자 930만원 절감”",
+      "url": "https://www.sedaily.com/article/20084319",
+      "source": "서울경제"
     }
   ],
-  "matched_articles_this_run": 235,
+  "matched_articles_this_run": 239,
   "confirmed_deals_count": 16
 }
