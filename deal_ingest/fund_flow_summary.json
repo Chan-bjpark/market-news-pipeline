@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-28T01:05:28.796637+00:00",
+  "generated_at": "2026-08-30T22:11:09.779635+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 322,
+  "total_policy_articles": 338,
   "matched_funds_count": 2,
-  "unmatched_count": 83,
+  "unmatched_count": 86,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-08-28",
-      "event_count": 238,
+      "last_updated": "2026-08-31",
+      "event_count": 251,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -2631,6 +2631,149 @@
           "summary": "저리 대출 등 자금 지원 7건을 의결했다고 밝혔다. 두 기업은 올해 4월 국민성장펀드 전략위원회가... 원을 출자한다. 또한 두산테스나(131970) 신공장 증설에 5600억 원, LG에너지솔루션(373220) 충북 차세대 이차전지...",
           "url": "https://www.sedaily.com/article/20084319",
           "source_label": "서울경제"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T10:46:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "17조9000억",
+          "title": "전북 로봇공장 원익로보틱스에 3500억 지원 CJ포디플렉스엔 2200억 투자 ...",
+          "summary": "이중 첨단전략산업기금은 500억원을 프로젝트펀드에 출자한다. 이번 투자로 관련 생태계 경쟁력이 강화될... 1700억원 대출도 지원한다. 이로써 국민성장펀드는 이달 말까지 총 31건, 누적 17조9000억원의 자금지원을...",
+          "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=362358",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T13:01:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": "200억",
+          "title": "경보제약, 국민성장펀드 200억 대출 승인…바이오 4호 투자",
+          "summary": "금융위원회는 지난 27일 국민성장펀드 기금운용심의회를 열고 충남 소재 경보제약에 첨단전략산업기금 200억원을 대출하기로 승인했다. 지원 대상은 경보제약이 추진 중인 ADC 전용 생산설비 신설 사업 몫으로...",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/08/28/0016",
+          "source_label": "비즈워치"
+        },
+        {
+          "date": "2026-08-28",
+          "published_at": "2026-08-28T17:20:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "유동시총 상위 10개 기업 투자 1개월 수익률 15%로 1위 [ETF 줌인]",
+          "summary": "기업에 투자하는 상장지수펀드(ETF)가 주목받고 있다. 정부의 코스닥시장 활성화 정책과 국민성장펀드 집행에 대한 기대가 더해지며 관련 ETF도 우수한 수익률을 기록했다. 28일 한국거래소에 따르면 ‘SOL 코스닥TOP10’의...",
+          "url": "https://www.sedaily.com/article/20084567",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-08-30",
+          "published_at": "2026-08-30T09:17:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "4000억",
+          "title": "NH농협금융, '상생·성장 펀드 2호' 내달 4000억으로 확대 조성",
+          "summary": "이찬우 농협금융지주 회장은 \"상생·성장 펀드 2호는 시장성 차입·저리 대출이 어려운 중소·중견기업에 대한 적극적인 모험자본 공급과 동시에 국민성장펀드 추진 가속화를 통한 대한민국 첨단전략산업 육성의...",
+          "url": "https://www.newsis.com/view/NISX20260830_0003768144",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-08-30",
+          "published_at": "2026-08-30T09:36:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "4000억원",
+          "title": "NH농협금융, ‘상생·성장펀드 2호’ 4000억원으로 확대",
+          "summary": "크레딧펀드와 메자닌펀드 등 자펀드를 조성해 중소·중견기업과 벤처·스타트업, 지방기업 등에 직접 대출... 간접투자는 국민성장펀드 정책성펀드 등에 선정된 자펀드에 출자한다. 농협금융은 앞서 상반기 5000억원...",
+          "url": "https://www.etoday.co.kr/news/view/2619619",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-08-30",
+          "published_at": "2026-08-30T09:40:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "4000억원",
+          "title": "농협금융, 상생·성장펀드 2호 4000억원으로 확대…모험자본 2400억",
+          "summary": "간접투자는 국민성장펀드 정책성펀드 등으로 선정된 자펀드에 출자한다. 농협금융은 상반기 조성한... 규모의 펀드 조성 계획을 마무리할 예정이다. 이찬우 농협금융 회장은 “시장성 차입이나 저리 대출이 어려운...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01275926645552568&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-30",
+          "published_at": "2026-08-30T09:54:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "4000억원",
+          "title": "농협금융, '상생·성장펀드 2호' 4000억원으로 확대…생산적 금융 속도",
+          "summary": "이찬우 농협금융 회장은 \"상생·성장 펀드 2호를 통해 시장성 차입이나 저리 대출이 어려운 중소·중견기업에 모험자본을 공급하고 국민성장펀드와 연계한 첨단전략산업 투자도 확대하겠다\"고 말했다.",
+          "url": "https://www.ajunews.com/view/20260830094100439",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-08-30",
+          "published_at": "2026-08-30T11:21:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "4000억원",
+          "title": "NH농협금융 '상생·성장 펀드 2호' 4000억원으로 확대",
+          "summary": "자펀드를 조성해 성장 가능성이 높은 중소·중견기업과 벤처·스타트업, 지방기업에 대한 직접 대출과... 간접투자는 국민성장펀드 정책성펀드 등으로 선정된 자펀드에 출자하는 식이다. NH농협금융은 상반기 1호 인프라...",
+          "url": "https://view.asiae.co.kr/article/2026083011210903524",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-08-30",
+          "published_at": "2026-08-30T13:54:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "4000억원",
+          "title": "NH농협금융, '상생·성장 펀드 2호' 4000억원으로 확대",
+          "summary": "자펀드를 조성해 성장 가능성이 높은 중소·중견기업과 벤처·스타트업, 지방기업에 대한 직접 대출과... 간접투자는 국민성장펀드 정책성펀드 등으로 선정된 자펀드에 출자하는 방식으로 진행된다. 이를 통해 대한민국...",
+          "url": "https://www.fnnews.com/news/202608301113292106",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-08-30",
+          "published_at": "2026-08-30T16:54:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1000억",
+          "title": "NH농협금융 ‘상생·성장 펀드 2호’ 1000억에서 4000억으로 증액",
+          "summary": "이찬우 농협금융지주 회장은 “상생·성장 펀드 2호는 시장성 차입·저리 대출이 어려운 중소·중견기업에 대한 적극적인 모험자본 공급과 동시에 국민성장펀드 추진 가속화를 통한 대한민국 첨단전략산업 육성의...",
+          "url": "https://biz.chosun.com/stock/finance/2026/08/30/BI4UY6RAKFE2JG6ZWNBFWXQMQU/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-30",
+          "published_at": "2026-08-30T17:28:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3500억원",
+          "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
+          "summary": "30일 금융투자업계에 따르면 국민성장펀드 기금운용심의회는 지난 27일 원익로보틱스에 3500억원(첨단전략산업기금 1500억원·민간 2000억원), CJ 4D플렉스에 2200억원(첨단전략산업기금 500억원·민간 1700억원) 규모의...",
+          "url": "https://www.mk.co.kr/article/12139880",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T00:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "윤건수 DSC인베 대표, 퓨리오사AI 투자…몰로코 나스닥 상장 기대 [VC 20...",
+          "summary": "속에서도 국민성장펀드 조성, 해외 진출, IPO 등을 통한 회수로 수익을 극대화하는 VC들의 하반기 전략을 살펴본다. &lt;편집자 주&gt; 윤건수 DSC인베스트먼트 대표가 하반기 초기부터 투자한 퓨리오사AI에 추가 투자를...",
+          "url": "https://www.fntimes.com/html/view.php?ud=202608282312584948dd55077bc2_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T07:04:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "1500억",
+          "title": "[LP Scope] 수출입은행 1500억 첫 벤처캐피털 출자…PE 동시 검토",
+          "summary": "28일 투자은행(IB) 업계에 따르면 수출입은행은 조만간 사모펀드(PEF)와 VC 부문을 대상으로 총 3000억원 규모의... 펀드 위탁운용사(GP) 지위를 확보했다. 국민성장펀드 앵커 자금을 확보한 대형사들이 이미 펀드 결성을...",
+          "url": "https://dealsite.co.kr/articles/168005",
+          "source_label": "딜인사이트"
         }
       ]
     },

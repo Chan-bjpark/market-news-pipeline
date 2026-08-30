@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T01:05:29.789379+00:00",
+  "generated_at": "2026-08-30T22:11:10.703086+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.07",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-28T01:05:29.789351+00:00",
+    "sheet_synced_at": "2026-08-30T22:11:10.703058+00:00",
     "approved_count": 23,
     "cumulative_amount": "17조6,493억원",
     "frontier_fund_amount": "7조295억원",
@@ -2269,6 +2269,16 @@
           "status_label": "승인·확정",
           "url": "https://view.asiae.co.kr/article/2026082610564246914",
           "source": "아시아경제"
+        },
+        {
+          "date": "2026-08-31",
+          "event": "윤건수 DSC인베 대표, 퓨리오사AI 투자…몰로코 나스닥 상장 기대 [VC 20...",
+          "methods": [],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.fntimes.com/html/view.php?ud=202608282312584948dd55077bc2_18",
+          "source": "한국금융신문"
         }
       ]
     },
@@ -2757,6 +2767,203 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "수출입",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "3000억원",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "timeline": [
+        {
+          "date": "2026-08-31",
+          "event": "[LP Scope] 수출입은행 1500억 첫 벤처캐피털 출자…PE 동시 검토",
+          "methods": [
+            "출자"
+          ],
+          "amount": "3000억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://dealsite.co.kr/articles/168005",
+          "source": "딜인사이트"
+        }
+      ]
+    },
+    {
+      "company_name": "농협금융",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "1000억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-30",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "event": "농협금융, 1000억 규모 'NH대한민국상생성장펀드 2호' 조성",
+          "methods": [
+            "출자"
+          ],
+          "amount": "1000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.news1.kr/finance/general-finance/6178663",
+          "source": "뉴스1"
+        },
+        {
+          "date": "2026-08-30",
+          "event": "농협금융, 상생·성장펀드 2호 4000억원으로 확대…모험자본 2400억",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "4000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01275926645552568&mediaCodeNo=257",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-08-30",
+          "event": "농협금융, '상생·성장펀드 2호' 4000억원으로 확대…생산적 금융 속도",
+          "methods": [
+            "대출"
+          ],
+          "amount": "4000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.ajunews.com/view/20260830094100439",
+          "source": "아주경제"
+        }
+      ]
+    },
+    {
+      "company_name": "NH농협금융",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "1조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-08-30",
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "event": "[창간 기획] NH농협금융, 지역 산업·첨단기술 자금 푼다…방산·AI·에너...",
+          "methods": [
+            "출자"
+          ],
+          "amount": "1조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.g-enews.com/view.php?ud=202605151722361206e30fcb1ba8_1",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "date": "2026-08-30",
+          "event": "NH농협금융, '상생·성장 펀드 2호' 내달 4000억으로 확대 조성",
+          "methods": [
+            "대출"
+          ],
+          "amount": "4000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.newsis.com/view/NISX20260830_0003768144",
+          "source": "뉴시스"
+        },
+        {
+          "date": "2026-08-30",
+          "event": "NH농협금융, ‘상생·성장펀드 2호’ 4000억원으로 확대",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "5000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2619619",
+          "source": "이투데이"
+        },
+        {
+          "date": "2026-08-30",
+          "event": "NH농협금융, '상생·성장 펀드 2호' 4000억원으로 확대",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "4000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.fnnews.com/news/202608301113292106",
+          "source": "파이낸셜뉴스"
+        }
+      ]
+    },
+    {
+      "company_name": "전북 로봇공장 원익로보틱스",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "17조9000억",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "timeline": [
+        {
+          "date": "2026-08-28",
+          "event": "전북 로봇공장 원익로보틱스에 3500억 지원 CJ포디플렉스엔 2200억 투자 ...",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "17조9000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=362358",
+          "source": "이데일리"
+        }
+      ]
+    },
+    {
+      "company_name": "경보제약",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": "200억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "timeline": [
+        {
+          "date": "2026-08-28",
+          "event": "경보제약, 국민성장펀드 200억 대출 승인…바이오 4호 투자",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/08/28/0016",
+          "source": "비즈워치"
+        }
+      ]
+    },
     {
       "company_name": "로봇기업",
       "sector": null,
@@ -6814,32 +7021,6 @@
       ]
     },
     {
-      "company_name": "농협금융",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "1000억",
-      "status_code": "mention",
-      "status_label": "관련 동향",
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-05-27",
-      "timeline": [
-        {
-          "date": "2026-05-27",
-          "event": "농협금융, 1000억 규모 'NH대한민국상생성장펀드 2호' 조성",
-          "methods": [
-            "출자"
-          ],
-          "amount": "1000억",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.news1.kr/finance/general-finance/6178663",
-          "source": "뉴스1"
-        }
-      ]
-    },
-    {
       "company_name": "GP",
       "sector": null,
       "methods": [],
@@ -7032,32 +7213,6 @@
       ]
     },
     {
-      "company_name": "NH농협금융",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "1조",
-      "status_code": "mention",
-      "status_label": "관련 동향",
-      "first_seen": "2026-05-18",
-      "last_seen": "2026-05-18",
-      "timeline": [
-        {
-          "date": "2026-05-18",
-          "event": "[창간 기획] NH농협금융, 지역 산업·첨단기술 자금 푼다…방산·AI·에너...",
-          "methods": [
-            "출자"
-          ],
-          "amount": "1조",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.g-enews.com/view.php?ud=202605151722361206e30fcb1ba8_1",
-          "source": "글로벌이코노믹"
-        }
-      ]
-    },
-    {
       "company_name": "KB인베",
       "sector": null,
       "methods": [],
@@ -7235,30 +7390,6 @@
     }
   ],
   "candidates": [
-    {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, 'OLED 초격차' LG디스플레이에 1.5조 저리대출",
-      "url": "https://www.yna.co.kr/view/AKR20260730152400002?input=1195m",
-      "source": "연합뉴스"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, LG디스플레이 OLED 투자에 1.3조원 지원",
-      "url": "https://www.ajunews.com/view/20260730161509846",
-      "source": "아주경제"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, LGD에 1.5조원 저리 대출…OLED 초격차 가속",
-      "url": "https://biz.heraldcorp.com/article/10826056",
-      "source": "헤럴드경제"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, LG디스플레이 OLED 설비투자에 1.3조 대출",
-      "url": "https://www.mt.co.kr/finance/2026/07/30/2026073016343084114",
-      "source": "머니투데이"
-    },
     {
       "date": "2026-07-30",
       "title": "국민성장펀드, LGD에 1.3조 저리대출…OLED 초격차 지원",
@@ -7834,8 +7965,32 @@
       "title": "AI가 대출금리 깎아준다…뱅크샐러드 “연 이자 930만원 절감”",
       "url": "https://www.sedaily.com/article/20084319",
       "source": "서울경제"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "유동시총 상위 10개 기업 투자 1개월 수익률 15%로 1위 [ETF 줌인]",
+      "url": "https://www.sedaily.com/article/20084567",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "NH농협금융 '상생·성장 펀드 2호' 4000억원으로 확대",
+      "url": "https://view.asiae.co.kr/article/2026083011210903524",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "NH농협금융 ‘상생·성장 펀드 2호’ 1000억에서 4000억으로 증액",
+      "url": "https://biz.chosun.com/stock/finance/2026/08/30/BI4UY6RAKFE2JG6ZWNBFWXQMQU/",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
+      "url": "https://www.mk.co.kr/article/12139880",
+      "source": "매일경제"
     }
   ],
-  "matched_articles_this_run": 239,
+  "matched_articles_this_run": 252,
   "confirmed_deals_count": 16
 }
