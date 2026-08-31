@@ -89,6 +89,7 @@ def parse_csv(text):
     fund_committed = None
     total_amount = None
     total_frontier = None
+    deals = []  # 개별 집행 deal 목록(신규 승인 산출용)
 
     for r in rows[header_idx + 1:]:
         if not any(c.strip() for c in r):
@@ -124,6 +125,16 @@ def parse_csv(text):
         appr = cell(r, "승인일시").strip()
         if appr and (as_of is None or appr > as_of):
             as_of = appr
+        method_label = next((src for src, key in METHOD_COLS if key == cat), "")
+        deals.append({
+            "seq": int(seq),
+            "company": cell(r, "회사명").strip(),
+            "sector": cell(r, "산업분야").strip(),
+            "amount_num": amt,
+            "amount": _fmt_eok(amt),
+            "method": method_label,
+            "date": appr,
+        })
 
     if approved_count == 0:
         raise ValueError("no numbered deals parsed")
@@ -151,6 +162,7 @@ def parse_csv(text):
         "participatory_fund_committed": _fmt_eok(fund_committed) if fund_committed else None,
         "identified_count": approved_count,
         "undisclosed_count": 0,
+        "deals": sorted(deals, key=lambda d: d.get("seq", 0)),
     }
 
 
