@@ -290,8 +290,6 @@ def sec_policy(articles, fund):
             break
     if n == 0:
         L.append("• 특별한 뉴스없음")
-    if n == 0:
-        L.append("• 특별한 뉴스없음")
     funds = (fund.get("funds") or [])
     funds = sorted(funds, key=lambda f: f.get("last_updated", ""), reverse=True)[:4]
     if funds:
@@ -307,12 +305,31 @@ def sec_policy(articles, fund):
     return "\n".join(L)
 
 
-def _kgf_news(articles):
-    """국민성장펀드 관련 뉴스(집행추적과 별개 기사)."""
-    keys = ("국민성장펀드", "국민참여성장펀드")
-    hits = [a for a in recent(articles or [])
-            if any(k in (a.get("title", "") + (a.get("summary") or "")) for k in keys)]
-    return dedupe_stories(hits)
+# 국민성장펀드 '추가 집행' 보도 탐지(대시보드 미반영 점검용 최소 경보).
+# 정본=구글시트 수동 갱신이므로, 뉴스로 새 집행이 잡히면 반영 여부만 확인하도록 알린다.
+_KGF_KEYS = ("국민성장펀드", "국민참여성장펀드")
+_KGF_EXEC = ("직접투자", "저리대출", "정책대출", "인프라", "집행", "의결", "승인", "선정",
+             "출자", "지원", "투자", "대출")
+_KGF_NEG = ("사설", "칼럼", "기고", "오피니언", "마중물", "전망대", "데스크", "취재수첩", "기자수첩",
+            "포럼", "확대", "증액", "2호", "상생·성장", "상생성장", "뱅크샐러드", "연임", "홈런",
+            "대해부", "질서 회복", "200조", "브리핑", "걸림돌", "중복상장", "수출입은행")
+
+
+def _kgf_exec_alert(articles):
+    """국민성장펀드 추가 집행으로 '보도된' 건(회사+금액+집행신호). 대시보드 반영 여부 점검용."""
+    cand = []
+    for a in recent(articles or []):
+        t = a.get("title", "") + " " + (a.get("summary") or "")
+        if not any(k in t for k in _KGF_KEYS):
+            continue
+        if any(j in t for j in _KGF_NEG):
+            continue
+        if not any(e in t for e in _KGF_EXEC):
+            continue
+        if not re.search(r"\d+(?:\.\d+)?\s*조|\d[\d,]*\s*억", t):
+            continue
+        cand.append(a)
+    return dedupe_stories(cand)
 
 
 def sec_kgf(kgf, articles=None):
@@ -331,12 +348,16 @@ def sec_kgf(kgf, articles=None):
              f"저리대출 {bd('low_interest_loan')} · 간접펀드 {bd('indirect_fund')}. "
              f"첨단전략산업기금 {agg.get('frontier_fund_amount','')} 포함_",
              "세부현황: <https://national-growth-fund.web.app/|국민성장펀드 집행현황 대시보드>"]
-    news = _kgf_news(articles)
-    if news:
+    alert = _kgf_exec_alert(articles)
+    if alert:
+        as_of = agg.get("as_of", "")
         L.append("")
-        L.append("_국민성장펀드 관련 뉴스_")
-        for a in news[:3]:
-            L.append(f"• {a.get('title','').strip()} <{a.get('url')}|{medialabel(a.get('url'), a.get('source_label'))}>")
+        L.append(f"⚠️ *추가 집행 보도 — 대시보드 미반영 점검* (대시보드 기준 {as_of})")
+        for a in alert[:3]:
+            d = kst_dt(a.get("published_at", ""))
+            ds = d.strftime("%m.%d") if d else ""
+            L.append(f"• [{ds}] {a.get('title','').strip()} <{a.get('url')}|{medialabel(a.get('url'), a.get('source_label'))}>")
+        L.append("_↑ 뉴스로 보도된 집행 건. 대시보드 반영 여부 확인 후 구글시트 수동 갱신 요망._")
     return "\n".join(L)
 
 
