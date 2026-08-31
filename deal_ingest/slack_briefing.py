@@ -348,16 +348,32 @@ def sec_kgf(kgf, articles=None):
              f"저리대출 {bd('low_interest_loan')} · 간접펀드 {bd('indirect_fund')}. "
              f"첨단전략산업기금 {agg.get('frontier_fund_amount','')} 포함_",
              "세부현황: <https://national-growth-fund.web.app/|국민성장펀드 집행현황 대시보드>"]
-    alert = _kgf_exec_alert(articles)
-    if alert:
+    # (1) 시트에 새로 반영된 신규 승인 — 정본(구글시트) 기준, 요약
+    new_appr = kgf.get("new_approvals") or []
+    if new_appr:
         as_of = agg.get("as_of", "")
+        tot = sum(d.get("amount_num", 0) or 0 for d in new_appr)
+        jo, rem = divmod(tot, 10000)
+        tot_str = (f"{jo}조{rem:,}억원" if jo and rem else f"{jo}조원" if jo else f"{tot:,}억원")
         L.append("")
-        L.append(f"⚠️ *추가 집행 보도 — 대시보드 미반영 점검* (대시보드 기준 {as_of})")
-        for a in alert[:3]:
-            d = kst_dt(a.get("published_at", ""))
-            ds = d.strftime("%m.%d") if d else ""
-            L.append(f"• [{ds}] {a.get('title','').strip()} <{a.get('url')}|{medialabel(a.get('url'), a.get('source_label'))}>")
-        L.append("_↑ 뉴스로 보도된 집행 건. 대시보드 반영 여부 확인 후 구글시트 수동 갱신 요망._")
+        L.append(f"🆕 *신규 승인 {len(new_appr)}건 · {tot_str}* (시트 반영 기준 {as_of})")
+        for d in new_appr[:10]:
+            comp = d.get("company", ""); amt = d.get("amount", "")
+            meth = d.get("method", ""); dt = d.get("date", "")
+            sec = f" · {d.get('sector')}" if d.get("sector") else ""
+            L.append(f"• {comp} — {amt} ({meth}{sec}, {dt})")
+    else:
+        # (2) 시트 미반영 상태에서 뉴스로 집행이 잡히면 점검 알림(직전 발송 이후)
+        alert = _kgf_exec_alert(articles)
+        if alert:
+            as_of = agg.get("as_of", "")
+            L.append("")
+            L.append(f"⚠️ *추가 집행 보도 — 대시보드 미반영 점검* (대시보드 기준 {as_of})")
+            for a in alert[:3]:
+                d = kst_dt(a.get("published_at", ""))
+                ds = d.strftime("%m.%d") if d else ""
+                L.append(f"• [{ds}] {a.get('title','').strip()} <{a.get('url')}|{medialabel(a.get('url'), a.get('source_label'))}>")
+            L.append("_↑ 뉴스로 보도된 집행 건. 대시보드 반영 여부 확인 후 구글시트 수동 갱신 요망._")
     return "\n".join(L)
 
 
