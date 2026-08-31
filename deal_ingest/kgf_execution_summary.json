@@ -1,40 +1,377 @@
 {
-  "generated_at": "2026-08-30T22:11:10.703086+00:00",
+  "generated_at": "2026-08-31T22:11:13.899648+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
-  "aggregate_source": "구글시트 동기화 (as_of 2026.07)",
+  "aggregate_source": "구글시트 동기화 (as_of 2026.08)",
   "lookback_days": 90,
   "version": 2,
   "aggregate": {
-    "as_of": "2026.07",
+    "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-30T22:11:10.703058+00:00",
-    "approved_count": 23,
-    "cumulative_amount": "17조6,493억원",
-    "frontier_fund_amount": "7조295억원",
+    "sheet_synced_at": "2026-08-31T22:11:13.899604+00:00",
+    "approved_count": 30,
+    "cumulative_amount": "19조9,469억원",
+    "frontier_fund_amount": "8조4,195억원",
     "breakdown": {
       "direct_investment": {
-        "count": 4,
-        "amount": "2조4,600억원"
+        "count": 5,
+        "amount": "2조8,100억원"
       },
       "indirect_fund": {
-        "count": 1,
-        "amount": "5,000억원(결성 7,200억원)"
+        "count": 2,
+        "amount": "9,800억원(결성 7,200억원)"
       },
       "infrastructure": {
         "count": 4,
         "amount": "6조8,662억원"
       },
       "low_interest_loan": {
-        "count": 14,
-        "amount": "7조1,031억원"
+        "count": 19,
+        "amount": "8조5,707억원"
       }
     },
     "participatory_fund_committed": "7,200억원",
-    "identified_count": 23,
-    "undisclosed_count": 0
+    "identified_count": 30,
+    "undisclosed_count": 0,
+    "deals": [
+      {
+        "seq": 1,
+        "company": "신안우이해상풍력",
+        "sector": "재생에너지",
+        "amount_num": 34000,
+        "amount": "3조4,000억원",
+        "method": "인프라",
+        "date": "2026.01"
+      },
+      {
+        "seq": 2,
+        "company": "삼성전자 평택5라인",
+        "sector": "반도체(공장증설)",
+        "amount_num": 25000,
+        "amount": "2조5,000억원",
+        "method": "저리대출",
+        "date": "2026.02"
+      },
+      {
+        "seq": 3,
+        "company": "이수스페셜티케미컬",
+        "sector": "이차전지(전고체)",
+        "amount_num": 1000,
+        "amount": "1,000억원",
+        "method": "저리대출",
+        "date": "2026.02"
+      },
+      {
+        "seq": 4,
+        "company": "리벨리온",
+        "sector": "소버린AI",
+        "amount_num": 6000,
+        "amount": "6,000억원",
+        "method": "직접투자",
+        "date": "2026.03"
+      },
+      {
+        "seq": 5,
+        "company": "포스코퓨처엠(퓨처그라프)",
+        "sector": "이차전지(음극재)",
+        "amount_num": 2500,
+        "amount": "2,500억원",
+        "method": "저리대출",
+        "date": "2026.04"
+      },
+      {
+        "seq": 6,
+        "company": "업스테이지",
+        "sector": "소버린AI",
+        "amount_num": 5600,
+        "amount": "5,600억원",
+        "method": "직접투자",
+        "date": "2026.04"
+      },
+      {
+        "seq": 7,
+        "company": "국가AI컴퓨팅센터",
+        "sector": "소버린AI",
+        "amount_num": 4000,
+        "amount": "4,000억원",
+        "method": "인프라",
+        "date": "2026.04"
+      },
+      {
+        "seq": 8,
+        "company": "에스티젠바이오(비티젠)",
+        "sector": "제약바이오(CDMO)",
+        "amount_num": 850,
+        "amount": "850억원",
+        "method": "저리대출",
+        "date": "2026.04"
+      },
+      {
+        "seq": 9,
+        "company": "후성",
+        "sector": "반도체(불화수소)",
+        "amount_num": 165,
+        "amount": "165억원",
+        "method": "저리대출",
+        "date": "2026.04"
+      },
+      {
+        "seq": 10,
+        "company": "샘씨엔에스",
+        "sector": "반도체(검사장비)",
+        "amount_num": 200,
+        "amount": "200억원",
+        "method": "저리대출",
+        "date": "2026.04"
+      },
+      {
+        "seq": 11,
+        "company": "네이버",
+        "sector": "AI데이터센터",
+        "amount_num": 4000,
+        "amount": "4,000억원",
+        "method": "저리대출",
+        "date": "2026.04"
+      },
+      {
+        "seq": 12,
+        "company": "퓨리오사AI",
+        "sector": "소버린AI",
+        "amount_num": 8000,
+        "amount": "8,000억원",
+        "method": "직접투자",
+        "date": "2026.05"
+      },
+      {
+        "seq": 13,
+        "company": "SK바이오사이언스",
+        "sector": "제약바이오(3상)",
+        "amount_num": 3000,
+        "amount": "3,000억원",
+        "method": "저리대출",
+        "date": "2026.05"
+      },
+      {
+        "seq": 14,
+        "company": "스마일게이트",
+        "sector": "AI데이터센터",
+        "amount_num": 27962,
+        "amount": "2조7,962억원",
+        "method": "인프라",
+        "date": "2026.05"
+      },
+      {
+        "seq": 15,
+        "company": "근우",
+        "sector": "전력기기",
+        "amount_num": 200,
+        "amount": "200억원",
+        "method": "저리대출",
+        "date": "2026.05"
+      },
+      {
+        "seq": 16,
+        "company": "엘엔에프플러스",
+        "sector": "이차전지(양극재)",
+        "amount_num": 2200,
+        "amount": "2,200억원",
+        "method": "저리대출",
+        "date": "2026.05"
+      },
+      {
+        "seq": 17,
+        "company": "영양육상풍력(GS E&R/네이버)",
+        "sector": "재생에너지",
+        "amount_num": 2700,
+        "amount": "2,700억원",
+        "method": "인프라",
+        "date": "2026.06"
+      },
+      {
+        "seq": 18,
+        "company": "LS전선",
+        "sector": "전력기기",
+        "amount_num": 800,
+        "amount": "800억원",
+        "method": "저리대출",
+        "date": "2026.06"
+      },
+      {
+        "seq": 19,
+        "company": "심텍",
+        "sector": "반도체(메모리기판)",
+        "amount_num": 200,
+        "amount": "200억원",
+        "method": "저리대출",
+        "date": "2026.06"
+      },
+      {
+        "seq": 20,
+        "company": "리가캠바이오사이언스",
+        "sector": "제약바이오(2.3상)",
+        "amount_num": 5000,
+        "amount": "5,000억원",
+        "method": "직접투자",
+        "date": "2026.06"
+      },
+      {
+        "seq": 21,
+        "company": "LIG D&A",
+        "sector": "방산",
+        "amount_num": 5000,
+        "amount": "5,000억원",
+        "method": "간접투자",
+        "date": "2026.06"
+      },
+      {
+        "seq": 22,
+        "company": "LG디스플레이",
+        "sector": "OLED",
+        "amount_num": 30000,
+        "amount": "3조원",
+        "method": "저리대출",
+        "date": "2026.07"
+      },
+      {
+        "seq": 23,
+        "company": "테크윙",
+        "sector": "반도체(검사장비)",
+        "amount_num": 916,
+        "amount": "916억원",
+        "method": "저리대출",
+        "date": "2026.07"
+      },
+      {
+        "seq": 24,
+        "company": "원익로보틱스",
+        "sector": "로봇",
+        "amount_num": 3500,
+        "amount": "3,500억원",
+        "method": "직접투자",
+        "date": "2026.08"
+      },
+      {
+        "seq": 25,
+        "company": "씨제이포디플렉스",
+        "sector": "K-콘텐츠",
+        "amount_num": 4800,
+        "amount": "4,800억원",
+        "method": "간접투자",
+        "date": "2026.08"
+      },
+      {
+        "seq": 26,
+        "company": "두산테스나",
+        "sector": "반도체(테스트공정)",
+        "amount_num": 8554,
+        "amount": "8,554억원",
+        "method": "저리대출",
+        "date": "2026.08"
+      },
+      {
+        "seq": 27,
+        "company": "엘지에너지솔루션",
+        "sector": "이차전지",
+        "amount_num": 3769,
+        "amount": "3,769억원",
+        "method": "저리대출",
+        "date": "2026.08"
+      },
+      {
+        "seq": 28,
+        "company": "TKG솔믹스",
+        "sector": "반도체(장비용소재)",
+        "amount_num": 1822,
+        "amount": "1,822억원",
+        "method": "저리대출",
+        "date": "2026.08"
+      },
+      {
+        "seq": 29,
+        "company": "경보제약",
+        "sector": "바이오",
+        "amount_num": 406,
+        "amount": "406억원",
+        "method": "저리대출",
+        "date": "2026.08"
+      },
+      {
+        "seq": 30,
+        "company": "삼동",
+        "sector": "전기차(모터)",
+        "amount_num": 125,
+        "amount": "125억원",
+        "method": "저리대출",
+        "date": "2026.08"
+      }
+    ]
   },
+  "new_approvals": [
+    {
+      "seq": 24,
+      "company": "원익로보틱스",
+      "sector": "로봇",
+      "amount_num": 3500,
+      "amount": "3,500억원",
+      "method": "직접투자",
+      "date": "2026.08"
+    },
+    {
+      "seq": 25,
+      "company": "씨제이포디플렉스",
+      "sector": "K-콘텐츠",
+      "amount_num": 4800,
+      "amount": "4,800억원",
+      "method": "간접투자",
+      "date": "2026.08"
+    },
+    {
+      "seq": 26,
+      "company": "두산테스나",
+      "sector": "반도체(테스트공정)",
+      "amount_num": 8554,
+      "amount": "8,554억원",
+      "method": "저리대출",
+      "date": "2026.08"
+    },
+    {
+      "seq": 27,
+      "company": "엘지에너지솔루션",
+      "sector": "이차전지",
+      "amount_num": 3769,
+      "amount": "3,769억원",
+      "method": "저리대출",
+      "date": "2026.08"
+    },
+    {
+      "seq": 28,
+      "company": "TKG솔믹스",
+      "sector": "반도체(장비용소재)",
+      "amount_num": 1822,
+      "amount": "1,822억원",
+      "method": "저리대출",
+      "date": "2026.08"
+    },
+    {
+      "seq": 29,
+      "company": "경보제약",
+      "sector": "바이오",
+      "amount_num": 406,
+      "amount": "406억원",
+      "method": "저리대출",
+      "date": "2026.08"
+    },
+    {
+      "seq": 30,
+      "company": "삼동",
+      "sector": "전기차(모터)",
+      "amount_num": 125,
+      "amount": "125억원",
+      "method": "저리대출",
+      "date": "2026.08"
+    }
+  ],
   "undisclosed_count": 0,
   "confirmed_deals": [
     {
@@ -1646,6 +1983,66 @@
           "status_label": "검토단계",
           "url": "https://www.news1.kr/bio/pharmaceutical-bio/6207704",
           "source": "뉴스1"
+        },
+        {
+          "date": "2026-08-31",
+          "event": "\"ADC 확장\"…국민성장펀드가 택한 바이오 '이곳'",
+          "methods": [
+            "대출"
+          ],
+          "amount": "3000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.newsis.com/view/NISX20260831_0003768900",
+          "source": "뉴시스"
+        },
+        {
+          "date": "2026-08-31",
+          "event": "국민성장펀드, 경보제약에 200억 지원…리가켐 이어 'ADC' 두 번째",
+          "methods": [
+            "대출"
+          ],
+          "amount": "3000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.mt.co.kr/thebio/2026/09/01/2026083109391754609",
+          "source": "머니투데이"
+        },
+        {
+          "date": "2026-08-31",
+          "event": "국민성장펀드 이번에는 'ADC CDMO' 경보제약",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=362419",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-08-31",
+          "event": "국민성장펀드, 경보제약에 200억원 지원…신사업 지원",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432661",
+          "source": "연합인포맥스"
+        },
+        {
+          "date": "2026-09-01",
+          "event": "국민성장펀드, 경보제약에 200억 투자",
+          "methods": [
+            "대출"
+          ],
+          "amount": "3000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.mt.co.kr/thebio/2026/09/01/2026083119570830872",
+          "source": "머니투데이"
         }
       ]
     },
@@ -2279,6 +2676,16 @@
           "status_label": "관련 동향",
           "url": "https://www.fntimes.com/html/view.php?ud=202608282312584948dd55077bc2_18",
           "source": "한국금융신문"
+        },
+        {
+          "date": "2026-09-01",
+          "event": "'K-NPU' 리벨·퓨리·딥엑스, 정부계약 시험대…독자 생존력 입증 변수",
+          "methods": [],
+          "amount": "8000억 원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.news1.kr/industry/sb-founded/6274704",
+          "source": "뉴스1"
         }
       ]
     },
@@ -2768,6 +3175,28 @@
   ],
   "news_discovered": [
     {
+      "company_name": "청년미래적금",
+      "sector": null,
+      "methods": [],
+      "amount": "9조2417억",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "timeline": [
+        {
+          "date": "2026-09-01",
+          "event": "금융위 내년 예산 9조2417억원…‘청년미래적금’ 1조7000억원 편성",
+          "methods": [],
+          "amount": "9조2417억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://biz.chosun.com/stock/finance/2026/09/01/RHBL5EMKKFEFDCLYWTPHTYJBBA/",
+          "source": "조선일보"
+        }
+      ]
+    },
+    {
       "company_name": "수출입",
       "sector": null,
       "methods": [
@@ -2790,6 +3219,68 @@
           "status_label": "검토단계",
           "url": "https://dealsite.co.kr/articles/168005",
           "source": "딜인사이트"
+        }
+      ]
+    },
+    {
+      "company_name": "경보제약",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": "200억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
+      "timeline": [
+        {
+          "date": "2026-08-28",
+          "event": "경보제약, 국민성장펀드 200억 대출 승인…바이오 4호 투자",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/08/28/0016",
+          "source": "비즈워치"
+        },
+        {
+          "date": "2026-08-31",
+          "event": "국민성장펀드, 경보제약에 200억원 저리대출…ADC 생산시설 구축 지원",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://biz.chosun.com/science-chosun/bio/2026/08/31/EGNOX745KNA5BNSIJ46TQ6YJWM/",
+          "source": "조선일보"
+        },
+        {
+          "date": "2026-08-31",
+          "event": "국민성장펀드, 경보제약에 200억 지원…ADC 생산 인프라까지 투자 넓힌...",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.mk.co.kr/article/12140319",
+          "source": "매일경제"
+        },
+        {
+          "date": "2026-08-31",
+          "event": "국민성장펀드, 경보제약에 200억원 지원…ADC CDMO 진출 속도",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=04100006645552896&mediaCodeNo=257",
+          "source": "이데일리"
         }
       ]
     },
@@ -2935,32 +3426,6 @@
           "status_label": "관련 동향",
           "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=362358",
           "source": "이데일리"
-        }
-      ]
-    },
-    {
-      "company_name": "경보제약",
-      "sector": null,
-      "methods": [
-        "대출"
-      ],
-      "amount": "200억원",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
-      "timeline": [
-        {
-          "date": "2026-08-28",
-          "event": "경보제약, 국민성장펀드 200억 대출 승인…바이오 4호 투자",
-          "methods": [
-            "대출"
-          ],
-          "amount": "200억원",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/08/28/0016",
-          "source": "비즈워치"
         }
       ]
     },
@@ -7392,18 +7857,6 @@
   "candidates": [
     {
       "date": "2026-07-30",
-      "title": "국민성장펀드, LGD에 1.3조 저리대출…OLED 초격차 지원",
-      "url": "https://view.asiae.co.kr/article/2026073016532740401",
-      "source": "아시아경제"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "[더벨][thebell desk] 국민성장펀드, 마중물은 흘러야 한다",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607270924541440102290",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-07-30",
       "title": "국민성장펀드, LG디스플레이에 1.3조 저리대출",
       "url": "http://www.fnnews.com/news/202607301843283927",
       "source": "파이낸셜뉴스"
@@ -7989,8 +8442,20 @@
       "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
       "url": "https://www.mk.co.kr/article/12139880",
       "source": "매일경제"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "[기자24시] 정책펀드 만능주의의 그늘",
+      "url": "https://www.mk.co.kr/article/12140539",
+      "source": "매일경제"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "[국민성장펀드] 5조 예상하던 1-2차 자펀드…11조 돈벼락 맞았다",
+      "url": "https://dealsite.co.kr/articles/167810",
+      "source": "딜인사이트"
     }
   ],
-  "matched_articles_this_run": 252,
+  "matched_articles_this_run": 264,
   "confirmed_deals_count": 16
 }

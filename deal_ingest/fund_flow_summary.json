@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-30T22:11:09.779635+00:00",
+  "generated_at": "2026-08-31T22:11:13.034981+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 338,
+  "total_policy_articles": 357,
   "matched_funds_count": 2,
-  "unmatched_count": 86,
+  "unmatched_count": 92,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-08-31",
-      "event_count": 251,
+      "last_updated": "2026-09-01",
+      "event_count": 263,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -2774,17 +2774,149 @@
           "summary": "28일 투자은행(IB) 업계에 따르면 수출입은행은 조만간 사모펀드(PEF)와 VC 부문을 대상으로 총 3000억원 규모의... 펀드 위탁운용사(GP) 지위를 확보했다. 국민성장펀드 앵커 자금을 확보한 대형사들이 이미 펀드 결성을...",
           "url": "https://dealsite.co.kr/articles/168005",
           "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T09:11:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "850억원",
+          "title": "\"ADC 확장\"…국민성장펀드가 택한 바이오 '이곳'",
+          "summary": "앞서 국민성장펀드는 지난 4월 비티젠에 대한 850억원 규모 저리대출, 5월 SK바이오사이언스에 대해 3000억원의 저리대출, 6월 리가켐바이오에 대한 2500억원 직접투자를 결정한 바 있다. 바이오기업 중 저리대출로는...",
+          "url": "https://www.newsis.com/view/NISX20260831_0003768900",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T09:13:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억원",
+          "title": "국민성장펀드, 경보제약에 200억원 저리대출…ADC 생산시설 구축 지원",
+          "summary": "리가켐 이어 경보제약…국민성장펀드, ADC에 두 번째 자금 투입 국민성장펀드가 항체약물접합체(ADC) 전용 생산시설 구축을 추진하는 경보제약에 200억원 규모의 저리대출을 지원한다. ADC 개발기업에 대한 투자를...",
+          "url": "https://biz.chosun.com/science-chosun/bio/2026/08/31/EGNOX745KNA5BNSIJ46TQ6YJWM/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T09:55:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억",
+          "title": "국민성장펀드, 경보제약에 200억 지원…리가켐 이어 'ADC' 두 번째",
+          "summary": "앞서 국민성장펀드는 지난 4월 비티젠에 대한 850억원 규모 저리 대출, 5월 SK바이오사이언스에 대해 3000억원의 저리 대출, 6월 리가켐바이오에 대한 2500억원 직접투자를 결정한 바 있다. 바이오기업 중 저리 대출로는...",
+          "url": "https://www.mt.co.kr/thebio/2026/09/01/2026083109391754609",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T11:12:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억원",
+          "title": "국민성장펀드 이번에는 'ADC CDMO' 경보제약",
+          "summary": "31일 업계에 따르면 지난 27일 국민성장펀드 기금운용위원회가 경보제약에 대해 첨단전략산업기금 200억원 저리대출 지원을 승인했다. 이로써 경보제약은 제약·바이오 분야에서 비티젠, SK바이오사이언스...",
+          "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=362419",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T13:42:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억원",
+          "title": "국민성장펀드, 경보제약에 200억원 지원…신사업 지원",
+          "summary": "자금지원(저리대출)을 승인했다. 지난 4월 비티젠, 5월 SK바이오사이언스, 6월 리가켐바이오 등을 이어 국민성장펀드의 바이오 분야 네 번째 투자기업이다. 경보제약은 종근당그룹 계열사이자 종근당홀딩스[001630]...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432661",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T14:13:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억",
+          "title": "국민성장펀드, 경보제약에 200억 지원…ADC 생산 인프라까지 투자 넓힌...",
+          "summary": "31일 업계에 따르면 국민성장펀드 기금운용위원회는 지난 27일 경보제약에 대한 200억원 규모의 저리대출을 승인했다. 경보제약은 기존 원료·완제의약품 생산 경험을 기반으로 ADC 사업에 새롭게 진출하기 위해...",
+          "url": "https://www.mk.co.kr/article/12140319",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T17:20:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[기자24시] 정책펀드 만능주의의 그늘",
+          "summary": "또 투자를 요청한 기업마다 자금이 필요한 시점이 제각각이라 집행까지 시차가 생길 순 있다. 문제는 국민성장펀드가 이제 막 걸음마를 떼고 있는데, 다른 정부부처들이 비슷한 기능의 펀드와 기금을 경쟁적으로...",
+          "url": "https://www.mk.co.kr/article/12140539",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-08-31",
+          "published_at": "2026-08-31T18:13:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억원",
+          "title": "국민성장펀드, 경보제약에 200억원 지원…ADC CDMO 진출 속도",
+          "summary": "따르면 국민성장펀드 기금운용위원회는 지난 27일 충남 소재 경보제약에 대한 200억원 규모의 저리대출을 승인했다. 경보제약은 ADC 사업 신규 진출을 위해 첨단전략산업기금에 해당 자금을 신청했다. 이번...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=04100006645552896&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-09-01",
+          "published_at": "2026-09-01T03:58:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200억",
+          "title": "국민성장펀드, 경보제약에 200억 투자",
+          "summary": "앞서 국민성장펀드는 △지난 4월 비티젠에 850억원 규모의 저리대출 △5월 SK바이오사이언스에 3000억원의 저리대출 △6월 리가켐바이오에 2500억원의 직접투자를 결정했다. 바이오기업 중 저리대출로는 세 번째...",
+          "url": "https://www.mt.co.kr/thebio/2026/09/01/2026083119570830872",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-09-01",
+          "published_at": "2026-09-01T06:01:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "9조2417억",
+          "title": "금융위 내년 예산 9조2417억원…‘청년미래적금’ 1조7000억원 편성",
+          "summary": "예산안에는 국민성장펀드와 청년미래적금 등 미래대응기금 사업 예산 3조5000억원, 불공정거래·회계부정... 인공지능(AI)·반도체 등 첨단전략산업에 투자하는 국민성장펀드에 재정 1조원을 투입한다. 재정이...",
+          "url": "https://biz.chosun.com/stock/finance/2026/09/01/RHBL5EMKKFEFDCLYWTPHTYJBBA/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-09-01",
+          "published_at": "2026-09-01T06:10:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8000억 원",
+          "title": "'K-NPU' 리벨·퓨리·딥엑스, 정부계약 시험대…독자 생존력 입증 변수",
+          "summary": "엣지 컴퓨팅 가속용 AI 추론 모듈'(DX-M1·DX-H1 시리즈) 등은 각각 최근 과학기술정보통신부의... 'K-NPU' 사업성 입증 경쟁…해외 데이터센터 공략 퓨리오사AI는 국민성장펀드와 민간 자금 기반의 8000억 원 안팎의...",
+          "url": "https://www.news1.kr/industry/sb-founded/6274704",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-09-01",
+          "published_at": "2026-09-01T07:02:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "5조",
+          "title": "[국민성장펀드] 5조 예상하던 1-2차 자펀드…11조 돈벼락 맞았다",
+          "summary": "민간 기관투자가의 출자 참여가 순조롭게 이어지면서 GP로 선정된 운용사 대부분이 펀드 결성 상한액인 하드캡 수준까지 자금을 확보한 것으로 파악됐다. 공적 출자금 1조3850억원에 민간 매칭 자금이 대거...",
+          "url": "https://dealsite.co.kr/articles/167810",
+          "source_label": "딜인사이트"
         }
       ]
     },
     {
       "fund_name": "성장사다리펀드",
-      "current_stage_code": "gp_open",
-      "current_stage_label": "GP 모집",
-      "next_expected_event": "뷰티콘테스트 / GP 심사",
+      "current_stage_code": "closed",
+      "current_stage_label": "결성 완료",
+      "next_expected_event": "(완료)",
       "first_seen": "2026-08-13",
-      "last_updated": "2026-08-13",
-      "event_count": 1,
+      "last_updated": "2026-09-01",
+      "event_count": 2,
       "timeline": [
         {
           "date": "2026-08-13",
@@ -2796,6 +2928,17 @@
           "summary": "한국성장금융투자운용이 2026년 성장사다리펀드2 출자사업의 세 번째 위탁운용사(GP) 명단을 발표했다. 13일... 두 출자기관을 합쳐 자펀드당 250억 원을 출자한다. 선정 운용사는 500억 원 이상의 펀드를 조성해야 한다....",
           "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430014",
           "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-09-01",
+          "published_at": "2026-09-01T07:02:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "1000억",
+          "title": "[더벨]인라이트벤처스, 1000억 지역펀드 결성",
+          "summary": "위탁운용사(GP)로 선정돼 400억원을 확보했다. 추가로 한국성장금융 성장사다리펀드2 기후대응 자율제안 분야 출자사업을 따내면서 200억원을 추가했다. 여기에 금융기관, 지방자치단체, 민간기업 등이 출자자(LP)로...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608310801382140102913",
+          "source_label": "더벨"
         }
       ]
     }
