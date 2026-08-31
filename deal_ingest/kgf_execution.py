@@ -428,6 +428,22 @@ def run(db_path, out_path, days_back=90):
     except Exception:
         pass
 
+    # 신규 승인 산출: 시트 딜 목록을 직전 실행분과 비교 → 새로 추가된 건만.
+    # 첫 실행(직전 목록 없음)엔 '최신 승인월' 딜을 신규로 간주(부트스트랩).
+    def _dkey(d):
+        return f"{d.get('company','')}|{d.get('date','')}|{d.get('amount_num','')}"
+    cur_deals = aggregate.get("deals") or []
+    prev_deals = ((existing.get("aggregate") or {}).get("deals")) or []
+    new_approvals = []
+    if cur_deals:
+        prev_keys = {_dkey(d) for d in prev_deals}
+        if prev_keys:
+            new_approvals = [d for d in cur_deals if _dkey(d) not in prev_keys]
+        else:
+            mx = max((d.get("date", "") for d in cur_deals), default="")
+            new_approvals = [d for d in cur_deals if d.get("date") == mx] if mx else []
+        new_approvals = sorted(new_approvals, key=lambda d: d.get("seq", 0))
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "fund_name": "국민성장펀드",
@@ -437,6 +453,7 @@ def run(db_path, out_path, days_back=90):
         "lookback_days": days_back,
         "version": 2,
         "aggregate": aggregate,
+        "new_approvals": new_approvals,
         "undisclosed_count": aggregate.get("undisclosed_count", 0),
         "confirmed_deals": confirmed,
         "news_discovered": discovered,
