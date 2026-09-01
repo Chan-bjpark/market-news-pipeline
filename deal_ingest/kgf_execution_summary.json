@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T22:11:13.899648+00:00",
+  "generated_at": "2026-09-01T22:11:34.777270+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-08-31T22:11:13.899604+00:00",
+    "sheet_synced_at": "2026-09-01T22:11:34.777180+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -307,71 +307,7 @@
       }
     ]
   },
-  "new_approvals": [
-    {
-      "seq": 24,
-      "company": "원익로보틱스",
-      "sector": "로봇",
-      "amount_num": 3500,
-      "amount": "3,500억원",
-      "method": "직접투자",
-      "date": "2026.08"
-    },
-    {
-      "seq": 25,
-      "company": "씨제이포디플렉스",
-      "sector": "K-콘텐츠",
-      "amount_num": 4800,
-      "amount": "4,800억원",
-      "method": "간접투자",
-      "date": "2026.08"
-    },
-    {
-      "seq": 26,
-      "company": "두산테스나",
-      "sector": "반도체(테스트공정)",
-      "amount_num": 8554,
-      "amount": "8,554억원",
-      "method": "저리대출",
-      "date": "2026.08"
-    },
-    {
-      "seq": 27,
-      "company": "엘지에너지솔루션",
-      "sector": "이차전지",
-      "amount_num": 3769,
-      "amount": "3,769억원",
-      "method": "저리대출",
-      "date": "2026.08"
-    },
-    {
-      "seq": 28,
-      "company": "TKG솔믹스",
-      "sector": "반도체(장비용소재)",
-      "amount_num": 1822,
-      "amount": "1,822억원",
-      "method": "저리대출",
-      "date": "2026.08"
-    },
-    {
-      "seq": 29,
-      "company": "경보제약",
-      "sector": "바이오",
-      "amount_num": 406,
-      "amount": "406억원",
-      "method": "저리대출",
-      "date": "2026.08"
-    },
-    {
-      "seq": 30,
-      "company": "삼동",
-      "sector": "전기차(모터)",
-      "amount_num": 125,
-      "amount": "125억원",
-      "method": "저리대출",
-      "date": "2026.08"
-    }
-  ],
+  "new_approvals": [],
   "undisclosed_count": 0,
   "confirmed_deals": [
     {
@@ -916,6 +852,18 @@
           "status_label": "관련 동향",
           "url": "https://www.edaily.co.kr/News/Read?newsId=01735126645551912&mediaCodeNo=257",
           "source": "이데일리"
+        },
+        {
+          "date": "2026-09-01",
+          "event": "'장기 인내자본' 다음은…국민성장펀드 2.8조 '엑시트 딜레마'",
+          "methods": [
+            "출자"
+          ],
+          "amount": "8조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432747",
+          "source": "연합인포맥스"
         }
       ]
     },
@@ -3175,6 +3123,32 @@
   ],
   "news_discovered": [
     {
+      "company_name": "업계",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "5000억원",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "timeline": [
+        {
+          "date": "2026-09-02",
+          "event": "[Invest]방산 비리에 발목 잡힌 LIG D&A…투자업계 시선도 깐깐",
+          "methods": [
+            "출자"
+          ],
+          "amount": "5000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/01/2026090180148.html",
+          "source": "인베스트조선"
+        }
+      ]
+    },
+    {
       "company_name": "청년미래적금",
       "sector": null,
       "methods": [],
@@ -3193,6 +3167,137 @@
           "status_label": "관련 동향",
           "url": "https://biz.chosun.com/stock/finance/2026/09/01/RHBL5EMKKFEFDCLYWTPHTYJBBA/",
           "source": "조선일보"
+        }
+      ]
+    },
+    {
+      "company_name": "확대",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "1500억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-09-01",
+      "timeline": [
+        {
+          "date": "2026-07-22",
+          "event": "정부, 1500억원 K컬처 펀드 조성…대형 콘텐츠 투자 확대",
+          "methods": [
+            "출자"
+          ],
+          "amount": "1500억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://view.asiae.co.kr/article/2026072206375114532",
+          "source": "아시아경제"
+        },
+        {
+          "date": "2026-09-01",
+          "event": "국민성장펀드에 재정 1조원…우주항공 등 투자 대상 확대 [2027예산]",
+          "methods": [
+            "대출"
+          ],
+          "amount": "17조9000억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2620488",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "company_name": "두배",
+      "sector": null,
+      "methods": [],
+      "amount": "2조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "timeline": [
+        {
+          "date": "2026-09-01",
+          "event": "금융위 내년 예산 9.2조 '두배'…청년·서민에 쏟아붓는다",
+          "methods": [],
+          "amount": "2조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/09/01/0006",
+          "source": "비즈워치"
+        }
+      ]
+    },
+    {
+      "company_name": "성장·서민·청년",
+      "sector": null,
+      "methods": [],
+      "amount": "2조",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "timeline": [
+        {
+          "date": "2026-09-01",
+          "event": "금융위 내년 예산 2배 늘어난 9.2조…'성장·서민·청년'에 방점[2027 예...",
+          "methods": [],
+          "amount": "2조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.newsis.com/view/NISX20260901_0003770415",
+          "source": "뉴시스"
+        }
+      ]
+    },
+    {
+      "company_name": "청년 지원",
+      "sector": null,
+      "methods": [],
+      "amount": "2조",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "timeline": [
+        {
+          "date": "2026-09-01",
+          "event": "금융위 예산 1년 새 두 배로…청년 지원에 2조원 투입",
+          "methods": [],
+          "amount": "2조",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/09/01/2UNJVVZA45DWZO5H64OJVLCRNM/",
+          "source": "조선일보"
+        }
+      ]
+    },
+    {
+      "company_name": "ADC",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": "200억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "timeline": [
+        {
+          "date": "2026-09-01",
+          "event": "국민성장펀드 주목한 'ADC'…리가켐, R&D 집중 투자로 기술 가치 ↑",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.mt.co.kr/thebio/2026/09/01/2026090116292146973",
+          "source": "머니투데이"
         }
       ]
     },
@@ -4749,32 +4854,6 @@
           "status_label": "승인·확정",
           "url": "https://dealsite.co.kr/articles/165766",
           "source": "딜인사이트"
-        }
-      ]
-    },
-    {
-      "company_name": "확대",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "1500억원",
-      "status_code": "mention",
-      "status_label": "관련 동향",
-      "first_seen": "2026-07-22",
-      "last_seen": "2026-07-22",
-      "timeline": [
-        {
-          "date": "2026-07-22",
-          "event": "정부, 1500억원 K컬처 펀드 조성…대형 콘텐츠 투자 확대",
-          "methods": [
-            "출자"
-          ],
-          "amount": "1500억원",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://view.asiae.co.kr/article/2026072206375114532",
-          "source": "아시아경제"
         }
       ]
     },
@@ -7856,78 +7935,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, LG디스플레이에 1.3조 저리대출",
-      "url": "http://www.fnnews.com/news/202607301843283927",
-      "source": "파이낸셜뉴스"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "국민성장펀드, LG디스플레이·테크윙에 1.35조 저리 대출…“HBM 경쟁력...",
-      "url": "https://biz.heraldcorp.com/article/10826247",
-      "source": "헤럴드경제"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "\"인센티브 15년 뒤에 받으라고?\" 초장기 VC펀드가 쏘아올린 고민 [VC는지...",
-      "url": "https://view.asiae.co.kr/article/2026073014591932013",
-      "source": "아시아경제"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "'한국판 국부펀드' KIC로 통합…8월 '한국투자공사법' 개정안 발의",
-      "url": "https://www.mt.co.kr/economy/2026/07/31/2026073022473987374",
-      "source": "머니투데이"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "'한국판 국부펀드' 내년 가동…전략산업 초장기 투자",
-      "url": "https://www.yna.co.kr/view/AKR20260730188400002?input=1195m",
-      "source": "연합뉴스"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "20조 원+α '한국판 국부펀드' 내년 가동…AI·반도체 등 만기 없는 직접...",
-      "url": "https://www.news1.kr/economy/trend/6244643",
-      "source": "뉴스1"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "산은 등 16조 끌어모아 6000억 실탄…20조 전략형 국부펀드, 관치 논란 ...",
-      "url": "https://view.asiae.co.kr/article/2026073107334543312",
-      "source": "아시아경제"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "AI·방산·우주에 ‘초장기 투자’…20조+α 국부펀드 내년 출범",
-      "url": "https://www.sedaily.com/article/20074151",
-      "source": "서울경제"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "한국형 국부펀드, 신설 대신 KIC 산하로…20조 규모 출범",
-      "url": "https://www.hani.co.kr/arti/economy/economy_general/1270808.html",
-      "source": "한겨레"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "20조 규모 ‘한국판 전략형 국부펀드’ 내년 출범…AI·반도체 등 투자",
-      "url": "https://www.joongang.co.kr/article/25449772",
-      "source": "중앙일보"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "베일 벗은 국부펀드···초기자본금 20조원으로 전략산업 투자, 필요시...",
-      "url": "https://www.khan.co.kr/article/202607311400021",
-      "source": "경향신문"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "한국형 국부펀드 뜬다...매년 6천억 신산업 투자",
-      "url": "https://www.mk.co.kr/article/12113361",
-      "source": "매일경제"
-    },
-    {
       "date": "2026-08-01",
       "title": "[베스트&워스트] 2분기 실적에 엇갈린 코스피⋯LG생건 15%↑ㆍGS건설 22%...",
       "url": "https://www.etoday.co.kr/news/view/2609947",
@@ -8454,8 +8461,80 @@
       "title": "[국민성장펀드] 5조 예상하던 1-2차 자펀드…11조 돈벼락 맞았다",
       "url": "https://dealsite.co.kr/articles/167810",
       "source": "딜인사이트"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "200조 국민성장펀드도 이제 시작인데…쏟아지는 ‘닮은꼴’ 정책펀드 [...",
+      "url": "https://www.mk.co.kr/article/12140988",
+      "source": "매일경제"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "내년 금융위 예산 9.2조, 2배로…청년·미래 성장·서민 방점(종합)",
+      "url": "https://www.news1.kr/finance/general-finance/6275955",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "[2027예산] 금융위 내년예산 9.2조원…청년·서민 지원, 성장잠재력 제고",
+      "url": "https://www.yna.co.kr/view/AKR20260831180100002?input=1195m",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "국민성장펀드 연 40조로 확대…미래산업에 돈줄 튼다",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03749046645575856&mediaCodeNo=257",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "금융위 내년 예산 9.2조 편성…성장투자·서민금융·청년 자산형성 확대...",
+      "url": "https://www.etoday.co.kr/news/view/2620202",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "3대 메가·AI에 21.3조…‘포스트 반도체’ 첨단전략에 41.4조[2027년 예산...",
+      "url": "https://biz.heraldcorp.com/article/10858698",
+      "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "금융위, 내년 예산안 9.2조로 두 배 확대…서민·청년 지원 강화",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432870",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "[2027 예산안] 금융위 9.2조 '2배 확대'…성장·취약계층·청년에 집중",
+      "url": "https://www.newspim.com/news/view/20260901000034",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "금융위 내년 예산 9조2417억원…청년·서민금융 지원 확대",
+      "url": "https://www.ajunews.com/view/20260901134625960",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "'청년'에 방점 찍은 금융위 예산안…\"소득 많아도, 미래적금 가입 허용...",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=04824886645575856&mediaCodeNo=257",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "금융위 내년 예산 9.2조 ‘두 배’ 확대…서민·청년 지원 집중",
+      "url": "https://www.g-enews.com/view.php?ud=202609011700257809e30fcb1ba8_1",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "06.얼어붙은 코스닥에 발목…2차 국민참여성장펀드 늦어진다",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432760",
+      "source": "연합인포맥스"
     }
   ],
-  "matched_articles_this_run": 264,
+  "matched_articles_this_run": 283,
   "confirmed_deals_count": 16
 }
