@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T22:11:33.825870+00:00",
+  "generated_at": "2026-09-02T22:11:39.129184+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 384,
+  "total_policy_articles": 395,
   "matched_funds_count": 2,
-  "unmatched_count": 101,
+  "unmatched_count": 105,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-02",
-      "event_count": 281,
+      "last_updated": "2026-09-03",
+      "event_count": 288,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3103,6 +3103,83 @@
           "title": "[Invest]방산 비리에 발목 잡힌 LIG D&A…투자업계 시선도 깐깐",
           "summary": "LIG D&A는 지난 6월 국민성장펀드와 연계해 5000억원 규모의 자금을 조달하기로 했다. 제3자배정 유상증자... IMM인베스트먼트와 디인베스트먼트가 프로젝트펀드를 운용하고 해당 펀드에 첨단전략산업기금이 1000억원을...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/09/01/2026090180148.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-09-02",
+          "published_at": "2026-09-02T07:32:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "젠슨황이 찜한 韓美데이터센터…포인투테크 유니콘 목전",
+          "summary": "국민성장펀드가 인공지능(AI), 반도체 신경망처리장치(NPU), 바이오 등 국가 첨단산업전략 딥테크 벤처기업에 투자금을 집행하는 만큼 AIDC 인프라 기업인 포인투테크도 직접투자 궤도에 올랐다는 평가다. 포인투테크는...",
+          "url": "https://dealsite.co.kr/articles/168197",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-09-02",
+          "published_at": "2026-09-02T08:12:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[더벨]우리은행, 국민성장펀드 '첫 콘텐츠 투자' 이끌었다",
+          "summary": "금융지주들이 국민성장펀드에 대규모 출자를 약속했지만 실제 집행은 간단치 않은 과제였다. 주목적 투자 부합 여부와 티켓 사이즈 등 운용 주체인 산업은행의 눈높이를 충족하는 딜을 발굴해야 했기 때문이다. 민간...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608310918433040108259",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-09-02",
+          "published_at": "2026-09-02T10:46:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "30조",
+          "title": "국민성장펀드, 연내 30조원 지원 조기 달성 가시화",
+          "summary": "국민성장펀드는 인공지능(AI)·반도체·바이오·재생에너지 등 첨단 전략 산업을 대상으로 직접 투자와 간접 투자, 인프라 투·융자, 초저리 대출 등을 제공하는 정책 금융 프로그램이다. 금융위는 블라인드펀드를 통해...",
+          "url": "https://biz.chosun.com/stock/finance/2026/09/02/MMSRFI3YDZFWTJ7JZ3DPVJ7SWY/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-09-02",
+          "published_at": "2026-09-02T16:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "구윤철 \"국민성장펀드로 전략산업 투자 확대\"…G20서 성장전략 소개",
+          "summary": "구윤철 부총리 겸 재정경제부 장관은 \"국민성장펀드 등을 통해 전략산업 투자를 확대하겠다\"며 \"미래... 구 부총리는 회의를 계기로 미국·영국·프랑스·이탈리아·인도·카타르 재무장관 및 유럽연합(EU) 경제 담당 집행위...",
+          "url": "https://www.news1.kr/economy/trend/6277713",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-09-02",
+          "published_at": "2026-09-02T17:04:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1500억원",
+          "title": "원익로보틱스, 5지 로봇핸드 출시…접촉 데이터까지 수집",
+          "summary": "회사는 국민성장펀드 첨단전략산업기금 1500억원과 민간 투자자 자금 2000억원을 활용해 전북 완주에 로봇핸드 생산공장과 인공지능 전환(AX)센터를 구축할 계획이다. 이를 통해 양산 역량과 핵심부품 내재화, 피지컬...",
+          "url": "https://www.etoday.co.kr/news/view/2621190",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-09-02",
+          "published_at": "2026-09-02T22:42:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "1500억원",
+          "title": "국민성장펀드 업은 원익로보틱스, 신형 로봇핸드 출시",
+          "summary": "회사는 국민성장펀드 첨단전략산업기금 1500억원과 민간 투자자 2000억원 등 총 3500억원 규모의 투자 조달을 추진해 전북 완주에 로봇핸드 생산공장과 AX센터를 구축할 계획이다. 이를 통해 로봇핸드 양산 역량과 핵심부품...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=05848246645576184&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-09-03",
+          "published_at": "2026-09-03T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[Invest]美 빅테크 AI 파트너로 부상한 GS…잉여 발전자산이 핵심인프라...",
+          "summary": "직접 컴퓨팅 거점을 구축할 유인이 점점 커지고 있다는 평이다. 투자업계 한 관계자는 \"유휴 전력에 고품질 데이터까지 패키지로 마련돼 있는데 국민성장펀드 등 국가 차원의 금융 지원까지 약속돼 있어서 매력이 크다...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/02/2026090280201.html",
           "source_label": "인베스트조선"
         }
       ]

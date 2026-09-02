@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T22:11:34.777270+00:00",
+  "generated_at": "2026-09-02T22:11:40.014847+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-01T22:11:34.777180+00:00",
+    "sheet_synced_at": "2026-09-02T22:11:40.014755+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -3149,6 +3149,83 @@
       ]
     },
     {
+      "company_name": "원익로보틱스",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "3000억원",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-02",
+      "timeline": [
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 원익로보틱스에 1500억 직접 투자",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.fnnews.com/news/202608271856211817",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 원익로보틱스에 3500억 투자…전북 AX 센터 신축 자금 조...",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "17조9000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://view.asiae.co.kr/article/2026082720234611380",
+          "source": "아시아경제"
+        },
+        {
+          "date": "2026-09-02",
+          "event": "원익로보틱스, 5지 로봇핸드 출시…접촉 데이터까지 수집",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.etoday.co.kr/news/view/2621190",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "company_name": "우리",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": null,
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "timeline": [
+        {
+          "date": "2026-09-02",
+          "event": "[더벨]우리은행, 국민성장펀드 '첫 콘텐츠 투자' 이끌었다",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608310918433040108259",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
       "company_name": "청년미래적금",
       "sector": null,
       "methods": [],
@@ -3557,47 +3634,6 @@
           "status_label": "관련 동향",
           "url": "https://www.khan.co.kr/article/202608271902001",
           "source": "경향신문"
-        }
-      ]
-    },
-    {
-      "company_name": "원익로보틱스",
-      "sector": null,
-      "methods": [
-        "출자",
-        "대출"
-      ],
-      "amount": "3000억원",
-      "status_code": "mention",
-      "status_label": "관련 동향",
-      "first_seen": "2026-08-27",
-      "last_seen": "2026-08-27",
-      "timeline": [
-        {
-          "date": "2026-08-27",
-          "event": "국민성장펀드, 원익로보틱스에 1500억 직접 투자",
-          "methods": [
-            "출자",
-            "대출"
-          ],
-          "amount": "3000억원",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.fnnews.com/news/202608271856211817",
-          "source": "파이낸셜뉴스"
-        },
-        {
-          "date": "2026-08-27",
-          "event": "국민성장펀드, 원익로보틱스에 3500억 투자…전북 AX 센터 신축 자금 조...",
-          "methods": [
-            "출자",
-            "대출"
-          ],
-          "amount": "17조9000억",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://view.asiae.co.kr/article/2026082720234611380",
-          "source": "아시아경제"
         }
       ]
     },
@@ -7935,42 +7971,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-08-01",
-      "title": "[베스트&워스트] 2분기 실적에 엇갈린 코스피⋯LG생건 15%↑ㆍGS건설 22%...",
-      "url": "https://www.etoday.co.kr/news/view/2609947",
-      "source": "이투데이"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "中 노광장비 자립, 美日도 소부장 증설… 韓은 자금줄 말라가",
-      "url": "https://www.donga.com/news/Economy/article/all/20260803/134409679/2",
-      "source": "동아일보"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "\"무리한 외형 확장보다 안정\"…파라투스 30대 운용역이 말하는 투자 원...",
-      "url": "https://www.etoday.co.kr/news/view/2609250",
-      "source": "이투데이"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "국민성장펀드 이끈 산업銀, 5년 만에 경영평가 'S'…기업銀 'A' 회복",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428246",
-      "source": "연합인포맥스"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "국내 생산량만큼 세금 깎아준다…정부, 한국판 IRA 추진[세제개편]",
-      "url": "https://www.newsis.com/view/NISX20260731_0003730864",
-      "source": "뉴시스"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "[세제개편] 생산적 ISA 배당 전액 비과세…주가누르기 평가기간 확장",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428351",
-      "source": "연합인포맥스"
-    },
-    {
       "date": "2026-08-04",
       "title": "[K바이오 펀드 下] 임상 3상 펀드 이끄는 황만순 대표 \"연내 첫 투자 목...",
       "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01974566645544040",
@@ -8533,8 +8533,44 @@
       "title": "06.얼어붙은 코스닥에 발목…2차 국민참여성장펀드 늦어진다",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432760",
       "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "젠슨황이 찜한 韓美데이터센터…포인투테크 유니콘 목전",
+      "url": "https://dealsite.co.kr/articles/168197",
+      "source": "딜인사이트"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "국민성장펀드, 연내 30조원 지원 조기 달성 가시화",
+      "url": "https://biz.chosun.com/stock/finance/2026/09/02/MMSRFI3YDZFWTJ7JZ3DPVJ7SWY/",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "'국민 돈' 맡겼다가 '화들짝'…성장펀드 2차 일정 늦어진 이유",
+      "url": "https://www.hankyung.com/article/2026090291606",
+      "source": "한국경제"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "구윤철 \"국민성장펀드로 전략산업 투자 확대\"…G20서 성장전략 소개",
+      "url": "https://www.news1.kr/economy/trend/6277713",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "국민성장펀드 업은 원익로보틱스, 신형 로봇핸드 출시",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=05848246645576184&mediaCodeNo=257",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "[Invest]美 빅테크 AI 파트너로 부상한 GS…잉여 발전자산이 핵심인프라...",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/09/02/2026090280201.html",
+      "source": "인베스트조선"
     }
   ],
-  "matched_articles_this_run": 283,
+  "matched_articles_this_run": 291,
   "confirmed_deals_count": 16
 }
