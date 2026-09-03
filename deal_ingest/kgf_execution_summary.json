@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:11:40.014847+00:00",
+  "generated_at": "2026-09-03T22:11:05.355356+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-02T22:11:40.014755+00:00",
+    "sheet_synced_at": "2026-09-03T22:11:05.355276+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -2806,11 +2806,25 @@
       "sector": "AI 데이터센터",
       "approved": "2026.5",
       "methods": [
-        "인프라투자"
+        "인프라투자",
+        "출자"
       ],
       "status_code": "approved",
       "status_label": "승인확정",
-      "news_timeline": []
+      "news_timeline": [
+        {
+          "date": "2026-09-04",
+          "event": "[더벨]스마일게이트인베, KIF 출자로 대형 펀드레이징 물꼬",
+          "methods": [
+            "출자"
+          ],
+          "amount": "150억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609020919201440107422",
+          "source": "더벨"
+        }
+      ]
     },
     {
       "no": 15,
@@ -3122,6 +3136,58 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "충북도",
+      "sector": null,
+      "methods": [
+        "보증"
+      ],
+      "amount": null,
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "timeline": [
+        {
+          "date": "2026-09-03",
+          "event": "충북도, 추석 앞두고 은행·보증기관과 중기·소상공 금융 지원",
+          "methods": [
+            "보증"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.yna.co.kr/view/AKR20260903152200064?input=1195m",
+          "source": "연합뉴스"
+        }
+      ]
+    },
+    {
+      "company_name": "우리은행",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "2200억원",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "timeline": [
+        {
+          "date": "2026-09-03",
+          "event": "우리은행, 민간 최초 국민성장펀드 딜 주도…K콘텐츠 ‘동반 성장’ 이...",
+          "methods": [
+            "출자"
+          ],
+          "amount": "2200억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.hankyung.com/article/202609032204r",
+          "source": "한국경제"
+        }
+      ]
+    },
     {
       "company_name": "업계",
       "sector": null,
@@ -7972,18 +8038,6 @@
   "candidates": [
     {
       "date": "2026-08-04",
-      "title": "[K바이오 펀드 下] 임상 3상 펀드 이끄는 황만순 대표 \"연내 첫 투자 목...",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01974566645544040",
-      "source": "이데일리"
-    },
-    {
-      "date": "2026-08-04",
-      "title": "\"2년 만에 두 배\"…디앤티 인수전이 뜨거웠던 이유는?[마켓인]",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05398886645544040",
-      "source": "이데일리"
-    },
-    {
-      "date": "2026-08-04",
       "title": "[하반기 업무보고]李 \"배달앱 수수료 항목 공개 등 중기부·공정위 조치...",
       "url": "https://view.asiae.co.kr/article/2026080419061582255",
       "source": "아시아경제"
@@ -8458,6 +8512,12 @@
     },
     {
       "date": "2026-09-01",
+      "title": "재경부 깜짝 인사 속 국민성장펀드 일정 삐걱...자본시장 정책도 '개점휴업' 우려",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/09/01/2026090180135.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-09-01",
       "title": "[국민성장펀드] 5조 예상하던 1-2차 자펀드…11조 돈벼락 맞았다",
       "url": "https://dealsite.co.kr/articles/167810",
       "source": "딜인사이트"
@@ -8569,8 +8629,14 @@
       "title": "[Invest]美 빅테크 AI 파트너로 부상한 GS…잉여 발전자산이 핵심인프라...",
       "url": "https://www.investchosun.com/site/data/html_dir/2026/09/02/2026090280201.html",
       "source": "인베스트조선"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "금융위 일단 빠졌지만…'금융권 연쇄 지방이동' 촉각",
+      "url": "https://news.bizwatch.co.kr/article/finance/2026/09/03/0022",
+      "source": "비즈워치"
     }
   ],
-  "matched_articles_this_run": 291,
+  "matched_articles_this_run": 296,
   "confirmed_deals_count": 16
 }

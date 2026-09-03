@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-02T22:11:39.129184+00:00",
+  "generated_at": "2026-09-03T22:11:04.501537+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 395,
+  "total_policy_articles": 404,
   "matched_funds_count": 2,
-  "unmatched_count": 105,
+  "unmatched_count": 109,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-03",
-      "event_count": 288,
+      "last_updated": "2026-09-04",
+      "event_count": 293,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -2865,6 +2865,17 @@
         },
         {
           "date": "2026-09-01",
+          "published_at": "2026-09-01T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "재경부 깜짝 인사 속 국민성장펀드 일정 삐걱...자본시장 정책도 '개점휴업' 우려",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/01/2026090180135.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-09-01",
           "published_at": "2026-09-01T03:58:00+09:00",
           "stage_code": "uncategorized",
           "stage_label": "단계 미상",
@@ -3181,6 +3192,50 @@
           "summary": "직접 컴퓨팅 거점을 구축할 유인이 점점 커지고 있다는 평이다. 투자업계 한 관계자는 \"유휴 전력에 고품질 데이터까지 패키지로 마련돼 있는데 국민성장펀드 등 국가 차원의 금융 지원까지 약속돼 있어서 매력이 크다...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/09/02/2026090280201.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-09-03",
+          "published_at": "2026-09-03T16:08:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "금융위 일단 빠졌지만…'금융권 연쇄 지방이동' 촉각",
+          "summary": "정부가 산은에 국민성장펀드와 첨단전략산업기금 등 굵직한 역할을 맡겨놓고 지방 이전으로 조직을 다시 흔드는 것은 앞뒤가 맞지 않다는 것이다. 김현준 산은 노조위원장은 \"이재명 대통령도 후보 시절 서울을...",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/09/03/0022",
+          "source_label": "비즈워치"
+        },
+        {
+          "date": "2026-09-03",
+          "published_at": "2026-09-03T16:46:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "충북도, 추석 앞두고 은행·보증기관과 중기·소상공 금융 지원",
+          "summary": "충북도는 3일 한국은행, 수출입은행, NH농협, 신한은행, KB국민은행, 신용보증기금, 한국자산관리공사 등과... 도와 참여 기관들은 첨단전략산업 생태계 전반을 지원하는 정부의 '국민성장펀드'에 대해 도내 기업의...",
+          "url": "https://www.yna.co.kr/view/AKR20260903152200064?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-09-03",
+          "published_at": "2026-09-03T18:01:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2200억원",
+          "title": "우리은행, 민간 최초 국민성장펀드 딜 주도…K콘텐츠 ‘동반 성장’ 이...",
+          "summary": "3일 투자은행(IB) 업계에 따르면 국민성장펀드는 CJ 4D플렉스가 발행하는 2200억원 규모의 상환전환우선주(RCPS)에 투자할 예정이다. 구체적으로 우리금융그룹이 650억원, 첨단전략산업기금이 500억원을 투입한다. 민간...",
+          "url": "https://www.hankyung.com/article/202609032204r",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-09-04",
+          "published_at": "2026-09-04T07:02:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "100억",
+          "title": "[더벨]스마일게이트인베, KIF 출자로 대형 펀드레이징 물꼬",
+          "summary": "위탁운용사(GP)로 선정됐다. KTOA 출자액은 100억~150억원이다. 스마일게이트인베스트먼트를 포함해 총 7곳이... 스마일게이트인베스트먼트는 올해 초대형 펀드레이징을 시작했지만 국민성장펀드 등 정책기관 출자사업에...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609020919201440107422",
+          "source_label": "더벨"
         }
       ]
     },
