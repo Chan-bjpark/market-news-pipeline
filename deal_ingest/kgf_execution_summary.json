@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:11:05.355356+00:00",
+  "generated_at": "2026-09-06T22:11:16.375335+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-03T22:11:05.355276+00:00",
+    "sheet_synced_at": "2026-09-06T22:11:16.375248+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -3136,6 +3136,58 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "눈덩이",
+      "sector": null,
+      "methods": [
+        "보증"
+      ],
+      "amount": null,
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "timeline": [
+        {
+          "date": "2026-09-06",
+          "event": "첨단산업·대미 투자 수요에 국가보증채무 ‘눈덩이’ 될라",
+          "methods": [
+            "보증"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.khan.co.kr/article/202609062117005",
+          "source": "경향신문"
+        }
+      ]
+    },
+    {
+      "company_name": "수은·기",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "4500억",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "timeline": [
+        {
+          "date": "2026-09-04",
+          "event": "[LP Scope] 수은·기은 아우른 박상진…4500억 스케일업펀드 출격",
+          "methods": [
+            "출자"
+          ],
+          "amount": "4500억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://dealsite.co.kr/articles/168291",
+          "source": "딜인사이트"
+        }
+      ]
+    },
     {
       "company_name": "충북도",
       "sector": null,
@@ -8037,48 +8089,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-08-04",
-      "title": "[하반기 업무보고]李 \"배달앱 수수료 항목 공개 등 중기부·공정위 조치...",
-      "url": "https://view.asiae.co.kr/article/2026080419061582255",
-      "source": "아시아경제"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "\"3거래일 만에 21%↑\"…코스닥의 시간 오나",
-      "url": "https://www.newsis.com/view/NISX20260804_0003736352",
-      "source": "뉴시스"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "[Invest]국민성장펀드가 GP 먼저 쓸어갔다…연기금·공제회도 출자사업...",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/05/2026080580117.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-08-07",
-      "title": "“코스닥 상관 없이 국민성장펀드 대박 계속될 것”",
-      "url": "https://www.chosun.com/economy/money/2026/08/07/DXVXRAXSCFFSTLCVVBXO2CYQPA/",
-      "source": "조선일보"
-    },
-    {
-      "date": "2026-08-07",
-      "title": "[Invest]KIC 앞세운 국민성장펀드…'해외 국부펀드 앵커' 역할은 아직 물...",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/06/2026080680084.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-08-07",
-      "title": "[Invest]'심사보다 속도전'이 흔든 증시, 국민성장펀드라고 안전할까",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/06/2026080680083.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-08-07",
-      "title": "3대 메가프로젝트 성공하려면 ‘3가지 질문’에 답 찾아야",
-      "url": "https://www.hani.co.kr/arti/economy/economy_general/1271885.html",
-      "source": "한겨레"
-    },
-    {
       "date": "2026-08-10",
       "title": "생산적금융 시대…'중기특화 2.0' 역할론 [중기특화 증권사 제도 점검 (...",
       "url": "https://www.fntimes.com/html/view.php?ud=202608072313222933dd55077bc2_18",
@@ -8635,8 +8645,50 @@
       "title": "금융위 일단 빠졌지만…'금융권 연쇄 지방이동' 촉각",
       "url": "https://news.bizwatch.co.kr/article/finance/2026/09/03/0022",
       "source": "비즈워치"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "기은·IBK증권 1200억 펀드 결성…코스닥 살린다",
+      "url": "https://dealsite.co.kr/articles/167550",
+      "source": "딜인사이트"
+    },
+    {
+      "date": "2026-09-06",
+      "title": "국가보증·공공기관 부채 눈덩이…'그림자 부채' 4년뒤 1천155조",
+      "url": "https://www.yna.co.kr/view/AKR20260905039500002?input=1195m",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-06",
+      "title": "첨단산업·한미 투자에 ‘잠재 나랏빚’도 급증···관건은 ‘투자 성...",
+      "url": "https://www.khan.co.kr/article/202609061449001",
+      "source": "경향신문"
+    },
+    {
+      "date": "2026-09-06",
+      "title": "국민 세금으로 갚아야 하는 ‘적자성 채무’ 4년뒤 1300조 돌파",
+      "url": "https://www.donga.com/news/Economy/article/all/20260906/134613706/1",
+      "source": "동아일보"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "정일부 IMM인베 대표, IMM세컨더리벤처펀드제7호 결성 페달 [VC 2026 하반...",
+      "url": "https://www.fntimes.com/html/view.php?ud=202609042132205095dd55077bc2_18",
+      "source": "한국금융신문"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "혈세로 갚아야할 나랏빚 4년뒤 1300조 넘어",
+      "url": "https://www.donga.com/news/Economy/article/all/20260907/134615937/2",
+      "source": "동아일보"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "[Invest]중복상장 문턱에 막힌 로봇기업들…성장 자금 조달 비상",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/09/04/2026090480162.html",
+      "source": "인베스트조선"
     }
   ],
-  "matched_articles_this_run": 296,
+  "matched_articles_this_run": 305,
   "confirmed_deals_count": 16
 }

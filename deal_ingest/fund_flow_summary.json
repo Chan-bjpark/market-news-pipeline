@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-03T22:11:04.501537+00:00",
+  "generated_at": "2026-09-06T22:11:14.679702+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 404,
+  "total_policy_articles": 414,
   "matched_funds_count": 2,
-  "unmatched_count": 109,
+  "unmatched_count": 110,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-04",
-      "event_count": 293,
+      "last_updated": "2026-09-07",
+      "event_count": 302,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3236,6 +3236,105 @@
           "summary": "위탁운용사(GP)로 선정됐다. KTOA 출자액은 100억~150억원이다. 스마일게이트인베스트먼트를 포함해 총 7곳이... 스마일게이트인베스트먼트는 올해 초대형 펀드레이징을 시작했지만 국민성장펀드 등 정책기관 출자사업에...",
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609020919201440107422",
           "source_label": "더벨"
+        },
+        {
+          "date": "2026-09-04",
+          "published_at": "2026-09-04T09:52:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "4500억",
+          "title": "[LP Scope] 수은·기은 아우른 박상진…4500억 스케일업펀드 출격",
+          "summary": "국민성장펀드로 민간 출자자들의 자금이 몰리면서 펀드 결성에 어려움을 겪는 사모펀드(PEF)와 벤처캐피털(VC) 운용사에 새로운 자금줄이 될 것으로 보인다. 3일 투자은행(IB) 업계에 따르면 국책은행 3곳은 다음 주...",
+          "url": "https://dealsite.co.kr/articles/168291",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-09-04",
+          "published_at": "2026-09-04T10:16:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "1200억",
+          "title": "기은·IBK증권 1200억 펀드 결성…코스닥 살린다",
+          "summary": "최근 모험자본 시장의 국민성장펀드 쏠림 현상으로 개별 프로젝트펀드 결성에 난항을 겪는 중소형 사모펀드(PEF)와 벤처캐피털(VC)에 유동성이 공급될 것으로 보인다. 시장 내 우량 프로젝트를 폭넓게 흡수하고 자본...",
+          "url": "https://dealsite.co.kr/articles/167550",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-09-06",
+          "published_at": "2026-09-06T05:47:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "155조",
+          "title": "국가보증·공공기관 부채 눈덩이…'그림자 부채' 4년뒤 1천155조",
+          "summary": "정부는 지난 7월 첨단산업 육성을 위한 국민성장펀드 총 투자 규모를 200조원으로 늘리기로 했다. 이에 따라 자금 조달 창구인 첨단전략산업기금 운용 규모도 90조원으로 커졌다. 여기에 피지컬 인공지능(AI)과 AI...",
+          "url": "https://www.yna.co.kr/view/AKR20260905039500002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-09-06",
+          "published_at": "2026-09-06T14:49:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200조",
+          "title": "첨단산업·한미 투자에 ‘잠재 나랏빚’도 급증···관건은 ‘투자 성...",
+          "summary": "정부는 지난 7월 첨단산업 육성을 위한 국민성장펀드의 총 투자 규모를 200조원으로 확대함에 따라 자금 조달 창구인 첨단전략산업기금 운용 규모도 90조원으로 커졌다. 여기에 ‘3대 메가프로젝트’ 투자 수요까지...",
+          "url": "https://www.khan.co.kr/article/202609061449001",
+          "source_label": "경향신문"
+        },
+        {
+          "date": "2026-09-06",
+          "published_at": "2026-09-06T19:33:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1300조",
+          "title": "국민 세금으로 갚아야 하는 ‘적자성 채무’ 4년뒤 1300조 돌파",
+          "summary": "국민성장펀드 규모가 200조 원으로 확대되면서 자금 조달 창구인 첨단전략산업기금 운용 규모도 커졌고, 연간 한도가 200억 달러(약 27조 원)인 대미 투자에 활용될 한미전략투자채권이 포함되면서 보증채무가...",
+          "url": "https://www.donga.com/news/Economy/article/all/20260906/134613706/1",
+          "source_label": "동아일보"
+        },
+        {
+          "date": "2026-09-06",
+          "published_at": "2026-09-06T21:17:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200조",
+          "title": "첨단산업·대미 투자 수요에 국가보증채무 ‘눈덩이’ 될라",
+          "summary": "정부가 지난 7월 첨단산업 육성을 위한 국민성장펀드의 총투자 규모를 200조원으로 확대함에 따라 자금 조달 창구인 첨단전략산업기금 운용 규모도 90조원으로 커졌다. 여기에 ‘3대 메가프로젝트’ 투자 수요까지...",
+          "url": "https://www.khan.co.kr/article/202609062117005",
+          "source_label": "경향신문"
+        },
+        {
+          "date": "2026-09-07",
+          "published_at": "2026-09-07T00:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1845억원",
+          "title": "정일부 IMM인베 대표, IMM세컨더리벤처펀드제7호 결성 페달 [VC 2026 하반...",
+          "summary": "상반기 VC들의 성과를 조명하고, 하반기 어려움 속에서도 국민성장펀드 조성, 해외 진출, IPO 등을 통한... 상반기에는 1845억원 투자 집행을 완료했다. IMM인베 관계자는 \"중점 영역은 AI 전환 밸류체인인 AI 서비스...",
+          "url": "https://www.fntimes.com/html/view.php?ud=202609042132205095dd55077bc2_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-09-07",
+          "published_at": "2026-09-07T04:34:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1300조",
+          "title": "혈세로 갚아야할 나랏빚 4년뒤 1300조 넘어",
+          "summary": "국민성장펀드 규모가 200조 원으로 확대되면서 자금 조달 창구인 첨단전략산업기금 운용 규모도 커졌고, 연간 한도가 200억 달러(약 27조 원)인 대미 투자에 활용될 한미전략투자채권이 포함되면서 보증채무가...",
+          "url": "https://www.donga.com/news/Economy/article/all/20260907/134615937/2",
+          "source_label": "동아일보"
+        },
+        {
+          "date": "2026-09-07",
+          "published_at": "2026-09-07T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1500억원",
+          "title": "[Invest]중복상장 문턱에 막힌 로봇기업들…성장 자금 조달 비상",
+          "summary": "원익로보틱스는 정책자금인 국민성장펀드 등을 통해 대규모 성장자금을 확보했다. 원익홀딩스가 지분 96... 이 가운데 1500억원은 한국산업은행에 설치된 첨단전략산업기금이 전환우선주(CPS) 방식으로 투자하고...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/04/2026090480162.html",
+          "source_label": "인베스트조선"
         }
       ]
     },
