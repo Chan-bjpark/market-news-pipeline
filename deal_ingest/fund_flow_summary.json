@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-06T22:11:14.679702+00:00",
+  "generated_at": "2026-09-07T22:11:12.449945+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 414,
+  "total_policy_articles": 426,
   "matched_funds_count": 2,
-  "unmatched_count": 110,
+  "unmatched_count": 115,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-07",
-      "event_count": 302,
+      "last_updated": "2026-09-08",
+      "event_count": 309,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3335,6 +3335,83 @@
           "summary": "원익로보틱스는 정책자금인 국민성장펀드 등을 통해 대규모 성장자금을 확보했다. 원익홀딩스가 지분 96... 이 가운데 1500억원은 한국산업은행에 설치된 첨단전략산업기금이 전환우선주(CPS) 방식으로 투자하고...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/09/04/2026090480162.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-09-07",
+          "published_at": "2026-09-07T08:08:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "5800억원",
+          "title": "[더벨][한투금융그룹 초격차 시대] 탄생부터 성장까지…벤처 생태계 '선...",
+          "summary": "올해에는 국민성장펀드 간접투자분야(중형리그) 위탁운용사(GP)로 선정, 5800억원 규모 펀드 조성을 진행... 초기기업 투자비율이 65% 정도로 신생 기업들의 안전판이 되고 있다. 한투AC는 단순히 투자 집행에 그치지 않고...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609011538390320106658",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-09-07",
+          "published_at": "2026-09-07T08:18:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2500억원",
+          "title": "[더벨][빅딜 그 이후] 매출 4배 커진 리가켐, R&D 확대에 적자 폭 확대",
+          "summary": "국민성장펀드 첨단전략산업기금이 2500억원을 투입했고, 대주주 오리온도 1250억원을 추가 투자했다. 회계상 적자는 불어났지만 파이프라인은 착실히 전진하고 있다. 대규모 자금 확충으로 연구개발 지속성을...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609011253059080101637",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-09-07",
+          "published_at": "2026-09-07T08:53:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "2200억원",
+          "title": "[모닝 리포트] CJ CGV, 9월 극장 흥행 이어간다…목표가 6000원",
+          "summary": "국민성장펀드는 지난달 27일 CJ4DPLEX에 대한 2200억원 규모의 지분 투자를 승인했다. 첨단전략산업기금이 500억원을 출자하고, 민간 금융권 등이 1700억원을 조달하는 구조다. 자금은 기술특별관 글로벌 인프라...",
+          "url": "https://www.newspim.com/news/view/20260907000087",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-09-07",
+          "published_at": "2026-09-07T15:03:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": null,
+          "title": "\"앗 뜨거워..\" 15년 만기 초장기 기술펀드에 55곳 '출사표' [fn마켓워치]",
+          "summary": "7일 투자은행(IB) 업계에 따르면 출자 주관기관인 한국산업은행과 우리자산운용이 2026년 국민성장펀드 간접투자분야 초장기기술투자펀드 위탁운용사 선정 제안서 접수를 받은결과 7곳을 뽑는 자리에 총 55개 VC와...",
+          "url": "https://www.fnnews.com/news/202609071339218819",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-09-07",
+          "published_at": "2026-09-07T22:10:34.657683+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "\"CJ CGV, 극장 수요 증가·국민성장펀드 투자 유치…목표가↑\"-KB",
+          "summary": "",
+          "url": "https://www.hankyung.com/article/2026090773106",
+          "source_label": "마켓인사이트"
+        },
+        {
+          "date": "2026-09-08",
+          "published_at": "2026-09-08T06:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2조",
+          "title": "순이익 2조 새 역사…한투 이끄는 CEO 군단",
+          "summary": "사모투자합자회사(PEF)를 운용하고 있다. 올해 한투파트너스는 국민성장펀드 중형리그 선정을 통해 5800억... 규모의 투자를, ESG(환경·사회·지배구조) 관련 산업에 총 52건, 3조1200억 원의 투자를 집행했다. 향후 국내외...",
+          "url": "https://magazine.hankyung.com/money/article/202608188102c",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-09-08",
+          "published_at": "2026-09-08T06:31:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2200억원",
+          "title": "'오디세이' 보려고 웃돈까지…주가 24% 폭등한 '이 종목' [종목+]",
+          "summary": "금융위원회는 지난달 27일 국민성장펀드 기금운용심의회를 열고 CJ 4D플렉스 지분투자(RCPS)를 승인했다. CJ 4D플렉스는 프로젝트펀드 등을 활용해 총 2200억원을 RCPS 방식으로 조달한다. 이 가운데...",
+          "url": "https://www.hankyung.com/article/2026090790926",
+          "source_label": "한국경제"
         }
       ]
     },
