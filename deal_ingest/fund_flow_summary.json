@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-07T22:11:12.449945+00:00",
+  "generated_at": "2026-09-08T22:13:32.928826+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 426,
+  "total_policy_articles": 433,
   "matched_funds_count": 2,
-  "unmatched_count": 115,
+  "unmatched_count": 119,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-08",
-      "event_count": 309,
+      "last_updated": "2026-09-09",
+      "event_count": 312,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3305,6 +3305,17 @@
         },
         {
           "date": "2026-09-07",
+          "published_at": "2026-09-07T00:00:00+00:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": null,
+          "title": "AI·혁신기업 키운다더니 결국 '삼전닉스'…국민성장펀드 공모형 딜레마",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/07/2026090780113.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-09-07",
           "published_at": "2026-09-07T00:02:00+09:00",
           "stage_code": "uncategorized",
           "stage_label": "단계 미상",
@@ -3412,6 +3423,28 @@
           "summary": "금융위원회는 지난달 27일 국민성장펀드 기금운용심의회를 열고 CJ 4D플렉스 지분투자(RCPS)를 승인했다. CJ 4D플렉스는 프로젝트펀드 등을 활용해 총 2200억원을 RCPS 방식으로 조달한다. 이 가운데...",
           "url": "https://www.hankyung.com/article/2026090790926",
           "source_label": "한국경제"
+        },
+        {
+          "date": "2026-09-08",
+          "published_at": "2026-09-08T07:59:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[PE는 지금] AI인프라로 쏠리는 '사모펀드 뭉칫돈'…데이터센터·에너지...",
+          "summary": "투입하는 국민성장펀드는 이미 전남 신안우이 해상풍력 발전사업, 삼성전자 평택 P5(5공장), 스마일게이트 데이터센터, 네이버 데이터센터(DC) 증설 지원을 확정한 바 있다. PE 자금에 중요한 역할을 하는 출자자(LP)도...",
+          "url": "https://view.asiae.co.kr/article/2026090409390916714",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-09-09",
+          "published_at": "2026-09-09T06:10:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "증시 반등에 1차 수익률 -3.7%→-1%대…2차 국민성장펀드 흥행 이어갈까",
+          "summary": "금융권에서는 2차 상품의 흥행뿐 아니라 향후 국민참여성장펀드가 안착하기 위해서는 결국 실제 운용 성과를 보여주는 것이 중요하다고 보고 있다. 금융위는 만기가 5년인 장기 상품인 데다 아직 투자 집행 초기...",
+          "url": "https://www.news1.kr/finance/general-finance/6283778",
+          "source_label": "뉴스1"
         }
       ]
     },
