@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T22:13:32.928826+00:00",
+  "generated_at": "2026-09-09T22:13:11.349168+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 433,
+  "total_policy_articles": 438,
   "matched_funds_count": 2,
   "unmatched_count": 119,
   "funds": [
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-09",
-      "event_count": 312,
+      "last_updated": "2026-09-10",
+      "event_count": 317,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3445,6 +3445,61 @@
           "summary": "금융권에서는 2차 상품의 흥행뿐 아니라 향후 국민참여성장펀드가 안착하기 위해서는 결국 실제 운용 성과를 보여주는 것이 중요하다고 보고 있다. 금융위는 만기가 5년인 장기 상품인 데다 아직 투자 집행 초기...",
           "url": "https://www.news1.kr/finance/general-finance/6283778",
           "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-09-09",
+          "published_at": "2026-09-09T08:02:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": null,
+          "title": "[국민성장펀드] [초장기] 가점 기대한 증권사·VC 연합…16년 공동운용이...",
+          "summary": "(Co-GP)이 이번 출자사업의 최대 변수로 떠올랐다. 금융당국의 가점 혜택을 노린 증권사의 진입과 VC의... 금융위는 발표 당시 이들 증권사의 모험자본 공급을 유도하기 위해 국민성장펀드 일부 운용사 선정에 가점을...",
+          "url": "https://dealsite.co.kr/articles/168554",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-09-09",
+          "published_at": "2026-09-09T08:22:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "11조",
+          "title": "[충정로에서] 넘쳐나는 정책펀드, 부풀어 오르는 기업 가치",
+          "summary": "오는 10월 시장에 동시 출격하는 국민성장펀드 간접투자 1·2차 자펀드가 꼭 그런 상황에 놓여 있다. 이들 자펀드의 전체 규모는 11조원에 달한다. 11조원이 당장 한꺼번에 기업에 집행되는 것은 아니지만, 막대한 자금을...",
+          "url": "https://dealsite.co.kr/articles/168604",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-09-09",
+          "published_at": "2026-09-09T14:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "BS그룹, KB금융그룹과 '생산적 금융' 업무협약…전략적 협력체계 구축",
+          "summary": "센터와 5.4GW 규모의 재생에너지 집적화단지가 조성될 예정이다. KB금융그룹은 생산적 금융 확대 기조 아래 첨단전략산업과 이를 뒷받침하는 핵심 인프라 분야에 대한 금융지원을 적극 확대하고 있다. 국민성장펀드의...",
+          "url": "https://www.mt.co.kr/estate/2026/09/10/2026090913112736256",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-09-09",
+          "published_at": "2026-09-09T14:37:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": null,
+          "title": "BS그룹·KB금융그룹 손 잡는다…전략적 협력체계 구축",
+          "summary": "데이터센터 투자 계획을 발표한 바 있다. KB금융그룹은 생산적금융 확대를 위해 첨단전략산업과 핵심 인프라 분야에 대한 금융지원을 확대하고 있다. 국민성장펀드의 첫 투자처인 신안우이해상풍력발전사업의...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03768726645578480&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-09-10",
+          "published_at": "2026-09-10T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2조5000억",
+          "title": "[Invest]배당, 기금에 전기요금까지…모두의 돈주머니 된 삼성전자",
+          "summary": "2조5000억원 규모 평택 5공장 저리 대출은 국민성장펀드의 성공을 위해 회사가 이자 부담을 감수하고 써주는 형태에 가깝다. 자회사 삼성SDS가 주도하는 국가 AI컴퓨팅센터 사업도 이와 비슷하다. 대미 투자 논의 과정에선...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/09/2026090980125.html",
+          "source_label": "인베스트조선"
         }
       ]
     },

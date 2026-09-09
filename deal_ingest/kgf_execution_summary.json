@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T22:13:33.970474+00:00",
+  "generated_at": "2026-09-09T22:13:12.089254+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-08T22:13:33.970428+00:00",
+    "sheet_synced_at": "2026-09-09T22:13:12.089170+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -452,6 +452,16 @@
           "status_label": "관련 동향",
           "url": "https://view.asiae.co.kr/article/2026090409390916714",
           "source": "아시아경제"
+        },
+        {
+          "date": "2026-09-09",
+          "event": "BS그룹·KB금융그룹 손 잡는다…전략적 협력체계 구축",
+          "methods": [],
+          "amount": null,
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03768726645578480&mediaCodeNo=257",
+          "source": "이데일리"
         }
       ]
     },
@@ -1072,7 +1082,8 @@
       "approved": "2026.4",
       "methods": [
         "인프라투자",
-        "출자"
+        "출자",
+        "대출"
       ],
       "status_code": "approved",
       "status_label": "승인확정",
@@ -1750,6 +1761,18 @@
           "status_label": "승인·확정",
           "url": "https://www.newsis.com/view/NISX20260814_0003749155",
           "source": "뉴시스"
+        },
+        {
+          "date": "2026-09-10",
+          "event": "[Invest]배당, 기금에 전기요금까지…모두의 돈주머니 된 삼성전자",
+          "methods": [
+            "대출"
+          ],
+          "amount": "2조5000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/09/2026090980125.html",
+          "source": "인베스트조선"
         }
       ]
     },
@@ -3149,6 +3172,28 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "넘쳐나",
+      "sector": null,
+      "methods": [],
+      "amount": "11조",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "timeline": [
+        {
+          "date": "2026-09-09",
+          "event": "[충정로에서] 넘쳐나는 정책펀드, 부풀어 오르는 기업 가치",
+          "methods": [],
+          "amount": "11조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://dealsite.co.kr/articles/168604",
+          "source": "딜인사이트"
+        }
+      ]
+    },
     {
       "company_name": "오디세이",
       "sector": null,
@@ -8154,18 +8199,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-08-12",
-      "title": "[현장] “정책금융 심장 쪼개지 말라”…산은·기은·수은 2000명 여의도...",
-      "url": "https://www.fntimes.com/html/view.php?ud=2026081119375892435e6e69892f_18",
-      "source": "한국금융신문"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "‘생산적 금융’에도… 1년간 대출증가 58%는 대기업몫",
-      "url": "https://www.donga.com/news/Economy/article/all/20260812/134467911/2",
-      "source": "동아일보"
-    },
-    {
       "date": "2026-08-13",
       "title": "[2026 상반기 VC 리그테이블] [하우스] SBI 3000억 실탄 장전…200억 결손...",
       "url": "https://dealsite.co.kr/articles/167077",
@@ -8752,8 +8785,20 @@
       "title": "증시 반등에 1차 수익률 -3.7%→-1%대…2차 국민성장펀드 흥행 이어갈까",
       "url": "https://www.news1.kr/finance/general-finance/6283778",
       "source": "뉴스1"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[국민성장펀드] [초장기] 가점 기대한 증권사·VC 연합…16년 공동운용이...",
+      "url": "https://dealsite.co.kr/articles/168554",
+      "source": "딜인사이트"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "BS그룹, KB금융그룹과 '생산적 금융' 업무협약…전략적 협력체계 구축",
+      "url": "https://www.mt.co.kr/estate/2026/09/10/2026090913112736256",
+      "source": "머니투데이"
     }
   ],
-  "matched_articles_this_run": 318,
+  "matched_articles_this_run": 323,
   "confirmed_deals_count": 16
 }
