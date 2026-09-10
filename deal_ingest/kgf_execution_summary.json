@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T22:13:12.089254+00:00",
+  "generated_at": "2026-09-10T22:11:18.548221+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-09T22:13:12.089170+00:00",
+    "sheet_synced_at": "2026-09-10T22:11:18.548147+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -3172,6 +3172,34 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "안정성",
+      "sector": null,
+      "methods": [
+        "대출",
+        "인프라투자"
+      ],
+      "amount": null,
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10",
+      "timeline": [
+        {
+          "date": "2026-09-10",
+          "event": "국민성장펀드가 픽한 제약·바이오 살펴보니…'안정성' 방점",
+          "methods": [
+            "대출",
+            "인프라투자"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/09/07/0025",
+          "source": "비즈워치"
+        }
+      ]
+    },
     {
       "company_name": "넘쳐나",
       "sector": null,
@@ -8799,6 +8827,6 @@
       "source": "머니투데이"
     }
   ],
-  "matched_articles_this_run": 323,
+  "matched_articles_this_run": 324,
   "confirmed_deals_count": 16
 }

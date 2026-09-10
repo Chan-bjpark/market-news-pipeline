@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-09T22:13:11.349168+00:00",
+  "generated_at": "2026-09-10T22:11:17.648640+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 438,
+  "total_policy_articles": 447,
   "matched_funds_count": 2,
-  "unmatched_count": 119,
+  "unmatched_count": 127,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -12,7 +12,7 @@
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
       "last_updated": "2026-09-10",
-      "event_count": 317,
+      "event_count": 318,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3500,6 +3500,17 @@
           "summary": "2조5000억원 규모 평택 5공장 저리 대출은 국민성장펀드의 성공을 위해 회사가 이자 부담을 감수하고 써주는 형태에 가깝다. 자회사 삼성SDS가 주도하는 국가 AI컴퓨팅센터 사업도 이와 비슷하다. 대미 투자 논의 과정에선...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/09/09/2026090980125.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-09-10",
+          "published_at": "2026-09-10T07:50:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "국민성장펀드가 픽한 제약·바이오 살펴보니…'안정성' 방점",
+          "summary": "지난해 9월 출범한 국민성장펀드는 첨단전략산업에 투자하는 150조원 규모의 정책펀드다. 민간과 공공이 재원을 절반씩 부담해 직접투자와 간접투자, 인프라 투자·융자, 초저리대출 등의 방식으로 기업을 지원한다....",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/09/07/0025",
+          "source_label": "비즈워치"
         }
       ]
     },
