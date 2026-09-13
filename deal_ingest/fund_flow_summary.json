@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-10T22:11:17.648640+00:00",
+  "generated_at": "2026-09-13T22:11:08.442603+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 447,
+  "total_policy_articles": 459,
   "matched_funds_count": 2,
-  "unmatched_count": 127,
+  "unmatched_count": 133,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-10",
-      "event_count": 318,
+      "last_updated": "2026-09-14",
+      "event_count": 324,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3511,6 +3511,72 @@
           "summary": "지난해 9월 출범한 국민성장펀드는 첨단전략산업에 투자하는 150조원 규모의 정책펀드다. 민간과 공공이 재원을 절반씩 부담해 직접투자와 간접투자, 인프라 투자·융자, 초저리대출 등의 방식으로 기업을 지원한다....",
           "url": "https://news.bizwatch.co.kr/article/healthcare/2026/09/07/0025",
           "source_label": "비즈워치"
+        },
+        {
+          "date": "2026-09-11",
+          "published_at": "2026-09-11T08:28:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "850억원",
+          "title": "[더벨][thebell note] 대기업에 쏠린 '바이오 국민성장펀드'",
+          "summary": "국민성장펀드가 첫발을 뗀 지 반 년, 제약바이오 분야에서만 벌써 4건의 지원이 결정됐다. 비티젠에 대한 850억원 저리대출을 시작으로 SK바이오사이언스에 3000억원, 리가켐바이오사이언스에 2500억원, 경보제약에 200억원...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609081721204280106695",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-09-12",
+          "published_at": "2026-09-12T06:03:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "다음주 금융당국 일정",
+          "summary": "(배포시) -국민성장펀드, 9월 기금운용심의회 개최 및 승인결과(배포시) △18일(금) -2026년 8월 외국인 증권투자 동향(06:00) -한국 금융정보분석원과 타지키스탄 국립은행 금융정보분석원간의 금융정보교환 협력...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01577686645579464&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-09-12",
+          "published_at": "2026-09-12T08:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+          "summary": "(배포시) ※국민성장펀드, 9월 기금운용심의회 개최 및 승인결과(배포시) *9월 18일(금) ▲10:30 위원장 주간업무회의(정부서울청사) ▲10:30 부위원장 주간업무회의(정부서울청사) ※한국 금융정보분석원과...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434550",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-09-12",
+          "published_at": "2026-09-12T17:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이번주 국내 주요 금융일정(9.14~9.18)",
+          "summary": "금융위원회, 국민성장펀드, 9월 기금운용심의회 개최 및 승인결과(배포시) 금융감독원, 금융감독원, 금융소비자보호 성과 대국민 보고대회 개최(14시) 금융감독원,청소년에서 군 장병까지, 도박문제 예방·치유...",
+          "url": "https://www.newspim.com/news/view/20260911000945",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-09-13",
+          "published_at": "2026-09-13T15:58:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "'생산적 금융' 앞세운 이억원 1년…'부동산 절연'은 시험대",
+          "summary": "정부는 국민성장펀드 규모를 당초 150조원에서 200조원으로 확대했고 반도체·인공지능(AI)·바이오 등 첨단산업과 혁신기업에 대한 자금 공급을 늘리고 있다. 금융지주와 은행권에도 기업금융과 전략산업 투자 확대를...",
+          "url": "https://www.ajunews.com/view/20260913152117329",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-09-14",
+          "published_at": "2026-09-14T00:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "30억",
+          "title": "정성재 BNK벤처투자 대표, 부울경 혁신기업 스케일업 페달 [VC 2026 하반기...",
+          "summary": "BNK벤처투자 관계자는 \"퓨리오사AI는 국민성장펀드의 같은 라운드인 시리즈D에 30억 투자를 완료했다\"라며... 연계한 투자로 전략펀드로 집행한 케이스\"라고 말했다. ‘BNK부산 혁신 스케일업 벤처펀드’를 통해...",
+          "url": "https://www.fntimes.com/html/view.php?ud=202609120020482839dd55077bc2_18",
+          "source_label": "한국금융신문"
         }
       ]
     },

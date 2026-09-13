@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:11:18.548221+00:00",
+  "generated_at": "2026-09-13T22:11:09.295436+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-10T22:11:18.548147+00:00",
+    "sheet_synced_at": "2026-09-13T22:11:09.295336+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -2027,6 +2027,18 @@
           "status_label": "관련 동향",
           "url": "https://www.mt.co.kr/thebio/2026/09/01/2026083119570830872",
           "source": "머니투데이"
+        },
+        {
+          "date": "2026-09-11",
+          "event": "[더벨][thebell note] 대기업에 쏠린 '바이오 국민성장펀드'",
+          "methods": [
+            "대출"
+          ],
+          "amount": "3000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609081721204280106695",
+          "source": "더벨"
         }
       ]
     },
@@ -2670,6 +2682,16 @@
           "status_label": "관련 동향",
           "url": "https://www.news1.kr/industry/sb-founded/6274704",
           "source": "뉴스1"
+        },
+        {
+          "date": "2026-09-14",
+          "event": "정성재 BNK벤처투자 대표, 부울경 혁신기업 스케일업 페달 [VC 2026 하반기...",
+          "methods": [],
+          "amount": "30억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.fntimes.com/html/view.php?ud=202609120020482839dd55077bc2_18",
+          "source": "한국금융신문"
         }
       ]
     },
@@ -8227,30 +8249,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-08-13",
-      "title": "[2026 상반기 VC 리그테이블] [하우스] SBI 3000억 실탄 장전…200억 결손...",
-      "url": "https://dealsite.co.kr/articles/167077",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "현대차 정몽구 재단, ‘AI 시대의 기후테크 혁신 포럼’ 개최",
-      "url": "https://biz.heraldcorp.com/article/10839564",
-      "source": "헤럴드경제"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "현대차 정몽구 재단, 제2회 'AI 시대의 기후테크 혁신 포럼' 개최",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03781846645546992",
-      "source": "이데일리"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "“AI 시대, 기후테크 금융 해법 논의”…현대차 정몽구재단, 포럼 개최",
-      "url": "https://www.mk.co.kr/article/12126385",
-      "source": "매일경제"
-    },
-    {
       "date": "2026-08-14",
       "title": "\"1조도 다 못 썼는데 5조라니\"…은행권, PF 확대 주문에 부담 커진다",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430136",
@@ -8825,8 +8823,32 @@
       "title": "BS그룹, KB금융그룹과 '생산적 금융' 업무협약…전략적 협력체계 구축",
       "url": "https://www.mt.co.kr/estate/2026/09/10/2026090913112736256",
       "source": "머니투데이"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "다음주 금융당국 일정",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01577686645579464&mediaCodeNo=257",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434550",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "이번주 국내 주요 금융일정(9.14~9.18)",
+      "url": "https://www.newspim.com/news/view/20260911000945",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "'생산적 금융' 앞세운 이억원 1년…'부동산 절연'은 시험대",
+      "url": "https://www.ajunews.com/view/20260913152117329",
+      "source": "아주경제"
     }
   ],
-  "matched_articles_this_run": 324,
+  "matched_articles_this_run": 330,
   "confirmed_deals_count": 16
 }
