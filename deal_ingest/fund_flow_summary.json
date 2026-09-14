@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-13T22:11:08.442603+00:00",
+  "generated_at": "2026-09-14T22:11:08.571032+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 459,
+  "total_policy_articles": 465,
   "matched_funds_count": 2,
-  "unmatched_count": 133,
+  "unmatched_count": 136,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-14",
-      "event_count": 324,
+      "last_updated": "2026-09-15",
+      "event_count": 327,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3577,6 +3577,39 @@
           "summary": "BNK벤처투자 관계자는 \"퓨리오사AI는 국민성장펀드의 같은 라운드인 시리즈D에 30억 투자를 완료했다\"라며... 연계한 투자로 전략펀드로 집행한 케이스\"라고 말했다. ‘BNK부산 혁신 스케일업 벤처펀드’를 통해...",
           "url": "https://www.fntimes.com/html/view.php?ud=202609120020482839dd55077bc2_18",
           "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-09-14",
+          "published_at": "2026-09-14T07:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3000억원",
+          "title": "SK바사, 국민성장펀드로 R&D 부담 줄어…흑자전환 정조준",
+          "summary": "SK바사, R&D 투자 비중 23.9%로 높아 SK바이오사이언스는 지난 5월 국민성장펀드를 통해 3000억원 규모의 장기·저리 정책자금 지원을 확정받았다. 지원 기간은 10년이며, 재원은 첨단전략산업기금 2500억원과 산업은행...",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/09/11/0029",
+          "source_label": "비즈워치"
+        },
+        {
+          "date": "2026-09-14",
+          "published_at": "2026-09-14T18:01:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이억원號 1년 … 생산·포용금융 싹틔웠다",
+          "summary": "규모 국민성장펀드를 출범시켰고, 은행 등 금융기관이 부동산 담보 위주의 주택담보대출보다 기업대출에 집중하도록 유도했다. 첨단산업 이해를 위한 공부에 매진하는 한편 지방 전략산업에 대한 금융 지원을 위해...",
+          "url": "https://www.mk.co.kr/article/12152435",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-09-15",
+          "published_at": "2026-09-15T06:00:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "1250조",
+          "title": "금융권 '생산적 금융' 총력전…5년간 1250조→1560조로 확대",
+          "summary": "앞서 금융위는 지난 3월 국민성장펀드와 공동으로 기업에 투자하거나 정책성펀드에 출자한 금융사에 대해... 신한금융은 올해 7월 말까지 기업대출 증가분 5조9000억원 가운데 4조7000억원을 생산적 금융 관련 대출로...",
+          "url": "https://www.mt.co.kr/finance/2026/09/15/2026091416364715014",
+          "source_label": "머니투데이"
         }
       ]
     },
