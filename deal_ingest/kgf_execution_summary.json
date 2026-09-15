@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T22:11:09.552707+00:00",
+  "generated_at": "2026-09-15T22:11:11.349339+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-14T22:11:09.552624+00:00",
+    "sheet_synced_at": "2026-09-15T22:11:11.349217+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -8259,36 +8259,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-08-18",
-      "title": "[금융공기관 지방이전]②'나눠먹기식' 지역 안배에 국가 금융경쟁력 흔...",
-      "url": "https://view.asiae.co.kr/article/2026081418071304471",
-      "source": "아시아경제"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "'을' 찾아뵙는 '갑'…국민성장펀드 '출자 배정' 기다리는 LP들",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/19/2026081980080.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "[더벨][로보티즈 블록딜] 자회사 지원 보이콧한 이사회, 신사업 균형잡...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608122319422000105181",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "국민연금 vs 산은 최대출자자 누구?…국민성장펀드發 GP 규약 조율도 골머리",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/20/2026082080098.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "'멀티 본부' 시너지…PE·그로쓰캐피탈·크레딧 삼각편대 [넥스트 스틱]...",
-      "url": "https://www.etoday.co.kr/news/view/2615743",
-      "source": "이투데이"
-    },
-    {
       "date": "2026-08-20",
       "title": "'최대 16년' 초장기 기술투자펀드 띄운다…8천800억 규모",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431011",
@@ -8857,8 +8827,38 @@
       "title": "금융권 '생산적 금융' 총력전…5년간 1250조→1560조로 확대",
       "url": "https://www.mt.co.kr/finance/2026/09/15/2026091416364715014",
       "source": "머니투데이"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "“국민성장펀드, LNG발전소 투자 배제해야…ESG 원칙 마련 필요”",
+      "url": "https://futurechosun.com/?p=160253",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "기후단체들 \"국민성장펀드, 화석연료 투자 배제한 ESG 원칙 제정해야”",
+      "url": "https://www.etoday.co.kr/news/view/2625739",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "충북도 \"바이오 등 국민성장펀드 기업 발굴해 연계\"",
+      "url": "https://www.newsis.com/view/NISX20260915_0003790278",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "국민성장펀드 지원 기업 발굴…충북도, 협의체 가동",
+      "url": "https://www.news1.kr/local/sejong-chungbuk/6291465",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "박상진號 산업은행 1년, 성장산업 17.9조 지원·한계사업 1.38조 재편 ‘...",
+      "url": "https://www.fntimes.com/html/view.php?ud=2026091516200799865e6e69892f_18",
+      "source": "한국금융신문"
     }
   ],
-  "matched_articles_this_run": 333,
+  "matched_articles_this_run": 338,
   "confirmed_deals_count": 16
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T22:11:08.571032+00:00",
+  "generated_at": "2026-09-15T22:11:10.571353+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 465,
+  "total_policy_articles": 473,
   "matched_funds_count": 2,
-  "unmatched_count": 136,
+  "unmatched_count": 139,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-15",
-      "event_count": 327,
+      "last_updated": "2026-09-16",
+      "event_count": 332,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3610,6 +3610,61 @@
           "summary": "앞서 금융위는 지난 3월 국민성장펀드와 공동으로 기업에 투자하거나 정책성펀드에 출자한 금융사에 대해... 신한금융은 올해 7월 말까지 기업대출 증가분 5조9000억원 가운데 4조7000억원을 생산적 금융 관련 대출로...",
           "url": "https://www.mt.co.kr/finance/2026/09/15/2026091416364715014",
           "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-09-15",
+          "published_at": "2026-09-15T11:34:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "“국민성장펀드, LNG발전소 투자 배제해야…ESG 원칙 마련 필요”",
+          "summary": "/KBF 국민성장펀드는 정부가 AI·반도체 등 첨단전략산업과 관련 생태계에 대규모 자금을 공급하기 위해... 네덜란드 공무원연금(ABP), 뉴욕시 퇴직연금, 유럽투자은행(EIB) 등 해외 공적 연기금과 금융기관이 화석연료...",
+          "url": "https://futurechosun.com/?p=160253",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-09-15",
+          "published_at": "2026-09-15T14:02:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "75조",
+          "title": "기후단체들 \"국민성장펀드, 화석연료 투자 배제한 ESG 원칙 제정해야”",
+          "summary": "국민성장펀드는 첨단전략산업기금 75조원과 국민·민간 금융권 자금을 결합해 올해 7월 총 200조원 규모로 확대 편성됐다. 제1차 메가 프로젝트 7건에는 반도체 클러스터에 전력과 열을 공급하기 위한 신규 LNG 발전소...",
+          "url": "https://www.etoday.co.kr/news/view/2625739",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-09-15",
+          "published_at": "2026-09-15T14:22:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "충북도 \"바이오 등 국민성장펀드 기업 발굴해 연계\"",
+          "summary": "충북도가 국민성장펀드를 활용한 첨단전략산업 육성에 나선다. 도는 15일 '충북 국민성장펀드 추진단' 회의를... 산업은행·중소기업은행·수출입은행 등 정책금융기관과 NH농협은행·신한은행·KB국민은행·기술보증기금 등...",
+          "url": "https://www.newsis.com/view/NISX20260915_0003790278",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-09-15",
+          "published_at": "2026-09-15T17:10:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드 지원 기업 발굴…충북도, 협의체 가동",
+          "summary": "국민성장펀드 금융지원 실무를 담당하는 산업은행은 국민성장펀드 지원 현황과 지원 전략을 설명했다. 펀드 저리 대출 승인을 받은 도내 반도체 기업 심텍의 사례 공유도 이어졌다. 펀드 활용을 희망하는 도내 중소기업의...",
+          "url": "https://www.news1.kr/local/sejong-chungbuk/6291465",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-09-16",
+          "published_at": "2026-09-16T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "9조",
+          "title": "박상진號 산업은행 1년, 성장산업 17.9조 지원·한계사업 1.38조 재편 ‘...",
+          "summary": "국민성장펀드는 승인액을 실제 투자와 대출 집행으로 얼마나 빠르게 연결하느냐가 관건이고, 대산·여수에 이어 울산 등 추가 석유화학 사업재편을 성사시켜야 한다. HMM도 대표적인 미완 과제다. 박 회장은 지난 2월...",
+          "url": "https://www.fntimes.com/html/view.php?ud=2026091516200799865e6e69892f_18",
+          "source_label": "한국금융신문"
         }
       ]
     },
