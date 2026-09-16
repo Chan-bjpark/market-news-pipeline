@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T22:11:10.571353+00:00",
+  "generated_at": "2026-09-16T22:11:08.107028+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 473,
+  "total_policy_articles": 478,
   "matched_funds_count": 2,
-  "unmatched_count": 139,
+  "unmatched_count": 140,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-16",
-      "event_count": 332,
+      "last_updated": "2026-09-17",
+      "event_count": 336,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -3602,6 +3602,17 @@
         },
         {
           "date": "2026-09-15",
+          "published_at": "2026-09-15T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "증권사들, 국민성장펀드 2차는 '조용히'…증시도 관심도 '시들'",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/15/2026091580122.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-09-15",
           "published_at": "2026-09-15T06:00:00+09:00",
           "stage_code": "lp_commit",
           "stage_label": "LP 출자 확정",
@@ -3665,6 +3676,39 @@
           "summary": "국민성장펀드는 승인액을 실제 투자와 대출 집행으로 얼마나 빠르게 연결하느냐가 관건이고, 대산·여수에 이어 울산 등 추가 석유화학 사업재편을 성사시켜야 한다. HMM도 대표적인 미완 과제다. 박 회장은 지난 2월...",
           "url": "https://www.fntimes.com/html/view.php?ud=2026091516200799865e6e69892f_18",
           "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-09-17",
+          "published_at": "2026-09-17T05:00:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "하반기 출자 레이스 열렸지만…국민성장펀드 '그늘'에 우는 PEF",
+          "summary": "부담…최소 결성금액 확보도 '난항' 하반기 주요 연기금·공제회와 정책금융기관의 블라인드 사모펀드(PEF) 출자 사업이 잇따라 막을 올렸지만, 중견·중소 PEF 운용사들의 표정은 어둡다. 국민성장펀드에서 고배를 마신...",
+          "url": "https://www.etoday.co.kr/news/view/2626113",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-09-17",
+          "published_at": "2026-09-17T05:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[오늘의 주요일정]금융·증권(9월17일 목요일)",
+          "summary": "확대 ▲배포시 국민성장펀드, 9월 기금운용심의회 개최 및 승인결과 &lt;금융감독원&gt; ▲14:00 금융감독원, 금융소비자보호 성과 대국민 보고대회 개최 ▲배포시 청소년에서 군 장병까지, 도박문제 예방·치유 안전망...",
+          "url": "https://www.newsis.com/view/NISX20260916_0003791960",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-09-17",
+          "published_at": "2026-09-17T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "1500억원",
+          "title": "[Invest]IMM인베, LIG D&A 펀드레이징 장기화…국민성장펀드 출자에도 고...",
+          "summary": "국민성장펀드의 첨단전략산업기금이 1500억원을 출자하고 나머지는 외부에서 유치한다. 금융위원회는 지난 6월 LIG D&A의 우선주 5000억원어치를 인수하기 위한 프로젝트펀드 출자를 승인했다.투자조건이 변경된 주된...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/16/2026091680130.html",
+          "source_label": "인베스트조선"
         }
       ]
     },
