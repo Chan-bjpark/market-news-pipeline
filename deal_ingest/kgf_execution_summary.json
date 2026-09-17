@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:11:09.217518+00:00",
+  "generated_at": "2026-09-17T22:11:17.869889+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-16T22:11:09.217410+00:00",
+    "sheet_synced_at": "2026-09-17T22:11:17.869800+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -2084,7 +2084,20 @@
       ],
       "status_code": "approved",
       "status_label": "승인확정",
-      "news_timeline": []
+      "news_timeline": [
+        {
+          "date": "2026-09-17",
+          "event": "\"255개 중견기업의 힘\"…중견련·충북도, 정책금융으로 투자 물꼬",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억 원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.news1.kr/industry/sb-founded/6293422",
+          "source": "뉴스1"
+        }
+      ]
     },
     {
       "no": 11,
@@ -3257,6 +3270,362 @@
       ]
     },
     {
+      "company_name": "우리",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "3651억 원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-17",
+      "timeline": [
+        {
+          "date": "2026-09-02",
+          "event": "[더벨]우리은행, 국민성장펀드 '첫 콘텐츠 투자' 이끌었다",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608310918433040108259",
+          "source": "더벨"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리, 생산적금융 연간 목표 116% 달성",
+          "methods": [],
+          "amount": "3651억 원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.sedaily.com/article/20092198",
+          "source": "서울경제"
+        }
+      ]
+    },
+    {
+      "company_name": "우리금융",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "10조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-09-17",
+      "timeline": [
+        {
+          "date": "2026-07-07",
+          "event": "우리금융, 상반기 생산적 투자 7300억 공급",
+          "methods": [
+            "출자"
+          ],
+          "amount": "10조",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "http://www.fnnews.com/news/202607071032436071",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-07-07",
+          "event": "우리금융, 상반기 생산적 투자 7300억 공급",
+          "methods": [
+            "출자"
+          ],
+          "amount": "10조",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "http://www.fnnews.com/news/202607071807173852",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 생산적금융 25.3조 공급…연간 목표 116% 달성",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.newsis.com/view/NISX20260917_0003793509",
+          "source": "뉴시스"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 생산적금융 25.3조 공급…연간 목표 116% 달성",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03358726645581104&mediaCodeNo=257",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 생산적금융 연간 목표 116% 달성...25.3조 공급",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.fnnews.com/news/202609171057030326",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 8월까지 생산적금융 25.3조 공급…연간 목표 116% 달성",
+          "methods": [],
+          "amount": "3조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.mt.co.kr/finance/2026/09/17/2026091711060957483",
+          "source": "머니투데이"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 생산적금융에 25.3조원 공급…연간 목표 116%",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://view.asiae.co.kr/article/2026091711505818570",
+          "source": "아시아경제"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 생산적금융 25조 공급…지방·중소기업 지원 확대",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "2조2000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.g-enews.com/view.php?ud=202609171051346470cd0bfacc1c_1",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 생산적금융 목표 116% 조기 달성…지방·중소기업 지원 확대",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "650억 원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.news1.kr/finance/general-finance/6293845",
+          "source": "뉴스1"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 생산적금융 연간 목표 116% 달성…지방·中企 지원 확대",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "650억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=363416",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 생산적금융 AX 전환 속도… 75개 과제 추진",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "9500억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092170382",
+          "source": "조선일보"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 8월까지 생산적금융 25.3조 공급…연간 목표 초과 달성",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://biz.heraldcorp.com/article/10877425",
+          "source": "헤럴드경제"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리금융, 생산적금융 벌써 올 목표 116% 달성",
+          "methods": [],
+          "amount": "2200억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.fnnews.com/news/202609171813061202",
+          "source": "파이낸셜뉴스"
+        }
+      ]
+    },
+    {
+      "company_name": "승인",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "1조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-09-17",
+      "timeline": [
+        {
+          "date": "2026-06-26",
+          "event": "국민성장펀드, 리가켐바이오·LIG D&A 지분투자 승인…총 1조 투입",
+          "methods": [
+            "출자"
+          ],
+          "amount": "1조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.news1.kr/finance/general-finance/6208945",
+          "source": "뉴스1"
+        },
+        {
+          "date": "2026-06-26",
+          "event": "국민성장펀드, 리가켐바이오·LIG디펜스 투자 승인…각 5천억원",
+          "methods": [
+            "출자"
+          ],
+          "amount": "500억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.yna.co.kr/view/AKR20260626025600002?input=1195m",
+          "source": "연합뉴스"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "국민성장펀드, 9월 1조원 투자 승인⋯의사결정ㆍ사후관리 체계 강화",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2626920",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "company_name": "위험",
+      "sector": null,
+      "methods": [],
+      "amount": "1조684억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "timeline": [
+        {
+          "date": "2026-09-17",
+          "event": "국민성장펀드, 투자 위험 관리하는 리스크·사후관리위 신설",
+          "methods": [],
+          "amount": "1조684억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/09/17/0037",
+          "source": "비즈워치"
+        }
+      ]
+    },
+    {
+      "company_name": "야월 해상풍력 등",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": "1조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "timeline": [
+        {
+          "date": "2026-09-17",
+          "event": "국민성장펀드, 야월 해상풍력 등에 1조 투입",
+          "methods": [
+            "대출"
+          ],
+          "amount": "1조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.sedaily.com/article/20092233",
+          "source": "서울경제"
+        }
+      ]
+    },
+    {
+      "company_name": "야월해상풍력 등 5건",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": "18조9000억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "timeline": [
+        {
+          "date": "2026-09-17",
+          "event": "국민성장펀드, 야월해상풍력 등 5건에 1조원 지원 승인",
+          "methods": [
+            "대출"
+          ],
+          "amount": "18조9000억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.mt.co.kr/finance/2026/09/17/2026091717172515184",
+          "source": "머니투데이"
+        }
+      ]
+    },
+    {
+      "company_name": "해상풍력 등",
+      "sector": null,
+      "methods": [],
+      "amount": "1조",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "timeline": [
+        {
+          "date": "2026-09-17",
+          "event": "국민성장펀드, 해상풍력 등에 1조 지원…리스크·사후관리위도 신설",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.newsis.com/view/NISX20260917_0003794512",
+          "source": "뉴시스"
+        }
+      ]
+    },
+    {
       "company_name": "안정성",
       "sector": null,
       "methods": [
@@ -3536,32 +3905,6 @@
           "status_label": "검토단계",
           "url": "https://www.etoday.co.kr/news/view/2621190",
           "source": "이투데이"
-        }
-      ]
-    },
-    {
-      "company_name": "우리",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": null,
-      "status_code": "mention",
-      "status_label": "관련 동향",
-      "first_seen": "2026-09-02",
-      "last_seen": "2026-09-02",
-      "timeline": [
-        {
-          "date": "2026-09-02",
-          "event": "[더벨]우리은행, 국민성장펀드 '첫 콘텐츠 투자' 이끌었다",
-          "methods": [
-            "출자"
-          ],
-          "amount": null,
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608310918433040108259",
-          "source": "더벨"
         }
       ]
     },
@@ -6263,44 +6606,6 @@
       ]
     },
     {
-      "company_name": "우리금융",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "10조",
-      "status_code": "review",
-      "status_label": "검토단계",
-      "first_seen": "2026-07-07",
-      "last_seen": "2026-07-07",
-      "timeline": [
-        {
-          "date": "2026-07-07",
-          "event": "우리금융, 상반기 생산적 투자 7300억 공급",
-          "methods": [
-            "출자"
-          ],
-          "amount": "10조",
-          "status_code": "review",
-          "status_label": "검토단계",
-          "url": "http://www.fnnews.com/news/202607071032436071",
-          "source": "파이낸셜뉴스"
-        },
-        {
-          "date": "2026-07-07",
-          "event": "우리금융, 상반기 생산적 투자 7300억 공급",
-          "methods": [
-            "출자"
-          ],
-          "amount": "10조",
-          "status_code": "review",
-          "status_label": "검토단계",
-          "url": "http://www.fnnews.com/news/202607071807173852",
-          "source": "파이낸셜뉴스"
-        }
-      ]
-    },
-    {
       "company_name": "쏠림",
       "sector": null,
       "methods": [
@@ -6637,44 +6942,6 @@
           "status_label": "관련 동향",
           "url": "https://www.donga.com/news/Economy/article/all/20260625/134184540/2",
           "source": "동아일보"
-        }
-      ]
-    },
-    {
-      "company_name": "승인",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "1조",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-06-26",
-      "last_seen": "2026-06-26",
-      "timeline": [
-        {
-          "date": "2026-06-26",
-          "event": "국민성장펀드, 리가켐바이오·LIG D&A 지분투자 승인…총 1조 투입",
-          "methods": [
-            "출자"
-          ],
-          "amount": "1조",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.news1.kr/finance/general-finance/6208945",
-          "source": "뉴스1"
-        },
-        {
-          "date": "2026-06-26",
-          "event": "국민성장펀드, 리가켐바이오·LIG디펜스 투자 승인…각 5천억원",
-          "methods": [
-            "출자"
-          ],
-          "amount": "500억",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.yna.co.kr/view/AKR20260626025600002?input=1195m",
-          "source": "연합뉴스"
         }
       ]
     },
@@ -8311,84 +8578,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-08-20",
-      "title": "'최대 16년' 초장기기술펀드 8800억 가동…장기 인내자본 공급",
-      "url": "https://www.news1.kr/finance/general-finance/6264433",
-      "source": "뉴스1"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "국민성장펀드, 16년 초장기기술투자펀드 시동⋯운용사 최대 7곳 뽑는다",
-      "url": "https://www.etoday.co.kr/news/view/2616425",
-      "source": "이투데이"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "최대 16년 '초장기 기술투자펀드' 출범…8800억원 규모",
-      "url": "https://www.newsis.com/view/NISX20260820_0003756183",
-      "source": "뉴시스"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "초장기기술투자펀드 운용사 선정 돌입…이르면 연말부터 투자",
-      "url": "https://www.yna.co.kr/view/AKR20260820127200002?input=1195m",
-      "source": "연합뉴스"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "초장기 기술투자펀드 운용사 10월 선정…이르면 연내 자금집행",
-      "url": "https://www.mt.co.kr/stock/2026/08/20/2026082014491612920",
-      "source": "머니투데이"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "기술개발 기다려주는 ‘초장기 16년 펀드’ 첫발…흥행 성공할까",
-      "url": "https://www.hani.co.kr/arti/economy/finance/1273831.html",
-      "source": "한겨레"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "금융위, 초장기 기술투자펀드 운용사 선정 돌입",
-      "url": "https://www.chosun.com/economy/stock-finance/2026/08/20/QYLFGSUD7FF55GAXZULADI64KI/",
-      "source": "조선일보"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "8800억 규모 '초장기 기술투자펀드' 출범…16년 간 장기자본 공급",
-      "url": "http://www.fnnews.com/news/202608201627485638",
-      "source": "파이낸셜뉴스"
-    },
-    {
-      "date": "2026-08-22",
-      "title": "다음주 금융당국 일정",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01718726645549944&mediaCodeNo=257",
-      "source": "이데일리"
-    },
-    {
-      "date": "2026-08-22",
-      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431315",
-      "source": "연합인포맥스"
-    },
-    {
-      "date": "2026-08-22",
-      "title": "이번주 국내 주요 금융일정(8.24~8.28)",
-      "url": "https://www.newspim.com/news/view/20260821000888",
-      "source": "뉴스핌"
-    },
-    {
-      "date": "2026-08-24",
-      "title": "'을' 찾아뵙는 '갑'…국민성장펀드 '출자 배정' 기다리는 LP들",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/24/2026082480128.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-08-24",
-      "title": "국민연금 vs 산은 최대출자자 누구?…국민성장펀드發 GP 규약 조율도 골머리",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/24/2026082480127.html",
-      "source": "인베스트조선"
-    },
-    {
       "date": "2026-08-24",
       "title": "[단독]혈세 투입 정책펀드 10개중 6개, 제대로 투자하는지 ‘깜깜이’",
       "url": "https://www.donga.com/news/Society/article/all/20260824/134528223/2",
@@ -8900,6 +9089,12 @@
     },
     {
       "date": "2026-09-16",
+      "title": "증권사들, 국민성장펀드 2차는 '조용히'…증시도 관심도 '시들'",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/09/16/2026091680125.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-09-16",
       "title": "박상진號 산업은행 1년, 성장산업 17.9조 지원·한계사업 1.38조 재편 ‘...",
       "url": "https://www.fntimes.com/html/view.php?ud=2026091516200799865e6e69892f_18",
       "source": "한국금융신문"
@@ -8909,8 +9104,80 @@
       "title": "[오늘의 주요일정]금융·증권(9월17일 목요일)",
       "url": "https://www.newsis.com/view/NISX20260916_0003791960",
       "source": "뉴시스"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "산업은행 1000억원 추가 출자…국민성장펀드·넷제로 투입 이어간다",
+      "url": "https://view.asiae.co.kr/article/2026091709225633713",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "국민성장펀드, 부실 우려·투자금 회수 별도 심의…사후관리위 신설",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435466",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "임종룡 우리금융 회장 “지방·중소기업 금융지원 폭 넓혀야”",
+      "url": "https://www.etoday.co.kr/news/view/2626912",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "국민성장펀드, 야월해상풍력 등 1조 지원…누적 18.9조 승인",
+      "url": "https://www.news1.kr/finance/financial-policy/6294281",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "국민성장펀드, 야월해상풍력 등 1조 지원… 사후관리위 신설",
+      "url": "https://biz.chosun.com/stock/finance/2026/09/17/47AXUMURPBHMFAMSQ5ZG5T6SRQ/",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "국민성장펀드, 해상풍력 등 1조 규모 5개 사업 승인...누적 지원 18.9조",
+      "url": "https://www.newspim.com/news/view/20260917001145",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "국민성장펀드, 비수도권 투자지 1위는 '호남'",
+      "url": "https://www.fnnews.com/news/202609171710057773",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "국민성장펀드, 야월해상풍력 등 1조 지원…리스크·사후관리 강화",
+      "url": "https://view.asiae.co.kr/article/2026091717180832586",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "국민성장펀드 ‘리스크관리위’ ‘사후관리위’ 신설한다",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1278326.html",
+      "source": "한겨레"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "몸집 커진 국민성장펀드, 관리도 강화…18.9조 승인",
+      "url": "https://www.ajunews.com/view/20260917172638084",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "국성펀, 리스크·사후관리위원회 신설…'호남' 투자 금액 1위",
+      "url": "https://www.yna.co.kr/view/AKR20260917179900002?input=1195m",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "국민성장펀드 리스크·사후관리위 신설…5건 1조원 규모 사업 지원",
+      "url": "https://www.fnnews.com/news/202609171743182534",
+      "source": "파이낸셜뉴스"
     }
   ],
-  "matched_articles_this_run": 342,
+  "matched_articles_this_run": 373,
   "confirmed_deals_count": 16
 }
