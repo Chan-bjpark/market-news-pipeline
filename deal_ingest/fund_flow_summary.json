@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-17T22:11:17.000635+00:00",
+  "generated_at": "2026-09-20T22:11:27.980774+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 511,
+  "total_policy_articles": 520,
   "matched_funds_count": 2,
-  "unmatched_count": 142,
+  "unmatched_count": 146,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-17",
-      "event_count": 367,
+      "last_updated": "2026-09-21",
+      "event_count": 372,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -4050,6 +4050,61 @@
           "summary": "특히 우리은행이 발굴한 총 2200억원 규모의 'CJ 4D 플렉스 프로젝트 펀드'는 지난달 국민성장펀드 기금운용심의회의 최종 승인을 받았다. 금융위원회 성장기업 발굴협의체를 통한 첫 승인 사례다. 10월 중...",
           "url": "https://www.fnnews.com/news/202609171813061202",
           "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-09-18",
+          "published_at": "2026-09-18T08:00:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "7조",
+          "title": "국민성장펀드에 PE 인재상도 변화…산업·이공계 출신 부상",
+          "summary": "18일 투자은행(IB) 업계에 따르면 올해 국민성장펀드 위탁운용사(GP)로 선정된 한 PEF 운용사는 상반기 산업... 이 가운데 민간 GP가 참여하는 간접투자 규모는 7조원대다. 이는 최근 전통 기관투자자들의 출자사업과...",
+          "url": "https://www.yna.co.kr/view/AKR20260917170200008?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-09-18",
+          "published_at": "2026-09-18T10:00:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "1조",
+          "title": "오아시스마켓, 토스쇼핑 입점…토스에 300억 투자도 받는다",
+          "summary": "국민성장펀드, 야월 해상풍력 등에 1조 투입 - 핵심 요약: 금융위원회가 17일 국민성장펀드 기금운용심의회를 열고 전남 야월 해상풍력 발전사업 등 5개 사업에 총 1조 원의 자금 지원을 승인했다고 밝혔다. 야월...",
+          "url": "https://www.sedaily.com/article/20092476",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-09-18",
+          "published_at": "2026-09-18T13:32:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": null,
+          "title": "이억원ㆍ황성엽 \"장기투자 기반 넓혀야\"⋯생산적 금융 전환 한목소리",
+          "summary": "바꾸겠다”며 “국민성장펀드 내 코스닥 투자펀드를 신설해 10월경 투자를 개시하는 등 기관의 장기자금이... 보증·저리 대출과 투자금 회수 경로를 확대해야 한다”고 지적했다. 이어진 패널토론에서는 생산적 금융의...",
+          "url": "https://www.etoday.co.kr/news/view/2627228",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-09-21",
+          "published_at": "2026-09-21T06:10:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "6400억",
+          "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금",
+          "summary": "데이터센터에 자사 NPU를 탑재한 랙형 AI 추론 인프라 '리벨랙'을 배치하기로 했다. ai&는 초기 도입을 시작으로 리벨랙을 최대 100대 이상으로 확대할 계획이다. 퓨리오사AI는 국민성장펀드 첨단전략산업기금 3700억...",
+          "url": "https://www.news1.kr/industry/sb-founded/6296515",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-09-21",
+          "published_at": "2026-09-21T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[Invest]국민연금, 올해도 PEF 출자사업 미지수…펀드레이징 시장 경색 ...",
+          "summary": "국민연금이 신임 최고투자책임자(CIO)를 선임하고 조직 재정비에 나선 가운데, 사모펀드(PEF)업계의 가장 큰... 그러나 이미 주요 대형 운용사들은 국민성장펀드를 통해 펀드결성을 마쳤거나, 기존 펀드 운용에 집중하는...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/18/2026091880130.html",
+          "source_label": "인베스트조선"
         }
       ]
     },

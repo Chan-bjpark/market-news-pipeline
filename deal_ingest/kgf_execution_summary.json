@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T22:11:17.869889+00:00",
+  "generated_at": "2026-09-20T22:11:28.890027+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-17T22:11:17.869800+00:00",
+    "sheet_synced_at": "2026-09-20T22:11:28.889944+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -887,6 +887,16 @@
           "status_label": "승인·확정",
           "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432747",
           "source": "연합인포맥스"
+        },
+        {
+          "date": "2026-09-21",
+          "event": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금",
+          "methods": [],
+          "amount": "6400억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.news1.kr/industry/sb-founded/6296515",
+          "source": "뉴스1"
         }
       ]
     },
@@ -3218,6 +3228,94 @@
   ],
   "news_discovered": [
     {
+      "company_name": "국민연금",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": null,
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-09-21",
+      "timeline": [
+        {
+          "date": "2026-07-24",
+          "event": "[Invest]국민연금, 9월 블라인드펀드 출자 재개…'중형 리그' 부활 검토",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/24/2026072480095.html",
+          "source": "인베스트조선"
+        },
+        {
+          "date": "2026-09-21",
+          "event": "[Invest]국민연금, 올해도 PEF 출자사업 미지수…펀드레이징 시장 경색 ...",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/18/2026091880130.html",
+          "source": "인베스트조선"
+        }
+      ]
+    },
+    {
+      "company_name": "토스",
+      "sector": null,
+      "methods": [],
+      "amount": "1조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "timeline": [
+        {
+          "date": "2026-09-18",
+          "event": "오아시스마켓, 토스쇼핑 입점…토스에 300억 투자도 받는다",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.sedaily.com/article/20092476",
+          "source": "서울경제"
+        }
+      ]
+    },
+    {
+      "company_name": "기반",
+      "sector": null,
+      "methods": [
+        "대출",
+        "보증"
+      ],
+      "amount": null,
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "timeline": [
+        {
+          "date": "2026-09-18",
+          "event": "이억원ㆍ황성엽 \"장기투자 기반 넓혀야\"⋯생산적 금융 전환 한목소리",
+          "methods": [
+            "대출",
+            "보증"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.etoday.co.kr/news/view/2627228",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
       "company_name": "그늘",
       "sector": null,
       "methods": [
@@ -5399,32 +5497,6 @@
           "status_label": "승인·확정",
           "url": "https://www.sedaily.com/article/20071971",
           "source": "서울경제"
-        }
-      ]
-    },
-    {
-      "company_name": "국민연금",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": null,
-      "status_code": "review",
-      "status_label": "검토단계",
-      "first_seen": "2026-07-24",
-      "last_seen": "2026-07-24",
-      "timeline": [
-        {
-          "date": "2026-07-24",
-          "event": "[Invest]국민연금, 9월 블라인드펀드 출자 재개…'중형 리그' 부활 검토",
-          "methods": [
-            "출자"
-          ],
-          "amount": null,
-          "status_code": "review",
-          "status_label": "검토단계",
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/24/2026072480095.html",
-          "source": "인베스트조선"
         }
       ]
     },
@@ -8579,12 +8651,6 @@
   "candidates": [
     {
       "date": "2026-08-24",
-      "title": "[단독]혈세 투입 정책펀드 10개중 6개, 제대로 투자하는지 ‘깜깜이’",
-      "url": "https://www.donga.com/news/Society/article/all/20260824/134528223/2",
-      "source": "동아일보"
-    },
-    {
-      "date": "2026-08-24",
       "title": "[이번주 한국은행 및 금융위·금감원 일정]",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431374",
       "source": "연합인포맥스"
@@ -9176,8 +9242,14 @@
       "title": "국민성장펀드 리스크·사후관리위 신설…5건 1조원 규모 사업 지원",
       "url": "https://www.fnnews.com/news/202609171743182534",
       "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "국민성장펀드에 PE 인재상도 변화…산업·이공계 출신 부상",
+      "url": "https://www.yna.co.kr/view/AKR20260917170200008?input=1195m",
+      "source": "연합뉴스"
     }
   ],
-  "matched_articles_this_run": 373,
+  "matched_articles_this_run": 378,
   "confirmed_deals_count": 16
 }
