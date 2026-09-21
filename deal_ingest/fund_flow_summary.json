@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T22:11:27.980774+00:00",
+  "generated_at": "2026-09-21T22:11:13.888421+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 520,
+  "total_policy_articles": 531,
   "matched_funds_count": 2,
-  "unmatched_count": 146,
+  "unmatched_count": 150,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-21",
-      "event_count": 372,
+      "last_updated": "2026-09-22",
+      "event_count": 379,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -4104,6 +4104,83 @@
           "title": "[Invest]국민연금, 올해도 PEF 출자사업 미지수…펀드레이징 시장 경색 ...",
           "summary": "국민연금이 신임 최고투자책임자(CIO)를 선임하고 조직 재정비에 나선 가운데, 사모펀드(PEF)업계의 가장 큰... 그러나 이미 주요 대형 운용사들은 국민성장펀드를 통해 펀드결성을 마쳤거나, 기존 펀드 운용에 집중하는...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/09/18/2026091880130.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-09-21",
+          "published_at": "2026-09-21T10:00:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "12조",
+          "title": "초기 스타트업에 최대 2억…소상공인 금융지원 12조로 늘린다",
+          "summary": "더드림 패키지는 금융채무를 연체 없이 성실하게 상환하는 소상공인에게 금리와 대출한도 등 우대조건을... 국민성장펀드 등 정책금융과 관계부처 R&D, 기술수요 기업, 국내외 금융기관 등 민간 출자자(LP)를 연계해...",
+          "url": "https://www.newsis.com/view/NISX20260921_0003797838",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-09-21",
+          "published_at": "2026-09-21T10:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "12조",
+          "title": "성실 상환 소상공인 12조 '더드림 패키지'…\"낮은 금리·높은 한도\"",
+          "summary": "기업은행과 신용보증기금은 지난해 9월 금리와 한도 등 우대 조건을 최대한으로 적용하는 10조 원 규모의... 국민성장펀드 첨단전략산업 지원은 8월 기준 17조 원으로 목표(30조 원 이상) 대비 56.7%를 달성했다. 이외에도...",
+          "url": "https://www.news1.kr/finance/general-finance/6297103",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-09-21",
+          "published_at": "2026-09-21T10:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "17조",
+          "title": "초기스타트업 문턱 낮춰 최대 2억원 지원…빌드업 프로그램도",
+          "summary": "혁신스타트업 성장 사다리 구축 MOU 체결' 행사와 제14차 정책금융지원협의회를 열었다. 신용보증기금과... 집행됐고, 국민성장펀드 첨단전략산업 지원도 8월 기준 17조원(30조원 이상 목표) 이뤄졌다. 정책금융 지방 우대...",
+          "url": "https://www.yna.co.kr/view/AKR20260921050800002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-09-21",
+          "published_at": "2026-09-21T14:48:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5조",
+          "title": "\"P-CBO 연대 보증 전면 폐지, 4.5조 면책\"...금융위, 정책금융지원협의회...",
+          "summary": "신용보증기금과 기업은행이 협업해 시행한다. 소상공인 더드림 패키지는 금융채무를 연체 없이 성실히... 올해 상반기 정책금융 5대 중점 전략 분야 지원 실적은 101조5000억원(달성률 67.6%), 국민성장펀드 첨단전략산업...",
+          "url": "https://www.fnnews.com/news/202609210938524237",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-09-21",
+          "published_at": "2026-09-21T16:20:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "시리즈C부터 자금줄 메말라…韓 딥테크 키울 '큰손'이 없다",
+          "summary": "강 대표는 \"국민성장펀드 등을 통해 대규모 자금을 공급하더라도 이를 회수할 시장이 뒷받침돼야 한다\"며 \"IPO(기업공개)에 편중된 회수 경로를 M&A(인수합병) 등으로 다변화해야 한다\"고 말했다. [머니투데이 스타트업...",
+          "url": "https://www.mt.co.kr/future/2026/09/21/2026092110290459330",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-09-21",
+          "published_at": "2026-09-21T22:10:29.007159+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드 뒤에 선 GP들",
+          "summary": "",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202609211535100320106077",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-09-22",
+          "published_at": "2026-09-22T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2500억원",
+          "title": "[Invest]리벨리온·업스테이지 코스닥행 무게…국민성장펀드 투자기업 ...",
+          "summary": "이외에도 국민성장펀드가 직접투자를 결정한 비상장기업에는 리벨리온과 업스테이지, 퓨리오사AI, 원익로보틱스 등이 있다. 첨단전략산업기금 투자 승인액은 각각 2500억원, 1000억원, 3700억원, 1500억원이다. 산업은행과...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/21/2026092180124.html",
           "source_label": "인베스트조선"
         }
       ]

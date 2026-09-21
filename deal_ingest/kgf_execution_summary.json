@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:11:28.890027+00:00",
+  "generated_at": "2026-09-21T22:11:14.785681+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.08",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-20T22:11:28.889944+00:00",
+    "sheet_synced_at": "2026-09-21T22:11:14.785595+00:00",
     "approved_count": 30,
     "cumulative_amount": "19조9,469억원",
     "frontier_fund_amount": "8조4,195억원",
@@ -897,6 +897,16 @@
           "status_label": "검토단계",
           "url": "https://www.news1.kr/industry/sb-founded/6296515",
           "source": "뉴스1"
+        },
+        {
+          "date": "2026-09-22",
+          "event": "[Invest]리벨리온·업스테이지 코스닥행 무게…국민성장펀드 투자기업 ...",
+          "methods": [],
+          "amount": "3700억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/09/21/2026092180124.html",
+          "source": "인베스트조선"
         }
       ]
     },
@@ -8650,42 +8660,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-08-24",
-      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431374",
-      "source": "연합인포맥스"
-    },
-    {
-      "date": "2026-08-24",
-      "title": "[대형VC 대해부]④\"10년의 신뢰, 23배의 결실\" 에이티넘인베, 1조 메가펀...",
-      "url": "https://view.asiae.co.kr/article/2026082011425768833",
-      "source": "아시아경제"
-    },
-    {
-      "date": "2026-08-24",
-      "title": "국민성장펀드 투자 양면…밸류에이션 거품 우려",
-      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608241434090040103352",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-08-25",
-      "title": "국민성장펀드 풍선효과... 코스닥 CB, 기본 무이자에 40% 할증 발행까지...",
-      "url": "https://biz.chosun.com/stock/market_trend/2026/08/25/VXSXGXU2ZVFOFFYRGSZOFEK33Q/",
-      "source": "조선일보"
-    },
-    {
-      "date": "2026-08-25",
-      "title": "[단독] 200조 성장펀드 집행 더딘데 … 부처별 유사펀드 홍수",
-      "url": "https://www.mk.co.kr/article/12135966",
-      "source": "매일경제"
-    },
-    {
-      "date": "2026-08-25",
-      "title": "[단독] 부처마다 정책펀드 쏟아내는데…집행실적은 가뭄에 콩나듯",
-      "url": "https://www.mk.co.kr/article/12136073",
-      "source": "매일경제"
-    },
-    {
       "date": "2026-08-25",
       "title": "01.국민성장펀드 5호 투자에 원익로보틱스…첫 로봇기업 낙점",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431570",
@@ -9248,8 +9222,44 @@
       "title": "국민성장펀드에 PE 인재상도 변화…산업·이공계 출신 부상",
       "url": "https://www.yna.co.kr/view/AKR20260917170200008?input=1195m",
       "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "초기스타트업 문턱 낮춰 최대 2억원 지원…빌드업 프로그램도",
+      "url": "https://www.yna.co.kr/view/AKR20260921050800002?input=1195m",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "성실 상환 소상공인 12조 '더드림 패키지'…\"낮은 금리·높은 한도\"",
+      "url": "https://www.news1.kr/finance/general-finance/6297103",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "초기 스타트업에 최대 2억…소상공인 금융지원 12조로 늘린다",
+      "url": "https://www.newsis.com/view/NISX20260921_0003797838",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "\"P-CBO 연대 보증 전면 폐지, 4.5조 면책\"...금융위, 정책금융지원협의회...",
+      "url": "https://www.fnnews.com/news/202609210938524237",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "시리즈C부터 자금줄 메말라…韓 딥테크 키울 '큰손'이 없다",
+      "url": "https://www.mt.co.kr/future/2026/09/21/2026092110290459330",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "국민성장펀드 뒤에 선 GP들",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202609211535100320106077",
+      "source": "더벨"
     }
   ],
-  "matched_articles_this_run": 378,
+  "matched_articles_this_run": 385,
   "confirmed_deals_count": 16
 }
