@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-22T22:11:18.428179+00:00",
+  "generated_at": "2026-09-23T22:11:19.192861+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
-  "aggregate_source": "구글시트 동기화 (as_of 2026.08)",
+  "aggregate_source": "구글시트 동기화 (as_of 2026.09)",
   "lookback_days": 90,
   "version": 2,
   "aggregate": {
-    "as_of": "2026.08",
+    "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-22T22:11:18.428098+00:00",
-    "approved_count": 30,
-    "cumulative_amount": "19조9,469억원",
-    "frontier_fund_amount": "8조4,195억원",
+    "sheet_synced_at": "2026-09-23T22:11:19.192780+00:00",
+    "approved_count": 35,
+    "cumulative_amount": "21조153억원",
+    "frontier_fund_amount": "8조7,685억원",
     "breakdown": {
       "direct_investment": {
         "count": 5,
@@ -23,16 +23,16 @@
         "amount": "9,800억원(결성 7,200억원)"
       },
       "infrastructure": {
-        "count": 4,
-        "amount": "6조8,662억원"
+        "count": 5,
+        "amount": "7조6,232억원"
       },
       "low_interest_loan": {
-        "count": 19,
-        "amount": "8조5,707억원"
+        "count": 23,
+        "amount": "8조8,821억원"
       }
     },
     "participatory_fund_committed": "7,200억원",
-    "identified_count": 30,
+    "identified_count": 35,
     "undisclosed_count": 0,
     "deals": [
       {
@@ -304,10 +304,101 @@
         "amount": "125억원",
         "method": "저리대출",
         "date": "2026.08"
+      },
+      {
+        "seq": 31,
+        "company": "야월해상풍력",
+        "sector": "재생에너지",
+        "amount_num": 7570,
+        "amount": "7,570억원",
+        "method": "인프라",
+        "date": "2026.09"
+      },
+      {
+        "seq": 32,
+        "company": "디엔솔루션즈",
+        "sector": "정밀공작기계",
+        "amount_num": 2237,
+        "amount": "2,237억원",
+        "method": "저리대출",
+        "date": "2026.09"
+      },
+      {
+        "seq": 33,
+        "company": "화신",
+        "sector": "전기차(배터리팩케이스)",
+        "amount_num": 323,
+        "amount": "323억원",
+        "method": "저리대출",
+        "date": "2026.09"
+      },
+      {
+        "seq": 34,
+        "company": "피케이씨",
+        "sector": "반도체(소재)",
+        "amount_num": 150,
+        "amount": "150억원",
+        "method": "저리대출",
+        "date": "2026.09"
+      },
+      {
+        "seq": 35,
+        "company": "코넥",
+        "sector": "로봇",
+        "amount_num": 404,
+        "amount": "404억원",
+        "method": "저리대출",
+        "date": "2026.09"
       }
     ]
   },
-  "new_approvals": [],
+  "new_approvals": [
+    {
+      "seq": 31,
+      "company": "야월해상풍력",
+      "sector": "재생에너지",
+      "amount_num": 7570,
+      "amount": "7,570억원",
+      "method": "인프라",
+      "date": "2026.09"
+    },
+    {
+      "seq": 32,
+      "company": "디엔솔루션즈",
+      "sector": "정밀공작기계",
+      "amount_num": 2237,
+      "amount": "2,237억원",
+      "method": "저리대출",
+      "date": "2026.09"
+    },
+    {
+      "seq": 33,
+      "company": "화신",
+      "sector": "전기차(배터리팩케이스)",
+      "amount_num": 323,
+      "amount": "323억원",
+      "method": "저리대출",
+      "date": "2026.09"
+    },
+    {
+      "seq": 34,
+      "company": "피케이씨",
+      "sector": "반도체(소재)",
+      "amount_num": 150,
+      "amount": "150억원",
+      "method": "저리대출",
+      "date": "2026.09"
+    },
+    {
+      "seq": 35,
+      "company": "코넥",
+      "sector": "로봇",
+      "amount_num": 404,
+      "amount": "404억원",
+      "method": "저리대출",
+      "date": "2026.09"
+    }
+  ],
   "undisclosed_count": 0,
   "confirmed_deals": [
     {
@@ -3276,6 +3367,143 @@
       ]
     },
     {
+      "company_name": "유치",
+      "sector": null,
+      "methods": [
+        "대출",
+        "출자"
+      ],
+      "amount": "200억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-09-23",
+      "timeline": [
+        {
+          "date": "2026-06-26",
+          "event": "국민성장펀드 200억 투자 유치…심텍 8%↑[특징주]",
+          "methods": [
+            "대출"
+          ],
+          "amount": "200억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03076646645485656",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-06-27",
+          "event": "5000억 투자 유치 리가켐, 후보물질 자체 개발에 도전",
+          "methods": [],
+          "amount": "5000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.sedaily.com/article/20060594",
+          "source": "서울경제"
+        },
+        {
+          "date": "2026-07-30",
+          "event": "CJ 4D플렉스, 국민성장펀드 투자 유치 추진… 오너가 지분가치 재조명",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.mt.co.kr/stock/2026/07/30/2026073010241686874",
+          "source": "머니투데이"
+        },
+        {
+          "date": "2026-09-23",
+          "event": "[단독] 베슬AI, 2000억 투자유치 추진",
+          "methods": [],
+          "amount": "2000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.hankyung.com/article/2026092339641",
+          "source": "한국경제"
+        }
+      ]
+    },
+    {
+      "company_name": "PKC",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": "120억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "timeline": [
+        {
+          "date": "2026-09-23",
+          "event": "PKC, 국민성장펀드 지원 대상 선정",
+          "methods": [
+            "대출"
+          ],
+          "amount": "120억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://view.asiae.co.kr/article/2026092308095257102",
+          "source": "아시아경제"
+        },
+        {
+          "date": "2026-09-23",
+          "event": "PKC, 국민성장펀드 첨단전략산업기금 지원 대상 선정",
+          "methods": [
+            "대출"
+          ],
+          "amount": "120억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.newsis.com/view/NISX20260923_0003801280",
+          "source": "뉴시스"
+        },
+        {
+          "date": "2026-09-23",
+          "event": "PKC, 국내 유일 반도체 염소가스 양산 기업…국민성장펀드 지원 대상 선...",
+          "methods": [
+            "대출"
+          ],
+          "amount": "150억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.etoday.co.kr/news/view/2628924",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "company_name": "설계",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "1조 6000억",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "timeline": [
+        {
+          "date": "2026-09-23",
+          "event": "‘보조금→투자 설계’…정책금융으로 판 키우는 경북",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "1조 6000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.sedaily.com/article/20094323",
+          "source": "서울경제"
+        }
+      ]
+    },
+    {
       "company_name": "KB증권",
       "sector": null,
       "methods": [
@@ -5215,55 +5443,6 @@
           "status_label": "관련 동향",
           "url": "https://biz.heraldcorp.com/article/10826390",
           "source": "헤럴드경제"
-        }
-      ]
-    },
-    {
-      "company_name": "유치",
-      "sector": null,
-      "methods": [
-        "대출",
-        "출자"
-      ],
-      "amount": "200억",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-06-26",
-      "last_seen": "2026-07-30",
-      "timeline": [
-        {
-          "date": "2026-06-26",
-          "event": "국민성장펀드 200억 투자 유치…심텍 8%↑[특징주]",
-          "methods": [
-            "대출"
-          ],
-          "amount": "200억",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03076646645485656",
-          "source": "이데일리"
-        },
-        {
-          "date": "2026-06-27",
-          "event": "5000억 투자 유치 리가켐, 후보물질 자체 개발에 도전",
-          "methods": [],
-          "amount": "5000억",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.sedaily.com/article/20060594",
-          "source": "서울경제"
-        },
-        {
-          "date": "2026-07-30",
-          "event": "CJ 4D플렉스, 국민성장펀드 투자 유치 추진… 오너가 지분가치 재조명",
-          "methods": [
-            "출자"
-          ],
-          "amount": null,
-          "status_code": "review",
-          "status_label": "검토단계",
-          "url": "https://www.mt.co.kr/stock/2026/07/30/2026073010241686874",
-          "source": "머니투데이"
         }
       ]
     },
@@ -8747,12 +8926,6 @@
   "candidates": [
     {
       "date": "2026-08-26",
-      "title": "[코스피 1만의 조건] 인위적 증시부양 아닌…AI 3강 투자로 李코노믹스...",
-      "url": "https://dealsite.co.kr/articles/167493",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-08-26",
       "title": "폭주하는 경제 강국들…‘닥공 재정’의 실체 [스페셜리포트]",
       "url": "https://www.mk.co.kr/article/12133022",
       "source": "매일경제"
@@ -9344,8 +9517,14 @@
       "title": "美 인텔처럼 기업 지분 산다…李, 정부 산업지원 방식 전환 강조",
       "url": "https://dealsite.co.kr/articles/169482",
       "source": "딜인사이트"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "국민성장 초장기펀드 위탁운용사 숏리스트 14곳 선정",
+      "url": "https://www.hankyung.com/article/202609232876r",
+      "source": "한국경제"
     }
   ],
-  "matched_articles_this_run": 390,
+  "matched_articles_this_run": 396,
   "confirmed_deals_count": 16
 }
