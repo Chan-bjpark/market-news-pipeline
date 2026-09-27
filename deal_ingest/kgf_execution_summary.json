@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T22:11:21.780336+00:00",
+  "generated_at": "2026-09-27T22:13:12.372700+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-24T22:11:21.780241+00:00",
+    "sheet_synced_at": "2026-09-27T22:13:12.372628+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -952,6 +952,16 @@
           "status_label": "승인·확정",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/09/21/2026092180124.html",
           "source": "인베스트조선"
+        },
+        {
+          "date": "2026-09-28",
+          "event": "[단독] 퓨리오사AI만 특별대우… 국민성장펀드, 민간매칭 지연에 4000억...",
+          "methods": [],
+          "amount": "4000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://biz.chosun.com/stock/market_trend/2026/09/28/R2NOPIF3LFDVHE3PGJWILIFOOY/",
+          "source": "조선일보"
         }
       ]
     },
@@ -3294,6 +3304,28 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "검증",
+      "sector": null,
+      "methods": [],
+      "amount": "7조6000억",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "timeline": [
+        {
+          "date": "2026-09-26",
+          "event": "“사기꾼에게도 황금기”…150조 국민성장펀드, 투자검증 시험대[마켓인...",
+          "methods": [],
+          "amount": "7조6000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01292326645584056&mediaCodeNo=257",
+          "source": "이데일리"
+        }
+      ]
+    },
     {
       "company_name": "확장",
       "sector": null,
@@ -9479,6 +9511,6 @@
       "source": "한국경제"
     }
   ],
-  "matched_articles_this_run": 396,
+  "matched_articles_this_run": 398,
   "confirmed_deals_count": 16
 }

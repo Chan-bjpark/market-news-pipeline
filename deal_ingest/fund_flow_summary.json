@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-24T22:11:21.134313+00:00",
+  "generated_at": "2026-09-27T22:13:11.741221+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 547,
+  "total_policy_articles": 555,
   "matched_funds_count": 2,
-  "unmatched_count": 155,
+  "unmatched_count": 161,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-23",
-      "event_count": 390,
+      "last_updated": "2026-09-28",
+      "event_count": 392,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -4303,6 +4303,28 @@
           "summary": "국민성장펀드의 투자 여부 및 규모 등은 투자심의위원회와 기금운용심의회를 거쳐 정해질 전망이다. 국민성장펀드는 첨단전략산업 육성을 위해 정부 주도로 5년간 200조원 규모로 조성하는 정책 펀드다. 베슬AI는...",
           "url": "https://www.hankyung.com/article/2026092339641",
           "source_label": "한국경제"
+        },
+        {
+          "date": "2026-09-26",
+          "published_at": "2026-09-26T02:08:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "“사기꾼에게도 황금기”…150조 국민성장펀드, 투자검증 시험대[마켓인...",
+          "summary": "국민성장펀드의 자금 집행이 본격화하는 가운데 투자업계가 애즈위메이크 사례를 주목하는 것도 이 때문이다. 올해 PE·VC 등 민간 운용사를 통한 간접투자 규모만 7조6000억원에 달한다. 투자 검토 물량이 빠르게...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01292326645584056&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-09-28",
+          "published_at": "2026-09-28T06:01:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "4000억",
+          "title": "[단독] 퓨리오사AI만 특별대우… 국민성장펀드, 민간매칭 지연에 4000억...",
+          "summary": "국민성장펀드, 퓨리오사AI 직접투자 미집행 민간 매칭 지연에 정부 자금까지 발 묶여 리벨리온·업스테이지 등은 한 달 내 집행 국민성장펀드 직접투자 형평성 도마에 이 기사는 2026년 9월 23일 15시 57분 조선비즈...",
+          "url": "https://biz.chosun.com/stock/market_trend/2026/09/28/R2NOPIF3LFDVHE3PGJWILIFOOY/",
+          "source_label": "조선일보"
         }
       ]
     },
