@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:13:12.372700+00:00",
+  "generated_at": "2026-09-28T22:11:06.833363+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-27T22:13:12.372628+00:00",
+    "sheet_synced_at": "2026-09-28T22:11:06.833276+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3304,6 +3304,28 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "검토",
+      "sector": null,
+      "methods": [],
+      "amount": "2000억",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "timeline": [
+        {
+          "date": "2026-09-28",
+          "event": "[단독] 베슬AI, 2000억 시리즈C 유치 추진…국민성장펀드 투자 검토",
+          "methods": [],
+          "amount": "2000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.hankyung.com/article/202609233509r",
+          "source": "한국경제"
+        }
+      ]
+    },
     {
       "company_name": "검증",
       "sector": null,
@@ -8911,18 +8933,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-08-26",
-      "title": "폭주하는 경제 강국들…‘닥공 재정’의 실체 [스페셜리포트]",
-      "url": "https://www.mk.co.kr/article/12133022",
-      "source": "매일경제"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "[오늘의 채권ㆍ외환 메모] (08월27일)",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432036",
-      "source": "연합인포맥스"
-    },
-    {
       "date": "2026-08-27",
       "title": "李 “한국 문제 출발점은 극심한 국토 불균형”",
       "url": "https://www.donga.com/news/Politics/article/all/20260827/134552334/2",
@@ -9509,8 +9519,20 @@
       "title": "국민성장 초장기펀드 위탁운용사 숏리스트 14곳 선정",
       "url": "https://www.hankyung.com/article/202609232876r",
       "source": "한국경제"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "[더벨][thebell note] 국민성장펀드 뒤에 선 GP들",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609211535100320106077",
+      "source": "더벨"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "신약·백신·ADC까지 품은 국민성장펀드…다음은 의료기기·소부장?",
+      "url": "https://www.etoday.co.kr/news/view/2629182",
+      "source": "이투데이"
     }
   ],
-  "matched_articles_this_run": 398,
+  "matched_articles_this_run": 401,
   "confirmed_deals_count": 16
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T22:13:11.741221+00:00",
+  "generated_at": "2026-09-28T22:11:06.095956+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 555,
+  "total_policy_articles": 568,
   "matched_funds_count": 2,
-  "unmatched_count": 161,
+  "unmatched_count": 171,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-28",
-      "event_count": 392,
+      "last_updated": "2026-09-29",
+      "event_count": 395,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -4325,6 +4325,39 @@
           "summary": "국민성장펀드, 퓨리오사AI 직접투자 미집행 민간 매칭 지연에 정부 자금까지 발 묶여 리벨리온·업스테이지 등은 한 달 내 집행 국민성장펀드 직접투자 형평성 도마에 이 기사는 2026년 9월 23일 15시 57분 조선비즈...",
           "url": "https://biz.chosun.com/stock/market_trend/2026/09/28/R2NOPIF3LFDVHE3PGJWILIFOOY/",
           "source_label": "조선일보"
+        },
+        {
+          "date": "2026-09-28",
+          "published_at": "2026-09-28T09:51:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200조",
+          "title": "[단독] 베슬AI, 2000억 시리즈C 유치 추진…국민성장펀드 투자 검토",
+          "summary": "국민성장펀드의 투자 여부 및 규모 등은 투자심의위원회와 기금운용심의회를 거쳐 정해질 전망이다. 국민성장펀드는 첨단전략산업 육성을 위해 정부 주도로 5년간 200조원 규모로 조성하는 정책 펀드다. 베슬AI는...",
+          "url": "https://www.hankyung.com/article/202609233509r",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-09-28",
+          "published_at": "2026-09-28T16:08:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": null,
+          "title": "[더벨][thebell note] 국민성장펀드 뒤에 선 GP들",
+          "summary": "국민성장펀드가 금융권 출자의 우선순위를 바꾸면서 모태펀드나 한국성장금융 출자사업에 선정된 GP들이... 정책기관과 출자기관이 공고와 결성 일정을 함께 살피고 민간 매칭비율과 결성 기한도 LP 여건에 맞춰야 한다....",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609211535100320106077",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-09-29",
+          "published_at": "2026-09-29T05:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "신약·백신·ADC까지 품은 국민성장펀드…다음은 의료기기·소부장?",
+          "summary": "의료AI 업계 관계자는 “의료AI도 국민성장펀드의 관심을 받고 실제 지원도 검토하고 있는 것으로 안다”며 “투자가 집행되면 업계에 긍정적인 영향을 미칠 것”이라고 말했다. 한편, 국민성장펀드는 8월까지 전체...",
+          "url": "https://www.etoday.co.kr/news/view/2629182",
+          "source_label": "이투데이"
         }
       ]
     },
