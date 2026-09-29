@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:11:06.833363+00:00",
+  "generated_at": "2026-09-29T22:11:14.563402+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-28T22:11:06.833276+00:00",
+    "sheet_synced_at": "2026-09-29T22:11:14.563315+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3305,6 +3305,54 @@
   ],
   "news_discovered": [
     {
+      "company_name": "우리",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "3651억 원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-29",
+      "timeline": [
+        {
+          "date": "2026-09-02",
+          "event": "[더벨]우리은행, 국민성장펀드 '첫 콘텐츠 투자' 이끌었다",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608310918433040108259",
+          "source": "더벨"
+        },
+        {
+          "date": "2026-09-17",
+          "event": "우리, 생산적금융 연간 목표 116% 달성",
+          "methods": [],
+          "amount": "3651억 원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.sedaily.com/article/20092198",
+          "source": "서울경제"
+        },
+        {
+          "date": "2026-09-29",
+          "event": "[더벨][thebell desk] 우리은행이 보여준 국민성장펀드의 길",
+          "methods": [
+            "출자"
+          ],
+          "amount": "500억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609221405277040108916",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
       "company_name": "검토",
       "sector": null,
       "methods": [],
@@ -3696,42 +3744,6 @@
           "status_label": "승인·확정",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/09/16/2026091680130.html",
           "source": "인베스트조선"
-        }
-      ]
-    },
-    {
-      "company_name": "우리",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "3651억 원",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-09-02",
-      "last_seen": "2026-09-17",
-      "timeline": [
-        {
-          "date": "2026-09-02",
-          "event": "[더벨]우리은행, 국민성장펀드 '첫 콘텐츠 투자' 이끌었다",
-          "methods": [
-            "출자"
-          ],
-          "amount": null,
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608310918433040108259",
-          "source": "더벨"
-        },
-        {
-          "date": "2026-09-17",
-          "event": "우리, 생산적금융 연간 목표 116% 달성",
-          "methods": [],
-          "amount": "3651억 원",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.sedaily.com/article/20092198",
-          "source": "서울경제"
         }
       ]
     },
@@ -8934,12 +8946,6 @@
   "candidates": [
     {
       "date": "2026-08-27",
-      "title": "李 “한국 문제 출발점은 극심한 국토 불균형”",
-      "url": "https://www.donga.com/news/Politics/article/all/20260827/134552334/2",
-      "source": "동아일보"
-    },
-    {
-      "date": "2026-08-27",
       "title": "[오늘의 주요일정]금융·증권(8월27일 목요일)",
       "url": "https://www.newsis.com/view/NISX20260826_0003763405",
       "source": "뉴시스"
@@ -9531,8 +9537,14 @@
       "title": "신약·백신·ADC까지 품은 국민성장펀드…다음은 의료기기·소부장?",
       "url": "https://www.etoday.co.kr/news/view/2629182",
       "source": "이투데이"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "PE·VC 불만 쏟아진 국민성장펀드…내년 리그 분리 검토",
+      "url": "https://dealsite.co.kr/articles/169801",
+      "source": "딜인사이트"
     }
   ],
-  "matched_articles_this_run": 401,
+  "matched_articles_this_run": 403,
   "confirmed_deals_count": 16
 }

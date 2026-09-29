@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-28T22:11:06.095956+00:00",
+  "generated_at": "2026-09-29T22:11:13.667757+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 568,
+  "total_policy_articles": 573,
   "matched_funds_count": 2,
-  "unmatched_count": 171,
+  "unmatched_count": 174,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-02",
-      "last_updated": "2026-09-29",
-      "event_count": 395,
+      "last_updated": "2026-09-30",
+      "event_count": 397,
       "timeline": [
         {
           "date": "2026-07-02",
@@ -4358,6 +4358,28 @@
           "summary": "의료AI 업계 관계자는 “의료AI도 국민성장펀드의 관심을 받고 실제 지원도 검토하고 있는 것으로 안다”며 “투자가 집행되면 업계에 긍정적인 영향을 미칠 것”이라고 말했다. 한편, 국민성장펀드는 8월까지 전체...",
           "url": "https://www.etoday.co.kr/news/view/2629182",
           "source_label": "이투데이"
+        },
+        {
+          "date": "2026-09-29",
+          "published_at": "2026-09-29T08:12:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "500억원",
+          "title": "[더벨][thebell desk] 우리은행이 보여준 국민성장펀드의 길",
+          "summary": "국민성장펀드 첨단전략산업기금은 500억원을 맡았다. 민간 출자액이 정책자금을 웃돈 사례다. 출자액보다 흥미로운 것은 거래를 만들어간 과정이다. 우리은행은 회사의 성장성을 검토해 성장기업발굴협의체에 직접...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609221405277040108916",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-09-30",
+          "published_at": "2026-09-30T07:06:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": null,
+          "title": "PE·VC 불만 쏟아진 국민성장펀드…내년 리그 분리 검토",
+          "summary": "올해 첫 시행안의 미비점을 보완하는 차원에서 사모펀드(PEF) 및 벤처캐피털(VC) 통합 공고 방식의 분리... 산은은 일부 대형 GP가 시장 자금을 대거 흡수하면서 여타 운용사의 펀드 결성이 지연되거나 무산된 사례가...",
+          "url": "https://dealsite.co.kr/articles/169801",
+          "source_label": "딜인사이트"
         }
       ]
     },
