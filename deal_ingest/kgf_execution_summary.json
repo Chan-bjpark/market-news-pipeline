@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:11:14.563402+00:00",
+  "generated_at": "2026-09-30T22:11:10.693749+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-29T22:11:14.563315+00:00",
+    "sheet_synced_at": "2026-09-30T22:11:10.693692+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3304,6 +3304,32 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "노틱인베",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "2000억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "timeline": [
+        {
+          "date": "2026-09-30",
+          "event": "[더벨]노틱인베, 국민성장펀드 연계 2000억 'K-컬처 펀드' 조성 시동",
+          "methods": [
+            "출자"
+          ],
+          "amount": "2000억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609280842485520109221",
+          "source": "더벨"
+        }
+      ]
+    },
     {
       "company_name": "우리",
       "sector": null,
@@ -8946,36 +8972,6 @@
   "candidates": [
     {
       "date": "2026-08-27",
-      "title": "[오늘의 주요일정]금융·증권(8월27일 목요일)",
-      "url": "https://www.newsis.com/view/NISX20260826_0003763405",
-      "source": "뉴시스"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "'AI 유망주' 선점 나선 증권사… 비상장 투자 1.5배 증가",
-      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092168899",
-      "source": "조선일보"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "[오늘 재경부 등 경제부처 일정]",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431996",
-      "source": "연합인포맥스"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "국민성장펀드, 로봇·K-콘텐츠 자금 지원…누적 17.9조 원 승인",
-      "url": "https://www.news1.kr/finance/general-finance/6271962",
-      "source": "뉴스1"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "국민성장펀드, 원익로보틱스·CJ포디플렉스에 지분 투자",
-      "url": "https://www.sedaily.com/article/20084232",
-      "source": "서울경제"
-    },
-    {
-      "date": "2026-08-27",
       "title": "휴머노이드 키우고 배터리 초격차…국민성장펀드 1.2조 푼다",
       "url": "https://www.newsis.com/view/NISX20260827_0003766036",
       "source": "뉴시스"
@@ -9543,8 +9539,38 @@
       "title": "PE·VC 불만 쏟아진 국민성장펀드…내년 리그 분리 검토",
       "url": "https://dealsite.co.kr/articles/169801",
       "source": "딜인사이트"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "[국민성장펀드] [초장기] 김영훈의 펀딩 드라이브…대성창투, 2400억 펀드...",
+      "url": "https://dealsite.co.kr/articles/169336",
+      "source": "딜인사이트"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "NH농협은행 \"권대영 금융위 부위원장 국민성장펀드 가입\"",
+      "url": "https://www.newsis.com/view/NISX20260930_0003808783",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "권대영 금융위 부위원장, NH농협은행서 국민참여성장펀드 가입",
+      "url": "https://www.g-enews.com/view.php?ud=202609301523259678bb91c46fcd_1",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "'국민참여성장펀드'가 뭐길래..판매 첫 날 2140억 흥행",
+      "url": "https://www.fnnews.com/news/202609302009466229",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "2차 국민참여성장펀드 첫날 2천140억 판매…목표액 35.7% 소진",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437227",
+      "source": "연합인포맥스"
     }
   ],
-  "matched_articles_this_run": 403,
+  "matched_articles_this_run": 408,
   "confirmed_deals_count": 16
 }

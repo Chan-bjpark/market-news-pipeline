@@ -1,30 +1,19 @@
 {
-  "generated_at": "2026-09-29T22:11:13.667757+00:00",
+  "generated_at": "2026-09-30T22:11:09.675210+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 573,
+  "total_policy_articles": 581,
   "matched_funds_count": 2,
-  "unmatched_count": 174,
+  "unmatched_count": 180,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-02",
+      "first_seen": "2026-07-07",
       "last_updated": "2026-09-30",
-      "event_count": 397,
+      "event_count": 399,
       "timeline": [
-        {
-          "date": "2026-07-02",
-          "published_at": "2026-07-02T16:00:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "16조",
-          "title": "국민성장펀드 800억 지원 낙점한 LS전선...비결은?",
-          "summary": "금융위, 피지컬AI 6개 분야 16조원 투입 2일 업계에 따르면 금융위는 지난달 25일 국민성장펀드 기금운용심의회를 열고 영양군 육상풍력사업에 대한 인프라 투융자와 케이블·반도체 밸류체인 업체에 대한 저리대출...",
-          "url": "http://www.fntimes.com/html/view.php?ud=202607021428126863fa6b69a559_18",
-          "source_label": "한국금융신문"
-        },
         {
           "date": "2026-07-07",
           "published_at": "2026-07-07T08:17:00+09:00",
@@ -4380,6 +4369,39 @@
           "summary": "올해 첫 시행안의 미비점을 보완하는 차원에서 사모펀드(PEF) 및 벤처캐피털(VC) 통합 공고 방식의 분리... 산은은 일부 대형 GP가 시장 자금을 대거 흡수하면서 여타 운용사의 펀드 결성이 지연되거나 무산된 사례가...",
           "url": "https://dealsite.co.kr/articles/169801",
           "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-09-30",
+          "published_at": "2026-09-30T07:28:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "2000억",
+          "title": "[더벨]노틱인베, 국민성장펀드 연계 2000억 'K-컬처 펀드' 조성 시동",
+          "summary": "밸류업 펀드’ 2026년 출자사업에서 AI·IP 분야 위탁운용사(GP)로 선정됐다. 이후 블라인드펀드 결성을 위한... 노틱인베스트먼트는 올해 설립 8년 차를 맞은 사모펀드(PEF) 운용사다. SK증권 PE본부 출신 김성용 대표가...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609280842485520109221",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-09-30",
+          "published_at": "2026-09-30T08:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2400억",
+          "title": "[국민성장펀드] [초장기] 김영훈의 펀딩 드라이브…대성창투, 2400억 펀드...",
+          "summary": "대성창업투자가 국민성장펀드에 호기롭게 도전장을 던지며 업계 복귀를 노리고 있다. 대형 펀드 결성을... 특히 최근 임직원 복지를 위한 비용 집행도 신중하게 접근하는 등 추가적 지출을 최소화하면서 펀드레이징에...",
+          "url": "https://dealsite.co.kr/articles/169336",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-09-30",
+          "published_at": "2026-09-30T13:38:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "NH농협은행 \"권대영 금융위 부위원장 국민성장펀드 가입\"",
+          "summary": "권 부위원장은 \"국민참여형 국민성장펀드는 국민에게 첨단전략산업 성장의 과실을 함께 나누는 투자 기회가... 방침\"이라며 \"향후 펀드 운용과 투자 집행 상황 등을 관계기관과 긴밀히 협조해 면밀히 모니터링해 나가겠다...",
+          "url": "https://www.newsis.com/view/NISX20260930_0003808783",
+          "source_label": "뉴시스"
         }
       ]
     },
