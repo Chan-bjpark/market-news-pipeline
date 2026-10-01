@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:11:10.693749+00:00",
+  "generated_at": "2026-10-01T22:13:18.795857+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-09-30T22:11:10.693692+00:00",
+    "sheet_synced_at": "2026-10-01T22:13:18.795768+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -8972,12 +8972,6 @@
   "candidates": [
     {
       "date": "2026-08-27",
-      "title": "휴머노이드 키우고 배터리 초격차…국민성장펀드 1.2조 푼다",
-      "url": "https://www.newsis.com/view/NISX20260827_0003766036",
-      "source": "뉴시스"
-    },
-    {
-      "date": "2026-08-27",
       "title": "국민성장펀드, 원익로보틱스·CJ포디플렉스 등 7건 지원 승인…누적 17....",
       "url": "https://www.etoday.co.kr/news/view/2619082",
       "source": "이투데이"
@@ -9569,8 +9563,14 @@
       "title": "2차 국민참여성장펀드 첫날 2천140억 판매…목표액 35.7% 소진",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437227",
       "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "[단독]국민성장펀드 쏠림에…모태펀드 70%, 기한 내 결성 못해",
+      "url": "https://www.mt.co.kr/future/2026/10/02/2026100114503573063",
+      "source": "머니투데이"
     }
   ],
-  "matched_articles_this_run": 408,
+  "matched_articles_this_run": 409,
   "confirmed_deals_count": 16
 }

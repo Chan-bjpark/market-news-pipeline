@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-30T22:11:09.675210+00:00",
+  "generated_at": "2026-10-01T22:13:17.826191+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 581,
+  "total_policy_articles": 585,
   "matched_funds_count": 2,
-  "unmatched_count": 180,
+  "unmatched_count": 183,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-07",
-      "last_updated": "2026-09-30",
-      "event_count": 399,
+      "last_updated": "2026-10-02",
+      "event_count": 400,
       "timeline": [
         {
           "date": "2026-07-07",
@@ -4402,6 +4402,17 @@
           "summary": "권 부위원장은 \"국민참여형 국민성장펀드는 국민에게 첨단전략산업 성장의 과실을 함께 나누는 투자 기회가... 방침\"이라며 \"향후 펀드 운용과 투자 집행 상황 등을 관계기관과 긴밀히 협조해 면밀히 모니터링해 나가겠다...",
           "url": "https://www.newsis.com/view/NISX20260930_0003808783",
           "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-10-02",
+          "published_at": "2026-10-02T05:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[단독]국민성장펀드 쏠림에…모태펀드 70%, 기한 내 결성 못해",
+          "summary": "벤처투자업계에서는 이 같은 대규모 결성 지연의 배경으로 국민성장펀드로의 민간 자금 쏠림을 지목한다.... 자금 집행은 상당 기간 지체될 수밖에 없다\"고 우려했다. [머니투데이 스타트업 미디어 플랫폼 유니콘팩토리]",
+          "url": "https://www.mt.co.kr/future/2026/10/02/2026100114503573063",
+          "source_label": "머니투데이"
         }
       ]
     },
