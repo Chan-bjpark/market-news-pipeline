@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:13:18.795857+00:00",
+  "generated_at": "2026-10-04T22:11:14.480388+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-10-01T22:13:18.795768+00:00",
+    "sheet_synced_at": "2026-10-04T22:11:14.480290+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3304,6 +3304,28 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "전쟁",
+      "sector": null,
+      "methods": [],
+      "amount": "10조",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "timeline": [
+        {
+          "date": "2026-10-02",
+          "event": "10조 국민성장펀드 이달 출격…AI·반도체 투자전쟁 막 오른다",
+          "methods": [],
+          "amount": "10조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/02/2026100280041.html",
+          "source": "인베스트조선"
+        }
+      ]
+    },
     {
       "company_name": "노틱인베",
       "sector": null,
@@ -8972,24 +8994,6 @@
   "candidates": [
     {
       "date": "2026-08-27",
-      "title": "국민성장펀드, 원익로보틱스·CJ포디플렉스 등 7건 지원 승인…누적 17....",
-      "url": "https://www.etoday.co.kr/news/view/2619082",
-      "source": "이투데이"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "국민성장펀드, 로봇·K콘텐츠 집중 지원...누적 17.9조 원 승인",
-      "url": "https://www.newspim.com/news/view/20260827001262",
-      "source": "뉴스핌"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "국민성장펀드, 로봇기업 원익로보틱스에 3천500억 투자",
-      "url": "https://www.yna.co.kr/view/AKR20260827185900002?input=1195m",
-      "source": "연합뉴스"
-    },
-    {
-      "date": "2026-08-27",
       "title": "국민성장펀드, 로봇·K-콘텐츠 집중 육성…1.6조 지원",
       "url": "https://www.ajunews.com/view/20260827191215881",
       "source": "아주경제"
@@ -9569,8 +9573,26 @@
       "title": "[단독]국민성장펀드 쏠림에…모태펀드 70%, 기한 내 결성 못해",
       "url": "https://www.mt.co.kr/future/2026/10/02/2026100114503573063",
       "source": "머니투데이"
+    },
+    {
+      "date": "2026-10-04",
+      "title": "손실 나도 정부 돈부터 까인다고?…성장펀드 ‘후순위 투자’ 뭐길래 [...",
+      "url": "https://www.mk.co.kr/article/12167307",
+      "source": "매일경제"
+    },
+    {
+      "date": "2026-10-04",
+      "title": "우리은행이 보여준 국민성장펀드의 길",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202609221405277040108916",
+      "source": "더벨"
+    },
+    {
+      "date": "2026-10-05",
+      "title": "\"대출금리 어쩌나\"…비용 부담 커진 중기·벤처",
+      "url": "https://www.newsis.com/view/NISX20261002_0003813187",
+      "source": "뉴시스"
     }
   ],
-  "matched_articles_this_run": 409,
+  "matched_articles_this_run": 413,
   "confirmed_deals_count": 16
 }

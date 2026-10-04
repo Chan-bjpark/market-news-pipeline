@@ -1,28 +1,28 @@
 {
-  "run_at_utc": "2026-10-01T22:13:18.822763+00:00",
-  "run_at_kst": "2026-10-02 07:13:18 KST",
-  "fetched_total": 887,
-  "new_total": 201,
+  "run_at_utc": "2026-10-04T22:11:14.500733+00:00",
+  "run_at_kst": "2026-10-05 07:11:14 KST",
+  "fetched_total": 875,
+  "new_total": 205,
   "status": "ok",
   "exit_code": 0,
   "files": {
     "recent_briefing.json": {
       "valid": true,
-      "size": 542019,
+      "size": 154283,
       "error": null,
-      "generated_at": "2026-10-01T22:11:06.868173+00:00"
+      "generated_at": "2026-10-04T22:11:05.048555+00:00"
     },
     "rate_summary.json": {
       "valid": true,
-      "size": 12853,
+      "size": 13839,
       "error": null,
-      "generated_at": "2026-10-01T22:11:06.888977+00:00"
+      "generated_at": "2026-10-04T22:11:05.060372+00:00"
     },
     "fund_flow_summary.json": {
       "valid": true,
-      "size": 311173,
+      "size": 313614,
       "error": null,
-      "generated_at": "2026-10-01T22:13:17.826191+00:00"
+      "generated_at": "2026-10-04T22:11:13.350326+00:00"
     }
   }
 }

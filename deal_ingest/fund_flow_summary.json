@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-01T22:13:17.826191+00:00",
+  "generated_at": "2026-10-04T22:11:13.350326+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 585,
+  "total_policy_articles": 590,
   "matched_funds_count": 2,
-  "unmatched_count": 183,
+  "unmatched_count": 184,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-07",
-      "last_updated": "2026-10-02",
-      "event_count": 400,
+      "last_updated": "2026-10-05",
+      "event_count": 404,
       "timeline": [
         {
           "date": "2026-07-07",
@@ -4405,6 +4405,17 @@
         },
         {
           "date": "2026-10-02",
+          "published_at": "2026-10-02T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "10조",
+          "title": "10조 국민성장펀드 이달 출격…AI·반도체 투자전쟁 막 오른다",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/02/2026100280041.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-10-02",
           "published_at": "2026-10-02T05:00:00+09:00",
           "stage_code": "uncategorized",
           "stage_label": "단계 미상",
@@ -4413,6 +4424,39 @@
           "summary": "벤처투자업계에서는 이 같은 대규모 결성 지연의 배경으로 국민성장펀드로의 민간 자금 쏠림을 지목한다.... 자금 집행은 상당 기간 지체될 수밖에 없다\"고 우려했다. [머니투데이 스타트업 미디어 플랫폼 유니콘팩토리]",
           "url": "https://www.mt.co.kr/future/2026/10/02/2026100114503573063",
           "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-10-04",
+          "published_at": "2026-10-04T17:01:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "손실 나도 정부 돈부터 까인다고?…성장펀드 ‘후순위 투자’ 뭐길래 [...",
+          "summary": "반대로 대출 부실이 늘어 실제 들어오는 돈이 줄어들면 후순위가 먼저 손실을 떠안습니다. 후순위, 더 위험한 대신 더 높은 기대수익 그런데 여기서 또 하나 궁금해집니다. 국민성장펀드에서 정부가 후순위에 들어가는 건...",
+          "url": "https://www.mk.co.kr/article/12167307",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-10-04",
+          "published_at": "2026-10-04T22:10:28.799141+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "우리은행이 보여준 국민성장펀드의 길",
+          "summary": "",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202609221405277040108916",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-10-05",
+          "published_at": "2026-10-05T07:01:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "\"대출금리 어쩌나\"…비용 부담 커진 중기·벤처",
+          "summary": "5일 한국은행이 최근 발표한 '8월 금융기관 가중평균금리'에 따르면 기업 대출 금리는 4.30%로, 전월보다 0.10... 벤처투자업계 관계자는 \"지금은 국민성장펀드나 금융권 출자로 시장에 유동성이 많아 금리로 인한 마이너스...",
+          "url": "https://www.newsis.com/view/NISX20261002_0003813187",
+          "source_label": "뉴시스"
         }
       ]
     },
