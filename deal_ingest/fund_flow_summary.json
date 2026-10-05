@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T22:11:13.350326+00:00",
+  "generated_at": "2026-10-05T22:11:38.116142+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 590,
+  "total_policy_articles": 595,
   "matched_funds_count": 2,
   "unmatched_count": 184,
   "funds": [
@@ -10,21 +10,10 @@
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-07",
-      "last_updated": "2026-10-05",
-      "event_count": 404,
+      "first_seen": "2026-07-09",
+      "last_updated": "2026-10-06",
+      "event_count": 409,
       "timeline": [
-        {
-          "date": "2026-07-07",
-          "published_at": "2026-07-07T08:17:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "5000억",
-          "title": "정부가 선택한 리가켐...5000억이 바꿀 K-바이오 투자 공식",
-          "summary": "금융위원회는 지난달 25일 국민성장펀드 기금운용심의회를 열고 리가켐바이오(141080)에 대한 5000억원 규모 직접투자를 승인했다. 이번 투자는 첨단전략산업기금 2500억원과 최대주주 측인 팬오리온, 국내 기관투자자...",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02656806645512224",
-          "source_label": "이데일리"
-        },
         {
           "date": "2026-07-09",
           "published_at": "2026-07-09T05:32:00+09:00",
@@ -4457,6 +4446,72 @@
           "summary": "5일 한국은행이 최근 발표한 '8월 금융기관 가중평균금리'에 따르면 기업 대출 금리는 4.30%로, 전월보다 0.10... 벤처투자업계 관계자는 \"지금은 국민성장펀드나 금융권 출자로 시장에 유동성이 많아 금리로 인한 마이너스...",
           "url": "https://www.newsis.com/view/NISX20261002_0003813187",
           "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-10-05",
+          "published_at": "2026-10-05T08:34:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8000억",
+          "title": "레니게이드 양산·유럽 검증 병행…퓨리오사AI 8000억 클로징 초읽기",
+          "summary": "8000억 모집 마무리 단계…정책자금 '목표 달성 후' 납입 6일 업계에 따르면 금융위원회는 지난 5월 국민성장펀드 기금운용심의회에서 퓨리오사AI의 8000억 원 증자사업 직접투자를 승인했다. 첨단전략산업기금 3700억...",
+          "url": "https://www.news1.kr/industry/sb-founded/6309312",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-10-05",
+          "published_at": "2026-10-05T18:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "18조",
+          "title": "[단독] 국민성장펀드 18조 승인했지만 실제 집행률 25.4% 그쳤다",
+          "summary": "8월 말 집행률(21.3%) 대비 9월 말 집행률은 4.1%포인트 높아졌지만 여전히 승인액 대비 집행 속도가 더디다는 지적이다. 투자자금 배분방식도 당초 취지와 달랐다. 국민성장펀드는 △첨단전략산업 △연구개발(R&D)...",
+          "url": "https://www.ajunews.com/view/20261005150614758",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-10-05",
+          "published_at": "2026-10-05T18:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[단독] 대기업 60.6%, 수도권 55.4% '몰빵'…양극화 부추기는 '국민성장...",
+          "summary": "물론 현시점의 승인·집행 실적만으로 국민성장펀드의 성과나 투자 방향을 평가하기에는 이르다는 시각도 있다. 투자은행(IB) 업계 관계자는 \"펀드가 나온 지 오래되지 않았고, 시장 충격도 있었던 만큼 현시점에서...",
+          "url": "https://www.ajunews.com/view/20261005153712823",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-10-05",
+          "published_at": "2026-10-05T18:02:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "18조328억",
+          "title": "[단독] 국민성장펀드 집행내역 살펴보니…AI·반도체에 32.7% '집중', 미래...",
+          "summary": "기준 국민성장펀드의 지원 승인은 35건, 승인액은 총 18조328억원이었다. 공공자금인 첨단전략산업기금과 민간자금은 각각 8조5685억원, 9조4643억원으로 집계됐다. 지원 분야별로는 인프라가 7조7332억원(42.9%)으로...",
+          "url": "https://www.ajunews.com/view/20261002161218412",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T00:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "18조9000억",
+          "title": "국책銀 사고·새도약기금 관리…금융공기업 안건 ‘산적ʼ [한눈에 보는...",
+          "summary": "국민성장펀드는 올해 1~9월 총 35건, 18조9000억원의 자금지원을 승인·결성했다. 직접투자 2조8300억원, 간접투자 1조5900억원, 인프라투융자 7조6200억원, 저리대출 6조8600억원 등이다. 금융당국은 4분기 결성 예정인...",
+          "url": "https://www.fntimes.com/html/view.php?ud=202610022242034205dd55077bc2_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T06:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "10조",
+          "title": "스타트업 투자, 3분기 만에 10조 돌파…AI 반도체·바이오 자금 쏠림",
+          "summary": "금융위원회는 국민성장펀드 기금운용심의회가 5월 퓨리오사AI의 약 8000억 원 규모 증자사업에 대한 직접투자 지원을 승인했다고 밝혔다. 이 중 첨단전략산업기금의 승인액은 3700억 원이다. 다만 9월 말 기준 민간...",
+          "url": "https://www.news1.kr/industry/sb-founded/6308810",
+          "source_label": "뉴스1"
         }
       ]
     },
