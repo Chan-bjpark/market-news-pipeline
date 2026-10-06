@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T22:11:39.044504+00:00",
+  "generated_at": "2026-10-06T22:13:28.093574+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-10-05T22:11:39.044407+00:00",
+    "sheet_synced_at": "2026-10-06T22:13:28.093489+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -962,6 +962,18 @@
           "status_label": "관련 동향",
           "url": "https://biz.chosun.com/stock/market_trend/2026/09/28/R2NOPIF3LFDVHE3PGJWILIFOOY/",
           "source": "조선일보"
+        },
+        {
+          "date": "2026-10-07",
+          "event": "IPO부터 스타트업 투자까지⋯“자금조달도 AI 기업이 독식, 계급화 극명...",
+          "methods": [
+            "출자"
+          ],
+          "amount": "7200억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2630518",
+          "source": "이투데이"
         }
       ]
     },
@@ -2126,6 +2138,18 @@
           "status_label": "관련 동향",
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609081721204280106695",
           "source": "더벨"
+        },
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 국민성장펀드 2000억 투자유치…미래 성장동력 찾는다",
+          "methods": [
+            "대출"
+          ],
+          "amount": "2000억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/10/06/0042",
+          "source": "비즈워치"
         }
       ]
     },
@@ -3328,6 +3352,108 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "알테오젠",
+      "sector": null,
+      "methods": [],
+      "amount": "2000억원",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "timeline": [
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 2000억원 투자 받는다…생산시설 확충·신기술 확보",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.news1.kr/bio/pharmaceutical-bio/6311832",
+          "source": "뉴스1"
+        },
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 2000억 투자 유치…연구부터 판매까지 한 회사로",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=04674006645610296&mediaCodeNo=257",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 국민성장펀드 등 2천억 투자 유치…\"생산시설·파이프라인 확...",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.mt.co.kr/thebio/2026/10/06/2026100616511768406",
+          "source": "머니투데이"
+        },
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 2000억 투자 유치…미래먹거리 확보 속도",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://dealsite.co.kr/articles/170190",
+          "source": "딜인사이트"
+        },
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 국민성장펀드 등 2000억 투자 유치",
+          "methods": [],
+          "amount": "2000억 원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.sedaily.com/article/20098637",
+          "source": "서울경제"
+        },
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 2000억 투자 유치…“신규 공장·기술 확보에 투입”",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://biz.chosun.com/science-chosun/bio/2026/10/06/RSJE254YNBD6HJGSLHNA3EFOGY/",
+          "source": "조선일보"
+        },
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 국민성장펀드·스카이레이크서 2000억 투자 유치",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.mk.co.kr/article/12169497",
+          "source": "매일경제"
+        },
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 2000억 투자 유치 … 성장펀드·스카이레이크 참여",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.mk.co.kr/article/12169678",
+          "source": "매일경제"
+        },
+        {
+          "date": "2026-10-06",
+          "event": "알테오젠, 국민성장펀드·스카이레이크서 2000억원 투자 유치",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.hankyung.com/article/202610066108i",
+          "source": "마켓인사이트"
+        }
+      ]
+    },
     {
       "company_name": "집중",
       "sector": null,
@@ -9040,18 +9166,6 @@
   "candidates": [
     {
       "date": "2026-08-28",
-      "title": "실적·밸류업 넘어 미래전략까지···양종희 연임 '마지막 관문' [2026 K...",
-      "url": "https://www.fntimes.com/html/view.php?ud=202608271915391659b4a7c6999c_18",
-      "source": "한국금융신문"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "[2026 증권포럼] \"코스피 1만 시대 향한 도약…투자자 중심 질서 회복 관...",
-      "url": "https://dealsite.co.kr/articles/167856",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-08-28",
       "title": "[2026 증권포럼] \"국민성장펀드 200조 확대…민간투자 난제 푼다\"",
       "url": "https://dealsite.co.kr/articles/167870",
       "source": "딜인사이트"
@@ -9637,8 +9751,20 @@
       "title": "국책銀 사고·새도약기금 관리…금융공기업 안건 ‘산적ʼ [한눈에 보는...",
       "url": "https://www.fntimes.com/html/view.php?ud=202610022242034205dd55077bc2_18",
       "source": "한국금융신문"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "[더벨][인사이드 헤지펀드] 수성운용, 주식운용본부 설립…국내주식 개...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610011007298720108164",
+      "source": "더벨"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "정책자금 64% 대줘도 외면…글로벌 스케일업 대형리그 '흥행 부진'",
+      "url": "https://www.etoday.co.kr/news/view/2632567",
+      "source": "이투데이"
     }
   ],
-  "matched_articles_this_run": 418,
+  "matched_articles_this_run": 431,
   "confirmed_deals_count": 16
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-05T22:11:38.116142+00:00",
+  "generated_at": "2026-10-06T22:13:27.139024+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 595,
+  "total_policy_articles": 611,
   "matched_funds_count": 2,
-  "unmatched_count": 184,
+  "unmatched_count": 187,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-09",
-      "last_updated": "2026-10-06",
-      "event_count": 409,
+      "last_updated": "2026-10-07",
+      "event_count": 422,
       "timeline": [
         {
           "date": "2026-07-09",
@@ -4512,6 +4512,149 @@
           "summary": "금융위원회는 국민성장펀드 기금운용심의회가 5월 퓨리오사AI의 약 8000억 원 규모 증자사업에 대한 직접투자 지원을 승인했다고 밝혔다. 이 중 첨단전략산업기금의 승인액은 3700억 원이다. 다만 9월 말 기준 민간...",
           "url": "https://www.news1.kr/industry/sb-founded/6308810",
           "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T10:42:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[더벨][인사이드 헤지펀드] 수성운용, 주식운용본부 설립…국내주식 개...",
+          "summary": "신규 펀드 자금은 설정 직후 코스닥 상장사가 발행한 메자닌에 투입됐고, 최근 결성한 국민성장펀드 자금도 같은 방향으로 집행되고 있다. 외형 성장도 뚜렷했다. 수성운용의 2026회계연도 1분기(4~6월) 집합투자기구...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610011007298720108164",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T11:30:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "정책자금 64% 대줘도 외면…글로벌 스케일업 대형리그 '흥행 부진'",
+          "summary": "국민성장펀드에 선정되지 않은 GP들이 다른 출자사업에 나서더라도 민간 매칭이라는 관문은 남는다. 정책기관 여러 곳에서 출자를 받았더라도 각 펀드의 결성 조건을 충족하려면 추가 LP를 확보해야 하기 때문이다. 또...",
+          "url": "https://www.etoday.co.kr/news/view/2632567",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T16:39:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2000억원",
+          "title": "알테오젠, 2000억원 투자 받는다…생산시설 확충·신기술 확보",
+          "summary": "알테오젠은 국민성장펀드와 스카이레이크가 매칭해 설립한 스카이알트를 인수인으로 총 2000억 원 규모의... GSK, 바이오젠, 다이이찌산쿄, 산도즈 등 글로벌 제약사 10곳과 라이선스 계약을 체결해 왔다. 특히 ALT-B4가...",
+          "url": "https://www.news1.kr/bio/pharmaceutical-bio/6311832",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T16:46:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2000억",
+          "title": "알테오젠, 2000억 투자 유치…연구부터 판매까지 한 회사로",
+          "summary": "스카이알트를 인수인으로 총 2000억원 규모의 종류주식을 발행한다고 밝혔다. 국민성장펀드는... 민현기 스카이레이크 대표는 “알테오젠은 바이오의약품 연구개발 분야에서 차별화된 기술력을 바탕으로 국내...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=04674006645610296&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T17:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2000억",
+          "title": "알테오젠, 국민성장펀드 2000억 투자유치…미래 성장동력 찾는다",
+          "summary": "앞서 리가켐바이오사이언스와 SK바이오사이언스, 비티젠, 경보제약 등 4곳은 직접투자·저리대출 형태로 지원 대상으로 선정된 바 있다. 국민성장펀드는 첨단전략산업과 미래 성장산업에 장기자금을 공급하기 위해...",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/10/06/0042",
+          "source_label": "비즈워치"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T17:03:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2000억원",
+          "title": "알테오젠, 국민성장펀드 등 2천억 투자 유치…\"생산시설·파이프라인 확...",
+          "summary": "알테오젠은 국민성장펀드와 스카이레이크가 매칭해 설립한 스카이알트를 인수인으로 총 2000억원 규모의... 투자금의 일부는 대전에 추진 중인 신규 바이오의약품 생산시설 건설에 사용한다. 알테오젠 관계자는...",
+          "url": "https://www.mt.co.kr/thebio/2026/10/06/2026100616511768406",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T17:04:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2000억",
+          "title": "알테오젠, 2000억 투자 유치…미래먹거리 확보 속도",
+          "summary": "알테오젠은 국민성장펀드와 스카이레이크가 매칭해 설립한 스카이알트를 인수인으로 총 2000억원 규모... GSK, 바이오젠, 다이이찌 산쿄, 산도스 등 글로벌 제약사 10곳과 라이선스 계약을 체결해 왔다. 특히 ALT-B4가 적용된...",
+          "url": "https://dealsite.co.kr/articles/170190",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T17:22:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2000억",
+          "title": "알테오젠, 2000억 투자 유치…“신규 공장·기술 확보에 투입”",
+          "summary": "알테오젠은 국민성장펀드와 스카이레이크가 매칭해 설립한 스카이알트를 인수인으로 2000억원 규모의... GSK, 바이오젠, 다이이찌산쿄, 산도스 등 글로벌 제약사 10곳과 라이선스 계약을 체결했다. ALT-B4가 적용된 MSD의...",
+          "url": "https://biz.chosun.com/science-chosun/bio/2026/10/06/RSJE254YNBD6HJGSLHNA3EFOGY/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T17:22:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2000억",
+          "title": "알테오젠, 국민성장펀드 등 2000억 투자 유치",
+          "summary": "알테오젠(196170)이 총 2000억 원 규모의 투자를 유치하고 대전 바이오의약품 공장 건설과 사업 다각화에 나선다. 알테오젠은 6일 국민성장펀드와 스카이레이크가 매칭해 설립한 스카이알트를 인수인으로 총 2000억 원...",
+          "url": "https://www.sedaily.com/article/20098637",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T17:30:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2000억",
+          "title": "알테오젠, 국민성장펀드·스카이레이크서 2000억 투자 유치",
+          "summary": "대전 바이오의약품 공장 건설 신규 제품·플랫폼 기술 도입 ALT-B4 넘어 성장동력 다변화 알테오젠이... 알테오젠은 국민성장펀드와 스카이레이크가 공동으로 설립한 ‘스카이알트’를 인수인으로 총 2000억원 규모의...",
+          "url": "https://www.mk.co.kr/article/12169497",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T19:02:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2000억",
+          "title": "알테오젠, 2000억 투자 유치 … 성장펀드·스카이레이크 참여",
+          "summary": "대전 바이오의약품 공장 건설 알테오젠이 국민성장펀드와 스카이레이크에서 2000억원 규모 투자를... 알테오젠은 국민성장펀드와 스카이레이크가 공동으로 설립한 '스카이알트'를 인수인으로 하고 총 2000억원 규모의...",
+          "url": "https://www.mk.co.kr/article/12169678",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-10-06",
+          "published_at": "2026-10-06T22:10:37.160243+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2000억원",
+          "title": "알테오젠, 국민성장펀드·스카이레이크서 2000억원 투자 유치",
+          "summary": "",
+          "url": "https://www.hankyung.com/article/202610066108i",
+          "source_label": "마켓인사이트"
+        },
+        {
+          "date": "2026-10-07",
+          "published_at": "2026-10-07T05:02:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "7200억원",
+          "title": "IPO부터 스타트업 투자까지⋯“자금조달도 AI 기업이 독식, 계급화 극명...",
+          "summary": "국민성장펀드 기금운용심의회는 올해 리벨리온·업스테이지·퓨리오사AI에 등 AI 기업에 총 7200억원의 첨단전략산업기금 직접 지분투자를 승인했다. 우정사업본부도 올해 7월 '2026년 우체국보험 국내 VC...",
+          "url": "https://www.etoday.co.kr/news/view/2630518",
+          "source_label": "이투데이"
         }
       ]
     },

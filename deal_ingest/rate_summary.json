@@ -1,234 +1,224 @@
 {
-  "generated_at": "2026-10-05T22:11:06.037425+00:00",
+  "generated_at": "2026-10-06T22:11:16.558795+00:00",
   "items": {
     "CD(91일)": {
-      "item_code": "010502000",
-      "latest_date": "2026-10-02",
-      "latest_value": 3.21,
-      "prev_day_date": "2026-10-01",
-      "vs_prev_day_bp": 0.0,
-      "prev_month_date": "2026-09-02",
-      "vs_prev_month_bp": 9.0,
-      "recent_series": [
-        {
-          "date": "2026-09-10",
-          "value": 3.13
-        },
-        {
-          "date": "2026-09-11",
-          "value": 3.14
-        },
-        {
-          "date": "2026-09-14",
-          "value": 3.16
-        },
-        {
-          "date": "2026-09-15",
-          "value": 3.17
-        },
-        {
-          "date": "2026-09-16",
-          "value": 3.21
-        },
-        {
-          "date": "2026-09-17",
-          "value": 3.2
-        },
-        {
-          "date": "2026-09-18",
-          "value": 3.2
-        },
-        {
-          "date": "2026-09-21",
-          "value": 3.2
-        },
-        {
-          "date": "2026-09-22",
-          "value": 3.21
-        },
-        {
-          "date": "2026-09-23",
-          "value": 3.21
-        },
-        {
-          "date": "2026-09-28",
-          "value": 3.22
-        },
-        {
-          "date": "2026-09-29",
-          "value": 3.22
-        },
-        {
-          "date": "2026-09-30",
-          "value": 3.22
-        },
-        {
-          "date": "2026-10-01",
-          "value": 3.21
-        },
-        {
-          "date": "2026-10-02",
-          "value": 3.21
-        }
-      ],
+      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/6NN0C8NO6UC58JEGUUSH/json/kr/1/1000/817Y002/D/20260708/20261006/010502000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7fca1744fda0>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=20)'))",
       "source": "ECOS"
     },
     "국고채(3년)": {
-      "item_code": "010200000",
       "latest_date": "2026-10-02",
-      "latest_value": 3.937,
+      "latest_value": 3.934,
+      "isin": "KR103501GG62",
+      "name": "국고03500-2906(26-5)",
       "prev_day_date": "2026-10-01",
       "vs_prev_day_bp": -7.3,
       "prev_month_date": "2026-09-02",
-      "vs_prev_month_bp": 0.7,
+      "vs_prev_month_bp": 0.4,
       "recent_series": [
         {
           "date": "2026-09-10",
-          "value": 3.93
+          "value": 3.93,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-11",
-          "value": 4.014
+          "value": 4.011,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-14",
-          "value": 4.025
+          "value": 4.025,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-15",
-          "value": 4.091
+          "value": 4.09,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-16",
-          "value": 4.053
+          "value": 4.055,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-17",
-          "value": 4.063
+          "value": 4.065,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-18",
-          "value": 4.035
+          "value": 4.037,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-21",
-          "value": 4.056
+          "value": 4.059,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-22",
-          "value": 4.04
+          "value": 4.044,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-23",
-          "value": 4.006
+          "value": 4.004,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-28",
-          "value": 4.119
+          "value": 4.122,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-29",
-          "value": 4.076
+          "value": 4.072,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-09-30",
-          "value": 4.011
+          "value": 4.005,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-10-01",
-          "value": 4.01
+          "value": 4.007,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         },
         {
           "date": "2026-10-02",
-          "value": 3.937
+          "value": 3.934,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         }
       ],
-      "source": "ECOS"
+      "source": "KFP/KRX"
     },
     "국고채(10년)": {
-      "item_code": "010210000",
       "latest_date": "2026-10-02",
-      "latest_value": 4.365,
+      "latest_value": 4.357,
+      "isin": "KR103503GG60",
+      "name": "국고04250-3606(26-6)",
       "prev_day_date": "2026-10-01",
-      "vs_prev_day_bp": -7.1,
+      "vs_prev_day_bp": -7.2,
       "prev_month_date": "2026-09-02",
-      "vs_prev_month_bp": -5.3,
+      "vs_prev_month_bp": -6.1,
       "recent_series": [
         {
           "date": "2026-09-10",
-          "value": 4.453
+          "value": 4.453,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-11",
-          "value": 4.54
+          "value": 4.538,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-14",
-          "value": 4.536
+          "value": 4.537,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-15",
-          "value": 4.6
+          "value": 4.599,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-16",
-          "value": 4.547
+          "value": 4.551,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-17",
-          "value": 4.506
+          "value": 4.508,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-18",
-          "value": 4.466
+          "value": 4.466,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-21",
-          "value": 4.457
+          "value": 4.458,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-22",
-          "value": 4.461
+          "value": 4.464,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-23",
-          "value": 4.392
+          "value": 4.389,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-28",
-          "value": 4.539
+          "value": 4.544,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-29",
-          "value": 4.476
+          "value": 4.467,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-09-30",
-          "value": 4.407
+          "value": 4.399,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-10-01",
-          "value": 4.436
+          "value": 4.429,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         },
         {
           "date": "2026-10-02",
-          "value": 4.365
+          "value": 4.357,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         }
       ],
-      "source": "ECOS"
+      "source": "KFP/KRX"
     },
     "미국채(2년)": {
-      "latest_date": "2026-10-02",
-      "latest_value": 4.83,
-      "prev_day_date": "2026-10-01",
-      "vs_prev_day_bp": 5.0,
-      "prev_month_date": "2026-09-02",
-      "vs_prev_month_bp": 44.0,
+      "latest_date": "2026-10-05",
+      "latest_value": 4.84,
+      "prev_day_date": "2026-10-02",
+      "vs_prev_day_bp": 1.0,
+      "prev_month_date": "2026-09-04",
+      "vs_prev_month_bp": 47.0,
       "recent_series": [
-        {
-          "date": "2026-09-14",
-          "value": 4.65
-        },
         {
           "date": "2026-09-15",
           "value": 4.67
@@ -284,6 +274,10 @@
         {
           "date": "2026-10-02",
           "value": 4.83
+        },
+        {
+          "date": "2026-10-05",
+          "value": 4.84
         }
       ],
       "source": "FRED",
@@ -291,17 +285,13 @@
       "error": null
     },
     "미국채(10년)": {
-      "latest_date": "2026-10-02",
-      "latest_value": 5.28,
-      "prev_day_date": "2026-10-01",
-      "vs_prev_day_bp": 4.0,
-      "prev_month_date": "2026-09-02",
-      "vs_prev_month_bp": 49.0,
+      "latest_date": "2026-10-05",
+      "latest_value": 5.31,
+      "prev_day_date": "2026-10-02",
+      "vs_prev_day_bp": 3.0,
+      "prev_month_date": "2026-09-04",
+      "vs_prev_month_bp": 53.0,
       "recent_series": [
-        {
-          "date": "2026-09-14",
-          "value": 4.97
-        },
         {
           "date": "2026-09-15",
           "value": 5.0
@@ -357,6 +347,10 @@
         {
           "date": "2026-10-02",
           "value": 5.28
+        },
+        {
+          "date": "2026-10-05",
+          "value": 5.31
         }
       ],
       "source": "FRED",
@@ -516,18 +510,10 @@
   },
   "policy_rates": {
     "한국 기준금리": {
-      "latest_date": "2026-10-03",
-      "latest_value": 3.0,
-      "last_change_date": "2026-08-27",
-      "last_change_from": 2.75,
-      "direction": "인상",
-      "next_meeting": "2026-10-22",
-      "last_meeting": "2026-08-27",
-      "meeting_direction": "인상",
-      "source": "ECOS"
+      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/6NN0C8NO6UC58JEGUUSH/json/kr/1/1000/722Y001/D/20251006/20261006/0101000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7fca1786d520>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=20)'))"
     },
     "미국 기준금리": {
-      "latest_date": "2026-10-05",
+      "latest_date": "2026-10-06",
       "latest_value": 4.0,
       "last_change_date": "2026-09-17",
       "last_change_from": 3.75,
