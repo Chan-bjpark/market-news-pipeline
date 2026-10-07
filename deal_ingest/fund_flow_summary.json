@@ -1,30 +1,19 @@
 {
-  "generated_at": "2026-10-06T22:13:27.139024+00:00",
+  "generated_at": "2026-10-07T22:11:16.664050+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 611,
-  "matched_funds_count": 2,
-  "unmatched_count": 187,
+  "total_policy_articles": 620,
+  "matched_funds_count": 3,
+  "unmatched_count": 190,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-09",
-      "last_updated": "2026-10-07",
-      "event_count": 422,
+      "first_seen": "2026-07-13",
+      "last_updated": "2026-10-08",
+      "event_count": 427,
       "timeline": [
-        {
-          "date": "2026-07-09",
-          "published_at": "2026-07-09T05:32:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "3700억원",
-          "title": "대형 투자기관, 국내 데이터센터·전력설비 투자금 쏟아진다 [메가프로...",
-          "summary": "금융위원회는 지난달 국민성장펀드 기금운용심의회를 열고 영양 육상풍력 발전사업 인프라투융자, LS전선 초고압 해저케이블 양산시설 증설 대출, 심텍 차세대 메모리 기판 생산공장 증설 대출 등 3700억원 규모...",
-          "url": "https://www.etoday.co.kr/news/view/2601566",
-          "source_label": "이투데이"
-        },
         {
           "date": "2026-07-13",
           "published_at": "2026-07-13T08:18:00+09:00",
@@ -4655,6 +4644,94 @@
           "summary": "국민성장펀드 기금운용심의회는 올해 리벨리온·업스테이지·퓨리오사AI에 등 AI 기업에 총 7200억원의 첨단전략산업기금 직접 지분투자를 승인했다. 우정사업본부도 올해 7월 '2026년 우체국보험 국내 VC...",
           "url": "https://www.etoday.co.kr/news/view/2630518",
           "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-07",
+          "published_at": "2026-10-07T10:20:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "10조",
+          "title": "[경제일보] 기업 성장부터 취약차주 재기까지…IBK기업은행, 중기금융 ...",
+          "summary": "5년간 국민성장펀드에 10조원 규모로 참여한다. 올해는 1조3500억원을 첨단전략산업과 관련 생태계에... 현대기아차·기술보증기금과는 1000억원 규모의 협력기업 금융지원에 나서 자동차산업 공급망에 속한 중소기업의...",
+          "url": "https://www.ajunews.com/view/20261007100729926",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-10-07",
+          "published_at": "2026-10-07T10:44:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "'투자 본능' 깨어난 스카이레이크...알테오젠 신호탄 되나 [fn마켓워치]",
+          "summary": "12호 블라인드펀드의 투자 집행이 상당 부분 진행된 가운데 국민성장펀드를 등에 업고 새로 확보한 1조원대 실탄을 풀기 시작하면서다. 첫 투자처는 알테오젠이다. 이번 투자 플랫폼은 건당 최대 2000억원까지 집행할...",
+          "url": "https://www.fnnews.com/news/202610070932458983",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-10-07",
+          "published_at": "2026-10-07T22:10:38.576514+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "04.완판 질주했던 국민성장펀드…수익률 선방에도 2차 흥행은 아직 '절반'",
+          "summary": "",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438014",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-10-07",
+          "published_at": "2026-10-07T22:22:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "30조",
+          "title": "산은·기은 ‘내부통제’ 도마…금융사고부터 정책금융 운용까지 [2026 국...",
+          "summary": "정부는 국민성장펀드를 통해 올해에만 30조원 이상의 자금을 공급한다는 계획이며 산업은행은 국민성장펀드 사무국과 첨단전략산업기금 운용 등을 맡아 핵심적인 역할을 담당하고 있다. 정책금융의 공급 규모가 크게...",
+          "url": "https://www.fntimes.com/html/view.php?ud=2026100716205919645e6e69892f_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T05:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "\"AI 해킹·금융사고·암살자(들)\"…오늘 금융위·국책은행 국감 쟁점은",
+          "summary": "이에 야당은 국민성장펀드의 실제 집행 내역과 투자 대상 선정 기준, 운용 규모 확대 배경 등을 집중적으로 따져 물을 것으로 예상된다. 특히 정책금융을 통한 대규모 자금 공급이 민간 투자를 유도하는 '마중물' 역할을...",
+          "url": "https://www.news1.kr/finance/financial-policy/6313234",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T05:02:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2조",
+          "title": "국민성장펀드 정책자금 23% ‘현금부자’ 삼성전자로 갔다",
+          "summary": "총 2조원을 국고채 수준의 저금리로 대출받기로 했다. 이달까지 승인된 자금의 23.3%가 삼성전자 한곳에 투입되는 것이다. 엘지(LG)디스플레이가 1조3천억원(15.2%), 두산테스나가 5600억원(6.5%)으로 뒤를 이었다. 특히...",
+          "url": "https://www.hani.co.kr/arti/economy/finance/1281424.html",
+          "source_label": "한겨레"
+        }
+      ]
+    },
+    {
+      "fund_name": "혁신성장펀드",
+      "current_stage_code": "uncategorized",
+      "current_stage_label": "단계 미상",
+      "next_expected_event": "추가 정보 필요",
+      "first_seen": "2026-10-07",
+      "last_updated": "2026-10-07",
+      "event_count": 1,
+      "timeline": [
+        {
+          "date": "2026-10-07",
+          "published_at": "2026-10-07T08:12:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "600억원",
+          "title": "SKS PE, 투자본부 6→3개…성과 중심 조직 쇄신",
+          "summary": "엘칸토·창원에너텍 실적 개선…첫 단독펀드 운용 역량 집중 중견 사모펀드(PEF) 운용사... 혁신성장펀드에서 600억원을 확보한 뒤 최소 2000억원, 최대 4000억원 규모를 목표로 자금을 모집했다. 최종 결성액은...",
+          "url": "https://dealsite.co.kr/articles/170099",
+          "source_label": "딜인사이트"
         }
       ]
     },
