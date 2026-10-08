@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T22:11:17.525931+00:00",
+  "generated_at": "2026-10-08T22:11:15.974281+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-10-07T22:11:17.525832+00:00",
+    "sheet_synced_at": "2026-10-08T22:11:15.974187+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -2840,6 +2840,16 @@
           "status_label": "승인·확정",
           "url": "https://www.news1.kr/industry/sb-founded/6308810",
           "source": "뉴스1"
+        },
+        {
+          "date": "2026-10-08",
+          "event": "이억원 \"국민성장펀드 퓨리오사 특혜 아냐…자금 운영 신경쓸 것\"",
+          "methods": [],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438403",
+          "source": "연합인포맥스"
         }
       ]
     },
@@ -3375,6 +3385,28 @@
           "status_label": "승인·확정",
           "url": "https://www.hani.co.kr/arti/economy/finance/1281424.html",
           "source": "한겨레"
+        }
+      ]
+    },
+    {
+      "company_name": "늘어도",
+      "sector": null,
+      "methods": [],
+      "amount": "3000억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "timeline": [
+        {
+          "date": "2026-10-08",
+          "event": "\"벤처투자 늘어도 회수는 제자리…세컨더리 시장 활성화 시급\"",
+          "methods": [],
+          "amount": "3000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2634039",
+          "source": "이투데이"
         }
       ]
     },
@@ -9213,72 +9245,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-08-30",
-      "title": "NH농협금융 '상생·성장 펀드 2호' 4000억원으로 확대",
-      "url": "https://view.asiae.co.kr/article/2026083011210903524",
-      "source": "아시아경제"
-    },
-    {
-      "date": "2026-08-30",
-      "title": "NH농협금융 ‘상생·성장 펀드 2호’ 1000억에서 4000억으로 증액",
-      "url": "https://biz.chosun.com/stock/finance/2026/08/30/BI4UY6RAKFE2JG6ZWNBFWXQMQU/",
-      "source": "조선일보"
-    },
-    {
-      "date": "2026-08-30",
-      "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
-      "url": "https://www.mk.co.kr/article/12139880",
-      "source": "매일경제"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "[기자24시] 정책펀드 만능주의의 그늘",
-      "url": "https://www.mk.co.kr/article/12140539",
-      "source": "매일경제"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "재경부 깜짝 인사 속 국민성장펀드 일정 삐걱...자본시장 정책도 '개점휴업' 우려",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/09/01/2026090180135.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "[국민성장펀드] 5조 예상하던 1-2차 자펀드…11조 돈벼락 맞았다",
-      "url": "https://dealsite.co.kr/articles/167810",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "200조 국민성장펀드도 이제 시작인데…쏟아지는 ‘닮은꼴’ 정책펀드 [...",
-      "url": "https://www.mk.co.kr/article/12140988",
-      "source": "매일경제"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "내년 금융위 예산 9.2조, 2배로…청년·미래 성장·서민 방점(종합)",
-      "url": "https://www.news1.kr/finance/general-finance/6275955",
-      "source": "뉴스1"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "[2027예산] 금융위 내년예산 9.2조원…청년·서민 지원, 성장잠재력 제고",
-      "url": "https://www.yna.co.kr/view/AKR20260831180100002?input=1195m",
-      "source": "연합뉴스"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "국민성장펀드 연 40조로 확대…미래산업에 돈줄 튼다",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03749046645575856&mediaCodeNo=257",
-      "source": "이데일리"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "금융위 내년 예산 9.2조 편성…성장투자·서민금융·청년 자산형성 확대...",
-      "url": "https://www.etoday.co.kr/news/view/2620202",
-      "source": "이투데이"
-    },
-    {
       "date": "2026-09-01",
       "title": "3대 메가·AI에 21.3조…‘포스트 반도체’ 첨단전략에 41.4조[2027년 예산...",
       "url": "https://biz.heraldcorp.com/article/10858698",
@@ -9811,8 +9777,74 @@
       "title": "\"AI 해킹·금융사고·암살자(들)\"…오늘 금융위·국책은행 국감 쟁점은",
       "url": "https://www.news1.kr/finance/financial-policy/6313234",
       "source": "뉴스1"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "소상공인은 안정자금, 혁신기업은 성장자금 지원…IBK 맞춤형 ‘생산적...",
+      "url": "https://biz.heraldcorp.com/article/10896475",
+      "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[국감 2026] 이억원 \"금리 인상기 대비 국민성장펀드 200조원으로 확대\"",
+      "url": "https://www.newspim.com/news/view/20261008000087",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[2026국감]이억원 \"금리인상 대비 취약계층 지원 강화…가계부채 엄격 ...",
+      "url": "https://view.asiae.co.kr/article/2026100809452168481",
+      "source": "아시아경제"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "이억원 \"생산적·포용적·신뢰받는 금융 3대 방향으로 정책 추진\"",
+      "url": "https://www.news1.kr/finance/general-finance/6313830",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "이억원 금융위원장 \"가계부채 관리 엄격하게..실수요자 대출은 핀셋형\"",
+      "url": "https://www.fnnews.com/news/202610080918126231",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "이억원 위원장 \"보안 전제로 망분리 규제 해제…가계부채 엄격 관리\"",
+      "url": "https://www.mt.co.kr/finance/2026/10/08/2026100809092866707",
+      "source": "머니투데이"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "기업은행, 소상공인·지방기업에 맞춤형 ‘생산적 금융’",
+      "url": "https://biz.heraldcorp.com/article/10896838",
+      "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[정무위 국감] 이억원 “망분리 규제 해제, 보안 전제로 추진…주택공급...",
+      "url": "https://www.g-enews.com/view.php?ud=202610081049136824a6e8311f64_1",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "국민성장펀드 투자심사 30건 모두 승인에…국감서 이해충돌·자금 배분...",
+      "url": "https://www.ajunews.com/view/20261008173228237",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[2026 국감] 200조로 덩치 키우는 국민성장펀드…심의·쏠림·손실보전 ...",
+      "url": "https://www.newspim.com/news/view/20261008001363",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "'국민성장펀드 첫 투자' 스카이레이크, 알테오젠 투자 셈법은",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610070755134440104678",
+      "source": "더벨"
     }
   ],
-  "matched_articles_this_run": 436,
+  "matched_articles_this_run": 449,
   "confirmed_deals_count": 16
 }

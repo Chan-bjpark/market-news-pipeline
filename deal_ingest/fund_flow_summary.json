@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-07T22:11:16.664050+00:00",
+  "generated_at": "2026-10-08T22:11:15.144627+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 620,
+  "total_policy_articles": 636,
   "matched_funds_count": 3,
-  "unmatched_count": 190,
+  "unmatched_count": 193,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -12,7 +12,7 @@
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-13",
       "last_updated": "2026-10-08",
-      "event_count": 427,
+      "event_count": 440,
       "timeline": [
         {
           "date": "2026-07-13",
@@ -4710,6 +4710,149 @@
           "summary": "총 2조원을 국고채 수준의 저금리로 대출받기로 했다. 이달까지 승인된 자금의 23.3%가 삼성전자 한곳에 투입되는 것이다. 엘지(LG)디스플레이가 1조3천억원(15.2%), 두산테스나가 5600억원(6.5%)으로 뒤를 이었다. 특히...",
           "url": "https://www.hani.co.kr/arti/economy/finance/1281424.html",
           "source_label": "한겨레"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T09:21:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2조",
+          "title": "소상공인은 안정자금, 혁신기업은 성장자금 지원…IBK 맞춤형 ‘생산적...",
+          "summary": "지방 중소기업 대상으로는 2조원 규모의 ‘지역 균형성장 중기금융 종합 패키지’도 내놨다. 1조원 규모의... 나아가 기업은행은 올해 국민성장펀드와 함께 첨단전략산업과 관련 생태계에 1조3500억원을 지원하기로...",
+          "url": "https://biz.heraldcorp.com/article/10896475",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T10:16:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "200조",
+          "title": "[국감 2026] 이억원 \"금리 인상기 대비 국민성장펀드 200조원으로 확대\"",
+          "summary": "업무현황에 따르면 국민성장펀드는 9월 말 기준 출범 9개월 만에 총 18조9000억원(35건)의 자금을 승인했다. 투자 방식별로 보면 인프라 7조6000억원, 저리대출 6조9000억원, 기업 지분 직접투자 2조8000억원 등이다....",
+          "url": "https://www.newspim.com/news/view/20261008000087",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T10:18:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "이억원 \"생산적·포용적·신뢰받는 금융 3대 방향으로 정책 추진\"",
+          "summary": "그는 \"첨단기술·산업 경쟁력 제고를 위한 150조 원 규모의 국민성장펀드를 집행 중\"이라며 \"앞으로 규모를... 정책금융의 지방 공급 비중을 확대하고 3대 메가프로젝트, 5극3특 전략과 연계해 지역 대표 전략산업과 지방 이전...",
+          "url": "https://www.news1.kr/finance/general-finance/6313830",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T10:18:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "[2026국감]이억원 \"금리인상 대비 취약계층 지원 강화…가계부채 엄격 ...",
+          "summary": "첨단기술·산업 분야의 경쟁력 제고를 위해 국민성장펀드 규모를 150조원에서 200조원으로 확대하고, 지원대상과 직접투자 규모를 늘린다. 정책금융의 지방 공급 비중을 확대하고 3대 메가프로젝트, 5극3특 전략과 연계해...",
+          "url": "https://view.asiae.co.kr/article/2026100809452168481",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T10:19:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "이억원 금융위원장 \"가계부채 관리 엄격하게..실수요자 대출은 핀셋형\"",
+          "summary": "국정감사에서 \"금융위는 첨단기술·산업 경쟁력 강화를 위해 150조원 규모의 국민성장펀드를 집행하고 있다... 금융위는 정책금융의 지방공급 비중 확대, 3대 메가프로젝트 및 5극3특 전략과 연계한 지역 전략산업·지방이전...",
+          "url": "https://www.fnnews.com/news/202610080918126231",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T10:41:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이억원 위원장 \"보안 전제로 망분리 규제 해제…가계부채 엄격 관리\"",
+          "summary": "생산적 금융 확대를 위해 국민성장펀드 규모도 늘린다. 이 위원장은 \"첨단기술과 산업 분야의 경쟁력 제고를... 이 위원장은 \"정책금융의 지방공급 비중을 확대하고 3대 메가프로젝트, 5극3특 전략 등과 연계해 지역대표...",
+          "url": "https://www.mt.co.kr/finance/2026/10/08/2026100809092866707",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T11:26:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2조",
+          "title": "기업은행, 소상공인·지방기업에 맞춤형 ‘생산적 금융’",
+          "summary": "지방 중소기업 대상으로는 2조원 규모의 ‘지역 균형성장 중기금융 종합 패키지’도 내놨다. 1조원 규모의... 나아가 기업은행은 올해 국민성장펀드와 함께 첨단전략산업과 관련 생태계에 1조3500억원을 지원하기로 했다....",
+          "url": "https://biz.heraldcorp.com/article/10896838",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T11:42:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[정무위 국감] 이억원 “망분리 규제 해제, 보안 전제로 추진…주택공급...",
+          "summary": "생산적 금융 확대를 위해 국민성장펀드 규모도 늘린다. 이 위원장은 \"첨단기술과 산업 분야의 경쟁력 제고를... 이 위원장은 \"정책금융의 지방공급 비중을 확대하고 3대 메가프로젝트, 5극3특 전략 등과 연계해 지역대표...",
+          "url": "https://www.g-enews.com/view.php?ud=202610081049136824a6e8311f64_1",
+          "source_label": "글로벌이코노믹"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T16:50:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이억원 \"국민성장펀드 퓨리오사 특혜 아냐…자금 운영 신경쓸 것\"",
+          "summary": "이 위원장은 국민성장펀드에 대해 \"정무위에서 여야 의원들이 공동 발의하고 합의해 모험자본을 키우기 위해 민관이 함께하도록 만들어준 것\"이라며 \"기금운용심의회만으로 부족해 투자심의위원회를 설치했다\"고...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438403",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T17:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3000억원",
+          "title": "\"벤처투자 늘어도 회수는 제자리…세컨더리 시장 활성화 시급\"",
+          "summary": "개별적으로 투자한다. 나머지 3000억원은 15개 증권사와 금융투자협회가 공동펀드를 조성해 집행할 예정이다.... 이어 \"은행권의 국민성장펀드 투자에 위험가중자산(RWA) 경감 혜택을 부여하는 것처럼 금융투자업권에서도...",
+          "url": "https://www.etoday.co.kr/news/view/2634039",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T17:38:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": null,
+          "title": "국민성장펀드 투자심사 30건 모두 승인에…국감서 이해충돌·자금 배분...",
+          "summary": "펀드의 투자심사 실효성과 이해충돌 관리 문제를 둘러싸고 국회에서 논란이 제기됐다. 올해 8월까지 기금운... 국민성장펀드는 인공지능(AI)과 반도체 등 첨단전략산업에 자금을 공급하기 위한 민관 합동 투자체계다....",
+          "url": "https://www.ajunews.com/view/20261008173228237",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T20:23:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "200조",
+          "title": "[2026 국감] 200조로 덩치 키우는 국민성장펀드…심의·쏠림·손실보전 ...",
+          "summary": "금융위 업무현황에 따르면 국민성장펀드는 지난해 12월 첨단전략산업기금 출범 이후 9월 말까지 35건, 18조9000억원을 승인했다. 금융위는 연간 운용 규모를 40조원으로 늘리고, 우주항공 등으로 지원 대상을 넓힐...",
+          "url": "https://www.newspim.com/news/view/20261008001363",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-10-08",
+          "published_at": "2026-10-08T22:10:25.061683+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "'국민성장펀드 첫 투자' 스카이레이크, 알테오젠 투자 셈법은",
+          "summary": "",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610070755134440104678",
+          "source_label": "더벨"
         }
       ]
     },
