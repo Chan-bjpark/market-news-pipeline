@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T22:11:06.607996+00:00",
+  "generated_at": "2026-10-11T22:10:59.814572+00:00",
   "items": {
     "CD(91일)": {
       "item_code": "010502000",
@@ -280,17 +280,13 @@
       "source": "KFP/KRX"
     },
     "미국채(2년)": {
-      "latest_date": "2026-10-07",
-      "latest_value": 4.77,
-      "prev_day_date": "2026-10-06",
+      "latest_date": "2026-10-08",
+      "latest_value": 4.75,
+      "prev_day_date": "2026-10-07",
       "vs_prev_day_bp": -2.0,
-      "prev_month_date": "2026-09-04",
-      "vs_prev_month_bp": 40.0,
+      "prev_month_date": "2026-09-08",
+      "vs_prev_month_bp": 36.0,
       "recent_series": [
-        {
-          "date": "2026-09-17",
-          "value": 4.67
-        },
         {
           "date": "2026-09-18",
           "value": 4.76
@@ -346,6 +342,10 @@
         {
           "date": "2026-10-07",
           "value": 4.77
+        },
+        {
+          "date": "2026-10-08",
+          "value": 4.75
         }
       ],
       "source": "FRED",
@@ -353,17 +353,13 @@
       "error": null
     },
     "미국채(10년)": {
-      "latest_date": "2026-10-07",
-      "latest_value": 5.28,
-      "prev_day_date": "2026-10-06",
-      "vs_prev_day_bp": 1.0,
-      "prev_month_date": "2026-09-04",
-      "vs_prev_month_bp": 50.0,
+      "latest_date": "2026-10-08",
+      "latest_value": 5.22,
+      "prev_day_date": "2026-10-07",
+      "vs_prev_day_bp": -6.0,
+      "prev_month_date": "2026-09-08",
+      "vs_prev_month_bp": 42.0,
       "recent_series": [
-        {
-          "date": "2026-09-17",
-          "value": 4.94
-        },
         {
           "date": "2026-09-18",
           "value": 5.01
@@ -419,6 +415,10 @@
         {
           "date": "2026-10-07",
           "value": 5.28
+        },
+        {
+          "date": "2026-10-08",
+          "value": 5.22
         }
       ],
       "source": "FRED",
@@ -589,7 +589,7 @@
       "source": "ECOS"
     },
     "미국 기준금리": {
-      "latest_date": "2026-10-08",
+      "latest_date": "2026-10-11",
       "latest_value": 4.0,
       "last_change_date": "2026-09-17",
       "last_change_from": 3.75,

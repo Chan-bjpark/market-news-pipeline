@@ -1,85 +1,19 @@
 {
-  "generated_at": "2026-10-08T22:11:15.144627+00:00",
+  "generated_at": "2026-10-11T22:11:08.678022+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 636,
+  "total_policy_articles": 635,
   "matched_funds_count": 3,
-  "unmatched_count": 193,
+  "unmatched_count": 194,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-13",
-      "last_updated": "2026-10-08",
-      "event_count": 440,
+      "first_seen": "2026-07-15",
+      "last_updated": "2026-10-12",
+      "event_count": 438,
       "timeline": [
-        {
-          "date": "2026-07-13",
-          "published_at": "2026-07-13T08:18:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "1000억",
-          "title": "[더벨]5대 금융, '국민성장펀드 매칭' 리가켐바이오에 1000억 투자한다",
-          "summary": "지난달 25일 기금운용심의회 승인을 마쳤다. 투자 방식은 전환사채(CB) 1700억원과 전환우선주(CPS) 3300억원이다. CB 발행일은 이달 24일이다. 국민성장펀드 직접투자는 그동안 리벨리온 등 AI 반도체 기업을 중심으로...",
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607091046283320101013",
-          "source_label": "더벨"
-        },
-        {
-          "date": "2026-07-13",
-          "published_at": "2026-07-13T15:17:00+09:00",
-          "stage_code": "size_confirmed",
-          "stage_label": "규모 확정",
-          "amount": null,
-          "title": "국민성장펀드 2차 운용사에 스틱·도미누스·한투파 등 7곳 선정",
-          "summary": "간접투자는 사모펀드(PEF), 벤처캐피털(VC), 증권사 등 민간에 자금 운용을 위탁하는 것을 일컫는다. 자펀드... 펀드 규모가 가장 큰 ‘스케일업’ 리그에는 스틱인베스트먼트가 선정됐다. 펀드 목표 결성액은...",
-          "url": "https://www.hankyung.com/article/202607131944r",
-          "source_label": "한국경제"
-        },
-        {
-          "date": "2026-07-13",
-          "published_at": "2026-07-13T16:14:00+09:00",
-          "stage_code": "gp_selected",
-          "stage_label": "운용사 선정",
-          "amount": null,
-          "title": "국민성장펀드 2차 GP에 스틱·도미누스·우리벤처·한투파 등 선정 [시그...",
-          "summary": "대형 사모펀드(PEF) 운용사와 우리벤처파트너스·한국투자파트너스 등 벤처캐피털(VC)이 선정됐다. 13일... 최종 선정 운용사는 목표 결성액 이상으로 민간 자금을 모집해 펀드를 결성할 수 있다. 국민성장펀드...",
-          "url": "https://www.sedaily.com/article/20067127",
-          "source_label": "서울경제"
-        },
-        {
-          "date": "2026-07-13",
-          "published_at": "2026-07-13T17:36:00+09:00",
-          "stage_code": "gp_selected",
-          "stage_label": "운용사 선정",
-          "amount": "5000억",
-          "title": "[마켓인]국민성장펀드 2차 GP 확정…5000억 스케일업펀드 스틱 품으로",
-          "summary": "초과 결성 한도인 하드캡도 적용되지 않아 민간 출자자(LP) 모집 결과에 따라 펀드 규모가 5000억원을... 도미누스는 중형 리그 숏리스트 가운데 유일한 사모펀드(PEF) 운용사로, VC 4곳과 경쟁해 최종 GP 자리를 따냈다. AI...",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04368966645514192",
-          "source_label": "이데일리"
-        },
-        {
-          "date": "2026-07-13",
-          "published_at": "2026-07-13T17:55:00+09:00",
-          "stage_code": "gp_selected",
-          "stage_label": "운용사 선정",
-          "amount": null,
-          "title": "스틱, 국민성장펀드 굴린다",
-          "summary": "5천억 스케일업 운용사 선정 스틱인베스트먼트가 '단군 이래 최대 펀드'로 평가받는 국민성장펀드 2차... 운용사가 출자금을 받기 위해 발품을 팔아야 하는 분위기와 달리 최근에는 기관(LP)들이 앞다퉈 GP들에 자금을...",
-          "url": "https://www.mk.co.kr/article/12097507",
-          "source_label": "매일경제"
-        },
-        {
-          "date": "2026-07-13",
-          "published_at": "2026-07-13T20:41:00+09:00",
-          "stage_code": "gp_selected",
-          "stage_label": "운용사 선정",
-          "amount": null,
-          "title": "'PE업계 맏형' 스틱, 국민성장펀드 최대어 따냈다…메가펀드 시동 [fn마...",
-          "summary": "2차 출자사업의 최종 GP 선정을 마무리하고 개별 통보를 완료했다. 이번 출자사업은 중형, 스케일업... 최근 대형 정책펀드와 기관 출자사업에서 잇달아 존재감을 키우고 있는 스틱은 국내 PE '맏형' 운용사로서 대형...",
-          "url": "http://www.fnnews.com/news/202607132036444717",
-          "source_label": "파이낸셜뉴스"
-        },
         {
           "date": "2026-07-15",
           "published_at": "2026-07-15T08:16:00+09:00",
@@ -4853,6 +4787,50 @@
           "summary": "",
           "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610070755134440104678",
           "source_label": "더벨"
+        },
+        {
+          "date": "2026-10-09",
+          "published_at": "2026-10-09T09:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "8000억",
+          "title": "[국민성장펀드] 에이티넘 8000억 펀드 관리보수 차등화…민간은 두 배",
+          "summary": "민간 출자자(LP)에 관리보수 2%를 요구한 것으로 파악됐다. 국민연금과 산업은행 등 앵커 출자자에는 기관별... 정책자금 출자사업에 선정된 GP는 대규모 앵커 출자를 확보한 상태에서 민간 자금 모집에 나선다. 펀드...",
+          "url": "https://dealsite.co.kr/articles/170296",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-10-12",
+          "published_at": "2026-10-12T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1000억",
+          "title": "[더벨][로보티즈 블록딜] 1000억 확보한 김병수 대표, 자회사 지원 촉각",
+          "summary": "국민성장펀드 매칭을 통한 본업 투자도 계획했으나 아직 투자 집행 여부와 구체적인 자금 투입 금액이 정해지지 않아 이를 제외한 것으로 보인다. 회사 측은 해당 내용이 공시 대상에 해당해 확정 이후에 공개하겠다는...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610070000261110109070",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-10-12",
+          "published_at": "2026-10-12T07:02:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": "3조 4000억",
+          "title": "AI·반도체 쏠림에 심사 공정성까지···국민성장펀드 도마 [2026 국감-산...",
+          "summary": "신안우이 해상풍력은 국민성장펀드의 첫 메가프로젝트 승인 사업이다. 금융위원회는 지난 1월 29일 총사업비 약 3조 4000억원 규모의 사업에 첨단전략산업기금이 선·후순위 대출자로 7500억원을 공급하는 안건을...",
+          "url": "https://www.fntimes.com/html/view.php?ud=202610111736175173b4a7c6999c_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-10-12",
+          "published_at": "2026-10-12T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "알테오젠까지 가세…국민성장펀드 올라탄 바이오 기업은",
+          "summary": "업계 관계자는 “의료AI도 국민성장펀드의 관심을 받고 실제 지원도 검토하고 있는 것으로 안다”며 “투자가 집행되면 업계에 긍정적인 영향을 미칠 것”이라고 말했다. 국민성장펀드는 올해 8월까지 전체 산업에서...",
+          "url": "https://www.sedaily.com/article/20100130",
+          "source_label": "서울경제"
         }
       ]
     },
