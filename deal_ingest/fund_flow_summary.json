@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-11T22:11:08.678022+00:00",
+  "generated_at": "2026-10-12T22:11:08.871153+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 635,
+  "total_policy_articles": 641,
   "matched_funds_count": 3,
-  "unmatched_count": 194,
+  "unmatched_count": 196,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -12,7 +12,7 @@
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-15",
       "last_updated": "2026-10-12",
-      "event_count": 438,
+      "event_count": 442,
       "timeline": [
         {
           "date": "2026-07-15",
@@ -4831,6 +4831,50 @@
           "summary": "업계 관계자는 “의료AI도 국민성장펀드의 관심을 받고 실제 지원도 검토하고 있는 것으로 안다”며 “투자가 집행되면 업계에 긍정적인 영향을 미칠 것”이라고 말했다. 국민성장펀드는 올해 8월까지 전체 산업에서...",
           "url": "https://www.sedaily.com/article/20100130",
           "source_label": "서울경제"
+        },
+        {
+          "date": "2026-10-12",
+          "published_at": "2026-10-12T07:42:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "장상익의 성장금융, 李국민성장펀드 모펀드 공동출자",
+          "summary": "출자 대상 분야도 기존 국민성장펀드의 생태계전반·특정목표지원 분야에서 매칭 분야까지 넓혔다. 새로 포함된 매칭 분야는 첨단전략산업기금이 공동 출자하는 출자사업이다. 펀드별 출자 한도는 기존과 같이...",
+          "url": "https://dealsite.co.kr/articles/170405",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-10-12",
+          "published_at": "2026-10-12T08:02:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "200조",
+          "title": "200조 성장펀드에도 담보대출 쏠림·혁신 장벽 여전…생산적금융 실효성...",
+          "summary": "금융위에 따르면 국민성장펀드는 지난 9월 말까지 35건의 사업에 총 18조9000억원의 자금공급을 승인했다. 인프라 투융자가 7조6000억원, 저리대출이 6조9000억원, 기업 지분 직접투자가 2조8000억원 등이다. 혁신기업...",
+          "url": "https://www.fntimes.com/html/view.php?ud=2026100817354783545e6e69892f_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-10-12",
+          "published_at": "2026-10-12T08:08:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "1000억원",
+          "title": "[더벨]'국민성장펀드 첫 투자' 스카이레이크, 알테오젠 투자 셈법은",
+          "summary": "기존 12호 블라인드펀드에서 1000억원, 현재 결성 중인 13호에서 1000억원을 각각 집행한다. 13호 입장에서는 국민성장펀드 출자 이후 첫 투자부터 1000억원 규모의 대형 티켓을 끊는 셈이다. 스카이레이크가 주목한...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610070755134440104678",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-10-12",
+          "published_at": "2026-10-12T14:49:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "6조2200억",
+          "title": "국민성장펀드에 연기금 자금 밀물…매칭펀드 5000억 가시권 [fn마켓워치...",
+          "summary": "올해 간접투자 조성 목표는 6조2200억원이며, 이 가운데 민간자금이 3조9900억원에 이른다. 정부는 '2026년 국민성장펀드 운용방안'에서 첨단전략산업기금의 출자 비중을 크게 높이고 재정 후순위 보강도 확대했다.",
+          "url": "https://www.fnnews.com/news/202610120906526518",
+          "source_label": "파이낸셜뉴스"
         }
       ]
     },
