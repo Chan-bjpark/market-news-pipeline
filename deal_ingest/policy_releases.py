@@ -136,10 +136,17 @@ def _fetch_krx(ag, timeout, max_items):
     s.headers["Referer"] = ag["url"]
     s.get(ag["url"], timeout=timeout)  # 쿠키 워밍업
     otp = s.get(ag["otp_url"], params={"bld": ag["otp_bld"], "name": "list"},
-                timeout=timeout).text.strip()
-    r = s.post(ag["data_url"], params={"code": otp},
-               headers={"X-Requested-With": "XMLHttpRequest"}, timeout=timeout)
-    rows = r.json().get("output", []) or []
+                headers={"Referer": ag["url"]}, timeout=timeout).text.strip()
+    # code를 쿼리·본문 양쪽에 실어 보냄(서버가 본문에서만 읽는 케이스 대응) + AJAX 헤더
+    r = s.post(ag["data_url"], params={"code": otp}, data={"code": otp},
+               headers={"X-Requested-With": "XMLHttpRequest",
+                        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+                        "Accept": "application/json, text/javascript, */*; q=0.01",
+                        "Referer": ag["url"]}, timeout=timeout)
+    try:
+        rows = r.json().get("output", []) or []
+    except Exception:
+        rows = []
     out = []
     for it in rows:
         title = _clean_title(it.get("title", ""))

@@ -33,7 +33,7 @@ except Exception:
 
 KST = timezone(timedelta(hours=9))
 API_URL = "https://api.anthropic.com/v1/messages"
-MODEL = os.environ.get("ANTHROPIC_MODEL") or "claude-3-5-haiku-latest"
+MODEL = os.environ.get("ANTHROPIC_MODEL") or "claude-3-5-haiku-20241022"
 MAX_ARTICLES = 50          # 토큰·비용 통제(딜 후보 상한). 월 $0.5 상한 보장용(Haiku 계열)
 MAX_OUTPUT_TOKENS = 2000
 SUMMARY_CHARS = 140
