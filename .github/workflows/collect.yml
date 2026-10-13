@@ -48,6 +48,8 @@ jobs:
           ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
           KFP_SERVICE_KEY: ${{ secrets.KFP_SERVICE_KEY }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         run: python orchestrator.py
 
       - name: Collector health summary (datacenter-IP 수집 가능여부 진단)
@@ -69,6 +71,8 @@ jobs:
                      deal_ingest/rate_summary.json \
                      deal_ingest/fund_flow_summary.json \
                      deal_ingest/kgf_execution_summary.json \
+                     deal_ingest/policy_releases.json \
+                     deal_ingest/deal_intel.json \
                      deal_ingest/logs/last_run_status.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "변경 없음 — 커밋 스킵"
