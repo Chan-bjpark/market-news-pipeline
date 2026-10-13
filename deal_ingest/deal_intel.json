@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-10-13T05:35:34.991559+00:00",
+  "model": "claude-3-5-haiku-latest",
+  "candidates": 50,
+  "ok": false,
+  "fallback": true,
+  "deals": [],
+  "pe_moves": [],
+  "for_sale": [],
+  "market_signals": [],
+  "reason": "Claude 호출 실패: HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-3-5-haiku-latest\"},\"request_id\":\"req_011CfyhBXyqodV8tWx75VC9U\"}"
+}

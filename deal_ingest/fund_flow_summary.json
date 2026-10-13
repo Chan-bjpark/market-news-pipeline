@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:11:08.871153+00:00",
+  "generated_at": "2026-10-13T05:35:24.296984+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 641,
+  "total_policy_articles": 642,
   "matched_funds_count": 3,
   "unmatched_count": 196,
   "funds": [
@@ -11,8 +11,8 @@
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-15",
-      "last_updated": "2026-10-12",
-      "event_count": 442,
+      "last_updated": "2026-10-13",
+      "event_count": 443,
       "timeline": [
         {
           "date": "2026-07-15",
@@ -4875,6 +4875,17 @@
           "summary": "올해 간접투자 조성 목표는 6조2200억원이며, 이 가운데 민간자금이 3조9900억원에 이른다. 정부는 '2026년 국민성장펀드 운용방안'에서 첨단전략산업기금의 출자 비중을 크게 높이고 재정 후순위 보강도 확대했다.",
           "url": "https://www.fnnews.com/news/202610120906526518",
           "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-10-13",
+          "published_at": "2026-10-13T09:22:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3000억",
+          "title": "전력망 투자 원픽은 LS…여의도 버핏 박건영 3000억 베팅",
+          "summary": "사업 투자와 국내외 신규 사업 추진에 활용하며 올해 4000억원, 내년 1000억원을 각각 집행할 계획이다.... 올해 미래에셋벤처투자와 함께 국민성장펀드 코스닥 리그 공동 운용사로 선정됐다. 이번 EB 발행에서...",
+          "url": "https://dealsite.co.kr/articles/169673",
+          "source_label": "딜인사이트"
         }
       ]
     },
