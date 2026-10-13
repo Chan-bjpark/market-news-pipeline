@@ -143,13 +143,35 @@ def _extract_json(text):
     return json.loads(text[i:j + 1])
 
 
-def _call_claude(system, user, timeout=60):
+def _resolve_model(key, timeout=15):
+    """계정 가용 모델을 /v1/models로 조회해 Haiku(최저가)를 자동 선택 — ID 추측 제거·self-heal.
+    env ANTHROPIC_MODEL이 가용목록에 있으면 그것을 우선. 조회 실패 시 기존 기본값(MODEL)."""
+    env = os.environ.get("ANTHROPIC_MODEL")
+    try:
+        r = requests.get("https://api.anthropic.com/v1/models",
+                         headers={"x-api-key": key, "anthropic-version": "2023-06-01"},
+                         timeout=timeout)
+        if r.status_code == 200:
+            ids = [m.get("id") for m in (r.json().get("data") or []) if m.get("id")]
+            if env and env in ids:
+                return env
+            haikus = [i for i in ids if "haiku" in i.lower()]
+            if haikus:
+                return sorted(haikus, reverse=True)[0]   # 최신 Haiku 우선(모두 저가)
+            if ids:
+                return ids[0]
+    except Exception:  # noqa: BLE001
+        pass
+    return env or MODEL
+
+
+def _call_claude(system, user, model, timeout=60):
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("ANTHROPIC_API_KEY 미설정")
     headers = {"x-api-key": key, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
-    payload = {"model": MODEL, "max_tokens": MAX_OUTPUT_TOKENS, "system": system,
+    payload = {"model": model, "max_tokens": MAX_OUTPUT_TOKENS, "system": system,
                "messages": [{"role": "user", "content": user}]}
     last = None
     for attempt in range(2):
@@ -193,7 +215,9 @@ def run(articles, out_path=None, logger=None):
         (logger.info if logger else print)(m)
     ex = load_exclusions()
     cands = deal_candidates(articles, ex)
-    payload = {"generated_at": datetime.now(timezone.utc).isoformat(), "model": MODEL,
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    model = _resolve_model(key) if key else MODEL
+    payload = {"generated_at": datetime.now(timezone.utc).isoformat(), "model": model,
                "candidates": len(cands), "ok": False, "fallback": True,
                "deals": [], "pe_moves": [], "for_sale": [], "market_signals": []}
     if not cands:
@@ -201,7 +225,7 @@ def run(articles, out_path=None, logger=None):
         _write(out_path, payload)
         return payload
     try:
-        raw = _call_claude(SYSTEM_PROMPT, _build_user_msg(cands))
+        raw = _call_claude(SYSTEM_PROMPT, _build_user_msg(cands), model)
         obj = _extract_json(raw)
         deals = _verify_and_attach(obj.get("deals"), cands, ["target"])
         pe = _verify_and_attach(obj.get("pe_moves"), cands, ["pe"])
