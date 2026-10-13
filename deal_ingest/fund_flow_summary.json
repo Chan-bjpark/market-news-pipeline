@@ -1,41 +1,19 @@
 {
-  "generated_at": "2026-10-13T06:00:13.842610+00:00",
+  "generated_at": "2026-10-13T22:11:18.034919+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 642,
+  "total_policy_articles": 644,
   "matched_funds_count": 3,
-  "unmatched_count": 196,
+  "unmatched_count": 199,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-15",
-      "last_updated": "2026-10-13",
-      "event_count": 443,
+      "first_seen": "2026-07-16",
+      "last_updated": "2026-10-14",
+      "event_count": 442,
       "timeline": [
-        {
-          "date": "2026-07-15",
-          "published_at": "2026-07-15T08:16:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "150조",
-          "title": "[150조 국민성장펀드] [간접투자 2차] 메자닌 1인자 정도현…헤비급 감...",
-          "summary": "대형 사모펀드(PEF) 운용사들이 대거 고배를 마신 가운데 도미누스는 사모펀드 하우스 중에서 유일하게... 중형 리그는 운용사별로 2000억원에서 4000억원 안팎의 중형 자펀드를 결성하는 분야다. 제안서 접수 당시...",
-          "url": "https://dealsite.co.kr/articles/165291",
-          "source_label": "딜인사이트"
-        },
-        {
-          "date": "2026-07-15",
-          "published_at": "2026-07-15T08:22:00+09:00",
-          "stage_code": "closed",
-          "stage_label": "결성 완료",
-          "amount": "150조",
-          "title": "[150조 국민성장펀드] [간접투자 2차] 스틱 스케일업 최종 낙점…1조 펀...",
-          "summary": "업고 펀드레이징 시동 스틱인베스트먼트가 국민성장펀드 간접투자 분야 2차 출자사업에서 펀드 결성 규모가... 조 파트너는 한국교직원공제회에서 16년간 사모펀드(PEF) 등 대규모 자금 운용을 책임졌던 인물로...",
-          "url": "https://dealsite.co.kr/articles/165262",
-          "source_label": "딜인사이트"
-        },
         {
           "date": "2026-07-16",
           "published_at": "2026-07-16T10:23:00+09:00",
@@ -4886,6 +4864,17 @@
           "summary": "사업 투자와 국내외 신규 사업 추진에 활용하며 올해 4000억원, 내년 1000억원을 각각 집행할 계획이다.... 올해 미래에셋벤처투자와 함께 국민성장펀드 코스닥 리그 공동 운용사로 선정됐다. 이번 EB 발행에서...",
           "url": "https://dealsite.co.kr/articles/169673",
           "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T06:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "20조",
+          "title": "20조 메가펀드 추진 전북도… 재원확보 불투명·재정부담 우려",
+          "summary": "지역활성화 투자펀드 1조5000억원, 국민성장펀드 연계목표 15조원으로 구성하겠다”고 답했다. 체감성장... 산업지도와 투자·고용목표 마련도 요구했다. 특히 기업유치 성과를 협약금액뿐 아니라 실제 착공과 투자집행...",
+          "url": "https://www.etoday.co.kr/news/view/2635393",
+          "source_label": "이투데이"
         }
       ]
     },
@@ -4946,12 +4935,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-07-15",
-      "title": "아크앤파트너스, ‘성장형 바이아웃’ 영토 확장…제조업서도 통할까",
-      "url": "https://www.donga.com/news/Economy/article/all/20260715/134302456/1",
-      "source_label": "동아일보"
-    },
     {
       "date": "2026-07-20",
       "title": "[마켓인] “15년 투자만은 부족”…초장기기술펀드, 회수·사업화 지원...",
@@ -5245,6 +5228,12 @@
       "title": "서울·인천서 맞붙는다…은행권, 시·구금고 쟁탈전 개막",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430914",
       "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "삼일PwC, 중견련과 4기 '중견기업 투자 리더스포럼'",
+      "url": "https://www.newsis.com/view/NISX20260820_0003755419",
+      "source_label": "뉴시스"
     }
   ]
 }

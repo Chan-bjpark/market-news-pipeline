@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T06:00:24.912044+00:00",
+  "generated_at": "2026-10-13T22:11:32.130590+00:00",
   "model": "claude-3-5-haiku-20241022",
   "candidates": 50,
   "ok": false,
@@ -8,5 +8,5 @@
   "pe_moves": [],
   "for_sale": [],
   "market_signals": [],
-  "reason": "Claude 호출 실패: HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-3-5-haiku-20241022\"},\"request_id\":\"req_011Cfyj5NFXn4wAFv1ZFZ1Xk\"}"
+  "reason": "Claude 호출 실패: HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-3-5-haiku-20241022\"},\"request_id\":\"req_011Cg118VJP9JBSKLANExyhi\"}"
 }

@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-10-13T05:59:54.437663+00:00",
+  "generated_at": "2026-10-13T22:11:08.475854+00:00",
   "items": {
     "CD(91일)": {
       "item_code": "010502000",
-      "latest_date": "2026-10-12",
+      "latest_date": "2026-10-13",
       "latest_value": 3.24,
-      "prev_day_date": "2026-10-08",
+      "prev_day_date": "2026-10-12",
       "vs_prev_day_bp": 0.0,
       "prev_month_date": "2026-09-11",
       "vs_prev_month_bp": 10.0,
       "recent_series": [
-        {
-          "date": "2026-09-16",
-          "value": 3.21
-        },
         {
           "date": "2026-09-17",
           "value": 3.2
@@ -68,6 +64,10 @@
         },
         {
           "date": "2026-10-12",
+          "value": 3.24
+        },
+        {
+          "date": "2026-10-13",
           "value": 3.24
         }
       ],
@@ -280,17 +280,13 @@
       "source": "KFP/KRX"
     },
     "미국채(2년)": {
-      "latest_date": "2026-10-08",
-      "latest_value": 4.75,
-      "prev_day_date": "2026-10-07",
-      "vs_prev_day_bp": -2.0,
-      "prev_month_date": "2026-09-08",
-      "vs_prev_month_bp": 36.0,
+      "latest_date": "2026-10-09",
+      "latest_value": 4.8,
+      "prev_day_date": "2026-10-08",
+      "vs_prev_day_bp": 5.0,
+      "prev_month_date": "2026-09-09",
+      "vs_prev_month_bp": 37.0,
       "recent_series": [
-        {
-          "date": "2026-09-18",
-          "value": 4.76
-        },
         {
           "date": "2026-09-21",
           "value": 4.76
@@ -346,6 +342,10 @@
         {
           "date": "2026-10-08",
           "value": 4.75
+        },
+        {
+          "date": "2026-10-09",
+          "value": 4.8
         }
       ],
       "source": "FRED",
@@ -353,17 +353,13 @@
       "error": null
     },
     "미국채(10년)": {
-      "latest_date": "2026-10-08",
-      "latest_value": 5.22,
-      "prev_day_date": "2026-10-07",
-      "vs_prev_day_bp": -6.0,
-      "prev_month_date": "2026-09-08",
-      "vs_prev_month_bp": 42.0,
+      "latest_date": "2026-10-09",
+      "latest_value": 5.24,
+      "prev_day_date": "2026-10-08",
+      "vs_prev_day_bp": 2.0,
+      "prev_month_date": "2026-09-09",
+      "vs_prev_month_bp": 41.0,
       "recent_series": [
-        {
-          "date": "2026-09-18",
-          "value": 5.01
-        },
         {
           "date": "2026-09-21",
           "value": 4.96
@@ -419,6 +415,10 @@
         {
           "date": "2026-10-08",
           "value": 5.22
+        },
+        {
+          "date": "2026-10-09",
+          "value": 5.24
         }
       ],
       "source": "FRED",
@@ -428,34 +428,14 @@
   },
   "market": {
     "원달러환율": {
-      "latest_date": "2026-10-02",
-      "latest_value": 1345.75,
-      "prev_day_date": "2026-10-01",
-      "vs_prev_day": -19.08,
-      "prev_month_date": "2026-09-02",
-      "vs_prev_month": -13.1,
+      "latest_date": "2026-10-09",
+      "latest_value": 1342.13,
+      "prev_day_date": "2026-10-08",
+      "vs_prev_day": -1.21,
+      "prev_month_date": "2026-09-09",
+      "vs_prev_month": 2.32,
       "delta_unit": "KRW",
       "recent_series": [
-        {
-          "date": "2026-09-14",
-          "value": 1346.6
-        },
-        {
-          "date": "2026-09-15",
-          "value": 1361.84
-        },
-        {
-          "date": "2026-09-16",
-          "value": 1367.65
-        },
-        {
-          "date": "2026-09-17",
-          "value": 1380.46
-        },
-        {
-          "date": "2026-09-18",
-          "value": 1387.97
-        },
         {
           "date": "2026-09-21",
           "value": 1374.81
@@ -495,6 +475,26 @@
         {
           "date": "2026-10-02",
           "value": 1345.75
+        },
+        {
+          "date": "2026-10-05",
+          "value": 1341.7
+        },
+        {
+          "date": "2026-10-06",
+          "value": 1337.88
+        },
+        {
+          "date": "2026-10-07",
+          "value": 1339.12
+        },
+        {
+          "date": "2026-10-08",
+          "value": 1343.34
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1342.13
         }
       ],
       "unit": "KRW",
@@ -589,7 +589,7 @@
       "source": "ECOS"
     },
     "미국 기준금리": {
-      "latest_date": "2026-10-12",
+      "latest_date": "2026-10-13",
       "latest_value": 4.0,
       "last_change_date": "2026-09-17",
       "last_change_from": 3.75,
