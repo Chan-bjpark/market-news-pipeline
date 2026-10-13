@@ -247,6 +247,43 @@ def run_kgf_execution(cfg, db_path, out_path, logger):
         logger.exception("kgf_execution failed: %s", e)
 
 
+def run_policy_releases(cfg, out_path, logger):
+    """정부 보도자료 수집(③ 정책 섹션 검증 앵커) -> policy_releases.json.
+
+    4부처 게시판을 긁어 원시 보도자료를 저장. 부처별 격리(한 곳 실패해도 진행).
+    지침 필터·뉴스매칭은 발송측(slack_briefing.sec_policy)이 수행하므로
+    여기선 수집만. 비핵심 export(실패해도 run 전체 fail 아님, health check 비대상)."""
+    import policy_releases
+    try:
+        pc = cfg.get("policy_releases", {})
+        result = policy_releases.run(out_path, logger=logger,
+                                     recent_days=pc.get("recent_days", 14),
+                                     timeout=pc.get("timeout", 15))
+        oks = [k for k, v in result["sources"].items() if v.get("ok")]
+        logger.info("policy_releases export: %d releases, 부처 OK=%s -> %s",
+                    len(result["releases"]), ",".join(oks) or "(없음)", out_path.name)
+    except Exception as e:
+        logger.exception("policy_releases failed: %s", e)
+
+
+def run_deal_intel(cfg, briefing_path, out_path, logger):
+    """딜·M&A 지능화(⑦) — 수집단계 Claude 추출 -> deal_intel.json.
+
+    방금 export된 recent_briefing.json의 기사에서 딜 후보를 골라 Claude로 구조화 추출.
+    근거문구 검증 포함. 비핵심 export(실패해도 run 전체 fail 아님) — 실패 시 발송기가 룰 기반 폴백.
+    ANTHROPIC_API_KEY 미설정이면 조용히 fallback JSON만 남긴다."""
+    import deal_intel
+    try:
+        import json as _json
+        with open(briefing_path, encoding="utf-8") as f:
+            arts = (_json.load(f).get("articles") or [])
+        p = deal_intel.run(arts, out_path, logger=logger)
+        logger.info("deal_intel export: ok=%s fallback=%s 딜=%d -> %s",
+                    p.get("ok"), p.get("fallback"), len(p.get("deals", [])), out_path.name)
+    except Exception as e:
+        logger.exception("deal_intel failed: %s", e)
+
+
 def cmd_status(db_path):
     if not db_path.exists():
         print(f"DB not found: {db_path}")
@@ -333,6 +370,15 @@ def main():
                                   SCRIPT_DIR / "kgf_execution_summary.json", logger)
             except Exception as e:
                 logger.exception("kgf_execution: %s", e)
+            try:
+                run_policy_releases(cfg, SCRIPT_DIR / "policy_releases.json", logger)
+            except Exception as e:
+                logger.exception("policy_releases: %s", e)
+            try:
+                run_deal_intel(cfg, SCRIPT_DIR / "recent_briefing.json",
+                               SCRIPT_DIR / "deal_intel.json", logger)
+            except Exception as e:
+                logger.exception("deal_intel: %s", e)
     logger.info("deal_ingest done: fetched=%d new=%d", tot_f, tot_n)
 
     # End-of-run health check (validates the 3 critical exports)
