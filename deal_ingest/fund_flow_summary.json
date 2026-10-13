@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13T22:11:18.034919+00:00",
+  "generated_at": "2026-10-13T23:33:49.123936+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 644,
+  "total_policy_articles": 645,
   "matched_funds_count": 3,
-  "unmatched_count": 199,
+  "unmatched_count": 200,
   "funds": [
     {
       "fund_name": "국민성장펀드",

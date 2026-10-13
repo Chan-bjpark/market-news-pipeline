@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:11:32.119128+00:00",
+  "generated_at": "2026-10-13T23:34:03.148196+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,18 @@
     }
   },
   "releases": [
+    {
+      "title": "비상경제본부 회의, 경제관계장관회의 겸 서비스산업발전 TF 개최",
+      "date": "2026-10-14",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079631&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "「AI·융복합 K-뷰티 서비스 지원방안」 발표",
+      "date": "2026-10-14",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079628&menuNo=4010100",
+      "agency": "기재부"
+    },
     {
       "title": "부동산 프로젝트 금융(PF) 상황 점검회의 겸 주택공급 촉진을 위한 금융지원 대책 점검회의 개최",
       "date": "2026-10-13",
@@ -140,22 +152,10 @@
       "agency": "기재부"
     },
     {
-      "title": "관계부처 합동 10월 일자리전담반(TF) 개최",
-      "date": "2026-10-08",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079576&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "사업보고서 등에 대한 조사·감리결과 조치 - 제17차 금융위원회(’26.10.7.) 조치 의결 -",
       "date": "2026-10-07",
       "url": "https://www.fsc.go.kr/no010101/87894",
       "agency": "금융위"
-    },
-    {
-      "title": "국제금융기구 진출을 꿈꾸는 우리 인재들에게 더 넓어진 ‘기회의 장’을 연다",
-      "date": "2026-10-07",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079562&menuNo=4010100",
-      "agency": "기재부"
     },
     {
       "title": "SK에너지 및 현대오일뱅크의 휘발유·경유·등유 담합 사건 심의 절차 개시",

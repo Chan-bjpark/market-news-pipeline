@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T22:11:32.130590+00:00",
-  "model": "claude-3-5-haiku-20241022",
+  "generated_at": "2026-10-13T23:34:03.457514+00:00",
+  "model": "claude-haiku-5-5",
   "candidates": 50,
   "ok": false,
   "fallback": true,
@@ -8,5 +8,5 @@
   "pe_moves": [],
   "for_sale": [],
   "market_signals": [],
-  "reason": "Claude 호출 실패: HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-3-5-haiku-20241022\"},\"request_id\":\"req_011Cg118VJP9JBSKLANExyhi\"}"
+  "reason": "no JSON object in LLM output"
 }
