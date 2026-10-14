@@ -171,8 +171,10 @@ def _call_claude(system, user, model, timeout=60):
         raise RuntimeError("ANTHROPIC_API_KEY 미설정")
     headers = {"x-api-key": key, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
+    # 어시스턴트 응답을 '{'로 프리필 → 모델이 설명 없이 JSON만 이어쓰게 강제
     payload = {"model": model, "max_tokens": MAX_OUTPUT_TOKENS, "system": system,
-               "messages": [{"role": "user", "content": user}]}
+               "messages": [{"role": "user", "content": user},
+                            {"role": "assistant", "content": "{"}]}
     last = None
     for attempt in range(2):
         try:
@@ -180,7 +182,8 @@ def _call_claude(system, user, model, timeout=60):
             if r.status_code == 200:
                 data = r.json()
                 parts = data.get("content") or []
-                return "".join(p.get("text", "") for p in parts if p.get("type") == "text")
+                txt = "".join(p.get("text", "") for p in parts if p.get("type") == "text")
+                return "{" + txt   # 프리필한 '{' 복원
             last = f"HTTP {r.status_code}: {r.text[:200]}"
         except Exception as e:  # noqa: BLE001
             last = str(e)[:200]
@@ -224,9 +227,13 @@ def run(articles, out_path=None, logger=None):
         payload.update(ok=True, fallback=False, reason="딜 후보 없음")
         _write(out_path, payload)
         return payload
+    raw = None
     try:
         raw = _call_claude(SYSTEM_PROMPT, _build_user_msg(cands), model)
-        obj = _extract_json(raw)
+        try:
+            obj = _extract_json(raw)
+        except Exception as je:  # noqa: BLE001
+            raise RuntimeError(f"JSON 파싱 실패({je}); 응답길이 {len(raw or '')} 앞부분 {repr((raw or '')[:120])}")
         deals = _verify_and_attach(obj.get("deals"), cands, ["target"])
         pe = _verify_and_attach(obj.get("pe_moves"), cands, ["pe"])
         fs = _verify_and_attach(obj.get("for_sale"), cands, ["asset"])
