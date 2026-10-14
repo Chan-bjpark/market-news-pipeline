@@ -39,9 +39,11 @@ _ENV_MODEL = (os.environ.get("ANTHROPIC_MODEL") or "").strip()
 if re.search(r"3[.-]5-haiku", _ENV_MODEL, re.I):   # 지원종료 3.5는 무시(self-heal)
     _ENV_MODEL = ""
 MODEL = _ENV_MODEL or "claude-haiku-4-5-20251001"  # 라이브 저가 기본(3.5는 지원종료)
-MAX_ARTICLES = 50          # 토큰·비용 통제(딜 후보 상한). 월 $0.5 상한 보장용(Haiku 계열)
-MAX_OUTPUT_TOKENS = 3000    # 실추출 항목 수용(Haiku 출력단가에도 월 $0.5 내). 실사용분만 과금
+MAX_ARTICLES = 35          # 딜 후보 상한(입력토큰·추출량 통제). 50→35로 축소(출력 폭주 방지)
+MAX_OUTPUT_TOKENS = 4000    # 아래 항목캡과 함께 출력 bound(Haiku가 50건서 3000 초과 truncation 발생 → 항목·필드 제한)
 SUMMARY_CHARS = 300         # 거래 맥락 확보용(140은 짧아 Haiku 추출 실패 → 상향)
+# 출력 bound(max_tokens truncation 방지) — 섹션별 최대 항목수. 중대도 우선.
+CAP_DEALS, CAP_PE, CAP_FORSALE, CAP_SIGNALS = 12, 8, 8, 5
 
 # 딜 후보 1차 필터(LLM에 넣을 기사만 추림 — 비용↓·정밀↑)
 _CAND_CATS = {"M&A", "PE", "lp_commit", "fund_raise", "cap_market"}
@@ -73,6 +75,9 @@ SYSTEM_PROMPT = (
     "(4) 서로 다른 거래는 합치지 않고, 같은 거래의 중복 보도만 하나로 합친다. "
     "(5) PE 하우스는 본문에 실제 등장하는 이름만 pe_firms에 넣는다. "
     "(6) 거래 사실이 전혀 없는 기사(단순 시황·실적·인물·행사)는 건너뛴다. "
+    f"(7) 출력은 간결하게: 중대도 높은 순으로 deals 최대 {CAP_DEALS}건, pe_moves 최대 {CAP_PE}건, "
+    f"for_sale 최대 {CAP_FORSALE}건, market_signals 최대 {CAP_SIGNALS}건만. "
+    "one_liner는 40자 이내, evidence는 25자 이내로 짧게 쓴다(길면 잘려 전체가 버려진다). "
     "예시(형식): 기사에 'A사가 B사 경영권을 인수'가 있으면 deals에 "
     "{\"target\":\"B사\",\"counterparties\":\"A사\",\"industry\":\"해당산업\",\"stage\":\"완료\","
     "\"one_liner\":\"A사가 B사 경영권 인수\",\"article_ids\":[\"그 기사 id\"],\"evidence\":\"경영권을 인수\"} 형태로 넣는다."
@@ -171,8 +176,10 @@ def deal_candidates(articles, exclusions=None):
 def _build_user_msg(cands):
     # 스키마는 tool(OUTPUT_TOOL)이 강제하므로 OUTPUT_SPEC 본문은 보내지 않는다(입력토큰 절감).
     # 제목·요약의 HTML 엔티티를 디코드해 모델이 깨끗한 문장을 보도록 한다(추출·인용 정확도↑).
-    lines = [f"아래 기사들에서 명시된 거래 사실을 모두 추출해 {TOOL_NAME} 도구로 반환하라. "
-             "인수·합병·경영권·지분거래·매물·PE 투자/회수·펀드결성/출자가 언급되면 반드시 항목으로 만들 것. "
+    lines = [f"아래 기사들에서 명시된 거래 사실을 추출해 {TOOL_NAME} 도구로 반환하라. "
+             "인수·합병·경영권·지분거래·매물·PE 투자/회수·펀드결성/출자가 언급되면 항목으로 만들 것. "
+             f"중대도 높은 순으로 deals≤{CAP_DEALS}·pe_moves≤{CAP_PE}·for_sale≤{CAP_FORSALE}·market_signals≤{CAP_SIGNALS}건, "
+             "one_liner 40자·evidence 25자 이내로 간결히(길면 잘려 전체가 버려짐). "
              "evidence는 해당 기사 제목·요약에 그대로 들어있는 문구를 복사해 쓴다.\n",
              "[기사 목록] aid | 제목 | 요약"]
     for i, a in enumerate(cands):
@@ -267,15 +274,19 @@ def _call_claude(system, user, model, timeout=60):
                         "content_types": [p.get("type") for p in content],
                         "text": "".join(p.get("text", "") for p in content
                                          if p.get("type") == "text")[:300]}
+                stop = data.get("stop_reason")
+                # max_tokens면 tool_use 블록이 있어도 input JSON이 잘려 빈/부분 객체 → 신뢰불가.
+                # 조용히 빈결과로 통과시키지 말고 명시적 실패(폴백)로 surface.
+                if stop == "max_tokens":
+                    ot = (data.get("usage") or {}).get("output_tokens")
+                    raise RuntimeError(f"출력 토큰 상한 초과(max_tokens, output_tokens={ot}) — "
+                                       "항목캡·필드길이 축소 또는 MAX_OUTPUT_TOKENS 상향 필요")
                 for p in content:
                     if p.get("type") == "tool_use" and p.get("name") == TOOL_NAME:
                         inp = p.get("input")
                         if isinstance(inp, dict):
                             return inp, meta
-                stop = data.get("stop_reason")
                 last = f"tool_use 블록 없음(stop_reason={stop}, types={meta['content_types']})"
-                if stop == "max_tokens":   # 토큰 상한 → 구조화 출력 잘림
-                    raise RuntimeError("출력 토큰 상한 초과(max_tokens) — MAX_OUTPUT_TOKENS 상향 필요")
             else:
                 last = f"HTTP {r.status_code}: {r.text[:200]}"
         except RuntimeError:
@@ -341,10 +352,11 @@ def run(articles, out_path=None, logger=None):
         drops = []
         # 검증 전 Claude 원본 건수(진단) — 0이면 LLM 미추출, >0인데 결과 0이면 검증 탈락
         llm_raw = {k: len(obj.get(k) or []) for k in ("deals", "pe_moves", "for_sale", "market_signals")}
-        deals = _verify_and_attach(obj.get("deals"), cands, ["target"], drops)
-        pe = _verify_and_attach(obj.get("pe_moves"), cands, ["pe"], drops)
-        fs = _verify_and_attach(obj.get("for_sale"), cands, ["asset"], drops)
-        ms = _verify_and_attach(obj.get("market_signals"), cands, ["type", "summary"], drops)
+        # 항목캡 코드측 안전망(모델이 초과 반환해도 출력·발송량 bound)
+        deals = _verify_and_attach((obj.get("deals") or [])[:CAP_DEALS], cands, ["target"], drops)
+        pe = _verify_and_attach((obj.get("pe_moves") or [])[:CAP_PE], cands, ["pe"], drops)
+        fs = _verify_and_attach((obj.get("for_sale") or [])[:CAP_FORSALE], cands, ["asset"], drops)
+        ms = _verify_and_attach((obj.get("market_signals") or [])[:CAP_SIGNALS], cands, ["type", "summary"], drops)
         # market signal 타입 화이트리스트
         ms = [m for m in ms if m.get("type") in MARKET_SIGNAL_TYPES]
         payload.update(ok=True, fallback=False, deals=deals, pe_moves=pe,
