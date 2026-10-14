@@ -240,21 +240,33 @@ def _call_claude(system, user, model, timeout=60):
     raise RuntimeError(f"Claude 호출 실패: {last}")
 
 
-def _verify_and_attach(items, cands, key_fields):
+def _verify_and_attach(items, cands, key_fields, drops=None):
     """각 항목의 article_ids가 유효하고 evidence 인용이 해당 원문에 실존하는지 검증.
-    통과 항목만 반환하며 url/source(대표 1 + 나머지)를 붙인다."""
+    통과 항목만 반환하며 url/source(대표 1 + 나머지)를 붙인다.
+    drops(list)가 주어지면 탈락 항목의 사유·샘플을 기록(진단용)."""
     idmap = {f"a{i}": a for i, a in enumerate(cands)}
     out = []
+
+    def _drop(reason, it):
+        if drops is not None and len(drops) < 8:
+            lbl = next((it.get(f) for f in key_fields if it.get(f)), None)
+            drops.append({"reason": reason, "label": lbl,
+                          "evidence": (it.get("evidence") or "")[:80],
+                          "ids": it.get("article_ids")})
+
     for it in items or []:
         ids = [x for x in (it.get("article_ids") or []) if x in idmap]
         if not ids:
+            _drop("bad_or_missing_article_ids", it)
             continue
         arts = [idmap[x] for x in ids]
         corpus = _norm(" ".join((a.get("title", "") + " " + (a.get("summary") or "")) for a in arts))
         ev = _norm(it.get("evidence", ""))
         if not ev or ev not in corpus:      # 근거문구 원문 실존 검증(환각 차단)
+            _drop("evidence_not_in_source", it)
             continue
         if not any(it.get(f) for f in key_fields):  # 핵심 필드 최소 1개
+            _drop("missing_key_field", it)
             continue
         it = dict(it)
         it["_articles"] = [{"url": a.get("url"), "source": a.get("source_label")} for a in arts]
@@ -280,14 +292,18 @@ def run(articles, out_path=None, logger=None):
         obj = _call_claude(SYSTEM_PROMPT, _build_user_msg(cands), model)  # tool-use → dict
         if not isinstance(obj, dict):
             raise RuntimeError(f"구조화 출력이 dict 아님: {type(obj).__name__}")
-        deals = _verify_and_attach(obj.get("deals"), cands, ["target"])
-        pe = _verify_and_attach(obj.get("pe_moves"), cands, ["pe"])
-        fs = _verify_and_attach(obj.get("for_sale"), cands, ["asset"])
-        ms = _verify_and_attach(obj.get("market_signals"), cands, ["type", "summary"])
+        drops = []
+        # 검증 전 Claude 원본 건수(진단) — 0이면 LLM 미추출, >0인데 결과 0이면 검증 탈락
+        llm_raw = {k: len(obj.get(k) or []) for k in ("deals", "pe_moves", "for_sale", "market_signals")}
+        deals = _verify_and_attach(obj.get("deals"), cands, ["target"], drops)
+        pe = _verify_and_attach(obj.get("pe_moves"), cands, ["pe"], drops)
+        fs = _verify_and_attach(obj.get("for_sale"), cands, ["asset"], drops)
+        ms = _verify_and_attach(obj.get("market_signals"), cands, ["type", "summary"], drops)
         # market signal 타입 화이트리스트
         ms = [m for m in ms if m.get("type") in MARKET_SIGNAL_TYPES]
         payload.update(ok=True, fallback=False, deals=deals, pe_moves=pe,
-                       for_sale=fs, market_signals=ms)
+                       for_sale=fs, market_signals=ms,
+                       diag={"llm_raw": llm_raw, "drops": drops})
         log(f"deal_intel: 후보 {len(cands)} → 딜 {len(deals)}·PE {len(pe)}·매물 {len(fs)}·시그널 {len(ms)}")
     except Exception as e:  # noqa: BLE001
         payload.update(ok=False, fallback=True, reason=str(e)[:200])
