@@ -87,6 +87,41 @@ OUTPUT_SPEC = """출력 JSON 스키마:
 }
 해당 없는 섹션은 빈 배열. 관심산업(바이오·제약·헬스케어·의료기기·폐기물에너지)은 industry로 구분 가능하게 표기."""
 
+# 강제 tool-use(구조화 출력) 스키마 — 프리필 대신 이 tool로 JSON 구조를 강제.
+# claude-haiku-5-5가 프리필(assistant 선두 '{')을 거부(HTTP 400)하므로 tool_choice로 대체.
+TOOL_NAME = "emit_deal_intel"
+_STR = {"type": "string"}
+_STR_NULL = {"type": ["string", "null"]}
+_IDS = {"type": "array", "items": {"type": "string"}}
+OUTPUT_TOOL = {
+    "name": TOOL_NAME,
+    "description": "기사에 명시된 M&A/PE 사실만 구조화해 반환한다. 추정 금지, 근거 인용 필수.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "deals": {"type": "array", "items": {"type": "object", "properties": {
+                "target": _STR, "counterparties": _STR_NULL,
+                "pe_firms": {"type": "array", "items": {"type": "string"}},
+                "industry": _STR, "stage": _STR, "amount": _STR_NULL,
+                "one_liner": _STR, "article_ids": _IDS, "evidence": _STR},
+                "required": ["target", "article_ids", "evidence"]}},
+            "pe_moves": {"type": "array", "items": {"type": "object", "properties": {
+                "pe": _STR, "action": _STR, "target": _STR_NULL,
+                "article_ids": _IDS, "evidence": _STR},
+                "required": ["pe", "article_ids", "evidence"]}},
+            "for_sale": {"type": "array", "items": {"type": "object", "properties": {
+                "asset": _STR, "seller": _STR_NULL, "process_stage": _STR,
+                "article_ids": _IDS, "evidence": _STR},
+                "required": ["asset", "article_ids", "evidence"]}},
+            "market_signals": {"type": "array", "items": {"type": "object", "properties": {
+                "type": {"type": "string", "enum": MARKET_SIGNAL_TYPES},
+                "summary": _STR, "article_ids": _IDS, "evidence": _STR},
+                "required": ["type", "summary", "article_ids", "evidence"]}},
+        },
+        "required": ["deals", "pe_moves", "for_sale", "market_signals"],
+    },
+}
+
 
 def _norm(s):
     return re.sub(r"\s+", "", (s or "")).lower()
@@ -124,13 +159,16 @@ def deal_candidates(articles, exclusions=None):
 
 
 def _build_user_msg(cands):
-    lines = ["[기사 목록] 각 기사의 제목·요약에 명시된 것만 사용할 것.\n"]
+    # 스키마는 tool(OUTPUT_TOOL)이 강제하므로 OUTPUT_SPEC 본문은 보내지 않는다(입력토큰 절감).
+    lines = [f"아래 기사들에서 명시된 사실만 추출해 {TOOL_NAME} 도구로 반환하라. "
+             "각 기사의 제목·요약에 '그대로 존재하는' 내용만 쓰고, evidence는 원문 인용 한 구절로 한다.\n",
+             "[기사 목록] aid | 제목 | 요약"]
     for i, a in enumerate(cands):
         aid = f"a{i}"
         title = (a.get("title") or "").replace("\n", " ")
         summ = (a.get("summary") or "").replace("\n", " ")[:SUMMARY_CHARS]
         lines.append(f"{aid} | {title} | {summ}")
-    return OUTPUT_SPEC + "\n\n" + "\n".join(lines)
+    return "\n".join(lines)
 
 
 def _extract_json(text):
@@ -166,25 +204,36 @@ def _resolve_model(key, timeout=15):
 
 
 def _call_claude(system, user, model, timeout=60):
+    """강제 tool-use로 구조화 JSON(dict)을 받는다 — 텍스트 파싱 없음.
+    tool_choice로 OUTPUT_TOOL 호출을 강제하므로 설명문·마크다운이 섞일 여지가 없다."""
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("ANTHROPIC_API_KEY 미설정")
     headers = {"x-api-key": key, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
-    # 어시스턴트 응답을 '{'로 프리필 → 모델이 설명 없이 JSON만 이어쓰게 강제
     payload = {"model": model, "max_tokens": MAX_OUTPUT_TOKENS, "system": system,
-               "messages": [{"role": "user", "content": user},
-                            {"role": "assistant", "content": "{"}]}
+               "messages": [{"role": "user", "content": user}],
+               "tools": [OUTPUT_TOOL],
+               "tool_choice": {"type": "tool", "name": TOOL_NAME}}
     last = None
-    for attempt in range(2):
+    for _ in range(2):
         try:
             r = requests.post(API_URL, headers=headers, json=payload, timeout=timeout)
             if r.status_code == 200:
                 data = r.json()
-                parts = data.get("content") or []
-                txt = "".join(p.get("text", "") for p in parts if p.get("type") == "text")
-                return "{" + txt   # 프리필한 '{' 복원
-            last = f"HTTP {r.status_code}: {r.text[:200]}"
+                for p in (data.get("content") or []):
+                    if p.get("type") == "tool_use" and p.get("name") == TOOL_NAME:
+                        inp = p.get("input")
+                        if isinstance(inp, dict):
+                            return inp
+                stop = data.get("stop_reason")
+                last = f"tool_use 블록 없음(stop_reason={stop})"
+                if stop == "max_tokens":   # 토큰 상한 → 구조화 출력 잘림
+                    raise RuntimeError("출력 토큰 상한 초과(max_tokens) — MAX_OUTPUT_TOKENS 상향 필요")
+            else:
+                last = f"HTTP {r.status_code}: {r.text[:200]}"
+        except RuntimeError:
+            raise
         except Exception as e:  # noqa: BLE001
             last = str(e)[:200]
         time.sleep(2)
@@ -227,13 +276,10 @@ def run(articles, out_path=None, logger=None):
         payload.update(ok=True, fallback=False, reason="딜 후보 없음")
         _write(out_path, payload)
         return payload
-    raw = None
     try:
-        raw = _call_claude(SYSTEM_PROMPT, _build_user_msg(cands), model)
-        try:
-            obj = _extract_json(raw)
-        except Exception as je:  # noqa: BLE001
-            raise RuntimeError(f"JSON 파싱 실패({je}); 응답길이 {len(raw or '')} 앞부분 {repr((raw or '')[:120])}")
+        obj = _call_claude(SYSTEM_PROMPT, _build_user_msg(cands), model)  # tool-use → dict
+        if not isinstance(obj, dict):
+            raise RuntimeError(f"구조화 출력이 dict 아님: {type(obj).__name__}")
         deals = _verify_and_attach(obj.get("deals"), cands, ["target"])
         pe = _verify_and_attach(obj.get("pe_moves"), cands, ["pe"])
         fs = _verify_and_attach(obj.get("for_sale"), cands, ["asset"])
