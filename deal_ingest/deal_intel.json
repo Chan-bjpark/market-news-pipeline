@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:08:12.287581+00:00",
+  "generated_at": "2026-10-14T04:24:18.541483+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 50,
   "ok": true,
@@ -7,5 +7,14 @@
   "deals": [],
   "pe_moves": [],
   "for_sale": [],
-  "market_signals": []
+  "market_signals": [],
+  "diag": {
+    "llm_raw": {
+      "deals": 0,
+      "pe_moves": 0,
+      "for_sale": 0,
+      "market_signals": 0
+    },
+    "drops": []
+  }
 }
