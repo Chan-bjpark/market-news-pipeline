@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:36:34.096525+00:00",
+  "generated_at": "2026-10-14T23:46:30.450431+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 50,
   "ok": true,
@@ -15,6 +15,28 @@
       "for_sale": 0,
       "market_signals": 0
     },
-    "drops": []
+    "drops": [],
+    "api": {
+      "stop_reason": "max_tokens",
+      "usage": {
+        "input_tokens": 8318,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 3000,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global"
+      },
+      "content_types": [
+        "tool_use"
+      ],
+      "text": ""
+    }
   }
 }
