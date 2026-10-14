@@ -1,32 +1,321 @@
 {
-  "generated_at": "2026-10-14T23:46:30.450431+00:00",
+  "generated_at": "2026-10-14T23:56:53.673622+00:00",
   "model": "claude-haiku-5-5",
-  "candidates": 50,
+  "candidates": 35,
   "ok": true,
   "fallback": false,
-  "deals": [],
-  "pe_moves": [],
-  "for_sale": [],
-  "market_signals": [],
+  "deals": [
+    {
+      "target": "엔타스",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "외식",
+      "stage": "매각추진",
+      "amount": "기업가치 2000억원 이상 거론",
+      "one_liner": "엔타스 M&A 매물로 나와",
+      "article_ids": [
+        "a6"
+      ],
+      "evidence": "M&A 매물로 나왔다",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121552572240105385",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "듀오",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "결혼정보",
+      "stage": "매각추진",
+      "amount": null,
+      "one_liner": "듀오 M&A 시장 매물 등장",
+      "article_ids": [
+        "a5"
+      ],
+      "evidence": "매물로 등장하면서",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610130851434360104911",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "골텐스",
+      "counterparties": "HD현대마린",
+      "pe_firms": [],
+      "industry": "선박엔진 정비",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "HD현대마린 골텐스 M&A 절차",
+      "article_ids": [
+        "a13"
+      ],
+      "evidence": "인수합병(M&A) 절차까지 이어졌다",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610131137552440109561",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "미국 유연전자 전문기업",
+      "counterparties": "유니켐",
+      "pe_firms": [],
+      "industry": "전자",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "유니켐 미국 유연전자 기업 인수 추진",
+      "article_ids": [
+        "a10"
+      ],
+      "evidence": "미국 소재 유연전자 전문기업 인수",
+      "_articles": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2635938",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "target": "울산GPS 지분 49%",
+      "counterparties": "SK가스",
+      "pe_firms": [],
+      "industry": "에너지",
+      "stage": "완료",
+      "amount": "약 1조원",
+      "one_liner": "SK가스 울산GPS 지분 49% 유동화",
+      "article_ids": [
+        "a3"
+      ],
+      "evidence": "울산GPS 지분 49% 유동화",
+      "_articles": [
+        {
+          "url": "https://www.newspim.com/news/view/20261015000109",
+          "source": "뉴스핌"
+        }
+      ]
+    },
+    {
+      "target": "휴로보틱스",
+      "counterparties": null,
+      "pe_firms": [
+        "미래에셋벤처투자"
+      ],
+      "industry": "로봇",
+      "stage": "완료",
+      "amount": "250억원",
+      "one_liner": "휴로보틱스 250억 시리즈A 투자유치",
+      "article_ids": [
+        "a4"
+      ],
+      "evidence": "250억원 시리즈A 투자유치",
+      "_articles": [
+        {
+          "url": "https://view.asiae.co.kr/article/2026101508245845605",
+          "source": "아시아경제"
+        }
+      ]
+    },
+    {
+      "target": "제이인츠바이오",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "바이오",
+      "stage": "거론",
+      "amount": "180억원 유치",
+      "one_liner": "제이인츠바이오 IPO 주관사 대신증권 선정",
+      "article_ids": [
+        "a15"
+      ],
+      "evidence": "IPO 주관사 대신증권 낙점",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141755246920103836",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "알렌티스",
+      "counterparties": "피노바이오",
+      "pe_firms": [],
+      "industry": "바이오",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "피노바이오 알렌티스 옵션 라이선스 딜",
+      "article_ids": [
+        "a14"
+      ],
+      "evidence": "스위스 알렌티스와 맞손",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141957084400104693",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "오로메디신",
+      "counterparties": "길리어드",
+      "pe_firms": [],
+      "industry": "바이오",
+      "stage": "완료",
+      "amount": "최대 21억7500만달러",
+      "one_liner": "길리어드 오로메디신 인수 합의",
+      "article_ids": [
+        "a7"
+      ],
+      "evidence": "오로메디신을 최대 21억7500만달러에 인수하기로 했다",
+      "_articles": [
+        {
+          "url": "https://view.asiae.co.kr/article/2026101508115130591",
+          "source": "아시아경제"
+        }
+      ]
+    },
+    {
+      "target": "벤딩 스푼스",
+      "counterparties": "버크셔",
+      "pe_firms": [],
+      "industry": "디지털",
+      "stage": "완료",
+      "amount": "3.3억달러",
+      "one_liner": "버크셔 벤딩 스푼스 3.3억달러 추가 투자",
+      "article_ids": [
+        "a24"
+      ],
+      "evidence": "버크셔 3.3억달러 추가 투자",
+      "_articles": [
+        {
+          "url": "https://www.newspim.com/news/view/20261015000011",
+          "source": "뉴스핌"
+        }
+      ]
+    }
+  ],
+  "pe_moves": [
+    {
+      "pe": "미래에셋벤처투자",
+      "action": "시리즈A 투자 참여",
+      "target": "휴로보틱스",
+      "article_ids": [
+        "a4"
+      ],
+      "evidence": "미래에셋벤처투자 등 신규 투자자들도 대거 합류",
+      "_articles": [
+        {
+          "url": "https://view.asiae.co.kr/article/2026101508245845605",
+          "source": "아시아경제"
+        }
+      ]
+    },
+    {
+      "pe": "비에이PE",
+      "action": "신생 PEF 운용사로 첫 딜 이후 후속 투자 실적 필요",
+      "target": null,
+      "article_ids": [
+        "a1"
+      ],
+      "evidence": "신생 사모펀드(PEF) 운용사의 생존을 가르는 과제다",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121457004200107886",
+          "source": "더벨"
+        }
+      ]
+    }
+  ],
+  "for_sale": [
+    {
+      "asset": "듀오",
+      "seller": null,
+      "process_stage": "매각추진",
+      "article_ids": [
+        "a5"
+      ],
+      "evidence": "매물로 등장하면서 매각 추진 배경",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610130851434360104911",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "asset": "엔타스",
+      "seller": null,
+      "process_stage": "매각추진",
+      "article_ids": [
+        "a6"
+      ],
+      "evidence": "M&A 매물로 나왔다",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121552572240105385",
+          "source": "더벨"
+        }
+      ]
+    }
+  ],
+  "market_signals": [
+    {
+      "type": "ACQ_FINANCING",
+      "summary": "국민성장펀드 출자 확대에 PEF 자금 모집 부담 우려",
+      "article_ids": [
+        "a22",
+        "a23"
+      ],
+      "evidence": "펀드 결성 관건",
+      "_articles": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2634839",
+          "source": "이투데이"
+        },
+        {
+          "url": "https://www.etoday.co.kr/news/view/2634838",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "type": "REGULATORY",
+      "summary": "금감원 PEF 검사 역량 부족 지적",
+      "article_ids": [
+        "a9"
+      ],
+      "evidence": "금감원 PEF 검사 역량 ‘제자리’",
+      "_articles": [
+        {
+          "url": "https://view.asiae.co.kr/article/2026101414485757585",
+          "source": "아시아경제"
+        }
+      ]
+    }
+  ],
   "diag": {
     "llm_raw": {
-      "deals": 0,
-      "pe_moves": 0,
-      "for_sale": 0,
-      "market_signals": 0
+      "deals": 10,
+      "pe_moves": 2,
+      "for_sale": 2,
+      "market_signals": 2
     },
     "drops": [],
     "api": {
-      "stop_reason": "max_tokens",
+      "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 8318,
+        "input_tokens": 7637,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 3000,
+        "output_tokens": 1872,
         "output_tokens_details": {
           "thinking_tokens": 0
         },

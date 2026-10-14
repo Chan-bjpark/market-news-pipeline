@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T23:46:16.541845+00:00",
+  "generated_at": "2026-10-14T23:56:40.660107+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 663,
+  "total_policy_articles": 664,
   "matched_funds_count": 3,
   "unmatched_count": 206,
   "funds": [
@@ -12,7 +12,7 @@
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-17",
       "last_updated": "2026-10-15",
-      "event_count": 454,
+      "event_count": 455,
       "timeline": [
         {
           "date": "2026-07-17",
@@ -5007,6 +5007,17 @@
           "summary": "높은 기업가치에 투자할수록 향후 기업공개(IPO)나 인수합병(M&A)을 통해 회수할 때 더 높은 가치를 인정받아야 목표 수익률을 달성할 수 있어서다. 정책펀드의 특성상 투자 대상과 산업 분야에 일정한 제약이 따른다는...",
           "url": "https://www.etoday.co.kr/news/view/2634844",
           "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-15",
+          "published_at": "2026-10-15T08:52:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[경제일보] 대출 넘어 투자·상장까지…농협·기업은행, 생산적금융 보...",
+          "summary": "지난 2016년 첫 농식품펀드를 결성한 이후 농림수산식품모태펀드 자펀드 6개의 업무집행조합원(GP)을... 기업은행은 중소기업대출과 함께 혁신기업에 대한 모험자본 투자도 확대했다. 지난 3월 국민성장펀드...",
+          "url": "https://www.ajunews.com/view/20261015082513987",
+          "source_label": "아주경제"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:46:17.376957+00:00",
+  "generated_at": "2026-10-14T23:56:41.709447+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-10-14T23:46:17.376877+00:00",
+    "sheet_synced_at": "2026-10-14T23:56:41.709359+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -9426,12 +9426,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-09-03",
-      "title": "금융위 일단 빠졌지만…'금융권 연쇄 지방이동' 촉각",
-      "url": "https://news.bizwatch.co.kr/article/finance/2026/09/03/0022",
-      "source": "비즈워치"
-    },
-    {
       "date": "2026-09-04",
       "title": "기은·IBK증권 1200억 펀드 결성…코스닥 살린다",
       "url": "https://dealsite.co.kr/articles/167550",
@@ -10024,8 +10018,14 @@
       "title": "돈은 넘치는데 투자처는 한정…기업 몸값만 높이나 [국민성장펀드 병목...",
       "url": "https://www.etoday.co.kr/news/view/2634844",
       "source": "이투데이"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "[경제일보] 대출 넘어 투자·상장까지…농협·기업은행, 생산적금융 보...",
+      "url": "https://www.ajunews.com/view/20261015082513987",
+      "source": "아주경제"
     }
   ],
-  "matched_articles_this_run": 464,
+  "matched_articles_this_run": 465,
   "confirmed_deals_count": 16
 }
