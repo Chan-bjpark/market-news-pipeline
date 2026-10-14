@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-10-14T04:23:56.294282+00:00",
+  "generated_at": "2026-10-14T22:11:01.270493+00:00",
   "items": {
     "CD(91일)": {
       "item_code": "010502000",
-      "latest_date": "2026-10-13",
-      "latest_value": 3.24,
-      "prev_day_date": "2026-10-12",
-      "vs_prev_day_bp": 0.0,
-      "prev_month_date": "2026-09-11",
-      "vs_prev_month_bp": 10.0,
+      "latest_date": "2026-10-14",
+      "latest_value": 3.25,
+      "prev_day_date": "2026-10-13",
+      "vs_prev_day_bp": 1.0,
+      "prev_month_date": "2026-09-14",
+      "vs_prev_month_bp": 9.0,
       "recent_series": [
-        {
-          "date": "2026-09-17",
-          "value": 3.2
-        },
         {
           "date": "2026-09-18",
           "value": 3.2
@@ -69,6 +65,10 @@
         {
           "date": "2026-10-13",
           "value": 3.24
+        },
+        {
+          "date": "2026-10-14",
+          "value": 3.25
         }
       ],
       "source": "ECOS"
@@ -280,17 +280,13 @@
       "source": "KFP/KRX"
     },
     "미국채(2년)": {
-      "latest_date": "2026-10-09",
-      "latest_value": 4.8,
-      "prev_day_date": "2026-10-08",
-      "vs_prev_day_bp": 5.0,
-      "prev_month_date": "2026-09-09",
-      "vs_prev_month_bp": 37.0,
+      "latest_date": "2026-10-13",
+      "latest_value": 4.79,
+      "prev_day_date": "2026-10-09",
+      "vs_prev_day_bp": -1.0,
+      "prev_month_date": "2026-09-11",
+      "vs_prev_month_bp": 16.0,
       "recent_series": [
-        {
-          "date": "2026-09-21",
-          "value": 4.76
-        },
         {
           "date": "2026-09-22",
           "value": 4.71
@@ -346,6 +342,10 @@
         {
           "date": "2026-10-09",
           "value": 4.8
+        },
+        {
+          "date": "2026-10-13",
+          "value": 4.79
         }
       ],
       "source": "FRED",
@@ -353,17 +353,13 @@
       "error": null
     },
     "미국채(10년)": {
-      "latest_date": "2026-10-09",
-      "latest_value": 5.24,
-      "prev_day_date": "2026-10-08",
-      "vs_prev_day_bp": 2.0,
-      "prev_month_date": "2026-09-09",
-      "vs_prev_month_bp": 41.0,
+      "latest_date": "2026-10-13",
+      "latest_value": 5.21,
+      "prev_day_date": "2026-10-09",
+      "vs_prev_day_bp": -3.0,
+      "prev_month_date": "2026-09-11",
+      "vs_prev_month_bp": 25.0,
       "recent_series": [
-        {
-          "date": "2026-09-21",
-          "value": 4.96
-        },
         {
           "date": "2026-09-22",
           "value": 4.96
@@ -419,6 +415,10 @@
         {
           "date": "2026-10-09",
           "value": 5.24
+        },
+        {
+          "date": "2026-10-13",
+          "value": 5.21
         }
       ],
       "source": "FRED",
@@ -589,7 +589,7 @@
       "source": "ECOS"
     },
     "미국 기준금리": {
-      "latest_date": "2026-10-13",
+      "latest_date": "2026-10-14",
       "latest_value": 4.0,
       "last_change_date": "2026-09-17",
       "last_change_from": 3.75,

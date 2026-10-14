@@ -1,30 +1,19 @@
 {
-  "generated_at": "2026-10-14T04:24:06.227020+00:00",
+  "generated_at": "2026-10-14T22:11:09.962492+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 647,
+  "total_policy_articles": 659,
   "matched_funds_count": 3,
-  "unmatched_count": 201,
+  "unmatched_count": 202,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-16",
-      "last_updated": "2026-10-14",
-      "event_count": 443,
+      "first_seen": "2026-07-17",
+      "last_updated": "2026-10-15",
+      "event_count": 454,
       "timeline": [
-        {
-          "date": "2026-07-16",
-          "published_at": "2026-07-16T10:23:00+09:00",
-          "stage_code": "gp_selected",
-          "stage_label": "운용사 선정",
-          "amount": null,
-          "title": "‘대체투자 큰손’ PEF 출자 재개…하반기 펀드레이징 달아오른다",
-          "summary": "주요 PEF 운용사와 VC들이 국민성장펀드 GP 선정에 사활을 건 것도 이런 배경 때문이다. 하반기 들어 대형 기관들이 대체투자 출자를 확대하며 PEF 운용사들은 한숨을 돌리고 있다. 업계 관계자는 “국민성장펀드를...",
-          "url": "https://www.hankyung.com/article/202607144735r",
-          "source_label": "한국경제"
-        },
         {
           "date": "2026-07-17",
           "published_at": "2026-07-17T06:01:00+09:00",
@@ -4886,6 +4875,138 @@
           "summary": "1차 국민성장펀드는 인공지능(AI), 반도체, 바이오, 이차전지, 로봇 등 12대 첨단전략산업에 투자한다. 상장주식 약 10~30%, 비상장주식 약 15~45%, 그리고 채권, 인프라 대출, 확정금리부 금융상품 등으로 투자...",
           "url": "https://www.hani.co.kr/arti/economy/finance/1282306.html",
           "source_label": "한겨레"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T18:02:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "20조",
+          "title": "김지원 대표 “韓스타트업 글로벌 투자유치 늘리려면…국내 VC, 해외사업...",
+          "summary": "김 대표는 “국민성장펀드 등을 통해 투자는 늘어나는데 기업공개(IPO) 시장 경색 등의 여파로 미회수... 김 대표는 “연간 20조 원의 펀드 결성, 20조 원 투자 집행이 곧 현실화될 것”이라며 “코스닥 시장의 대형화와...",
+          "url": "https://www.sedaily.com/article/20101677",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T18:06:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "6800억원",
+          "title": "금융위, 국민성장펀드 초장기기술투자 운용사 7곳 선정",
+          "summary": "한편 금융위원회는 지난 8월20일 국민성장펀드의 대표적 간접투자 방식 중 하나로 초장기기술투자펀드... 초장기기술투자펀드는 장기 인내자본으로서 역할을 수행하는 만큼, 4분의 3인 6800억원을 첨단전략산업기금...",
+          "url": "https://www.mt.co.kr/finance/2026/10/14/2026101417595169240",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T18:17:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "8800억",
+          "title": "최대 16년 투자하는 초장기 기술투자펀드, 올해 총 8800억 조성",
+          "summary": "초장기 기술투자펀드는 국민성장펀드의 상용화까지 긴 시간이 걸리는 첨단기술·원천기술 기업에 최대... 초장기 기술투자펀드는 출자금의 상당 부분(6800억 원)이 첨단전략산업기금 및 재정으로 조성되는 만큼...",
+          "url": "https://www.news1.kr/finance/general-finance/6320332",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T18:24:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "8800억",
+          "title": "금융위, 8800억 규모 '초장기기술투자펀드' 운용사 7곳 선정",
+          "summary": "초장기기술투자펀드는 국민성장펀드의 간접투자 프로그램으로, 첨단기술·원천기술 기업에 최대 16년 동안... 출자금 상당 부분이 첨단전략산업기금과 재정으로 조성되는 만큼 다른 정책펀드보다 자금 모집에 걸리는...",
+          "url": "https://www.newsis.com/view/NISX20261014_0003826277",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T18:26:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "6800억원",
+          "title": "초장기기술투자펀드 위탁운용사로 스마일게이트·타임폴리오 등 7곳 선...",
+          "summary": "금융위원회와 한국산업은행이 '국민성장펀드 초장기기술투자펀드'의 2026년도 위탁운용사(GP) 7곳을 최종... 6800억원을 첨단전략산업기금(6000억원)과 정부 재정(800억원)으로 충당한다. 투자기간은 최대 7년까지 설정...",
+          "url": "https://www.hankyung.com/article/202610142338r",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T18:30:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "8800억",
+          "title": "[Invest]국민성장펀드 8800억 초장기투자 GP에 스마일게이트·코오롱인베...",
+          "summary": "전체 결성 목표액은 8800억원이다.이번 출자사업은 국민성장펀드를 통해 첨단전략산업 분야 중소... 정부 재정모펀드에서 800억원, 첨단전략산업기금에서 6000억원 등 총 6800억원을 정책자금으로 출자하고 나머지...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/14/2026101480185.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T18:49:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "800억원",
+          "title": "최장 16년 '초장기기술투자펀드' 운용사 7곳 선정…연말가동",
+          "summary": "초장기기술투자펀드는 국민성장펀드의 대표적인 간접투자 프로그램으로, 올해 총 8천800억원 규모 조성을 목표로 하고 있다. 전체 재원 8천800억원 가운데 6천800억원을 첨단전략산업기금(6천억원)과 재정(800억원)으로...",
+          "url": "https://www.yna.co.kr/view/AKR20261014172900002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T19:18:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "800억",
+          "title": "'최대 16년 투자' 국민성장펀드 첫 초장기펀드…운용사 7곳 선정",
+          "summary": "한화證·타임폴리오 등 선정…연말부터 차세대 반도체·첨단바이오 투자 정부·정책자금 6천800억 출자…AI... 소형리그에는 지앤텍벤처투자와 한화투자증권, 타임폴리오자산운용·타임폴리오캐피탈(Co-GP)이 선정됐다....",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439263",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T20:42:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "8800억",
+          "title": "8800억 초장기기술투자펀드 GP 선정…스마일게이트·퀸텀 등 7곳",
+          "summary": "중형 4곳·소형 3곳…정부·정책자금 6800억 출자 금융위원회와 한국산업은행이 ‘국민성장펀드... 정부 재정모펀드에서 800억원, 첨단전략산업기금에서 6000억원 등 총 6800억원을 정책자금으로 출자한다. 나머지...",
+          "url": "https://dealsite.co.kr/articles/170697",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-10-15",
+          "published_at": "2026-10-15T05:00:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": null,
+          "title": "정책자금 확보해도 '돈 구하기 전쟁'…민간 매칭에 발목 [국민성장펀드...",
+          "summary": "펀드 결성 관건 국민성장펀드 출자사업이 본격화하면서 기존 정책금융기관의 출자사업에 선정된 사모펀드(PEF) 운용사들의 자금 모집에도 부담이 커질 수 있다는 우려가 나온다. 정부가 대규모 정책자금을 공급하면서...",
+          "url": "https://www.etoday.co.kr/news/view/2634839",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-15",
+          "published_at": "2026-10-15T05:00:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "35조",
+          "title": "35조원 간접투자에 자금 쏠림…PEF 운용사 '펀딩 한파' [국민성장펀드 ...",
+          "summary": "국내 사모펀드(PEF) 시장의 자금 조달 환경에도 변화가 예상된다. 향후 5년간 간접투자에만 35조원이 투입될... GP는 정책기관의 출자금을 바탕으로 민간 기관투자자(LP)를 모집해 펀드를 결성하고 투자에 나선다. 문제는...",
+          "url": "https://www.etoday.co.kr/news/view/2634838",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-15",
+          "published_at": "2026-10-15T05:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "돈은 넘치는데 투자처는 한정…기업 몸값만 높이나 [국민성장펀드 병목...",
+          "summary": "높은 기업가치에 투자할수록 향후 기업공개(IPO)나 인수합병(M&A)을 통해 회수할 때 더 높은 가치를 인정받아야 목표 수익률을 달성할 수 있어서다. 정책펀드의 특성상 투자 대상과 산업 분야에 일정한 제약이 따른다는...",
+          "url": "https://www.etoday.co.kr/news/view/2634844",
+          "source_label": "이투데이"
         }
       ]
     },

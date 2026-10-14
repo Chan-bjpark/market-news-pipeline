@@ -1,20 +1,279 @@
 {
-  "generated_at": "2026-10-14T04:24:18.541483+00:00",
+  "generated_at": "2026-10-14T22:11:23.409256+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 50,
   "ok": true,
   "fallback": false,
-  "deals": [],
+  "deals": [
+    {
+      "target": "골텐스",
+      "article_ids": [
+        "a1"
+      ],
+      "evidence": "이번에 인수합병(M&amp;A) 절차까지 이어졌다",
+      "industry": "조선 엔진 정비",
+      "one_liner": "HD현대마린이 골텐스 M&A를 통해 경영권 확보를 추진(기사 제목 기준)",
+      "pe_firms": [],
+      "stage": "진행 중(절차 진행)",
+      "counterparties": "HD현대마린",
+      "amount": null,
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610131137552440109561",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "넥스플러스 힌지사업부",
+      "article_ids": [
+        "a19"
+      ],
+      "evidence": "대신PE·유니드, 넥스플러스 힌지사업부 인수 무산",
+      "industry": "<UNKNOWN>",
+      "one_liner": "대신PE·유니드의 넥스플러스 힌지사업부 인수 무산",
+      "pe_firms": [
+        "대신PE"
+      ],
+      "stage": "무산",
+      "counterparties": "유니드",
+      "amount": null,
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608181015226400101988",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "JTBC",
+      "article_ids": [
+        "a25",
+        "a26",
+        "a28",
+        "a30",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a37",
+        "a46"
+      ],
+      "evidence": "회생계획 인가 전 인수합병(M&amp;A)을 완료한다는 목표다",
+      "industry": "방송·미디어",
+      "one_liner": "기업회생 중인 JTBC의 회생계획 인가 전 M&A 매각 추진, 매각 주관사 한영회계법인(EY한영) 확정",
+      "pe_firms": [],
+      "stage": "매각 주관사 선정 완료, 매각 공고 예정(10월 중)",
+      "counterparties": "한영회계법인(매각 주관사)",
+      "amount": null,
+      "_articles": [
+        {
+          "url": "https://www.newspim.com/news/view/20261014001442",
+          "source": "뉴스핌"
+        },
+        {
+          "url": "https://www.mk.co.kr/article/12176173",
+          "source": "매일경제"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202610142056507248",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "url": "https://view.asiae.co.kr/article/2026101420483272002",
+          "source": "아시아경제"
+        },
+        {
+          "url": "https://www.sedaily.com/article/20101727",
+          "source": "서울경제"
+        },
+        {
+          "url": "https://www.etoday.co.kr/news/view/2635895",
+          "source": "이투데이"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10902851",
+          "source": "헤럴드경제"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20261014_0003826355",
+          "source": "뉴시스"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20261014180400005?input=1195m",
+          "source": "연합뉴스"
+        },
+        {
+          "url": "https://biz.chosun.com/stock/stock_general/2026/10/14/PTVSOHF3AFBAXJYN7VFHL65SAI/",
+          "source": "조선일보"
+        }
+      ]
+    },
+    {
+      "target": "제이인츠바이오",
+      "article_ids": [
+        "a3"
+      ],
+      "evidence": "제이인츠바이오, IPO 주관사 대신증권 낙점",
+      "industry": "바이오",
+      "one_liner": "IPO 주관사로 대신증권 선정(M&A 아님)",
+      "pe_firms": [],
+      "stage": "IPO 주관사 선정",
+      "counterparties": "대신증권",
+      "amount": "180억원 유치(과거 투자 유치 언급)",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141755246920103836",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "벤딩 스푼스",
+      "article_ids": [
+        "a12"
+      ],
+      "evidence": "버크셔 3.3억달러 추가 투자",
+      "industry": "디지털",
+      "one_liner": "버크셔, 벤딩 스푼스에 3.3억달러 추가 투자(M&A 자금 확보 언급)",
+      "pe_firms": [],
+      "stage": "투자 완료로 보도",
+      "counterparties": "버크셔",
+      "amount": "3.3억달러",
+      "_articles": [
+        {
+          "url": "https://www.newspim.com/news/view/20261015000011",
+          "source": "뉴스핌"
+        }
+      ]
+    },
+    {
+      "target": "SK가스 (자사주 매입·소각 계획)",
+      "article_ids": [
+        "a24"
+      ],
+      "evidence": "2026~2028년 매년 300억원씩 총 900억원 규모의 자사주를 매입해 소각하는 계획",
+      "industry": "에너지",
+      "one_liner": "SK가스, 2027~2030년 연평균 세전이익 4500억 이상 목표, 자사주 매입·소각 계획 발표",
+      "pe_firms": [],
+      "stage": "계획 발표",
+      "counterparties": null,
+      "amount": "900억원(자사주)",
+      "_articles": [
+        {
+          "url": "https://www.fnnews.com/news/202610142147048242",
+          "source": "파이낸셜뉴스"
+        }
+      ]
+    },
+    {
+      "target": "대신PE 블라인드펀드",
+      "article_ids": [
+        "a20"
+      ],
+      "evidence": "대신PE, 4000억 블라인드펀드 하드캡 채웠다…11월 초 결성",
+      "industry": "사모펀드",
+      "one_liner": "대신PE 4000억 규모 블라인드펀드 하드캡 충족, 11월 초 결성 예정",
+      "pe_firms": [
+        "대신PE"
+      ],
+      "stage": "결성 예정",
+      "counterparties": null,
+      "amount": "4000억원",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610141425048480102983",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "망고부스트",
+      "article_ids": [
+        "a21"
+      ],
+      "evidence": "아이온운용 점찍은 망고부스트, 브릿지 투자유치 시동",
+      "industry": "<UNKNOWN>",
+      "one_liner": "망고부스트, 아이온운용 대상 브릿지 투자유치 시동",
+      "pe_firms": [
+        "아이온운용"
+      ],
+      "stage": "투자유치 시동",
+      "counterparties": null,
+      "amount": null,
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202602130952160560101435",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "MBK 관련 경영권 (기업명 미기재)",
+      "article_ids": [
+        "a23"
+      ],
+      "evidence": "MBK 참전 2년, 경영권 확보에서 최윤범 퇴진으로",
+      "industry": "<UNKNOWN>",
+      "one_liner": "MBK 참전 2년 경과, 경영권 확보에서 최윤범 퇴진으로 이어짐(회사명 요약에 없음)",
+      "pe_firms": [
+        "MBK"
+      ],
+      "stage": "<UNKNOWN>",
+      "counterparties": "최윤범",
+      "amount": null,
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610141524366760109550",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "target": "넥스플러스 힌지사업부",
+      "article_ids": [
+        "a19"
+      ],
+      "evidence": "넥스플러스 힌지사업부 인수 무산",
+      "industry": "<UNKNOWN>",
+      "one_liner": "중복 항목 제거됨",
+      "pe_firms": [],
+      "stage": "",
+      "counterparties": null,
+      "amount": null,
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608181015226400101988",
+          "source": "더벨"
+        }
+      ]
+    }
+  ],
   "pe_moves": [],
   "for_sale": [],
   "market_signals": [],
   "diag": {
     "llm_raw": {
-      "deals": 0,
+      "deals": 12,
       "pe_moves": 0,
       "for_sale": 0,
       "market_signals": 0
     },
-    "drops": []
+    "drops": [
+      {
+        "reason": "evidence_not_in_source",
+        "label": "마켓인 보도 수제맥주 업체 (회사명 미기재)",
+        "evidence": "이달 2일 M&A 추진을 중단하기로 했다",
+        "ids": [
+          "a41"
+        ]
+      },
+      {
+        "reason": "bad_or_missing_article_ids",
+        "label": "JTBC 등 기술투자 관련 아님 - 해당 없음",
+        "evidence": "",
+        "ids": []
+      }
+    ]
   }
 }
