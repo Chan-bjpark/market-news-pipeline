@@ -218,17 +218,42 @@ def _resolve_model(key, timeout=15):
     return env or MODEL
 
 
+# 멀티턴 few-shot — 작은 모델(Haiku)이 강제 tool 호출에서 '빈 배열'로 회피하는 성향을 깬다.
+# 예시: 거래기사(a0)는 반드시 deals로, 단순 시황(a1)은 건너뛴다 → 밀도와 취사선택을 동시에 학습.
+_FEWSHOT_USER = (
+    "아래 기사들에서 명시된 거래 사실을 모두 추출해 emit_deal_intel 도구로 반환하라.\n"
+    "[기사 목록] aid | 제목 | 요약\n"
+    "a0 | A제약, 美 B바이오 경영권 인수 | A제약이 미국 B바이오의 경영권을 약 3000억원에 인수하기로 했다.\n"
+    "a1 | 코스피 2% 하락 마감 | 외국인 매도세로 지수가 하락 마감했다."
+)
+_FEWSHOT_OUTPUT = {
+    "deals": [{"target": "B바이오", "counterparties": "A제약", "pe_firms": [],
+               "industry": "바이오", "stage": "완료", "amount": "3000억원",
+               "one_liner": "A제약이 B바이오 경영권 약 3000억원에 인수",
+               "article_ids": ["a0"], "evidence": "경영권을 약 3000억원에 인수"}],
+    "pe_moves": [], "for_sale": [], "market_signals": [],
+}
+
+
 def _call_claude(system, user, model, timeout=60):
-    """강제 tool-use로 구조화 JSON(dict)을 받는다 — 텍스트 파싱 없음.
-    tool_choice로 OUTPUT_TOOL 호출을 강제하므로 설명문·마크다운이 섞일 여지가 없다."""
+    """강제 tool-use + 멀티턴 few-shot으로 구조화 JSON(dict)과 API 메타를 받는다.
+    반환: (input_dict, meta). meta는 stop_reason·usage·content 블록타입·텍스트(진단용)."""
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("ANTHROPIC_API_KEY 미설정")
     headers = {"x-api-key": key, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
+    messages = [
+        {"role": "user", "content": _FEWSHOT_USER},
+        {"role": "assistant", "content": [
+            {"type": "tool_use", "id": "toolu_ex1", "name": TOOL_NAME, "input": _FEWSHOT_OUTPUT}]},
+        {"role": "user", "content": [
+            {"type": "tool_result", "tool_use_id": "toolu_ex1",
+             "content": "좋음. 동일한 기준으로 다음 실제 기사들을 처리하라. 거래가 있으면 반드시 채우고 단순 시황은 건너뛴다."},
+            {"type": "text", "text": user}]},
+    ]
     payload = {"model": model, "max_tokens": MAX_OUTPUT_TOKENS, "system": system,
-               "messages": [{"role": "user", "content": user}],
-               "tools": [OUTPUT_TOOL],
+               "messages": messages, "tools": [OUTPUT_TOOL],
                "tool_choice": {"type": "tool", "name": TOOL_NAME}}
     last = None
     for _ in range(2):
@@ -236,13 +261,19 @@ def _call_claude(system, user, model, timeout=60):
             r = requests.post(API_URL, headers=headers, json=payload, timeout=timeout)
             if r.status_code == 200:
                 data = r.json()
-                for p in (data.get("content") or []):
+                content = data.get("content") or []
+                meta = {"stop_reason": data.get("stop_reason"),
+                        "usage": data.get("usage"),
+                        "content_types": [p.get("type") for p in content],
+                        "text": "".join(p.get("text", "") for p in content
+                                         if p.get("type") == "text")[:300]}
+                for p in content:
                     if p.get("type") == "tool_use" and p.get("name") == TOOL_NAME:
                         inp = p.get("input")
                         if isinstance(inp, dict):
-                            return inp
+                            return inp, meta
                 stop = data.get("stop_reason")
-                last = f"tool_use 블록 없음(stop_reason={stop})"
+                last = f"tool_use 블록 없음(stop_reason={stop}, types={meta['content_types']})"
                 if stop == "max_tokens":   # 토큰 상한 → 구조화 출력 잘림
                     raise RuntimeError("출력 토큰 상한 초과(max_tokens) — MAX_OUTPUT_TOKENS 상향 필요")
             else:
@@ -304,7 +335,7 @@ def run(articles, out_path=None, logger=None):
         _write(out_path, payload)
         return payload
     try:
-        obj = _call_claude(SYSTEM_PROMPT, _build_user_msg(cands), model)  # tool-use → dict
+        obj, api_meta = _call_claude(SYSTEM_PROMPT, _build_user_msg(cands), model)  # tool-use → (dict, meta)
         if not isinstance(obj, dict):
             raise RuntimeError(f"구조화 출력이 dict 아님: {type(obj).__name__}")
         drops = []
@@ -318,7 +349,7 @@ def run(articles, out_path=None, logger=None):
         ms = [m for m in ms if m.get("type") in MARKET_SIGNAL_TYPES]
         payload.update(ok=True, fallback=False, deals=deals, pe_moves=pe,
                        for_sale=fs, market_signals=ms,
-                       diag={"llm_raw": llm_raw, "drops": drops})
+                       diag={"llm_raw": llm_raw, "drops": drops, "api": api_meta})
         log(f"deal_intel: 후보 {len(cands)} → 딜 {len(deals)}·PE {len(pe)}·매물 {len(fs)}·시그널 {len(ms)}")
     except Exception as e:  # noqa: BLE001
         payload.update(ok=False, fallback=True, reason=str(e)[:200])
