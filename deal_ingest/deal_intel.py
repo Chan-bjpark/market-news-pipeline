@@ -9,7 +9,8 @@
 모든 항목은 article_ids로 원문에 연결되고, evidence 문구가 그 원문에 실존해야 채택(아니면 드롭).
 LLM 실패·스키마불일치·키 없음 → ok:false,fallback:true 로 기록(발송기가 룰 기반으로 폴백).
 
-env: ANTHROPIC_API_KEY(필수), ANTHROPIC_MODEL(선택, 기본 claude-3-5-haiku-latest)
+env: ANTHROPIC_API_KEY(필수), ANTHROPIC_MODEL(선택). 모델은 /v1/models에서 최신 Haiku 자동선택;
+     조회실패 시에만 기본값 사용. 지원종료된 claude-3-5-haiku*는 설정돼 있어도 무시(self-heal).
 
 standalone:  python deal_intel.py --selftest     (검증·클러스터 로직만, 네트워크 불필요)
              python deal_intel.py --run          (실추출, 키 필요)
@@ -17,6 +18,7 @@ standalone:  python deal_intel.py --selftest     (검증·클러스터 로직만
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
 import re
@@ -33,10 +35,13 @@ except Exception:
 
 KST = timezone(timedelta(hours=9))
 API_URL = "https://api.anthropic.com/v1/messages"
-MODEL = os.environ.get("ANTHROPIC_MODEL") or "claude-3-5-haiku-20241022"
+_ENV_MODEL = (os.environ.get("ANTHROPIC_MODEL") or "").strip()
+if re.search(r"3[.-]5-haiku", _ENV_MODEL, re.I):   # 지원종료 3.5는 무시(self-heal)
+    _ENV_MODEL = ""
+MODEL = _ENV_MODEL or "claude-haiku-4-5-20251001"  # 라이브 저가 기본(3.5는 지원종료)
 MAX_ARTICLES = 50          # 토큰·비용 통제(딜 후보 상한). 월 $0.5 상한 보장용(Haiku 계열)
-MAX_OUTPUT_TOKENS = 2000
-SUMMARY_CHARS = 140
+MAX_OUTPUT_TOKENS = 3000    # 실추출 항목 수용(Haiku 출력단가에도 월 $0.5 내). 실사용분만 과금
+SUMMARY_CHARS = 300         # 거래 맥락 확보용(140은 짧아 Haiku 추출 실패 → 상향)
 
 # 딜 후보 1차 필터(LLM에 넣을 기사만 추림 — 비용↓·정밀↑)
 _CAND_CATS = {"M&A", "PE", "lp_commit", "fund_raise", "cap_market"}
@@ -57,16 +62,20 @@ MARKET_SIGNAL_TYPES = ["FI_SHORTAGE", "SECTOR_CONCENTRATION", "VALUATION_GAP",
                        "DEAL_DROP", "ACQ_FINANCING", "REGULATORY"]
 
 SYSTEM_PROMPT = (
-    "당신은 한국 M&A/PE 시장 뉴스에서 '사실'만 추출하는 분석 보조자다. "
-    "아래 규칙을 반드시 지킨다: "
-    "(1) 제공된 기사의 제목·요약에 '명시된' 내용만 추출한다. "
-    "(2) 추정·예상·기자 개인 코멘트·배경설명은 금지. 정보가 없으면 해당 필드는 null 또는 빈 배열. "
-    "(3) 모든 항목에는 근거가 된 기사의 article_id 목록과, 그 기사 원문에 '그대로 존재하는' 짧은 "
-    "인용문(evidence, 한 구절)을 포함한다. 지어내지 말 것. "
-    "(4) 같은 딜을 여러 매체가 보도하면 하나의 항목으로 합치되, 서로 다른 거래(예: 회사 전체 매각 vs "
-    "자회사 지분 매각)는 절대 합치지 않는다. "
+    "당신은 한국 M&A/PE 시장 뉴스에서 '명시된 거래 사실'을 빠짐없이 뽑아내는 추출기다. "
+    "기사 제목·요약에 기업 인수·합병·경영권 거래·지분 매각/인수·매물·PE 투자/회수·펀드 결성·출자가 "
+    "'언급되면' 반드시 해당 섹션에 항목으로 만든다(놓치지 말 것). 거래가 여럿이면 결과가 비어 있으면 안 된다. "
+    "규칙: "
+    "(1) 기사에 '명시된' 사실만 쓴다. 없는 내용 창작·추정·기자 개인전망은 금지. "
+    "(2) 정보 없는 필드는 null/빈 배열. 거래 단계가 애매하면 stage는 '거론'으로 둔다. "
+    "(3) 각 항목에 근거 기사 article_id와, 그 기사 제목·요약에 '그대로 들어있는' 짧은 인용(evidence) 한 구절을 넣는다. "
+    "evidence는 기사 문구를 복사하듯 그대로 쓴다(바꿔쓰기 금지). "
+    "(4) 서로 다른 거래는 합치지 않고, 같은 거래의 중복 보도만 하나로 합친다. "
     "(5) PE 하우스는 본문에 실제 등장하는 이름만 pe_firms에 넣는다. "
-    "오직 JSON 하나만 출력한다(설명·마크다운 금지)."
+    "(6) 거래 사실이 전혀 없는 기사(단순 시황·실적·인물·행사)는 건너뛴다. "
+    "예시(형식): 기사에 'A사가 B사 경영권을 인수'가 있으면 deals에 "
+    "{\"target\":\"B사\",\"counterparties\":\"A사\",\"industry\":\"해당산업\",\"stage\":\"완료\","
+    "\"one_liner\":\"A사가 B사 경영권 인수\",\"article_ids\":[\"그 기사 id\"],\"evidence\":\"경영권을 인수\"} 형태로 넣는다."
 )
 
 OUTPUT_SPEC = """출력 JSON 스키마:
@@ -124,7 +133,8 @@ OUTPUT_TOOL = {
 
 
 def _norm(s):
-    return re.sub(r"\s+", "", (s or "")).lower()
+    # HTML 엔티티(&amp; &quot; 등) 디코드 후 공백제거·소문자화 → 근거문구 대조를 공정하게
+    return re.sub(r"\s+", "", html.unescape(s or "")).lower()
 
 
 def load_exclusions(path=None):
@@ -160,13 +170,15 @@ def deal_candidates(articles, exclusions=None):
 
 def _build_user_msg(cands):
     # 스키마는 tool(OUTPUT_TOOL)이 강제하므로 OUTPUT_SPEC 본문은 보내지 않는다(입력토큰 절감).
-    lines = [f"아래 기사들에서 명시된 사실만 추출해 {TOOL_NAME} 도구로 반환하라. "
-             "각 기사의 제목·요약에 '그대로 존재하는' 내용만 쓰고, evidence는 원문 인용 한 구절로 한다.\n",
+    # 제목·요약의 HTML 엔티티를 디코드해 모델이 깨끗한 문장을 보도록 한다(추출·인용 정확도↑).
+    lines = [f"아래 기사들에서 명시된 거래 사실을 모두 추출해 {TOOL_NAME} 도구로 반환하라. "
+             "인수·합병·경영권·지분거래·매물·PE 투자/회수·펀드결성/출자가 언급되면 반드시 항목으로 만들 것. "
+             "evidence는 해당 기사 제목·요약에 그대로 들어있는 문구를 복사해 쓴다.\n",
              "[기사 목록] aid | 제목 | 요약"]
     for i, a in enumerate(cands):
         aid = f"a{i}"
-        title = (a.get("title") or "").replace("\n", " ")
-        summ = (a.get("summary") or "").replace("\n", " ")[:SUMMARY_CHARS]
+        title = html.unescape((a.get("title") or "").replace("\n", " "))
+        summ = html.unescape((a.get("summary") or "").replace("\n", " "))[:SUMMARY_CHARS]
         lines.append(f"{aid} | {title} | {summ}")
     return "\n".join(lines)
 
@@ -184,7 +196,10 @@ def _extract_json(text):
 def _resolve_model(key, timeout=15):
     """계정 가용 모델을 /v1/models로 조회해 Haiku(최저가)를 자동 선택 — ID 추측 제거·self-heal.
     env ANTHROPIC_MODEL이 가용목록에 있으면 그것을 우선. 조회 실패 시 기존 기본값(MODEL)."""
-    env = os.environ.get("ANTHROPIC_MODEL")
+    env = (os.environ.get("ANTHROPIC_MODEL") or "").strip()
+    # 지원종료된 Haiku 3.5(claude-3-5-haiku*)는 404 → repo 변수에 남아있어도 무시(self-heal)
+    if re.search(r"3[.-]5-haiku", env, re.I):
+        env = ""
     try:
         r = requests.get("https://api.anthropic.com/v1/models",
                          headers={"x-api-key": key, "anthropic-version": "2023-06-01"},
