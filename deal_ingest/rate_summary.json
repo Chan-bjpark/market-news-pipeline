@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:44:55.380240+00:00",
+  "generated_at": "2026-10-14T04:07:51.633816+00:00",
   "items": {
     "CD(91일)": {
       "item_code": "010502000",
@@ -74,21 +74,15 @@
       "source": "ECOS"
     },
     "국고채(3년)": {
-      "latest_date": "2026-10-12",
-      "latest_value": 3.92,
+      "latest_date": "2026-10-13",
+      "latest_value": 3.85,
       "isin": "KR103501GG62",
       "name": "국고03500-2906(26-5)",
-      "prev_day_date": "2026-10-08",
-      "vs_prev_day_bp": -6.0,
+      "prev_day_date": "2026-10-12",
+      "vs_prev_day_bp": -7.0,
       "prev_month_date": "2026-09-11",
-      "vs_prev_month_bp": -9.1,
+      "vs_prev_month_bp": -16.1,
       "recent_series": [
-        {
-          "date": "2026-09-16",
-          "value": 4.055,
-          "isin": "KR103501GG62",
-          "name": "국고03500-2906(26-5)"
-        },
         {
           "date": "2026-09-17",
           "value": 4.065,
@@ -172,26 +166,26 @@
           "value": 3.92,
           "isin": "KR103501GG62",
           "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-10-13",
+          "value": 3.85,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         }
       ],
       "source": "KFP/KRX"
     },
     "국고채(10년)": {
-      "latest_date": "2026-10-12",
-      "latest_value": 4.305,
+      "latest_date": "2026-10-13",
+      "latest_value": 4.227,
       "isin": "KR103503GG60",
       "name": "국고04250-3606(26-6)",
-      "prev_day_date": "2026-10-08",
-      "vs_prev_day_bp": -8.9,
+      "prev_day_date": "2026-10-12",
+      "vs_prev_day_bp": -7.8,
       "prev_month_date": "2026-09-11",
-      "vs_prev_month_bp": -23.3,
+      "vs_prev_month_bp": -31.1,
       "recent_series": [
-        {
-          "date": "2026-09-16",
-          "value": 4.551,
-          "isin": "KR103503GG60",
-          "name": "국고04250-3606(26-6)"
-        },
         {
           "date": "2026-09-17",
           "value": 4.508,
@@ -273,6 +267,12 @@
         {
           "date": "2026-10-12",
           "value": 4.305,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-10-13",
+          "value": 4.227,
           "isin": "KR103503GG60",
           "name": "국고04250-3606(26-6)"
         }

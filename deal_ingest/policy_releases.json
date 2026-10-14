@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:45:18.088732+00:00",
+  "generated_at": "2026-10-14T04:08:11.943788+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -26,6 +26,12 @@
   },
   "releases": [
     {
+      "title": "제2차 국민참여성장펀드 판매가 내일(10.15일) 17시에 마감됩니다.",
+      "date": "2026-10-14",
+      "url": "https://www.fsc.go.kr/no010101/87926",
+      "agency": "금융위"
+    },
+    {
       "title": "금융위원회 안창국 상임위원, 금융안정위원회(FSB) 규제·감독협력상임위(SRC) 및 ｢KOOM Week 2026｣ 참석",
       "date": "2026-10-14",
       "url": "https://www.fsc.go.kr/no010101/87924",
@@ -50,10 +56,22 @@
       "agency": "기재부"
     },
     {
+      "title": "이형일 부총리, 통상 분야 전문가 간담회 개최",
+      "date": "2026-10-14",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079630&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
       "title": "「AI·융복합 K-뷰티 서비스 지원방안」 발표",
       "date": "2026-10-14",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079628&menuNo=4010100",
       "agency": "기재부"
+    },
+    {
+      "title": "밀가루 부산물 가격담합 사건 심의 절차 개시",
+      "date": "2026-10-14",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48107",
+      "agency": "공정위"
     },
     {
       "title": "부동산 프로젝트 금융(PF) 상황 점검회의 겸 주택공급 촉진을 위한 금융지원 대책 점검회의 개최",
@@ -122,12 +140,6 @@
       "agency": "금융위"
     },
     {
-      "title": "제2차 국민참여성장펀드 판매 결과 잔여물량 현황(10.8일)",
-      "date": "2026-10-12",
-      "url": "https://www.fsc.go.kr/no010101/87907",
-      "agency": "금융위"
-    },
-    {
       "title": "이형일 부총리, K-뉴딜 아카데미를 방문하여 AI 시대 청년고용 제고 노력",
       "date": "2026-10-12",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079591&menuNo=4010100",
@@ -149,12 +161,6 @@
       "title": "제274차 대외경제장관회의 개최",
       "date": "2026-10-12",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079586&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "'생활비 경감 정책 아이디어 공모전' 시상",
-      "date": "2026-10-08",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079565&menuNo=4010100",
       "agency": "기재부"
     },
     {
@@ -197,12 +203,6 @@
       "title": "기업집단 「BS」 소속 계열회사들의 부당지원행위 관련 심의 절차 개시",
       "date": "2026-09-30",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48068",
-      "agency": "공정위"
-    },
-    {
-      "title": "선불식 할부거래분야 사업자 간담회 개최",
-      "date": "2026-09-30",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48066",
       "agency": "공정위"
     }
   ]

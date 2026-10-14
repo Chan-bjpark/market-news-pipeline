@@ -1,12 +1,11 @@
 {
-  "generated_at": "2026-10-14T00:45:18.396934+00:00",
+  "generated_at": "2026-10-14T04:08:12.287581+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 50,
-  "ok": false,
-  "fallback": true,
+  "ok": true,
+  "fallback": false,
   "deals": [],
   "pe_moves": [],
   "for_sale": [],
-  "market_signals": [],
-  "reason": "Claude 호출 실패: HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support assistant message prefill. The conversation must end with a user message.\"},\"requ"
+  "market_signals": []
 }

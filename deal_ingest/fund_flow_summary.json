@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-14T00:45:04.679590+00:00",
+  "generated_at": "2026-10-14T04:07:59.493615+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 645,
+  "total_policy_articles": 647,
   "matched_funds_count": 3,
-  "unmatched_count": 200,
+  "unmatched_count": 201,
   "funds": [
     {
       "fund_name": "국민성장펀드",
@@ -12,7 +12,7 @@
       "next_expected_event": "(완료)",
       "first_seen": "2026-07-16",
       "last_updated": "2026-10-14",
-      "event_count": 442,
+      "event_count": 443,
       "timeline": [
         {
           "date": "2026-07-16",
@@ -4875,6 +4875,17 @@
           "summary": "지역활성화 투자펀드 1조5000억원, 국민성장펀드 연계목표 15조원으로 구성하겠다”고 답했다. 체감성장... 산업지도와 투자·고용목표 마련도 요구했다. 특히 기업유치 성과를 협약금액뿐 아니라 실제 착공과 투자집행...",
           "url": "https://www.etoday.co.kr/news/view/2635393",
           "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-14",
+          "published_at": "2026-10-14T11:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "1차 국민성장펀드 3개월 평균수익률 1.5% ‘선방’",
+          "summary": "1차 국민성장펀드는 인공지능(AI), 반도체, 바이오, 이차전지, 로봇 등 12대 첨단전략산업에 투자한다. 상장주식 약 10~30%, 비상장주식 약 15~45%, 그리고 채권, 인프라 대출, 확정금리부 금융상품 등으로 투자...",
+          "url": "https://www.hani.co.kr/arti/economy/finance/1282306.html",
+          "source_label": "한겨레"
         }
       ]
     },
