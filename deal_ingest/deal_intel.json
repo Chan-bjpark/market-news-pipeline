@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-10-14T23:56:53.673622+00:00",
+  "generated_at": "2026-10-15T00:40:26.525841+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
   "fallback": false,
   "deals": [
     {
-      "target": "엔타스",
+      "target": "JTBC",
       "counterparties": null,
       "pe_firms": [],
-      "industry": "외식",
-      "stage": "매각추진",
-      "amount": "기업가치 2000억원 이상 거론",
-      "one_liner": "엔타스 M&A 매물로 나와",
+      "industry": "미디어",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "JTBC 10월 중 매각 공고, 인수 후보 5곳 거론",
       "article_ids": [
-        "a6"
+        "a0"
       ],
-      "evidence": "M&A 매물로 나왔다",
+      "evidence": "인수 후보 5곳 거론",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121552572240105385",
-          "source": "더벨"
+          "url": "https://www.mk.co.kr/article/12176456",
+          "source": "매일경제",
+          "title": "JTBC, 10월 중 매각 공고…인수 후보 5곳 거론"
         }
       ]
     },
@@ -29,17 +30,38 @@
       "counterparties": null,
       "pe_firms": [],
       "industry": "결혼정보",
-      "stage": "매각추진",
+      "stage": "매물",
       "amount": null,
-      "one_liner": "듀오 M&A 시장 매물 등장",
+      "one_liner": "결혼정보 1위 듀오 M&A 매물로 등장",
       "article_ids": [
-        "a5"
+        "a10"
       ],
-      "evidence": "매물로 등장하면서",
+      "evidence": "매물로 등장",
       "_articles": [
         {
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610130851434360104911",
-          "source": "더벨"
+          "source": "더벨",
+          "title": "[더벨]매물로 나온 듀오, 개인정보 유출이 '트리거' 됐나"
+        }
+      ]
+    },
+    {
+      "target": "엔타스",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "외식",
+      "stage": "매물",
+      "amount": "기업가치 2000억원 이상 거론",
+      "one_liner": "외식 엔타스 M&A 매물로 나와",
+      "article_ids": [
+        "a11"
+      ],
+      "evidence": "M&A 매물로 나왔다",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121552572240105385",
+          "source": "더벨",
+          "title": "[더벨]'경복궁·삿뽀로' 운영사 엔타스 M&A 매물로 나왔다"
         }
       ]
     },
@@ -47,18 +69,19 @@
       "target": "골텐스",
       "counterparties": "HD현대마린",
       "pe_firms": [],
-      "industry": "선박엔진 정비",
+      "industry": "조선 정비",
       "stage": "거론",
       "amount": null,
-      "one_liner": "HD현대마린 골텐스 M&A 절차",
+      "one_liner": "HD현대마린, 골텐스 M&A 경영권 확보 추진",
       "article_ids": [
-        "a13"
+        "a18"
       ],
-      "evidence": "인수합병(M&A) 절차까지 이어졌다",
+      "evidence": "골텐스 M&A",
       "_articles": [
         {
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610131137552440109561",
-          "source": "더벨"
+          "source": "더벨",
+          "title": "[더벨][HD현대마린의 베팅] 골텐스 M&A, 정비협력 넘어 경영권확보 배경..."
         }
       ]
     },
@@ -69,34 +92,78 @@
       "industry": "전자",
       "stage": "거론",
       "amount": null,
-      "one_liner": "유니켐 미국 유연전자 기업 인수 추진",
+      "one_liner": "유니켐, 미국 유연전자 기업 인수 추진",
       "article_ids": [
-        "a10"
+        "a15"
       ],
       "evidence": "미국 소재 유연전자 전문기업 인수",
       "_articles": [
         {
           "url": "https://www.etoday.co.kr/news/view/2635938",
-          "source": "이투데이"
+          "source": "이투데이",
+          "title": "[전날 애프터마켓] 대양금속 상한가…삼전·SK하닉 소폭 상승"
         }
       ]
     },
     {
-      "target": "울산GPS 지분 49%",
-      "counterparties": "SK가스",
+      "target": "B바이오(미국)",
+      "counterparties": null,
       "pe_firms": [],
-      "industry": "에너지",
-      "stage": "완료",
-      "amount": "약 1조원",
-      "one_liner": "SK가스 울산GPS 지분 49% 유동화",
+      "industry": "바이오",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "중국 기업, 상반기 바이오딜 8건 확보",
       "article_ids": [
-        "a3"
+        "a12"
       ],
-      "evidence": "울산GPS 지분 49% 유동화",
+      "evidence": "10대 바이오딜 중 8건",
       "_articles": [
         {
-          "url": "https://www.newspim.com/news/view/20261015000109",
-          "source": "뉴스핌"
+          "url": "https://view.asiae.co.kr/article/2026101508115130591",
+          "source": "아시아경제",
+          "title": "글로벌 10대 바이오딜 중 8건, 중국 기업이 따내"
+        }
+      ]
+    },
+    {
+      "target": "오로메디신",
+      "counterparties": "길리어드",
+      "pe_firms": [],
+      "industry": "바이오",
+      "stage": "거론",
+      "amount": "최대 21억7500만달러",
+      "one_liner": "길리어드, 오로메디신 인수 합의",
+      "article_ids": [
+        "a12"
+      ],
+      "evidence": "오로메디신을 최대 21억7500만달러에 인수하기로",
+      "_articles": [
+        {
+          "url": "https://view.asiae.co.kr/article/2026101508115130591",
+          "source": "아시아경제",
+          "title": "글로벌 10대 바이오딜 중 8건, 중국 기업이 따내"
+        }
+      ]
+    },
+    {
+      "target": "퓨얼셀 영구 CB",
+      "counterparties": "대신증권",
+      "pe_firms": [
+        "대신프라이빗에쿼티"
+      ],
+      "industry": "에너지",
+      "stage": "완료",
+      "amount": "1000억원",
+      "one_liner": "대신증권, 퓨얼셀 영구CB 1000억 참여",
+      "article_ids": [
+        "a4"
+      ],
+      "evidence": "퓨얼셀 영구 CB에 총 1000억 참여",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141309130720107019",
+          "source": "더벨",
+          "title": "[더벨][Company & IB] 두산그룹의 대신증권 '편애'…주요 딜마다 개근중"
         }
       ]
     },
@@ -111,121 +178,140 @@
       "amount": "250억원",
       "one_liner": "휴로보틱스 250억 시리즈A 투자유치",
       "article_ids": [
-        "a4"
+        "a9"
       ],
       "evidence": "250억원 시리즈A 투자유치",
       "_articles": [
         {
           "url": "https://view.asiae.co.kr/article/2026101508245845605",
-          "source": "아시아경제"
+          "source": "아시아경제",
+          "title": "휴로보틱스, 250억원 시리즈A 투자유치"
         }
       ]
     },
     {
       "target": "제이인츠바이오",
-      "counterparties": null,
+      "counterparties": "대신증권",
       "pe_firms": [],
       "industry": "바이오",
       "stage": "거론",
-      "amount": "180억원 유치",
-      "one_liner": "제이인츠바이오 IPO 주관사 대신증권 선정",
+      "amount": null,
+      "one_liner": "제이인츠바이오, IPO 주관사 대신증권 선정",
       "article_ids": [
-        "a15"
+        "a20"
       ],
       "evidence": "IPO 주관사 대신증권 낙점",
       "_articles": [
         {
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141755246920103836",
-          "source": "더벨"
+          "source": "더벨",
+          "title": "[더벨]제이인츠바이오, IPO 주관사 대신증권 낙점"
         }
       ]
     },
     {
-      "target": "알렌티스",
-      "counterparties": "피노바이오",
+      "target": "한화솔루션 유상증자",
+      "counterparties": "한투증권",
       "pe_firms": [],
-      "industry": "바이오",
+      "industry": "화학",
       "stage": "완료",
-      "amount": null,
-      "one_liner": "피노바이오 알렌티스 옵션 라이선스 딜",
+      "amount": "1조1713억원",
+      "one_liner": "한투증권, 한화솔루션 유상증자 공동대표주관",
       "article_ids": [
-        "a14"
+        "a2"
       ],
-      "evidence": "스위스 알렌티스와 맞손",
+      "evidence": "한화솔루션 유상증자(1조1713억원)",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141957084400104693",
-          "source": "더벨"
+          "url": "https://www.ajunews.com/view/20261015084653088",
+          "source": "아주경제",
+          "title": "[경제일보] 한투證, 3분기 주식발행시장·인수금융·채권 인수 1위… '기..."
         }
       ]
     },
     {
-      "target": "오로메디신",
-      "counterparties": "길리어드",
+      "target": "SK가스 울산GPS 지분",
+      "counterparties": null,
       "pe_firms": [],
-      "industry": "바이오",
+      "industry": "에너지",
       "stage": "완료",
-      "amount": "최대 21억7500만달러",
-      "one_liner": "길리어드 오로메디신 인수 합의",
+      "amount": "약 1조원",
+      "one_liner": "SK가스, 울산GPS 지분 49% 유동화",
       "article_ids": [
-        "a7"
+        "a8"
       ],
-      "evidence": "오로메디신을 최대 21억7500만달러에 인수하기로 했다",
+      "evidence": "울산GPS 지분 49% 유동화",
       "_articles": [
         {
-          "url": "https://view.asiae.co.kr/article/2026101508115130591",
-          "source": "아시아경제"
-        }
-      ]
-    },
-    {
-      "target": "벤딩 스푼스",
-      "counterparties": "버크셔",
-      "pe_firms": [],
-      "industry": "디지털",
-      "stage": "완료",
-      "amount": "3.3억달러",
-      "one_liner": "버크셔 벤딩 스푼스 3.3억달러 추가 투자",
-      "article_ids": [
-        "a24"
-      ],
-      "evidence": "버크셔 3.3억달러 추가 투자",
-      "_articles": [
-        {
-          "url": "https://www.newspim.com/news/view/20261015000011",
-          "source": "뉴스핌"
+          "url": "https://www.newspim.com/news/view/20261015000109",
+          "source": "뉴스핌",
+          "title": "[모닝 리포트] \"SK가스, 900억 자사주 소각·특별배당 검토…주주환원 확..."
         }
       ]
     }
   ],
   "pe_moves": [
     {
+      "pe": "대신프라이빗에쿼티",
+      "action": "향후 결성할 투자기구를 통해 400억원 투자",
+      "target": "퓨얼셀 영구 CB",
+      "article_ids": [
+        "a4"
+      ],
+      "evidence": "대신프라이빗에쿼티가 향후 결성할 투자기구를 통해 400억원",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141309130720107019",
+          "source": "더벨",
+          "title": "[더벨][Company & IB] 두산그룹의 대신증권 '편애'…주요 딜마다 개근중"
+        }
+      ]
+    },
+    {
       "pe": "미래에셋벤처투자",
       "action": "시리즈A 투자 참여",
       "target": "휴로보틱스",
       "article_ids": [
-        "a4"
+        "a9"
       ],
       "evidence": "미래에셋벤처투자 등 신규 투자자들도 대거 합류",
       "_articles": [
         {
           "url": "https://view.asiae.co.kr/article/2026101508245845605",
-          "source": "아시아경제"
+          "source": "아시아경제",
+          "title": "휴로보틱스, 250억원 시리즈A 투자유치"
         }
       ]
     },
     {
       "pe": "비에이PE",
-      "action": "신생 PEF 운용사로 첫 딜 이후 후속 투자 실적 필요",
+      "action": "블라인드펀드 결성 도전 과제 언급",
       "target": null,
       "article_ids": [
-        "a1"
+        "a6"
       ],
-      "evidence": "신생 사모펀드(PEF) 운용사의 생존을 가르는 과제다",
+      "evidence": "블라인드펀드 결성에 도전할 기반",
       "_articles": [
         {
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121457004200107886",
-          "source": "더벨"
+          "source": "더벨",
+          "title": "[더벨][thebell note] 도약의 기로에 선 비에이PE"
+        }
+      ]
+    },
+    {
+      "pe": "버크셔해서웨이",
+      "action": "벤딩 스푼스에 3.3억달러 추가 투자",
+      "target": "벤딩 스푼스",
+      "article_ids": [
+        "a29"
+      ],
+      "evidence": "버크셔 3.3억달러 추가 투자",
+      "_articles": [
+        {
+          "url": "https://www.newspim.com/news/view/20261015000011",
+          "source": "뉴스핌",
+          "title": "[유럽 특징주] 벤딩 스푼스 54% 폭등…버크셔 3.3억달러 추가 투자"
         }
       ]
     }
@@ -234,88 +320,119 @@
     {
       "asset": "듀오",
       "seller": null,
-      "process_stage": "매각추진",
+      "process_stage": "매물 등장",
       "article_ids": [
-        "a5"
+        "a10"
       ],
-      "evidence": "매물로 등장하면서 매각 추진 배경",
+      "evidence": "매물로 등장",
       "_articles": [
         {
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610130851434360104911",
-          "source": "더벨"
+          "source": "더벨",
+          "title": "[더벨]매물로 나온 듀오, 개인정보 유출이 '트리거' 됐나"
         }
       ]
     },
     {
       "asset": "엔타스",
       "seller": null,
-      "process_stage": "매각추진",
+      "process_stage": "매물",
       "article_ids": [
-        "a6"
+        "a11"
       ],
       "evidence": "M&A 매물로 나왔다",
       "_articles": [
         {
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121552572240105385",
-          "source": "더벨"
+          "source": "더벨",
+          "title": "[더벨]'경복궁·삿뽀로' 운영사 엔타스 M&A 매물로 나왔다"
+        }
+      ]
+    },
+    {
+      "asset": "JTBC",
+      "seller": null,
+      "process_stage": "10월 중 매각 공고 예정",
+      "article_ids": [
+        "a0"
+      ],
+      "evidence": "10월 중 매각 공고",
+      "_articles": [
+        {
+          "url": "https://www.mk.co.kr/article/12176456",
+          "source": "매일경제",
+          "title": "JTBC, 10월 중 매각 공고…인수 후보 5곳 거론"
+        }
+      ]
+    },
+    {
+      "asset": "롯데손보 지분 5.02% (호텔롯데 보유)",
+      "seller": "호텔롯데",
+      "process_stage": "거론",
+      "article_ids": [
+        "a30"
+      ],
+      "evidence": "호텔롯데 지분 '5.02%'",
+      "_articles": [
+        {
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439331",
+          "source": "연합인포맥스",
+          "title": "신한금융, 롯데손보 2대주주 호텔롯데 지분 '5.02%' 선점하나"
         }
       ]
     }
   ],
   "market_signals": [
     {
-      "type": "ACQ_FINANCING",
-      "summary": "국민성장펀드 출자 확대에 PEF 자금 모집 부담 우려",
+      "type": "DEAL_DROP",
+      "summary": "일본 기업 대상 외국인 M&A 역대 최대",
       "article_ids": [
-        "a22",
         "a23"
       ],
-      "evidence": "펀드 결성 관건",
+      "evidence": "외국인 M&A '역대 최대' 폭발",
       "_articles": [
         {
-          "url": "https://www.etoday.co.kr/news/view/2634839",
-          "source": "이투데이"
-        },
-        {
-          "url": "https://www.etoday.co.kr/news/view/2634838",
-          "source": "이투데이"
+          "url": "https://www.g-enews.com/view.php?ud=2026101418014142700c8c1c064d_1",
+          "source": "글로벌이코노믹",
+          "title": "\"엔저·기업지배구조 효과\"… 日 기업 향한 외국인 M&A '역대 최대' 폭발"
         }
       ]
     },
     {
-      "type": "REGULATORY",
-      "summary": "금감원 PEF 검사 역량 부족 지적",
+      "type": "ACQ_FINANCING",
+      "summary": "국민성장펀드 등 PEF 펀드 결성 자금조달 부담",
       "article_ids": [
-        "a9"
+        "a28"
       ],
-      "evidence": "금감원 PEF 검사 역량 ‘제자리’",
+      "evidence": "PEF 운용사 '펀딩 한파'",
       "_articles": [
         {
-          "url": "https://view.asiae.co.kr/article/2026101414485757585",
-          "source": "아시아경제"
+          "url": "https://www.etoday.co.kr/news/view/2634838",
+          "source": "이투데이",
+          "title": "35조원 간접투자에 자금 쏠림…PEF 운용사 '펀딩 한파' [국민성장펀드 ..."
         }
       ]
     }
   ],
   "diag": {
     "llm_raw": {
-      "deals": 10,
-      "pe_moves": 2,
-      "for_sale": 2,
+      "deals": 14,
+      "pe_moves": 4,
+      "for_sale": 4,
       "market_signals": 2
     },
     "drops": [],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 7637,
+        "input_tokens": 8504,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 1872,
+        "output_tokens": 2747,
         "output_tokens_details": {
           "thinking_tokens": 0
         },
