@@ -1,52 +1,19 @@
 {
-  "generated_at": "2026-10-15T00:40:10.003597+00:00",
+  "generated_at": "2026-10-15T22:11:14.999997+00:00",
   "lookback_days": 90,
   "total_policy_articles": 664,
   "matched_funds_count": 3,
-  "unmatched_count": 206,
+  "unmatched_count": 208,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-17",
+      "first_seen": "2026-07-19",
       "last_updated": "2026-10-15",
-      "event_count": 455,
+      "event_count": 453,
       "timeline": [
-        {
-          "date": "2026-07-17",
-          "published_at": "2026-07-17T06:01:00+09:00",
-          "stage_code": "gp_open",
-          "stage_label": "GP 모집",
-          "amount": null,
-          "title": "하이브 ‘9배 대박’ 성적표, 두달 차로 인정받아... 펀딩 성공한 스틱...",
-          "summary": "사모펀드(PEF) 운용사 스틱인베스트먼트가 조 단위 신규 펀드 결성을 추진한다. 수출입은행 출자사업 위탁운용사(GP)로 선정되고도 줄곧 펀딩 난항을 겪었지만, 최근 국민성장펀드 간접투자 2차 GP로 선정되며 반전을...",
-          "url": "https://biz.chosun.com/stock/market_trend/2026/07/17/IU7ZPFZSBBCSJAOMWVJHHUZ7SE/",
-          "source_label": "조선일보"
-        },
-        {
-          "date": "2026-07-17",
-          "published_at": "2026-07-17T06:42:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": null,
-          "title": "국민성장펀드 출자길 열렸지만…선정 구경도 못한 하우스들 '속앓이'",
-          "summary": "이투데이=유한새 기자 | 올해 사모펀드(PEF) 업계 최대어로 꼽히는 국민성장펀드 간접투자 출자 사업이... 이에 따라 블라인드펀드 결성이 어려워진 운용사들은 딜 발생 시 프로젝트펀드로 눈을 돌려야 하지만 이마저도...",
-          "url": "https://www.etoday.co.kr/news/view/2604396",
-          "source_label": "이투데이"
-        },
-        {
-          "date": "2026-07-17",
-          "published_at": "2026-07-17T13:02:00+09:00",
-          "stage_code": "gp_selected",
-          "stage_label": "운용사 선정",
-          "amount": "3500억원",
-          "title": "産銀에 국민연금까지…돈벼락 맞은 에이티넘",
-          "summary": "두 기관에서만 최대 3500억원의 출자를 받게 된다. 펀드레이징은 국민성장펀드 GP 선정 직후부터 급물살을 탔다. 국민성장펀드에 적용되는 위험가중자산(RWA) 특례와 생산적 금융 확대 기조가 맞물리면서 시중은행과...",
-          "url": "https://dealsite.co.kr/articles/165248",
-          "source_label": "딜인사이트"
-        },
         {
           "date": "2026-07-19",
           "published_at": "2026-07-19T18:40:00+09:00",
@@ -5017,6 +4984,17 @@
           "title": "[경제일보] 대출 넘어 투자·상장까지…농협·기업은행, 생산적금융 보...",
           "summary": "지난 2016년 첫 농식품펀드를 결성한 이후 농림수산식품모태펀드 자펀드 6개의 업무집행조합원(GP)을... 기업은행은 중소기업대출과 함께 혁신기업에 대한 모험자본 투자도 확대했다. 지난 3월 국민성장펀드...",
           "url": "https://www.ajunews.com/view/20261015082513987",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-10-15",
+          "published_at": "2026-10-15T17:34:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[서정희 칼럼] 실점 줄이고 연속 득점…전원일치 판정승 노려야",
+          "summary": "정책 전달체계 곳곳에 아군과 우군을 서둘러 전진 배치하고 정책 기획과 집행의 중심을 잡아야 한다.... 1기 정책팀의 과감한 혁신과 국민성장펀드 등 투자를 지속 추진해 잠재성장률을 계속 끌어올리는 일도 당연한 지속...",
+          "url": "https://www.ajunews.com/view/20261007190728066",
           "source_label": "아주경제"
         }
       ]

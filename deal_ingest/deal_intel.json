@@ -1,383 +1,282 @@
 {
-  "generated_at": "2026-10-15T00:40:26.525841+00:00",
+  "generated_at": "2026-10-15T22:11:26.053655+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
   "fallback": false,
   "deals": [
     {
-      "target": "JTBC",
-      "counterparties": null,
+      "target": "SK실트론",
+      "counterparties": "두산그룹",
       "pe_firms": [],
-      "industry": "미디어",
+      "industry": "반도체",
       "stage": "거론",
       "amount": null,
-      "one_liner": "JTBC 10월 중 매각 공고, 인수 후보 5곳 거론",
+      "one_liner": "두산그룹의 SK실트론 인수합병 추진",
       "article_ids": [
         "a0"
       ],
-      "evidence": "인수 후보 5곳 거론",
+      "evidence": "SK실트론 인수합병(M&A) 추진",
       "_articles": [
         {
-          "url": "https://www.mk.co.kr/article/12176456",
-          "source": "매일경제",
-          "title": "JTBC, 10월 중 매각 공고…인수 후보 5곳 거론"
-        }
-      ]
-    },
-    {
-      "target": "듀오",
-      "counterparties": null,
-      "pe_firms": [],
-      "industry": "결혼정보",
-      "stage": "매물",
-      "amount": null,
-      "one_liner": "결혼정보 1위 듀오 M&A 매물로 등장",
-      "article_ids": [
-        "a10"
-      ],
-      "evidence": "매물로 등장",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610130851434360104911",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610131815461960108423",
           "source": "더벨",
-          "title": "[더벨]매물로 나온 듀오, 개인정보 유출이 '트리거' 됐나"
+          "title": "[더벨][두산 품에 안기는 SK실트론] OCI와 반도체용 폴리실리콘 계약 확..."
         }
       ]
     },
     {
-      "target": "엔타스",
-      "counterparties": null,
-      "pe_firms": [],
-      "industry": "외식",
-      "stage": "매물",
-      "amount": "기업가치 2000억원 이상 거론",
-      "one_liner": "외식 엔타스 M&A 매물로 나와",
-      "article_ids": [
-        "a11"
-      ],
-      "evidence": "M&A 매물로 나왔다",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121552572240105385",
-          "source": "더벨",
-          "title": "[더벨]'경복궁·삿뽀로' 운영사 엔타스 M&A 매물로 나왔다"
-        }
-      ]
-    },
-    {
-      "target": "골텐스",
-      "counterparties": "HD현대마린",
-      "pe_firms": [],
-      "industry": "조선 정비",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "HD현대마린, 골텐스 M&A 경영권 확보 추진",
-      "article_ids": [
-        "a18"
-      ],
-      "evidence": "골텐스 M&A",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610131137552440109561",
-          "source": "더벨",
-          "title": "[더벨][HD현대마린의 베팅] 골텐스 M&A, 정비협력 넘어 경영권확보 배경..."
-        }
-      ]
-    },
-    {
-      "target": "미국 유연전자 전문기업",
-      "counterparties": "유니켐",
-      "pe_firms": [],
-      "industry": "전자",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "유니켐, 미국 유연전자 기업 인수 추진",
-      "article_ids": [
-        "a15"
-      ],
-      "evidence": "미국 소재 유연전자 전문기업 인수",
-      "_articles": [
-        {
-          "url": "https://www.etoday.co.kr/news/view/2635938",
-          "source": "이투데이",
-          "title": "[전날 애프터마켓] 대양금속 상한가…삼전·SK하닉 소폭 상승"
-        }
-      ]
-    },
-    {
-      "target": "B바이오(미국)",
-      "counterparties": null,
-      "pe_firms": [],
-      "industry": "바이오",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "중국 기업, 상반기 바이오딜 8건 확보",
-      "article_ids": [
-        "a12"
-      ],
-      "evidence": "10대 바이오딜 중 8건",
-      "_articles": [
-        {
-          "url": "https://view.asiae.co.kr/article/2026101508115130591",
-          "source": "아시아경제",
-          "title": "글로벌 10대 바이오딜 중 8건, 중국 기업이 따내"
-        }
-      ]
-    },
-    {
-      "target": "오로메디신",
-      "counterparties": "길리어드",
-      "pe_firms": [],
-      "industry": "바이오",
-      "stage": "거론",
-      "amount": "최대 21억7500만달러",
-      "one_liner": "길리어드, 오로메디신 인수 합의",
-      "article_ids": [
-        "a12"
-      ],
-      "evidence": "오로메디신을 최대 21억7500만달러에 인수하기로",
-      "_articles": [
-        {
-          "url": "https://view.asiae.co.kr/article/2026101508115130591",
-          "source": "아시아경제",
-          "title": "글로벌 10대 바이오딜 중 8건, 중국 기업이 따내"
-        }
-      ]
-    },
-    {
-      "target": "퓨얼셀 영구 CB",
-      "counterparties": "대신증권",
+      "target": "율곡",
+      "counterparties": "VIG파트너스",
       "pe_firms": [
-        "대신프라이빗에쿼티"
+        "VIG파트너스"
       ],
-      "industry": "에너지",
-      "stage": "완료",
-      "amount": "1000억원",
-      "one_liner": "대신증권, 퓨얼셀 영구CB 1000억 참여",
+      "industry": "항공부품",
+      "stage": "클로징 임박",
+      "amount": "3000억원",
+      "one_liner": "VIG파트너스의 항공부품사 율곡 인수 마무리",
       "article_ids": [
-        "a4"
+        "a25"
       ],
-      "evidence": "퓨얼셀 영구 CB에 총 1000억 참여",
+      "evidence": "율곡 인수 이달 마무리",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141309130720107019",
-          "source": "더벨",
-          "title": "[더벨][Company & IB] 두산그룹의 대신증권 '편애'…주요 딜마다 개근중"
+          "url": "https://biz.chosun.com/stock/market_trend/2026/10/15/T6ARIB266ZAKLM52XRQWC4OHSU/",
+          "source": "조선일보",
+          "title": "VIG, 항공부품사 율곡 인수 이달 마무리… 3000억 거래 클로징 임박"
         }
       ]
     },
     {
-      "target": "휴로보틱스",
-      "counterparties": null,
+      "target": "리메드",
+      "counterparties": "LF인베스트먼트, 포인터스프라이빗에쿼티",
       "pe_firms": [
-        "미래에셋벤처투자"
+        "LF인베스트먼트",
+        "포인터스프라이빗에쿼티"
       ],
-      "industry": "로봇",
-      "stage": "완료",
-      "amount": "250억원",
-      "one_liner": "휴로보틱스 250억 시리즈A 투자유치",
+      "industry": "의료기기",
+      "stage": "거론",
+      "amount": "150억원",
+      "one_liner": "LF인베스트먼트, 리메드에 150억 투자",
       "article_ids": [
-        "a9"
+        "a19"
       ],
-      "evidence": "250억원 시리즈A 투자유치",
+      "evidence": "리메드에 총 150억원을 투자",
       "_articles": [
         {
-          "url": "https://view.asiae.co.kr/article/2026101508245845605",
-          "source": "아시아경제",
-          "title": "휴로보틱스, 250억원 시리즈A 투자유치"
+          "url": "https://biz.chosun.com/stock/stock_general/2026/10/15/SPXKE3EL6BDNBCCDAGMO72IVMU/",
+          "source": "조선일보",
+          "title": "LF인베스트먼트, 리메드에 150억 투자… CB 전환 시 2대 주주"
         }
       ]
     },
     {
-      "target": "제이인츠바이오",
-      "counterparties": "대신증권",
+      "target": "홈플러스",
+      "counterparties": null,
       "pe_firms": [],
-      "industry": "바이오",
+      "industry": "유통",
       "stage": "거론",
       "amount": null,
-      "one_liner": "제이인츠바이오, IPO 주관사 대신증권 선정",
+      "one_liner": "홈플러스 매각 진행, 10월 말 인수의향서 접수",
       "article_ids": [
-        "a20"
+        "a28",
+        "a34"
       ],
-      "evidence": "IPO 주관사 대신증권 낙점",
+      "evidence": "10월 말까지 인수의향서를 받을 예정",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141755246920103836",
-          "source": "더벨",
-          "title": "[더벨]제이인츠바이오, IPO 주관사 대신증권 낙점"
-        }
-      ]
-    },
-    {
-      "target": "한화솔루션 유상증자",
-      "counterparties": "한투증권",
-      "pe_firms": [],
-      "industry": "화학",
-      "stage": "완료",
-      "amount": "1조1713억원",
-      "one_liner": "한투증권, 한화솔루션 유상증자 공동대표주관",
-      "article_ids": [
-        "a2"
-      ],
-      "evidence": "한화솔루션 유상증자(1조1713억원)",
-      "_articles": [
-        {
-          "url": "https://www.ajunews.com/view/20261015084653088",
+          "url": "https://www.ajunews.com/view/20261015132810082",
           "source": "아주경제",
-          "title": "[경제일보] 한투證, 3분기 주식발행시장·인수금융·채권 인수 1위… '기..."
+          "title": "매각 시계는 가는데 매장 체력은 떨어진다…홈플러스 '10월 말' 분수령"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202610151401555533",
+          "source": "파이낸셜뉴스",
+          "title": "홈플러스, 희망퇴직 8일 만에 조기 마감…신청자 몰려"
         }
       ]
     },
     {
-      "target": "SK가스 울산GPS 지분",
+      "target": "KDB생명",
       "counterparties": null,
       "pe_firms": [],
-      "industry": "에너지",
-      "stage": "완료",
-      "amount": "약 1조원",
-      "one_liner": "SK가스, 울산GPS 지분 49% 유동화",
+      "industry": "보험",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "KDB생명 매각 협상 지연",
       "article_ids": [
-        "a8"
+        "a12"
       ],
-      "evidence": "울산GPS 지분 49% 유동화",
+      "evidence": "KDB생명 매각 협상 지연",
       "_articles": [
         {
-          "url": "https://www.newspim.com/news/view/20261015000109",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610151353239000104019",
+          "source": "더벨",
+          "title": "KDB생명 매각 협상 지연, 자본확충 셈법 복잡"
+        }
+      ]
+    },
+    {
+      "target": "HLB제넥스",
+      "counterparties": "진양곤 의장(개인법인 에포케)",
+      "pe_firms": [],
+      "industry": "바이오",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "진양곤 개인법인, HLB제넥스 지분 확대",
+      "article_ids": [
+        "a26",
+        "a31"
+      ],
+      "evidence": "HLB제넥스 지분 확대",
+      "_articles": [
+        {
+          "url": "https://www.newspim.com/news/view/20261015001214",
           "source": "뉴스핌",
-          "title": "[모닝 리포트] \"SK가스, 900억 자사주 소각·특별배당 검토…주주환원 확..."
+          "title": "진양곤 개인법인, HLB제넥스 지분 확대"
+        },
+        {
+          "url": "https://view.asiae.co.kr/article/2026101515214613715",
+          "source": "아시아경제",
+          "title": "HLB그룹, 진양곤 의장 HLB제넥스 지분 매수"
         }
       ]
     }
   ],
   "pe_moves": [
     {
-      "pe": "대신프라이빗에쿼티",
-      "action": "향후 결성할 투자기구를 통해 400억원 투자",
-      "target": "퓨얼셀 영구 CB",
+      "pe": "VIG파트너스",
+      "action": "항공부품사 율곡 인수 추진, 5호 블라인드펀드 최종 결성",
+      "target": "율곡",
       "article_ids": [
-        "a4"
+        "a25"
       ],
-      "evidence": "대신프라이빗에쿼티가 향후 결성할 투자기구를 통해 400억원",
+      "evidence": "VIG, 항공부품사 율곡 인수 이달 마무리",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141309130720107019",
-          "source": "더벨",
-          "title": "[더벨][Company & IB] 두산그룹의 대신증권 '편애'…주요 딜마다 개근중"
+          "url": "https://biz.chosun.com/stock/market_trend/2026/10/15/T6ARIB266ZAKLM52XRQWC4OHSU/",
+          "source": "조선일보",
+          "title": "VIG, 항공부품사 율곡 인수 이달 마무리… 3000억 거래 클로징 임박"
         }
       ]
     },
     {
-      "pe": "미래에셋벤처투자",
-      "action": "시리즈A 투자 참여",
-      "target": "휴로보틱스",
-      "article_ids": [
-        "a9"
-      ],
-      "evidence": "미래에셋벤처투자 등 신규 투자자들도 대거 합류",
-      "_articles": [
-        {
-          "url": "https://view.asiae.co.kr/article/2026101508245845605",
-          "source": "아시아경제",
-          "title": "휴로보틱스, 250억원 시리즈A 투자유치"
-        }
-      ]
-    },
-    {
-      "pe": "비에이PE",
-      "action": "블라인드펀드 결성 도전 과제 언급",
+      "pe": "우리PE",
+      "action": "2500억 단독 블라인드펀드 조성 시동",
       "target": null,
       "article_ids": [
-        "a6"
+        "a8"
       ],
-      "evidence": "블라인드펀드 결성에 도전할 기반",
+      "evidence": "우리PE, 2500억 단독 블라인드펀드 조성 시동",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121457004200107886",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202604221341483200109542",
           "source": "더벨",
-          "title": "[더벨][thebell note] 도약의 기로에 선 비에이PE"
+          "title": "우리PE, 2500억 단독 블라인드펀드 조성 시동"
         }
       ]
     },
     {
-      "pe": "버크셔해서웨이",
-      "action": "벤딩 스푼스에 3.3억달러 추가 투자",
-      "target": "벤딩 스푼스",
+      "pe": "LF인베스트먼트",
+      "action": "포인터스프라이빗에쿼티와 메드테크1호 신기술투자조합 결성해 리메드 투자",
+      "target": "리메드",
       "article_ids": [
-        "a29"
+        "a19"
       ],
-      "evidence": "버크셔 3.3억달러 추가 투자",
+      "evidence": "리메드에 총 150억원을 투자하기로",
       "_articles": [
         {
-          "url": "https://www.newspim.com/news/view/20261015000011",
-          "source": "뉴스핌",
-          "title": "[유럽 특징주] 벤딩 스푼스 54% 폭등…버크셔 3.3억달러 추가 투자"
+          "url": "https://biz.chosun.com/stock/stock_general/2026/10/15/SPXKE3EL6BDNBCCDAGMO72IVMU/",
+          "source": "조선일보",
+          "title": "LF인베스트먼트, 리메드에 150억 투자… CB 전환 시 2대 주주"
+        }
+      ]
+    },
+    {
+      "pe": "VIG파트너스",
+      "action": "군인공제회 3000억 펀드 운용 선정",
+      "target": null,
+      "article_ids": [
+        "a16"
+      ],
+      "evidence": "VIG·미래에셋 등, 군인공제회 3000억 펀드 운용",
+      "_articles": [
+        {
+          "url": "https://www.fnnews.com/news/202610151829555972",
+          "source": "파이낸셜뉴스",
+          "title": "VIG·미래에셋 등, 군인공제회 3000억 펀드 운용"
+        }
+      ]
+    },
+    {
+      "pe": "미래에셋",
+      "action": "군인공제회 3000억 펀드 운용 선정",
+      "target": null,
+      "article_ids": [
+        "a16"
+      ],
+      "evidence": "미래에셋 등, 군인공제회 3000억 펀드 운용",
+      "_articles": [
+        {
+          "url": "https://www.fnnews.com/news/202610151829555972",
+          "source": "파이낸셜뉴스",
+          "title": "VIG·미래에셋 등, 군인공제회 3000억 펀드 운용"
         }
       ]
     }
   ],
   "for_sale": [
     {
-      "asset": "듀오",
-      "seller": null,
-      "process_stage": "매물 등장",
+      "asset": "홈플러스",
+      "seller": "홈플러스",
+      "process_stage": "인수의향서 접수 예정(10월 말)",
       "article_ids": [
-        "a10"
+        "a28",
+        "a34"
       ],
-      "evidence": "매물로 등장",
+      "evidence": "10월 말까지 인수의향서를 받을 예정",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610130851434360104911",
-          "source": "더벨",
-          "title": "[더벨]매물로 나온 듀오, 개인정보 유출이 '트리거' 됐나"
+          "url": "https://www.ajunews.com/view/20261015132810082",
+          "source": "아주경제",
+          "title": "매각 시계는 가는데 매장 체력은 떨어진다…홈플러스 '10월 말' 분수령"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202610151401555533",
+          "source": "파이낸셜뉴스",
+          "title": "홈플러스, 희망퇴직 8일 만에 조기 마감…신청자 몰려"
         }
       ]
     },
     {
-      "asset": "엔타스",
+      "asset": "KDB생명",
       "seller": null,
-      "process_stage": "매물",
+      "process_stage": "매각 협상 지연",
+      "article_ids": [
+        "a12"
+      ],
+      "evidence": "KDB생명 매각 협상 지연",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610151353239000104019",
+          "source": "더벨",
+          "title": "KDB생명 매각 협상 지연, 자본확충 셈법 복잡"
+        }
+      ]
+    },
+    {
+      "asset": "더휴식",
+      "seller": null,
+      "process_stage": "주관사 선정 착수(상장 준비)",
       "article_ids": [
         "a11"
       ],
-      "evidence": "M&A 매물로 나왔다",
+      "evidence": "더휴식, 주관사 선정 착수",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121552572240105385",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610151400059480105046",
           "source": "더벨",
-          "title": "[더벨]'경복궁·삿뽀로' 운영사 엔타스 M&A 매물로 나왔다"
-        }
-      ]
-    },
-    {
-      "asset": "JTBC",
-      "seller": null,
-      "process_stage": "10월 중 매각 공고 예정",
-      "article_ids": [
-        "a0"
-      ],
-      "evidence": "10월 중 매각 공고",
-      "_articles": [
-        {
-          "url": "https://www.mk.co.kr/article/12176456",
-          "source": "매일경제",
-          "title": "JTBC, 10월 중 매각 공고…인수 후보 5곳 거론"
-        }
-      ]
-    },
-    {
-      "asset": "롯데손보 지분 5.02% (호텔롯데 보유)",
-      "seller": "호텔롯데",
-      "process_stage": "거론",
-      "article_ids": [
-        "a30"
-      ],
-      "evidence": "호텔롯데 지분 '5.02%'",
-      "_articles": [
-        {
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439331",
-          "source": "연합인포맥스",
-          "title": "신한금융, 롯데손보 2대주주 호텔롯데 지분 '5.02%' 선점하나"
+          "title": "더휴식, 주관사 선정 착수…상장 준비 본격화"
         }
       ]
     }
@@ -385,59 +284,66 @@
   "market_signals": [
     {
       "type": "DEAL_DROP",
-      "summary": "일본 기업 대상 외국인 M&A 역대 최대",
+      "summary": "글로벌 석유사 M&A 신중 기조",
       "article_ids": [
-        "a23"
+        "a33",
+        "a24"
       ],
-      "evidence": "외국인 M&A '역대 최대' 폭발",
+      "evidence": "대규모 인수합병(M&A)을 적극 발표하는 데 신중한",
       "_articles": [
         {
-          "url": "https://www.g-enews.com/view.php?ud=2026101418014142700c8c1c064d_1",
-          "source": "글로벌이코노믹",
-          "title": "\"엔저·기업지배구조 효과\"… 日 기업 향한 외국인 M&A '역대 최대' 폭발"
+          "url": "https://www.newsis.com/view/NISX20261015_0003827405",
+          "source": "뉴시스",
+          "title": "글로벌 석유 5사, 전쟁 특수에 순익 75% 급증…활용처 고심"
+        },
+        {
+          "url": "https://www.mt.co.kr/world/2026/10/15/2026101516341258266",
+          "source": "머니투데이",
+          "title": "전쟁나면 돈 번다…세계5대 석유회사 상반기 순익 75% 늘어 101조"
         }
       ]
     },
     {
-      "type": "ACQ_FINANCING",
-      "summary": "국민성장펀드 등 PEF 펀드 결성 자금조달 부담",
+      "type": "DEAL_DROP",
+      "summary": "M&A 등 거래중개 사업 3분기 둔화",
       "article_ids": [
-        "a28"
+        "a4"
       ],
-      "evidence": "PEF 운용사 '펀딩 한파'",
+      "evidence": "거래 중개 사업은 3분기 들어 둔화",
       "_articles": [
         {
-          "url": "https://www.etoday.co.kr/news/view/2634838",
-          "source": "이투데이",
-          "title": "35조원 간접투자에 자금 쏠림…PEF 운용사 '펀딩 한파' [국민성장펀드 ..."
+          "url": "https://www.newspim.com/news/view/20261016000024",
+          "source": "뉴스핌",
+          "title": "[미국 특징주] 상반기 호황 끝났나… 금리·AI 변동성에 흔들린 월가 투..."
         }
       ]
     }
   ],
   "diag": {
     "llm_raw": {
-      "deals": 14,
-      "pe_moves": 4,
-      "for_sale": 4,
+      "deals": 6,
+      "pe_moves": 5,
+      "for_sale": 3,
       "market_signals": 2
     },
     "drops": [],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 8504,
+        "input_tokens": 7756,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 2747,
+        "output_tokens": 1805,
         "output_tokens_details": {
           "thinking_tokens": 0
         },
         "service_tier": "standard",
-        "inference_geo": "global"
+        "inference_geo": "global",
+        "speed": "standard"
       },
       "content_types": [
         "tool_use"
