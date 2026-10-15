@@ -326,7 +326,8 @@ def _verify_and_attach(items, cands, key_fields, drops=None):
             _drop("missing_key_field", it)
             continue
         it = dict(it)
-        it["_articles"] = [{"url": a.get("url"), "source": a.get("source_label")} for a in arts]
+        it["_articles"] = [{"url": a.get("url"), "source": a.get("source_label"),
+                            "title": html.unescape(a.get("title") or "").strip()} for a in arts]
         out.append(it)
     return out
 

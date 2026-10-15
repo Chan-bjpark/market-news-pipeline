@@ -641,52 +641,34 @@ def sec_deals(articles, intel=None):
     if not ok or not (deals or pe or fs or sig):
         return _sec_deals_rule(articles)
 
+    # 브라더 지시(2026-10-15): 소제목(거론딜/관심산업/PE/매물/시그널) 구분 없이 하나의 리스트로,
+    # 각 항목은 기사 제목 그대로 출력, 대표기사 중복은 제거(엔타스·듀오가 딜+매물 양쪽 중복되던 문제).
     L = ["🤝 *[딜·M&A 모니터링]*"]
+    seen = set()
     count = 0
-    gen = [d for d in deals if not _is_focus(d.get("industry"))]
-    foc = [d for d in deals if _is_focus(d.get("industry"))]
 
-    def deal_line(d):
-        bits = [d.get("target", "").strip()]
-        tail = []
-        if d.get("stage"):
-            tail.append(d["stage"])
-        if d.get("counterparties"):
-            tail.append(d["counterparties"])
-        if d.get("amount"):
-            tail.append(d["amount"])
-        head = bits[0] + (f" — {', '.join(tail)}" if tail else "")
-        pe_s = f" _[{'·'.join(d.get('pe_firms'))}]_" if d.get("pe_firms") else ""
-        return f"• {head}{pe_s} {_intel_links(d)}".rstrip()
+    def _title_of(it):
+        arts = it.get("_articles") or []
+        return ((arts[0].get("title") if arts else "") or "").strip()
 
-    if gen:
-        L.append("*📌 거론 딜*")
-        for d in gen[:6]:
-            L.append(deal_line(d)); count += 1
-    if foc:
-        L.append("*🧬 그룹 관심산업 딜* _(인벌브 검토)_")
-        for d in foc[:5]:
-            L.append(deal_line(d)); count += 1
-    if pe:
-        L.append("*🏢 PE 하우스 동향*")
-        for m in pe[:4]:
-            tgt = f" — {m.get('target')}" if m.get("target") else ""
-            L.append(f"• {m.get('pe','')} {m.get('action','')}{tgt} {_intel_links(m)}".rstrip())
-            count += 1
-    if fs:
-        L.append("*🏷️ 매물 리스트*")
-        for s in fs[:5]:
-            sl = f", {s.get('seller')}" if s.get("seller") else ""
-            L.append(f"• {s.get('asset','')} — {s.get('process_stage','')}{sl} {_intel_links(s)}".rstrip())
-            count += 1
-    if sig:
-        L.append("*📈 마켓 시그널*")
-        for m in sig[:3]:
-            lab = _SIGNAL_LABEL.get(m.get("type"), "시그널")
-            L.append(f"• [{lab}] {m.get('summary','')} {_intel_links(m)}".rstrip())
-            count += 1
+    for it in [*deals, *pe, *fs, *sig]:
+        arts = it.get("_articles") or []
+        if not arts:
+            continue
+        key = arts[0].get("url") or _title_of(it)
+        if not key or key in seen:          # 대표기사 중복 제거
+            continue
+        seen.add(key)
+        # 라벨 = 기사 제목 그대로. 제목이 비면 구조화 필드로 폴백.
+        fb = (it.get("target") or it.get("pe") or it.get("asset")
+              or it.get("summary") or "").strip()
+        title = _title_of(it) or fb
+        if not title:
+            continue
+        L.append(f"• {title} {_intel_links(it)}".rstrip())   # 제목엔 링크X, 매체명에만 링크
+        count += 1
     if count == 0:
-        L.append("• 특이사항 없음")
+        return _sec_deals_rule(articles)
     return "\n".join(L), count
 
 
