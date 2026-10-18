@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:11:25.725793+00:00",
+  "generated_at": "2026-10-18T22:11:24.266985+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -15,7 +15,7 @@
     },
     "공정위": {
       "ok": true,
-      "count": 9,
+      "count": 8,
       "fetched": 10
     },
     "거래소": {
@@ -25,6 +25,78 @@
     }
   },
   "releases": [
+    {
+      "title": "글로벌 3대 신용평가사, 주요국 수석대표 및 다자개발은행 총재 등 주요 인사 면담 결과",
+      "date": "2026-10-18",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079680&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "금융위원회 인사보도(3급·4급 전보)",
+      "date": "2026-10-16",
+      "url": "https://www.fsc.go.kr/no010101/87949",
+      "agency": "금융위"
+    },
+    {
+      "title": "“내 집 어디에, 언제 공급되나” 주택공급, 계획부터 성과까지 정례적으로 공개합니다",
+      "date": "2026-10-16",
+      "url": "https://www.fsc.go.kr/no010101/87948",
+      "agency": "금융위"
+    },
+    {
+      "title": "‘무기한 선물’ 이용자 유의사항 안내 - 최근 글로벌 가상자산플랫폼 등에서 거래되는 ‘무기한 선물’은 국내법의 투자자 보호가 적용되지 않아 각별한 주의 필요",
+      "date": "2026-10-16",
+      "url": "https://www.fsc.go.kr/no010101/87947",
+      "agency": "금융위"
+    },
+    {
+      "title": "제2차 국민참여성장펀드, 5,198억원을 모집하고 판매종료",
+      "date": "2026-10-16",
+      "url": "https://www.fsc.go.kr/no010101/87944",
+      "agency": "금융위"
+    },
+    {
+      "title": "제11차 관계부처 합동 일자리전담반(TF) 개최",
+      "date": "2026-10-16",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079661&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "한미 재무·통화당국 2+2 면담 개최",
+      "date": "2026-10-16",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079678&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "주요 20개국(G20)·주요 7개국(G7) 재무장관회의 참석 및 주요인사 면담 결과",
+      "date": "2026-10-16",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079665&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "[보도참고] 2026년 10월 최근 경제동향",
+      "date": "2026-10-16",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079663&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "시장상황점검회의 개최",
+      "date": "2026-10-16",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079662&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "[보도참고] '26.9월 고용동향 및 평가",
+      "date": "2026-10-16",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079660&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "결혼서비스업 분야 중요정보고시 위반 업체 과태료 부과절차 진행",
+      "date": "2026-10-16",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48114",
+      "agency": "공정위"
+    },
     {
       "title": "｢유관기관 증시상황 긴급 점검회의｣ 개최",
       "date": "2026-10-15",
@@ -74,30 +146,6 @@
       "agency": "금융위"
     },
     {
-      "title": "사업보고서 등에 대한 조사·감리결과 조치 - 제18차 증권선물위원회(10.14.) 조치 의결",
-      "date": "2026-10-14",
-      "url": "https://www.fsc.go.kr/no010101/87929",
-      "agency": "금융위"
-    },
-    {
-      "title": "금융권 침해사고 재발방지를 위해 금융보안 관리체계를 전면 강화하겠습니다. 금융위 사무처장 주재, 「제2차 긴급 상황대응 회의」 개최",
-      "date": "2026-10-14",
-      "url": "https://www.fsc.go.kr/no010101/87927",
-      "agency": "금융위"
-    },
-    {
-      "title": "제2차 국민참여성장펀드 판매가 내일(10.15일) 17시에 마감됩니다.",
-      "date": "2026-10-14",
-      "url": "https://www.fsc.go.kr/no010101/87926",
-      "agency": "금융위"
-    },
-    {
-      "title": "금융위원회 안창국 상임위원, 금융안정위원회(FSB) 규제·감독협력상임위(SRC) 및 ｢KOOM Week 2026｣ 참석",
-      "date": "2026-10-14",
-      "url": "https://www.fsc.go.kr/no010101/87924",
-      "agency": "금융위"
-    },
-    {
       "title": "[보도참고] 공급망안정화기금은 공급망 위기 대응을 위한 금융지원을 확대해 왔으며, 앞으로 중소·중견기업 지원도 강화하겠습니다.",
       "date": "2026-10-14",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079639&menuNo=4010100",
@@ -110,52 +158,10 @@
       "agency": "기재부"
     },
     {
-      "title": "이형일 부총리, 국제통화기금(IMF)·세계은행 연차 총회 및 주요 20개국(G20), 주요 7개국(G7) 재무장관회의 참석 위해 출국",
-      "date": "2026-10-14",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079629&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "2026년도 하반기 공급망안정화 선도사업자 선정 계획",
-      "date": "2026-10-14",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079636&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "이형일 부총리, 베센트 美 재무장관과 화상면담",
-      "date": "2026-10-14",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079634&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "이형일 부총리, 통상 분야 전문가 간담회 개최",
-      "date": "2026-10-14",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079630&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "「AI·융복합 K-뷰티 서비스 지원방안」 발표",
-      "date": "2026-10-14",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079628&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "밀가루 부산물 가격담합 사건 심의 절차 개시",
       "date": "2026-10-14",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48107",
       "agency": "공정위"
-    },
-    {
-      "title": "원화국제화 관련 외환규제 완화를 위한 「외국환거래규정」 개정안 행정예고",
-      "date": "2026-10-13",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079619&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "수출플러스 지원단, 경남 지역수출진흥 협력회의 및 수출금융 설명회 개최",
-      "date": "2026-10-13",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079627&menuNo=4010100",
-      "agency": "기재부"
     },
     {
       "title": "조정원, 인도 ODR 전문기관과 간담회 개최",
@@ -185,18 +191,6 @@
       "title": "온라인 다크패턴 규제 관련 가이드라인 배포",
       "date": "2026-10-06",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48089",
-      "agency": "공정위"
-    },
-    {
-      "title": "공정위 상임위원에 김자봉 현(現) 한국금융연구원 선임연구위원 임명",
-      "date": "2026-10-02",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48083",
-      "agency": "공정위"
-    },
-    {
-      "title": "26년 추석 명절 대비 미지급 하도급대금 해결센터 운영 결과",
-      "date": "2026-10-02",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48082",
       "agency": "공정위"
     }
   ]

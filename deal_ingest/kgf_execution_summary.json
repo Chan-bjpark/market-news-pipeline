@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:11:15.810736+00:00",
+  "generated_at": "2026-10-18T22:11:12.240639+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-10-15T22:11:15.810647+00:00",
+    "sheet_synced_at": "2026-10-18T22:11:12.240548+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3409,6 +3409,32 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "대신PE",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "400억",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "timeline": [
+        {
+          "date": "2026-10-16",
+          "event": "[더벨]대신PE, 두산퓨얼셀 영구채 400억 투자…블라인드 2개 동원",
+          "methods": [
+            "출자"
+          ],
+          "amount": "400억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141426448640104879",
+          "source": "더벨"
+        }
+      ]
+    },
     {
       "company_name": "선방",
       "sector": null,
@@ -9426,36 +9452,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-09-06",
-      "title": "국가보증·공공기관 부채 눈덩이…'그림자 부채' 4년뒤 1천155조",
-      "url": "https://www.yna.co.kr/view/AKR20260905039500002?input=1195m",
-      "source": "연합뉴스"
-    },
-    {
-      "date": "2026-09-06",
-      "title": "첨단산업·한미 투자에 ‘잠재 나랏빚’도 급증···관건은 ‘투자 성...",
-      "url": "https://www.khan.co.kr/article/202609061449001",
-      "source": "경향신문"
-    },
-    {
-      "date": "2026-09-06",
-      "title": "국민 세금으로 갚아야 하는 ‘적자성 채무’ 4년뒤 1300조 돌파",
-      "url": "https://www.donga.com/news/Economy/article/all/20260906/134613706/1",
-      "source": "동아일보"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "AI·혁신기업 키운다더니 결국 '삼전닉스'…국민성장펀드 공모형 딜레마",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/09/07/2026090780113.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "정일부 IMM인베 대표, IMM세컨더리벤처펀드제7호 결성 페달 [VC 2026 하반...",
-      "url": "https://www.fntimes.com/html/view.php?ud=202609042132205095dd55077bc2_18",
-      "source": "한국금융신문"
-    },
-    {
       "date": "2026-09-07",
       "title": "혈세로 갚아야할 나랏빚 4년뒤 1300조 넘어",
       "url": "https://www.donga.com/news/Economy/article/all/20260907/134615937/2",
@@ -10024,8 +10020,38 @@
       "title": "[서정희 칼럼] 실점 줄이고 연속 득점…전원일치 판정승 노려야",
       "url": "https://www.ajunews.com/view/20261007190728066",
       "source": "아주경제"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "2차 국민성장펀드, 막판 판매 독려에도 결국 완판 실패",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/10/16/2026101680002.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "'정부가 손실 먼저 떠안는데'…2차 국민성장펀드 완판 실패한 이유",
+      "url": "https://www.newspim.com/news/view/20261016001020",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "\"소파에서 극장으로\"… CJ 4D플렉스, 4DX 앞세워 '오프라인 넷플릭스' 도...",
+      "url": "https://www.g-enews.com/view.php?ud=2026101716221641710c8c1c064d_1",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "정책금융·내부통제·사고 예방…KDB·IBK, 과제 ‘산적ʼ [포스트 2026 국...",
+      "url": "https://www.fntimes.com/html/view.php?ud=202610162102256228dd55077bc2_18",
+      "source": "한국금융신문"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "[더벨]초대형 벤처펀드 시대, '차등 관리보수' 확산",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610151550060640107531",
+      "source": "더벨"
     }
   ],
-  "matched_articles_this_run": 463,
+  "matched_articles_this_run": 464,
   "confirmed_deals_count": 16
 }

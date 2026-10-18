@@ -1,72 +1,132 @@
 {
-  "generated_at": "2026-10-15T22:11:26.053655+00:00",
+  "generated_at": "2026-10-18T22:11:24.568974+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
   "fallback": false,
   "deals": [
     {
-      "target": "SK실트론",
-      "counterparties": "두산그룹",
+      "target": "참존",
+      "counterparties": "동원그룹",
       "pe_firms": [],
-      "industry": "반도체",
+      "industry": "화장품",
       "stage": "거론",
       "amount": null,
-      "one_liner": "두산그룹의 SK실트론 인수합병 추진",
+      "one_liner": "동원그룹, 화장품 참존에 베팅",
       "article_ids": [
         "a0"
       ],
-      "evidence": "SK실트론 인수합병(M&A) 추진",
+      "evidence": "참존에 베팅한 노림수",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610131815461960108423",
+          "url": "https://dealsite.co.kr/articles/170739",
+          "source": "딜인사이트",
+          "title": "'신중한 M&A 전략가' 김남정...참존에 베팅한 노림수"
+        }
+      ]
+    },
+    {
+      "target": "시지바이오",
+      "counterparties": null,
+      "pe_firms": [
+        "IMM",
+        "TPG"
+      ],
+      "industry": "바이오",
+      "stage": "매각 진행",
+      "amount": null,
+      "one_liner": "시지바이오 매각, IMM·TPG 실사",
+      "article_ids": [
+        "a12"
+      ],
+      "evidence": "실사 마친 IMM·다크호스 TPG…시지바이오 매각",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610140941405440103832",
           "source": "더벨",
-          "title": "[더벨][두산 품에 안기는 SK실트론] OCI와 반도체용 폴리실리콘 계약 확..."
+          "title": "실사 마친 IMM·다크호스 TPG…시지바이오 매각, 대웅의 선택은"
         }
       ]
     },
     {
-      "target": "율곡",
-      "counterparties": "VIG파트너스",
+      "target": "한국파크골프",
+      "counterparties": "셀베인인베스트먼트",
       "pe_firms": [
-        "VIG파트너스"
+        "셀베인인베스트먼트"
       ],
-      "industry": "항공부품",
-      "stage": "클로징 임박",
-      "amount": "3000억원",
-      "one_liner": "VIG파트너스의 항공부품사 율곡 인수 마무리",
-      "article_ids": [
-        "a25"
-      ],
-      "evidence": "율곡 인수 이달 마무리",
-      "_articles": [
-        {
-          "url": "https://biz.chosun.com/stock/market_trend/2026/10/15/T6ARIB266ZAKLM52XRQWC4OHSU/",
-          "source": "조선일보",
-          "title": "VIG, 항공부품사 율곡 인수 이달 마무리… 3000억 거래 클로징 임박"
-        }
-      ]
-    },
-    {
-      "target": "리메드",
-      "counterparties": "LF인베스트먼트, 포인터스프라이빗에쿼티",
-      "pe_firms": [
-        "LF인베스트먼트",
-        "포인터스프라이빗에쿼티"
-      ],
-      "industry": "의료기기",
+      "industry": "스포츠",
       "stage": "거론",
-      "amount": "150억원",
-      "one_liner": "LF인베스트먼트, 리메드에 150억 투자",
+      "amount": null,
+      "one_liner": "셀베인, 한국파크골프 경영권 인수 추진",
       "article_ids": [
-        "a19"
+        "a13"
       ],
-      "evidence": "리메드에 총 150억원을 투자",
+      "evidence": "경영권 인수 추진",
       "_articles": [
         {
-          "url": "https://biz.chosun.com/stock/stock_general/2026/10/15/SPXKE3EL6BDNBCCDAGMO72IVMU/",
-          "source": "조선일보",
-          "title": "LF인베스트먼트, 리메드에 150억 투자… CB 전환 시 2대 주주"
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610161002593240105232",
+          "source": "더벨",
+          "title": "'신생' 셀베인인베스트먼트, 한국파크골프 경영권 인수 추진"
+        }
+      ]
+    },
+    {
+      "target": "중앙일보",
+      "counterparties": "CJ, 다우키움 연합",
+      "pe_firms": [],
+      "industry": "미디어",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "중앙일보 인수전, CJ 참전",
+      "article_ids": [
+        "a15"
+      ],
+      "evidence": "중앙일보 인수전 술렁",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610161624137040107990",
+          "source": "더벨",
+          "title": "CJ 막판 참전에 중앙일보 인수전 술렁…다우키움 연합 급부상"
+        }
+      ]
+    },
+    {
+      "target": "알테오젠바이오로직스",
+      "counterparties": "알테오젠",
+      "pe_firms": [],
+      "industry": "바이오",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "알테오젠, 자회사 흡수합병",
+      "article_ids": [
+        "a10"
+      ],
+      "evidence": "흡수합병하며 조직 일원화",
+      "_articles": [
+        {
+          "url": "https://www.fntimes.com/html/view.php?ud=202610162134548748dd55077bc2_18",
+          "source": "한국금융신문",
+          "title": "[THE COMPASS] ‘자회사 합병’ 알테오젠, 기술수출 넘어 자체 상업화 속..."
+        }
+      ]
+    },
+    {
+      "target": "솔리다임",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "반도체",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "솔리다임, M&A로 세운 미국 손자회사 상장",
+      "article_ids": [
+        "a30"
+      ],
+      "evidence": "인수합병(M&A)으로 세운 미국 손자회사의 현지 상장",
+      "_articles": [
+        {
+          "url": "https://www.hankyung.com/article/2026101889121",
+          "source": "한국경제",
+          "title": "솔리다임 美상장에 정치권 '엉뚱한 잣대'"
         }
       ]
     },
@@ -77,267 +137,244 @@
       "industry": "유통",
       "stage": "거론",
       "amount": null,
-      "one_liner": "홈플러스 매각 진행, 10월 말 인수의향서 접수",
-      "article_ids": [
-        "a28",
-        "a34"
-      ],
-      "evidence": "10월 말까지 인수의향서를 받을 예정",
-      "_articles": [
-        {
-          "url": "https://www.ajunews.com/view/20261015132810082",
-          "source": "아주경제",
-          "title": "매각 시계는 가는데 매장 체력은 떨어진다…홈플러스 '10월 말' 분수령"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202610151401555533",
-          "source": "파이낸셜뉴스",
-          "title": "홈플러스, 희망퇴직 8일 만에 조기 마감…신청자 몰려"
-        }
-      ]
-    },
-    {
-      "target": "KDB생명",
-      "counterparties": null,
-      "pe_firms": [],
-      "industry": "보험",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "KDB생명 매각 협상 지연",
-      "article_ids": [
-        "a12"
-      ],
-      "evidence": "KDB생명 매각 협상 지연",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610151353239000104019",
-          "source": "더벨",
-          "title": "KDB생명 매각 협상 지연, 자본확충 셈법 복잡"
-        }
-      ]
-    },
-    {
-      "target": "HLB제넥스",
-      "counterparties": "진양곤 의장(개인법인 에포케)",
-      "pe_firms": [],
-      "industry": "바이오",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "진양곤 개인법인, HLB제넥스 지분 확대",
+      "one_liner": "홈플러스 M&A 성사 여부 불투명",
       "article_ids": [
         "a26",
-        "a31"
+        "a34"
       ],
-      "evidence": "HLB제넥스 지분 확대",
+      "evidence": "인수합병(M&A) 성사 여부도 불투명",
       "_articles": [
         {
-          "url": "https://www.newspim.com/news/view/20261015001214",
-          "source": "뉴스핌",
-          "title": "진양곤 개인법인, HLB제넥스 지분 확대"
+          "url": "https://www.fnnews.com/news/202610181816555764",
+          "source": "파이낸셜뉴스",
+          "title": "홈플, 매출 부진에 M&A도 난항... 위로금 없는 희망퇴직 신청 몰려"
         },
         {
-          "url": "https://view.asiae.co.kr/article/2026101515214613715",
-          "source": "아시아경제",
-          "title": "HLB그룹, 진양곤 의장 HLB제넥스 지분 매수"
+          "url": "https://www.fnnews.com/news/202610161602506486",
+          "source": "파이낸셜뉴스",
+          "title": "추석 대목도 날리고 M&A도 안갯속…'진퇴양난' 홈플러스"
+        }
+      ]
+    },
+    {
+      "target": "한미약품",
+      "counterparties": "라데팡스파트너스",
+      "pe_firms": [
+        "라데팡스파트너스"
+      ],
+      "industry": "제약",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "한미약품 지분 연합, 라데팡스 합류",
+      "article_ids": [
+        "a7"
+      ],
+      "evidence": "사모펀드 운용사(PEF) 라데팡스파트너스 합류",
+      "_articles": [
+        {
+          "url": "https://www.fntimes.com/html/view.php?ud=202610162141207997dd55077bc2_18",
+          "source": "한국금융신문",
+          "title": "‘지분싸움·기술반환’ 이중고 한미약품…반등 키는 ‘후속 비만 신약..."
         }
       ]
     }
   ],
   "pe_moves": [
     {
-      "pe": "VIG파트너스",
-      "action": "항공부품사 율곡 인수 추진, 5호 블라인드펀드 최종 결성",
-      "target": "율곡",
+      "pe": "라데팡스파트너스",
+      "action": "한미약품 4자 연합 합류",
+      "target": "한미약품",
       "article_ids": [
-        "a25"
+        "a7"
       ],
-      "evidence": "VIG, 항공부품사 율곡 인수 이달 마무리",
+      "evidence": "사모펀드 운용사(PEF) 라데팡스파트너스 합류",
       "_articles": [
         {
-          "url": "https://biz.chosun.com/stock/market_trend/2026/10/15/T6ARIB266ZAKLM52XRQWC4OHSU/",
-          "source": "조선일보",
-          "title": "VIG, 항공부품사 율곡 인수 이달 마무리… 3000억 거래 클로징 임박"
+          "url": "https://www.fntimes.com/html/view.php?ud=202610162141207997dd55077bc2_18",
+          "source": "한국금융신문",
+          "title": "‘지분싸움·기술반환’ 이중고 한미약품…반등 키는 ‘후속 비만 신약..."
         }
       ]
     },
     {
-      "pe": "우리PE",
-      "action": "2500억 단독 블라인드펀드 조성 시동",
+      "pe": "인터베스트",
+      "action": "국민성장펀드 AI·반도체 중형분야 출자사업 선정, 펀드 결성 진행",
       "target": null,
       "article_ids": [
-        "a8"
+        "a1"
       ],
-      "evidence": "우리PE, 2500억 단독 블라인드펀드 조성 시동",
+      "evidence": "하드캡 4000억원 규모로 펀드 결성을 진행",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202604221341483200109542",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610151550060640107531",
           "source": "더벨",
-          "title": "우리PE, 2500억 단독 블라인드펀드 조성 시동"
+          "title": "[더벨]초대형 벤처펀드 시대, '차등 관리보수' 확산"
         }
       ]
     },
     {
-      "pe": "LF인베스트먼트",
-      "action": "포인터스프라이빗에쿼티와 메드테크1호 신기술투자조합 결성해 리메드 투자",
-      "target": "리메드",
+      "pe": "IMM",
+      "action": "시지바이오 매각 실사",
+      "target": "시지바이오",
       "article_ids": [
-        "a19"
+        "a12"
       ],
-      "evidence": "리메드에 총 150억원을 투자하기로",
+      "evidence": "실사 마친 IMM",
       "_articles": [
         {
-          "url": "https://biz.chosun.com/stock/stock_general/2026/10/15/SPXKE3EL6BDNBCCDAGMO72IVMU/",
-          "source": "조선일보",
-          "title": "LF인베스트먼트, 리메드에 150억 투자… CB 전환 시 2대 주주"
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610140941405440103832",
+          "source": "더벨",
+          "title": "실사 마친 IMM·다크호스 TPG…시지바이오 매각, 대웅의 선택은"
         }
       ]
     },
     {
-      "pe": "VIG파트너스",
-      "action": "군인공제회 3000억 펀드 운용 선정",
-      "target": null,
+      "pe": "TPG",
+      "action": "시지바이오 매각 실사",
+      "target": "시지바이오",
       "article_ids": [
-        "a16"
+        "a12"
       ],
-      "evidence": "VIG·미래에셋 등, 군인공제회 3000억 펀드 운용",
+      "evidence": "다크호스 TPG",
       "_articles": [
         {
-          "url": "https://www.fnnews.com/news/202610151829555972",
-          "source": "파이낸셜뉴스",
-          "title": "VIG·미래에셋 등, 군인공제회 3000억 펀드 운용"
-        }
-      ]
-    },
-    {
-      "pe": "미래에셋",
-      "action": "군인공제회 3000억 펀드 운용 선정",
-      "target": null,
-      "article_ids": [
-        "a16"
-      ],
-      "evidence": "미래에셋 등, 군인공제회 3000억 펀드 운용",
-      "_articles": [
-        {
-          "url": "https://www.fnnews.com/news/202610151829555972",
-          "source": "파이낸셜뉴스",
-          "title": "VIG·미래에셋 등, 군인공제회 3000억 펀드 운용"
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610140941405440103832",
+          "source": "더벨",
+          "title": "실사 마친 IMM·다크호스 TPG…시지바이오 매각, 대웅의 선택은"
         }
       ]
     }
   ],
   "for_sale": [
     {
-      "asset": "홈플러스",
-      "seller": "홈플러스",
-      "process_stage": "인수의향서 접수 예정(10월 말)",
-      "article_ids": [
-        "a28",
-        "a34"
-      ],
-      "evidence": "10월 말까지 인수의향서를 받을 예정",
-      "_articles": [
-        {
-          "url": "https://www.ajunews.com/view/20261015132810082",
-          "source": "아주경제",
-          "title": "매각 시계는 가는데 매장 체력은 떨어진다…홈플러스 '10월 말' 분수령"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202610151401555533",
-          "source": "파이낸셜뉴스",
-          "title": "홈플러스, 희망퇴직 8일 만에 조기 마감…신청자 몰려"
-        }
-      ]
-    },
-    {
-      "asset": "KDB생명",
+      "asset": "시지바이오",
       "seller": null,
-      "process_stage": "매각 협상 지연",
+      "process_stage": "실사 완료 후 매각 진행",
       "article_ids": [
         "a12"
       ],
-      "evidence": "KDB생명 매각 협상 지연",
+      "evidence": "실사 마친 IMM·다크호스 TPG…시지바이오 매각",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610151353239000104019",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610140941405440103832",
           "source": "더벨",
-          "title": "KDB생명 매각 협상 지연, 자본확충 셈법 복잡"
+          "title": "실사 마친 IMM·다크호스 TPG…시지바이오 매각, 대웅의 선택은"
         }
       ]
     },
     {
-      "asset": "더휴식",
-      "seller": null,
-      "process_stage": "주관사 선정 착수(상장 준비)",
+      "asset": "에이본(미국)",
+      "seller": "LG생활건강",
+      "process_stage": "매각 완료",
       "article_ids": [
-        "a11"
+        "a2"
       ],
-      "evidence": "더휴식, 주관사 선정 착수",
+      "evidence": "미국 에이본을 84억원에 헐값 처분",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610151400059480105046",
-          "source": "더벨",
-          "title": "더휴식, 주관사 선정 착수…상장 준비 본격화"
+          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092172177",
+          "source": "조선일보",
+          "title": "해외선 5000억 날리고 국내선 매각 난항…LG생건 'M&A 잔혹사'"
+        }
+      ]
+    },
+    {
+      "asset": "국내 음료 자회사",
+      "seller": "LG생활건강",
+      "process_stage": "매각 난항",
+      "article_ids": [
+        "a2"
+      ],
+      "evidence": "국내선 매각 난항",
+      "_articles": [
+        {
+          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092172177",
+          "source": "조선일보",
+          "title": "해외선 5000억 날리고 국내선 매각 난항…LG생건 'M&A 잔혹사'"
+        }
+      ]
+    },
+    {
+      "asset": "홈플러스",
+      "seller": null,
+      "process_stage": "인수 후보 불투명",
+      "article_ids": [
+        "a26",
+        "a34"
+      ],
+      "evidence": "뚜렷한 인수 후보마저 나타나지 않아",
+      "_articles": [
+        {
+          "url": "https://www.fnnews.com/news/202610181816555764",
+          "source": "파이낸셜뉴스",
+          "title": "홈플, 매출 부진에 M&A도 난항... 위로금 없는 희망퇴직 신청 몰려"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202610161602506486",
+          "source": "파이낸셜뉴스",
+          "title": "추석 대목도 날리고 M&A도 안갯속…'진퇴양난' 홈플러스"
         }
       ]
     }
   ],
   "market_signals": [
     {
-      "type": "DEAL_DROP",
-      "summary": "글로벌 석유사 M&A 신중 기조",
+      "type": "VALUATION_GAP",
+      "summary": "M&A 자문 수수료 사상 최대",
       "article_ids": [
-        "a33",
-        "a24"
+        "a27"
       ],
-      "evidence": "대규모 인수합병(M&A)을 적극 발표하는 데 신중한",
+      "evidence": "M&A 자문 수수료가 16억5400만달러로 분기 기준 사상 최대",
       "_articles": [
         {
-          "url": "https://www.newsis.com/view/NISX20261015_0003827405",
-          "source": "뉴시스",
-          "title": "글로벌 석유 5사, 전쟁 특수에 순익 75% 급증…활용처 고심"
-        },
-        {
-          "url": "https://www.mt.co.kr/world/2026/10/15/2026101516341258266",
-          "source": "머니투데이",
-          "title": "전쟁나면 돈 번다…세계5대 석유회사 상반기 순익 75% 늘어 101조"
+          "url": "https://www.hankyung.com/article/2026101889221",
+          "source": "한국경제",
+          "title": "골드만삭스 M&A자문…3분기 수익 '사상 최대'"
         }
       ]
     },
     {
       "type": "DEAL_DROP",
-      "summary": "M&A 등 거래중개 사업 3분기 둔화",
+      "summary": "LG생활건강 M&A 매각 손실 사례",
       "article_ids": [
-        "a4"
+        "a2"
       ],
-      "evidence": "거래 중개 사업은 3분기 들어 둔화",
+      "evidence": "5000억 넘게 투입한 미국 에이본을 84억원에 헐값 처분",
       "_articles": [
         {
-          "url": "https://www.newspim.com/news/view/20261016000024",
-          "source": "뉴스핌",
-          "title": "[미국 특징주] 상반기 호황 끝났나… 금리·AI 변동성에 흔들린 월가 투..."
+          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092172177",
+          "source": "조선일보",
+          "title": "해외선 5000억 날리고 국내선 매각 난항…LG생건 'M&A 잔혹사'"
         }
       ]
     }
   ],
   "diag": {
     "llm_raw": {
-      "deals": 6,
-      "pe_moves": 5,
-      "for_sale": 3,
+      "deals": 9,
+      "pe_moves": 4,
+      "for_sale": 4,
       "market_signals": 2
     },
-    "drops": [],
+    "drops": [
+      {
+        "reason": "bad_or_missing_article_ids",
+        "label": "A제약 관련 참고 없음",
+        "evidence": "",
+        "ids": []
+      }
+    ],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 7756,
+        "input_tokens": 7504,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 1805,
+        "output_tokens": 2049,
         "output_tokens_details": {
           "thinking_tokens": 0
         },

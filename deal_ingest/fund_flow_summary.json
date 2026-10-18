@@ -1,74 +1,19 @@
 {
-  "generated_at": "2026-10-15T22:11:14.999997+00:00",
+  "generated_at": "2026-10-18T22:11:11.248113+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 664,
+  "total_policy_articles": 672,
   "matched_funds_count": 3,
-  "unmatched_count": 208,
+  "unmatched_count": 215,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-19",
-      "last_updated": "2026-10-15",
-      "event_count": 453,
+      "first_seen": "2026-07-21",
+      "last_updated": "2026-10-19",
+      "event_count": 454,
       "timeline": [
-        {
-          "date": "2026-07-19",
-          "published_at": "2026-07-19T18:40:00+09:00",
-          "stage_code": "closed",
-          "stage_label": "결성 완료",
-          "amount": null,
-          "title": "박터진 국민성장펀드 쟁탈전 끝…'수익성 저하' 우려도 [PE는 지금]",
-          "summary": "올해 국민성장펀드 운용사(GP) 선정 작업이 1·2차 출자사업으로 마무리되면서 사모펀드(PEF) 업계의 희비도... IB업계 관계자는 \"민간 블라인드펀드를 만들 때 펀드 결성 가능성이 가장 중요한데, 국민성장펀드는 선정만...",
-          "url": "https://view.asiae.co.kr/article/2026071611025083100",
-          "source_label": "아시아경제"
-        },
-        {
-          "date": "2026-07-20",
-          "published_at": "2026-07-20T06:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "1000억 원",
-          "title": "2027년 전고체 양산 임박… K-배터리 골든타임",
-          "summary": "핵심 소재 공급망의 국산화를 위해 2026년 2월, 국민성장펀드 기금운용심의회에서 전고체 소재 공장 구축 사업에 1000억 원 저리대출을 의결하기도 했다. 전고체 배터리 개발에 뛰어든 주요 기업들은 2027~2030년을 양산...",
-          "url": "https://magazine.hankyung.com/money/article/202606111084c",
-          "source_label": "한국경제"
-        },
-        {
-          "date": "2026-07-20",
-          "published_at": "2026-07-20T07:02:00+09:00",
-          "stage_code": "gp_selected",
-          "stage_label": "운용사 선정",
-          "amount": "8000억",
-          "title": "[DQN] KB '정책매칭'·우리 '디노랩 연계'...5대 금융, 8000억 모펀드 출...",
-          "summary": "국민성장펀드를 비롯한 주요 정책 출자기관이 조성하는 펀드에 민간 매칭 자금을 공급하고, 세컨더리·지역·청년 등 목적별 펀드도 제한 없이 검토할 방침이다. 운용사 선정에서는 벤처캐피탈(VC)과 사모펀드(PE)를...",
-          "url": "https://www.fntimes.com/html/view.php?ud=2026071617172951071b5a221379_18",
-          "source_label": "한국금융신문"
-        },
-        {
-          "date": "2026-07-20",
-          "published_at": "2026-07-20T07:02:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": null,
-          "title": "[Invest]목에 힘주는 국민성장펀드 운용사…기본 2배 펀딩에 병행펀드 출...",
-          "summary": "국민성장펀드 관련 실적을 쌓아야 하는 민간 출자자(LP)들이 몸이 달았는데 선정된 GP들은 느긋한 분위기다.... 출자금을 한 푼이라도 더 모으기 위해 LP를 찾아다녔다. 하지만 이번에는 오히려 출자자를 선별하거나 기관...",
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/16/2026071680151.html",
-          "source_label": "인베스트조선"
-        },
-        {
-          "date": "2026-07-20",
-          "published_at": "2026-07-20T07:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "8조",
-          "title": "[더벨][thebell League Table | 2026년 상반기] ICT 투자에 2.8조 몰렸다…...",
-          "summary": "리벨리온은 국민성장펀드 직접투자 1호 기업으로 선정돼 기금운용심의회 직접투자 2500억원과 산업은행 500억원, 미래에셋 등 민간 매칭 3000억원을 합쳐 6000억원을 수령했다. 정부가 국민성장펀드를 통해 직접...",
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607150819126360106375",
-          "source_label": "더벨"
-        },
         {
           "date": "2026-07-21",
           "published_at": "2026-07-21T07:32:00+09:00",
@@ -4996,6 +4941,72 @@
           "summary": "정책 전달체계 곳곳에 아군과 우군을 서둘러 전진 배치하고 정책 기획과 집행의 중심을 잡아야 한다.... 1기 정책팀의 과감한 혁신과 국민성장펀드 등 투자를 지속 추진해 잠재성장률을 계속 끌어올리는 일도 당연한 지속...",
           "url": "https://www.ajunews.com/view/20261007190728066",
           "source_label": "아주경제"
+        },
+        {
+          "date": "2026-10-16",
+          "published_at": "2026-10-16T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "2차 국민성장펀드, 막판 판매 독려에도 결국 완판 실패",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/16/2026101680002.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-10-16",
+          "published_at": "2026-10-16T08:18:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "400억",
+          "title": "[더벨]대신PE, 두산퓨얼셀 영구채 400억 투자…블라인드 2개 동원",
+          "summary": "별도의 프로젝트펀드를 조성하는 대신 운용 중인 펀드와 국민성장펀드 출자를 기반으로 결성하는 신규 블라인드펀드에서 투자 재원을 마련할 계획이다. 신규 펀드 결성이 완료되는 대로 자금을 집행한다는...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141426448640104879",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-10-17",
+          "published_at": "2026-10-17T07:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "'정부가 손실 먼저 떠안는데'…2차 국민성장펀드 완판 실패한 이유",
+          "summary": "이 위원장은 \"국민성장펀드는 정무위에서 여야 위원님들께서 공동발의하고 합의해 줘서 첨단전략산업기금을 만든 것\"이라며 \"민간자금만으로는 잘 안 움직이니까 정부가 마중물이 돼서 민간자금을 같이 끌어와...",
+          "url": "https://www.newspim.com/news/view/20261016001020",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-10-18",
+          "published_at": "2026-10-18T05:26:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "2,200억 원",
+          "title": "\"소파에서 극장으로\"… CJ 4D플렉스, 4DX 앞세워 '오프라인 넷플릭스' 도...",
+          "summary": "정부 금융위원회 산하 첨단전략산업기금(국민성장펀드)은 지난 8월 CJ 4DPLEX에 2,200억 원(약 1억 6,400만 달러) 규모의 투자를 확정했다. 기업가치 4,800억 원을 인정받은 이번 투자는 상환전환우선주(RCPS) 형태로...",
+          "url": "https://www.g-enews.com/view.php?ud=2026101716221641710c8c1c064d_1",
+          "source_label": "글로벌이코노믹"
+        },
+        {
+          "date": "2026-10-19",
+          "published_at": "2026-10-19T00:02:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": null,
+          "title": "정책금융·내부통제·사고 예방…KDB·IBK, 과제 ‘산적ʼ [포스트 2026 국...",
+          "summary": "산은의 지역별 집행 실적 관리와 함께 의무투자 대상 및 관할 조정 여부도 남은 과제다. 22일 종합감사에서는 국민성장펀드 예비심사의 객관성 확보 방안과 지역펀드의 실질적인 투자 확대 방향이 추가 논점이 될 수...",
+          "url": "https://www.fntimes.com/html/view.php?ud=202610162102256228dd55077bc2_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-10-19",
+          "published_at": "2026-10-19T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "4000억원",
+          "title": "[더벨]초대형 벤처펀드 시대, '차등 관리보수' 확산",
+          "summary": "주요 기관 출자자가 요구하는 보수 조건을 반영하면서 펀드 전체의 안정적인 운용에 필요한 재원을... 인터베스트는 국민성장펀드 AI·반도체 중형분야 출자사업에 선정돼 하드캡 4000억원 규모로 펀드 결성을 진행...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610151550060640107531",
+          "source_label": "더벨"
         }
       ]
     },
@@ -5056,12 +5067,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-07-20",
-      "title": "[마켓인] “15년 투자만은 부족”…초장기기술펀드, 회수·사업화 지원...",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03598166645516488",
-      "source_label": "이데일리"
-    },
     {
       "date": "2026-07-23",
       "title": "[더벨][티에스인베 PEF 밸류업] '중소기업 M&A' 전략…1호 펀드 IRR 23.3%",
@@ -5355,6 +5360,12 @@
       "title": "삼일PwC, 중견련과 4기 '중견기업 투자 리더스포럼'",
       "url": "https://www.newsis.com/view/NISX20260820_0003755419",
       "source_label": "뉴시스"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "삼일PwC, 중견기업 투자 역량 키운다…'리더스 포럼' 4기 개강",
+      "url": "http://www.fnnews.com/news/202608201330559496",
+      "source_label": "파이낸셜뉴스"
     }
   ]
 }
