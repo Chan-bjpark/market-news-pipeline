@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:11:24.266985+00:00",
+  "generated_at": "2026-10-19T22:11:33.686678+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -15,7 +15,7 @@
     },
     "공정위": {
       "ok": true,
-      "count": 8,
+      "count": 9,
       "fetched": 10
     },
     "거래소": {
@@ -25,6 +25,30 @@
     }
   },
   "releases": [
+    {
+      "title": "청년미래적금, 2차 가입 신청자 68.8만명 - 10.12~11.13일 가입심사, 11.16일부터 계좌개설 시작",
+      "date": "2026-10-19",
+      "url": "https://www.fsc.go.kr/no010101/87953",
+      "agency": "금융위"
+    },
+    {
+      "title": "보험업권과 복지부 산하 노인지원기관이 손잡고 65만명의 취약어르신에게 낙상사고 치료비, 치매배상책임보험을 무료로 제공하겠습니다.",
+      "date": "2026-10-19",
+      "url": "https://www.fsc.go.kr/no010101/87952",
+      "agency": "금융위"
+    },
+    {
+      "title": "국제통화위원회(IMFC) 참석 및 주요 인사 면담 결과",
+      "date": "2026-10-19",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079697&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "공정위, 제3회 특별성과 포상금 수여",
+      "date": "2026-10-19",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48117",
+      "agency": "공정위"
+    },
     {
       "title": "글로벌 3대 신용평가사, 주요국 수석대표 및 다자개발은행 총재 등 주요 인사 면담 결과",
       "date": "2026-10-18",
@@ -122,12 +146,6 @@
       "agency": "금융위"
     },
     {
-      "title": "제2차 국민참여성장펀드 판매 결과 잔여물량 현황(10.14일)",
-      "date": "2026-10-15",
-      "url": "https://www.fsc.go.kr/no010101/87932",
-      "agency": "금융위"
-    },
-    {
       "title": "이형일 부총리, 日 가타야마 재무장관 면담에서 한일 통화스왑 연장에 합의",
       "date": "2026-10-15",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079659&menuNo=4010100",
@@ -140,21 +158,9 @@
       "agency": "공정위"
     },
     {
-      "title": "국민성장펀드 초장기기술투자펀드(‘26년), 7개 운용사 선정",
-      "date": "2026-10-14",
-      "url": "https://www.fsc.go.kr/no010101/87930",
-      "agency": "금융위"
-    },
-    {
       "title": "[보도참고] 공급망안정화기금은 공급망 위기 대응을 위한 금융지원을 확대해 왔으며, 앞으로 중소·중견기업 지원도 강화하겠습니다.",
       "date": "2026-10-14",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079639&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "비상경제본부 회의, 경제관계장관회의 겸 서비스산업발전 TF 개최",
-      "date": "2026-10-14",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079631&menuNo=4010100",
       "agency": "기재부"
     },
     {
