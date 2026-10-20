@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:11:33.686678+00:00",
+  "generated_at": "2026-10-20T22:11:18.620607+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -15,7 +15,7 @@
     },
     "공정위": {
       "ok": true,
-      "count": 9,
+      "count": 8,
       "fetched": 10
     },
     "거래소": {
@@ -25,6 +25,36 @@
     }
   },
   "releases": [
+    {
+      "title": "금융현장의 불편, 제3자의 눈으로 살핀다. - 제6기 금융위원회 옴부즈만 출범",
+      "date": "2026-10-20",
+      "url": "https://www.fsc.go.kr/no010101/87965",
+      "agency": "금융위"
+    },
+    {
+      "title": "채권 발행기관 협의체 제4차 회의 개최",
+      "date": "2026-10-20",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079717&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "가상자산 과세 관련 현장 간담회 개최",
+      "date": "2026-10-20",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079708&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "글로벌 AI 디지털 서밋 개최",
+      "date": "2026-10-20",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079712&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "2026년도 3분기 선불식 할부거래업체 주요 정보 변경사항 공개",
+      "date": "2026-10-20",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48122",
+      "agency": "공정위"
+    },
     {
       "title": "청년미래적금, 2차 가입 신청자 68.8만명 - 10.12~11.13일 가입심사, 11.16일부터 계좌개설 시작",
       "date": "2026-10-19",
@@ -110,12 +140,6 @@
       "agency": "기재부"
     },
     {
-      "title": "[보도참고] '26.9월 고용동향 및 평가",
-      "date": "2026-10-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079660&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "결혼서비스업 분야 중요정보고시 위반 업체 과태료 부과절차 진행",
       "date": "2026-10-16",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48114",
@@ -140,28 +164,10 @@
       "agency": "금융위"
     },
     {
-      "title": "청년미래적금 2차 가입신청 기간 10월 16일(금) 18시 30분 종료",
-      "date": "2026-10-15",
-      "url": "https://www.fsc.go.kr/no010101/87933",
-      "agency": "금융위"
-    },
-    {
-      "title": "이형일 부총리, 日 가타야마 재무장관 면담에서 한일 통화스왑 연장에 합의",
-      "date": "2026-10-15",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079659&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "편의점 김밥 12종 품질 비교 정보 제공",
       "date": "2026-10-15",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48112",
       "agency": "공정위"
-    },
-    {
-      "title": "[보도참고] 공급망안정화기금은 공급망 위기 대응을 위한 금융지원을 확대해 왔으며, 앞으로 중소·중견기업 지원도 강화하겠습니다.",
-      "date": "2026-10-14",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079639&menuNo=4010100",
-      "agency": "기재부"
     },
     {
       "title": "밀가루 부산물 가격담합 사건 심의 절차 개시",
@@ -185,18 +191,6 @@
       "title": "SK에너지 및 현대오일뱅크의 휘발유·경유·등유 담합 사건 심의 절차 개시",
       "date": "2026-10-07",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48094",
-      "agency": "공정위"
-    },
-    {
-      "title": "카본러닝화 7종 품질 비교 정보 제공",
-      "date": "2026-10-06",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48090",
-      "agency": "공정위"
-    },
-    {
-      "title": "온라인 다크패턴 규제 관련 가이드라인 배포",
-      "date": "2026-10-06",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48089",
       "agency": "공정위"
     }
   ]

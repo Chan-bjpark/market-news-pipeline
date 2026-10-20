@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:11:34.092210+00:00",
+  "generated_at": "2026-10-20T22:11:18.965239+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
@@ -7,137 +7,89 @@
   "deals": [
     {
       "target": "중앙일보",
-      "counterparties": "다우키움그룹·CJ그룹 컨소시엄",
+      "counterparties": "다우·CJ 컨소시엄",
       "pe_firms": [],
       "industry": "미디어",
-      "stage": "우선협상대상자 선정",
+      "stage": "거론",
       "amount": null,
       "one_liner": "중앙일보 M&A 우선협상대상자 다우·CJ 컨소시엄",
       "article_ids": [
-        "a19",
-        "a20",
-        "a21",
-        "a23",
-        "a24",
-        "a26"
+        "a16",
+        "a13"
       ],
-      "evidence": "우선협상대상자로 선정",
+      "evidence": "우선협상대상자에 ‘다우·CJ 컨소시엄’",
       "_articles": [
         {
-          "url": "https://www.newspim.com/news/view/20261019001511",
-          "source": "뉴스핌",
-          "title": "중앙일보 M&A 우선협상대상자에 '다우·CJ 컨소시엄'"
-        },
-        {
-          "url": "https://view.asiae.co.kr/article/2026101923331936648",
-          "source": "아시아경제",
-          "title": "'중앙일보 인수' 우선협상대상자에 다우키움·CJ 컨소시엄(종합)"
-        },
-        {
-          "url": "https://view.asiae.co.kr/article/2026101923241032389",
-          "source": "아시아경제",
-          "title": "중앙일보 인수 우선협상에 다우키움·CJ 컨소시엄"
-        },
-        {
-          "url": "https://www.chosun.com/economy/stock-finance/2026/10/19/47JYD55ZGBEKTHUPLJ4FG4XGJA/",
-          "source": "조선일보",
-          "title": "중앙일보 M&A 우선협상대상자에 ‘다우·CJ 컨소시엄’"
-        },
-        {
-          "url": "https://www.news1.kr/finance/general-stock/6325143",
-          "source": "뉴스1",
-          "title": "'중앙일보 인수전' 다우키움·CJ 컨소시엄, 6파전 뚫고 우협 선정"
-        },
-        {
-          "url": "https://www.joongang.co.kr/article/25471024",
-          "source": "중앙일보",
-          "title": "중앙일보 M&A 우선협상대상자에 ‘다우·CJ 컨소시엄’"
-        }
-      ]
-    },
-    {
-      "target": "롯데손해보험",
-      "counterparties": "신한금융",
-      "pe_firms": [],
-      "industry": "보험",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "신한금융 롯데손보 인수 관련 거론",
-      "article_ids": [
-        "a1",
-        "a4"
-      ],
-      "evidence": "롯데손보 품은 신한",
-      "_articles": [
-        {
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/19/2026101980185.html",
-          "source": "인베스트조선",
-          "title": "[Invest]신한금융, 롯데손보 관리 가능? 돈도 사람도 시간도 없다"
-        },
-        {
-          "url": "https://dealsite.co.kr/articles/170731",
-          "source": "딜인사이트",
-          "title": "[금융지주 임원 인사 전망] [신한금융] 롯데손보 품은 신한…장정훈·나..."
-        }
-      ]
-    },
-    {
-      "target": "KDB생명",
-      "counterparties": "한국투자증권·산업은행",
-      "pe_firms": [],
-      "industry": "보험",
-      "stage": "매각 진행",
-      "amount": null,
-      "one_liner": "KDB생명 매각 장기화, 우협 선정 후 협상",
-      "article_ids": [
-        "a2"
-      ],
-      "evidence": "KDB생명 매각 '장기화'",
-      "_articles": [
-        {
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/19/2026101980169.html",
-          "source": "인베스트조선",
-          "title": "[Invest]KDB생명 매각 '장기화'…한투 '추가 손실 방어' vs 산은 '배임 방..."
-        }
-      ]
-    },
-    {
-      "target": "JTBC",
-      "counterparties": null,
-      "pe_firms": [],
-      "industry": "미디어",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "JTBC 인가 전 M&A 추진, 매각 공고 11월 연기",
-      "article_ids": [
-        "a6"
-      ],
-      "evidence": "매각 공고 11월로 연기",
-      "_articles": [
-        {
-          "url": "https://www.yna.co.kr/view/AKR20261019150200008?input=1195m",
-          "source": "연합뉴스",
-          "title": "중앙일보 우선협상대상자 선정…JTBC는 매각 공고 11월로 연기"
-        }
-      ]
-    },
-    {
-      "target": "버거킹",
-      "counterparties": "라자드",
-      "pe_firms": [],
-      "industry": "외식",
-      "stage": "매각 진행",
-      "amount": null,
-      "one_liner": "버거킹 매각 NBO 마감, 라자드 SI 찾기",
-      "article_ids": [
-        "a32"
-      ],
-      "evidence": "버거킹 매각, 이달 중순 NBO 마감",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610080853408440102038",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200716522140102026",
           "source": "더벨",
-          "title": "버거킹 매각, 이달 중순 NBO 마감…라자드 SI 찾기 '총력'"
+          "title": "중앙일보 M&A 우선협상대상자에 ‘다우·CJ 컨소시엄’"
+        },
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200826385940107631",
+          "source": "더벨",
+          "title": "다우·CJ 컨소시엄 우협 선정…삼성서 갈라진 두 기업 '재회'"
+        }
+      ]
+    },
+    {
+      "target": "동하메디칼",
+      "counterparties": "이지메디컴",
+      "pe_firms": [],
+      "industry": "의료기기",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "이지메디컴, 동하메디칼 인수 추진",
+      "article_ids": [
+        "a10"
+      ],
+      "evidence": "동하메디칼 인수 추진",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610201510265600102931",
+          "source": "더벨",
+          "title": "'대웅 오너가 소유' 이지메디컴, 동하메디칼 인수 추진"
+        }
+      ]
+    },
+    {
+      "target": "화성코스메틱",
+      "counterparties": "한투PE·에코프로",
+      "pe_firms": [
+        "한투PE"
+      ],
+      "industry": "화장품",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "한투PE·에코프로, 화성코스메틱 본입찰 준비",
+      "article_ids": [
+        "a15"
+      ],
+      "evidence": "화성코스메틱 본입찰 앞두고",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608051021348560106965",
+          "source": "더벨",
+          "title": "한투PE·에코프로, 화성코스메틱 본입찰 앞두고 키움증권 '맞손'"
+        }
+      ]
+    },
+    {
+      "target": "마이베네핏",
+      "counterparties": "인바디",
+      "pe_firms": [],
+      "industry": "디지털 헬스케어",
+      "stage": "완료",
+      "amount": "30억원",
+      "one_liner": "마이베네핏 시리즈A 30억 투자 유치",
+      "article_ids": [
+        "a27"
+      ],
+      "evidence": "시리즈A 30억 투자 유치",
+      "_articles": [
+        {
+          "url": "https://www.donga.com/news/Economy/article/all/20261020/134876579/1",
+          "source": "동아일보",
+          "title": "마이베네핏, 시리즈A 30억 투자 유치…인바디 전략적 투자자로 합류"
         }
       ]
     },
@@ -145,339 +97,311 @@
       "target": "솔리다임",
       "counterparties": null,
       "pe_firms": [
-        "실반캐피탈"
+        "블랙스톤",
+        "블랙록",
+        "베인"
       ],
       "industry": "반도체",
-      "stage": "입찰 참여",
+      "stage": "완료",
       "amount": null,
-      "one_liner": "실반캐피탈 솔리다임 프리IPO 입찰 참여",
+      "one_liner": "솔리다임 프리IPO에 블랙스톤 등 참여",
+      "article_ids": [
+        "a18"
+      ],
+      "evidence": "블랙스톤·블랙록·베인 등 참여",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200843485640106578",
+          "source": "더벨",
+          "title": "솔리다임 프리IPO 흥행, 블랙스톤·블랙록·베인 등 참여"
+        }
+      ]
+    },
+    {
+      "target": "보령 영업",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "제약",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "보령, 영업 떼내기 및 LBA 전략 추진",
       "article_ids": [
         "a34"
       ],
-      "evidence": "솔리다임 프리IPO 입찰 참여",
+      "evidence": "‘영업 떼내는’ 보령",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610191033352400109695",
-          "source": "더벨",
-          "title": "'SK와 인연' 실반캐피탈, 솔리다임 프리IPO 입찰 참여"
+          "url": "https://www.fntimes.com/html/view.php?ud=2026102011155631487fd637f543_18",
+          "source": "한국금융신문",
+          "title": "‘영업 떼내는’ 보령, 김정균 ‘3세 경영’ 리더십 시험대"
         }
       ]
     },
     {
-      "target": "제이앤티지",
-      "counterparties": null,
-      "pe_firms": [
-        "뉴젠인베스트먼트"
-      ],
-      "industry": "탄소소재",
-      "stage": "엑시트 완료",
-      "amount": "200억원",
-      "one_liner": "뉴젠인베 제이앤티지 엑시트 대박",
-      "article_ids": [
-        "a13"
-      ],
-      "evidence": "제이앤티지 엑시트(투자금 회수)",
-      "_articles": [
-        {
-          "url": "https://biz.chosun.com/stock/market_trend/2026/10/20/JNWW4WJEURDZTDTOWAP64UVFTU/",
-          "source": "조선일보",
-          "title": "연료전지에 걸었는데 ESS로 터졌다… 뉴젠인베, 제이앤티지 엑시트 대박..."
-        }
-      ]
-    },
-    {
-      "target": "롯데렌탈",
-      "counterparties": "TPG",
-      "pe_firms": [
-        "TPG"
-      ],
-      "industry": "렌탈",
+      "target": "오리온 중앙일보 인수전",
+      "counterparties": "오리온",
+      "pe_firms": [],
+      "industry": "미디어",
       "stage": "거론",
       "amount": null,
-      "one_liner": "롯데렌탈 이사회 TPG 2인 합류",
+      "one_liner": "오리온, 중앙일보 인수전 참여",
       "article_ids": [
-        "a3"
+        "a23"
       ],
-      "evidence": "이사회 TPG 2인 합류",
+      "evidence": "중앙일보 인수전 참여",
       "_articles": [
         {
-          "url": "https://dealsite.co.kr/articles/170835",
-          "source": "딜인사이트",
-          "title": "롯데렌탈, 이사회 TPG 2인 합류…차입 관리 시험대"
+          "url": "https://view.asiae.co.kr/article/2026102016240544448",
+          "source": "아시아경제",
+          "title": "[클릭 e종목]\"오리온, 중앙일보 인수 불확실성 해소…4분기 성수기 진입..."
         }
       ]
     },
     {
-      "target": "바이오 상장사(복수)",
+      "target": "대선조선",
       "counterparties": null,
       "pe_firms": [],
-      "industry": "바이오",
-      "stage": "매물 출회",
+      "industry": "조선",
+      "stage": "거론",
       "amount": null,
-      "one_liner": "바이오 상장사 경영권 매물 잇따라 출회",
+      "one_liner": "대선조선 인수로 예심 연기",
       "article_ids": [
-        "a12"
+        "a14"
       ],
-      "evidence": "경영권 매물로",
+      "evidence": "대선조선 인수로 예심 연기",
       "_articles": [
         {
-          "url": "https://biz.chosun.com/science-chosun/bio/2026/10/20/LF6L4MVM7RFV3HSADOI3OSS73U/",
-          "source": "조선일보",
-          "title": "주가 급락에 돈줄까지 말라…‘벼랑 끝’ 바이오 상장사, 매물 쏟아진다"
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608040826544080102245",
+          "source": "더벨",
+          "title": "대선조선 인수로 예심 연기…연내 청구 여부 주목"
         }
       ]
     }
   ],
   "pe_moves": [
     {
-      "pe": "뉴젠인베스트먼트",
-      "action": "투자금 회수(엑시트)",
-      "target": "제이앤티지",
-      "article_ids": [
-        "a13"
-      ],
-      "evidence": "제이앤티지 엑시트(투자금 회수)",
-      "_articles": [
-        {
-          "url": "https://biz.chosun.com/stock/market_trend/2026/10/20/JNWW4WJEURDZTDTOWAP64UVFTU/",
-          "source": "조선일보",
-          "title": "연료전지에 걸었는데 ESS로 터졌다… 뉴젠인베, 제이앤티지 엑시트 대박..."
-        }
-      ]
-    },
-    {
-      "pe": "VIG파트너스",
-      "action": "1조원 규모 6호 블라인드펀드 조성 착수",
-      "target": null,
-      "article_ids": [
-        "a14"
-      ],
-      "evidence": "6호 블라인드펀드 '시동'",
-      "_articles": [
-        {
-          "url": "https://www.etoday.co.kr/news/view/2637160",
-          "source": "이투데이",
-          "title": "'신창훈 체제' VIG파트너스…1조 규모 6호 블라인드펀드 '시동'"
-        }
-      ]
-    },
-    {
-      "pe": "아스트라운용",
-      "action": "기관전용 PEF GP 등록",
-      "target": null,
-      "article_ids": [
-        "a31"
-      ],
-      "evidence": "기관전용 PEF GP 등록",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020922376160106759",
-          "source": "더벨",
-          "title": "아스트라운용, 기관전용 PEF GP 등록…케이씨 회수 주목"
-        }
-      ]
-    },
-    {
-      "pe": "실반캐피탈",
-      "action": "솔리다임 프리IPO 입찰 참여",
+      "pe": "블랙스톤",
+      "action": "프리IPO 참여",
       "target": "솔리다임",
       "article_ids": [
-        "a34"
+        "a18"
       ],
-      "evidence": "솔리다임 프리IPO 입찰 참여",
+      "evidence": "블랙스톤·블랙록·베인 등 참여",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610191033352400109695",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200843485640106578",
           "source": "더벨",
-          "title": "'SK와 인연' 실반캐피탈, 솔리다임 프리IPO 입찰 참여"
+          "title": "솔리다임 프리IPO 흥행, 블랙스톤·블랙록·베인 등 참여"
         }
       ]
     },
     {
-      "pe": "TPG",
-      "action": "롯데렌탈 이사회 2인 합류",
-      "target": "롯데렌탈",
+      "pe": "블랙록",
+      "action": "프리IPO 참여",
+      "target": "솔리다임",
       "article_ids": [
-        "a3"
+        "a18"
       ],
-      "evidence": "이사회 TPG 2인 합류",
+      "evidence": "블랙스톤·블랙록·베인 등 참여",
       "_articles": [
         {
-          "url": "https://dealsite.co.kr/articles/170835",
-          "source": "딜인사이트",
-          "title": "롯데렌탈, 이사회 TPG 2인 합류…차입 관리 시험대"
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200843485640106578",
+          "source": "더벨",
+          "title": "솔리다임 프리IPO 흥행, 블랙스톤·블랙록·베인 등 참여"
+        }
+      ]
+    },
+    {
+      "pe": "베인",
+      "action": "프리IPO 참여",
+      "target": "솔리다임",
+      "article_ids": [
+        "a18"
+      ],
+      "evidence": "블랙스톤·블랙록·베인 등 참여",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200843485640106578",
+          "source": "더벨",
+          "title": "솔리다임 프리IPO 흥행, 블랙스톤·블랙록·베인 등 참여"
+        }
+      ]
+    },
+    {
+      "pe": "한투PE",
+      "action": "화성코스메틱 본입찰 참여 준비",
+      "target": "화성코스메틱",
+      "article_ids": [
+        "a15"
+      ],
+      "evidence": "화성코스메틱 본입찰 앞두고",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608051021348560106965",
+          "source": "더벨",
+          "title": "한투PE·에코프로, 화성코스메틱 본입찰 앞두고 키움증권 '맞손'"
+        }
+      ]
+    },
+    {
+      "pe": "IMM프라이빗에쿼티",
+      "action": "태림포장 계열 7개사 인수(2015년)",
+      "target": "태림포장 계열사",
+      "article_ids": [
+        "a21"
+      ],
+      "evidence": "IMM프라이빗에쿼티가 태림포장 계열 7개사를 인수",
+      "_articles": [
+        {
+          "url": "https://www.fnnews.com/news/202610201818290549",
+          "source": "파이낸셜뉴스",
+          "title": "특수포장재 '승산팩' 투자 유치 나섰다"
+        }
+      ]
+    },
+    {
+      "pe": "MBK파트너스",
+      "action": "일본 알루미늄 포장재 기업 인수",
+      "target": "일본 알루미늄 포장재 기업",
+      "article_ids": [
+        "a21"
+      ],
+      "evidence": "MBK파트너스가 일본 알루미늄 포장재 기업을 인수",
+      "_articles": [
+        {
+          "url": "https://www.fnnews.com/news/202610201818290549",
+          "source": "파이낸셜뉴스",
+          "title": "특수포장재 '승산팩' 투자 유치 나섰다"
         }
       ]
     }
   ],
   "for_sale": [
     {
-      "asset": "버거킹",
-      "seller": null,
-      "process_stage": "NBO 마감 예정(이달 중순)",
+      "asset": "한화오션 지분",
+      "seller": "한화시스템",
+      "process_stage": "거론",
       "article_ids": [
-        "a32"
+        "a7"
       ],
-      "evidence": "버거킹 매각, 이달 중순 NBO 마감",
+      "evidence": "한화오션 지분 매각",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610080853408440102038",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440131",
+          "source": "연합인포맥스",
+          "title": "09.한신평 \"한화시스템, 한화오션 지분 매각 유동성에 긍정적…PRS 부담 주시\""
+        }
+      ]
+    },
+    {
+      "asset": "동하메디칼",
+      "seller": null,
+      "process_stage": "거론",
+      "article_ids": [
+        "a10"
+      ],
+      "evidence": "동하메디칼 인수 추진",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610201510265600102931",
           "source": "더벨",
-          "title": "버거킹 매각, 이달 중순 NBO 마감…라자드 SI 찾기 '총력'"
-        }
-      ]
-    },
-    {
-      "asset": "KDB생명",
-      "seller": "산업은행·한국투자증권",
-      "process_stage": "우선협상대상자 선정 후 협상 중",
-      "article_ids": [
-        "a2"
-      ],
-      "evidence": "KDB생명 매각 '장기화'",
-      "_articles": [
-        {
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/19/2026101980169.html",
-          "source": "인베스트조선",
-          "title": "[Invest]KDB생명 매각 '장기화'…한투 '추가 손실 방어' vs 산은 '배임 방..."
-        }
-      ]
-    },
-    {
-      "asset": "JTBC",
-      "seller": "중앙그룹",
-      "process_stage": "매각 공고 11월로 연기",
-      "article_ids": [
-        "a6"
-      ],
-      "evidence": "매각 공고 11월로 연기",
-      "_articles": [
-        {
-          "url": "https://www.yna.co.kr/view/AKR20261019150200008?input=1195m",
-          "source": "연합뉴스",
-          "title": "중앙일보 우선협상대상자 선정…JTBC는 매각 공고 11월로 연기"
-        }
-      ]
-    },
-    {
-      "asset": "바이오 상장사 경영권",
-      "seller": null,
-      "process_stage": "티저 출회",
-      "article_ids": [
-        "a12"
-      ],
-      "evidence": "경영권 매물로",
-      "_articles": [
-        {
-          "url": "https://biz.chosun.com/science-chosun/bio/2026/10/20/LF6L4MVM7RFV3HSADOI3OSS73U/",
-          "source": "조선일보",
-          "title": "주가 급락에 돈줄까지 말라…‘벼랑 끝’ 바이오 상장사, 매물 쏟아진다"
+          "title": "'대웅 오너가 소유' 이지메디컴, 동하메디칼 인수 추진"
         }
       ]
     }
   ],
   "market_signals": [
     {
-      "type": "REGULATORY",
-      "summary": "PEF 차입 한도 축소 논의",
-      "article_ids": [
-        "a10"
-      ],
-      "evidence": "차입 한도를 순자산의 400%에서 200%로",
-      "_articles": [
-        {
-          "url": "https://www.sedaily.com/article/20103229",
-          "source": "서울경제",
-          "title": "글로벌 투자사가 한국 찾은 이유…PEF 한 해 투자 점검한다 [시그널]"
-        }
-      ]
-    },
-    {
-      "type": "REGULATORY",
-      "summary": "국가핵심기술 우회 M&A 심사 확대",
-      "article_ids": [
-        "a8",
-        "a25"
-      ],
-      "evidence": "우회 인수합병(M&A)까지 심사 대상",
-      "_articles": [
-        {
-          "url": "https://www.sedaily.com/article/20103540",
-          "source": "서울경제",
-          "title": "“산업기술 더는 못 뺏겨”…우회 M&A까지 잡는 ‘특사경’ 뜬다[Pick코..."
-        },
-        {
-          "url": "https://www.mk.co.kr/article/12180077",
-          "source": "매일경제",
-          "title": "기술유출 걸리면 개발비부터 전부 배상…산업스파이 처벌수위 확 높이기..."
-        }
-      ]
-    },
-    {
-      "type": "SECTOR_CONCENTRATION",
-      "summary": "로펌 간 M&A 합병 활발",
-      "article_ids": [
-        "a15"
-      ],
-      "evidence": "대형 법무법인(로펌) 간 인수합병(M&A)이 활발",
-      "_articles": [
-        {
-          "url": "https://www.edaily.co.kr/News/Read?newsId=01590806645614888&mediaCodeNo=257",
-          "source": "이데일리",
-          "title": "로펌 합병 러시에…M&A 법률자문 중위권 '지각변동'[마켓인]"
-        }
-      ]
-    },
-    {
-      "type": "SECTOR_CONCENTRATION",
-      "summary": "방산 M&A 재편 움직임",
-      "article_ids": [
-        "a16"
-      ],
-      "evidence": "국내 방산 산업 재편 움직임",
-      "_articles": [
-        {
-          "url": "https://www.chosun.com/economy/industry-company/2026/10/20/YBJFUSRD6ZFBLP23Y27SJSOPLQ/",
-          "source": "조선일보",
-          "title": "현대차그룹 방산 사업, 로템에 집중시킨다"
-        }
-      ]
-    },
-    {
       "type": "DEAL_DROP",
-      "summary": "코인 거래소 M&A·경영 변화",
+      "summary": "IPO·M&A 시장 침체로 VC 회수 어려움",
+      "article_ids": [
+        "a26"
+      ],
+      "evidence": "IPO와 M&A(인수합병) 시장이 침체한 상황에서",
+      "_articles": [
+        {
+          "url": "https://www.mt.co.kr/stock/2026/10/21/2026102015542090140",
+          "source": "머니투데이",
+          "title": "4년 전 막힌 '증권사 BDC'…금투협, 국회 설득 나섰다"
+        }
+      ]
+    },
+    {
+      "type": "REGULATORY",
+      "summary": "인도 중앙은행, 자국 기업 해외 투자 심사 강화",
+      "article_ids": [
+        "a33"
+      ],
+      "evidence": "자국 기업의 해외 투자 심사 강화",
+      "_articles": [
+        {
+          "url": "https://www.newspim.com/news/view/20261020000920",
+          "source": "뉴스핌",
+          "title": "印 중앙은행, 자국 기업의 해외 투자 심사 강화...루피화 가치 방어 목표"
+        }
+      ]
+    },
+    {
+      "type": "REGULATORY",
+      "summary": "금융당국, 솔리다임 중복상장 제동 검토",
       "article_ids": [
         "a9"
       ],
-      "evidence": "투자 유치와 인수합병(M&A)",
+      "evidence": "'중복상장' 못박은 금융당국",
       "_articles": [
         {
-          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092172238",
-          "source": "조선일보",
-          "title": "코인 상장 '0건' 거래소 속출… 거래 침체에 내실 먼저"
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440033",
+          "source": "연합인포맥스",
+          "title": "01.솔리다임 '중복상장' 못박은 금융당국…美 IPO에 제동 걸리나"
         }
       ]
     }
   ],
   "diag": {
     "llm_raw": {
-      "deals": 9,
-      "pe_moves": 5,
-      "for_sale": 4,
-      "market_signals": 5
+      "deals": 10,
+      "pe_moves": 6,
+      "for_sale": 3,
+      "market_signals": 3
     },
-    "drops": [],
+    "drops": [
+      {
+        "reason": "evidence_not_in_source",
+        "label": "오케스트라 바이오",
+        "evidence": "오케스트라 바이오를 인수했다고",
+        "ids": [
+          "a4",
+          "a0"
+        ]
+      },
+      {
+        "reason": "evidence_not_in_source",
+        "label": "실크밸리GC",
+        "evidence": "실크밸리GC 매물로…몸값 2500억",
+        "ids": [
+          "a28"
+        ]
+      },
+      {
+        "reason": "evidence_not_in_source",
+        "label": "실크밸리GC",
+        "evidence": "실크밸리GC 매물로…몸값 2500억",
+        "ids": [
+          "a28"
+        ]
+      }
+    ],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 7881,
+        "input_tokens": 7156,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 2416,
+        "output_tokens": 2364,
         "output_tokens_details": {
           "thinking_tokens": 0
         },

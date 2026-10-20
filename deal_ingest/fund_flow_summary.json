@@ -1,52 +1,19 @@
 {
-  "generated_at": "2026-10-19T22:11:23.015082+00:00",
+  "generated_at": "2026-10-20T22:11:06.548181+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 678,
+  "total_policy_articles": 683,
   "matched_funds_count": 3,
-  "unmatched_count": 218,
+  "unmatched_count": 223,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-22",
+      "first_seen": "2026-07-23",
       "last_updated": "2026-10-20",
       "event_count": 457,
       "timeline": [
-        {
-          "date": "2026-07-22",
-          "published_at": "2026-07-22T08:08:00+09:00",
-          "stage_code": "gp_open",
-          "stage_label": "GP 모집",
-          "amount": null,
-          "title": "[더벨][국민성장펀드 열전] 최대어 '스케일업' 품은 스틱, 27년 성장자본...",
-          "summary": "위탁운용사(GP)에 선정됐다. 스틱은 이번 출자사업의 '최대어'로 꼽혔던 스케일업 리그를 따내며 27년간... 이후 산업은행, 수출입은행, 한국정책금융공사, 성장금융, 아시아인프라투자은행(AIIB) 등 정책기관과 함께...",
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607200746119500104855",
-          "source_label": "더벨"
-        },
-        {
-          "date": "2026-07-22",
-          "published_at": "2026-07-22T09:02:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "2000억원",
-          "title": "[2026 상반기 VC 리그테이블] [하우스] 젊은피 박세근 내세운 아주IB…15...",
-          "summary": "이달 GP로 선정되면 사학연금 출자금을 국민성장펀드 자금과 매칭해 2000억원 규모의 펀드 결성에 속도를... 이 가운데 패션 B2B 플랫폼 신상마켓을 운영하는 딜리셔스는 기업공개(IPO)를 앞두고 있으며 이번 주 기관투자...",
-          "url": "https://dealsite.co.kr/articles/165464",
-          "source_label": "딜인사이트"
-        },
-        {
-          "date": "2026-07-22",
-          "published_at": "2026-07-22T18:48:00+09:00",
-          "stage_code": "gp_selected",
-          "stage_label": "운용사 선정",
-          "amount": "1500억원",
-          "title": "K-컬처에 1500억원 출자… 밸류업 펀드 출격",
-          "summary": "정책자금 800억 투입… AI IP·콘텐츠 혁신 운용사 2곳 선정 예정 국민성장펀드를 운용하는 한국산업은행과 한국성장금융, 첨단전략산업기금 등이 'K-컬처 밸류업 펀드' 운용사 선정에 나선다. 22일 투자업계에 따르면...",
-          "url": "https://dealsite.co.kr/articles/165766",
-          "source_label": "딜인사이트"
-        },
         {
           "date": "2026-07-23",
           "published_at": "2026-07-23T07:02:00+09:00",
@@ -5040,6 +5007,39 @@
           "summary": "베팅하는 투자자들이 늘고 있단 분석이다. 정책펀드의 자금 집행 수요가 늘고 있단 점도 CB 투자 열기를... 일부 펀드는 약정총액의 일정 비율을 CB 등 메자닌에 의무적으로 투자해야 한다. 올해 국민성장펀드 자금까지...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/10/19/2026101980192.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-10-20",
+          "published_at": "2026-10-20T08:52:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[국민성장펀드] 미래-브레인 합작 1호 출격…국민연금 분리가 신의 한수",
+          "summary": "출자금을 각각 다른 투자조합에 배분했는데 이 덕분에 최근 업계에서 강하게 충돌하는 두 출자기관(LP)의... 2차 출자사업에서 특정목표 지원 분야 코스닥 리그 최종 GP로 선정되며 펀드레이징을 시작했다. 산업은행이...",
+          "url": "https://dealsite.co.kr/articles/170920",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-10-20",
+          "published_at": "2026-10-20T10:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "8조",
+          "title": "[2026 M&A 포럼] “국민성장펀드…블라인드만 8조, 민간 출자 마중물 성...",
+          "summary": "올해 국민성장펀드의 주요 성과로 민간 출자시장 확대와 국내 운용사 대형화를 꼽았다. 금융지주의 참여를... 기업에 직접 지분을 투자하거나 민간 운용사의 펀드를 통해 간접 투자하고 인프라금융과 초저리 대출도...",
+          "url": "https://dealsite.co.kr/articles/170830",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-10-20",
+          "published_at": "2026-10-20T13:40:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[단독] “국민성장펀드에 사활 걸었다”…베일 벗은 정관 살펴보니",
+          "summary": "대규모 인수·합병(M&A) 과정에서 공동투자자를 모집할 경우 산업은행과 첨단전략산업기금에 우선 참여권을 부여하는 내용도 명시됐다. 20일 헤럴드경제가 국회 정무위원회 소속 조정훈 국민의힘 의원실을 통해 입수한...",
+          "url": "https://biz.heraldcorp.com/article/10908011",
+          "source_label": "헤럴드경제"
         }
       ]
     },
