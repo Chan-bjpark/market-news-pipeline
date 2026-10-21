@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:11:18.620607+00:00",
+  "generated_at": "2026-10-21T22:11:46.959714+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,54 @@
     }
   },
   "releases": [
+    {
+      "title": "사업보고서 등에 대한 조사·감리결과 조치 - 제18차 금융위원회(’26.10.21.) 조치 의결",
+      "date": "2026-10-21",
+      "url": "https://www.fsc.go.kr/no010101/87976",
+      "agency": "금융위"
+    },
+    {
+      "title": "“보증금 기반 비대면 신용카드 발급 서비스” 등 혁신금융서비스 4건 신규 지정 의결 - 신규 혁신금융서비스 지정 4건 및 규제개선 요청 수용 1건 의결",
+      "date": "2026-10-21",
+      "url": "https://www.fsc.go.kr/no010101/87975",
+      "agency": "금융위"
+    },
+    {
+      "title": "신용정보법 과징금 부과의 예측 가능성을 한층 높였습니다. - ｢신용정보업감독규정｣ 개정안 제18차 정례 금융위원회 의결",
+      "date": "2026-10-21",
+      "url": "https://www.fsc.go.kr/no010101/87973",
+      "agency": "금융위"
+    },
+    {
+      "title": "군 장병의 경제관 확립과 금융역량 향상을 위해 국방부과 금융위이 손을 맞잡다!",
+      "date": "2026-10-21",
+      "url": "https://www.fsc.go.kr/no010101/87972",
+      "agency": "금융위"
+    },
+    {
+      "title": "초국가범죄 범정부 대응 1년, “국경 넘어 끝까지 추적”… 기관 간 공조 강화로 초국가범죄 대응의 틀 바꿨다",
+      "date": "2026-10-21",
+      "url": "https://www.fsc.go.kr/no010101/87969",
+      "agency": "금융위"
+    },
+    {
+      "title": "아시아·태평양 경제협력체(APEC) 재무장관회의 참석 및 주요 인사 면담",
+      "date": "2026-10-21",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079710&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "피지컬 AI시대, 중소기업 혁신전략",
+      "date": "2026-10-21",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079719&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "유니시티코리아의 방문판매법 위반행위 관련 동의의결 절차 개시",
+      "date": "2026-10-21",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48125",
+      "agency": "공정위"
+    },
     {
       "title": "금융현장의 불편, 제3자의 눈으로 살핀다. - 제6기 금융위원회 옴부즈만 출범",
       "date": "2026-10-20",
@@ -98,18 +146,6 @@
       "agency": "금융위"
     },
     {
-      "title": "‘무기한 선물’ 이용자 유의사항 안내 - 최근 글로벌 가상자산플랫폼 등에서 거래되는 ‘무기한 선물’은 국내법의 투자자 보호가 적용되지 않아 각별한 주의 필요",
-      "date": "2026-10-16",
-      "url": "https://www.fsc.go.kr/no010101/87947",
-      "agency": "금융위"
-    },
-    {
-      "title": "제2차 국민참여성장펀드, 5,198억원을 모집하고 판매종료",
-      "date": "2026-10-16",
-      "url": "https://www.fsc.go.kr/no010101/87944",
-      "agency": "금융위"
-    },
-    {
       "title": "제11차 관계부처 합동 일자리전담반(TF) 개최",
       "date": "2026-10-16",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079661&menuNo=4010100",
@@ -128,40 +164,10 @@
       "agency": "기재부"
     },
     {
-      "title": "[보도참고] 2026년 10월 최근 경제동향",
-      "date": "2026-10-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079663&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "시장상황점검회의 개최",
-      "date": "2026-10-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079662&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "결혼서비스업 분야 중요정보고시 위반 업체 과태료 부과절차 진행",
       "date": "2026-10-16",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48114",
       "agency": "공정위"
-    },
-    {
-      "title": "｢유관기관 증시상황 긴급 점검회의｣ 개최",
-      "date": "2026-10-15",
-      "url": "https://www.fsc.go.kr/no010101/87942",
-      "agency": "금융위"
-    },
-    {
-      "title": "2026년 9월 가계대출 동향(잠정) 및 ｢가계부채 점검회의｣ 개최",
-      "date": "2026-10-15",
-      "url": "https://www.fsc.go.kr/no010101/87939",
-      "agency": "금융위"
-    },
-    {
-      "title": "잠든 선불충전금, 잊지 말고 사용하세요. - 빅테크 3개사, 장기간 미사용 선불의 이용자 통지 및 환급 촉진",
-      "date": "2026-10-15",
-      "url": "https://www.fsc.go.kr/no010101/87938",
-      "agency": "금융위"
     },
     {
       "title": "편의점 김밥 12종 품질 비교 정보 제공",
@@ -185,12 +191,6 @@
       "title": "3개 지역 교복 입찰 담합 제재",
       "date": "2026-10-13",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48101",
-      "agency": "공정위"
-    },
-    {
-      "title": "SK에너지 및 현대오일뱅크의 휘발유·경유·등유 담합 사건 심의 절차 개시",
-      "date": "2026-10-07",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48094",
       "agency": "공정위"
     }
   ]

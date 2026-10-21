@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:11:07.682408+00:00",
+  "generated_at": "2026-10-21T22:11:36.440986+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-10-20T22:11:07.682325+00:00",
+    "sheet_synced_at": "2026-10-21T22:11:36.440907+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3409,6 +3409,80 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "해야",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": null,
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "timeline": [
+        {
+          "date": "2026-10-21",
+          "event": "국민성장펀드, 60% 투자해야 새 펀드 설립",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.heraldcorp.com/article/10909798",
+          "source": "헤럴드경제"
+        }
+      ]
+    },
+    {
+      "company_name": "RCPS",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": null,
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "timeline": [
+        {
+          "date": "2026-10-21",
+          "event": "[더벨][thebell desk] RCPS는 죄가 없다",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610161456531680105956",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "company_name": "수소전지기업",
+      "sector": null,
+      "methods": [],
+      "amount": "4000억",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "timeline": [
+        {
+          "date": "2026-10-21",
+          "event": "[단독] '수소전지기업' HD하이드로젠, 4000억 투자금 유치 나선다",
+          "methods": [],
+          "amount": "4000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.hankyung.com/article/2026102167681",
+          "source": "한국경제"
+        }
+      ]
+    },
     {
       "company_name": "대신PE",
       "sector": null,
@@ -9452,36 +9526,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-09-08",
-      "title": "2차 국민참여성장펀드 30일 출시…6000억원 규모·24개 금융사서 판매",
-      "url": "https://biz.heraldcorp.com/article/10866350",
-      "source": "헤럴드경제"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "02.국민참여성장펀드 9일 첫 상장…가격 안정성이 2차 흥행 가른다",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433815",
-      "source": "연합인포맥스"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "증시 반등에 1차 수익률 -3.7%→-1%대…2차 국민성장펀드 흥행 이어갈까",
-      "url": "https://www.news1.kr/finance/general-finance/6283778",
-      "source": "뉴스1"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "[국민성장펀드] [초장기] 가점 기대한 증권사·VC 연합…16년 공동운용이...",
-      "url": "https://dealsite.co.kr/articles/168554",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "BS그룹, KB금융그룹과 '생산적 금융' 업무협약…전략적 협력체계 구축",
-      "url": "https://www.mt.co.kr/estate/2026/09/10/2026090913112736256",
-      "source": "머니투데이"
-    },
-    {
       "date": "2026-09-12",
       "title": "다음주 금융당국 일정",
       "url": "https://www.edaily.co.kr/News/Read?newsId=01577686645579464&mediaCodeNo=257",
@@ -10050,8 +10094,38 @@
       "title": "[단독] “국민성장펀드에 사활 걸었다”…베일 벗은 정관 살펴보니",
       "url": "https://biz.heraldcorp.com/article/10908011",
       "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "국민성장펀드 리스크위 첫 회의... 통과의례 비판에 검증 강화",
+      "url": "https://biz.chosun.com/stock/finance/2026/10/21/RRQJMPSFHZFWFNDWUXRDQ6MVQI/",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "오리온 6735억·국민성장펀드 5000억 실탄, 리가켐 '직접 임상' 승부수",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=365005",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "초광역특구법에 ‘SK 맞춤’ 특례…‘반도체 합작회사’ 길 열리나",
+      "url": "https://www.hani.co.kr/arti/economy/marketing/1283470.html",
+      "source": "한겨레"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "소규모 바이오텍 국민성장펀드 받는다 \"운용사 펀드 활용\"",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610211400366840102080",
+      "source": "더벨"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "[더벨][thebell Forum | 2026 제약·바이오 컨퍼런스] K-바이오 성장 해법...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610211432403840105838",
+      "source": "더벨"
     }
   ],
-  "matched_articles_this_run": 467,
+  "matched_articles_this_run": 468,
   "confirmed_deals_count": 16
 }

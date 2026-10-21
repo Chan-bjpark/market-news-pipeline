@@ -1,311 +1,385 @@
 {
-  "generated_at": "2026-10-20T22:11:18.965239+00:00",
+  "generated_at": "2026-10-21T22:11:47.501978+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
   "fallback": false,
   "deals": [
     {
-      "target": "중앙일보",
-      "counterparties": "다우·CJ 컨소시엄",
+      "target": "SK실트론",
+      "counterparties": "두산",
       "pe_firms": [],
-      "industry": "미디어",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "중앙일보 M&A 우선협상대상자 다우·CJ 컨소시엄",
-      "article_ids": [
-        "a16",
-        "a13"
-      ],
-      "evidence": "우선협상대상자에 ‘다우·CJ 컨소시엄’",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200716522140102026",
-          "source": "더벨",
-          "title": "중앙일보 M&A 우선협상대상자에 ‘다우·CJ 컨소시엄’"
-        },
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200826385940107631",
-          "source": "더벨",
-          "title": "다우·CJ 컨소시엄 우협 선정…삼성서 갈라진 두 기업 '재회'"
-        }
-      ]
-    },
-    {
-      "target": "동하메디칼",
-      "counterparties": "이지메디컴",
-      "pe_firms": [],
-      "industry": "의료기기",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "이지메디컴, 동하메디칼 인수 추진",
-      "article_ids": [
-        "a10"
-      ],
-      "evidence": "동하메디칼 인수 추진",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610201510265600102931",
-          "source": "더벨",
-          "title": "'대웅 오너가 소유' 이지메디컴, 동하메디칼 인수 추진"
-        }
-      ]
-    },
-    {
-      "target": "화성코스메틱",
-      "counterparties": "한투PE·에코프로",
-      "pe_firms": [
-        "한투PE"
-      ],
-      "industry": "화장품",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "한투PE·에코프로, 화성코스메틱 본입찰 준비",
-      "article_ids": [
-        "a15"
-      ],
-      "evidence": "화성코스메틱 본입찰 앞두고",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608051021348560106965",
-          "source": "더벨",
-          "title": "한투PE·에코프로, 화성코스메틱 본입찰 앞두고 키움증권 '맞손'"
-        }
-      ]
-    },
-    {
-      "target": "마이베네핏",
-      "counterparties": "인바디",
-      "pe_firms": [],
-      "industry": "디지털 헬스케어",
-      "stage": "완료",
-      "amount": "30억원",
-      "one_liner": "마이베네핏 시리즈A 30억 투자 유치",
-      "article_ids": [
-        "a27"
-      ],
-      "evidence": "시리즈A 30억 투자 유치",
-      "_articles": [
-        {
-          "url": "https://www.donga.com/news/Economy/article/all/20261020/134876579/1",
-          "source": "동아일보",
-          "title": "마이베네핏, 시리즈A 30억 투자 유치…인바디 전략적 투자자로 합류"
-        }
-      ]
-    },
-    {
-      "target": "솔리다임",
-      "counterparties": null,
-      "pe_firms": [
-        "블랙스톤",
-        "블랙록",
-        "베인"
-      ],
       "industry": "반도체",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "솔리다임 프리IPO에 블랙스톤 등 참여",
+      "stage": "거론",
+      "amount": "2조3000억원",
+      "one_liner": "두산, SK실트론 인수 관련 대규모 투자 진행",
       "article_ids": [
-        "a18"
+        "a1"
       ],
-      "evidence": "블랙스톤·블랙록·베인 등 참여",
+      "evidence": "SK실트론 인수(2조3000억원)",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200843485640106578",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610201441175800103514",
           "source": "더벨",
-          "title": "솔리다임 프리IPO 흥행, 블랙스톤·블랙록·베인 등 참여"
+          "title": "[더벨][두산그룹은 지금] 창업 130주년...비즈니스 패러다임 전환 '재무..."
         }
       ]
     },
     {
-      "target": "보령 영업",
-      "counterparties": null,
-      "pe_firms": [],
-      "industry": "제약",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "보령, 영업 떼내기 및 LBA 전략 추진",
-      "article_ids": [
-        "a34"
-      ],
-      "evidence": "‘영업 떼내는’ 보령",
-      "_articles": [
-        {
-          "url": "https://www.fntimes.com/html/view.php?ud=2026102011155631487fd637f543_18",
-          "source": "한국금융신문",
-          "title": "‘영업 떼내는’ 보령, 김정균 ‘3세 경영’ 리더십 시험대"
-        }
-      ]
-    },
-    {
-      "target": "오리온 중앙일보 인수전",
-      "counterparties": "오리온",
-      "pe_firms": [],
-      "industry": "미디어",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "오리온, 중앙일보 인수전 참여",
-      "article_ids": [
-        "a23"
-      ],
-      "evidence": "중앙일보 인수전 참여",
-      "_articles": [
-        {
-          "url": "https://view.asiae.co.kr/article/2026102016240544448",
-          "source": "아시아경제",
-          "title": "[클릭 e종목]\"오리온, 중앙일보 인수 불확실성 해소…4분기 성수기 진입..."
-        }
-      ]
-    },
-    {
-      "target": "대선조선",
-      "counterparties": null,
+      "target": "오스탈",
+      "counterparties": "한화에어로스페이스",
       "pe_firms": [],
       "industry": "조선",
       "stage": "거론",
       "amount": null,
-      "one_liner": "대선조선 인수로 예심 연기",
+      "one_liner": "한화에어로, 호주 조선업체 오스탈 자회사 통해 보유",
       "article_ids": [
-        "a14"
+        "a3"
       ],
-      "evidence": "대선조선 인수로 예심 연기",
+      "evidence": "호주 조선업체 오스탈",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608040826544080102245",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/21/2026102180113.html",
+          "source": "인베스트조선",
+          "title": "[Invest]S&P서 'A-' 받아온 한화에어로…추가 상향 압박받는 국내 신평사..."
+        }
+      ]
+    },
+    {
+      "target": "티르티르·라운드랩·스킨푸드",
+      "counterparties": "구다이글로벌",
+      "pe_firms": [],
+      "industry": "화장품",
+      "stage": "완료",
+      "amount": "8000억원 CB",
+      "one_liner": "구다이글로벌, 잇단 M&A로 계열사 확대",
+      "article_ids": [
+        "a4"
+      ],
+      "evidence": "티르티르·라운드랩·스킨푸드 품고",
+      "_articles": [
+        {
+          "url": "https://dealsite.co.kr/articles/170959",
+          "source": "딜인사이트",
+          "title": "[구다이글로벌 점프업] 8000억 CB로 완성한 M&A 퍼즐…상장 준비 착착"
+        }
+      ]
+    },
+    {
+      "target": "자바",
+      "counterparties": "힘스앤허스",
+      "pe_firms": [],
+      "industry": "디지털 헬스",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "힘스앤허스, 런던 디지털헬스 자바 인수",
+      "article_ids": [
+        "a6"
+      ],
+      "evidence": "디지털 헬스 스타트업 자바를 인수",
+      "_articles": [
+        {
+          "url": "https://www.g-enews.com/view.php?ud=202610210659466190fda4f5ab74_1",
+          "source": "글로벌이코노믹",
+          "title": "獨 남성 60% 과체중, 약값은 자비…원격의료 공룡 힘스앤허스 그 틈을 찔..."
+        }
+      ]
+    },
+    {
+      "target": "메드트로닉 인수건",
+      "counterparties": "이오플로우·메드트로닉",
+      "pe_firms": [],
+      "industry": "의료기기",
+      "stage": "철회",
+      "amount": null,
+      "one_liner": "이오플로우-메드트로닉 M&A 2023년 체결 후 철회",
+      "article_ids": [
+        "a8"
+      ],
+      "evidence": "메드트로닉과 인수합병(M&A) 계약을 체결",
+      "_articles": [
+        {
+          "url": "https://biz.chosun.com/science-chosun/bio/2026/10/22/4ZCSVVO325CBBAFEL4SMKXPCHQ/",
+          "source": "조선일보",
+          "title": "‘국산 1호 인슐린 펌프’ 이오플로우, 美 소송전 승기 잡았지만…경영..."
+        }
+      ]
+    },
+    {
+      "target": "바워스앤윌킨스·데논·마란츠",
+      "counterparties": "삼성전자(하만)",
+      "pe_firms": [],
+      "industry": "오디오",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "하만, 프리미엄 오디오 브랜드 추가 인수",
+      "article_ids": [
+        "a9",
+        "a14"
+      ],
+      "evidence": "하만을 통해 바워스앤윌킨스와 데논",
+      "_articles": [
+        {
+          "url": "https://www.mt.co.kr/industry/2026/10/22/2026102118135284723",
+          "source": "머니투데이",
+          "title": "\"백덤블링 해도 병뚜껑은 못 열어\"...이재용 '로봇 사업' 직접 챙긴다"
+        },
+        {
+          "url": "https://www.sedaily.com/article/20104588",
+          "source": "서울경제",
+          "title": "삼성 가전 ‘실적 효자’ 된 하만…DX 적자에도 오디오 1조 흑자 기대 [..."
+        }
+      ]
+    },
+    {
+      "target": "유럽 소재 제약사 생산계약",
+      "counterparties": "삼성바이오로직스",
+      "pe_firms": [],
+      "industry": "바이오",
+      "stage": "완료",
+      "amount": "3508억원",
+      "one_liner": "삼성바이오, 유럽 제약사와 장기 생산계약",
+      "article_ids": [
+        "a13"
+      ],
+      "evidence": "3508억원 규모의 바이오의약품 장기 생산계약",
+      "_articles": [
+        {
+          "url": "https://www.mt.co.kr/thebio/2026/10/22/2026102118545468165",
+          "source": "머니투데이",
+          "title": "파업·환율 뚫고… 삼성바이오 '깜짝실적'"
+        }
+      ]
+    },
+    {
+      "target": "신일정밀",
+      "counterparties": "웰투시",
+      "pe_firms": [
+        "웰투시"
+      ],
+      "industry": "제조",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "웰투시, 신일정밀 특가 인수 추진",
+      "article_ids": [
+        "a25",
+        "a24"
+      ],
+      "evidence": "신일정밀 '특가 인수'",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202202221441061480101657",
           "source": "더벨",
-          "title": "대선조선 인수로 예심 연기…연내 청구 여부 주목"
+          "title": "'승계·노무 이슈' 파고든 웰투시, 신일정밀 '특가 인수'"
+        },
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202202221633388240105223",
+          "source": "더벨",
+          "title": "'업계 대표 깐부' 웰투시·우리은행, 신일정밀 M&A도 맞손"
+        }
+      ]
+    },
+    {
+      "target": "엘리스그룹",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "IT",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "엘리스그룹 상장 첫날 폭락",
+      "article_ids": [
+        "a15"
+      ],
+      "evidence": "상장 첫날 폭락한 엘리스그룹",
+      "_articles": [
+        {
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440331",
+          "source": "연합인포맥스",
+          "title": "09.상장 첫날 폭락한 엘리스그룹은 어떤 회사"
+        }
+      ]
+    },
+    {
+      "target": "DB손보",
+      "counterparties": "얼라인",
+      "pe_firms": [],
+      "industry": "보험",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "얼라인, DB손보 밸류업 관련 언급",
+      "article_ids": [
+        "a23"
+      ],
+      "evidence": "얼라인, DB손보 밸류업에",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202609221534473080102235",
+          "source": "더벨",
+          "title": "얼라인, DB손보 밸류업에 '합격점'…자사주 소각은 숙제"
+        }
+      ]
+    },
+    {
+      "target": "원아시아",
+      "counterparties": "한화임팩트",
+      "pe_firms": [],
+      "industry": "화학",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "원아시아 공방 속 한화임팩트 출자 재조명",
+      "article_ids": [
+        "a31"
+      ],
+      "evidence": "한화임팩트 출자 재조명",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610211330396640107126",
+          "source": "더벨",
+          "title": "화학사가 왜 드라마에? 원아시아 공방 속 한화임팩트 출자 재조명"
+        }
+      ]
+    },
+    {
+      "target": "모건스탠리PE 한국사무소",
+      "counterparties": null,
+      "pe_firms": [
+        "모건스탠리PE"
+      ],
+      "industry": "사모펀드",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "모건스탠리PE 한국사무소 21년 만에 폐쇄",
+      "article_ids": [
+        "a29"
+      ],
+      "evidence": "모건스탠리PE 한국사무소, 21년 만에 문 닫는다",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610210840291620101496",
+          "source": "더벨",
+          "title": "모건스탠리PE 한국사무소, 21년 만에 문 닫는다"
         }
       ]
     }
   ],
   "pe_moves": [
     {
-      "pe": "블랙스톤",
-      "action": "프리IPO 참여",
-      "target": "솔리다임",
+      "pe": "웰투시",
+      "action": "신일정밀 인수",
+      "target": "신일정밀",
       "article_ids": [
-        "a18"
+        "a25",
+        "a24"
       ],
-      "evidence": "블랙스톤·블랙록·베인 등 참여",
+      "evidence": "신일정밀 '특가 인수'",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200843485640106578",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202202221441061480101657",
           "source": "더벨",
-          "title": "솔리다임 프리IPO 흥행, 블랙스톤·블랙록·베인 등 참여"
+          "title": "'승계·노무 이슈' 파고든 웰투시, 신일정밀 '특가 인수'"
+        },
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202202221633388240105223",
+          "source": "더벨",
+          "title": "'업계 대표 깐부' 웰투시·우리은행, 신일정밀 M&A도 맞손"
         }
       ]
     },
     {
-      "pe": "블랙록",
-      "action": "프리IPO 참여",
-      "target": "솔리다임",
+      "pe": "티에스인베",
+      "action": "M&A펀드 1차 클로징",
+      "target": null,
       "article_ids": [
-        "a18"
+        "a22"
       ],
-      "evidence": "블랙스톤·블랙록·베인 등 참여",
+      "evidence": "1200억 M&A펀드 1차 클로징",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200843485640106578",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610191602072040106985",
           "source": "더벨",
-          "title": "솔리다임 프리IPO 흥행, 블랙스톤·블랙록·베인 등 참여"
+          "title": "티에스인베, 1200억 M&A펀드 1차 클로징…1350억 이상 확대"
         }
       ]
     },
     {
-      "pe": "베인",
-      "action": "프리IPO 참여",
-      "target": "솔리다임",
-      "article_ids": [
-        "a18"
-      ],
-      "evidence": "블랙스톤·블랙록·베인 등 참여",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610200843485640106578",
-          "source": "더벨",
-          "title": "솔리다임 프리IPO 흥행, 블랙스톤·블랙록·베인 등 참여"
-        }
-      ]
-    },
-    {
-      "pe": "한투PE",
-      "action": "화성코스메틱 본입찰 참여 준비",
-      "target": "화성코스메틱",
-      "article_ids": [
-        "a15"
-      ],
-      "evidence": "화성코스메틱 본입찰 앞두고",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608051021348560106965",
-          "source": "더벨",
-          "title": "한투PE·에코프로, 화성코스메틱 본입찰 앞두고 키움증권 '맞손'"
-        }
-      ]
-    },
-    {
-      "pe": "IMM프라이빗에쿼티",
-      "action": "태림포장 계열 7개사 인수(2015년)",
-      "target": "태림포장 계열사",
+      "pe": "컴퍼니케이",
+      "action": "뉴스페이스펀드 2호 결성",
+      "target": null,
       "article_ids": [
         "a21"
       ],
-      "evidence": "IMM프라이빗에쿼티가 태림포장 계열 7개사를 인수",
+      "evidence": "623억 '뉴스페이스펀드 2호' 결성",
       "_articles": [
         {
-          "url": "https://www.fnnews.com/news/202610201818290549",
-          "source": "파이낸셜뉴스",
-          "title": "특수포장재 '승산팩' 투자 유치 나섰다"
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610191353577160109533",
+          "source": "더벨",
+          "title": "컴퍼니케이, 623억 '뉴스페이스펀드 2호' 결성"
         }
       ]
     },
     {
-      "pe": "MBK파트너스",
-      "action": "일본 알루미늄 포장재 기업 인수",
-      "target": "일본 알루미늄 포장재 기업",
+      "pe": "얼머스인베",
+      "action": "세컨더리 투자 및 M&A 확대 계획",
+      "target": null,
       "article_ids": [
-        "a21"
+        "a2"
       ],
-      "evidence": "MBK파트너스가 일본 알루미늄 포장재 기업을 인수",
+      "evidence": "그로쓰 투자와 인수합병(M&A)을 아우르는",
       "_articles": [
         {
-          "url": "https://www.fnnews.com/news/202610201818290549",
-          "source": "파이낸셜뉴스",
-          "title": "특수포장재 '승산팩' 투자 유치 나섰다"
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610191640582720108410",
+          "source": "더벨",
+          "title": "[더벨][얼머스인베 퀀텀점프] 9년차 세컨더리 명가, 중견 VC 도약 원년"
+        }
+      ]
+    },
+    {
+      "pe": "KVIC",
+      "action": "LP성장펀드 3차 세컨더리 750억 출자",
+      "target": null,
+      "article_ids": [
+        "a34"
+      ],
+      "evidence": "세컨더리 750억 출자",
+      "_articles": [
+        {
+          "url": "https://dealsite.co.kr/articles/171103",
+          "source": "딜인사이트",
+          "title": "KVIC LP성장펀드 3차…세컨더리 750억 출자"
+        }
+      ]
+    },
+    {
+      "pe": "모건스탠리PE",
+      "action": "한국사무소 폐쇄",
+      "target": null,
+      "article_ids": [
+        "a29"
+      ],
+      "evidence": "한국사무소, 21년 만에 문 닫는다",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610210840291620101496",
+          "source": "더벨",
+          "title": "모건스탠리PE 한국사무소, 21년 만에 문 닫는다"
         }
       ]
     }
   ],
   "for_sale": [
     {
-      "asset": "한화오션 지분",
-      "seller": "한화시스템",
+      "asset": "프레스티지바이오그룹 관련 로직스(CB 투자금 회수 과제)",
+      "seller": "옥타바",
       "process_stage": "거론",
       "article_ids": [
-        "a7"
+        "a0"
       ],
-      "evidence": "한화오션 지분 매각",
+      "evidence": "옥타바의 투자금 회수",
       "_articles": [
         {
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440131",
-          "source": "연합인포맥스",
-          "title": "09.한신평 \"한화시스템, 한화오션 지분 매각 유동성에 긍정적…PRS 부담 주시\""
-        }
-      ]
-    },
-    {
-      "asset": "동하메디칼",
-      "seller": null,
-      "process_stage": "거론",
-      "article_ids": [
-        "a10"
-      ],
-      "evidence": "동하메디칼 인수 추진",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610201510265600102931",
-          "source": "더벨",
-          "title": "'대웅 오너가 소유' 이지메디컴, 동하메디칼 인수 추진"
+          "url": "https://dealsite.co.kr/articles/171027",
+          "source": "딜인사이트",
+          "title": "[프레스티지바이오 딜레마] CB에 발목 잡힌 로직스…'꽃놀이패' 쥔 옥타..."
         }
       ]
     }
@@ -313,95 +387,90 @@
   "market_signals": [
     {
       "type": "DEAL_DROP",
-      "summary": "IPO·M&A 시장 침체로 VC 회수 어려움",
+      "summary": "3분기 국내외 M&A 거래 규모 감소",
       "article_ids": [
-        "a26"
+        "a11",
+        "a33",
+        "a12"
       ],
-      "evidence": "IPO와 M&A(인수합병) 시장이 침체한 상황에서",
+      "evidence": "글로벌 M&A 거래액 감소",
       "_articles": [
         {
-          "url": "https://www.mt.co.kr/stock/2026/10/21/2026102015542090140",
-          "source": "머니투데이",
-          "title": "4년 전 막힌 '증권사 BDC'…금투협, 국회 설득 나섰다"
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01610486645615544&mediaCodeNo=257",
+          "source": "이데일리",
+          "title": "글로벌 M&A 거래액 감소…대형 거래는 영국·호주에 집중"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=06159846645615216&mediaCodeNo=257",
+          "source": "이데일리",
+          "title": "메가딜도, 거래 건수도 줄었다…M&A 반토막"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01597366645615544&mediaCodeNo=257",
+          "source": "이데일리",
+          "title": "마무리 앞둔 딜 쌓여있지만..M&A 반등은 '글쎄'"
         }
       ]
     },
     {
-      "type": "REGULATORY",
-      "summary": "인도 중앙은행, 자국 기업 해외 투자 심사 강화",
+      "type": "ACQ_FINANCING",
+      "summary": "M&A 재원 상당 부분 CB로 조달",
       "article_ids": [
-        "a33"
+        "a4"
       ],
-      "evidence": "자국 기업의 해외 투자 심사 강화",
+      "evidence": "8000억 CB로 완성한 M&A 퍼즐",
       "_articles": [
         {
-          "url": "https://www.newspim.com/news/view/20261020000920",
-          "source": "뉴스핌",
-          "title": "印 중앙은행, 자국 기업의 해외 투자 심사 강화...루피화 가치 방어 목표"
+          "url": "https://dealsite.co.kr/articles/170959",
+          "source": "딜인사이트",
+          "title": "[구다이글로벌 점프업] 8000억 CB로 완성한 M&A 퍼즐…상장 준비 착착"
         }
       ]
     },
     {
-      "type": "REGULATORY",
-      "summary": "금융당국, 솔리다임 중복상장 제동 검토",
+      "type": "SECTOR_CONCENTRATION",
+      "summary": "운용사들이 중소형 기업 인수로 전환",
       "article_ids": [
-        "a9"
+        "a32"
       ],
-      "evidence": "'중복상장' 못박은 금융당국",
+      "evidence": "작은 기업 인수해 키우는게 낫다",
       "_articles": [
         {
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440033",
-          "source": "연합인포맥스",
-          "title": "01.솔리다임 '중복상장' 못박은 금융당국…美 IPO에 제동 걸리나"
+          "url": "https://www.edaily.co.kr/News/Read?newsId=06169686645615216&mediaCodeNo=257",
+          "source": "이데일리",
+          "title": "\"작은 기업 인수해 키우는게 낫다\"…중소형 거래로 버틴 M&A 시장"
         }
       ]
     }
   ],
   "diag": {
     "llm_raw": {
-      "deals": 10,
+      "deals": 12,
       "pe_moves": 6,
-      "for_sale": 3,
-      "market_signals": 3
+      "for_sale": 1,
+      "market_signals": 4
     },
     "drops": [
       {
         "reason": "evidence_not_in_source",
-        "label": "오케스트라 바이오",
-        "evidence": "오케스트라 바이오를 인수했다고",
+        "label": "REGULATORY",
+        "evidence": "IPO나 인수합병(M&A)이 제대로 작동하지 않아",
         "ids": [
-          "a4",
-          "a0"
-        ]
-      },
-      {
-        "reason": "evidence_not_in_source",
-        "label": "실크밸리GC",
-        "evidence": "실크밸리GC 매물로…몸값 2500억",
-        "ids": [
-          "a28"
-        ]
-      },
-      {
-        "reason": "evidence_not_in_source",
-        "label": "실크밸리GC",
-        "evidence": "실크밸리GC 매물로…몸값 2500억",
-        "ids": [
-          "a28"
+          "a7"
         ]
       }
     ],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 7156,
+        "input_tokens": 6615,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 2364,
+        "output_tokens": 2633,
         "output_tokens_details": {
           "thinking_tokens": 0
         },
