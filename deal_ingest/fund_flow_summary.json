@@ -1,30 +1,19 @@
 {
-  "generated_at": "2026-10-21T22:11:35.303004+00:00",
+  "generated_at": "2026-10-22T22:11:10.948204+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 686,
+  "total_policy_articles": 696,
   "matched_funds_count": 3,
-  "unmatched_count": 225,
+  "unmatched_count": 229,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-24",
-      "last_updated": "2026-10-22",
-      "event_count": 458,
+      "first_seen": "2026-07-25",
+      "last_updated": "2026-10-23",
+      "event_count": 464,
       "timeline": [
-        {
-          "date": "2026-07-24",
-          "published_at": "2026-07-24T13:52:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": null,
-          "title": "[Invest]국민연금, 9월 블라인드펀드 출자 재개…'중형 리그' 부활 검토",
-          "summary": "국내 기관투자가 '큰손'인 국민연금공단이 지난해 중단했던 국내 사모펀드(PEF) 블라인드펀드 출자사업을... 국민성장펀드를 통해 주요 운용사들이 이미 펀드 결성을 상당 부분 마친 데다 신규 블라인드펀드를 조성 중인...",
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/24/2026072480095.html",
-          "source_label": "인베스트조선"
-        },
         {
           "date": "2026-07-25",
           "published_at": "2026-07-25T06:02:00+09:00",
@@ -5051,6 +5040,83 @@
           "summary": "국민성장펀드는 단기 성과가 없는 기업에도 투자할 수 있도록 초장기 기술투자펀드를 운영하고 있다. 특히 신용등급을 고려하는 저리 대출과 달리 직접·간접투자는 기업의 기술력과 미래 성장 가능성을 중심으로...",
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610211432403840105838",
           "source_label": "더벨"
+        },
+        {
+          "date": "2026-10-22",
+          "published_at": "2026-10-22T07:36:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "생산적금융 향해 달리는 우리금융…런던인맥 총력전",
+          "summary": "임종룡 회장 주도 아래 은행·증권 협업 강화…국민성장펀드 CJ포디플렉스 투자로 거침없는 실행력 부각... 발굴한 투자안은 내부 투자심의에서 한 차례 부결됐다가 재심을 거쳐 최종 승인됐다. 투자 발굴과 실제 집행...",
+          "url": "https://dealsite.co.kr/articles/171048",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-10-22",
+          "published_at": "2026-10-22T10:03:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "국민성장펀드, 우주항공·양자산업까지 투자 확대",
+          "summary": "국민성장펀드는 정부와 민간이 함께 조성하는 150조원 규모의 첨단산업 투자 프로그램이다. 산업은행의 첨단전략산업기금 75조원을 마중물로 활용하고 민간 금융회사와 연기금, 국민 등의 자금 75조원을 연계해 5년간...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03234086645615544&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-10-22",
+          "published_at": "2026-10-22T10:04:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드, 우주항공ㆍ양자도 지원⋯대상 산업 확대",
+          "summary": "이를 위해 한국산업은행법 시행령상 첨단전략산업기금의 지원 가능 업종 범위를 확대한다. 시행령이 개정되면 국민성장펀드를 통해 해당 산업의 기업과 프로젝트 등에 자금을 공급할 수 있는 제도적 기반이 마련된다....",
+          "url": "https://www.etoday.co.kr/news/view/2638758",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-22",
+          "published_at": "2026-10-22T10:06:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": null,
+          "title": "국민성장펀드, 우주항공·양자도 투자한다…12월 1일까지 입법예고",
+          "summary": "개정안은 국민성장펀드의 지원 기반인 첨단전략산업기금의 대상 업종을 확대하는 내용을 담았다. 이번 개정은 지난 7월 금융위가 발표한 국민성장펀드 지원 대상 확대 방침의 후속 조치다. 관계부처 의견 수렴을 거쳐...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440520",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-10-22",
+          "published_at": "2026-10-22T11:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "75조",
+          "title": "李정부 국민성장펀드, '우주항공·양자산업'에도 투자한다...'14개 산업'...",
+          "summary": "구체적으로는 첨단전략산업기금 75조원에 민간·연기금·금융회사·국민 자금 75조원이 들어간다. 국민성장펀드는 투자 안건의 위험을 독립적으로 검토하기 위해 '리스크관리위원회'를 가동해 재무 및 비재무적 리스크를...",
+          "url": "https://www.fnnews.com/news/202610220951380201",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-10-22",
+          "published_at": "2026-10-22T11:39:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "2조",
+          "title": "[단독]국민성장펀드, 하이닉스 전력 공급 LNG 발전소에 7000억 투자 검토",
+          "summary": "국민성장펀드는 그동안 반도체 설계·생산 분야에 대한 지원을 이어왔다. 지난 2월 삼성전자의 평택 5라인(P5) AI 반도체 생산기지 구축에 첨단기금 2조원과 5대 시중은행 5000억원 등 총 2조5000억원의 저리 대출을...",
+          "url": "https://view.asiae.co.kr/article/2026102209435082120",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-10-23",
+          "published_at": "2026-10-23T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5300억",
+          "title": "[Invest]LIG D&A 입찰제한에 국민성장펀드 5300억 유증 지연 우려…손배...",
+          "summary": "회사는 집행정지 신청 등 법적 대응을 예고했지만, 결정 다음날인 21일 LIG D&A 주가는 10%대 급락해 22일 2시... 투자목적회사(SPC)인 케이디펜스그로쓰1호 유한회사를 통해 우선주를 인수하는 구조다. 국민성장펀드의...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/22/2026102280120.html",
+          "source_label": "인베스트조선"
         }
       ]
     },
@@ -5111,18 +5177,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-07-24",
-      "title": "[더벨][티에스인베 PEF 밸류업] 1600억 3호 펀드 결성…AI·로봇·방산 중...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607221536184440101286",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "[충정로에서] 벤처투자사 지방이전 성공 조건",
-      "url": "https://dealsite.co.kr/articles/165782",
-      "source_label": "딜인사이트"
-    },
     {
       "date": "2026-07-27",
       "title": "은둔 깬 1세대 VC 새한창투, 첫 정책 펀드 굴린다…모태펀드 GP 낙점",
@@ -5410,6 +5464,18 @@
       "title": "[채권-마감] 약세 스티프닝…外人 장기 매도·미래기금 영향 주시",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431286",
       "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "내년부터 나라 곳간에 ‘100조원’ 새 돈주머니 생긴다 [Pick코노미]",
+      "url": "https://www.sedaily.com/article/20082077",
+      "source_label": "서울경제"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "“승계 넘어 신사업까지”…중기 M&A 지원망 확대하는 기보",
+      "url": "https://www.sedaily.com/article/20082070",
+      "source_label": "서울경제"
     }
   ]
 }

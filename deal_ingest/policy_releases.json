@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T22:11:46.959714+00:00",
+  "generated_at": "2026-10-22T22:11:23.337448+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -15,7 +15,7 @@
     },
     "공정위": {
       "ok": true,
-      "count": 8,
+      "count": 9,
       "fetched": 10
     },
     "거래소": {
@@ -25,6 +25,24 @@
     }
   },
   "releases": [
+    {
+      "title": "우주항공 · 양자 산업을 국민성장펀드의 지원대상산업에 추가하고자 합니다. - 한국산업은행법 시행령 개정령안 입법예고(10.22~12.1일)",
+      "date": "2026-10-22",
+      "url": "https://www.fsc.go.kr/no010101/87977",
+      "agency": "금융위"
+    },
+    {
+      "title": "(보도설명) 정부는 할당관세의 물가안정 효과를 높이기 위한 제도개선을 지속 추진 중입니다.",
+      "date": "2026-10-22",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079736&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "AI관련 표시광고 가이드라인 초안 의견청취 실시",
+      "date": "2026-10-22",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48140",
+      "agency": "공정위"
+    },
     {
       "title": "사업보고서 등에 대한 조사·감리결과 조치 - 제18차 금융위원회(’26.10.21.) 조치 의결",
       "date": "2026-10-21",
@@ -44,7 +62,7 @@
       "agency": "금융위"
     },
     {
-      "title": "군 장병의 경제관 확립과 금융역량 향상을 위해 국방부과 금융위이 손을 맞잡다!",
+      "title": "군 장병의 경제관 확립과 금융역량 향상을 위해 국방(부)과 금융(위)이 손을 맞잡다!",
       "date": "2026-10-21",
       "url": "https://www.fsc.go.kr/no010101/87972",
       "agency": "금융위"
@@ -140,12 +158,6 @@
       "agency": "금융위"
     },
     {
-      "title": "“내 집 어디에, 언제 공급되나” 주택공급, 계획부터 성과까지 정례적으로 공개합니다",
-      "date": "2026-10-16",
-      "url": "https://www.fsc.go.kr/no010101/87948",
-      "agency": "금융위"
-    },
-    {
       "title": "제11차 관계부처 합동 일자리전담반(TF) 개최",
       "date": "2026-10-16",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079661&menuNo=4010100",
@@ -155,12 +167,6 @@
       "title": "한미 재무·통화당국 2+2 면담 개최",
       "date": "2026-10-16",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079678&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "주요 20개국(G20)·주요 7개국(G7) 재무장관회의 참석 및 주요인사 면담 결과",
-      "date": "2026-10-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079665&menuNo=4010100",
       "agency": "기재부"
     },
     {
