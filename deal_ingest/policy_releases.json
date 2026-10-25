@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:11:23.337448+00:00",
+  "generated_at": "2026-10-25T22:11:33.152658+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -15,7 +15,7 @@
     },
     "공정위": {
       "ok": true,
-      "count": 9,
+      "count": 10,
       "fetched": 10
     },
     "거래소": {
@@ -25,6 +25,48 @@
     }
   },
   "releases": [
+    {
+      "title": "경제현안간담회 개최",
+      "date": "2026-10-25",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079749&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "여신전문금융업감독규정 개정안 규정변경예고(‘26.10.23.~12.2.) 실시",
+      "date": "2026-10-23",
+      "url": "https://www.fsc.go.kr/no010101/87984",
+      "agency": "금융위"
+    },
+    {
+      "title": "이형일 부총리, 영등포복합청사 현장방문",
+      "date": "2026-10-23",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079741&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "제9회 디지털 이코노미 포럼 개최",
+      "date": "2026-10-23",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079738&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "'26.10월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
+      "date": "2026-10-23",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079737&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "(주)케이피아이씨코포레이션의 지주회사 행위제한규정 위반행위 제재",
+      "date": "2026-10-23",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48147",
+      "agency": "공정위"
+    },
+    {
+      "title": "선불식 할부거래에서의 소비자보호 지침」 개정·시행",
+      "date": "2026-10-23",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48144",
+      "agency": "공정위"
+    },
     {
       "title": "우주항공 · 양자 산업을 국민성장펀드의 지원대상산업에 추가하고자 합니다. - 한국산업은행법 시행령 개정령안 입법예고(10.22~12.1일)",
       "date": "2026-10-22",
@@ -134,40 +176,10 @@
       "agency": "금융위"
     },
     {
-      "title": "국제통화위원회(IMFC) 참석 및 주요 인사 면담 결과",
-      "date": "2026-10-19",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079697&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "공정위, 제3회 특별성과 포상금 수여",
       "date": "2026-10-19",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48117",
       "agency": "공정위"
-    },
-    {
-      "title": "글로벌 3대 신용평가사, 주요국 수석대표 및 다자개발은행 총재 등 주요 인사 면담 결과",
-      "date": "2026-10-18",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079680&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "금융위원회 인사보도(3급·4급 전보)",
-      "date": "2026-10-16",
-      "url": "https://www.fsc.go.kr/no010101/87949",
-      "agency": "금융위"
-    },
-    {
-      "title": "제11차 관계부처 합동 일자리전담반(TF) 개최",
-      "date": "2026-10-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079661&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "한미 재무·통화당국 2+2 면담 개최",
-      "date": "2026-10-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079678&menuNo=4010100",
-      "agency": "기재부"
     },
     {
       "title": "결혼서비스업 분야 중요정보고시 위반 업체 과태료 부과절차 진행",
@@ -191,12 +203,6 @@
       "title": "조정원, 인도 ODR 전문기관과 간담회 개최",
       "date": "2026-10-13",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48102",
-      "agency": "공정위"
-    },
-    {
-      "title": "3개 지역 교복 입찰 담합 제재",
-      "date": "2026-10-13",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48101",
       "agency": "공정위"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:11:11.739301+00:00",
+  "generated_at": "2026-10-25T22:11:19.702420+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-10-22T22:11:11.739222+00:00",
+    "sheet_synced_at": "2026-10-25T22:11:19.702326+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -1897,6 +1897,16 @@
           "status_label": "검토단계",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/09/09/2026090980125.html",
           "source": "인베스트조선"
+        },
+        {
+          "date": "2026-10-23",
+          "event": "2.5조 국가 AI컴퓨팅센터, 공공성 논란…\"지원 물량 계약 보장 없어\"",
+          "methods": [],
+          "amount": "5조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.mt.co.kr/politics/2026/10/23/2026102312290249154",
+          "source": "머니투데이"
         }
       ]
     },
@@ -3421,6 +3431,98 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "김대현",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "3500억원",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "timeline": [
+        {
+          "date": "2026-10-26",
+          "event": "[더벨]원익로보틱스 새 수장에 '김대현' 전무",
+          "methods": [
+            "출자"
+          ],
+          "amount": "3500억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610220000543120108443",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "company_name": "채비",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": null,
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "timeline": [
+        {
+          "date": "2026-10-26",
+          "event": "[더벨]네패스아크, 대규모 투자 채비 '테슬라 물량 기대'",
+          "methods": [
+            "대출"
+          ],
+          "amount": null,
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610211425163680104842",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "company_name": "큰손",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "11조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-10-23",
+      "timeline": [
+        {
+          "date": "2026-07-16",
+          "event": "‘대체투자 큰손’ PEF 출자 재개…하반기 펀드레이징 달아오른다",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.hankyung.com/article/202607144735r",
+          "source": "한국경제"
+        },
+        {
+          "date": "2026-10-23",
+          "event": "‘큰손’ 지갑 닫자…PEF 신규 출자액 11조로 뚝[시그널]",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "11조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.sedaily.com/article/20105379",
+          "source": "서울경제"
+        }
+      ]
+    },
     {
       "company_name": "해야",
       "sector": null,
@@ -6983,32 +7085,6 @@
       ]
     },
     {
-      "company_name": "큰손",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": null,
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-07-16",
-      "last_seen": "2026-07-16",
-      "timeline": [
-        {
-          "date": "2026-07-16",
-          "event": "‘대체투자 큰손’ PEF 출자 재개…하반기 펀드레이징 달아오른다",
-          "methods": [
-            "출자"
-          ],
-          "amount": null,
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.hankyung.com/article/202607144735r",
-          "source": "한국경제"
-        }
-      ]
-    },
-    {
       "company_name": "테마섹",
       "sector": null,
       "methods": [
@@ -9539,30 +9615,6 @@
   "candidates": [
     {
       "date": "2026-09-15",
-      "title": "금융권 '생산적 금융' 총력전…5년간 1250조→1560조로 확대",
-      "url": "https://www.mt.co.kr/finance/2026/09/15/2026091416364715014",
-      "source": "머니투데이"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "“국민성장펀드, LNG발전소 투자 배제해야…ESG 원칙 마련 필요”",
-      "url": "https://futurechosun.com/?p=160253",
-      "source": "조선일보"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "기후단체들 \"국민성장펀드, 화석연료 투자 배제한 ESG 원칙 제정해야”",
-      "url": "https://www.etoday.co.kr/news/view/2625739",
-      "source": "이투데이"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "충북도 \"바이오 등 국민성장펀드 기업 발굴해 연계\"",
-      "url": "https://www.newsis.com/view/NISX20260915_0003790278",
-      "source": "뉴시스"
-    },
-    {
-      "date": "2026-09-15",
       "title": "국민성장펀드 지원 기업 발굴…충북도, 협의체 가동",
       "url": "https://www.news1.kr/local/sejong-chungbuk/6291465",
       "source": "뉴스1"
@@ -10136,6 +10188,30 @@
       "title": "[Invest]LIG D&A 입찰제한에 국민성장펀드 5300억 유증 지연 우려…손배...",
       "url": "https://www.investchosun.com/site/data/html_dir/2026/10/22/2026102280120.html",
       "source": "인베스트조선"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "국민성장펀드 쏠림 재차 지적 “중기·벤처 자금공급 위축 막아야” [20...",
+      "url": "https://www.fntimes.com/html/view.php?ud=2026102221224737495e6e69892f_18",
+      "source": "한국금융신문"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "다음주 금융당국 일정",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01626886645616200&mediaCodeNo=257",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440944",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "이번주 국내 주요 금융일정(10.26~10.30)",
+      "url": "https://www.newspim.com/news/view/20261023001217",
+      "source": "뉴스핌"
     }
   ],
   "matched_articles_this_run": 474,

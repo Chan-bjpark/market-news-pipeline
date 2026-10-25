@@ -1,107 +1,19 @@
 {
-  "generated_at": "2026-10-22T22:11:10.948204+00:00",
+  "generated_at": "2026-10-25T22:11:18.692632+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 696,
+  "total_policy_articles": 701,
   "matched_funds_count": 3,
-  "unmatched_count": 229,
+  "unmatched_count": 234,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-25",
-      "last_updated": "2026-10-23",
+      "first_seen": "2026-07-28",
+      "last_updated": "2026-10-26",
       "event_count": 464,
       "timeline": [
-        {
-          "date": "2026-07-25",
-          "published_at": "2026-07-25T06:02:00+09:00",
-          "stage_code": "gp_selected",
-          "stage_label": "운용사 선정",
-          "amount": null,
-          "title": "[인터뷰] 남두우 라이프운용 대표 “숨어있는 좋은 기업 찾아 성장시키...",
-          "summary": "이 같은 투자 철학은 최근 국민성장펀드 중형 GP 선정으로도 이어졌다. 남 대표는 “업력이 길지 않지만 첨단 산업 투자 역량과 트랙 레코드를 인정받은 결과라고 생각한다”며 “국민들이 출자한 자금을 운용하는 만큼...",
-          "url": "https://biz.chosun.com/stock/stock_general/2026/07/25/TFU2JDDHQNFSTJLQCE5E6LEIG4/",
-          "source_label": "조선일보"
-        },
-        {
-          "date": "2026-07-25",
-          "published_at": "2026-07-25T06:32:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "다음주 금융당국 일정",
-          "summary": "보이스피싱 피해예방 홍보도 함께 갑니다!(12:00) △30일(목) -국민성장펀드, 7월 기금운용심의회 개최 및 승인결과(배포시) -은행권 ETF 신탁 거래 관련 소비자경보 발령(12:00) -제약·바이오 공시, 투자자...",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01813846645518128",
-          "source_label": "이데일리"
-        },
-        {
-          "date": "2026-07-25",
-          "published_at": "2026-07-25T08:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "[다음주 한국은행 및 금융위·금감원 일정]",
-          "summary": "(Beyond finance, into the future)\" 코리아 핀테크 위크 2026 개최 안내(30일 조간) *7월30일(목) ▲10:00 부위원장 차관회의 ※국민성장펀드, 7월 기금운용심의회 개최 및 승인결과(배포시) *7월31일(금) ▲10:00 위원장...",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426803",
-          "source_label": "연합인포맥스"
-        },
-        {
-          "date": "2026-07-25",
-          "published_at": "2026-07-25T17:00:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "이번주 국내 주요 금융일정(7.27~7.31)",
-          "summary": "금융위원회, 국민성장펀드 7월 기금운용심의회 개최 및 승인결과(배포시) 한국은행, 2026년 7월 기업경기조사 결과 및 경제심리지수(6시) 금융감독원, 은행권 ETF 신탁 거래 관련 소비자경보 발령(12시) 금융감독원...",
-          "url": "https://www.newspim.com/news/view/20260724001100",
-          "source_label": "뉴스핌"
-        },
-        {
-          "date": "2026-07-26",
-          "published_at": "2026-07-26T17:18:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "1조 3000억",
-          "title": "산은·하나·농협 등 LGD에 2000억 추가대출",
-          "summary": "이번 공동대출은 국민성장펀드의 저리대출과 연계해 추진된다. 앞서 국민성장펀드는 LG디스플레이에 1조 3000억 원 규모의 저리대출을 지원하는 방안을 투자심의위원회에서 의결했다. 금융위원회는 조만간...",
-          "url": "https://www.sedaily.com/article/20071971",
-          "source_label": "서울경제"
-        },
-        {
-          "date": "2026-07-27",
-          "published_at": "2026-07-27T05:30:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "[기자수첩] 초장기펀드가 놓친 '가장 오래 기다린 사람들'",
-          "summary": "국민성장펀드가 새로 내놓은 '초장기기술투자펀드(이하 초장기펀드)'의 존속기간이다. 반도체와 AI... 건당 수억원에서 수십억원 규모를 집행해 온 AC의 체급으로는 단독 운용이 버거운 규모인 것은 분명한 사실이다....",
-          "url": "https://www.mt.co.kr/future/2026/07/27/2026072601260938753",
-          "source_label": "머니투데이"
-        },
-        {
-          "date": "2026-07-27",
-          "published_at": "2026-07-27T07:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "[이번주 한국은행 및 금융위·금감원 일정]",
-          "summary": "(Beyond finance, into the future)\" 코리아 핀테크 위크 2026 개최 안내(30일 조간) *7월30일(목) ▲10:00 부위원장 차관회의 ※국민성장펀드, 7월 기금운용심의회 개최 및 승인결과(배포시) *7월31일(금) ▲10:00 위원장...",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426903",
-          "source_label": "연합인포맥스"
-        },
-        {
-          "date": "2026-07-27",
-          "published_at": "2026-07-27T14:42:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "'실리콘밸리 자본까지' 모험자본 넘친다… 기업 몸값 인플레 우려도",
-          "summary": "규모의 국민성장펀드까지 본격 가동되면 국내 VC 생태계에는 정책자금과 민간 자금, 해외 투자자금이... 결국, 오버밸류 상태에서 집행된 투자는 펀드 수익률 저하로 이어질 공산이 크다. 펀드 만기 시점까지 적정 가격에...",
-          "url": "https://www.etoday.co.kr/news/view/2607806",
-          "source_label": "이투데이"
-        },
         {
           "date": "2026-07-28",
           "published_at": "2026-07-28T11:26:00+09:00",
@@ -5117,6 +5029,94 @@
           "summary": "회사는 집행정지 신청 등 법적 대응을 예고했지만, 결정 다음날인 21일 LIG D&A 주가는 10%대 급락해 22일 2시... 투자목적회사(SPC)인 케이디펜스그로쓰1호 유한회사를 통해 우선주를 인수하는 구조다. 국민성장펀드의...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/10/22/2026102280120.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-10-23",
+          "published_at": "2026-10-23T09:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "국민성장펀드 쏠림 재차 지적 “중기·벤처 자금공급 위축 막아야” [20...",
+          "summary": "은행의 출자 결정과 집행 시점, 펀드의 투자 대상 등을 함께 비교해야 자금 이동의 원인을 판단할 수 있을 전망이다. 신규 공급·중복 집계·기업 성장단계별 지원이 후속과제 국감 이후 금융위가 확인할 첫 번째 항목은...",
+          "url": "https://www.fntimes.com/html/view.php?ud=2026102221224737495e6e69892f_18",
+          "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-10-23",
+          "published_at": "2026-10-23T12:36:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5조",
+          "title": "2.5조 국가 AI컴퓨팅센터, 공공성 논란…\"지원 물량 계약 보장 없어\"",
+          "summary": "800억원과 국민성장펀드 360억원이 투입되는데도 이사회 구성과 산학연 지원조건 등이 영업비밀을 이유로 국회에 제출되지 않았다고 지적했다. 그러면서 \"중소기업과 스타트업, 대학과 연구기관의 AI 컴퓨팅 자원...",
+          "url": "https://www.mt.co.kr/politics/2026/10/23/2026102312290249154",
+          "source_label": "머니투데이"
+        },
+        {
+          "date": "2026-10-23",
+          "published_at": "2026-10-23T17:44:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "11조",
+          "title": "‘큰손’ 지갑 닫자…PEF 신규 출자액 11조로 뚝[시그널]",
+          "summary": "그나마 국민성장펀드 출자가 본격화하고 있지만 대부분 연말에 약정 체결이 몰려 있다. 금리가 높아진 것도 부정적인 영향을 미쳤다. PEF 운용사는 기관투자가로부터 먼저 자금을 유치한 뒤 추가로 대출을 받아...",
+          "url": "https://www.sedaily.com/article/20105379",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-10-24",
+          "published_at": "2026-10-24T06:03:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "다음주 금융당국 일정",
+          "summary": "16:00) -국민성장펀드, 10월 기금운용심의회 개최 및 승인결과(금융위, 베포시) △30(금) -2026년 9월 외국인 증권투자 동향(금감원, 06:00) -미소금융 재원 기부 협약식 개최(금융위, 10:00) -제9회 회계의 날 기념식 및...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01626886645616200&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-10-24",
+          "published_at": "2026-10-24T08:02:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": null,
+          "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+          "summary": "(14:00) ※국민성장펀드, 10월 기금운용심의회 개최 및 승인결과(배포시) ※금융회사 신속정리제도 도입방안 발표(30일 조간) *10월 30일(금) ▲10:00 위원장 미소금융 공동 협약식(그랜드센트럴) ▲10:00 부위원장...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440944",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-10-24",
+          "published_at": "2026-10-24T18:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이번주 국내 주요 금융일정(10.26~10.30)",
+          "summary": "금융위원회, 국민성장펀드 10월 기금운용심의회 개최 및 승인결과(배포시) 금융감독원, 2026년 3분기 등록 ABS 발생 실적(6시) 금융감독원, 보험회사 계리담당 부서장 간담회 개최(16시) 신현송 한국은행 총재...",
+          "url": "https://www.newspim.com/news/view/20261023001217",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-10-26",
+          "published_at": "2026-10-26T07:02:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": null,
+          "title": "[더벨]네패스아크, 대규모 투자 채비 '테슬라 물량 기대'",
+          "summary": "국민성장펀드 저리대출은 기업이 투자 규모와 사업계획 등을 제출하면 이를 토대로 지원 여부를 심사하는 구조다. 네패스아크는 현재 관련 절차와 지원 가능 규모를 확인하고 있는 단계로 알려졌다. 외부 투자자를...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610211425163680104842",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-10-26",
+          "published_at": "2026-10-26T07:02:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "3500억원",
+          "title": "[더벨]원익로보틱스 새 수장에 '김대현' 전무",
+          "summary": "원익로보틱스는 최근 국민성장펀드와 민간투자자로부터 총 3500억원의 자금을 조달하기로 했다. 첨단전략산업기금이 전환우선주(CPS) 방식으로 1500억원을 직접 지분투자하고 민간투자자가 나머지 2000억원을 투자하는...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610220000543120108443",
+          "source_label": "더벨"
         }
       ]
     },
@@ -5177,12 +5177,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-07-27",
-      "title": "은둔 깬 1세대 VC 새한창투, 첫 정책 펀드 굴린다…모태펀드 GP 낙점",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427067",
-      "source_label": "연합인포맥스"
-    },
     {
       "date": "2026-07-28",
       "title": "[더벨][영상 | 2026년 상반기] 벤처펀드 50조 시대…VC 시장, 역대급 상반...",
@@ -5302,6 +5296,12 @@
       "title": "신한벤처, 모펀드 GP 11곳에 400억 매칭 출자",
       "url": "https://dealsite.co.kr/articles/166934",
       "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/11/2026081180058.html",
+      "source_label": "인베스트조선"
     },
     {
       "date": "2026-08-11",
