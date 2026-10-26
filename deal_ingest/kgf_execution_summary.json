@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T22:11:19.702420+00:00",
+  "generated_at": "2026-10-26T22:11:10.062136+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-10-25T22:11:19.702326+00:00",
+    "sheet_synced_at": "2026-10-26T22:11:10.062060+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3484,6 +3484,111 @@
       ]
     },
     {
+      "company_name": "원익로보틱스",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "3000억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-10-26",
+      "timeline": [
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 원익로보틱스에 1500억 직접 투자",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.fnnews.com/news/202608271856211817",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-08-27",
+          "event": "국민성장펀드, 원익로보틱스에 3500억 투자…전북 AX 센터 신축 자금 조...",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "17조9000억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://view.asiae.co.kr/article/2026082720234611380",
+          "source": "아시아경제"
+        },
+        {
+          "date": "2026-09-02",
+          "event": "원익로보틱스, 5지 로봇핸드 출시…접촉 데이터까지 수집",
+          "methods": [],
+          "amount": "2000억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.etoday.co.kr/news/view/2621190",
+          "source": "이투데이"
+        },
+        {
+          "date": "2026-10-26",
+          "event": "1000억 투자 원익로보틱스, 완주에 로봇 생산기지 구축",
+          "methods": [],
+          "amount": "3500억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2640264",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "company_name": "탄력",
+      "sector": null,
+      "methods": [],
+      "amount": "500억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "timeline": [
+        {
+          "date": "2026-10-26",
+          "event": "원익로보틱스, 완주에 1천억원 투자…제조업 AI 전환 '탄력'",
+          "methods": [],
+          "amount": "500억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.yna.co.kr/view/AKR20261026123500055?input=1195m",
+          "source": "연합뉴스"
+        }
+      ]
+    },
+    {
+      "company_name": "완주군",
+      "sector": null,
+      "methods": [],
+      "amount": "3500억 원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "timeline": [
+        {
+          "date": "2026-10-26",
+          "event": "완주군, 원익로보틱스 1000억 투자 유치…로봇산업 거점 조성",
+          "methods": [],
+          "amount": "3500억 원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.newspim.com/news/view/20261026001194",
+          "source": "뉴스핌"
+        }
+      ]
+    },
+    {
       "company_name": "큰손",
       "sector": null,
       "methods": [
@@ -5043,57 +5148,6 @@
           "status_label": "관련 동향",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/09/01/2026090180148.html",
           "source": "인베스트조선"
-        }
-      ]
-    },
-    {
-      "company_name": "원익로보틱스",
-      "sector": null,
-      "methods": [
-        "출자",
-        "대출"
-      ],
-      "amount": "3000억원",
-      "status_code": "review",
-      "status_label": "검토단계",
-      "first_seen": "2026-08-27",
-      "last_seen": "2026-09-02",
-      "timeline": [
-        {
-          "date": "2026-08-27",
-          "event": "국민성장펀드, 원익로보틱스에 1500억 직접 투자",
-          "methods": [
-            "출자",
-            "대출"
-          ],
-          "amount": "3000억원",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.fnnews.com/news/202608271856211817",
-          "source": "파이낸셜뉴스"
-        },
-        {
-          "date": "2026-08-27",
-          "event": "국민성장펀드, 원익로보틱스에 3500억 투자…전북 AX 센터 신축 자금 조...",
-          "methods": [
-            "출자",
-            "대출"
-          ],
-          "amount": "17조9000억",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://view.asiae.co.kr/article/2026082720234611380",
-          "source": "아시아경제"
-        },
-        {
-          "date": "2026-09-02",
-          "event": "원익로보틱스, 5지 로봇핸드 출시…접촉 데이터까지 수집",
-          "methods": [],
-          "amount": "2000억원",
-          "status_code": "review",
-          "status_label": "검토단계",
-          "url": "https://www.etoday.co.kr/news/view/2621190",
-          "source": "이투데이"
         }
       ]
     },
@@ -9614,36 +9668,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-09-15",
-      "title": "국민성장펀드 지원 기업 발굴…충북도, 협의체 가동",
-      "url": "https://www.news1.kr/local/sejong-chungbuk/6291465",
-      "source": "뉴스1"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "증권사들, 국민성장펀드 2차는 '조용히'…증시도 관심도 '시들'",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/09/16/2026091680125.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "박상진號 산업은행 1년, 성장산업 17.9조 지원·한계사업 1.38조 재편 ‘...",
-      "url": "https://www.fntimes.com/html/view.php?ud=2026091516200799865e6e69892f_18",
-      "source": "한국금융신문"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "[오늘의 주요일정]금융·증권(9월17일 목요일)",
-      "url": "https://www.newsis.com/view/NISX20260916_0003791960",
-      "source": "뉴시스"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "산업은행 1000억원 추가 출자…국민성장펀드·넷제로 투입 이어간다",
-      "url": "https://view.asiae.co.kr/article/2026091709225633713",
-      "source": "아시아경제"
-    },
-    {
       "date": "2026-09-17",
       "title": "국민성장펀드, 부실 우려·투자금 회수 별도 심의…사후관리위 신설",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435466",
@@ -10185,6 +10209,12 @@
     },
     {
       "date": "2026-10-23",
+      "title": "\"내년엔 구주도 사달라\"…국민성장펀드 문 두드리는 PEF들",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/10/23/2026102380130.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-10-23",
       "title": "[Invest]LIG D&A 입찰제한에 국민성장펀드 5300억 유증 지연 우려…손배...",
       "url": "https://www.investchosun.com/site/data/html_dir/2026/10/22/2026102280120.html",
       "source": "인베스트조선"
@@ -10212,8 +10242,32 @@
       "title": "이번주 국내 주요 금융일정(10.26~10.30)",
       "url": "https://www.newspim.com/news/view/20261023001217",
       "source": "뉴스핌"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "국민참여성장펀드 첫 성적표 '+0.5%'…손익차등 구조가 하락 방어",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441144",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "국민참여성장펀드 첫 수익률 0.5%…자펀드 최대 20% 손실에도 정부가 방...",
+      "url": "https://biz.heraldcorp.com/article/10915261",
+      "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "'로봇 전문' 원익로보틱스, 1000억 들여 완주에 제조 AX 거점 세운다",
+      "url": "https://www.news1.kr/local/jeonbuk/6332384",
+      "source": "뉴스1"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "첫 공개된 국민참여성장펀드 수익률...최근 3개월간 0.5%",
+      "url": "https://www.hankyung.com/article/202610265790i",
+      "source": "마켓인사이트"
     }
   ],
-  "matched_articles_this_run": 474,
+  "matched_articles_this_run": 480,
   "confirmed_deals_count": 16
 }

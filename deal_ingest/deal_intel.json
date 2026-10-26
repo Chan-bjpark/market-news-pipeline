@@ -1,12 +1,215 @@
 {
-  "generated_at": "2026-10-25T22:11:33.335063+00:00",
+  "generated_at": "2026-10-26T22:11:21.972311+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
-  "ok": false,
-  "fallback": true,
-  "deals": [],
-  "pe_moves": [],
-  "for_sale": [],
+  "ok": true,
+  "fallback": false,
+  "deals": [
+    {
+      "target": "현대위아",
+      "counterparties": "현대로템",
+      "pe_firms": [],
+      "industry": "자동차부품",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "현대로템, 현대위아 인수로 돌파구 모색",
+      "article_ids": [
+        "a31"
+      ],
+      "evidence": "현대위아 인수로 '돌파구'",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610191534168480103736",
+          "source": "더벨",
+          "title": "현대로템, 방산 성장 '주춤'…현대위아 인수로 '돌파구'"
+        }
+      ]
+    },
+    {
+      "target": "소다아로마틱",
+      "counterparties": "삼양사",
+      "pe_firms": [],
+      "industry": "화학",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "삼양사, 소다아로마틱 인수 추진",
+      "article_ids": [
+        "a33",
+        "a34"
+      ],
+      "evidence": "소다아로마틱 인수자금 윤곽",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202606080819273080105661",
+          "source": "더벨",
+          "title": "삼양사, 자금 부담에도 소다아로마틱 인수 이유는"
+        },
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202606190939170280103090",
+          "source": "더벨",
+          "title": "삼양사, 소다아로마틱 인수자금 윤곽…출자·현지차입 병행"
+        }
+      ]
+    },
+    {
+      "target": "코맥스",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "도어락",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "코맥스 매각 완료",
+      "article_ids": [
+        "a8"
+      ],
+      "evidence": "코맥스(036690)가 매각됐고",
+      "_articles": [
+        {
+          "url": "https://www.sedaily.com/article/20106245",
+          "source": "서울경제",
+          "title": "도어락 ‘밀레’ 매물로…코맥스·솔리티 등 매각 잇따라 [시그널]"
+        }
+      ]
+    },
+    {
+      "target": "솔리티",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "도어락",
+      "stage": "협상",
+      "amount": null,
+      "one_liner": "솔리티 매각 협상 진행",
+      "article_ids": [
+        "a8"
+      ],
+      "evidence": "솔리티도 매각 협상이 이어지는",
+      "_articles": [
+        {
+          "url": "https://www.sedaily.com/article/20106245",
+          "source": "서울경제",
+          "title": "도어락 ‘밀레’ 매물로…코맥스·솔리티 등 매각 잇따라 [시그널]"
+        }
+      ]
+    }
+  ],
+  "pe_moves": [
+    {
+      "pe": "얼머스인베",
+      "action": "세컨더리·그로쓰 투자를 M&A와 연계",
+      "target": null,
+      "article_ids": [
+        "a1"
+      ],
+      "evidence": "세컨더리와 그로쓰투자를 인수합병",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610221208375200107213",
+          "source": "더벨",
+          "title": "[더벨][thebell interview | 얼머스인베 퀀텀점프] 손양철 대표 \"세컨더리..."
+        }
+      ]
+    }
+  ],
+  "for_sale": [
+    {
+      "asset": "솔리티",
+      "seller": null,
+      "process_stage": "매각 협상",
+      "article_ids": [
+        "a8"
+      ],
+      "evidence": "솔리티도 매각 협상이 이어지는",
+      "_articles": [
+        {
+          "url": "https://www.sedaily.com/article/20106245",
+          "source": "서울경제",
+          "title": "도어락 ‘밀레’ 매물로…코맥스·솔리티 등 매각 잇따라 [시그널]"
+        }
+      ]
+    }
+  ],
   "market_signals": [],
-  "reason": "출력 토큰 상한 초과(max_tokens, output_tokens=4000) — 항목캡·필드길이 축소 또는 MAX_OUTPUT_TOKENS 상향 필요"
+  "diag": {
+    "llm_raw": {
+      "deals": 6,
+      "pe_moves": 3,
+      "for_sale": 2,
+      "market_signals": 1
+    },
+    "drops": [
+      {
+        "reason": "evidence_not_in_source",
+        "label": "밀레시스템막",
+        "evidence": "밀레시스템막이 인수합병(M&A) 시장에 매물로 나왔다",
+        "ids": [
+          "a8"
+        ]
+      },
+      {
+        "reason": "evidence_not_in_source",
+        "label": "솟트리으스 주식(삼성 플랜트그룹 관련 인수 없음)",
+        "evidence": "플랙트그룹과 ZF의 청단운전자보조시스템",
+        "ids": [
+          "a19"
+        ]
+      },
+      {
+        "reason": "evidence_not_in_source",
+        "label": "제이앤피이",
+        "evidence": "제이앤피, 5000억 블라인드펀드 조성 추진",
+        "ids": [
+          "a29"
+        ]
+      },
+      {
+        "reason": "evidence_not_in_source",
+        "label": "앵커에크시티",
+        "evidence": "앵커에크시티, 카카오엔터 인수금융 만기 재임박",
+        "ids": [
+          "a30"
+        ]
+      },
+      {
+        "reason": "evidence_not_in_source",
+        "label": "밀레시스템막(도어락 브랜드 밀레)",
+        "evidence": "밀레시스템막이 인수합병(M&A) 시장에 매물로 나왔다",
+        "ids": [
+          "a8"
+        ]
+      },
+      {
+        "reason": "evidence_not_in_source",
+        "label": "ACQ_FINANCING",
+        "evidence": "M&A로 불어난 '1조 빚'",
+        "ids": [
+          "a2",
+          "a4",
+          "a30"
+        ]
+      }
+    ],
+    "api": {
+      "stop_reason": "tool_use",
+      "usage": {
+        "input_tokens": 7060,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 2927,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      },
+      "content_types": [
+        "tool_use"
+      ],
+      "text": ""
+    }
+  }
 }

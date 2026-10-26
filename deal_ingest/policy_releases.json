@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T22:11:33.152658+00:00",
+  "generated_at": "2026-10-26T22:11:21.742174+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,24 @@
     }
   },
   "releases": [
+    {
+      "title": "제1차 국민참여성장펀드 자산운용보고서 공시",
+      "date": "2026-10-26",
+      "url": "https://www.fsc.go.kr/no010101/87994",
+      "agency": "금융위"
+    },
+    {
+      "title": "민·관 합동으로 「지표금리 개편방안(3.30일)」을 차질 없이 추진하고 있습니다.",
+      "date": "2026-10-26",
+      "url": "https://www.fsc.go.kr/no010101/87989",
+      "agency": "금융위"
+    },
+    {
+      "title": "4개 민간임대아파트 건설 사업 시행사의 부당광고 제재",
+      "date": "2026-10-26",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48151",
+      "agency": "공정위"
+    },
     {
       "title": "경제현안간담회 개최",
       "date": "2026-10-25",
@@ -164,18 +182,6 @@
       "agency": "공정위"
     },
     {
-      "title": "청년미래적금, 2차 가입 신청자 68.8만명 - 10.12~11.13일 가입심사, 11.16일부터 계좌개설 시작",
-      "date": "2026-10-19",
-      "url": "https://www.fsc.go.kr/no010101/87953",
-      "agency": "금융위"
-    },
-    {
-      "title": "보험업권과 복지부 산하 노인지원기관이 손잡고 65만명의 취약어르신에게 낙상사고 치료비, 치매배상책임보험을 무료로 제공하겠습니다.",
-      "date": "2026-10-19",
-      "url": "https://www.fsc.go.kr/no010101/87952",
-      "agency": "금융위"
-    },
-    {
       "title": "공정위, 제3회 특별성과 포상금 수여",
       "date": "2026-10-19",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48117",
@@ -197,12 +203,6 @@
       "title": "밀가루 부산물 가격담합 사건 심의 절차 개시",
       "date": "2026-10-14",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48107",
-      "agency": "공정위"
-    },
-    {
-      "title": "조정원, 인도 ODR 전문기관과 간담회 개최",
-      "date": "2026-10-13",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48102",
       "agency": "공정위"
     }
   ]

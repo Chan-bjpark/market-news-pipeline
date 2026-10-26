@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25T22:11:18.692632+00:00",
+  "generated_at": "2026-10-26T22:11:09.362528+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 701,
+  "total_policy_articles": 704,
   "matched_funds_count": 3,
   "unmatched_count": 234,
   "funds": [
@@ -10,32 +10,10 @@
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-28",
+      "first_seen": "2026-07-29",
       "last_updated": "2026-10-26",
-      "event_count": 464,
+      "event_count": 467,
       "timeline": [
-        {
-          "date": "2026-07-28",
-          "published_at": "2026-07-28T11:26:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": null,
-          "title": "코스닥 침체 언제까지…\"활성화 펀드 조성 필요\"",
-          "summary": "있어 대출 한도가 제한되는 등 만성적인 자금조달 문제다\"고 말했다. 이어 \"코스닥 기업의 특성상 위험감내... 국민성장펀드, 정책기관 및 연기금 출자를 통해 민간 투자의 마중물 역할을 수행하는 모(母)펀드를 조성하고...",
-          "url": "https://www.newsis.com/view/NISX20260728_0003726198",
-          "source_label": "뉴시스"
-        },
-        {
-          "date": "2026-07-28",
-          "published_at": "2026-07-28T16:52:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "30조",
-          "title": "“코스닥에 30조원 풀자”…VC업계, 활성화 펀드 제안",
-          "summary": "국민성장펀드·정책기관·연기금 출자로 모(母)펀드를 만든 뒤 민간 자금을 매칭해 자(子)펀드를 결성하는 방식이다. 모펀드 운용은 산업은행이 맡고 자펀드는 기관전용 사모펀드(PEF) 운용사·자산운용사·신기술금융사...",
-          "url": "https://www.mk.co.kr/article/12109522",
-          "source_label": "매일경제"
-        },
         {
           "date": "2026-07-29",
           "published_at": "2026-07-29T07:02:00+09:00",
@@ -5021,6 +4999,17 @@
         },
         {
           "date": "2026-10-23",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "\"내년엔 구주도 사달라\"…국민성장펀드 문 두드리는 PEF들",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/23/2026102380130.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-10-23",
           "published_at": "2026-10-23T07:02:00+09:00",
           "stage_code": "uncategorized",
           "stage_label": "단계 미상",
@@ -5117,6 +5106,50 @@
           "summary": "원익로보틱스는 최근 국민성장펀드와 민간투자자로부터 총 3500억원의 자금을 조달하기로 했다. 첨단전략산업기금이 전환우선주(CPS) 방식으로 1500억원을 직접 지분투자하고 민간투자자가 나머지 2000억원을 투자하는...",
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610220000543120108443",
           "source_label": "더벨"
+        },
+        {
+          "date": "2026-10-26",
+          "published_at": "2026-10-26T16:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "500억원",
+          "title": "원익로보틱스, 완주에 1천억원 투자…제조업 AI 전환 '탄력'",
+          "summary": "앞서 원익로보틱스는 지난 8월 국민성장펀드 기금운용심의회로부터 3천500억원 규모의 투자를 승인받아 로봇 분야 '국민성장펀드 1호 기업'에 이름을 올리기도 했다. 김대현 원익로보틱스 대표이사는 \"전북의 자동차...",
+          "url": "https://www.yna.co.kr/view/AKR20261026123500055?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-10-26",
+          "published_at": "2026-10-26T17:27:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "1000억",
+          "title": "'로봇 전문' 원익로보틱스, 1000억 들여 완주에 제조 AX 거점 세운다",
+          "summary": "원익로보틱스는 8월에는 국민성장펀드 기금운용심의회에서 총 3500억 원 규모의 투자를 승인받아 로봇 분야 '국민성장펀드 1호 기업'에 이름을 올리기도 했다. 김대현 원익로보틱스 대표이사는 \"전북의 자동차, 기계 등...",
+          "url": "https://www.news1.kr/local/jeonbuk/6332384",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-10-26",
+          "published_at": "2026-10-26T17:35:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "1000억",
+          "title": "완주군, 원익로보틱스 1000억 투자 유치…로봇산업 거점 조성",
+          "summary": "지난 8월에는 '원익로보틱스 휴머노이드 양산시설 구축 사업'이 국민성장펀드 기금운용심의회에서 총 3500억 원 규모의 투자 승인을 받아 로봇 분야 제1호 국민성장펀드 기업으로 선정됐다. 원익로보틱스는 2029년까지...",
+          "url": "https://www.newspim.com/news/view/20261026001194",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-10-26",
+          "published_at": "2026-10-26T18:56:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1000억",
+          "title": "1000억 투자 원익로보틱스, 완주에 로봇 생산기지 구축",
+          "summary": "원익로보틱스는 지난 8월 휴머노이드 양산시설 구축사업으로 국민성장펀드 기금운용심의회에서 3500억원 규모의 투자를 승인받았다. 유희태 군수는 “로봇생산공장과 AX센터가 양질의 일자리 창출과 지역경제...",
+          "url": "https://www.etoday.co.kr/news/view/2640264",
+          "source_label": "이투데이"
         }
       ]
     },
@@ -5177,18 +5210,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-07-28",
-      "title": "[더벨][영상 | 2026년 상반기] 벤처펀드 50조 시대…VC 시장, 역대급 상반...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607280904425260108042",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "산은인프라, RE100 母펀드 운용사 선정…신한·이지스와 3파전 끝 낙점",
-      "url": "https://biz.chosun.com/stock/stock_general/2026/07/28/46TX5YE4TBHYZGEE6SV5FT4NHE/",
-      "source_label": "조선일보"
-    },
     {
       "date": "2026-07-29",
       "title": "PEF협회 전환 셈법 분분…감시 우려 일부 이탈 기류",
@@ -5476,6 +5497,18 @@
       "title": "“승계 넘어 신사업까지”…중기 M&A 지원망 확대하는 기보",
       "url": "https://www.sedaily.com/article/20082070",
       "source_label": "서울경제"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "엔씨 박병무, M&A 선구안 통했나… 모바일 캐주얼 새 성장축 안착",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092168549",
+      "source_label": "조선일보"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "\"비은행 금융그룹, M&A로 영토 확장 노려\"",
+      "url": "https://www.hankyung.com/article/2026082366241",
+      "source_label": "한국경제"
     }
   ]
 }
