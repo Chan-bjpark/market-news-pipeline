@@ -1,96 +1,19 @@
 {
-  "generated_at": "2026-10-26T22:11:09.362528+00:00",
+  "generated_at": "2026-10-27T22:11:05.886883+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 704,
+  "total_policy_articles": 699,
   "matched_funds_count": 3,
-  "unmatched_count": 234,
+  "unmatched_count": 231,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-29",
-      "last_updated": "2026-10-26",
-      "event_count": 467,
+      "first_seen": "2026-07-30",
+      "last_updated": "2026-10-27",
+      "event_count": 465,
       "timeline": [
-        {
-          "date": "2026-07-29",
-          "published_at": "2026-07-29T07:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "200조",
-          "title": "케이스톤, 6호 펀드 소진 속도…내년 국민성장펀드 도전",
-          "summary": "연내 소진율 70~80% 요건 조기 충족 전망 200조원 규모 국민성장펀드 등으로 모험자본 시장이 커지고 있는 가운데 국내 사모펀드(PEF) 운용사 케이스톤파트너스가 빠른 자금 집행 행보를 보이고 있다. 올해 결성한 6호...",
-          "url": "https://dealsite.co.kr/articles/165402",
-          "source_label": "딜인사이트"
-        },
-        {
-          "date": "2026-07-29",
-          "published_at": "2026-07-29T07:02:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "16조",
-          "title": "[Invest]증시 쏠림 꺾이고 예금 16조 복귀…LP 출자 가뭄도 풀리나",
-          "summary": "하반기 집행 여력을 다시 계산하기 시작했다.상반기와 비교하면 자금 흐름의 변화는 뚜렷하다. 지난 1월... 은행이 일반 PEF에 지분성 자금을 출자하면 높은 위험가중치가 적용되지만 국민성장펀드 연계 투자에는...",
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/28/2026072880177.html",
-          "source_label": "인베스트조선"
-        },
-        {
-          "date": "2026-07-29",
-          "published_at": "2026-07-29T09:10:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "2200억원",
-          "title": "엘앤에프, 美 코어셸과 LFP 양극재 공급계약…북미 공략 확대",
-          "summary": "엘앤에프의 LFP 생산 자회사 엘앤에프플러스는 최근 국민성장펀드의 2200억원 규모 장기·저리 정책대출 지원 대상으로 선정됐다. 회사는 올해 3분기 말 연산 3만톤(t) 규모로 초기 가동을 시작해 2027년 상반기까지 연산...",
-          "url": "https://www.etoday.co.kr/news/view/2608572",
-          "source_label": "이투데이"
-        },
-        {
-          "date": "2026-07-29",
-          "published_at": "2026-07-29T09:12:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "2200억원",
-          "title": "엘앤에프, 美 코어셸과 LFP 양극재 공급계약…북미 공급망 공략 속도",
-          "summary": "한편 리튬인산철(LFP) 양극재 생산을 담당하는 자회사 엘앤에프플러스는 최근 국민성장펀드로부터 2200억원 규모의 장기·저리 정책대출 지원 대상으로 선정됐다. 해당 자금은 리튬인산철(LFP) 전용 양극재 공장 설비...",
-          "url": "https://view.asiae.co.kr/article/2026072909120259816",
-          "source_label": "아시아경제"
-        },
-        {
-          "date": "2026-07-29",
-          "published_at": "2026-07-29T09:23:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "2200억원",
-          "title": "엘앤에프, 美 코어셸과 LFP 공급계약…북미 방산 공급망 공략",
-          "summary": "한편 LFP 양극재 생산과 판매를 전담하는 자회사 엘앤에프플러스는 최근 국민성장펀드로부터 2200억원 규모의 장기·저리 정책대출 지원 대상으로 선정됐다. 해당 자금은 LFP 전용 양극재 공장 설비 투자에 투입되며...",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03417766645519440",
-          "source_label": "이데일리"
-        },
-        {
-          "date": "2026-07-29",
-          "published_at": "2026-07-29T12:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "8600억",
-          "title": "[2026 상반기 VC 리그테이블] [하우스] 8600억 펀드 70% 소진…에이티넘...",
-          "summary": "티켓 사이즈 키우고 메자닌 집중해 지낸해 실적 웃도는 1845억 소진…국민성장펀드·국민연금 지원 포석 국내 최대 8600억원 규모의 펀드를 만든 에이티넘인베스트먼트가 올해 상반기 1832억원의 투자를 집행해 지난해...",
-          "url": "https://dealsite.co.kr/articles/164544",
-          "source_label": "딜인사이트"
-        },
-        {
-          "date": "2026-07-29",
-          "published_at": "2026-07-29T18:08:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "국민성장펀드, CJ CGV 신사업에 대규모 투자 추진",
-          "summary": "투자심의위원회와 기금운용심의회 등을 거쳐 구체적인 투자 조건을 확정할 계획이다. 정부 관계자는 “아직 초기 검토 단계로 투자 여부와 조건은 논의 중”이라고 말했다. 이번 투자가 확정되면 국민성장펀드...",
-          "url": "https://www.hankyung.com/article/2026072938601",
-          "source_label": "한국경제"
-        },
         {
           "date": "2026-07-30",
           "published_at": "2026-07-30T05:00:00+09:00",
@@ -5150,6 +5073,61 @@
           "summary": "원익로보틱스는 지난 8월 휴머노이드 양산시설 구축사업으로 국민성장펀드 기금운용심의회에서 3500억원 규모의 투자를 승인받았다. 유희태 군수는 “로봇생산공장과 AX센터가 양질의 일자리 창출과 지역경제...",
           "url": "https://www.etoday.co.kr/news/view/2640264",
           "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-27",
+          "published_at": "2026-10-27T10:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이억원 \"금융 물길 부동산서 생산적 분야로…가계대출도 안정적 관리\"",
+          "summary": "이어 정부가 서민·취약계층의 금융접근성을 확대하고 새도약기금을 통해 장기연체채권을 정리하는 한편... 신 부문장은 국민성장펀드 운영과 지원체계 수립을 통해 첨단전략산업 발전에 기여했으며, 강 부장은...",
+          "url": "https://www.newsis.com/view/NISX20261027_0003842157",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-10-27",
+          "published_at": "2026-10-27T10:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "금융위, '금융의 날' 유공자 194점 포상…동반성장·청년채용 첫 시상",
+          "summary": "철탑산업훈장은 국민성장펀드 운영과 첨단전략산업 지원체계 구축에 기여한 신혜숙 한국산업은행 부문장이... 손지영 신용보증기금 팀장과 박정윤 인터엑스 대표는 제조업 AI 전환을 위한 금융지원과 지역 일자리 창출에...",
+          "url": "https://www.etoday.co.kr/news/view/2640381",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-27",
+          "published_at": "2026-10-27T10:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이억원 \"AI 시대에도 금융 경쟁력은 사람\"…금융권에 '청년채용' 당부",
+          "summary": "국민성장펀드(첨단전략산업기금)의 원활한 운영과 지원체계 수립 등을 통해 국내 첨단전략산업 생태계 발전에 기여한 공로를 인정받았다. 포용금융 부문 국민훈장 석류장은 강봉근 경남신용보증재단 부장이 수상했다....",
+          "url": "https://www.newspim.com/news/view/20261027000025",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-10-27",
+          "published_at": "2026-10-27T10:32:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "이억원, 금융권에 “청년채용 투자 확대” 주문…교보생명·케이뱅크 포...",
+          "summary": "혁신금융 부문에서는 손지영 신용보증기금 팀장과 박정윤 인터엑스 대표가 각각 대통령표창과... 신혜숙 한국산업은행 부문장은 국민성장펀드 운영과 지원체계 수립 등을 통해 첨단전략산업 생태계 발전에 기여한 공로로...",
+          "url": "https://dealsite.co.kr/articles/171342",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-10-27",
+          "published_at": "2026-10-27T16:35:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "“돈만 쏟아부어선 혁신 못 이뤄… 자본의 작동 방식 바꿔야”",
+          "summary": "과학기술정책연구원·한국경제학회 포럼 3줄 요약 ㆍ창업부터 상장 13년 펀드 만기 7~8년 ㆍ기술 금융 중심 대출에서 투자로 전환 ㆍ장기 투자 막는 규제 스마트 규제로 전환 정부가 5년간 150조원 규모의 국민성장펀드를...",
+          "url": "https://www.chosun.com/economy/economy_general/2026/10/27/DJBNPGG2FVF67CMGW6V5TNEVAA/",
+          "source_label": "조선일보"
         }
       ]
     },
@@ -5210,30 +5188,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-07-29",
-      "title": "PEF협회 전환 셈법 분분…감시 우려 일부 이탈 기류",
-      "url": "https://dealsite.co.kr/articles/165831",
-      "source_label": "딜인사이트"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "[LP Scope] \"국민성장 탈락사에 기회\"…교공 PEF 5000억 출자",
-      "url": "https://dealsite.co.kr/articles/165990",
-      "source_label": "딜인사이트"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "5000억 실탄 모은다…코람코, 공무원연금 부동산펀드 연내 투자 '시동'",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=06028646645519440",
-      "source_label": "이데일리"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "핀테크혁신펀드 7차 GP에 서울대기술지주·원익투자 등 4곳",
-      "url": "https://dealsite.co.kr/articles/166209",
-      "source_label": "딜인사이트"
-    },
     {
       "date": "2026-07-31",
       "title": "사학연금, '백주현 CIO 체제' 첫 VC 출자…IMM인베 등 5곳 낙점 [fn마켓워...",
@@ -5509,6 +5463,30 @@
       "title": "\"비은행 금융그룹, M&A로 영토 확장 노려\"",
       "url": "https://www.hankyung.com/article/2026082366241",
       "source_label": "한국경제"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "美·獨 경쟁사 수주는 급증하는데… 성장세 한풀 꺾인 K-방산 어쩌나",
+      "url": "https://biz.chosun.com/industry/company/2026/08/24/LGKWCZDAOVGOLBEOHOQBNUAW2Q/",
+      "source_label": "조선일보"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "6년 전 조원태 구한 산업은행…'한진칼 지분 10.58%' 어디로",
+      "url": "https://dealsite.co.kr/articles/167391",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "中 헝다 파산청산 돌입, 400조원대 부채 어떻게 처리하나",
+      "url": "https://www.newspim.com/news/view/20260824000394",
+      "source_label": "뉴스핌"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "'K-반도체' 대표주자 리벨리온, 엔비디아와 손잡나…박성현 대표·젠슨...",
+      "url": "https://www.newspim.com/news/view/20260824001110",
+      "source_label": "뉴스핌"
     }
   ]
 }

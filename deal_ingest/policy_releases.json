@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:11:21.742174+00:00",
+  "generated_at": "2026-10-27T22:11:16.846962+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,48 @@
     }
   },
   "releases": [
+    {
+      "title": "군부대로 ‘찾아가는 재무상담소’, 군복무 청년에게 1:1 맞춤형 재무상담 제공",
+      "date": "2026-10-27",
+      "url": "https://www.fsc.go.kr/no010101/87998",
+      "agency": "금융위"
+    },
+    {
+      "title": "2026년 3분기 공적자금 운용현황",
+      "date": "2026-10-27",
+      "url": "https://www.fsc.go.kr/no010101/87997",
+      "agency": "금융위"
+    },
+    {
+      "title": "(보도설명) 정부는 감사원이 지적한 세수추계 모형을 이미 개선하였으며, 세수추계 신뢰성을 높이기 위해 지속 노력하고 있습니다.",
+      "date": "2026-10-27",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079776&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "2026년 주요 20개국(G20) 글로벌 금융안정 컨퍼런스 개최",
+      "date": "2026-10-27",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079763&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "청년의 꿈을 키우고 삶을 바꾸는 생애주기 맞춤형 지원 강화",
+      "date": "2026-10-27",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079760&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "제2회 코리아 그랜드 페스티벌 시작(10.29~11.15)",
+      "date": "2026-10-27",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079772&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "삼성전자(주)의 부당한 광고행위 제재",
+      "date": "2026-10-27",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48155",
+      "agency": "공정위"
+    },
     {
       "title": "제1차 국민참여성장펀드 자산운용보고서 공시",
       "date": "2026-10-26",
@@ -128,21 +170,9 @@
       "agency": "금융위"
     },
     {
-      "title": "초국가범죄 범정부 대응 1년, “국경 넘어 끝까지 추적”… 기관 간 공조 강화로 초국가범죄 대응의 틀 바꿨다",
-      "date": "2026-10-21",
-      "url": "https://www.fsc.go.kr/no010101/87969",
-      "agency": "금융위"
-    },
-    {
       "title": "아시아·태평양 경제협력체(APEC) 재무장관회의 참석 및 주요 인사 면담",
       "date": "2026-10-21",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079710&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "피지컬 AI시대, 중소기업 혁신전략",
-      "date": "2026-10-21",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079719&menuNo=4010100",
       "agency": "기재부"
     },
     {
@@ -150,30 +180,6 @@
       "date": "2026-10-21",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48125",
       "agency": "공정위"
-    },
-    {
-      "title": "금융현장의 불편, 제3자의 눈으로 살핀다. - 제6기 금융위원회 옴부즈만 출범",
-      "date": "2026-10-20",
-      "url": "https://www.fsc.go.kr/no010101/87965",
-      "agency": "금융위"
-    },
-    {
-      "title": "채권 발행기관 협의체 제4차 회의 개최",
-      "date": "2026-10-20",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079717&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "가상자산 과세 관련 현장 간담회 개최",
-      "date": "2026-10-20",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079708&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "글로벌 AI 디지털 서밋 개최",
-      "date": "2026-10-20",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079712&menuNo=4010100",
-      "agency": "기재부"
     },
     {
       "title": "2026년도 3분기 선불식 할부거래업체 주요 정보 변경사항 공개",
@@ -197,12 +203,6 @@
       "title": "편의점 김밥 12종 품질 비교 정보 제공",
       "date": "2026-10-15",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48112",
-      "agency": "공정위"
-    },
-    {
-      "title": "밀가루 부산물 가격담합 사건 심의 절차 개시",
-      "date": "2026-10-14",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48107",
       "agency": "공정위"
     }
   ]

@@ -1,204 +1,236 @@
 {
-  "generated_at": "2026-10-26T22:11:21.972311+00:00",
+  "generated_at": "2026-10-27T22:11:17.111953+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
   "fallback": false,
   "deals": [
     {
-      "target": "현대위아",
-      "counterparties": "현대로템",
+      "target": "일본 증권사",
+      "counterparties": "미래에셋그룹",
       "pe_firms": [],
-      "industry": "자동차부품",
+      "industry": "증권",
       "stage": "거론",
       "amount": null,
-      "one_liner": "현대로템, 현대위아 인수로 돌파구 모색",
+      "one_liner": "미래에셋, 일본 증권사 M&A 29일 발표 예고",
       "article_ids": [
-        "a31"
+        "a10",
+        "a29",
+        "a31",
+        "a32",
+        "a33",
+        "a34"
       ],
-      "evidence": "현대위아 인수로 '돌파구'",
+      "evidence": "일본 증권회사 인수합병(M&A)을 추진",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610191534168480103736",
-          "source": "더벨",
-          "title": "현대로템, 방산 성장 '주춤'…현대위아 인수로 '돌파구'"
+          "url": "https://www.joongang.co.kr/article/25473380",
+          "source": "중앙일보",
+          "title": "미래에셋, 일본 증권사 품는다"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20261027_0003843682",
+          "source": "뉴시스",
+          "title": "미래에셋, 日 증권사 품는다…박현주 회장 \"M&A건 29일 발표\"(종합)"
+        },
+        {
+          "url": "https://biz.chosun.com/stock/stock_general/2026/10/27/PMSPBSXD2RADHJKCN6JYN6H75M/",
+          "source": "조선일보",
+          "title": "박현주 미래에셋 회장, 日 증권사 품는다… “M&A 29일 공식화”"
+        },
+        {
+          "url": "https://www.joongang.co.kr/article/25473328",
+          "source": "중앙일보",
+          "title": "미래에셋, 日 증권사 M&A…박현주 “반도체 고점론 틀리다”"
+        },
+        {
+          "url": "https://www.newspim.com/news/view/20261027001466",
+          "source": "뉴스핌",
+          "title": "미래에셋, 일본 증권사 품는다…중국 금융사 M&A도 연내 추진"
+        },
+        {
+          "url": "https://www.fntimes.com/html/view.php?ud=202610271903597400179ad43907_18",
+          "source": "한국금융신문",
+          "title": "박현주 회장 \"M&A 발표할 것\" 예고…미래에셋, 글로벌 영토 확장 속도"
         }
       ]
     },
     {
-      "target": "소다아로마틱",
-      "counterparties": "삼양사",
+      "target": "중국 본토 금융사",
+      "counterparties": "미래에셋그룹",
       "pe_firms": [],
-      "industry": "화학",
+      "industry": "금융",
       "stage": "거론",
       "amount": null,
-      "one_liner": "삼양사, 소다아로마틱 인수 추진",
+      "one_liner": "미래에셋, 중국 금융업 M&A 연내 추진",
       "article_ids": [
         "a33",
         "a34"
       ],
-      "evidence": "소다아로마틱 인수자금 윤곽",
+      "evidence": "중국 본토에서 추진하고 있는 금융업 M&A도 연내 마무리",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202606080819273080105661",
-          "source": "더벨",
-          "title": "삼양사, 자금 부담에도 소다아로마틱 인수 이유는"
+          "url": "https://www.newspim.com/news/view/20261027001466",
+          "source": "뉴스핌",
+          "title": "미래에셋, 일본 증권사 품는다…중국 금융사 M&A도 연내 추진"
         },
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202606190939170280103090",
-          "source": "더벨",
-          "title": "삼양사, 소다아로마틱 인수자금 윤곽…출자·현지차입 병행"
+          "url": "https://www.fntimes.com/html/view.php?ud=202610271903597400179ad43907_18",
+          "source": "한국금융신문",
+          "title": "박현주 회장 \"M&A 발표할 것\" 예고…미래에셋, 글로벌 영토 확장 속도"
         }
       ]
     },
     {
-      "target": "코맥스",
-      "counterparties": null,
+      "target": "LG화학 대산 BPA",
+      "counterparties": "국도화학",
       "pe_firms": [],
-      "industry": "도어락",
+      "industry": "화학",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "LG화학, 대산 BPA 매각 및 국도화학과 JV",
+      "article_ids": [
+        "a23"
+      ],
+      "evidence": "대산 BPA 매각 첫발",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610261744024960109018",
+          "source": "더벨",
+          "title": "LG화학, 대산 BPA 매각 첫발...국도화학과 JV 설립"
+        }
+      ]
+    },
+    {
+      "target": "데이원컴퍼니 인수 기업",
+      "counterparties": "데이원컴퍼니",
+      "pe_firms": [],
+      "industry": "교육",
       "stage": "완료",
       "amount": null,
-      "one_liner": "코맥스 매각 완료",
+      "one_liner": "데이원컴퍼니, 최근 1년 M&A 네 번째",
       "article_ids": [
-        "a8"
+        "a9"
       ],
-      "evidence": "코맥스(036690)가 매각됐고",
+      "evidence": "M&A(인수합병) 시장에 등판해 기업을 품에 안은 것은",
       "_articles": [
         {
-          "url": "https://www.sedaily.com/article/20106245",
-          "source": "서울경제",
-          "title": "도어락 ‘밀레’ 매물로…코맥스·솔리티 등 매각 잇따라 [시그널]"
+          "url": "https://www.newspim.com/news/view/20261027001183",
+          "source": "뉴스핌",
+          "title": "교육기업 데이원컴퍼니, 본업 둔화에 신사업 적자까지…내년도 불투명"
         }
       ]
     },
     {
-      "target": "솔리티",
+      "target": "동구바이오제약",
       "counterparties": null,
       "pe_firms": [],
-      "industry": "도어락",
-      "stage": "협상",
-      "amount": null,
-      "one_liner": "솔리티 매각 협상 진행",
+      "industry": "제약",
+      "stage": "거론",
+      "amount": "1000억원",
+      "one_liner": "동구바이오제약 1000억 유증, 론자와 공동사업",
       "article_ids": [
-        "a8"
+        "a4"
       ],
-      "evidence": "솔리티도 매각 협상이 이어지는",
+      "evidence": "1000억 유증에도 자금난",
       "_articles": [
         {
-          "url": "https://www.sedaily.com/article/20106245",
-          "source": "서울경제",
-          "title": "도어락 ‘밀레’ 매물로…코맥스·솔리티 등 매각 잇따라 [시그널]"
+          "url": "https://www.edaily.co.kr/News/Read?newsId=02230406645617512&mediaCodeNo=257",
+          "source": "이데일리",
+          "title": "1000억 유증에도 자금난 불씨…론자와 공동 사업이 돌파구 될까"
         }
       ]
     }
   ],
   "pe_moves": [
     {
-      "pe": "얼머스인베",
-      "action": "세컨더리·그로쓰 투자를 M&A와 연계",
-      "target": null,
+      "pe": "SG PE",
+      "target": "상우기업",
+      "action": "매각 추진",
       "article_ids": [
-        "a1"
+        "a27"
       ],
-      "evidence": "세컨더리와 그로쓰투자를 인수합병",
+      "evidence": "SG PE, 액상소석회 생산 '상우기업' 매각 추진",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610221208375200107213",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610261801407760108679",
           "source": "더벨",
-          "title": "[더벨][thebell interview | 얼머스인베 퀀텀점프] 손양철 대표 \"세컨더리..."
+          "title": "SG PE, 액상소석회 생산 '상우기업' 매각 추진"
         }
       ]
     }
   ],
   "for_sale": [
     {
-      "asset": "솔리티",
-      "seller": null,
-      "process_stage": "매각 협상",
+      "asset": "LG화학 대산 BPA",
+      "seller": "LG화학",
+      "process_stage": "매각 착수",
       "article_ids": [
-        "a8"
+        "a23"
       ],
-      "evidence": "솔리티도 매각 협상이 이어지는",
+      "evidence": "대산 BPA 매각 첫발",
       "_articles": [
         {
-          "url": "https://www.sedaily.com/article/20106245",
-          "source": "서울경제",
-          "title": "도어락 ‘밀레’ 매물로…코맥스·솔리티 등 매각 잇따라 [시그널]"
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610261744024960109018",
+          "source": "더벨",
+          "title": "LG화학, 대산 BPA 매각 첫발...국도화학과 JV 설립"
         }
       ]
     }
   ],
-  "market_signals": [],
+  "market_signals": [
+    {
+      "type": "ACQ_FINANCING",
+      "summary": "삼성생명 대형 M&A 대비 자금 확보 필요성 제기",
+      "article_ids": [
+        "a1"
+      ],
+      "evidence": "대형 인수합병(M&A) 등에 대비하려면 안정적인 자금 확보가 필요했다",
+      "_articles": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/27/2026102780161.html",
+          "source": "인베스트조선",
+          "title": "[Invest]ROE 3% 삼성생명, 역마진 감수 '비싼 데뷔'...자본효율성 제고 '..."
+        }
+      ]
+    }
+  ],
   "diag": {
     "llm_raw": {
       "deals": 6,
-      "pe_moves": 3,
+      "pe_moves": 1,
       "for_sale": 2,
       "market_signals": 1
     },
     "drops": [
       {
         "reason": "evidence_not_in_source",
-        "label": "밀레시스템막",
-        "evidence": "밀레시스템막이 인수합병(M&A) 시장에 매물로 나왔다",
+        "label": "B바이오",
+        "evidence": "경영권을 인수",
         "ids": [
-          "a8"
+          "a0"
         ]
       },
       {
         "reason": "evidence_not_in_source",
-        "label": "솟트리으스 주식(삼성 플랜트그룹 관련 인수 없음)",
-        "evidence": "플랙트그룹과 ZF의 청단운전자보조시스템",
+        "label": "상우기업",
+        "evidence": "상우기업 매각 추진",
         "ids": [
-          "a19"
-        ]
-      },
-      {
-        "reason": "evidence_not_in_source",
-        "label": "제이앤피이",
-        "evidence": "제이앤피, 5000억 블라인드펀드 조성 추진",
-        "ids": [
-          "a29"
-        ]
-      },
-      {
-        "reason": "evidence_not_in_source",
-        "label": "앵커에크시티",
-        "evidence": "앵커에크시티, 카카오엔터 인수금융 만기 재임박",
-        "ids": [
-          "a30"
-        ]
-      },
-      {
-        "reason": "evidence_not_in_source",
-        "label": "밀레시스템막(도어락 브랜드 밀레)",
-        "evidence": "밀레시스템막이 인수합병(M&A) 시장에 매물로 나왔다",
-        "ids": [
-          "a8"
-        ]
-      },
-      {
-        "reason": "evidence_not_in_source",
-        "label": "ACQ_FINANCING",
-        "evidence": "M&A로 불어난 '1조 빚'",
-        "ids": [
-          "a2",
-          "a4",
-          "a30"
+          "a27"
         ]
       }
     ],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 7060,
+        "input_tokens": 6851,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 2927,
+        "output_tokens": 1248,
         "output_tokens_details": {
           "thinking_tokens": 0
         },
