@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:11:16.846962+00:00",
+  "generated_at": "2026-10-28T22:11:14.661259+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,66 @@
     }
   },
   "releases": [
+    {
+      "title": "사업보고서 등에 대한 조사·감리결과 조치 - 제19차 증권선물위원회(’26.10.28.) 조치 의결",
+      "date": "2026-10-28",
+      "url": "https://www.fsc.go.kr/no010101/88013",
+      "agency": "금융위"
+    },
+    {
+      "title": "미공개중요정보를 이용한 내부자등에 대한 중대범죄수사청 고발·통보 등 조치(2건) - 제19차 증권선물위원회(10.28.) 의결",
+      "date": "2026-10-28",
+      "url": "https://www.fsc.go.kr/no010101/88012",
+      "agency": "금융위"
+    },
+    {
+      "title": "빗썸 등 주요 가상자산사업자들에 대한 해킹사고에 대해 긴밀하고 신속하게 대응하고 있습니다. -「가상자산업권 등 침해사고 관련 긴급점검 회의 개최」",
+      "date": "2026-10-28",
+      "url": "https://www.fsc.go.kr/no010101/88010",
+      "agency": "금융위"
+    },
+    {
+      "title": "기후대응위, 민관 협력으로 철강산업 저탄소 전환 해법 모색 -「산업부문 저탄소 전환정책 포럼(제2차)」개최, 철강산업 현장의 전환과제와 이를 뒷받침할 투자·금융 연계방안 논의",
+      "date": "2026-10-28",
+      "url": "https://www.fsc.go.kr/no010101/88008",
+      "agency": "금융위"
+    },
+    {
+      "title": "제11회 ‘금융의 날’ 기념식 개최",
+      "date": "2026-10-28",
+      "url": "https://www.fsc.go.kr/no010101/88005",
+      "agency": "금융위"
+    },
+    {
+      "title": "이형일 부총리, 블룸버그 아태 대표 면담",
+      "date": "2026-10-28",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079785&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "요소수·요소, 주사기·주사침 매점매석행위 금지 고시 종료",
+      "date": "2026-10-28",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079777&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "수출플러스 지원단, 전남광주 지역수출진흥 협력회의 및 수출금융 설명회 개최",
+      "date": "2026-10-28",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079781&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "경제관계장관회의 - 과학기술관계장관회의 연석회의 개최",
+      "date": "2026-10-28",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079780&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "26년 3분기 다단계판매업자 주요정보 변경사항 공개",
+      "date": "2026-10-28",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48160",
+      "agency": "공정위"
+    },
     {
       "title": "군부대로 ‘찾아가는 재무상담소’, 군복무 청년에게 1:1 맞춤형 재무상담 제공",
       "date": "2026-10-27",
@@ -92,27 +152,9 @@
       "agency": "기재부"
     },
     {
-      "title": "여신전문금융업감독규정 개정안 규정변경예고(‘26.10.23.~12.2.) 실시",
-      "date": "2026-10-23",
-      "url": "https://www.fsc.go.kr/no010101/87984",
-      "agency": "금융위"
-    },
-    {
       "title": "이형일 부총리, 영등포복합청사 현장방문",
       "date": "2026-10-23",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079741&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "제9회 디지털 이코노미 포럼 개최",
-      "date": "2026-10-23",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079738&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "'26.10월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
-      "date": "2026-10-23",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079737&menuNo=4010100",
       "agency": "기재부"
     },
     {
@@ -128,52 +170,10 @@
       "agency": "공정위"
     },
     {
-      "title": "우주항공 · 양자 산업을 국민성장펀드의 지원대상산업에 추가하고자 합니다. - 한국산업은행법 시행령 개정령안 입법예고(10.22~12.1일)",
-      "date": "2026-10-22",
-      "url": "https://www.fsc.go.kr/no010101/87977",
-      "agency": "금융위"
-    },
-    {
-      "title": "(보도설명) 정부는 할당관세의 물가안정 효과를 높이기 위한 제도개선을 지속 추진 중입니다.",
-      "date": "2026-10-22",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079736&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "AI관련 표시광고 가이드라인 초안 의견청취 실시",
       "date": "2026-10-22",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48140",
       "agency": "공정위"
-    },
-    {
-      "title": "사업보고서 등에 대한 조사·감리결과 조치 - 제18차 금융위원회(’26.10.21.) 조치 의결",
-      "date": "2026-10-21",
-      "url": "https://www.fsc.go.kr/no010101/87976",
-      "agency": "금융위"
-    },
-    {
-      "title": "“보증금 기반 비대면 신용카드 발급 서비스” 등 혁신금융서비스 4건 신규 지정 의결 - 신규 혁신금융서비스 지정 4건 및 규제개선 요청 수용 1건 의결",
-      "date": "2026-10-21",
-      "url": "https://www.fsc.go.kr/no010101/87975",
-      "agency": "금융위"
-    },
-    {
-      "title": "신용정보법 과징금 부과의 예측 가능성을 한층 높였습니다. - ｢신용정보업감독규정｣ 개정안 제18차 정례 금융위원회 의결",
-      "date": "2026-10-21",
-      "url": "https://www.fsc.go.kr/no010101/87973",
-      "agency": "금융위"
-    },
-    {
-      "title": "군 장병의 경제관 확립과 금융역량 향상을 위해 국방(부)과 금융(위)이 손을 맞잡다!",
-      "date": "2026-10-21",
-      "url": "https://www.fsc.go.kr/no010101/87972",
-      "agency": "금융위"
-    },
-    {
-      "title": "아시아·태평양 경제협력체(APEC) 재무장관회의 참석 및 주요 인사 면담",
-      "date": "2026-10-21",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079710&menuNo=4010100",
-      "agency": "기재부"
     },
     {
       "title": "유니시티코리아의 방문판매법 위반행위 관련 동의의결 절차 개시",
@@ -200,10 +200,10 @@
       "agency": "공정위"
     },
     {
-      "title": "편의점 김밥 12종 품질 비교 정보 제공",
-      "date": "2026-10-15",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48112",
-      "agency": "공정위"
+      "title": "포용금융이 금융권에 뿌리내리도록 평가체계를 도입하고, 공공부문이 앞장서서 부실채권 관리체계를 개편하겠습니다. - 이억원 금융위원장, 제7차 포용적 금융 대전환 회의 주재",
+      "date": null,
+      "url": "https://www.fsc.go.kr/no010101/88006",
+      "agency": "금융위"
     }
   ]
 }

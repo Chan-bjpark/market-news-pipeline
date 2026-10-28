@@ -1,236 +1,448 @@
 {
-  "generated_at": "2026-10-27T22:11:17.111953+00:00",
+  "generated_at": "2026-10-28T22:11:14.912036+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
   "fallback": false,
   "deals": [
     {
-      "target": "일본 증권사",
-      "counterparties": "미래에셋그룹",
+      "target": "홈플러스",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "유통",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "홈플러스 M&A 작업 진전 부진",
+      "article_ids": [
+        "a33"
+      ],
+      "evidence": "인수합병(M&A) 작업마저 좀처럼 진전되지 않으면서",
+      "_articles": [
+        {
+          "url": "https://www.fnnews.com/news/202610281814141449",
+          "source": "파이낸셜뉴스",
+          "title": "2000억 긴급자금 소진… 홈플러스 '최악 시나리오' 치닫나"
+        }
+      ]
+    },
+    {
+      "target": "골프존카운티",
+      "counterparties": "MBK",
+      "pe_firms": [
+        "MBK"
+      ],
+      "industry": "골프장",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "MBK의 골프존카운티 매각 반발",
+      "article_ids": [
+        "a12",
+        "a23"
+      ],
+      "evidence": "골프존, MBK 골프존카운티 매각 반발",
+      "_articles": [
+        {
+          "url": "https://www.mt.co.kr/living/2026/10/29/2026102819544136433",
+          "source": "머니투데이",
+          "title": "골프존, MBK 골프존카운티 매각 반발… \"법적 대응\""
+        },
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610281042567720101959",
+          "source": "더벨",
+          "title": "골프존홀딩스, MBK의 골프존카운티 매각 '반기'"
+        }
+      ]
+    },
+    {
+      "target": "제천 킹즈락CC",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "골프장",
+      "stage": "매물",
+      "amount": "1600억원",
+      "one_liner": "1600억 팔린 제천 킹즈락CC 매물 재등장",
+      "article_ids": [
+        "a6"
+      ],
+      "evidence": "1600억에 팔린 제천 킹즈락CC, 5년 만에 매물로",
+      "_articles": [
+        {
+          "url": "https://biz.chosun.com/stock/market_trend/2026/10/29/ZW7GSCTBDBEDRCR3W4APHECFQU/",
+          "source": "조선일보",
+          "title": "1600억에 팔린 제천 킹즈락CC, 5년 만에 매물로"
+        }
+      ]
+    },
+    {
+      "target": "헬리오스PE 투자 대상 핑거",
+      "counterparties": "헬리오스프라이빗에쿼티",
+      "pe_firms": [
+        "헬리오스프라이빗에쿼티"
+      ],
+      "industry": "금융IT",
+      "stage": "완료",
+      "amount": "100억원",
+      "one_liner": "헬리오스PE, 핑거에 100억 투자",
+      "article_ids": [
+        "a10"
+      ],
+      "evidence": "헬리오스프라이빗에쿼티(PE)가 금융IT 기업 핑거에 100억원을 투자한다",
+      "_articles": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2641011",
+          "source": "이투데이",
+          "title": "헬리오스PE, 핑거에 100억 투자… 세아그룹 계열사 인수 지원"
+        }
+      ]
+    },
+    {
+      "target": "일본 증권사(미정)",
+      "counterparties": "미래에셋",
       "pe_firms": [],
       "industry": "증권",
       "stage": "거론",
       "amount": null,
-      "one_liner": "미래에셋, 일본 증권사 M&A 29일 발표 예고",
+      "one_liner": "미래에셋, 일본 증권사 M&A 검토",
       "article_ids": [
-        "a10",
-        "a29",
-        "a31",
-        "a32",
-        "a33",
-        "a34"
+        "a8"
       ],
-      "evidence": "일본 증권회사 인수합병(M&A)을 추진",
+      "evidence": "지점 신설 대신 인수합병(M&A)을 택한 배경",
       "_articles": [
         {
-          "url": "https://www.joongang.co.kr/article/25473380",
-          "source": "중앙일보",
-          "title": "미래에셋, 일본 증권사 품는다"
-        },
-        {
-          "url": "https://www.newsis.com/view/NISX20261027_0003843682",
+          "url": "https://www.newsis.com/view/NISX20261028_0003845200",
           "source": "뉴시스",
-          "title": "미래에셋, 日 증권사 품는다…박현주 회장 \"M&A건 29일 발표\"(종합)"
-        },
-        {
-          "url": "https://biz.chosun.com/stock/stock_general/2026/10/27/PMSPBSXD2RADHJKCN6JYN6H75M/",
-          "source": "조선일보",
-          "title": "박현주 미래에셋 회장, 日 증권사 품는다… “M&A 29일 공식화”"
-        },
-        {
-          "url": "https://www.joongang.co.kr/article/25473328",
-          "source": "중앙일보",
-          "title": "미래에셋, 日 증권사 M&A…박현주 “반도체 고점론 틀리다”"
-        },
-        {
-          "url": "https://www.newspim.com/news/view/20261027001466",
-          "source": "뉴스핌",
-          "title": "미래에셋, 일본 증권사 품는다…중국 금융사 M&A도 연내 추진"
-        },
-        {
-          "url": "https://www.fntimes.com/html/view.php?ud=202610271903597400179ad43907_18",
-          "source": "한국금융신문",
-          "title": "박현주 회장 \"M&A 발표할 것\" 예고…미래에셋, 글로벌 영토 확장 속도"
+          "title": "미래에셋이 품을 日 증권사 어디?…규제 뚫고 NISA 노린다"
         }
       ]
     },
     {
-      "target": "중국 본토 금융사",
-      "counterparties": "미래에셋그룹",
+      "target": "어댑트",
+      "counterparties": "미래에셋증권, NH투자증권",
       "pe_firms": [],
-      "industry": "금융",
+      "industry": "뷰티",
       "stage": "거론",
       "amount": null,
-      "one_liner": "미래에셋, 중국 금융업 M&A 연내 추진",
+      "one_liner": "미래에셋·NH, 어댑트 상장 지원",
       "article_ids": [
-        "a33",
-        "a34"
+        "a21"
       ],
-      "evidence": "중국 본토에서 추진하고 있는 금융업 M&A도 연내 마무리",
+      "evidence": "미래에셋·NH증권, K뷰티 대표주자 어댑트 상장 돕는다",
       "_articles": [
         {
-          "url": "https://www.newspim.com/news/view/20261027001466",
-          "source": "뉴스핌",
-          "title": "미래에셋, 일본 증권사 품는다…중국 금융사 M&A도 연내 추진"
-        },
-        {
-          "url": "https://www.fntimes.com/html/view.php?ud=202610271903597400179ad43907_18",
-          "source": "한국금융신문",
-          "title": "박현주 회장 \"M&A 발표할 것\" 예고…미래에셋, 글로벌 영토 확장 속도"
-        }
-      ]
-    },
-    {
-      "target": "LG화학 대산 BPA",
-      "counterparties": "국도화학",
-      "pe_firms": [],
-      "industry": "화학",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "LG화학, 대산 BPA 매각 및 국도화학과 JV",
-      "article_ids": [
-        "a23"
-      ],
-      "evidence": "대산 BPA 매각 첫발",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610261744024960109018",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610281340573440106273",
           "source": "더벨",
-          "title": "LG화학, 대산 BPA 매각 첫발...국도화학과 JV 설립"
+          "title": "미래에셋·NH증권, K뷰티 대표주자 어댑트 상장 돕는다"
         }
       ]
     },
     {
-      "target": "데이원컴퍼니 인수 기업",
-      "counterparties": "데이원컴퍼니",
+      "target": "LS MnM",
+      "counterparties": "JKL",
+      "pe_firms": [
+        "JKL"
+      ],
+      "industry": "비철금속",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "JKL, LS MnM 투자 후 투자금 회수 중",
+      "article_ids": [
+        "a26"
+      ],
+      "evidence": "투자금 회수는 아직 마무리되지 않았다",
+      "_articles": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=06678086645617512&mediaCodeNo=257",
+          "source": "이데일리",
+          "title": "[단독]LS MnM 투자 주도한 JKL 키맨, LS로 옮긴다"
+        }
+      ]
+    },
+    {
+      "target": "HD현대마린솔루션 인수 대상 미국 MRO 기업",
+      "counterparties": "HD현대마린솔루션",
       "pe_firms": [],
-      "industry": "교육",
+      "industry": "조선·엔진정비",
       "stage": "완료",
       "amount": null,
-      "one_liner": "데이원컴퍼니, 최근 1년 M&A 네 번째",
+      "one_liner": "HD현대마린솔루션, 미국 MRO 기업 인수",
       "article_ids": [
-        "a9"
+        "a29"
       ],
-      "evidence": "M&A(인수합병) 시장에 등판해 기업을 품에 안은 것은",
+      "evidence": "주식매매계약을 통해 미국에 본사를 둔",
+      "article_ids_note": null,
       "_articles": [
         {
-          "url": "https://www.newspim.com/news/view/20261027001183",
-          "source": "뉴스핌",
-          "title": "교육기업 데이원컴퍼니, 본업 둔화에 신사업 적자까지…내년도 불투명"
+          "url": "https://www.donga.com/news/Economy/article/all/20261028/134927659/1",
+          "source": "동아일보",
+          "title": "HD현대, 올해 1~3분기 누적 영업이익 10조 육박…전년比 140% 성장"
         }
       ]
     },
     {
-      "target": "동구바이오제약",
+      "target": "네이버 손자회사 케이크",
       "counterparties": null,
       "pe_firms": [],
-      "industry": "제약",
+      "industry": "IT",
       "stage": "거론",
-      "amount": "1000억원",
-      "one_liner": "동구바이오제약 1000억 유증, 론자와 공동사업",
+      "amount": null,
+      "one_liner": "케이크 매각 불발, 사업 정리 검토",
       "article_ids": [
-        "a4"
+        "a22"
       ],
-      "evidence": "1000억 유증에도 자금난",
+      "evidence": "케이크', 매각 불발에 사업 정리 검토",
       "_articles": [
         {
-          "url": "https://www.edaily.co.kr/News/Read?newsId=02230406645617512&mediaCodeNo=257",
-          "source": "이데일리",
-          "title": "1000억 유증에도 자금난 불씨…론자와 공동 사업이 돌파구 될까"
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610280827160540101935",
+          "source": "더벨",
+          "title": "네이버 손자회사 '케이크', 매각 불발에 사업 정리 검토"
+        }
+      ]
+    },
+    {
+      "target": "두나무",
+      "counterparties": "네이버",
+      "pe_firms": [],
+      "industry": "가상자산·플랫폼",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "두나무-네이버 합병 추진",
+      "article_ids": [
+        "a16"
+      ],
+      "evidence": "오경석 두나무 대표 \"네이버 합병 이유 글로벌 확장\"",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202609301221359200104759",
+          "source": "더벨",
+          "title": "오경석 두나무 대표 \"네이버 합병 이유 글로벌 확장\""
+        }
+      ]
+    },
+    {
+      "target": "롯데손보",
+      "counterparties": "신한금융",
+      "pe_firms": [],
+      "industry": "보험",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "신한금융, 롯데손보 자본 출자 방법 다변화",
+      "article_ids": [
+        "a20"
+      ],
+      "evidence": "신한금융, 롯데손보 자본 출자 방법 다변화",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610271712092960109033",
+          "source": "더벨",
+          "title": "신한금융, 롯데손보 자본 출자 방법 다변화"
+        }
+      ]
+    },
+    {
+      "target": "솔리다임",
+      "counterparties": "SK하이닉스",
+      "pe_firms": [],
+      "industry": "반도체",
+      "stage": "중단",
+      "amount": null,
+      "one_liner": "SK하이닉스, 솔리다임 IPO 중단",
+      "article_ids": [
+        "a15"
+      ],
+      "evidence": "솔리다임 IPO 중단",
+      "_articles": [
+        {
+          "url": "https://www.hankyung.com/article/2026102897736",
+          "source": "마켓인사이트",
+          "title": "곽노정 SK하이닉스 사장 \"솔리다임 IPO 중단…성장 투자는 지속\""
         }
       ]
     }
   ],
   "pe_moves": [
     {
-      "pe": "SG PE",
-      "target": "상우기업",
-      "action": "매각 추진",
+      "pe": "헬리오스프라이빗에쿼티",
+      "action": "핑거 100억원 투자",
+      "target": "핑거",
       "article_ids": [
-        "a27"
+        "a10"
       ],
-      "evidence": "SG PE, 액상소석회 생산 '상우기업' 매각 추진",
+      "evidence": "헬리오스프라이빗에쿼티(PE)가 금융IT 기업 핑거에 100억원을 투자한다",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610261801407760108679",
+          "url": "https://www.etoday.co.kr/news/view/2641011",
+          "source": "이투데이",
+          "title": "헬리오스PE, 핑거에 100억 투자… 세아그룹 계열사 인수 지원"
+        }
+      ]
+    },
+    {
+      "pe": "MBK",
+      "action": "골프존카운티 매각 추진",
+      "target": "골프존카운티",
+      "article_ids": [
+        "a12",
+        "a23"
+      ],
+      "evidence": "골프존, MBK 골프존카운티 매각 반발",
+      "_articles": [
+        {
+          "url": "https://www.mt.co.kr/living/2026/10/29/2026102819544136433",
+          "source": "머니투데이",
+          "title": "골프존, MBK 골프존카운티 매각 반발… \"법적 대응\""
+        },
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610281042567720101959",
           "source": "더벨",
-          "title": "SG PE, 액상소석회 생산 '상우기업' 매각 추진"
+          "title": "골프존홀딩스, MBK의 골프존카운티 매각 '반기'"
+        }
+      ]
+    },
+    {
+      "pe": "JKL",
+      "action": "LS MnM 투자금 회수 진행",
+      "target": "LS MnM",
+      "article_ids": [
+        "a26"
+      ],
+      "evidence": "투자금 회수는 아직 마무리되지 않았다",
+      "_articles": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=06678086645617512&mediaCodeNo=257",
+          "source": "이데일리",
+          "title": "[단독]LS MnM 투자 주도한 JKL 키맨, LS로 옮긴다"
         }
       ]
     }
   ],
   "for_sale": [
     {
-      "asset": "LG화학 대산 BPA",
-      "seller": "LG화학",
-      "process_stage": "매각 착수",
+      "asset": "제천 킹즈락CC",
+      "seller": null,
+      "process_stage": "매물",
       "article_ids": [
-        "a23"
+        "a6"
       ],
-      "evidence": "대산 BPA 매각 첫발",
+      "evidence": "1600억에 팔린 제천 킹즈락CC, 5년 만에 매물로",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610261744024960109018",
+          "url": "https://biz.chosun.com/stock/market_trend/2026/10/29/ZW7GSCTBDBEDRCR3W4APHECFQU/",
+          "source": "조선일보",
+          "title": "1600억에 팔린 제천 킹즈락CC, 5년 만에 매물로"
+        }
+      ]
+    },
+    {
+      "asset": "골프존카운티",
+      "seller": "MBK",
+      "process_stage": "거론",
+      "article_ids": [
+        "a12",
+        "a23"
+      ],
+      "evidence": "골프존, MBK 골프존카운티 매각 반발",
+      "_articles": [
+        {
+          "url": "https://www.mt.co.kr/living/2026/10/29/2026102819544136433",
+          "source": "머니투데이",
+          "title": "골프존, MBK 골프존카운티 매각 반발… \"법적 대응\""
+        },
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610281042567720101959",
           "source": "더벨",
-          "title": "LG화학, 대산 BPA 매각 첫발...국도화학과 JV 설립"
+          "title": "골프존홀딩스, MBK의 골프존카운티 매각 '반기'"
+        }
+      ]
+    },
+    {
+      "asset": "케이크",
+      "seller": null,
+      "process_stage": "매각 불발",
+      "article_ids": [
+        "a22"
+      ],
+      "evidence": "케이크', 매각 불발에 사업 정리 검토",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610280827160540101935",
+          "source": "더벨",
+          "title": "네이버 손자회사 '케이크', 매각 불발에 사업 정리 검토"
         }
       ]
     }
   ],
   "market_signals": [
     {
-      "type": "ACQ_FINANCING",
-      "summary": "삼성생명 대형 M&A 대비 자금 확보 필요성 제기",
+      "type": "DEAL_DROP",
+      "summary": "홈플러스 M&A 작업 진전 부진, 자금 소진 우려",
       "article_ids": [
-        "a1"
+        "a33"
       ],
-      "evidence": "대형 인수합병(M&A) 등에 대비하려면 안정적인 자금 확보가 필요했다",
+      "evidence": "인수합병(M&A) 작업마저 좀처럼 진전되지 않으면서",
       "_articles": [
         {
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/27/2026102780161.html",
-          "source": "인베스트조선",
-          "title": "[Invest]ROE 3% 삼성생명, 역마진 감수 '비싼 데뷔'...자본효율성 제고 '..."
+          "url": "https://www.fnnews.com/news/202610281814141449",
+          "source": "파이낸셜뉴스",
+          "title": "2000억 긴급자금 소진… 홈플러스 '최악 시나리오' 치닫나"
+        }
+      ]
+    },
+    {
+      "type": "REGULATORY",
+      "summary": "의무공개매수제 도입 논란 및 M&A 위축 우려",
+      "article_ids": [
+        "a7",
+        "a34"
+      ],
+      "evidence": "인수합병(M&A) 비용 증가와 시장 위축을 우려하는 야당",
+      "_articles": [
+        {
+          "url": "https://www.mt.co.kr/politics/2026/10/29/2026102818263921777",
+          "source": "머니투데이",
+          "title": "\"재검토\" 개미들 반발 속 '공개토론' 띄운 李...의무공개매수제 속도 내..."
+        },
+        {
+          "url": "https://www.ajunews.com/view/20261028180756584",
+          "source": "아주경제",
+          "title": "李대통령, 의무공개매수제 놓고 누리꾼과 '문답'"
+        }
+      ]
+    },
+    {
+      "type": "VALUATION_GAP",
+      "summary": "골프장 M&A 매도자·원매자 눈높이 차",
+      "article_ids": [
+        "a6"
+      ],
+      "evidence": "매도자와 원매자의 눈높이 차가 있다고 본다",
+      "_articles": [
+        {
+          "url": "https://biz.chosun.com/stock/market_trend/2026/10/29/ZW7GSCTBDBEDRCR3W4APHECFQU/",
+          "source": "조선일보",
+          "title": "1600억에 팔린 제천 킹즈락CC, 5년 만에 매물로"
         }
       ]
     }
   ],
   "diag": {
     "llm_raw": {
-      "deals": 6,
-      "pe_moves": 1,
-      "for_sale": 2,
-      "market_signals": 1
+      "deals": 14,
+      "pe_moves": 3,
+      "for_sale": 3,
+      "market_signals": 3
     },
-    "drops": [
-      {
-        "reason": "evidence_not_in_source",
-        "label": "B바이오",
-        "evidence": "경영권을 인수",
-        "ids": [
-          "a0"
-        ]
-      },
-      {
-        "reason": "evidence_not_in_source",
-        "label": "상우기업",
-        "evidence": "상우기업 매각 추진",
-        "ids": [
-          "a27"
-        ]
-      }
-    ],
+    "drops": [],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 6851,
+        "input_tokens": 7177,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 1248,
+        "output_tokens": 2858,
         "output_tokens_details": {
           "thinking_tokens": 0
         },
