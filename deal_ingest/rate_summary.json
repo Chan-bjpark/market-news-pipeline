@@ -1,94 +1,20 @@
 {
-  "generated_at": "2026-10-28T22:10:57.114767+00:00",
+  "generated_at": "2026-10-29T22:10:58.172880+00:00",
   "items": {
     "CD(91일)": {
-      "item_code": "010502000",
-      "latest_date": "2026-10-28",
-      "latest_value": 3.27,
-      "prev_day_date": "2026-10-27",
-      "vs_prev_day_bp": 0.0,
-      "prev_month_date": "2026-09-28",
-      "vs_prev_month_bp": 5.0,
-      "recent_series": [
-        {
-          "date": "2026-10-07",
-          "value": 3.24
-        },
-        {
-          "date": "2026-10-08",
-          "value": 3.24
-        },
-        {
-          "date": "2026-10-12",
-          "value": 3.24
-        },
-        {
-          "date": "2026-10-13",
-          "value": 3.24
-        },
-        {
-          "date": "2026-10-14",
-          "value": 3.25
-        },
-        {
-          "date": "2026-10-15",
-          "value": 3.25
-        },
-        {
-          "date": "2026-10-16",
-          "value": 3.25
-        },
-        {
-          "date": "2026-10-19",
-          "value": 3.25
-        },
-        {
-          "date": "2026-10-20",
-          "value": 3.26
-        },
-        {
-          "date": "2026-10-21",
-          "value": 3.26
-        },
-        {
-          "date": "2026-10-22",
-          "value": 3.26
-        },
-        {
-          "date": "2026-10-23",
-          "value": 3.26
-        },
-        {
-          "date": "2026-10-26",
-          "value": 3.26
-        },
-        {
-          "date": "2026-10-27",
-          "value": 3.27
-        },
-        {
-          "date": "2026-10-28",
-          "value": 3.27
-        }
-      ],
+      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/6NN0C8NO6UC58JEGUUSH/json/kr/1/1000/817Y002/D/20260731/20261029/010502000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f31214b2600>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=20)'))",
       "source": "ECOS"
     },
     "국고채(3년)": {
-      "latest_date": "2026-10-27",
-      "latest_value": 3.754,
+      "latest_date": "2026-10-28",
+      "latest_value": 3.798,
       "isin": "KR103501GG62",
       "name": "국고03500-2906(26-5)",
-      "prev_day_date": "2026-10-26",
-      "vs_prev_day_bp": -3.4,
-      "prev_month_date": "2026-09-23",
-      "vs_prev_month_bp": -25.0,
+      "prev_day_date": "2026-10-27",
+      "vs_prev_day_bp": 4.4,
+      "prev_month_date": "2026-09-28",
+      "vs_prev_month_bp": -32.4,
       "recent_series": [
-        {
-          "date": "2026-10-06",
-          "value": 3.931,
-          "isin": "KR103501GG62",
-          "name": "국고03500-2906(26-5)"
-        },
         {
           "date": "2026-10-07",
           "value": 3.961,
@@ -172,26 +98,26 @@
           "value": 3.754,
           "isin": "KR103501GG62",
           "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-10-28",
+          "value": 3.798,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         }
       ],
       "source": "KFP/KRX"
     },
     "국고채(10년)": {
-      "latest_date": "2026-10-27",
-      "latest_value": 4.028,
+      "latest_date": "2026-10-28",
+      "latest_value": 4.106,
       "isin": "KR103503GG60",
       "name": "국고04250-3606(26-6)",
-      "prev_day_date": "2026-10-26",
-      "vs_prev_day_bp": -4.6,
-      "prev_month_date": "2026-09-23",
-      "vs_prev_month_bp": -36.1,
+      "prev_day_date": "2026-10-27",
+      "vs_prev_day_bp": 7.8,
+      "prev_month_date": "2026-09-28",
+      "vs_prev_month_bp": -43.8,
       "recent_series": [
-        {
-          "date": "2026-10-06",
-          "value": 4.362,
-          "isin": "KR103503GG60",
-          "name": "국고04250-3606(26-6)"
-        },
         {
           "date": "2026-10-07",
           "value": 4.377,
@@ -275,22 +201,24 @@
           "value": 4.028,
           "isin": "KR103503GG60",
           "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-10-28",
+          "value": 4.106,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
         }
       ],
       "source": "KFP/KRX"
     },
     "미국채(2년)": {
-      "latest_date": "2026-10-27",
-      "latest_value": 4.7,
-      "prev_day_date": "2026-10-26",
-      "vs_prev_day_bp": 2.0,
-      "prev_month_date": "2026-09-25",
-      "vs_prev_month_bp": -11.0,
+      "latest_date": "2026-10-28",
+      "latest_value": 4.67,
+      "prev_day_date": "2026-10-27",
+      "vs_prev_day_bp": -3.0,
+      "prev_month_date": "2026-09-28",
+      "vs_prev_month_bp": -25.0,
       "recent_series": [
-        {
-          "date": "2026-10-06",
-          "value": 4.79
-        },
         {
           "date": "2026-10-07",
           "value": 4.77
@@ -346,6 +274,10 @@
         {
           "date": "2026-10-27",
           "value": 4.7
+        },
+        {
+          "date": "2026-10-28",
+          "value": 4.67
         }
       ],
       "source": "FRED",
@@ -353,17 +285,13 @@
       "error": null
     },
     "미국채(10년)": {
-      "latest_date": "2026-10-27",
-      "latest_value": 4.99,
-      "prev_day_date": "2026-10-26",
-      "vs_prev_day_bp": -1.0,
-      "prev_month_date": "2026-09-25",
-      "vs_prev_month_bp": -18.0,
+      "latest_date": "2026-10-28",
+      "latest_value": 5.05,
+      "prev_day_date": "2026-10-27",
+      "vs_prev_day_bp": 6.0,
+      "prev_month_date": "2026-09-28",
+      "vs_prev_month_bp": -19.0,
       "recent_series": [
-        {
-          "date": "2026-10-06",
-          "value": 5.27
-        },
         {
           "date": "2026-10-07",
           "value": 5.28
@@ -419,6 +347,10 @@
         {
           "date": "2026-10-27",
           "value": 4.99
+        },
+        {
+          "date": "2026-10-28",
+          "value": 5.05
         }
       ],
       "source": "FRED",
@@ -578,18 +510,10 @@
   },
   "policy_rates": {
     "한국 기준금리": {
-      "latest_date": "2026-10-26",
-      "latest_value": 3.0,
-      "last_change_date": "2026-08-27",
-      "last_change_from": 2.75,
-      "direction": "인상",
-      "next_meeting": "2026-11-26",
-      "last_meeting": "2026-10-22",
-      "meeting_direction": "동결",
-      "source": "ECOS"
+      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/6NN0C8NO6UC58JEGUUSH/json/kr/1/1000/722Y001/D/20251029/20261029/0101000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f312197e4b0>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=20)'))"
     },
     "미국 기준금리": {
-      "latest_date": "2026-10-28",
+      "latest_date": "2026-10-29",
       "latest_value": 4.0,
       "last_change_date": "2026-09-17",
       "last_change_from": 3.75,

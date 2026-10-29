@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28T22:11:03.590481+00:00",
+  "generated_at": "2026-10-29T22:13:08.163584+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 682,
+  "total_policy_articles": 678,
   "matched_funds_count": 3,
   "unmatched_count": 234,
   "funds": [
@@ -10,175 +10,10 @@
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-07-31",
+      "first_seen": "2026-08-01",
       "last_updated": "2026-10-29",
-      "event_count": 445,
+      "event_count": 441,
       "timeline": [
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T07:48:00+09:00",
-          "stage_code": "closed",
-          "stage_label": "결성 완료",
-          "amount": "1800억원",
-          "title": "[더벨]아크앤파트너스, 국민성장펀드 열풍 속 신규 펀드 조성 순항",
-          "summary": "국내외 LP와 추가 협의를 진행하면서 펀드 결성 작업은 순항하고 있다. 주요 기관 출자사업도 적극적으로... 산재보험기금은 PEF(사모펀드) 부문에서 3개 운용사에 총 1800억원을 출자할 계획이다. 총회연금재단은 PEF와 VC...",
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607291043536320105664",
-          "source_label": "더벨"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T07:52:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": null,
-          "title": "\"인센티브 15년 뒤에 받으라고?\" 초장기 VC펀드가 쏘아올린 고민 [VC는지...",
-          "summary": "\" 지난 20일 한국산업은행 본점 IR센터에서 열린 국민성장펀드 초장기기술투자펀드 공청회. 홍원호... 일반 정책펀드가 8~10년, 정책출자 비중이 20~40% 수준인 것과 비교하면 조건이 확연히 다르다. 다만 15년이라는 긴...",
-          "url": "https://view.asiae.co.kr/article/2026073014591932013",
-          "source_label": "아시아경제"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:30:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "'한국판 국부펀드' KIC로 통합…8월 '한국투자공사법' 개정안 발의",
-          "summary": "투자대상은 △파급효과가 크고 잠재성장률을 높일 수 있는 전략산업(국민성장펀드 첨단산업, 소재·부품... 앵커투자자로서 해외 국부펀드, 글로벌 자산운용사들과 공동 투자도 가능하다. 공급망안정화기금 등과 협업해...",
-          "url": "https://www.mt.co.kr/economy/2026/07/31/2026073022473987374",
-          "source_label": "머니투데이"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:30:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "20조",
-          "title": "'20조+α 전략형 국부펀드' 윤곽…公企 주식 활용해 'AI·반도체' 장기투...",
-          "summary": "배당을 투자재원으로 활용할 계획이다. 다만 국부펀드가 출범과 동시에 20조원을 현금으로 집행할 수 있는... 정책펀드 투자 공백 메우고 해외자본 유치 국부펀드가 국민성장펀드나 모태펀드 등 기존 정책펀드와 투자...",
-          "url": "https://www.ajunews.com/view/20260730142225412",
-          "source_label": "아주경제"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:30:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "20조",
-          "title": "20조 원+α '한국판 국부펀드' 내년 가동…AI·반도체 등 만기 없는 직접...",
-          "summary": "원을 출자해 초기자본금을 마련한다. 다만 20조 원 전체가 즉시 투자할 수 있는 현금은 아니다. 공공기관... 모태펀드와 국민성장펀드 등 기존 정책펀드가 청산할 때 유망기업의 지분을 인수하는 '이어달리기 투자'도...",
-          "url": "https://www.news1.kr/economy/trend/6244643",
-          "source_label": "뉴스1"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:30:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "16조",
-          "title": "'한국판 국부펀드' 내년 가동…전략산업 초장기 투자",
-          "summary": "산업은행과 수출입은행 등 정부 보유 공공기관 주식 16조원 이상과 상속·증여세 물납주식 약 4조원이 출자된... 모태펀드나 국민성장펀드 등이 청산 단계에 들어가면 우수 기업을 선별해 후속 투자하는 '이어달리기...",
-          "url": "https://www.yna.co.kr/view/AKR20260730188400002?input=1195m",
-          "source_label": "연합뉴스"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:30:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "16조",
-          "title": "산은 등 16조 끌어모아 6000억 실탄…20조 전략형 국부펀드, 관치 논란 ...",
-          "summary": "지분 투자를 집행하게 된다. 정부는 이번 펀드가 해외 자본 유치의 마중물이자 국가 핵심 기술의 해외... 국민성장펀드가 정책 목적의 간접투자와 융자에 무게를 둔다면 전략형 국부펀드는 수익성을 기반으로 한 초장기...",
-          "url": "https://view.asiae.co.kr/article/2026073107334543312",
-          "source_label": "아시아경제"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:31:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "20조",
-          "title": "AI·방산·우주에 ‘초장기 투자’…20조+α 국부펀드 내년 출범",
-          "summary": "모태펀드·국민성장펀드 등 기존 정책펀드가 일정 기간 기업을 육성한 뒤 청산하면 지분을 넘겨받아 장기로... 현물출자한다. 국부펀드는 공공기관 경영권 행사가 아닌 배당수익을 목적으로만 해당 지분을 보유하기로...",
-          "url": "https://www.sedaily.com/article/20074151",
-          "source_label": "서울경제"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:31:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "20조",
-          "title": "한국판 ‘전략형 국부펀드’ 뜬다…KIC에 20조+α, 첨단산업 직접투자 나...",
-          "summary": "전략산업 투자 관심이 높아지고 있다는 점을 도입 배경으로 제시했다. 해외 국부펀드와 연기금 등이... 정부는 전략형 국부펀드가 국민성장펀드 등 기존 정책펀드와 상호 보완적으로 운영될 것이라고 밝혔다. 해외...",
-          "url": "https://biz.heraldcorp.com/article/10826390",
-          "source_label": "헤럴드경제"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:32:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "20조",
-          "title": "한국형 국부펀드, 신설 대신 KIC 산하로…20조 규모 출범",
-          "summary": "재원은 정부 출자와 기부금, 운용수익 등으로 구성한다. 초기자본금은 정부가 보유한 공공기관 주식 중... 모태펀드·국민성장펀드 등 정책펀드들과 협업투자를 하고, 펀드 청산 시 우수기업을 선별해 이어달리기 투자를...",
-          "url": "https://www.hani.co.kr/arti/economy/economy_general/1270808.html",
-          "source_label": "한겨레"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:32:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "20조",
-          "title": "'20조+α' 전략형 국부펀드 내년 출범…초기 투자실탄 6천억",
-          "summary": "공공기관 주식에 대한 가치평가 결과가 현재 추산보다 높게 나오거나 추가 출자가 이뤄질 경우 전체 펀드... 기존 모태펀드나 국민성장펀드와는 공동투자와 '이어달리기 투자'를 추진한다. 기존 정책펀드가 청산 과정에서...",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427940",
-          "source_label": "연합인포맥스"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T08:49:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "20조",
-          "title": "정부, 'K-국부펀드'로 전략적 투자 나선다…20조+α 규모",
-          "summary": "펀드 재원은 정부 출자금과 기부금, 운용수입 등으로 조성한다. 초기자본금은 산업은행, 수출입은행... 정부는 향후 국민성장펀드·모태펀드 등 국내 정책펀드, 해외 국부펀드·자산운용사 등 글로벌 투자자본 등과...",
-          "url": "https://www.newsis.com/view/NISX20260731_0003730789",
-          "source_label": "뉴시스"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T09:12:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "20조",
-          "title": "20조 규모 ‘한국판 전략형 국부펀드’ 내년 출범…AI·반도체 등 투자",
-          "summary": "초장기 투자를 집행하는 20조 원 규모의 ‘한국판 전략형 국부펀드’를 내년 공식 출범시킨다. 정부는 31일... 또한 기존 모태펀드나 국민성장펀드가 만기 청산에 들어갈 경우 우수 기업을 이어받아 후속 투자하는...",
-          "url": "https://www.joongang.co.kr/article/25449772",
-          "source_label": "중앙일보"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T14:00:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "20조",
-          "title": "베일 벗은 국부펀드···초기자본금 20조원으로 전략산업 투자, 필요시...",
-          "summary": "4조원을 출자한다. 개인과 단체가 기부하는 현금·증권도 재원으로 활용되고 향후 미래대응기금이나 세수를... 국민성장펀드 등 정책펀드가 대출이나 보증 등의 투자 방식을 택한 것과 달리 국부펀드는 주식을 직접...",
-          "url": "https://www.khan.co.kr/article/202607311400021",
-          "source_label": "경향신문"
-        },
-        {
-          "date": "2026-07-31",
-          "published_at": "2026-07-31T14:54:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "5000억원",
-          "title": "한국형 국부펀드 뜬다...매년 6천억 신산업 투자",
-          "summary": "현물 출자해 마련한다. ▶ 관련기사 2026년 4월 7일자 A10면 공기업 출자에 따른 연간 배당금 약 5000억원과... 정부는 향후 국민성장펀드·모태펀드 등 국내 정책펀드, 해외 국부펀드·자산운용사 등 글로벌 투자자본 등과...",
-          "url": "https://www.mk.co.kr/article/12113361",
-          "source_label": "매일경제"
-        },
         {
           "date": "2026-08-01",
           "published_at": "2026-08-01T07:02:00+09:00",
@@ -4908,6 +4743,127 @@
           "summary": "개최 ▲배포시 국민성장펀드, 10월 기금운용심의회 개최 및 승인결과 &lt;금융감독원&gt; ▲06:00 2026년 3분기 등록 ABS 발행 실적 ▲16:00 보험회사 계리담당 부서장 간담회 개최 &lt;한국은행&gt; ▲06:00 2026년 10월...",
           "url": "https://www.newsis.com/view/NISX20261028_0003845161",
           "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T09:29:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8조",
+          "title": "국산 퓨리오사AI에 8200억 쏟아졌다…美 큰 손들 우르르, 몸값 3.8조 '잭...",
+          "summary": "최대 투자자인 국민성장펀드의 투자액은 3700억원이다. 해당 투자는 지난 5월 28일 기금운용심의회에서 이미 승인됐다. 회사 측은 이후 매칭 투자 유치를 추진했으며, 국내외 투자자 모집을 거쳐 전체 투자유치를...",
+          "url": "https://view.asiae.co.kr/article/2026102909294898182",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T10:05:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8조",
+          "title": "퓨리오사AI, 8200억 규모 시리즈 D 투자유치…기업가치 3.8조",
+          "summary": "국민성장펀드는 3700억 원을 투자하며 이번 라운드의 최대 투자자로 참여했다. 전체 투자액의 약 45%다.... 단순 자금 조달을 넘어 반도체·컴퓨팅 인프라 분야의 투자 경험을 가진 자본을 확보했다는 게 회사 측...",
+          "url": "https://www.news1.kr/industry/sb-founded/6335956",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T15:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "신진창 \"국민성장펀드, 단기 성과보다 긴 호흡\"…안전장치 강조",
+          "summary": "신진창 금융위 부위원장[연합뉴스 자료사진] 금융위원회가 1조 원 넘는 자금이 몰린 '국민참여성장펀드'의 본격적인 투자 집행을 앞두고 운용사들과 만나 책임 있는 자금 운용을 당부했다. 최근 불거진 1차 펀드의 단기...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441951",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T18:20:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "국민성장펀드, 국내 최대 태양광 발전소에 1천억원…반도체 RE100 지원",
+          "summary": "금융위는 29일 국민성장펀드 기금운용심의회를 열고 해남 태양광 발전사업을 비롯한 총 4개 사업에 약 1조원 규모의 자금 지원을 승인했다고 밝혔다. 해남 태양광 발전사업은 전남 해남군 문내면 일원에 400MW급 태양광...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442016",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T18:24:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조1465억",
+          "title": "국민성장펀드, 해남에 국내 최대 태양광발전소 짓는다",
+          "summary": "금융위원회는 29일 국민성장펀드 기금운용심의회를 열고 태양광발전 인프라를 비롯한 4개 사업에 대한 자금지원을 승인했다고 밝혔다. 이번에 승인된 사업의 총투자 규모는 1조1465억원이다. 가장 눈에 띄는 사업은...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=06350086645617840&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T18:26:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "1조",
+          "title": "국민성장펀드, 국내 최대 태양광 발전소 건설 지원…4개 사업에 1조 투입",
+          "summary": "금융위는 29일 국민성장펀드 기금운용심의회를 열고 해남 태양광 발전사업과 피에스케이, 녹십자, 하나마이크론 등 4개 사업에 대한 자금지원을 의결했다고 밝혔다. 이번에 승인된 지원 규모는 총 1조446억원으로, 이...",
+          "url": "https://www.newsis.com/view/NISX20261029_0003847293",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T18:28:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "국민성장펀드, 10월 1조원 규모 4건 승인…누적 22.3조원",
+          "summary": "금융위원회는 29일 열린 국민성장펀드 기금운용심의회에서 태양광 발전 인프라와 반도체 장비 생산공장, 바이오 연구개발(R&D) 및 생산설비 등 총 4건의 사업을 승인했다며 이 같이 밝혔다. 이번 승인 사업의 전체...",
+          "url": "https://www.ajunews.com/view/20261029181958057",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T18:48:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드, 국내 최대 태양광 발전소·반도체 밸류체인 투자",
+          "summary": "금융위원회는 이날 국민성장펀드 기금운용심의회에서 이를 포함한 4건에 자금지원을 승인했다고 밝혔다. 태양광 발전 인프라 사업은 400㎿(메가와트)급 국내 최대 태양광발전소를 전남 해남에 건설해 20년간 운영하는...",
+          "url": "https://www.yna.co.kr/view/AKR20261029196900002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T18:58:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "국민성장펀드, 국내 최대 태양광ㆍ반도체 밸류체인에 1조원 지원",
+          "summary": "이투데이=박정호 기자 | 해남 400MW 태양광에 기금 1000억원…반도체 RE100 지원 피에스케이·하나마이크론·녹십자에 저리대출 3400억원 누적 39건·22.3조원 승인…연내 30조원 목표 달성 전망 국민성장펀드가 국내 최대...",
+          "url": "https://www.etoday.co.kr/news/view/2641966",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T19:21:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": null,
+          "title": "국민성장펀드, 해남 태양광 발전·반도체 설비 확대 투자",
+          "summary": "금융위원회는 29일 국민성장펀드 기금운용심의회를 열고 이같이 결정했다고 밝혔다. 이번에 승인된 4건은 지난 9월 신설된 '리스크관리위원회'의 첫 논의를 거쳤다. 해남 태양광 발전사업은 국내 최대 400메가와트(MW)급...",
+          "url": "https://www.news1.kr/finance/financial-policy/6337013",
+          "source_label": "뉴스1"
+        },
+        {
+          "date": "2026-10-29",
+          "published_at": "2026-10-29T20:56:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "22조3000억",
+          "title": "국민성장펀드, 해남 태양광 등 4개 사업 승인…누적 22조3000억원",
+          "summary": "8조3100억원 △저리대출 7조2200억원으로 구성됐다. 금융위는 4분기 추가로 결성될 간접투자펀드 규모를 고려하면 올해 승인 목표인 30조원을 조기에 달성할 수 있을 것으로 내다봤다. 아울러 국민성장펀드 지원 대상에...",
+          "url": "https://www.mt.co.kr/finance/2026/10/29/2026102918161817689",
+          "source_label": "머니투데이"
         }
       ]
     },
@@ -4968,24 +4924,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-07-31",
-      "title": "사학연금, '백주현 CIO 체제' 첫 VC 출자…IMM인베 등 5곳 낙점 [fn마켓워...",
-      "url": "http://www.fnnews.com/news/202607311424144366",
-      "source_label": "파이낸셜뉴스"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "'20조+α' 국부펀드 뜬다…추가 세수도 투입 검토",
-      "url": "https://www.hankyung.com/article/2026073186041",
-      "source_label": "한국경제"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "국내 PE·VC 출자시장 '큰 장'…사학연금·군인공제회 4000억원 집행 [fn...",
-      "url": "http://www.fnnews.com/news/202607312003093695",
-      "source_label": "파이낸셜뉴스"
-    },
     {
       "date": "2026-08-03",
       "title": "대신증권, 현대코퍼레이션 VC와 첫 펀드 동맹…펀드레이징 돌입",
@@ -5267,6 +5205,24 @@
       "title": "'K-반도체' 대표주자 리벨리온, 엔비디아와 손잡나…박성현 대표·젠슨...",
       "url": "https://www.newspim.com/news/view/20260824001110",
       "source_label": "뉴스핌"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "‘포스트 배틀그라운드’ 찾는 크래프톤… 자회사 1년 새 40개 증가",
+      "url": "https://biz.chosun.com/it-science/ict/2026/08/25/HLHJ6RUHRBGM3JZVNLHZ3LXRBI/",
+      "source_label": "조선일보"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "산은, SLL중앙 대출 조건부 만기연장 검토…자구책 이행이 관건",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/26/2026082680115.html",
+      "source_label": "인베스트조선"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "\"벤처투자 회수시장 체질 개선하려면, 세컨더리·M&A 활성화 시급\"",
+      "url": "https://www.mt.co.kr/future/2026/08/26/2026082415200846804",
+      "source_label": "머니투데이"
     }
   ]
 }
