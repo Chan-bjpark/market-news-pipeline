@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:13:09.129714+00:00",
+  "generated_at": "2026-11-01T22:11:28.959070+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-10-29T22:13:09.129633+00:00",
+    "sheet_synced_at": "2026-11-01T22:11:28.958980+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3464,6 +3464,262 @@
   ],
   "news_discovered": [
     {
+      "company_name": "NH농협금융",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "1조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-10-30",
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "event": "[창간 기획] NH농협금융, 지역 산업·첨단기술 자금 푼다…방산·AI·에너...",
+          "methods": [
+            "출자"
+          ],
+          "amount": "1조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.g-enews.com/view.php?ud=202605151722361206e30fcb1ba8_1",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "date": "2026-08-30",
+          "event": "NH농협금융, '상생·성장 펀드 2호' 내달 4000억으로 확대 조성",
+          "methods": [
+            "대출"
+          ],
+          "amount": "4000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.newsis.com/view/NISX20260830_0003768144",
+          "source": "뉴시스"
+        },
+        {
+          "date": "2026-08-30",
+          "event": "NH농협금융, ‘상생·성장펀드 2호’ 4000억원으로 확대",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "5000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2619619",
+          "source": "이투데이"
+        },
+        {
+          "date": "2026-08-30",
+          "event": "NH농협금융, '상생·성장 펀드 2호' 4000억원으로 확대",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "4000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.fnnews.com/news/202608301113292106",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-10-30",
+          "event": "NH농협금융, 벤처모펀드·미소금융재단 각각 1000억 지원… 생산적·포용...",
+          "methods": [
+            "출자"
+          ],
+          "amount": "1000억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.g-enews.com/view.php?ud=202610300817089956bb91c46fcd_1",
+          "source": "글로벌이코노믹"
+        }
+      ]
+    },
+    {
+      "company_name": "신한운용",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "3500억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-06-02",
+      "last_seen": "2026-10-30",
+      "timeline": [
+        {
+          "date": "2026-06-02",
+          "event": "신한운용, 국민성장펀드 도전·소형 리그 자펀드 운용사 선정 완료",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02892966645477784",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-06-02",
+          "event": "신한운용, 국민성장펀드 운용사 선정 완료…3500억 첨단산업 투자 시동",
+          "methods": [],
+          "amount": "3500억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.heraldcorp.com/article/10762042",
+          "source": "헤럴드경제"
+        },
+        {
+          "date": "2026-06-02",
+          "event": "신한운용, 국민성장펀드 도전·소형리그 운용사 4곳 선정",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.newsis.com/view/NISX20260602_0003653306",
+          "source": "뉴시스"
+        },
+        {
+          "date": "2026-06-12",
+          "event": "신한운용, 과학기술혁신펀드 1163억 출자",
+          "methods": [
+            "출자"
+          ],
+          "amount": "1조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.newspim.com/news/view/20260612000434",
+          "source": "뉴스핌"
+        },
+        {
+          "date": "2026-06-12",
+          "event": "신한운용, 과학기술혁신펀드 1163억 출자…\"3191억 벤처펀드 조성 예정\"",
+          "methods": [
+            "출자"
+          ],
+          "amount": "1조",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03424326645481064",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-10-30",
+          "event": "신한운용, 주민수익공유 펀드·에너지 인프라 펀드 결성",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.mt.co.kr/stock/2026/10/30/2026103013563568313",
+          "source": "머니투데이"
+        }
+      ]
+    },
+    {
+      "company_name": "신한자산운용",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "3500억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-06-02",
+      "last_seen": "2026-10-30",
+      "timeline": [
+        {
+          "date": "2026-06-02",
+          "event": "신한자산운용, 국민성장펀드 '도전·소형 리그' 자펀드 운용사 선정",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=358044",
+          "source": "이데일리"
+        },
+        {
+          "date": "2026-06-02",
+          "event": "신한자산운용, 국민성장펀드 자펀드 운용사 선정… 3500억원 규모",
+          "methods": [
+            "출자"
+          ],
+          "amount": "3500억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.mt.co.kr/stock/2026/06/02/2026060208493465414",
+          "source": "머니투데이"
+        },
+        {
+          "date": "2026-10-30",
+          "event": "신한자산운용, 주민수익공유 펀드·에너지 인프라 펀드 5000억원 결성",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "5000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.etoday.co.kr/news/view/2642072",
+          "source": "이투데이"
+        },
+        {
+          "date": "2026-10-30",
+          "event": "신한자산운용, 주민수익공유·에너지 인프라 펀드 5000억원 결성",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "5000억원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://view.asiae.co.kr/article/2026103009465843604",
+          "source": "아시아경제"
+        }
+      ]
+    },
+    {
+      "company_name": "에너지 인프라",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "5000억",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30",
+      "timeline": [
+        {
+          "date": "2026-10-30",
+          "event": "신한운용, 에너지 인프라에 5000억…주민참여·전력망 투자 확대",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "5000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.fnnews.com/news/202610301502206441",
+          "source": "파이낸셜뉴스"
+        }
+      ]
+    },
+    {
       "company_name": "개 사업",
       "sector": null,
       "methods": [],
@@ -5583,71 +5839,6 @@
           "status_label": "관련 동향",
           "url": "https://www.ajunews.com/view/20260830094100439",
           "source": "아주경제"
-        }
-      ]
-    },
-    {
-      "company_name": "NH농협금융",
-      "sector": null,
-      "methods": [
-        "출자",
-        "대출"
-      ],
-      "amount": "1조",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-05-18",
-      "last_seen": "2026-08-30",
-      "timeline": [
-        {
-          "date": "2026-05-18",
-          "event": "[창간 기획] NH농협금융, 지역 산업·첨단기술 자금 푼다…방산·AI·에너...",
-          "methods": [
-            "출자"
-          ],
-          "amount": "1조",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.g-enews.com/view.php?ud=202605151722361206e30fcb1ba8_1",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "date": "2026-08-30",
-          "event": "NH농협금융, '상생·성장 펀드 2호' 내달 4000억으로 확대 조성",
-          "methods": [
-            "대출"
-          ],
-          "amount": "4000억",
-          "status_code": "review",
-          "status_label": "검토단계",
-          "url": "https://www.newsis.com/view/NISX20260830_0003768144",
-          "source": "뉴시스"
-        },
-        {
-          "date": "2026-08-30",
-          "event": "NH농협금융, ‘상생·성장펀드 2호’ 4000억원으로 확대",
-          "methods": [
-            "출자",
-            "대출"
-          ],
-          "amount": "5000억원",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.etoday.co.kr/news/view/2619619",
-          "source": "이투데이"
-        },
-        {
-          "date": "2026-08-30",
-          "event": "NH농협금융, '상생·성장 펀드 2호' 4000억원으로 확대",
-          "methods": [
-            "출자",
-            "대출"
-          ],
-          "amount": "4000억원",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.fnnews.com/news/202608301113292106",
-          "source": "파이낸셜뉴스"
         }
       ]
     },
@@ -8898,78 +9089,6 @@
       ]
     },
     {
-      "company_name": "신한운용",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "3500억",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-06-02",
-      "last_seen": "2026-06-12",
-      "timeline": [
-        {
-          "date": "2026-06-02",
-          "event": "신한운용, 국민성장펀드 도전·소형 리그 자펀드 운용사 선정 완료",
-          "methods": [
-            "출자"
-          ],
-          "amount": null,
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02892966645477784",
-          "source": "이데일리"
-        },
-        {
-          "date": "2026-06-02",
-          "event": "신한운용, 국민성장펀드 운용사 선정 완료…3500억 첨단산업 투자 시동",
-          "methods": [],
-          "amount": "3500억",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://biz.heraldcorp.com/article/10762042",
-          "source": "헤럴드경제"
-        },
-        {
-          "date": "2026-06-02",
-          "event": "신한운용, 국민성장펀드 도전·소형리그 운용사 4곳 선정",
-          "methods": [
-            "출자"
-          ],
-          "amount": null,
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.newsis.com/view/NISX20260602_0003653306",
-          "source": "뉴시스"
-        },
-        {
-          "date": "2026-06-12",
-          "event": "신한운용, 과학기술혁신펀드 1163억 출자",
-          "methods": [
-            "출자"
-          ],
-          "amount": "1조",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.newspim.com/news/view/20260612000434",
-          "source": "뉴스핌"
-        },
-        {
-          "date": "2026-06-12",
-          "event": "신한운용, 과학기술혁신펀드 1163억 출자…\"3191억 벤처펀드 조성 예정\"",
-          "methods": [
-            "출자"
-          ],
-          "amount": "1조",
-          "status_code": "review",
-          "status_label": "검토단계",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03424326645481064",
-          "source": "이데일리"
-        }
-      ]
-    },
-    {
       "company_name": "정책금융 총동원해 지역 기업",
       "sector": null,
       "methods": [],
@@ -9164,44 +9283,6 @@
           "status_label": "승인·확정",
           "url": "https://www.sedaily.com/article/20050887",
           "source": "서울경제"
-        }
-      ]
-    },
-    {
-      "company_name": "신한자산운용",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "3500억원",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-06-02",
-      "last_seen": "2026-06-02",
-      "timeline": [
-        {
-          "date": "2026-06-02",
-          "event": "신한자산운용, 국민성장펀드 '도전·소형 리그' 자펀드 운용사 선정",
-          "methods": [
-            "출자"
-          ],
-          "amount": null,
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=358044",
-          "source": "이데일리"
-        },
-        {
-          "date": "2026-06-02",
-          "event": "신한자산운용, 국민성장펀드 자펀드 운용사 선정… 3500억원 규모",
-          "methods": [
-            "출자"
-          ],
-          "amount": "3500억원",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.mt.co.kr/stock/2026/06/02/2026060208493465414",
-          "source": "머니투데이"
         }
       ]
     },
@@ -9788,42 +9869,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-09-21",
-      "title": "국민성장펀드 뒤에 선 GP들",
-      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202609211535100320106077",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "美 인텔처럼 기업 지분 산다…李, 정부 산업지원 방식 전환 강조",
-      "url": "https://dealsite.co.kr/articles/169482",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-09-23",
-      "title": "국민성장 초장기펀드 위탁운용사 숏리스트 14곳 선정",
-      "url": "https://www.hankyung.com/article/202609232876r",
-      "source": "한국경제"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "[더벨][thebell note] 국민성장펀드 뒤에 선 GP들",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609211535100320106077",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "신약·백신·ADC까지 품은 국민성장펀드…다음은 의료기기·소부장?",
-      "url": "https://www.etoday.co.kr/news/view/2629182",
-      "source": "이투데이"
-    },
-    {
-      "date": "2026-09-30",
-      "title": "PE·VC 불만 쏟아진 국민성장펀드…내년 리그 분리 검토",
-      "url": "https://dealsite.co.kr/articles/169801",
-      "source": "딜인사이트"
-    },
-    {
       "date": "2026-09-30",
       "title": "[국민성장펀드] [초장기] 김영훈의 펀딩 드라이브…대성창투, 2400억 펀드...",
       "url": "https://dealsite.co.kr/articles/169336",
@@ -10386,8 +10431,44 @@
       "title": "국민성장펀드, 해남 태양광 등 4개 사업 승인…누적 22조3000억원",
       "url": "https://www.mt.co.kr/finance/2026/10/29/2026102918161817689",
       "source": "머니투데이"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "신한운용 “주민수익공유·에너지 인프라 펀드 결성…5000억 원 규모”",
+      "url": "https://www.sedaily.com/article/20108162",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "엔비디아와 다른 길 택했다…세레브라스, 웨이퍼 통째로 쓰는 AI칩 승부",
+      "url": "https://www.sedaily.com/article/20108142",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "[더벨][thebell note] AUM이 말해주지 않는 것",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610271028587040106180",
+      "source": "더벨"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "한국성장금융 조직개편...'펀드 출자·사후관리' 분리 [fn마켓워치]",
+      "url": "https://www.fnnews.com/news/202611011255307026",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "“국민성장펀드로 생산 인프라 구축…대만보다 취약한 반도체 후공정 생...",
+      "url": "https://www.sedaily.com/article/20108829",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[Invest]\"내년엔 구주도 사달라\"…국민성장펀드 문 두드리는 PEF들",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/10/30/2026103080131.html",
+      "source": "인베스트조선"
     }
   ],
-  "matched_articles_this_run": 456,
+  "matched_articles_this_run": 433,
   "confirmed_deals_count": 16
 }
