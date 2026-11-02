@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T22:11:28.959070+00:00",
+  "generated_at": "2026-11-02T22:11:32.463211+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-01T22:11:28.958980+00:00",
+    "sheet_synced_at": "2026-11-02T22:11:32.463135+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -2917,6 +2917,16 @@
           "status_label": "관련 동향",
           "url": "https://www.news1.kr/industry/sb-founded/6335956",
           "source": "뉴스1"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "퓨리오사AI 메가딜 앞세워…5개월 만에 월간 투자액 1조원 돌파",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.hankyung.com/article/202611029364r",
+          "source": "한국경제"
         }
       ]
     },
@@ -3463,6 +3473,34 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "재탕",
+      "sector": null,
+      "methods": [
+        "대출",
+        "인프라투자"
+      ],
+      "amount": "7조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "timeline": [
+        {
+          "date": "2026-11-02",
+          "event": "국민성장펀드 규모 200조로 늘려놓고…투자계획은 '재탕'",
+          "methods": [
+            "대출",
+            "인프라투자"
+          ],
+          "amount": "7조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.hankyung.com/article/202611018711i",
+          "source": "한국경제"
+        }
+      ]
+    },
     {
       "company_name": "NH농협금융",
       "sector": null,
@@ -9870,24 +9908,6 @@
   "candidates": [
     {
       "date": "2026-09-30",
-      "title": "[국민성장펀드] [초장기] 김영훈의 펀딩 드라이브…대성창투, 2400억 펀드...",
-      "url": "https://dealsite.co.kr/articles/169336",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-09-30",
-      "title": "NH농협은행 \"권대영 금융위 부위원장 국민성장펀드 가입\"",
-      "url": "https://www.newsis.com/view/NISX20260930_0003808783",
-      "source": "뉴시스"
-    },
-    {
-      "date": "2026-09-30",
-      "title": "권대영 금융위 부위원장, NH농협은행서 국민참여성장펀드 가입",
-      "url": "https://www.g-enews.com/view.php?ud=202609301523259678bb91c46fcd_1",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "date": "2026-09-30",
       "title": "'국민참여성장펀드'가 뭐길래..판매 첫 날 2140억 흥행",
       "url": "https://www.fnnews.com/news/202609302009466229",
       "source": "파이낸셜뉴스"
@@ -10467,8 +10487,26 @@
       "title": "[Invest]\"내년엔 구주도 사달라\"…국민성장펀드 문 두드리는 PEF들",
       "url": "https://www.investchosun.com/site/data/html_dir/2026/10/30/2026103080131.html",
       "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "5극3특 소재 중소·중견기업에 3년 간 4조5000억 ‘생산적 금융’ 공급",
+      "url": "https://biz.heraldcorp.com/article/10922744",
+      "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "원청 부실 때 납품업체 상환부담 없앤다…은행 상환청구권 폐지",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442537",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "국민성장펀드 200조로 늘려놓고…투자계획은 150조",
+      "url": "https://www.hankyung.com/article/2026110210651",
+      "source": "한국경제"
     }
   ],
-  "matched_articles_this_run": 433,
+  "matched_articles_this_run": 431,
   "confirmed_deals_count": 16
 }
