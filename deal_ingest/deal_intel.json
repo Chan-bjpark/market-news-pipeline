@@ -1,349 +1,401 @@
 {
-  "generated_at": "2026-11-02T22:11:44.249491+00:00",
+  "generated_at": "2026-11-03T22:11:26.541905+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
   "fallback": false,
   "deals": [
     {
+      "target": "롯데렌탈",
+      "counterparties": "텍사스퍼시픽그룹(TPG)",
+      "pe_firms": [
+        "텍사스퍼시픽그룹(TPG)"
+      ],
+      "industry": "렌터카",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "롯데렌탈, 미국 PEF TPG에 매각",
+      "article_ids": [
+        "a13"
+      ],
+      "evidence": "롯데렌탈은 미국 사모펀드(PEF) 텍사스퍼시픽그룹(TPG)에 팔렸다",
+      "_articles": [
+        {
+          "url": "https://www.hankyung.com/article/2026110336621",
+          "source": "한국경제",
+          "title": "[데스크 칼럼] 해외에 팔리는 韓 기업들"
+        }
+      ]
+    },
+    {
       "target": "루멘텀",
       "counterparties": "마벨",
       "pe_firms": [],
-      "industry": "AI 반도체/광통신",
+      "industry": "광통신",
       "stage": "거론",
-      "amount": "1150억달러(154조원)",
-      "one_liner": "마벨, 루멘텀 인수 (154조원 규모)",
+      "amount": "154조원",
+      "one_liner": "마벨, 광학 업체 루멘텀 인수 계약",
       "article_ids": [
-        "a7",
-        "a8",
-        "a25",
-        "a27"
+        "a15"
       ],
-      "evidence": "루멘텀 1150억달러에 인수",
+      "evidence": "광학 업체 루멘텀 154조원에 인수",
       "_articles": [
         {
-          "url": "https://www.fnnews.com/news/202611022301230272",
-          "source": "파이낸셜뉴스",
-          "title": "마벨, 154조원 통큰 베팅…AI 반도체 판 흔든다"
-        },
+          "url": "https://www.chosun.com/economy/tech_it/2026/11/04/JGQBGTGZRNHZLAH7JFCCBSFCCU/",
+          "source": "조선일보",
+          "title": "美 반도체 기업 마벨, 광통신 베팅 “광학 업체 루멘텀 154조원에 인수”"
+        }
+      ]
+    },
+    {
+      "target": "이자브렌(중국 신약)",
+      "counterparties": "중국 제약사 및 해외 파트너",
+      "pe_firms": [],
+      "industry": "제약",
+      "stage": "완료",
+      "amount": "최대 84억달러",
+      "one_liner": "중국 신약 이자브렌 독점 라이선스 계약",
+      "article_ids": [
+        "a4"
+      ],
+      "evidence": "독점 라이선스 계약을 체결했다",
+      "_articles": [
         {
-          "url": "https://www.sedaily.com/article/20109369",
-          "source": "서울경제",
-          "title": "마벨, 154조에 루멘텀 인수…“역대 두 번째 테크 M&A”"
-        },
-        {
-          "url": "https://www.hankyung.com/article/202611021336i",
-          "source": "한국경제",
-          "title": "엔비디아가 찜한 마벨, 루멘텀 합병…154조원 AI반도체 빅딜"
-        },
-        {
-          "url": "https://www.newspim.com/news/view/20261102001632",
+          "url": "https://www.newspim.com/news/view/20261103001424",
           "source": "뉴스핌",
-          "title": "[미국 특징주] 마벨, 루멘텀 1150억달러에 인수…AI 반도체 시장서 브로..."
+          "title": "항암 새로운 전기, 中 신약 '이자브렌', 폐암환자 생존 2배 연장"
         }
       ]
     },
     {
-      "target": "한진칼 지분",
-      "counterparties": "조원태 회장",
-      "pe_firms": [],
-      "industry": "지주사/항공",
-      "stage": "거론",
-      "amount": "370억원",
-      "one_liner": "조원태, 한진칼 지분 370억원 추가 매입",
-      "article_ids": [
-        "a10",
-        "a24",
-        "a29",
-        "a30"
-      ],
-      "evidence": "한진칼 지분 370억원어치 추가 매입",
-      "_articles": [
-        {
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442595",
-          "source": "연합인포맥스",
-          "title": "09.호반에 반격 나선 조원태, 한진칼 지분 371억 사들인다"
-        },
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611021851131440101784",
-          "source": "더벨",
-          "title": "조원태의 맞대응, 지분 0.5% 더 늘린다"
-        },
-        {
-          "url": "https://www.etoday.co.kr/news/view/2643216",
-          "source": "이투데이",
-          "title": "조원태, 한진칼 지분 370억원어치 추가 매입⋯호반도 지분 확대"
-        },
-        {
-          "url": "https://www.news1.kr/industry/general-industry/6340484",
-          "source": "뉴스1",
-          "title": "'반격' 조원태 회장, 한진칼 지분 370억 매입…경영권 분쟁 차단(종합)"
-        }
-      ]
-    },
-    {
-      "target": "올블룸",
-      "counterparties": "지놈앤컴퍼니",
-      "pe_firms": [],
-      "industry": "화장품/유통",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "지놈앤컴퍼니, 올블룸 지분 64.46% 인수",
-      "article_ids": [
-        "a34"
-      ],
-      "evidence": "지분 64.46%를 인수해 경영권을 확보",
-      "_articles": [
-        {
-          "url": "https://www.fnnews.com/news/202611021816350375",
-          "source": "파이낸셜뉴스",
-          "title": "신약 넘어 새 성장동력 찾는 제약사들… 'K뷰티' 영토 공략"
-        }
-      ]
-    },
-    {
-      "target": "퍼스널리스",
-      "counterparties": "템퍼스AI",
-      "pe_firms": [],
-      "industry": "헬스케어/진단",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "템퍼스AI, 퍼스널리스 인수",
-      "article_ids": [
-        "a6"
-      ],
-      "evidence": "퍼스널리스 인수",
-      "_articles": [
-        {
-          "url": "https://www.newspim.com/news/view/20261103000011",
-          "source": "뉴스핌",
-          "title": "[미국 특징주] 템퍼스AI 11% 급등...암 검사·데이터 동반 성장에 연간 ..."
-        }
-      ]
-    },
-    {
-      "target": "야놀자 인수 기업들",
-      "counterparties": "야놀자",
-      "pe_firms": [],
-      "industry": "여행/B2B SW",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "야놀자, 해외 B2B 기업 잇달아 인수",
-      "article_ids": [
-        "a0"
-      ],
-      "evidence": "잇달아 인수하며 사업 영역을 넓혀왔다",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611021527181320103091",
-          "source": "더벨",
-          "title": "[더벨]야놀자, 글로벌 M&A로 넓힌 B2B…AI 플랫폼 확장"
-        }
-      ]
-    },
-    {
-      "target": "현대힘스 지분 75%",
-      "counterparties": "제이앤PE",
-      "pe_firms": [
-        "제이앤PE"
-      ],
-      "industry": "기계/조선부품",
-      "stage": "완료",
-      "amount": "975억원",
-      "one_liner": "제이앤PE, 현대힘스 지분 75% 인수",
-      "article_ids": [
-        "a5"
-      ],
-      "evidence": "지분 75%를 약 975억원에 인수했다",
-      "_articles": [
-        {
-          "url": "https://www.etoday.co.kr/news/view/2642784",
-          "source": "이투데이",
-          "title": "제이앤PE, 현대힘스 주식담보대출 만기 연장…600억으로 증액"
-        }
-      ]
-    },
-    {
-      "target": "샘표",
-      "counterparties": "샘표식품",
-      "pe_firms": [],
-      "industry": "식품",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "샘표식품, 샘표 흡수합병 소식",
-      "article_ids": [
-        "a14"
-      ],
-      "evidence": "샘표 흡수합병 소식에 상한가",
-      "_articles": [
-        {
-          "url": "https://www.hankyung.com/article/2026110209891",
-          "source": "마켓인사이트",
-          "title": "샘표식품, 샘표 흡수합병 소식에 상한가"
-        }
-      ]
-    },
-    {
-      "target": "굿리치",
+      "target": "넘즈AI",
       "counterparties": null,
+      "pe_firms": [],
+      "industry": "AI",
+      "stage": "완료",
+      "amount": "20억원",
+      "one_liner": "넘즈AI 20억 추가 투자유치",
+      "article_ids": [
+        "a3"
+      ],
+      "evidence": "20억 추가 투자유치",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610281504302480103475",
+          "source": "더벨",
+          "title": "[더벨]넘즈AI, 20억 추가 투자유치…누적 60억 확보"
+        }
+      ]
+    },
+    {
+      "target": "KDB생명",
+      "counterparties": "김남구 측(한국투자증권 계열)",
       "pe_firms": [],
       "industry": "보험",
       "stage": "거론",
       "amount": null,
-      "one_liner": "굿리치 재인수, 보험사 7곳 참여",
+      "one_liner": "KDB생명 인수 추진 관련 셈법",
       "article_ids": [
-        "a22"
+        "a12"
       ],
-      "evidence": "굿리치 재인수에 보험사 7곳 참여",
+      "evidence": "KDB생명 인수 앞에 꼬인",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610290943382880106521",
-          "source": "더벨",
-          "title": "굿리치 재인수에 보험사 7곳 참여, LP 명단 윤곽"
+          "url": "https://www.fntimes.com/html/view.php?ud=202611031634124048fa40c35055_18",
+          "source": "한국금융신문",
+          "title": "KDB생명 인수 앞에 꼬인 김남구의 셈법"
         }
       ]
     },
     {
-      "target": "가비아",
-      "counterparties": null,
+      "target": "한진칼",
+      "counterparties": "호반그룹",
       "pe_firms": [],
-      "industry": "IT",
+      "industry": "지주사",
       "stage": "거론",
       "amount": null,
-      "one_liner": "가비아 행동주의 펀드 공동전선",
+      "one_liner": "호반그룹·조원태 회장 한진칼 지분 확보 경쟁",
       "article_ids": [
-        "a26"
+        "a10",
+        "a20"
       ],
-      "evidence": "가비아서 판 뒤집은 행동주의",
+      "evidence": "지분 확보 경쟁이 본격화하면서",
       "_articles": [
         {
-          "url": "https://www.edaily.co.kr/News/Read?newsId=05303766645641784&mediaCodeNo=257",
-          "source": "이데일리",
-          "title": "가비아서 판 뒤집은 행동주의…'공동전선' 넓어진다[마켓인]"
+          "url": "https://www.etoday.co.kr/news/view/2643646",
+          "source": "이투데이",
+          "title": "‘인수전 단골 손님’ 호반그룹의 M&A 잔혹사⋯한진칼은 다를까[한진칼..."
+        },
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611031350527200102877",
+          "source": "더벨",
+          "title": "호반그룹, 한진칼 지분 확대 '다음 수는'…추가 매집 주목"
+        }
+      ]
+    },
+    {
+      "target": "에너지머티리얼즈",
+      "counterparties": "GS건설",
+      "pe_firms": [],
+      "industry": "소재",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "에너지머티리얼즈 매각 추진, GS건설 수혈 중단",
+      "article_ids": [
+        "a24"
+      ],
+      "evidence": "매각 '안개속'",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611031014214680102632",
+          "source": "더벨",
+          "title": "에너지머티리얼즈, GS건설 수혈 중단에 매각 '안개속'"
+        }
+      ]
+    },
+    {
+      "target": "삼성물산·삼성전자 출자",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "출자",
+      "stage": "완료",
+      "amount": "1.6조원",
+      "one_liner": "삼성물산·전자 1.6조 출자 확정",
+      "article_ids": [
+        "a21"
+      ],
+      "evidence": "1.6조 출자 확정",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611020336530660105617",
+          "source": "더벨",
+          "title": "삼성물산·전자, 1.6조 출자 확정…유증 신주 59.5% 담당"
+        }
+      ]
+    },
+    {
+      "target": "에이투지",
+      "counterparties": "한국증권·우리증권",
+      "pe_firms": [],
+      "industry": "증권",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "에이투지 대표 주관사 선정",
+      "article_ids": [
+        "a22"
+      ],
+      "evidence": "대표 주관사로 선정",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611031630543440101820",
+          "source": "더벨",
+          "title": "에이투지, 한국·우리증권 대표 주관사로 선정"
+        }
+      ]
+    },
+    {
+      "target": "스톤브릿지 출신 고재경 관련 PI 투자 및 M&A",
+      "counterparties": "케이오인베스트먼트",
+      "pe_firms": [
+        "케이오인베스트먼트"
+      ],
+      "industry": "VC/PE",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "케이오인베스트먼트 CIO로 PI 투자·M&A 수행",
+      "article_ids": [
+        "a2"
+      ],
+      "evidence": "인수합병(M&A) 전략 수립 업무를 1년간 수행했다",
+      "_articles": [
+        {
+          "url": "https://dealsite.co.kr/articles/171525",
+          "source": "딜인사이트",
+          "title": "[In&Out] 와이아웃 창업한 스톤브릿지 출신 고재경…VC 복귀"
+        }
+      ]
+    },
+    {
+      "target": "스페이스X·xAI",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "테크",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "스페이스X·xAI 합병 언급",
+      "article_ids": [
+        "a15"
+      ],
+      "evidence": "스페이스X·xAI 합병에 이은",
+      "_articles": [
+        {
+          "url": "https://www.chosun.com/economy/tech_it/2026/11/04/JGQBGTGZRNHZLAH7JFCCBSFCCU/",
+          "source": "조선일보",
+          "title": "美 반도체 기업 마벨, 광통신 베팅 “광학 업체 루멘텀 154조원에 인수”"
         }
       ]
     }
   ],
   "pe_moves": [
     {
-      "pe": "제이앤PE",
-      "action": "현대힘스 주식담보대출 만기 연장·600억 증액",
-      "target": "현대힘스",
+      "pe": "텍사스퍼시픽그룹(TPG)",
+      "action": "롯데렌탈 인수",
+      "target": "롯데렌탈",
       "article_ids": [
-        "a5"
+        "a13"
       ],
-      "evidence": "현대힘스 주식담보대출 만기 연장…600억으로 증액",
+      "evidence": "롯데렌탈은 미국 사모펀드(PEF) 텍사스퍼시픽그룹(TPG)에 팔렸다",
       "_articles": [
         {
-          "url": "https://www.etoday.co.kr/news/view/2642784",
-          "source": "이투데이",
-          "title": "제이앤PE, 현대힘스 주식담보대출 만기 연장…600억으로 증액"
+          "url": "https://www.hankyung.com/article/2026110336621",
+          "source": "한국경제",
+          "title": "[데스크 칼럼] 해외에 팔리는 韓 기업들"
         }
       ]
     },
     {
-      "pe": "한앤코",
-      "action": "PEF 협의회 탈퇴",
+      "pe": "케이오인베스트먼트",
+      "action": "CIO 영입 후 PI 투자·M&A 수행",
       "target": null,
       "article_ids": [
-        "a19"
+        "a2"
       ],
-      "evidence": "'PEF 협의회 탈퇴' 한앤코",
+      "evidence": "케이오인베스트먼트에 최고투자책임자(CIO)로 참여해",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202604260221470940103894",
-          "source": "더벨",
-          "title": "'PEF 협의회 탈퇴' 한앤코,자산운용 확장·협회 회의론 맞물렸나"
-        }
-      ]
-    },
-    {
-      "pe": "제네시스·어펄마",
-      "action": "과기공 출자사업 선정",
-      "target": "과기공 출자사업",
-      "article_ids": [
-        "a15"
-      ],
-      "evidence": "제네시스·어펄마 웃었다",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611021003025840107392",
-          "source": "더벨",
-          "title": "'막판 역전' 과기공 출자사업, 제네시스·어펄마 웃었다"
+          "url": "https://dealsite.co.kr/articles/171525",
+          "source": "딜인사이트",
+          "title": "[In&Out] 와이아웃 창업한 스톤브릿지 출신 고재경…VC 복귀"
         }
       ]
     }
   ],
-  "for_sale": [],
-  "market_signals": [
+  "for_sale": [
     {
-      "type": "REGULATORY",
-      "summary": "PEF 협의회 상설 협회 전환 검토",
+      "asset": "롯데렌탈",
+      "seller": "롯데그룹",
+      "process_stage": "완료",
       "article_ids": [
-        "a18"
+        "a13"
       ],
-      "evidence": "PEF 협의회, 상설 '협회'로 전환 검토",
+      "evidence": "롯데렌탈은 미국 사모펀드(PEF) 텍사스퍼시픽그룹(TPG)에 팔렸다",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202510211059299400106843",
-          "source": "더벨",
-          "title": "PEF 협의회, 상설 '협회'로 전환 검토 나선다"
+          "url": "https://www.hankyung.com/article/2026110336621",
+          "source": "한국경제",
+          "title": "[데스크 칼럼] 해외에 팔리는 韓 기업들"
         }
       ]
     },
     {
-      "type": "ACQ_FINANCING",
-      "summary": "오라클 증자·회사채로 200억달러 조달 추진",
+      "asset": "에너지머티리얼즈",
+      "seller": null,
+      "process_stage": "거론",
+      "article_ids": [
+        "a24"
+      ],
+      "evidence": "매각 '안개속'",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611031014214680102632",
+          "source": "더벨",
+          "title": "에너지머티리얼즈, GS건설 수혈 중단에 매각 '안개속'"
+        }
+      ]
+    },
+    {
+      "asset": "JTBC",
+      "seller": null,
+      "process_stage": "매각 공고 예정",
+      "article_ids": [
+        "a29"
+      ],
+      "evidence": "JTBC, 9일 매각 공고",
+      "_articles": [
+        {
+          "url": "https://biz.chosun.com/topics/topics_social/2026/11/03/UVOYKFTNOJCMRES54GOR6NPYHU/",
+          "source": "조선일보",
+          "title": "JTBC, 9일 매각 공고…본격 절차 돌입"
+        }
+      ]
+    },
+    {
+      "asset": "KDB생명",
+      "seller": null,
+      "process_stage": "거론",
       "article_ids": [
         "a12"
       ],
-      "evidence": "200억달러 조달 추진",
+      "evidence": "KDB생명 인수 앞에 꼬인",
       "_articles": [
         {
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442609",
-          "source": "연합인포맥스",
-          "title": "오라클, 증자·회사채로 200억달러 조달 추진…AI 인프라 투자 박차"
+          "url": "https://www.fntimes.com/html/view.php?ud=202611031634124048fa40c35055_18",
+          "source": "한국금융신문",
+          "title": "KDB생명 인수 앞에 꼬인 김남구의 셈법"
+        }
+      ]
+    }
+  ],
+  "market_signals": [
+    {
+      "type": "SECTOR_CONCENTRATION",
+      "summary": "국내 M&A 시장에서 외국 자본 참여 글로벌 딜 증가",
+      "article_ids": [
+        "a13"
+      ],
+      "evidence": "외국 자본이 참여하는 글로벌 딜이다",
+      "_articles": [
+        {
+          "url": "https://www.hankyung.com/article/2026110336621",
+          "source": "한국경제",
+          "title": "[데스크 칼럼] 해외에 팔리는 韓 기업들"
+        }
+      ]
+    },
+    {
+      "type": "REGULATORY",
+      "summary": "중소기업 승계형 M&A 제도 개선 논의",
+      "article_ids": [
+        "a7"
+      ],
+      "evidence": "승계형 인수합병(M&A)의 현장 걸림돌",
+      "_articles": [
+        {
+          "url": "https://www.news1.kr/industry/sb-founded/6341096",
+          "source": "뉴스1",
+          "title": "사장 은퇴하면 폐업?…\"가족 아닌 '제3자 승계' 지역 일자리 해법\""
         }
       ]
     }
   ],
   "diag": {
     "llm_raw": {
-      "deals": 11,
-      "pe_moves": 3,
-      "for_sale": 0,
+      "deals": 12,
+      "pe_moves": 2,
+      "for_sale": 4,
       "market_signals": 2
     },
     "drops": [
       {
         "reason": "evidence_not_in_source",
-        "label": "한진칼 지분",
-        "evidence": "호반도 지분 확대",
+        "label": "JTBC",
+        "evidence": "인가 전 인수합병(M&A)을 추진 중이다",
         "ids": [
-          "a28",
-          "a31"
-        ]
-      },
-      {
-        "reason": "evidence_not_in_source",
-        "label": "오케스트라 바이오",
-        "evidence": "오케스트라 바이오를 인수",
-        "ids": [
-          "a32"
+          "a29"
         ]
       }
     ],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 6920,
+        "input_tokens": 7501,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 1960,
+        "output_tokens": 2424,
         "output_tokens_details": {
           "thinking_tokens": 0
         },

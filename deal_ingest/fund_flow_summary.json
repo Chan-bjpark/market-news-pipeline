@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02T22:11:30.841551+00:00",
+  "generated_at": "2026-11-03T22:11:12.969993+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 660,
+  "total_policy_articles": 666,
   "matched_funds_count": 3,
   "unmatched_count": 241,
   "funds": [
@@ -10,32 +10,10 @@
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-05",
-      "last_updated": "2026-11-02",
-      "event_count": 416,
+      "first_seen": "2026-08-06",
+      "last_updated": "2026-11-03",
+      "event_count": 422,
       "timeline": [
-        {
-          "date": "2026-08-05",
-          "published_at": "2026-08-05T06:00:00+09:00",
-          "stage_code": "planning",
-          "stage_label": "조성 계획",
-          "amount": null,
-          "title": "\"3거래일 만에 21%↑\"…코스닥의 시간 오나",
-          "summary": "성장주 투자의 상대적 기회비용도 하락한다\"며 \"여기에 연기금 벤치마크의 코스닥 반영, 국민성장펀드 내... 코스닥 펀드 신설, BDC 시행과 특히 다음 달 출시될 코스닥 프리미엄 지수 등 정책도 실제 집행 단계로...",
-          "url": "https://www.newsis.com/view/NISX20260804_0003736352",
-          "source_label": "뉴시스"
-        },
-        {
-          "date": "2026-08-05",
-          "published_at": "2026-08-05T08:46:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "4조",
-          "title": "6.4조 경제효과 ‘AI 컴퓨팅센터’ 품은 해남…명현관 군수가 소회한 비...",
-          "summary": "삼성SDS 컨소시엄이 구축을 맡았으며 정부와 국민성장펀드, 민간이 공동 출자해 설립한 특수목적법인(SPC) ‘한국AI컴퓨팅센터(KOACC·코아크)’가 건설과 운영을 담당한다. 민관 합작 컨소시엄으로 오는 2030년까지 2조...",
-          "url": "https://www.sedaily.com/article/20075831",
-          "source_label": "서울경제"
-        },
         {
           "date": "2026-08-06",
           "published_at": "2026-08-06T07:02:00+09:00",
@@ -4589,6 +4567,94 @@
           "summary": "7월 국민성장펀드의 5년간 투자 규모를 150조원에서 200조원으로 확대하고 연간 투자액도 30조원에서 40조원... 모두 ‘투자 승인액’만으로 평가하고 있다. 예산정책처는 실제 자금 집행이나 첨단산업 육성 효과가...",
           "url": "https://www.hankyung.com/article/2026110210651",
           "source_label": "한국경제"
+        },
+        {
+          "date": "2026-11-03",
+          "published_at": "2026-11-03T08:55:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "1조750억",
+          "title": "GC녹십자, 국민성장펀드 지원기업 낙점…차세대 면역글로불린 개발 속도",
+          "summary": "원의 저리대출을 승인받았다. GC녹십자까지 포함하면 공개된 바이오 분야 5개 기업의 지원·투자 규모는 민간 공동투자분을 포함해 총 1조750억 원에 이른다. 민간투자분을 제외한 국민성장펀드 지원 규모는 8250억...",
+          "url": "https://www.sedaily.com/article/20109412",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-11-03",
+          "published_at": "2026-11-03T09:14:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1700억",
+          "title": "GC녹십자, 국민성장펀드 1700억 지원…피하주사 혈장제제 속도",
+          "summary": "GC녹십자가 국민성장펀드의 초저리대출로 1700억원을 지원받아 피하주사형 혈장제제 개발에 속도를 낸다. GC녹십자는 지난달 29일 국민성장펀드 지원 대상 기업으로 선정돼 1700억원을 조달하게 됐다고 3일 밝혔다. 이...",
+          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/11/03/0002",
+          "source_label": "비즈워치"
+        },
+        {
+          "date": "2026-11-03",
+          "published_at": "2026-11-03T09:33:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1700억",
+          "title": "GC녹십자, 국민성장펀드 1700억 지원…피하주사 혈장제제 속도",
+          "summary": "GC녹십자가 국민성장펀드를 통해 1700억원의 개발 자금을 조달한다. 미국 시장을 겨냥한 고농도... 앞서 위탁개발생산(CDMO) 분야에서는 비티젠·SK바이오사이언스·경보제약이 저리대출을 받았다. 바이오 분야에서는...",
+          "url": "https://www.mk.co.kr/article/12194390",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-11-03",
+          "published_at": "2026-11-03T11:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1700억",
+          "title": "국민성장펀드 1700억 지원 받는 GC녹십자",
+          "summary": "이번 지원은 국민성장펀드의 바이오 분야 저리대출 사업으로, 앞서 비티젠과 SK바이오사이언스, 경보제약 등이 지원 대상으로 선정됐다. 허은철 GC녹십자 대표는 \"알리글로에 이어 20% SCIG까지 확보해 정맥주사와...",
+          "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=365600",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-11-03",
+          "published_at": "2026-11-03T11:42:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1700억",
+          "title": "[제약+] GC녹십자, 국민성장펀드 통해 1700억 조달 外",
+          "summary": "국민성장펀드는 바이오·인공지능(AI)·반도체·이차전지 등 국가 첨단전략산업 육성을 위해 조성된 민관... ◆갤럭스, 신용보증기금 ‘Pre-ICON’ 선정 갤럭스가 신용보증기금의 유망 혁신기업 스케일업 프로그램인...",
+          "url": "https://dealsite.co.kr/articles/171950",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-11-03",
+          "published_at": "2026-11-03T16:55:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "남부발전, 영광 야월해상풍력 발전사업 금융약정 체결",
+          "summary": "사업은 재생에너지 금융지원사업과 국민성장펀드 첨단전략산업기금 투자사업에도 선정됐다. 야월해상풍력은 2022년 풍력 고정가격계약 경쟁입찰 제도 시행 이후 국산 터빈을 적용해 낙찰된 첫 해상풍력 사업이다....",
+          "url": "https://www.newsis.com/view/NISX20261103_0003853275",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-11-03",
+          "published_at": "2026-11-03T17:03:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "남부발전, 영광 야월해상풍력 PF 약정…두산 8㎿ 풍력터빈 첫 적용",
+          "summary": "이 사업은 국민성장펀드 첨단전략산업기금 투자 사업에도 선정됐다. 야월해상풍력은 2022년 정부의 풍력 고정가격계약 경쟁입찰 제도 시행 이후 국산 터빈을 적용해 낙찰된 최초의 해상풍력 사업으로 국산 터빈 상용화를...",
+          "url": "https://view.asiae.co.kr/article/2026110317033860235",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-11-03",
+          "published_at": "2026-11-03T17:45:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "남부발전, 영광에 104MW급 해상풍력단지 조성…국산 터빈 13기 도입",
+          "summary": "해당 사업은 국민성장펀드 첨단전략산업기금 투자사업에도 선정됐다. 야월해상풍력은 지난 2022년 정부가 풍력 고정가격계약 경쟁입찰 제도를 도입한 이후 국산 터빈을 적용해 처음 낙찰된 해상풍력 사업이다....",
+          "url": "https://www.newspim.com/news/view/20261103001303",
+          "source_label": "뉴스핌"
         }
       ]
     },
@@ -4649,12 +4715,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-05",
-      "title": "[Invest]금융지주 벤처모펀드 본격화…\"VC 숨통 트여 vs \"특정 GP 쏠림\"",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/04/2026080480177.html",
-      "source_label": "인베스트조선"
-    },
     {
       "date": "2026-08-06",
       "title": "[더벨]케이엘앤, '굿리치 콜옵션 딜' 합류…베이사이드PE와 공동운용 추...",
@@ -4948,6 +5008,12 @@
       "title": "[마켓인]TS인베, 18호 M&A펀드 순항…1500억 이상 결성 가시권",
       "url": "https://www.edaily.co.kr/News/Read?newsId=05166006645551256&mediaCodeNo=257",
       "source_label": "이데일리"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "산업은행, 대출 거래처 수사 관련 금융사고 공시",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608101630571000109488",
+      "source_label": "더벨"
     }
   ]
 }
