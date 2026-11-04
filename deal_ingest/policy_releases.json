@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:11:26.319655+00:00",
+  "generated_at": "2026-11-04T22:11:43.341026+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,36 @@
     }
   },
   "releases": [
+    {
+      "title": "한국, 아시아지배구조협회(ACGA) 기업지배구조 순위 역대급 ‘5위’ 달성",
+      "date": "2026-11-04",
+      "url": "https://www.fsc.go.kr/no010101/88084",
+      "agency": "금융위"
+    },
+    {
+      "title": "홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치 - 제19차 금융위원회(11.4.) 의결",
+      "date": "2026-11-04",
+      "url": "https://www.fsc.go.kr/no010101/88082",
+      "agency": "금융위"
+    },
+    {
+      "title": "계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결",
+      "date": "2026-11-04",
+      "url": "https://www.fsc.go.kr/no010101/88081",
+      "agency": "금융위"
+    },
+    {
+      "title": "허장 차관, 방글라데시 차우두리 재무장관 면담",
+      "date": "2026-11-04",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079853&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "중국 산동행정 연수단, 조정원 방문…선진 분쟁조정 노하우 배운다",
+      "date": "2026-11-04",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48185",
+      "agency": "공정위"
+    },
     {
       "title": "2027년 금융위원회 예산안에 대해 자세히 설명드립니다.",
       "date": "2026-11-03",
@@ -134,33 +164,9 @@
       "agency": "금융위"
     },
     {
-      "title": "한국의 풀뿌리 금융, 미소금융이 다시 한번 도약합니다. - 미소금융 재원 기부 협약식 개최",
-      "date": "2026-10-30",
-      "url": "https://www.fsc.go.kr/no010101/88029",
-      "agency": "금융위"
-    },
-    {
-      "title": "국민성장펀드가 국내 최대 태양광 발전소 건설과 반도체 밸류체인 경쟁력 강화를 지원합니다.",
-      "date": "2026-10-30",
-      "url": "https://www.fsc.go.kr/no010101/88028",
-      "agency": "금융위"
-    },
-    {
-      "title": "퇴직연금 기능강화를 위한 노사정 합의로 노동자의 든든한 노후소득 보장체계 구축",
-      "date": "2026-10-30",
-      "url": "https://www.fsc.go.kr/no010101/88027",
-      "agency": "금융위"
-    },
-    {
       "title": "권대영 1차관, 「주요 국책과제 이행점검」 TF 개최",
       "date": "2026-10-30",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079811&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "한-독일 이중과세방지협정 개정의정서 서명",
-      "date": "2026-10-30",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079805&menuNo=4010100",
       "agency": "기재부"
     },
     {
@@ -197,12 +203,6 @@
       "title": "삼성전자(주)의 부당한 광고행위 제재",
       "date": "2026-10-27",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48155",
-      "agency": "공정위"
-    },
-    {
-      "title": "4개 민간임대아파트 건설 사업 시행사의 부당광고 제재",
-      "date": "2026-10-26",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48151",
       "agency": "공정위"
     }
   ]

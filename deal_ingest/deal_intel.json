@@ -1,369 +1,535 @@
 {
-  "generated_at": "2026-11-03T22:11:26.541905+00:00",
+  "generated_at": "2026-11-04T22:11:43.632703+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
   "fallback": false,
   "deals": [
     {
-      "target": "롯데렌탈",
-      "counterparties": "텍사스퍼시픽그룹(TPG)",
-      "pe_firms": [
-        "텍사스퍼시픽그룹(TPG)"
-      ],
-      "industry": "렌터카",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "롯데렌탈, 미국 PEF TPG에 매각",
+      "target": "중앙일보",
+      "counterparties": "다우·CJ컨소시엄",
+      "pe_firms": [],
+      "industry": "미디어",
+      "stage": "계약체결 예정",
+      "amount": "5200억원",
+      "one_liner": "다우·CJ컨소시엄, 중앙일보 5200억 인수",
       "article_ids": [
-        "a13"
+        "a13",
+        "a34"
       ],
-      "evidence": "롯데렌탈은 미국 사모펀드(PEF) 텍사스퍼시픽그룹(TPG)에 팔렸다",
+      "evidence": "5200억 원 규모의 신주인수 계약",
       "_articles": [
         {
-          "url": "https://www.hankyung.com/article/2026110336621",
-          "source": "한국경제",
-          "title": "[데스크 칼럼] 해외에 팔리는 韓 기업들"
+          "url": "https://www.donga.com/news/Economy/article/all/20261105/134968272/2",
+          "source": "동아일보",
+          "title": "다우-CJ 컨소시엄, 중앙일보 5200억에 인수"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/202611042055025",
+          "source": "경향신문",
+          "title": "중앙일보 주인 바뀐다…다우·CJ컨소시엄, 5200억에 인수"
         }
       ]
     },
     {
-      "target": "루멘텀",
-      "counterparties": "마벨",
+      "target": "폴리펩타이드",
+      "counterparties": "머크 관련 CDMO 기업(론자 추정 아님, 기사 명시 주체 확인 필요)",
       "pe_firms": [],
-      "industry": "광통신",
+      "industry": "CDMO",
       "stage": "거론",
-      "amount": "154조원",
-      "one_liner": "마벨, 광학 업체 루멘텀 인수 계약",
+      "amount": "14억6000만 스위스프랑",
+      "one_liner": "CDMO 기업, 폴리펩타이드 14.6억 스위스프랑 공개매수",
       "article_ids": [
         "a15"
       ],
-      "evidence": "광학 업체 루멘텀 154조원에 인수",
+      "evidence": "폴리펩타이드를 14억6000만 스위스프랑에 인수하기 위한 공개매수",
       "_articles": [
         {
-          "url": "https://www.chosun.com/economy/tech_it/2026/11/04/JGQBGTGZRNHZLAH7JFCCBSFCCU/",
-          "source": "조선일보",
-          "title": "美 반도체 기업 마벨, 광통신 베팅 “광학 업체 루멘텀 154조원에 인수”"
+          "url": "https://www.joongang.co.kr/article/25475858",
+          "source": "중앙일보",
+          "title": "머크 생산시설 품는 론자…CDMO 기업들 영토확장"
         }
       ]
     },
     {
-      "target": "이자브렌(중국 신약)",
-      "counterparties": "중국 제약사 및 해외 파트너",
+      "target": "머크 미국 CDMO 사업장 5곳",
+      "counterparties": "론자",
       "pe_firms": [],
-      "industry": "제약",
+      "industry": "CDMO",
       "stage": "완료",
-      "amount": "최대 84억달러",
-      "one_liner": "중국 신약 이자브렌 독점 라이선스 계약",
-      "article_ids": [
-        "a4"
-      ],
-      "evidence": "독점 라이선스 계약을 체결했다",
-      "_articles": [
-        {
-          "url": "https://www.newspim.com/news/view/20261103001424",
-          "source": "뉴스핌",
-          "title": "항암 새로운 전기, 中 신약 '이자브렌', 폐암환자 생존 2배 연장"
-        }
-      ]
-    },
-    {
-      "target": "넘즈AI",
-      "counterparties": null,
-      "pe_firms": [],
-      "industry": "AI",
-      "stage": "완료",
-      "amount": "20억원",
-      "one_liner": "넘즈AI 20억 추가 투자유치",
-      "article_ids": [
-        "a3"
-      ],
-      "evidence": "20억 추가 투자유치",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610281504302480103475",
-          "source": "더벨",
-          "title": "[더벨]넘즈AI, 20억 추가 투자유치…누적 60억 확보"
-        }
-      ]
-    },
-    {
-      "target": "KDB생명",
-      "counterparties": "김남구 측(한국투자증권 계열)",
-      "pe_firms": [],
-      "industry": "보험",
-      "stage": "거론",
       "amount": null,
-      "one_liner": "KDB생명 인수 추진 관련 셈법",
+      "one_liner": "론자, 머크 미국 CDMO 사업장 5곳 인수",
       "article_ids": [
-        "a12"
+        "a5",
+        "a15"
       ],
-      "evidence": "KDB생명 인수 앞에 꼬인",
+      "evidence": "머크의 미국 CDMO 사업장 5곳과 관련 사업을 인수하는 확정 계약",
       "_articles": [
         {
-          "url": "https://www.fntimes.com/html/view.php?ud=202611031634124048fa40c35055_18",
-          "source": "한국금융신문",
-          "title": "KDB생명 인수 앞에 꼬인 김남구의 셈법"
-        }
-      ]
-    },
-    {
-      "target": "한진칼",
-      "counterparties": "호반그룹",
-      "pe_firms": [],
-      "industry": "지주사",
-      "stage": "거론",
-      "amount": null,
-      "one_liner": "호반그룹·조원태 회장 한진칼 지분 확보 경쟁",
-      "article_ids": [
-        "a10",
-        "a20"
-      ],
-      "evidence": "지분 확보 경쟁이 본격화하면서",
-      "_articles": [
-        {
-          "url": "https://www.etoday.co.kr/news/view/2643646",
-          "source": "이투데이",
-          "title": "‘인수전 단골 손님’ 호반그룹의 M&A 잔혹사⋯한진칼은 다를까[한진칼..."
+          "url": "https://www.newsis.com/view/NISX20261104_0003855075",
+          "source": "뉴시스",
+          "title": "美사업장 늘리는 스위스 론자…CDMO 5곳 인수"
         },
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611031350527200102877",
-          "source": "더벨",
-          "title": "호반그룹, 한진칼 지분 확대 '다음 수는'…추가 매집 주목"
+          "url": "https://www.joongang.co.kr/article/25475858",
+          "source": "중앙일보",
+          "title": "머크 생산시설 품는 론자…CDMO 기업들 영토확장"
         }
       ]
     },
     {
-      "target": "에너지머티리얼즈",
-      "counterparties": "GS건설",
-      "pe_firms": [],
-      "industry": "소재",
+      "target": "DL그룹 합성고무 사업",
+      "counterparties": "글랜우드PE",
+      "pe_firms": [
+        "글랜우드PE"
+      ],
+      "industry": "화학",
       "stage": "거론",
       "amount": null,
-      "one_liner": "에너지머티리얼즈 매각 추진, GS건설 수혈 중단",
+      "one_liner": "DL그룹, 의료용 합성고무 기업 글랜우드PE에 매각",
       "article_ids": [
-        "a24"
+        "a17"
       ],
-      "evidence": "매각 '안개속'",
+      "evidence": "글랜우드PE에 매각",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611031014214680102632",
-          "source": "더벨",
-          "title": "에너지머티리얼즈, GS건설 수혈 중단에 매각 '안개속'"
+          "url": "https://www.hankyung.com/article/202611044852i",
+          "source": "마켓인사이트",
+          "title": "[단독] DL그룹, 세계 1위 의료용 합성고무기업 글랜우드PE에 매각"
         }
       ]
     },
     {
-      "target": "삼성물산·삼성전자 출자",
+      "target": "티맵모빌리티",
+      "counterparties": "골드만삭스",
+      "pe_firms": [],
+      "industry": "모빌리티",
+      "stage": "거론",
+      "amount": "7000억~8000억원",
+      "one_liner": "골드만삭스, 티맵모빌리티 지분 60~70% 인수 추진",
+      "article_ids": [
+        "a33"
+      ],
+      "evidence": "티맵모빌리티 지분 60~70%를 약 7000억~8000억원에 인수하는 방안",
+      "_articles": [
+        {
+          "url": "https://www.mk.co.kr/article/12191353",
+          "source": "매일경제",
+          "title": "돈 되는 플랫폼…빅테크 ‘지도 전쟁’"
+        }
+      ]
+    },
+    {
+      "target": "쏘카 말레이 관련 프로젝트펀드",
       "counterparties": null,
-      "pe_firms": [],
-      "industry": "출자",
-      "stage": "완료",
-      "amount": "1.6조원",
-      "one_liner": "삼성물산·전자 1.6조 출자 확정",
-      "article_ids": [
-        "a21"
+      "pe_firms": [
+        "유진PE"
       ],
-      "evidence": "1.6조 출자 확정",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611020336530660105617",
-          "source": "더벨",
-          "title": "삼성물산·전자, 1.6조 출자 확정…유증 신주 59.5% 담당"
-        }
-      ]
-    },
-    {
-      "target": "에이투지",
-      "counterparties": "한국증권·우리증권",
-      "pe_firms": [],
-      "industry": "증권",
-      "stage": "완료",
+      "industry": "사모펀드",
+      "stage": "청산",
       "amount": null,
-      "one_liner": "에이투지 대표 주관사 선정",
+      "one_liner": "유진PE, 프로젝트펀드 청산 수순",
       "article_ids": [
         "a22"
       ],
-      "evidence": "대표 주관사로 선정",
+      "evidence": "프로젝트펀드 청산 수순",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611031630543440101820",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608060048045580105445",
           "source": "더벨",
-          "title": "에이투지, 한국·우리증권 대표 주관사로 선정"
+          "title": "유진PE, 쏘카 말레이 손실 안고 프로젝트펀드 청산 수순"
         }
       ]
     },
     {
-      "target": "스톤브릿지 출신 고재경 관련 PI 투자 및 M&A",
-      "counterparties": "케이오인베스트먼트",
+      "target": "한국펀드파트너스",
+      "counterparties": "프리미어",
       "pe_firms": [
-        "케이오인베스트먼트"
+        "프리미어"
       ],
-      "industry": "VC/PE",
+      "industry": "사모펀드",
+      "stage": "완료",
+      "amount": "1800억원 규모 코인베펀드",
+      "one_liner": "프리미어, 한국펀드파트너스 인수 후 펀드 조성",
+      "article_ids": [
+        "a25"
+      ],
+      "evidence": "'한국펀드파트너스 인수' 프리미어",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611041009007240104657",
+          "source": "더벨",
+          "title": "'한국펀드파트너스 인수' 프리미어, 1800억 코인베펀드 조성"
+        }
+      ]
+    },
+    {
+      "target": "대한항공씨앤디 지분",
+      "counterparties": "한앤코, 대한항공",
+      "pe_firms": [
+        "한앤코"
+      ],
+      "industry": "항공",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "한앤코, 대한항공씨앤디 지분 대한항공에 매각",
+      "article_ids": [
+        "a26"
+      ],
+      "evidence": "대한항공씨앤디 지분 다시 대한항공에 넘긴다",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202603121826357880106029",
+          "source": "더벨",
+          "title": "한앤코, 대한항공씨앤디 지분 다시 대한항공에 넘긴다"
+        }
+      ]
+    },
+    {
+      "target": "지금융코리아",
+      "counterparties": "JC플라워스",
+      "pe_firms": [
+        "JC플라워스"
+      ],
+      "industry": "금융",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "JC플라워스, 지금융코리아 인수 추진",
+      "article_ids": [
+        "a28"
+      ],
+      "evidence": "지금융코리아 인수 추진",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611040858162140103450",
+          "source": "더벨",
+          "title": "미국계 사모펀드 JC플라워스, 지금융코리아 인수 추진"
+        }
+      ]
+    },
+    {
+      "target": "아리바이오 26회 CB",
+      "counterparties": "아리바이오랩",
+      "pe_firms": [],
+      "industry": "바이오",
       "stage": "완료",
       "amount": null,
-      "one_liner": "케이오인베스트먼트 CIO로 PI 투자·M&A 수행",
+      "one_liner": "아리바이오랩, 아리바이오 26회 CB 인수 의결",
       "article_ids": [
-        "a2"
+        "a4"
       ],
-      "evidence": "인수합병(M&A) 전략 수립 업무를 1년간 수행했다",
+      "evidence": "아리바이오 26회 CB를 인수하기로 의결",
       "_articles": [
         {
-          "url": "https://dealsite.co.kr/articles/171525",
-          "source": "딜인사이트",
-          "title": "[In&Out] 와이아웃 창업한 스톤브릿지 출신 고재경…VC 복귀"
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611041518563960106014",
+          "source": "더벨",
+          "title": "[더벨]아리바이오랩, 3상 발표 앞둔 아리바이오 CB '웃돈 매입'"
         }
       ]
     },
     {
-      "target": "스페이스X·xAI",
+      "target": "넥스아이 지분(GC녹십자 보유)",
       "counterparties": null,
       "pe_firms": [],
-      "industry": "테크",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "스페이스X·xAI 합병 언급",
+      "industry": "바이오",
+      "stage": "거론",
+      "amount": "20억원",
+      "one_liner": "넥스아이 관련 지분 투자 20억원 거래 언급",
       "article_ids": [
-        "a15"
+        "a3"
       ],
-      "evidence": "스페이스X·xAI 합병에 이은",
+      "evidence": "투자 규모는 20억원이다",
       "_articles": [
         {
-          "url": "https://www.chosun.com/economy/tech_it/2026/11/04/JGQBGTGZRNHZLAH7JFCCBSFCCU/",
-          "source": "조선일보",
-          "title": "美 반도체 기업 마벨, 광통신 베팅 “광학 업체 루멘텀 154조원에 인수”"
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611040950013880105255",
+          "source": "더벨",
+          "title": "[더벨][넥스아이 IPO] GC녹십자 보유지분 가치 3배 확대…SI 넘어 ADC 파트..."
+        }
+      ]
+    },
+    {
+      "target": "엠로",
+      "counterparties": "삼성SDS, KKR",
+      "pe_firms": [
+        "KKR"
+      ],
+      "industry": "IT서비스",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "엠로 관련 KKR·삼성SDS 인수 논의 언급",
+      "article_ids": [
+        "a0"
+      ],
+      "evidence": "KKR과 접촉을 늘리며 인수합병(M&A)에 속도",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611021859191440106061",
+          "source": "더벨",
+          "title": "[더벨][엠로는 지금] 성장 한계 직면, 조상원 체제 시험대 올랐다"
         }
       ]
     }
   ],
   "pe_moves": [
     {
-      "pe": "텍사스퍼시픽그룹(TPG)",
-      "action": "롯데렌탈 인수",
-      "target": "롯데렌탈",
-      "article_ids": [
-        "a13"
-      ],
-      "evidence": "롯데렌탈은 미국 사모펀드(PEF) 텍사스퍼시픽그룹(TPG)에 팔렸다",
-      "_articles": [
-        {
-          "url": "https://www.hankyung.com/article/2026110336621",
-          "source": "한국경제",
-          "title": "[데스크 칼럼] 해외에 팔리는 韓 기업들"
-        }
-      ]
-    },
-    {
-      "pe": "케이오인베스트먼트",
-      "action": "CIO 영입 후 PI 투자·M&A 수행",
+      "pe": "어펄마캐피탈",
+      "action": "블라인드 펀드 결성 추진(7호 7000억)",
       "target": null,
       "article_ids": [
         "a2"
       ],
-      "evidence": "케이오인베스트먼트에 최고투자책임자(CIO)로 참여해",
+      "evidence": "7호 블라인드 7000억",
       "_articles": [
         {
-          "url": "https://dealsite.co.kr/articles/171525",
+          "url": "https://dealsite.co.kr/articles/171957",
           "source": "딜인사이트",
-          "title": "[In&Out] 와이아웃 창업한 스톤브릿지 출신 고재경…VC 복귀"
+          "title": "과기공 따낸 어펄마 연전연승…7호 블라인드 7000억"
+        }
+      ]
+    },
+    {
+      "pe": "미래에셋벤처",
+      "action": "특허펀드 2차 클로징",
+      "target": null,
+      "article_ids": [
+        "a20"
+      ],
+      "evidence": "특허펀드 '320억' 2차 클로징",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608240822481180109543",
+          "source": "더벨",
+          "title": "미래에셋벤처, 특허펀드 '320억' 2차 클로징…투자 시동"
+        }
+      ]
+    },
+    {
+      "pe": "IMM인베스트먼트",
+      "action": "최대 500억 투자유치 추진",
+      "target": "이미인",
+      "article_ids": [
+        "a21"
+      ],
+      "evidence": "최대 500억 투자유치 추진",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611040756254340107950",
+          "source": "더벨",
+          "title": "IMM인베스트먼트의 이미인, 최대 500억 투자유치 추진"
+        }
+      ]
+    },
+    {
+      "pe": "유진PE",
+      "action": "우리금융 프로젝트펀드 만기 대응 고심",
+      "target": "우리금융",
+      "article_ids": [
+        "a23"
+      ],
+      "evidence": "프로젝트펀드 만기 앞두고 '고심'",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611040928150600102716",
+          "source": "더벨",
+          "title": "유진PE, 우리금융 프로젝트펀드 만기 앞두고 '고심'"
+        }
+      ]
+    },
+    {
+      "pe": "한앤코",
+      "action": "대한항공씨앤디 지분 대한항공에 반환",
+      "target": "대한항공씨앤디",
+      "article_ids": [
+        "a26"
+      ],
+      "evidence": "지분 다시 대한항공에 넘긴다",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202603121826357880106029",
+          "source": "더벨",
+          "title": "한앤코, 대한항공씨앤디 지분 다시 대한항공에 넘긴다"
+        }
+      ]
+    },
+    {
+      "pe": "JC플라워스",
+      "action": "지금융코리아 인수 추진",
+      "target": "지금융코리아",
+      "article_ids": [
+        "a28"
+      ],
+      "evidence": "지금융코리아 인수 추진",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611040858162140103450",
+          "source": "더벨",
+          "title": "미국계 사모펀드 JC플라워스, 지금융코리아 인수 추진"
+        }
+      ]
+    },
+    {
+      "pe": "글랜우드PE",
+      "action": "DL그룹 합성고무 기업 인수 대상",
+      "target": "DL그룹 합성고무 사업",
+      "article_ids": [
+        "a17"
+      ],
+      "evidence": "글랜우드PE에 매각",
+      "_articles": [
+        {
+          "url": "https://www.hankyung.com/article/202611044852i",
+          "source": "마켓인사이트",
+          "title": "[단독] DL그룹, 세계 1위 의료용 합성고무기업 글랜우드PE에 매각"
         }
       ]
     }
   ],
   "for_sale": [
     {
-      "asset": "롯데렌탈",
-      "seller": "롯데그룹",
-      "process_stage": "완료",
+      "asset": "DL그룹 합성고무 기업(세계 1위 의료용)",
+      "seller": "DL그룹",
+      "process_stage": "거론",
       "article_ids": [
-        "a13"
+        "a17"
       ],
-      "evidence": "롯데렌탈은 미국 사모펀드(PEF) 텍사스퍼시픽그룹(TPG)에 팔렸다",
+      "evidence": "DL그룹, 세계 1위 의료용 합성고무기업",
       "_articles": [
         {
-          "url": "https://www.hankyung.com/article/2026110336621",
-          "source": "한국경제",
-          "title": "[데스크 칼럼] 해외에 팔리는 韓 기업들"
+          "url": "https://www.hankyung.com/article/202611044852i",
+          "source": "마켓인사이트",
+          "title": "[단독] DL그룹, 세계 1위 의료용 합성고무기업 글랜우드PE에 매각"
         }
       ]
     },
     {
-      "asset": "에너지머티리얼즈",
-      "seller": null,
+      "asset": "대한항공씨앤디 지분",
+      "seller": "한앤코",
       "process_stage": "거론",
       "article_ids": [
-        "a24"
+        "a26"
       ],
-      "evidence": "매각 '안개속'",
+      "evidence": "대한항공씨앤디 지분 다시 대한항공에 넘긴다",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611031014214680102632",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202603121826357880106029",
           "source": "더벨",
-          "title": "에너지머티리얼즈, GS건설 수혈 중단에 매각 '안개속'"
+          "title": "한앤코, 대한항공씨앤디 지분 다시 대한항공에 넘긴다"
         }
       ]
     },
     {
-      "asset": "JTBC",
-      "seller": null,
-      "process_stage": "매각 공고 예정",
-      "article_ids": [
-        "a29"
-      ],
-      "evidence": "JTBC, 9일 매각 공고",
-      "_articles": [
-        {
-          "url": "https://biz.chosun.com/topics/topics_social/2026/11/03/UVOYKFTNOJCMRES54GOR6NPYHU/",
-          "source": "조선일보",
-          "title": "JTBC, 9일 매각 공고…본격 절차 돌입"
-        }
-      ]
-    },
-    {
-      "asset": "KDB생명",
+      "asset": "지금융코리아",
       "seller": null,
       "process_stage": "거론",
       "article_ids": [
-        "a12"
+        "a28"
       ],
-      "evidence": "KDB생명 인수 앞에 꼬인",
+      "evidence": "지금융코리아 인수 추진",
       "_articles": [
         {
-          "url": "https://www.fntimes.com/html/view.php?ud=202611031634124048fa40c35055_18",
-          "source": "한국금융신문",
-          "title": "KDB생명 인수 앞에 꼬인 김남구의 셈법"
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611040858162140103450",
+          "source": "더벨",
+          "title": "미국계 사모펀드 JC플라워스, 지금융코리아 인수 추진"
+        }
+      ]
+    },
+    {
+      "asset": "티맵모빌리티 지분 60~70%",
+      "seller": null,
+      "process_stage": "거론",
+      "article_ids": [
+        "a33"
+      ],
+      "evidence": "티맵모빌리티 지분 60~70%를",
+      "_articles": [
+        {
+          "url": "https://www.mk.co.kr/article/12191353",
+          "source": "매일경제",
+          "title": "돈 되는 플랫폼…빅테크 ‘지도 전쟁’"
+        }
+      ]
+    },
+    {
+      "asset": "서울보증 보유 지분(2차 블록딜)",
+      "seller": "예보",
+      "process_stage": "거론",
+      "article_ids": [
+        "a19"
+      ],
+      "evidence": "예보, 서울보증 2차 블록딜",
+      "_articles": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608191515111080107644",
+          "source": "더벨",
+          "title": "예보, 서울보증 2차 블록딜…매각 규모 줄이고 수급 방어"
         }
       ]
     }
   ],
   "market_signals": [
     {
-      "type": "SECTOR_CONCENTRATION",
-      "summary": "국내 M&A 시장에서 외국 자본 참여 글로벌 딜 증가",
+      "type": "REGULATORY",
+      "summary": "CVS, 규제 영향으로 헬스케어 사업 분리 구상",
       "article_ids": [
-        "a13"
+        "a8"
       ],
-      "evidence": "외국 자본이 참여하는 글로벌 딜이다",
+      "evidence": "규제 파고에 8년 만에 갈라서나",
       "_articles": [
         {
-          "url": "https://www.hankyung.com/article/2026110336621",
-          "source": "한국경제",
-          "title": "[데스크 칼럼] 해외에 팔리는 韓 기업들"
+          "url": "https://www.g-enews.com/view.php?ud=202611042227412133fda4f5ab74_1",
+          "source": "글로벌이코노믹",
+          "title": "몸값 156조 원 헬스케어 제국 CVS… 규제 파고에 8년 만에 갈라서나"
         }
       ]
     },
     {
-      "type": "REGULATORY",
-      "summary": "중소기업 승계형 M&A 제도 개선 논의",
+      "type": "SECTOR_CONCENTRATION",
+      "summary": "CDMO 기업들의 인수 확장 흐름",
       "article_ids": [
-        "a7"
+        "a5",
+        "a15"
       ],
-      "evidence": "승계형 인수합병(M&A)의 현장 걸림돌",
+      "evidence": "CDMO 5곳 인수",
       "_articles": [
         {
-          "url": "https://www.news1.kr/industry/sb-founded/6341096",
+          "url": "https://www.newsis.com/view/NISX20261104_0003855075",
+          "source": "뉴시스",
+          "title": "美사업장 늘리는 스위스 론자…CDMO 5곳 인수"
+        },
+        {
+          "url": "https://www.joongang.co.kr/article/25475858",
+          "source": "중앙일보",
+          "title": "머크 생산시설 품는 론자…CDMO 기업들 영토확장"
+        }
+      ]
+    },
+    {
+      "type": "DEAL_DROP",
+      "summary": "중소기업 M&A 거래 성사 문턱",
+      "article_ids": [
+        "a6"
+      ],
+      "evidence": "실제 계약까지 '산 넘어 산'",
+      "_articles": [
+        {
+          "url": "https://www.news1.kr/industry/sb-founded/6342895",
           "source": "뉴스1",
-          "title": "사장 은퇴하면 폐업?…\"가족 아닌 '제3자 승계' 지역 일자리 해법\""
+          "title": "매각 의향 실제 계약까지 '산 넘어 산'…보증·세제에도 남은 문턱"
+        }
+      ]
+    },
+    {
+      "type": "ACQ_FINANCING",
+      "summary": "카카오뱅크 카드·증권 M&A 중장기 검토",
+      "article_ids": [
+        "a14"
+      ],
+      "evidence": "신용카드·증권업 M&A(인수·합병)도 중장기적으로 검토",
+      "_articles": [
+        {
+          "url": "https://www.mt.co.kr/finance/2026/11/05/2026110419020798469",
+          "source": "머니투데이",
+          "title": "카드·증권업 손 뻗는 카뱅… 사세 확장 최대 변수는 '대주주 적격성'"
         }
       ]
     }
@@ -371,31 +537,22 @@
   "diag": {
     "llm_raw": {
       "deals": 12,
-      "pe_moves": 2,
-      "for_sale": 4,
-      "market_signals": 2
+      "pe_moves": 7,
+      "for_sale": 5,
+      "market_signals": 4
     },
-    "drops": [
-      {
-        "reason": "evidence_not_in_source",
-        "label": "JTBC",
-        "evidence": "인가 전 인수합병(M&A)을 추진 중이다",
-        "ids": [
-          "a29"
-        ]
-      }
-    ],
+    "drops": [],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 7501,
+        "input_tokens": 6746,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 2424,
+        "output_tokens": 3242,
         "output_tokens_details": {
           "thinking_tokens": 0
         },
