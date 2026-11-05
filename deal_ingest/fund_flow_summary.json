@@ -1,63 +1,19 @@
 {
-  "generated_at": "2026-11-04T22:11:31.755810+00:00",
+  "generated_at": "2026-11-05T22:11:08.702613+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 677,
+  "total_policy_articles": 681,
   "matched_funds_count": 3,
-  "unmatched_count": 247,
+  "unmatched_count": 253,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-07",
-      "last_updated": "2026-11-04",
-      "event_count": 427,
+      "first_seen": "2026-08-09",
+      "last_updated": "2026-11-05",
+      "event_count": 425,
       "timeline": [
-        {
-          "date": "2026-08-07",
-          "published_at": "2026-08-07T05:31:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "“코스닥 상관 없이 국민성장펀드 대박 계속될 것”",
-          "summary": "운용사(GP)들이 자금을 대는 캐피털, 저축은행, 증권사(LP)들 위에서 큰소리를 치는 상황이 벌어지고 있다는 말이 나온다. 보통 펀드 운용사들이 자금을 끌어모으기 위해 돈줄을 쥔 금융 기관을 찾아다니며 읍소하는 것이...",
-          "url": "https://www.chosun.com/economy/money/2026/08/07/DXVXRAXSCFFSTLCVVBXO2CYQPA/",
-          "source_label": "조선일보"
-        },
-        {
-          "date": "2026-08-07",
-          "published_at": "2026-08-07T07:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "[Invest]KIC 앞세운 국민성장펀드…'해외 국부펀드 앵커' 역할은 아직 물...",
-          "summary": "정부는 국민성장펀드·모태펀드가 청산하는 시점에 우수기업을 선별해 지분을 이어받는 '이어달리기 투자'로 차별화를 설명했다. 다만 국민성장펀드가 아직 집행 초기 단계인 점을 고려하면 최소 수년간 역할 중복...",
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/06/2026080680084.html",
-          "source_label": "인베스트조선"
-        },
-        {
-          "date": "2026-08-07",
-          "published_at": "2026-08-07T07:02:00+09:00",
-          "stage_code": "gp_review",
-          "stage_label": "GP 심사",
-          "amount": null,
-          "title": "[Invest]'심사보다 속도전'이 흔든 증시, 국민성장펀드라고 안전할까",
-          "summary": "반면 국민성장펀드가 투자한 기업의 사업성과 회수 가능성은 수년 뒤에야 판가름 난다. 당시 제시한... 지금의 집행 실적이 몇 년 뒤 더 늦고 더 큰 책임론으로 돌아올 수 있다는 우려가 커지는 이유다. [인베스트조선...",
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/06/2026080680083.html",
-          "source_label": "인베스트조선"
-        },
-        {
-          "date": "2026-08-07",
-          "published_at": "2026-08-07T12:08:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "3대 메가프로젝트 성공하려면 ‘3가지 질문’에 답 찾아야",
-          "summary": "또한 정부는 반도체 대호황이 가져다줄 추가세수를 기반으로 미래대응기금을 설립해 미래산업, 청년, 지방... 물론 국민성장펀드는 바이오와 2차전지 등 12개의 다양한 첨단전략산업이 투자대상이지만, 여전히 현 정부...",
-          "url": "https://www.hani.co.kr/arti/economy/economy_general/1271885.html",
-          "source_label": "한겨레"
-        },
         {
           "date": "2026-08-09",
           "published_at": "2026-08-09T18:06:00+09:00",
@@ -4710,6 +4666,28 @@
           "summary": "(AI) 컴퓨팅 자원 활용 기반 강화(4조2752억원), 국민성장펀드(1조원), 창업사업화지원(9542억원) 3개였다.... 도서관·체육관·돌봄시설 등을 한데 모은 국민생활편의 복합센터 지원에 1조5005억원이 배정됐고, 청년 지원...",
           "url": "https://www.khan.co.kr/article/202611042129005",
           "source_label": "경향신문"
+        },
+        {
+          "date": "2026-11-05",
+          "published_at": "2026-11-05T11:06:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "8000억",
+          "title": "CDMO·백신·혈액제제…국민성장펀드, 바이오 지원 8000억 돌파",
+          "summary": "알테오젠은 지난 10월 대형리그 위탁운용사(GP)인 스카이레이크가 국민성장펀드 출자금과 매칭해 결성한 프로젝트 펀드를 통해 총 2000억원 규모의 투자를 유치한 바 있다. 정부 심의회가 기업을 직접 특정해 대출...",
+          "url": "https://biz.heraldcorp.com/article/10926847",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-11-05",
+          "published_at": "2026-11-05T16:16:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "265억 원",
+          "title": "엘앤에프, 올해 3분기 영업손실 265억 원…적자전환",
+          "summary": "올해 1~3분기 설비투자(Capex)는 1605억 원으로 지난해 같은 기간(745억 원)의 2배를 넘었고, LFP 증설에는 국민성장펀드 첨단전략산업기금을 활용하고 있다. LFP 출하가 늘면 원재료 재고 소진이 빨라지고 시세 변동에...",
+          "url": "https://www.g-enews.com/view.php?ud=202611051608295324139bf6e4b2_1",
+          "source_label": "글로벌이코노믹"
         }
       ]
     },
@@ -4770,24 +4748,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-07",
-      "title": "[더벨][창조경제혁신센터 점검] 정책 출자 강자 부상…'금수저 역차별'...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608050950359000109080",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-07",
-      "title": "[더벨]SG PE, 성장금융 출자금 500억 확보…5호 펀드레이징 본궤도",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041851565920103157",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-07",
-      "title": "'빅3 러브콜' KDB생명, 삼성·교보 불참했지만…3파전 '매각 청신호'(종...",
-      "url": "https://www.news1.kr/finance/insurance-card/6252786",
-      "source_label": "뉴스1"
-    },
     {
       "date": "2026-08-08",
       "title": "미래에셋증권, 고용보험기금 PE·VC 출자사업 개시…1천200억 배정",
@@ -5069,6 +5029,24 @@
       "title": "정책자금 100억 넘어…회수 가능성은 희박",
       "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608211150374360103045",
       "source_label": "더벨"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "\"IPO 올인 그만\" 세컨더리 꺼냈지만…벤처업계 \"진짜 대책은 M&A\"",
+      "url": "https://www.mt.co.kr/future/2026/08/27/2026082622505993506",
+      "source_label": "머니투데이"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "수은·성장금융 잡은 우리PE, 2500억 단독 펀딩 순항",
+      "url": "https://dealsite.co.kr/articles/167030",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "한국벤처투자, 도쿄 지사 만든다…6번째 해외 거점",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432011",
+      "source_label": "연합인포맥스"
     }
   ]
 }

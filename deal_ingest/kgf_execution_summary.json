@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:11:32.721510+00:00",
+  "generated_at": "2026-11-05T22:11:09.452274+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-04T22:11:32.721407+00:00",
+    "sheet_synced_at": "2026-11-05T22:11:09.452196+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3497,6 +3497,28 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "엘앤에프",
+      "sector": null,
+      "methods": [],
+      "amount": "1605억 원",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "timeline": [
+        {
+          "date": "2026-11-05",
+          "event": "엘앤에프, 올해 3분기 영업손실 265억 원…적자전환",
+          "methods": [],
+          "amount": "1605억 원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.g-enews.com/view.php?ud=202611051608295324139bf6e4b2_1",
+          "source": "글로벌이코노믹"
+        }
+      ]
+    },
     {
       "company_name": "테크윙",
       "sector": null,
@@ -10039,12 +10061,6 @@
   "candidates": [
     {
       "date": "2026-10-05",
-      "title": "[단독] 대기업 60.6%, 수도권 55.4% '몰빵'…양극화 부추기는 '국민성장...",
-      "url": "https://www.ajunews.com/view/20261005153712823",
-      "source": "아주경제"
-    },
-    {
-      "date": "2026-10-05",
       "title": "[단독] 국민성장펀드 18조 승인했지만 실제 집행률 25.4% 그쳤다",
       "url": "https://www.ajunews.com/view/20261005150614758",
       "source": "아주경제"
@@ -10636,8 +10652,14 @@
       "title": "미래기금 ‘예산 절반’ 12개 사업 중 ‘성장 투자’ 3개뿐",
       "url": "https://www.khan.co.kr/article/202611042129005",
       "source": "경향신문"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "CDMO·백신·혈액제제…국민성장펀드, 바이오 지원 8000억 돌파",
+      "url": "https://biz.heraldcorp.com/article/10926847",
+      "source": "헤럴드경제"
     }
   ],
-  "matched_articles_this_run": 442,
+  "matched_articles_this_run": 440,
   "confirmed_deals_count": 16
 }
