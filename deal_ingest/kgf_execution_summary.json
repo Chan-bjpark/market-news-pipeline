@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T22:11:09.452274+00:00",
+  "generated_at": "2026-11-08T22:11:24.528595+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-05T22:11:09.452196+00:00",
+    "sheet_synced_at": "2026-11-08T22:11:24.528500+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -520,6 +520,18 @@
           "status_code": "committed",
           "status_label": "승인·확정",
           "url": "https://www.fntimes.com/html/view.php?ud=202610111736175173b4a7c6999c_18",
+          "source": "한국금융신문"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "박상진 산업은행 회장, 투자금융 강화·자본체력 확대해 산업 전환·육성...",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.fntimes.com/html/view.php?ud=202611062252591846dd55077bc2_18",
           "source": "한국금융신문"
         }
       ]
@@ -1207,7 +1219,8 @@
       "methods": [
         "인프라투자",
         "출자",
-        "대출"
+        "대출",
+        "사채인수"
       ],
       "status_code": "approved",
       "status_label": "승인확정",
@@ -1907,6 +1920,28 @@
           "status_label": "관련 동향",
           "url": "https://www.mt.co.kr/politics/2026/10/23/2026102312290249154",
           "source": "머니투데이"
+        },
+        {
+          "date": "2026-11-06",
+          "event": "씨이랩, 국민성장펀드 투자 유치…100억원 규모 전환사채 발행",
+          "methods": [
+            "사채인수"
+          ],
+          "amount": "100억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.newspim.com/news/view/20261106000775",
+          "source": "뉴스핌"
+        },
+        {
+          "date": "2026-11-06",
+          "event": "씨이랩, 국민성장펀드서 80억 투자 유치…100억 규모 CB 발행",
+          "methods": [],
+          "amount": "100억원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=05421846645643096&mediaCodeNo=257",
+          "source": "이데일리"
         }
       ]
     },
@@ -3497,6 +3532,56 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "마중물",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "7조",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-11-06",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "event": "'7대 1의 혈투' 7조원대 투자 마중물 확보戰 스타트[국민성장펀드 운용...",
+          "methods": [],
+          "amount": "7조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.etoday.co.kr/news/view/2583495",
+          "source": "이투데이"
+        },
+        {
+          "date": "2026-07-01",
+          "event": "국민성장펀드가 ‘마중물’ 될까…출자시장 양극화 우려도",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://biz.heraldcorp.com/article/10794367",
+          "source": "헤럴드경제"
+        },
+        {
+          "date": "2026-11-06",
+          "event": "국민성장펀드, 현대차 새만금 AI 데이터센터에 1.7조 '마중물'…SPC 지분...",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "7조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://view.asiae.co.kr/article/2026110610283654337",
+          "source": "아시아경제"
+        }
+      ]
+    },
     {
       "company_name": "엘앤에프",
       "sector": null,
@@ -8278,42 +8363,6 @@
       ]
     },
     {
-      "company_name": "마중물",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "7조",
-      "status_code": "mention",
-      "status_label": "관련 동향",
-      "first_seen": "2026-05-13",
-      "last_seen": "2026-07-01",
-      "timeline": [
-        {
-          "date": "2026-05-13",
-          "event": "'7대 1의 혈투' 7조원대 투자 마중물 확보戰 스타트[국민성장펀드 운용...",
-          "methods": [],
-          "amount": "7조",
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://www.etoday.co.kr/news/view/2583495",
-          "source": "이투데이"
-        },
-        {
-          "date": "2026-07-01",
-          "event": "국민성장펀드가 ‘마중물’ 될까…출자시장 양극화 우려도",
-          "methods": [
-            "출자"
-          ],
-          "amount": null,
-          "status_code": "mention",
-          "status_label": "관련 동향",
-          "url": "https://biz.heraldcorp.com/article/10794367",
-          "source": "헤럴드경제"
-        }
-      ]
-    },
-    {
       "company_name": "삐걱",
       "sector": null,
       "methods": [
@@ -10060,18 +10109,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-10-05",
-      "title": "[단독] 국민성장펀드 18조 승인했지만 실제 집행률 25.4% 그쳤다",
-      "url": "https://www.ajunews.com/view/20261005150614758",
-      "source": "아주경제"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "국책銀 사고·새도약기금 관리…금융공기업 안건 ‘산적ʼ [한눈에 보는...",
-      "url": "https://www.fntimes.com/html/view.php?ud=202610022242034205dd55077bc2_18",
-      "source": "한국금융신문"
-    },
-    {
       "date": "2026-10-06",
       "title": "[더벨][인사이드 헤지펀드] 수성운용, 주식운용본부 설립…국내주식 개...",
       "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610011007298720108164",
@@ -10619,6 +10656,12 @@
     },
     {
       "date": "2026-11-03",
+      "title": "연말 북클로징 앞둔 은행권…국민성장펀드 실적에 12월 PF까지 염두",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/03/2026110380108.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-03",
       "title": "돈 풀겠다는데 손사래…기업들은 국민성장펀드가 달갑지 않다",
       "url": "https://www.investchosun.com/site/data/html_dir/2026/11/03/2026110380090.html",
       "source": "인베스트조선"
@@ -10658,8 +10701,14 @@
       "title": "CDMO·백신·혈액제제…국민성장펀드, 바이오 지원 8000억 돌파",
       "url": "https://biz.heraldcorp.com/article/10926847",
       "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "국민성장펀드도 참여한 LIG D&A 5300억 투자…7개월 늦춰진 이유는",
+      "url": "https://magazine.hankyung.com/business/article/202611061629b",
+      "source": "한국경제"
     }
   ],
-  "matched_articles_this_run": 440,
+  "matched_articles_this_run": 439,
   "confirmed_deals_count": 16
 }

@@ -1,96 +1,19 @@
 {
-  "generated_at": "2026-11-05T22:11:08.702613+00:00",
+  "generated_at": "2026-11-08T22:11:23.676737+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 681,
+  "total_policy_articles": 683,
   "matched_funds_count": 3,
-  "unmatched_count": 253,
+  "unmatched_count": 256,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-09",
-      "last_updated": "2026-11-05",
-      "event_count": 425,
+      "first_seen": "2026-08-11",
+      "last_updated": "2026-11-09",
+      "event_count": 424,
       "timeline": [
-        {
-          "date": "2026-08-09",
-          "published_at": "2026-08-09T18:06:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "6조4",
-          "title": "비상장 투자 6조4천억… 자금회수는 '안갯속'[IPO 시장 위축]",
-          "summary": "상반기만 6조4000억원이 집행된 비상장기업 투자가 반년도 안돼 회수 고민에 빠졌다. 국민성장펀드를 중심으로 올해 투자유치 규모는 지난해 연간 실적에 육박했지만, 증시 급락으로 밸류에이션이 낮아지며 기업공개...",
-          "url": "http://www.fnnews.com/news/202608091804499033",
-          "source_label": "파이낸셜뉴스"
-        },
-        {
-          "date": "2026-08-10",
-          "published_at": "2026-08-10T00:02:00+09:00",
-          "stage_code": "closed",
-          "stage_label": "결성 완료",
-          "amount": null,
-          "title": "김지원 아주IB투자 대표, 엠비디 등 IPO 채비·국민성장펀드 결성 [VC 202...",
-          "summary": "있게 투자를 집행하고자 한다\"라며 \"국내외 증시 변동성에 유연하게 대응하여 성공적인 포트폴리오 회수 통해 이익 극대화 예정\"이라고 말했다. 하반기 주요 계획이었던 국민성장펀드 결성도 마무리했다....",
-          "url": "https://www.fntimes.com/html/view.php?ud=202608072351085001dd55077bc2_18",
-          "source_label": "한국금융신문"
-        },
-        {
-          "date": "2026-08-10",
-          "published_at": "2026-08-10T00:02:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": null,
-          "title": "생산적금융 시대…'중기특화 2.0' 역할론 [중기특화 증권사 제도 점검 (...",
-          "summary": "국민성장펀드 출범…“재정-민간 협업 중요성 커져” 9일 금융당국에 따르면, 정부가 추진 중인 생산적금융... 중소·벤처기업의 성장 단계별 모험자본 공급과 금융 지원을 지속해 왔다. 직접투자·출자, 채권 발행 지원...",
-          "url": "https://www.fntimes.com/html/view.php?ud=202608072313222933dd55077bc2_18",
-          "source_label": "한국금융신문"
-        },
-        {
-          "date": "2026-08-10",
-          "published_at": "2026-08-10T07:02:00+09:00",
-          "stage_code": "size_confirmed",
-          "stage_label": "규모 확정",
-          "amount": "2200억원",
-          "title": "[더벨][IR Briefing] 엘앤에프, 하반기 'NCM·LFP' 투트랙 성장 본격화",
-          "summary": "이 공장은 국민성장펀드로부터 총 2200억원 규모의 12년 장기·저리 대출 지원을 확보하며 양산체제 구축을 위한 기반을 마련했다. 엘앤에프플러스는 시제품 첫 출하를 시작으로 고객사 평가와 추가적인 공정 안정화...",
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608061653574240102036",
-          "source_label": "더벨"
-        },
-        {
-          "date": "2026-08-10",
-          "published_at": "2026-08-10T15:04:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "국책은행 3사 노조 뭉쳤다…지방이전 저지 공동투쟁",
-          "summary": "산업은행은 국민성장펀드와 첨단전략산업기금 등 첨단산업 지원을, 기업은행은 중소기업·소상공인 금융을, 수출입은행은 수출금융과 경제안보·금융외교, 외환시장 안정 기능을 맡고 있다. 이들 기관을 이전할 경우 관련...",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03578486645546008",
-          "source_label": "이데일리"
-        },
-        {
-          "date": "2026-08-10",
-          "published_at": "2026-08-10T16:40:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "국책은행 3사 노조 \"지방 이전 검토 중단하라\"… 11일 결의대회",
-          "summary": "또 산업은행이 국민성장펀드와 첨단전략산업기금 등을, 기업은행이 중소기업·소상공인 정책금융을, 수출입은행이 수출금융과 경제안보 지원을 각각 담당하고 있는 만큼 고도의 전문성과 네트워크가 필요한 정책금융...",
-          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092167729",
-          "source_label": "조선일보"
-        },
-        {
-          "date": "2026-08-10",
-          "published_at": "2026-08-10T18:09:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "금융 공공기관 노조 “지방 이전땐 첨단산업 지원생태계 흔들려”",
-          "summary": "그러면서 “산은은 국가적 명운이 달린 국민성장펀드와 첨단전략산업기금을 책임지고 있고 기업은행은 실물경제의 뿌리인 중소기업과 소상공인에 대한 정책금융을 최전선에서 담당하고 있다”며 “수은은 수출산업을...",
-          "url": "https://www.sedaily.com/article/20077786",
-          "source_label": "서울경제"
-        },
         {
           "date": "2026-08-11",
           "published_at": "2026-08-11T08:54:00+09:00",
@@ -4519,6 +4442,17 @@
           "stage_code": "uncategorized",
           "stage_label": "단계 미상",
           "amount": null,
+          "title": "연말 북클로징 앞둔 은행권…국민성장펀드 실적에 12월 PF까지 염두",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/03/2026110380108.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-03",
+          "published_at": "2026-11-03T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
           "title": "돈 풀겠다는데 손사래…기업들은 국민성장펀드가 달갑지 않다",
           "summary": "",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/11/03/2026110380090.html",
@@ -4688,6 +4622,61 @@
           "summary": "올해 1~3분기 설비투자(Capex)는 1605억 원으로 지난해 같은 기간(745억 원)의 2배를 넘었고, LFP 증설에는 국민성장펀드 첨단전략산업기금을 활용하고 있다. LFP 출하가 늘면 원재료 재고 소진이 빨라지고 시세 변동에...",
           "url": "https://www.g-enews.com/view.php?ud=202611051608295324139bf6e4b2_1",
           "source_label": "글로벌이코노믹"
+        },
+        {
+          "date": "2026-11-06",
+          "published_at": "2026-11-06T10:31:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "7조",
+          "title": "국민성장펀드, 현대차 새만금 AI 데이터센터에 1.7조 '마중물'…SPC 지분...",
+          "summary": "SPC에는 현대차그룹과 국민성장펀드가 공동 출자하고, 나머지 사업비는 국민성장펀드의 첨단전략산업기금과 5대 금융지주 등의 대출로 충당하는 구조다. 출자 지분은 현대차그룹이 51%, 국민성장펀드가 최대 49%를...",
+          "url": "https://view.asiae.co.kr/article/2026110610283654337",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-11-06",
+          "published_at": "2026-11-06T14:44:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "100억원",
+          "title": "씨이랩, 국민성장펀드 투자 유치…100억원 규모 전환사채 발행",
+          "summary": "국민성장펀드는 AI·반도체·바이오 등 첨단전략산업에 대한 투자를 목적으로 조성된 정책 펀드다. 씨이랩은 조달 자금을 AI 데이터센터(AIDC) 사업 확대에 활용할 예정이다. 정부 주도의 국가 AI 컴퓨팅센터와 지역 AI...",
+          "url": "https://www.newspim.com/news/view/20261106000775",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-11-06",
+          "published_at": "2026-11-06T14:58:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "80억",
+          "title": "씨이랩, 국민성장펀드서 80억 투자 유치…100억 규모 CB 발행",
+          "summary": "씨이랩(189330)이 국민성장펀드 자펀드 등으로부터 100억원 규모의 자금을 조달해 인공지능(AI) 데이터센터... 조달 자금은 AI 데이터센터(AIDC) 구축 사업의 운영자금으로 활용할 계획이다. 정부 주도의 국가 AI 컴퓨팅센터...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=05421846645643096&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-11-06",
+          "published_at": "2026-11-06T17:54:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5300억",
+          "title": "국민성장펀드도 참여한 LIG D&A 5300억 투자…7개월 늦춰진 이유는",
+          "summary": "이번 투자는 국민성장펀드의 첨단전략산업기금과 민간 금융권이 함께 참여하는 프로젝트다.... 회사는 이에 불복해 집행정지 신청과 행정소송 등 법적 대응에 나섰다. 이번 제재는 소형무인기 대응체계 사업과...",
+          "url": "https://magazine.hankyung.com/business/article/202611061629b",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-11-09",
+          "published_at": "2026-11-09T00:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "박상진 산업은행 회장, 투자금융 강화·자본체력 확대해 산업 전환·육성...",
+          "summary": "국민성장펀드의 초기 메가프로젝트인 신안우이 해상풍력 발전사업은 지난 4월 프로젝트파이낸싱(PF) 금융약정으로 이어졌다. 정부와 대주단, 출자자들이 참여한 금융약정은 사업 승인 이후 실제 사업 추진에 필요한 금융...",
+          "url": "https://www.fntimes.com/html/view.php?ud=202611062252591846dd55077bc2_18",
+          "source_label": "한국금융신문"
         }
       ]
     },
@@ -4748,30 +4737,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-08",
-      "title": "미래에셋증권, 고용보험기금 PE·VC 출자사업 개시…1천200억 배정",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4429250",
-      "source_label": "연합인포맥스"
-    },
-    {
-      "date": "2026-08-09",
-      "title": "CPS 권고한 정부, RCPS 고수하는 VC…현장 '온도차' 이유는",
-      "url": "https://www.mt.co.kr/future/2026/08/10/2026080615152811144",
-      "source_label": "머니투데이"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "[2026 모태펀드] [1차] 모태 3관왕 일신창투…프랜차이즈 스타 김진국 첫...",
-      "url": "https://dealsite.co.kr/articles/166750",
-      "source_label": "딜인사이트"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "신한벤처, 모펀드 GP 11곳에 400억 매칭 출자",
-      "url": "https://dealsite.co.kr/articles/166934",
-      "source_label": "딜인사이트"
-    },
     {
       "date": "2026-08-11",
       "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대",
@@ -5047,6 +5012,30 @@
       "title": "한국벤처투자, 도쿄 지사 만든다…6번째 해외 거점",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432011",
       "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "기보, '기업승계 M&A 매칭시스템' 구축",
+      "url": "https://view.asiae.co.kr/article/2026082708271984677",
+      "source_label": "아시아경제"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "'기업승계 M&A 매칭시스템' 가동…\"전과정 지원\"",
+      "url": "https://www.newsis.com/view/NISX20260827_0003764504",
+      "source_label": "뉴시스"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "기보, 중소벤처기업 전용 '기업승계 M&A 매칭시스템' 구축",
+      "url": "https://www.news1.kr/industry/sb-founded/6270761",
+      "source_label": "뉴스1"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "기술보증기금, ‘기업승계 M&A 매칭시스템’ 본격 가동",
+      "url": "https://biz.chosun.com/industry/business-venture/2026/08/27/P3VBTGHES5EYDGFXDWPABL2R5Q/",
+      "source_label": "조선일보"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T22:11:21.284966+00:00",
+  "generated_at": "2026-11-08T22:11:37.490955+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,60 @@
     }
   },
   "releases": [
+    {
+      "title": "국내외 주식시장 변동성 확대로 단계별 대응조치 가동",
+      "date": "2026-11-06",
+      "url": "https://www.fsc.go.kr/no010101/88100",
+      "agency": "금융위"
+    },
+    {
+      "title": "현재 유포되고 있는 부동산 대책 관련 게시글의 보도에 유의하여 주시기 바랍니다.",
+      "date": "2026-11-06",
+      "url": "https://www.fsc.go.kr/no010101/88099",
+      "agency": "금융위"
+    },
+    {
+      "title": "금융권은 개인정보 유출 사고에 따른 보이스피싱 예방에 총력 대응하고 있습니다.",
+      "date": "2026-11-06",
+      "url": "https://www.fsc.go.kr/no010101/88098",
+      "agency": "금융위"
+    },
+    {
+      "title": "반도체 전문가 간담회 개최",
+      "date": "2026-11-06",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079895&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "제276차 대외경제장관회의 개최",
+      "date": "2026-11-06",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079883&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "긴급 시장상황점검회의 개최",
+      "date": "2026-11-06",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079890&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "이형일 부총리, 코리아그랜드페스티벌x행복한 백화점 현장행보",
+      "date": "2026-11-06",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079882&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "[보도참고] 세계은행그룹 부총재에 두 번째 한국인 진출",
+      "date": "2026-11-06",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079886&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "공정거래법 시행령 개정안 입법예고",
+      "date": "2026-11-06",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48192",
+      "agency": "공정위"
+    },
     {
       "title": "기업지배구조보고서 공시를 통해 상장회사의 주주보호와 주주환원 노력을 확대해 나가겠습니다.",
       "date": "2026-11-05",
@@ -98,12 +152,6 @@
       "agency": "금융위"
     },
     {
-      "title": "허장 차관, 방글라데시 차우두리 재무장관 면담",
-      "date": "2026-11-04",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079853&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "중국 산동행정 연수단, 조정원 방문…선진 분쟁조정 노하우 배운다",
       "date": "2026-11-04",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48185",
@@ -116,30 +164,6 @@
       "agency": "금융위"
     },
     {
-      "title": "코너스톤투자자 제도 등 도입 관련 자본시장법 시행령 개정안 국무회의 의결",
-      "date": "2026-11-03",
-      "url": "https://www.fsc.go.kr/no010101/88071",
-      "agency": "금융위"
-    },
-    {
-      "title": "국제 신용평가사 Fitch, 한국 연례협의 실시",
-      "date": "2026-11-03",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079837&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "'26.10월 소비자물가 동향",
-      "date": "2026-11-03",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079839&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "물가관계차관회의 개최",
-      "date": "2026-11-03",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079838&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "소비자생활협동조합법 시행령 개정안 국무회의 통과",
       "date": "2026-11-03",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48182",
@@ -150,24 +174,6 @@
       "date": "2026-11-03",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48181",
       "agency": "공정위"
-    },
-    {
-      "title": "글로벌 해킹 위협에 대비한 국내 가상자산사업자의 사고대응력 제고를 위해 긴밀하고 신속하게 대응해 나가겠습니다.",
-      "date": "2026-11-02",
-      "url": "https://www.fsc.go.kr/no010101/88054",
-      "agency": "금융위"
-    },
-    {
-      "title": "생산적 금융의 온기를 지방과 중소기업까지 이어갑니다. - 이억원 금융위원장, 제6차 생산적 금융 대전환 회의 개최",
-      "date": "2026-11-02",
-      "url": "https://www.fsc.go.kr/no010101/88052",
-      "agency": "금융위"
-    },
-    {
-      "title": "「의료데이터의 안전한 학습·검증·활용을 위한 국가 AI 인프라 구축」 포럼 개최",
-      "date": "2026-11-02",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079836&menuNo=4010100",
-      "agency": "기재부"
     },
     {
       "title": "공정위, GCR 평가 13년 연속 매우 우수 이상",
@@ -197,12 +203,6 @@
       "title": "(주)셀트리온의 하도급법 위반행위 제재",
       "date": "2026-10-29",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48162",
-      "agency": "공정위"
-    },
-    {
-      "title": "26년 3분기 다단계판매업자 주요정보 변경사항 공개",
-      "date": "2026-10-28",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48160",
       "agency": "공정위"
     }
   ]

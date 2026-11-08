@@ -1,415 +1,263 @@
 {
-  "generated_at": "2026-11-05T22:11:21.531251+00:00",
+  "generated_at": "2026-11-08T22:11:37.686766+00:00",
   "model": "claude-haiku-5-5",
   "candidates": 35,
   "ok": true,
   "fallback": false,
   "deals": [
     {
-      "target": "디앤티",
-      "counterparties": "이음PE",
-      "pe_firms": [
-        "이음PE"
+      "target": "메디안스",
+      "counterparties": "라이프캐피탈",
+      "pe_firms": [],
+      "industry": "화장품",
+      "stage": "SPA 체결",
+      "amount": "2000억원",
+      "one_liner": "라이프캐피탈, 메디안스 인수 SPA 체결",
+      "article_ids": [
+        "a25"
       ],
-      "industry": "제조",
-      "stage": "본계약",
-      "amount": null,
-      "one_liner": "이음PE, 디앤티 인수 본계약 체결",
+      "evidence": "2000억원에 메디안스 인수",
+      "_articles": [
+        {
+          "url": "https://www.hankyung.com/article/2026110832611",
+          "source": "한국경제",
+          "title": "피부과 화장품 노린 해외 자본…2000억원에 메디안스 인수"
+        }
+      ]
+    },
+    {
+      "target": "에코플랜트",
+      "counterparties": "SK㈜",
+      "pe_firms": [],
+      "industry": "건설",
+      "stage": "거론",
+      "amount": "1.4조원",
+      "one_liner": "SK㈜, 에코플랜트 IPO 접고 공개매수",
       "article_ids": [
         "a22"
       ],
-      "evidence": "디앤티 인수 본계약",
+      "evidence": "에코플랜트 IPO 접는다…1.4조 공개매수",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611051540150720102788",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611081518425920105228",
           "source": "더벨",
-          "title": "이음PE, 디앤티 인수 본계약…하일랜드·동아에스티 동반 엑시트"
+          "title": "SK㈜, 에코플랜트 IPO 접는다…1.4조 공개매수"
         }
       ]
     },
     {
-      "target": "코어엔텍",
-      "counterparties": null,
-      "pe_firms": [
-        "E&F PE",
-        "IS동서"
-      ],
-      "industry": "산업",
-      "stage": "매각 재개",
-      "amount": "8000억 몸값",
-      "one_liner": "E&F PE-IS동서, 코어엔텍 매각 재개",
-      "article_ids": [
-        "a24"
-      ],
-      "evidence": "코어엔텍 매각 재개",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611050927048640103970",
-          "source": "더벨",
-          "title": "E&F PE-IS동서, '8000억 몸값' 코어엔텍 매각 재개"
-        }
-      ]
-    },
-    {
-      "target": "삼성바이오 지분",
-      "counterparties": "폴리펩타이드",
+      "target": "SK온",
+      "counterparties": "SK이노베이션",
       "pe_firms": [],
-      "industry": "바이오",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "폴리펩타이드, 삼성바이오 지분 98% 확보",
-      "article_ids": [
-        "a17"
-      ],
-      "evidence": "삼성바이오 지분 98% 확보",
-      "_articles": [
-        {
-          "url": "https://www.hankyung.com/article/2026110591341",
-          "source": "마켓인사이트",
-          "title": "폴리펩타이드 공개매수…삼성바이오 지분 98% 확보"
-        }
-      ]
-    },
-    {
-      "target": "IDT",
-      "counterparties": "SK바이오사이언스",
-      "pe_firms": [],
-      "industry": "바이오",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "SK바이오사이언스, 2024년 IDT 인수",
-      "article_ids": [
-        "a32",
-        "a33"
-      ],
-      "evidence": "2024년 인수한 IDT",
-      "_articles": [
-        {
-          "url": "https://www.mk.co.kr/article/12198871",
-          "source": "매일경제",
-          "title": "SK바이오사이언스, 3분기 매출 전년비 21% 증가…영업손실 42% 축소"
-        },
-        {
-          "url": "https://www.fntimes.com/html/view.php?ud=2026110520051049967fd637f543_18",
-          "source": "한국금융신문",
-          "title": "SK바이오사이언스, 3분기 영업손실 112억…전년비 42% 감소"
-        }
-      ]
-    },
-    {
-      "target": "필리조선소",
-      "counterparties": "한화그룹",
-      "pe_firms": [],
-      "industry": "조선",
-      "stage": "완료",
-      "amount": null,
-      "one_liner": "한화그룹, 미국 필리조선소 인수",
-      "article_ids": [
-        "a12"
-      ],
-      "evidence": "미국 필리조선소를 인수했고",
-      "_articles": [
-        {
-          "url": "https://www.joongang.co.kr/article/25476227",
-          "source": "중앙일보",
-          "title": "블루 쓰나미 희비…K조선·방산은 기회, 반도체·차는 긴장"
-        }
-      ]
-    },
-    {
-      "target": "에코플랜트 PRS",
-      "counterparties": "SK디스커버리",
-      "pe_firms": [],
-      "industry": "건설",
-      "stage": "정리 추진",
-      "amount": "3800억",
-      "one_liner": "SK디스커버리, 에코플랜트 PRS 정리",
-      "article_ids": [
-        "a11"
-      ],
-      "evidence": "에코플랜트 PRS 정리",
-      "_articles": [
-        {
-          "url": "https://www.sedaily.com/article/20110682",
-          "source": "서울경제",
-          "title": "SK디스커버리, 7년 만에 에코플랜트 PRS 정리…3800억 확보 전망 [시그널..."
-        }
-      ]
-    },
-    {
-      "target": "징둥닷컴 유럽 가전유통사 인수",
-      "counterparties": "징둥닷컴",
-      "pe_firms": [],
-      "industry": "유통",
-      "stage": "조건부 승인",
-      "amount": null,
-      "one_liner": "징둥닷컴, 유럽 최대 가전유통사 인수",
-      "article_ids": [
-        "a7"
-      ],
-      "evidence": "유럽 최대 가전유통사 품었다",
-      "_articles": [
-        {
-          "url": "https://www.sedaily.com/article/20110784",
-          "source": "서울경제",
-          "title": "중국 징둥닷컴, 유럽 최대 가전유통사 품었다…EU, 조건부 승인"
-        }
-      ]
-    },
-    {
-      "target": "티맵모빌리티",
-      "counterparties": null,
-      "pe_firms": [],
-      "industry": "모빌리티",
+      "industry": "에너지",
       "stage": "거론",
       "amount": null,
-      "one_liner": "티맵모빌리티 M&A 선회 거론",
+      "one_liner": "SK이노베이션, SK온 합병 추진 거론",
       "article_ids": [
-        "a11"
+        "a2"
       ],
-      "evidence": "티맵모빌리티도 인수합병(M&A)으로 선회",
+      "evidence": "마지막 퍼즐은 'SK온 합병'",
       "_articles": [
         {
-          "url": "https://www.sedaily.com/article/20110682",
-          "source": "서울경제",
-          "title": "SK디스커버리, 7년 만에 에코플랜트 PRS 정리…3800억 확보 전망 [시그널..."
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680112.html",
+          "source": "인베스트조선",
+          "title": "[Invest]SK이노, 리밸런싱 넘어 에너지 통합…마지막 퍼즐은 'SK온 합병'"
+        }
+      ]
+    },
+    {
+      "target": "OP모빌리티 사업부",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "자동차부품",
+      "stage": "완료",
+      "amount": null,
+      "one_liner": "OP모빌리티 사업부 인수 M&A",
+      "article_ids": [
+        "a29"
+      ],
+      "evidence": "사업부 인수를 넘어 회사 전체 전략적 관점에서",
+      "_articles": [
+        {
+          "url": "https://www.mk.co.kr/article/12201853",
+          "source": "매일경제",
+          "title": "한국은 미래차 제조 전세계 핵심거점"
+        }
+      ]
+    },
+    {
+      "target": "B바이오(미국 뉴로크린 인수 대상 솔레노 테라퓨틱스)",
+      "counterparties": "뉴로크린",
+      "pe_firms": [],
+      "industry": "제약바이오",
+      "stage": "완료",
+      "amount": "29억달러(약 4조원)",
+      "one_liner": "뉴로크린, 솔레노 테라퓨틱스 인수",
+      "article_ids": [
+        "a6"
+      ],
+      "evidence": "솔레노 테라퓨틱스를 29억달러(약 4조원)에",
+      "_articles": [
+        {
+          "url": "https://www.chosun.com/economy/science/2026/11/09/ZEEUWKLEM5ASDGUBHIPS6DQ5KM/",
+          "source": "조선일보",
+          "title": "“위고비도 못 고치는 비만 잡아라”… 빅파마, ‘희소 대사 질환’ 치..."
+        }
+      ]
+    },
+    {
+      "target": "메디안스 외 기업 M&A 비용 관련",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "금융",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "카카오뱅크 M&A 카드 모색 보도",
+      "article_ids": [
+        "a1"
+      ],
+      "evidence": "기존 금융지주와 유사한 인수·합병(M&A) 전략",
+      "_articles": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680107.html",
+          "source": "인베스트조선",
+          "title": "[Invest]'플랫폼' 몸값 받았던 카카오뱅크…'은행주' 한계에 결국 M&A 카..."
+        }
+      ]
+    },
+    {
+      "target": "홈플러스 대형마트 부문",
+      "counterparties": null,
+      "pe_firms": [],
+      "industry": "유통",
+      "stage": "거론",
+      "amount": null,
+      "one_liner": "홈플러스 대형마트 부문 M&A 협상 진행",
+      "article_ids": [
+        "a34"
+      ],
+      "evidence": "인수합병(M&A)을 통해 운영 자금을 확보",
+      "_articles": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2645435",
+          "source": "이투데이",
+          "title": "월급 밀리고 매대까지 텅텅…홈플러스, 자금난에 회생 '안갯속'"
+        }
+      ]
+    },
+    {
+      "target": "스위스 ABB 로봇사업",
+      "counterparties": "소프트뱅크",
+      "pe_firms": [],
+      "industry": "로봇",
+      "stage": "무산 위기",
+      "amount": "7조원대",
+      "one_liner": "中 제동으로 소프트뱅크-ABB 로봇 M&A 무산 위기",
+      "article_ids": [
+        "a32"
+      ],
+      "evidence": "7조원대 초대형 인수합병(M&A)이 무산될 위기",
+      "_articles": [
+        {
+          "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000502",
+          "source": "조선일보",
+          "title": "\"로봇 기술 못 내준다\"… 中 제동에 손정의 '피지컬 AI 제국' 흔들"
         }
       ]
     }
   ],
   "pe_moves": [
     {
-      "pe": "이음PE",
-      "action": "디앤티 우협 선정 및 본계약",
-      "target": "디앤티",
+      "pe": "라이프캐피탈",
+      "action": "메디안스 인수 SPA 체결",
+      "target": "메디안스",
       "article_ids": [
-        "a20",
-        "a21",
-        "a22"
+        "a25"
       ],
-      "evidence": "이음PE, 디앤티 우협 선정",
+      "evidence": "라이프캐피탈은 최근 메디안스 인수를 위한 주식매매계약(SPA)을 체결했다",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202607280905311900108910",
-          "source": "더벨",
-          "title": "이음PE, 디앤티 우협 선정…블라인드펀드가 승부 갈랐다"
-        },
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608031521289480101772",
-          "source": "더벨",
-          "title": "이음PE, 디앤티 인수금융 파트너 NH투자증권 낙점"
-        },
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611051540150720102788",
-          "source": "더벨",
-          "title": "이음PE, 디앤티 인수 본계약…하일랜드·동아에스티 동반 엑시트"
+          "url": "https://www.hankyung.com/article/2026110832611",
+          "source": "한국경제",
+          "title": "피부과 화장품 노린 해외 자본…2000억원에 메디안스 인수"
         }
       ]
     },
     {
-      "pe": "스마일게이트인베",
-      "action": "앵커 LP 확보, 하드캡 2400억 목표",
+      "pe": "군인공제회",
+      "action": "PE 출자사업 운용사 선정",
       "target": null,
       "article_ids": [
-        "a18"
+        "a17"
       ],
-      "evidence": "앵커 LP 확보",
+      "evidence": "군인공제회 PE 출자사업, VIG·어펄마·케이엘앤 등 선정",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610150848425240107156",
+          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610150807542440105813",
           "source": "더벨",
-          "title": "스마일게이트인베, 앵커 LP 확보…하드캡 2400억 노린다"
-        }
-      ]
-    },
-    {
-      "pe": "스마일게이트인베",
-      "action": "소재부품펀드 마지막 청산 연장",
-      "target": null,
-      "article_ids": [
-        "a19"
-      ],
-      "evidence": "소재부품펀드 마지막 청산 연장",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610211447396920106450",
-          "source": "더벨",
-          "title": "스마일게이트인베, 소재부품펀드 마지막 청산 연장"
-        }
-      ]
-    },
-    {
-      "pe": "E&F PE",
-      "action": "코어엔텍 매각 재개",
-      "target": "코어엔텍",
-      "article_ids": [
-        "a24"
-      ],
-      "evidence": "코어엔텍 매각 재개",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611050927048640103970",
-          "source": "더벨",
-          "title": "E&F PE-IS동서, '8000억 몸값' 코어엔텍 매각 재개"
-        }
-      ]
-    },
-    {
-      "pe": "하일랜드",
-      "action": "디앤티 인수 동반 엑시트",
-      "target": "디앤티",
-      "article_ids": [
-        "a22"
-      ],
-      "evidence": "하일랜드·동아에스티 동반 엑시트",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611051540150720102788",
-          "source": "더벨",
-          "title": "이음PE, 디앤티 인수 본계약…하일랜드·동아에스티 동반 엑시트"
-        }
-      ]
-    },
-    {
-      "pe": "동아에스티",
-      "action": "디앤티 인수 동반 엑시트",
-      "target": "디앤티",
-      "article_ids": [
-        "a22"
-      ],
-      "evidence": "하일랜드·동아에스티 동반 엑시트",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611051540150720102788",
-          "source": "더벨",
-          "title": "이음PE, 디앤티 인수 본계약…하일랜드·동아에스티 동반 엑시트"
+          "title": "군인공제회 PE 출자사업, VIG·어펄마·케이엘앤 등 선정"
         }
       ]
     }
   ],
   "for_sale": [
     {
-      "asset": "코어엔텍",
-      "seller": "E&F PE, IS동서",
-      "process_stage": "매각 재개",
+      "asset": "홈플러스 대형마트 부문",
+      "seller": "홈플러스",
       "article_ids": [
-        "a24"
+        "a33",
+        "a34"
       ],
-      "evidence": "코어엔텍 매각 재개",
+      "evidence": "대형마트 부문 인수·합병(M&A) 협상",
+      "process_stage": "협상 지연",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611050927048640103970",
-          "source": "더벨",
-          "title": "E&F PE-IS동서, '8000억 몸값' 코어엔텍 매각 재개"
-        }
-      ]
-    },
-    {
-      "asset": "에코플랜트 PRS",
-      "seller": "SK디스커버리",
-      "process_stage": "정리 추진",
-      "article_ids": [
-        "a11"
-      ],
-      "evidence": "에코플랜트 PRS 정리",
-      "_articles": [
+          "url": "https://www.khan.co.kr/article/202611081518001",
+          "source": "경향신문",
+          "title": "월급 밀리고 매대는 ‘텅텅’ 또다시 휘청이는 홈플러스···“기업회생..."
+        },
         {
-          "url": "https://www.sedaily.com/article/20110682",
-          "source": "서울경제",
-          "title": "SK디스커버리, 7년 만에 에코플랜트 PRS 정리…3800억 확보 전망 [시그널..."
-        }
-      ]
-    },
-    {
-      "asset": "실트론",
-      "seller": "SK㈜",
-      "process_stage": "매각 거론",
-      "article_ids": [
-        "a26"
-      ],
-      "evidence": "실트론 팔고 에코플랜트 사고",
-      "_articles": [
-        {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611051509303680104567",
-          "source": "더벨",
-          "title": "실트론 팔고 에코플랜트 사고...SK㈜, 반도체 포트폴리오 재조정"
+          "url": "https://www.etoday.co.kr/news/view/2645435",
+          "source": "이투데이",
+          "title": "월급 밀리고 매대까지 텅텅…홈플러스, 자금난에 회생 '안갯속'"
         }
       ]
     }
   ],
   "market_signals": [
     {
-      "type": "REGULATORY",
-      "summary": "원칙적 금지 시행으로 대기업 계열 IPO 위축",
+      "type": "DEAL_DROP",
+      "summary": "中 정부 ABB 로봇사업 인수 금지",
       "article_ids": [
+        "a32"
+      ],
+      "evidence": "중국 정부가 스위스 ABB의 로봇사업 인수를 금지",
+      "_articles": [
+        {
+          "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000502",
+          "source": "조선일보",
+          "title": "\"로봇 기술 못 내준다\"… 中 제동에 손정의 '피지컬 AI 제국' 흔들"
+        }
+      ]
+    },
+    {
+      "type": "REGULATORY",
+      "summary": "의무공개매수제 도입 논의로 M&A 비용 상승 우려",
+      "article_ids": [
+        "a3",
         "a23"
       ],
-      "evidence": "원칙적 금지 시행, 대기업 계열 IPO 사실상 '올스톱'",
+      "evidence": "의무공개매수제까지 도입되면 상장사 인수합병(M&A) 비용 구조가 근본적으로 바뀔",
       "_articles": [
         {
-          "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202611031104083880108255",
-          "source": "더벨",
-          "title": "원칙적 금지 시행, 대기업 계열 IPO 사실상 '올스톱'"
-        }
-      ]
-    },
-    {
-      "type": "REGULATORY",
-      "summary": "의무공개매수 50%+1주 법안 논란",
-      "article_ids": [
-        "a5"
-      ],
-      "evidence": "의무공개매수 '50%+1주' 법안",
-      "_articles": [
-        {
-          "url": "https://view.asiae.co.kr/article/2026110416230481805",
-          "source": "아시아경제",
-          "title": "\"주주평등 망치는 '꼼수' 난무한다\"…의무공개매수 '50%+1주' 법안의 역..."
-        }
-      ]
-    },
-    {
-      "type": "SECTOR_CONCENTRATION",
-      "summary": "내년 대형 M&A 증가 전망, 공제회 인수금융 기회 모색",
-      "article_ids": [
-        "a2"
-      ],
-      "evidence": "내년에도 유동성 관리에 중점",
-      "_articles": [
-        {
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680003.html",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/08/2026110880025.html",
           "source": "인베스트조선",
-          "title": "[Invest]회원 자금 이탈에 놀란 공제회들, 내년에도 유동성 관리에 중점"
-        }
-      ]
-    },
-    {
-      "type": "VALUATION_GAP",
-      "summary": "토종 PE와 글로벌 PE의 인수가격 인식 차이",
-      "article_ids": [
-        "a10"
-      ],
-      "evidence": "토종 사모펀드가 마주한 가격의 벽",
-      "_articles": [
+          "title": "[Invest]점점 비싸지는 공개매수, '81% 할증'까지…의무화 땐 M&A 비용 '격..."
+        },
         {
-          "url": "https://www.etoday.co.kr/news/view/2644577",
-          "source": "이투데이",
-          "title": "[노트북 너머] 토종 사모펀드가 마주한 가격의 벽"
-        }
-      ]
-    },
-    {
-      "type": "REGULATORY",
-      "summary": "EU 외국보조금규정(FSR)으로 징둥닷컴 M&A 조건부 승인",
-      "article_ids": [
-        "a7"
-      ],
-      "evidence": "EU, 조건부 승인",
-      "_articles": [
-        {
-          "url": "https://www.sedaily.com/article/20110784",
-          "source": "서울경제",
-          "title": "중국 징둥닷컴, 유럽 최대 가전유통사 품었다…EU, 조건부 승인"
+          "url": "https://www.khan.co.kr/article/202611081955005",
+          "source": "경향신문",
+          "title": "[정동칼럼]의무공개매수제의 균형 있는 해법"
         }
       ]
     }
@@ -417,22 +265,22 @@
   "diag": {
     "llm_raw": {
       "deals": 8,
-      "pe_moves": 6,
-      "for_sale": 3,
-      "market_signals": 5
+      "pe_moves": 2,
+      "for_sale": 1,
+      "market_signals": 2
     },
     "drops": [],
     "api": {
       "stop_reason": "tool_use",
       "usage": {
-        "input_tokens": 6858,
+        "input_tokens": 7353,
         "cache_creation_input_tokens": 0,
         "cache_read_input_tokens": 0,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
           "ephemeral_1h_input_tokens": 0
         },
-        "output_tokens": 2280,
+        "output_tokens": 1737,
         "output_tokens_details": {
           "thinking_tokens": 0
         },
