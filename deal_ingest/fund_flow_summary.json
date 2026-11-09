@@ -1,63 +1,19 @@
 {
-  "generated_at": "2026-11-08T22:11:23.676737+00:00",
+  "generated_at": "2026-11-09T22:11:11.822216+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 683,
+  "total_policy_articles": 691,
   "matched_funds_count": 3,
-  "unmatched_count": 256,
+  "unmatched_count": 259,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-11",
-      "last_updated": "2026-11-09",
-      "event_count": 424,
+      "first_seen": "2026-08-12",
+      "last_updated": "2026-11-10",
+      "event_count": 429,
       "timeline": [
-        {
-          "date": "2026-08-11",
-          "published_at": "2026-08-11T08:54:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "\"CGV, 불확실성 속 체질개선 계속…특화관은 긍정적\"-삼성",
-          "summary": "보여주는 사례가 잇따르고 있다\"며 \"기술 특별관 콘텐츠 적용이 확대된 가운데, 자회사 CJ 4D플렉스가 국민성장펀드 첨단전략산업기금 등 외부 투자유치를 추진 중으로 알려져 관심이 높아질 전망\"이라고 밝혔다.",
-          "url": "https://www.mt.co.kr/stock/2026/08/11/2026081108243982388",
-          "source_label": "머니투데이"
-        },
-        {
-          "date": "2026-08-11",
-          "published_at": "2026-08-11T09:08:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "“지방 가면 홍콩·도쿄랑 어떻게 경쟁하냐” 산은·기은·수은 노조 ‘...",
-          "summary": "특히 산업은행은 국민성장펀드와 첨단전략산업기금 등 대규모 정책금융을 맡고 있고, 기업은행은 중소기업·소상공인 금융을 담당하고 있다. 수출입은행 역시 수출기업 지원과 경제안보 관련 금융을 수행하고 있어...",
-          "url": "https://biz.heraldcorp.com/article/10836823",
-          "source_label": "헤럴드경제"
-        },
-        {
-          "date": "2026-08-11",
-          "published_at": "2026-08-11T11:16:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "“지방 가면 홍콩·도쿄랑 어떻게 경쟁하나” …산은·기은·수은 노조...",
-          "summary": "산은은 국민성장펀드와 첨단전략산업기금 등 대규모 정책금융을 담당하고 있으며, 기은은 중소기업과 소상공인에 대한 금융 지원을 맡고 있다. 수은도 수출기업 지원과 경제안보 관련 금융을 수행하고 있어 각 기관별...",
-          "url": "https://biz.heraldcorp.com/article/10837201",
-          "source_label": "헤럴드경제"
-        },
-        {
-          "date": "2026-08-11",
-          "published_at": "2026-08-11T21:27:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "산업·기업·수출입은행 노조 2000명 모였다…“지방 이전 결사반대”",
-          "summary": "산은은 국민성장펀드와 첨단전략산업기금 등 대규모 정책금융을 담당하고 있으며, 기은은 중소기업과 소상공인에 대한 금융 지원을 맡고 있다. 수은도 수출기업 지원과 경제안보 관련 금융을 수행하고 있다. 금융노조는...",
-          "url": "https://biz.heraldcorp.com/article/10837983",
-          "source_label": "헤럴드경제"
-        },
         {
           "date": "2026-08-12",
           "published_at": "2026-08-12T00:00:00+00:00",
@@ -4625,6 +4581,17 @@
         },
         {
           "date": "2026-11-06",
+          "published_at": "2026-11-06T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "국민성장펀드 없는 게 낫다?…독자 펀딩 '착착' 성공하는 PEF들",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680029.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-06",
           "published_at": "2026-11-06T10:31:00+09:00",
           "stage_code": "lp_commit",
           "stage_label": "LP 출자 확정",
@@ -4677,6 +4644,94 @@
           "summary": "국민성장펀드의 초기 메가프로젝트인 신안우이 해상풍력 발전사업은 지난 4월 프로젝트파이낸싱(PF) 금융약정으로 이어졌다. 정부와 대주단, 출자자들이 참여한 금융약정은 사업 승인 이후 실제 사업 추진에 필요한 금융...",
           "url": "https://www.fntimes.com/html/view.php?ud=202611062252591846dd55077bc2_18",
           "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-11-09",
+          "published_at": "2026-11-09T14:14:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "엔비디아-SKT-리벨리온 맞손…국산 NPU 글로벌 진출 타진",
+          "summary": "업계 일각에선 ‘국민성장펀드 1호 투자 기업’인 리벨리온이 엔비디아에 인수합병(M&A)될 가능성까지 거론되고 있다. 국내 인공지능 기술의 엔비디아 생태계 종속 문제가 지적되는 가운데, 이날 업무협약 체결식에선...",
+          "url": "https://www.hani.co.kr/arti/economy/it/1286419.html",
+          "source_label": "한겨레"
+        },
+        {
+          "date": "2026-11-09",
+          "published_at": "2026-11-09T15:54:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "SKT·엔비디아·리벨리온, 한국형 소버린 AI 구축 '삼각편대'",
+          "summary": "2026.11.9 jin90@yna.co.kr 인공지능(AI) 데이터센터 사업자 SK텔레콤과 국민성장펀드 1호 투자처이자 AI 반도체 스타트업인 리벨리온이 글로벌 AI 컴퓨팅을 선도하는 엔비디아와 손잡고 한국형 소버린(주권) AI 인프라를...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443790",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-11-09",
+          "published_at": "2026-11-09T16:08:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": "1조",
+          "title": "정무위 예산 심사…미래대응기금 ‘선편성’에 청년·서민 지원책도 도...",
+          "summary": "박 의원은 “국민성장펀드 투자 부분은 1조원밖에 안 된다”며 “이 부분이 바로잡히지 않으면 투자 사업이... “교육비만 집행하고 정작 채용한다는 기업이 없으면 어떻게 하나”라고 했다. 김 의원은 금융위에...",
+          "url": "https://www.etoday.co.kr/news/view/2645907",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-11-09",
+          "published_at": "2026-11-09T17:40:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "중기 '깡통대출' 3조 … 생산적 금융 딜레마",
+          "summary": "정부는 앞서 초저리 대출과 지분 투자 등을 통해 기업에 자금을 공급하는 200조원 규모 국민성장펀드를 추진하는 등 기업대출과 투자 확대를 유도하는 정책을 잇달아 내놓았다. 부동산과 가계대출에 집중된 금융자원을...",
+          "url": "https://www.mk.co.kr/article/12202750",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-11-09",
+          "published_at": "2026-11-09T20:56:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3조",
+          "title": "못 받은 돈만 3조, 더 빌려줄 수가…4대 은행 中企 ‘깡통대출’ 경고등",
+          "summary": "정부는 앞서 초저리 대출과 지분 투자 등을 통해 기업에 자금을 공급하는 200조원 규모 국민성장펀드를 추진하는 등 금융회사를 대상으로 기업대출과 투자 확대를 유도하는 정책을 잇달아 내놓았다. 부동산과 가계대출에...",
+          "url": "https://www.mk.co.kr/article/12202882",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-11-10",
+          "published_at": "2026-11-10T06:44:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": null,
+          "title": "예산 심사에서도 지적 받은 KIC 국부펀드…“당장 투자 못할수도”",
+          "summary": "장기투자를 위해 조성하는 전략형 국부펀드 사업이 내년에 만들어지더라도 실제 투자까지 집행되는 데... 정부는 국민성장펀드와 첨단전략산업기금을 활용해 직·간접투자와 융자 등으로도 지원 중이다. 이 수석위원은...",
+          "url": "https://view.asiae.co.kr/article/2026110915325616606",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-11-10",
+          "published_at": "2026-11-10T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[Invest]돈 풀겠다는데 손사래…기업들은 국민성장펀드가 달갑지 않다",
+          "summary": "또 다른 관계자는 \"결국 기업의 경쟁력을 높이려면 투자 이후의 엑시트 경로까지 뒷받침돼야 한다\"며 \"국내는 회수 수단이 기업공개(IPO)에 지나치게 한정돼 있는 만큼 인수합병(M&A) 시장 활성화도 함께 고민할 필요가 있다...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/09/2026110980172.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-10",
+          "published_at": "2026-11-10T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[Invest]국민성장펀드 없는 게 낫다?…독자 펀딩 '착착' 성공하는 PEF들",
+          "summary": "국민성장펀드 출자 없이 펀드 자금을 모으는 사모펀드(PEF) 운용사들이 눈길을 끌고 있다. 국민성장펀드가... A PEF 관계자는 \"국민성장펀드의 경우 펀드 규모를 제한하는 하드캡(최대결성액)과 연내 결성이라는...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/09/2026110980168.html",
+          "source_label": "인베스트조선"
         }
       ]
     },
@@ -4737,18 +4792,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-11",
-      "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/11/2026081180058.html",
-      "source_label": "인베스트조선"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "고용보험기금 1200억 PEF·VC 출자사업 개시",
-      "url": "https://dealsite.co.kr/articles/166843",
-      "source_label": "딜인사이트"
-    },
     {
       "date": "2026-08-12",
       "title": "'애물단지' 보험사 매각 잇단 '흥행'…다음 타자는 '롯데손보'",
@@ -5036,6 +5079,18 @@
       "title": "기술보증기금, ‘기업승계 M&A 매칭시스템’ 본격 가동",
       "url": "https://biz.chosun.com/industry/business-venture/2026/08/27/P3VBTGHES5EYDGFXDWPABL2R5Q/",
       "source_label": "조선일보"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "기보, 중소벤처기업 기업승계 지원…M&A 매칭시스템 구축",
+      "url": "https://www.yna.co.kr/view/AKR20260827033500051?input=1195m",
+      "source_label": "연합뉴스"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "기보, 중소벤처기업 전용 '기업승계 M&A 매칭시스템' 구축",
+      "url": "https://www.ajunews.com/view/20260827112125583",
+      "source_label": "아주경제"
     }
   ]
 }

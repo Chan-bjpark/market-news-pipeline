@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T22:11:24.528595+00:00",
+  "generated_at": "2026-11-09T22:11:12.831368+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-08T22:11:24.528500+00:00",
+    "sheet_synced_at": "2026-11-09T22:11:12.831256+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -1011,6 +1011,26 @@
           "status_label": "승인·확정",
           "url": "https://www.etoday.co.kr/news/view/2630518",
           "source": "이투데이"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "엔비디아-SKT-리벨리온 맞손…국산 NPU 글로벌 진출 타진",
+          "methods": [],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.hani.co.kr/arti/economy/it/1286419.html",
+          "source": "한겨레"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "SKT·엔비디아·리벨리온, 한국형 소버린 AI 구축 '삼각편대'",
+          "methods": [],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443790",
+          "source": "연합인포맥스"
         }
       ]
     },
@@ -3532,6 +3552,121 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "못할수도",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": null,
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "timeline": [
+        {
+          "date": "2026-11-10",
+          "event": "예산 심사에서도 지적 받은 KIC 국부펀드…“당장 투자 못할수도”",
+          "methods": [
+            "대출"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://view.asiae.co.kr/article/2026110915325616606",
+          "source": "아시아경제"
+        }
+      ]
+    },
+    {
+      "company_name": "착착",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": null,
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "timeline": [
+        {
+          "date": "2026-11-10",
+          "event": "[Invest]국민성장펀드 없는 게 낫다?…독자 펀딩 '착착' 성공하는 PEF들",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/09/2026110980168.html",
+          "source": "인베스트조선"
+        }
+      ]
+    },
+    {
+      "company_name": "선편성",
+      "sector": null,
+      "methods": [],
+      "amount": "1조",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "timeline": [
+        {
+          "date": "2026-11-09",
+          "event": "정무위 예산 심사…미래대응기금 ‘선편성’에 청년·서민 지원책도 도...",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.etoday.co.kr/news/view/2645907",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "company_name": "깡통대출",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "3조",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "timeline": [
+        {
+          "date": "2026-11-09",
+          "event": "중기 '깡통대출' 3조 … 생산적 금융 딜레마",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3조",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.mk.co.kr/article/12202750",
+          "source": "매일경제"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "못 받은 돈만 3조, 더 빌려줄 수가…4대 은행 中企 ‘깡통대출’ 경고등",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "3조",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.mk.co.kr/article/12202882",
+          "source": "매일경제"
+        }
+      ]
+    },
     {
       "company_name": "마중물",
       "sector": null,
@@ -10109,18 +10244,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-10-06",
-      "title": "[더벨][인사이드 헤지펀드] 수성운용, 주식운용본부 설립…국내주식 개...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610011007298720108164",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "정책자금 64% 대줘도 외면…글로벌 스케일업 대형리그 '흥행 부진'",
-      "url": "https://www.etoday.co.kr/news/view/2632567",
-      "source": "이투데이"
-    },
-    {
       "date": "2026-10-07",
       "title": "[경제일보] 기업 성장부터 취약차주 재기까지…IBK기업은행, 중기금융 ...",
       "url": "https://www.ajunews.com/view/20261007100729926",
@@ -10704,11 +10827,23 @@
     },
     {
       "date": "2026-11-06",
+      "title": "국민성장펀드 없는 게 낫다?…독자 펀딩 '착착' 성공하는 PEF들",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680029.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-06",
       "title": "국민성장펀드도 참여한 LIG D&A 5300억 투자…7개월 늦춰진 이유는",
       "url": "https://magazine.hankyung.com/business/article/202611061629b",
       "source": "한국경제"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "[Invest]돈 풀겠다는데 손사래…기업들은 국민성장펀드가 달갑지 않다",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/09/2026110980172.html",
+      "source": "인베스트조선"
     }
   ],
-  "matched_articles_this_run": 439,
+  "matched_articles_this_run": 444,
   "confirmed_deals_count": 16
 }
