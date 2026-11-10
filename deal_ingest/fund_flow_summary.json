@@ -1,52 +1,19 @@
 {
-  "generated_at": "2026-11-09T22:11:11.822216+00:00",
+  "generated_at": "2026-11-10T22:11:11.315834+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 691,
+  "total_policy_articles": 695,
   "matched_funds_count": 3,
-  "unmatched_count": 259,
+  "unmatched_count": 260,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-12",
-      "last_updated": "2026-11-10",
-      "event_count": 429,
+      "first_seen": "2026-08-13",
+      "last_updated": "2026-11-11",
+      "event_count": 432,
       "timeline": [
-        {
-          "date": "2026-08-12",
-          "published_at": "2026-08-12T00:00:00+00:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "'20% 완충'에도 기준가 하락…국민성장펀드 '비공개 투심'도 시험대",
-          "summary": "",
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/12/2026081280088.html",
-          "source_label": "인베스트조선"
-        },
-        {
-          "date": "2026-08-12",
-          "published_at": "2026-08-12T07:02:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": null,
-          "title": "[Invest]쏟아지는 정책성 펀드…대기업들은 출자 부담에 고심",
-          "summary": "모태펀드가 맞춤형 사업을 설계해 기업 등 경험이 부족한 출자자의 참여를 유도한다.전남광주통합특별시에 첫 삽을 뜬 국가AI컴퓨팅센터 사업은 국민성장펀드와 삼성SDS 컨소시엄 등이 출자한 특수목적법인(SPC...",
-          "url": "https://www.investchosun.com/site/data/html_dir/2026/08/11/2026081180057.html",
-          "source_label": "인베스트조선"
-        },
-        {
-          "date": "2026-08-12",
-          "published_at": "2026-08-12T07:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "[현장] “정책금융 심장 쪼개지 말라”…산은·기은·수은 2000명 여의도...",
-          "summary": "산업은행은 국민성장펀드와 첨단전략산업기금 등을 통해 국가 전략·첨단산업을 지원하고, 기업은행은 중소기업·소상공인 금융을, 수출입은행은 수출금융과 경제안보·금융외교 등을 담당하고 있다. 3사 노조는...",
-          "url": "https://www.fntimes.com/html/view.php?ud=2026081119375892435e6e69892f_18",
-          "source_label": "한국금융신문"
-        },
         {
           "date": "2026-08-13",
           "published_at": "2026-08-13T00:31:00+09:00",
@@ -4636,6 +4603,17 @@
         },
         {
           "date": "2026-11-09",
+          "published_at": "2026-11-09T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "연말 북클로징 앞둔 은행권…국민성장펀드 실적에 12월 PF까지 염두",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/09/2026110980170.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-09",
           "published_at": "2026-11-09T00:02:00+09:00",
           "stage_code": "lp_commit",
           "stage_label": "LP 출자 확정",
@@ -4732,6 +4710,61 @@
           "summary": "국민성장펀드 출자 없이 펀드 자금을 모으는 사모펀드(PEF) 운용사들이 눈길을 끌고 있다. 국민성장펀드가... A PEF 관계자는 \"국민성장펀드의 경우 펀드 규모를 제한하는 하드캡(최대결성액)과 연내 결성이라는...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/11/09/2026110980168.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-10",
+          "published_at": "2026-11-10T13:55:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "20조",
+          "title": "한국판 테마섹 꿈꾸는 KIC, '20조+α' 전략투자계정 시험대",
+          "summary": "기업에 대한 대출·보증보다는 기업에 대한 직접적인 지분투자를 중심으로 장기 투자자본을 공급하는 것이 기본방향이다. 모태펀드·국민성장펀드 등 기존 정책펀드를 비롯해 글로벌 투자자와의 공동투자도 추진할...",
+          "url": "https://www.newsis.com/view/NISX20261110_0003861924",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-11-10",
+          "published_at": "2026-11-10T18:26:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": "40조",
+          "title": "[단독]연 40조 확충한다는 국민성장펀드, 국회 심사에 30조 목표로 제출",
+          "summary": "금융위원회가 국민성장펀드 투자 목표액을 연간 30조원에서 40조원으로 늘리겠다고 밝혔지만, 국회에는... 정부 재정과 첨단전략산업기금, 산업은행 자체 재원, 민간투자 등을 구분한 투자 집행 계획 역시 추가로...",
+          "url": "https://www.joongang.co.kr/article/25477406",
+          "source_label": "중앙일보"
+        },
+        {
+          "date": "2026-11-10",
+          "published_at": "2026-11-10T22:20:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "“효율 찾아 삼자동맹\" 이기종 컴퓨팅 기반 소버린 AI 역량 강화 위해 손...",
+          "summary": "대한민국 국민성장펀드가 1호 투자처로 리벨리온을 선택하고, 정부가 AI 관련 대형 프로젝트를 주도하는... SK텔레콤이 인공지능 서비스와 독자 모델, AI 데이터센터와 컴퓨팅 환경까지 아우르는 풀스택(Full-Stack)...",
+          "url": "https://it.donga.com/109889/",
+          "source_label": "동아일보"
+        },
+        {
+          "date": "2026-11-11",
+          "published_at": "2026-11-11T00:02:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": "10조",
+          "title": "국민성장펀드 ‘10조’가 빈다…‘깜깜이’ 심사자료 논란",
+          "summary": "금융위원회가 국민성장펀드 투자 목표액을 연간 30조원에서 40조원으로 늘리겠다고 밝혔지만, 국회에는... 이어 정부 재정과 첨단전략산업기금, 산업은행 자체 재원, 민간투자 등을 구분한 투자 집행 계획을 추가로...",
+          "url": "https://www.joongang.co.kr/article/25477475",
+          "source_label": "중앙일보"
+        },
+        {
+          "date": "2026-11-11",
+          "published_at": "2026-11-11T06:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5000억",
+          "title": "주가 반토막난 LIG D&A… 디인베·IMM인베, 5000억 투자 또 연기",
+          "summary": "국민성장펀드 자금을 받아 추진하는 5300억원 규모 LIG디펜스앤에어로스페이스(LIG D&A) 투자가 내년 6월... LIG D&A가 지난달 22일 낸 입찰참가제한 제재 집행정지 신청에 법원은 이달 20일까지 임시 집행정지를...",
+          "url": "https://biz.chosun.com/stock/market_trend/2026/11/11/JQFYJAQSAJH2NHRMWRMF7GLZBA/",
+          "source_label": "조선일보"
         }
       ]
     },
@@ -4792,24 +4825,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-12",
-      "title": "'애물단지' 보험사 매각 잇단 '흥행'…다음 타자는 '롯데손보'",
-      "url": "https://www.news1.kr/finance/insurance-card/6255948",
-      "source_label": "뉴스1"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "[더벨][LP Radar] 수출입은행, 첫 벤처펀드 출자…LP성장펀드 참여",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608100839242940106125",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "우리銀, 상반기 생산적 금융 16.3조 공급…AI·반도체 등 첨단전략산업...",
-      "url": "https://biz.heraldcorp.com/article/10838296",
-      "source_label": "헤럴드경제"
-    },
     {
       "date": "2026-08-13",
       "title": "[더벨]부산창투원, 2대 원장 공모…서종군 초대원장 재도전 촉각",
@@ -5091,6 +5106,24 @@
       "title": "기보, 중소벤처기업 전용 '기업승계 M&A 매칭시스템' 구축",
       "url": "https://www.ajunews.com/view/20260827112125583",
       "source_label": "아주경제"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "'중소벤처 기업승계 전과정 돕는다' 기보, M&A 매칭시스템 구축",
+      "url": "https://www.fnnews.com/news/202608271022306051",
+      "source_label": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "‘시총 1000억’ 겨냥한 동원수산, 3년간 순익 50% 주주환원…저PBR 탈피...",
+      "url": "https://biz.heraldcorp.com/article/10854461",
+      "source_label": "헤럴드경제"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "모태펀드 관광·국민안전계정 GP에…인피니툼·호라이즌·현대차증권",
+      "url": "https://dealsite.co.kr/articles/167965",
+      "source_label": "딜인사이트"
     }
   ]
 }
