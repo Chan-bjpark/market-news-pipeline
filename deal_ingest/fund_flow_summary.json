@@ -1,118 +1,19 @@
 {
-  "generated_at": "2026-11-10T22:11:11.315834+00:00",
+  "generated_at": "2026-11-11T22:11:17.055234+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 695,
+  "total_policy_articles": 686,
   "matched_funds_count": 3,
-  "unmatched_count": 260,
+  "unmatched_count": 258,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-13",
-      "last_updated": "2026-11-11",
-      "event_count": 432,
+      "first_seen": "2026-08-14",
+      "last_updated": "2026-11-12",
+      "event_count": 425,
       "timeline": [
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T00:31:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": null,
-          "title": "‘생산적 금융’에도… 1년간 대출증가 58%는 대기업몫",
-          "summary": "커질수록 은행은 자본을 더 쌓아야 해 대출 여력이 줄어든다. 금융당국은 생산적 금융 활성화를 위해 RWA 규제를 완화하고, 국민성장펀드에 참여하는 금융기관의 출자·융자 업무에 대해 고의·중과실 등을 제외하고...",
-          "url": "https://www.donga.com/news/Economy/article/all/20260812/134467911/2",
-          "source_label": "동아일보"
-        },
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T07:06:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "3000억",
-          "title": "[2026 상반기 VC 리그테이블] [하우스] SBI 3000억 실탄 장전…200억 결손...",
-          "summary": "SBI인베스트먼트가 보유한 미집행 약정액은 2507억원으로 전체 8위에 올랐다. 보유 AUM 순위보다 일곱 계단... 기존 드라이파우더 2507억원에 7월 결성한 430억원 펀드의 투자재원이 더해졌고, 국민성장펀드 지역...",
-          "url": "https://dealsite.co.kr/articles/167077",
-          "source_label": "딜인사이트"
-        },
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T08:28:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "2조9000억",
-          "title": "현대차 정몽구 재단, ‘AI 시대의 기후테크 혁신 포럼’ 개최",
-          "summary": "정부는 올해 기후대응기금 운용 규모를 역대 최대인 2조9000억원으로 늘렸고, 첨단전략산업에 5년간 150조원을 공급하는 국민성장펀드를 조성해 재정이 후순위로 손실을 우선 부담하는 방식으로 민간자본을 유인하고...",
-          "url": "https://biz.heraldcorp.com/article/10839564",
-          "source_label": "헤럴드경제"
-        },
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T08:30:00+09:00",
-          "stage_code": "closed",
-          "stage_label": "결성 완료",
-          "amount": "9290억",
-          "title": "미래에셋벤처투자, 올해 주요 정책기관 출자로 9290억 펀드 결성 전망",
-          "summary": "업계 주요 정책 출자기관을 잇달아 확보했다는 점도 눈에 띈다. 미래에셋벤처투자는 산업은행이 운용하는 국민성장펀드를 비롯해 국민연금공단, 한국벤처투자, 한국성장금융의 출자사업에 모두 선정됐다. 업계에서는...",
-          "url": "https://view.asiae.co.kr/article/2026081308305562203",
-          "source_label": "아시아경제"
-        },
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T08:57:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "2조9000억",
-          "title": "현대차 정몽구 재단, 제2회 'AI 시대의 기후테크 혁신 포럼' 개최",
-          "summary": "정부는 올해 기후대응기금 운용 규모를 역대 최대인 2조9000억원으로 늘렸고, 첨단전략산업에 5년간 150조원을 공급하는 국민성장펀드를 조성해 재정이 후순위로 손실을 우선 부담하는 방식으로 민간자본을 유인하고...",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03781846645546992",
-          "source_label": "이데일리"
-        },
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T09:00:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "150조",
-          "title": "기후테크에 150조 풀리는데…왜 기업은 여전히 돈이 없나",
-          "summary": "정부는 올해 기후대응기금 운용 규모를 역대 최대인 2조9000억 원으로 확대했다. 첨단전략산업에 5년간 150조 원을 공급하는 국민성장펀드도 조성해 재정이 후순위로 손실을 우선 부담하는 방식으로 민간자본의 참여를...",
-          "url": "https://futurechosun.com/?p=157467",
-          "source_label": "조선일보"
-        },
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T11:03:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "4690억원",
-          "title": "미래에셋벤처투자, 올해 주요 정책기관들로부터 출자 아 펀드 결성규모...",
-          "summary": "미래에셋벤처투자(100790)가 올해 주요 정책기관의 출자 사업을 연이어 따내며 8월 누적으로 4690억원 규모의... 출자자인 산업은행(국민성장펀드), 국민연금공단, 한국벤처투자, 한국성장금융의 출자사업에 모두 선정...",
-          "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04490326645546992",
-          "source_label": "이데일리"
-        },
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T11:40:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "2조9000억",
-          "title": "“AI 시대, 기후테크 금융 해법 논의”…현대차 정몽구재단, 포럼 개최",
-          "summary": "정부는 올해 기후대응기금 운용 규모를 역대 최대인 2조9000억원으로 늘렸고, 첨단전략산업에 5년간 150조원을 공급하는 국민성장펀드를 통해 민간자본 유입을 유도하고 있다. 기후테크 특별법안 발의로 제도적 근거도...",
-          "url": "https://www.mk.co.kr/article/12126385",
-          "source_label": "매일경제"
-        },
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T14:00:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "9000억원",
-          "title": "미래에셋벤처투자, 올해 정책기관 출자 펀드 '9000억원' 돌파 전망",
-          "summary": "미래에셋벤처투자가 올해 주요 정책기관의 출자 사업을 연이어 따내며 8월 누적 기준 4690억원 규모의 신규... 출자자인 산업은행(국민성장펀드), 국민연금공단, 한국벤처투자, 한국성장금융의 출자사업에 모두 선정돼...",
-          "url": "https://www.mt.co.kr/stock/2026/08/13/2026081308514192921",
-          "source_label": "머니투데이"
-        },
         {
           "date": "2026-08-14",
           "published_at": "2026-08-14T09:54:00+09:00",
@@ -4765,6 +4666,61 @@
           "summary": "국민성장펀드 자금을 받아 추진하는 5300억원 규모 LIG디펜스앤에어로스페이스(LIG D&A) 투자가 내년 6월... LIG D&A가 지난달 22일 낸 입찰참가제한 제재 집행정지 신청에 법원은 이달 20일까지 임시 집행정지를...",
           "url": "https://biz.chosun.com/stock/market_trend/2026/11/11/JQFYJAQSAJH2NHRMWRMF7GLZBA/",
           "source_label": "조선일보"
+        },
+        {
+          "date": "2026-11-11",
+          "published_at": "2026-11-11T10:28:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "3500억원",
+          "title": "원익홀딩스, 국민성장펀드 투자계약 확정…원익로보틱스 IPO 실패 시 매...",
+          "summary": "금융위원회는 지난 8월 27일 국민성장펀드 기금운용심의회에서 원익로보틱스의 휴머노이드 양산시설 구축 사업에 대한 자금지원을 승인했다. [AI 일러스트=설희 기자] 전체 투자금 3500억원 가운데 1500억원은...",
+          "url": "https://www.newspim.com/news/view/20261111000384",
+          "source_label": "뉴스핌"
+        },
+        {
+          "date": "2026-11-12",
+          "published_at": "2026-11-12T07:02:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "1300억원",
+          "title": "함영주號 하나금융, 탄소집약도 19.6% 개선…공급망 등 금융배출량 6.6%...",
+          "summary": "지난 9월 국민성장펀드 심의에서 첨단전략산업기금의 PF 대출 1300억원 지원도 승인됐다. 완도 금일... 하나금융은 은행과 증권 등 계열사가 공동 출자한 5000억원 규모의 ‘하나모두성장인프라펀드’를 활용해...",
+          "url": "https://www.fntimes.com/html/view.php?ud=2026111118044779995e6e69892f_18",
+          "source_label": "한국금융신문"
+        }
+      ]
+    },
+    {
+      "fund_name": "성장사다리펀드",
+      "current_stage_code": "closed",
+      "current_stage_label": "결성 완료",
+      "next_expected_event": "(완료)",
+      "first_seen": "2026-09-01",
+      "last_updated": "2026-11-11",
+      "event_count": 2,
+      "timeline": [
+        {
+          "date": "2026-09-01",
+          "published_at": "2026-09-01T07:02:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "1000억",
+          "title": "[더벨]인라이트벤처스, 1000억 지역펀드 결성",
+          "summary": "위탁운용사(GP)로 선정돼 400억원을 확보했다. 추가로 한국성장금융 성장사다리펀드2 기후대응 자율제안 분야 출자사업을 따내면서 200억원을 추가했다. 여기에 금융기관, 지방자치단체, 민간기업 등이 출자자(LP)로...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608310801382140102913",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-11-11",
+          "published_at": "2026-11-11T20:52:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "62억",
+          "title": "모태펀드, 특허기술사업화 펀드에 62억 출자",
+          "summary": "위탁운용사(GP) 1곳을 선정할 계획이다. 11일 한국벤처투자는 2026년 11월 모태펀드 특허계정 수시 출자사업... 모태펀드가 62억5000만원, 공동 출자자인 성장사다리펀드2가 187억5000만원을 각각 출자한다. 두 기관의 출자금...",
+          "url": "https://dealsite.co.kr/articles/172594",
+          "source_label": "딜인사이트"
         }
       ]
     },
@@ -4789,66 +4745,9 @@
           "source_label": "딜인사이트"
         }
       ]
-    },
-    {
-      "fund_name": "성장사다리펀드",
-      "current_stage_code": "closed",
-      "current_stage_label": "결성 완료",
-      "next_expected_event": "(완료)",
-      "first_seen": "2026-08-13",
-      "last_updated": "2026-09-01",
-      "event_count": 2,
-      "timeline": [
-        {
-          "date": "2026-08-13",
-          "published_at": "2026-08-13T14:40:00+09:00",
-          "stage_code": "gp_open",
-          "stage_label": "GP 모집",
-          "amount": "250억 원",
-          "title": "성장금융, 성장사다리펀드2 3차년도 GP 10곳 확정",
-          "summary": "한국성장금융투자운용이 2026년 성장사다리펀드2 출자사업의 세 번째 위탁운용사(GP) 명단을 발표했다. 13일... 두 출자기관을 합쳐 자펀드당 250억 원을 출자한다. 선정 운용사는 500억 원 이상의 펀드를 조성해야 한다....",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430014",
-          "source_label": "연합인포맥스"
-        },
-        {
-          "date": "2026-09-01",
-          "published_at": "2026-09-01T07:02:00+09:00",
-          "stage_code": "closed",
-          "stage_label": "결성 완료",
-          "amount": "1000억",
-          "title": "[더벨]인라이트벤처스, 1000억 지역펀드 결성",
-          "summary": "위탁운용사(GP)로 선정돼 400억원을 확보했다. 추가로 한국성장금융 성장사다리펀드2 기후대응 자율제안 분야 출자사업을 따내면서 200억원을 추가했다. 여기에 금융기관, 지방자치단체, 민간기업 등이 출자자(LP)로...",
-          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608310801382140102913",
-          "source_label": "더벨"
-        }
-      ]
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-13",
-      "title": "[더벨]부산창투원, 2대 원장 공모…서종군 초대원장 재도전 촉각",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608110853346880106122",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "산은·국민연금까지 잇단 낙점…미래에셋벤처, 정책 LP '4관왕' [fn마켓워...",
-      "url": "http://www.fnnews.com/news/202608130826302388",
-      "source_label": "파이낸셜뉴스"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "보험사 없는 한국투자금융, KDB생명 품는다…우선협상대상자 선정",
-      "url": "https://www.news1.kr/finance/insurance-card/6258607",
-      "source_label": "뉴스1"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "한국금융지주, KDB생명 인수 우선협상대상자로 선정",
-      "url": "https://www.news1.kr/finance/general-stock/6258616",
-      "source_label": "뉴스1"
-    },
     {
       "date": "2026-08-14",
       "title": "정부 움직인다...수은, 우주항공 경쟁력 컨설팅 용역",
@@ -5124,6 +5023,30 @@
       "title": "모태펀드 관광·국민안전계정 GP에…인피니툼·호라이즌·현대차증권",
       "url": "https://dealsite.co.kr/articles/167965",
       "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "모태펀드 특허계정 GP에 크로스로드·디티앤인베-CKD창투",
+      "url": "https://dealsite.co.kr/articles/167956",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "[단독]FI로부터 지분 장기보유 약속받았다는 인제니아…오버행 우려 완...",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02761766645551912&mediaCodeNo=257",
+      "source_label": "이데일리"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "[금리 3% 후폭풍]④자산·부채 듀레이션에 엇갈리는 보험사 킥스",
+      "url": "https://view.asiae.co.kr/article/2026082808153914511",
+      "source_label": "아시아경제"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "[K바이오 점프업] ② R&D 넘어 사업화로…\"성장사다리 만들어야\"",
+      "url": "https://www.yna.co.kr/view/AKR20260828165600017?input=1195m",
+      "source_label": "연합뉴스"
     }
   ]
 }

@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-11-10T22:11:03.827926+00:00",
+  "generated_at": "2026-11-11T22:11:09.224806+00:00",
   "items": {
     "CD(91일)": {
       "item_code": "010502000",
-      "latest_date": "2026-11-10",
+      "latest_date": "2026-11-11",
       "latest_value": 3.37,
-      "prev_day_date": "2026-11-09",
-      "vs_prev_day_bp": 1.0,
-      "prev_month_date": "2026-10-08",
+      "prev_day_date": "2026-11-10",
+      "vs_prev_day_bp": 0.0,
+      "prev_month_date": "2026-10-12",
       "vs_prev_month_bp": 13.0,
       "recent_series": [
-        {
-          "date": "2026-10-21",
-          "value": 3.26
-        },
         {
           "date": "2026-10-22",
           "value": 3.26
@@ -69,26 +65,24 @@
         {
           "date": "2026-11-10",
           "value": 3.37
+        },
+        {
+          "date": "2026-11-11",
+          "value": 3.37
         }
       ],
       "source": "ECOS"
     },
     "국고채(3년)": {
-      "latest_date": "2026-11-09",
-      "latest_value": 3.64,
+      "latest_date": "2026-11-10",
+      "latest_value": 3.636,
       "isin": "KR103501GG62",
       "name": "국고03500-2906(26-5)",
-      "prev_day_date": "2026-11-06",
-      "vs_prev_day_bp": 2.8,
+      "prev_day_date": "2026-11-09",
+      "vs_prev_day_bp": -0.4,
       "prev_month_date": "2026-10-08",
-      "vs_prev_month_bp": -34.0,
+      "vs_prev_month_bp": -34.4,
       "recent_series": [
-        {
-          "date": "2026-10-20",
-          "value": 3.84,
-          "isin": "KR103501GG62",
-          "name": "국고03500-2906(26-5)"
-        },
         {
           "date": "2026-10-21",
           "value": 3.822,
@@ -172,26 +166,26 @@
           "value": 3.64,
           "isin": "KR103501GG62",
           "name": "국고03500-2906(26-5)"
+        },
+        {
+          "date": "2026-11-10",
+          "value": 3.636,
+          "isin": "KR103501GG62",
+          "name": "국고03500-2906(26-5)"
         }
       ],
       "source": "KFP/KRX"
     },
     "국고채(10년)": {
-      "latest_date": "2026-11-09",
-      "latest_value": 3.863,
+      "latest_date": "2026-11-10",
+      "latest_value": 3.851,
       "isin": "KR103503GG60",
       "name": "국고04250-3606(26-6)",
-      "prev_day_date": "2026-11-06",
-      "vs_prev_day_bp": 1.1,
+      "prev_day_date": "2026-11-09",
+      "vs_prev_day_bp": -1.2,
       "prev_month_date": "2026-10-08",
-      "vs_prev_month_bp": -53.1,
+      "vs_prev_month_bp": -54.3,
       "recent_series": [
-        {
-          "date": "2026-10-20",
-          "value": 4.176,
-          "isin": "KR103503GG60",
-          "name": "국고04250-3606(26-6)"
-        },
         {
           "date": "2026-10-21",
           "value": 4.16,
@@ -273,6 +267,12 @@
         {
           "date": "2026-11-09",
           "value": 3.863,
+          "isin": "KR103503GG60",
+          "name": "국고04250-3606(26-6)"
+        },
+        {
+          "date": "2026-11-10",
+          "value": 3.851,
           "isin": "KR103503GG60",
           "name": "국고04250-3606(26-6)"
         }
@@ -578,7 +578,7 @@
   },
   "policy_rates": {
     "한국 기준금리": {
-      "latest_date": "2026-11-08",
+      "latest_date": "2026-11-09",
       "latest_value": 3.0,
       "last_change_date": "2026-08-27",
       "last_change_from": 2.75,
@@ -589,7 +589,7 @@
       "source": "ECOS"
     },
     "미국 기준금리": {
-      "latest_date": "2026-11-10",
+      "latest_date": "2026-11-11",
       "latest_value": 4.0,
       "last_change_date": "2026-09-17",
       "last_change_from": 3.75,
