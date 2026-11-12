@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T22:11:31.259469+00:00",
-  "model": "claude-haiku-5-5",
+  "generated_at": "2026-11-12T22:11:32.904925+00:00",
+  "model": "claude-haiku-4-5-20251001",
   "candidates": 35,
   "ok": false,
   "fallback": true,
@@ -8,5 +8,5 @@
   "pe_moves": [],
   "for_sale": [],
   "market_signals": [],
-  "reason": "'str' object has no attribute 'get'"
+  "reason": "Claude 호출 실패: HTTP 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgyoPz6yda14drkmKfmv6\"}"
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T22:11:17.055234+00:00",
+  "generated_at": "2026-11-12T22:11:19.049329+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 686,
+  "total_policy_articles": 689,
   "matched_funds_count": 3,
   "unmatched_count": 258,
   "funds": [
@@ -10,43 +10,10 @@
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-14",
+      "first_seen": "2026-08-15",
       "last_updated": "2026-11-12",
-      "event_count": 425,
+      "event_count": 428,
       "timeline": [
-        {
-          "date": "2026-08-14",
-          "published_at": "2026-08-14T09:54:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "1조",
-          "title": "\"1조도 다 못 썼는데 5조라니\"…은행권, PF 확대 주문에 부담 커진다",
-          "summary": "금융당국이 부동산 프로젝트파이낸싱(PF) 시장 자금난 해소를 위해 신디케이트론(공동대출) 규모를... 이에 더해 기존 5년간 150조원에서 200조원 규모로 확대된 국민성장펀드 출자와 생산적 금융 전환 요구가...",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430136",
-          "source_label": "연합인포맥스"
-        },
-        {
-          "date": "2026-08-14",
-          "published_at": "2026-08-14T10:21:00+09:00",
-          "stage_code": "planning",
-          "stage_label": "조성 계획",
-          "amount": "18조",
-          "title": "産銀, AI·반도체 투자 위해 18조원 국가채무보증 요청",
-          "summary": "정부는 지난해 산업은행에 첨단전략산업기금을 신설하고 이에 매칭해 150조원 규모의 국민성장펀드를 출범했다. 국민성장펀드는 당초 연간 30조원, 5년간 150조원 규모로 운영할 계획이었지만 정부는 내년부터 이를 연간...",
-          "url": "https://biz.chosun.com/stock/finance/2026/08/14/VIWULGSVNJDLRPGJO4PRXLRTGA/",
-          "source_label": "조선일보"
-        },
-        {
-          "date": "2026-08-14",
-          "published_at": "2026-08-14T10:43:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "265억",
-          "title": "세보엠이씨, 265억 규모 국가 AI 컴퓨팅센터 설비공사 수주",
-          "summary": "발주·운영은 과학기술정보통신부, 금융위 국민성장펀드, 지자체 등이 공동 출자해 설립한 특수목적법인 한국에이아이컴퓨팅센터가 전담한다. 삼성에스디에스 컨소시엄(삼성물산 포함)이 사업자로 선정돼 구축을...",
-          "url": "https://www.newsis.com/view/NISX20260814_0003749155",
-          "source_label": "뉴시스"
-        },
         {
           "date": "2026-08-15",
           "published_at": "2026-08-15T06:00:00+09:00",
@@ -4688,6 +4655,72 @@
           "summary": "지난 9월 국민성장펀드 심의에서 첨단전략산업기금의 PF 대출 1300억원 지원도 승인됐다. 완도 금일... 하나금융은 은행과 증권 등 계열사가 공동 출자한 5000억원 규모의 ‘하나모두성장인프라펀드’를 활용해...",
           "url": "https://www.fntimes.com/html/view.php?ud=2026111118044779995e6e69892f_18",
           "source_label": "한국금융신문"
+        },
+        {
+          "date": "2026-11-12",
+          "published_at": "2026-11-12T08:12:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[더벨][GP 블라인드펀드 줌인] 노앤파트너스, 과기공·수은 연속 선정…...",
+          "summary": "사모투자펀드(PEF) 운용사 노앤파트너스가 과학기술인공제회와 한국수출입은행의 블라인드펀드... 국민성장펀드 중형 리그의 방향과 맞닿아 있다. 이번 기관 선정에 이어 정책 출자사업을 활용해 결성 규모를 확대할...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611101035444360107588",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-11-12",
+          "published_at": "2026-11-12T10:29:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "초기 투자부터 IPO까지…코오롱인베 \"기업 성장의 동반자 될 것\"",
+          "summary": "내년에 AUM 1조원 넘어설 전망 이 같은 투자 방식은 국민성장펀드 초장기기술투자펀드 운용 전략과도 맞닿아... 이번 펀드를 더하면 1조원을 넘어설 전망이다. 기존 펀드에서는 초기 투자 이후 후속 투자를 집행하려면...",
+          "url": "https://www.hankyung.com/article/202611107012r",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-11-12",
+          "published_at": "2026-11-12T10:57:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": "5300억",
+          "title": "5300억 투자 연기한 LIG D&A…입찰제한소송에 방산사업 향방도 ‘변수’",
+          "summary": "당초 9월 16일이었던 납입일이 두 차례 조정되면서 투자금 집행 시점도 늦어졌다. 이번 증자는 구미3하우스... 자금조달 구조에는 국민성장펀드와 민간 투자자가 함께 참여한다. 국민성장펀드가 최대 1500억원 출자를...",
+          "url": "https://www.mk.co.kr/article/12206168",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-11-12",
+          "published_at": "2026-11-12T11:01:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": "150조",
+          "title": "“지방 정책자금 공급 차질 없이“… 대구서 두번째 ‘정책금융 동행’",
+          "summary": "정부는 150조원 규모의 국민성장펀드 가운데 40%를 지방에 투자하기로 했다. 지난 7월에는 국민성장펀드의... 규모의 저리 보증부 대출을 공급하는 방안을 발표했다. 산업은행 등에 따르면 대구 경제는 제조업 생산과...",
+          "url": "https://biz.chosun.com/stock/finance/2026/11/12/UEEFUOQGLZFQJNKYMEC3M4VTCU/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-11-12",
+          "published_at": "2026-11-12T13:22:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "4조",
+          "title": "클러쉬, 2.4조 국가AI컴퓨팅센터 사업 참여…중소기업 유일",
+          "summary": "이 회사는 정부 주도 국가AI컴퓨팅센터 사업에 중소기업으로는 유일하게 이름을 올린 모습이다.... 윤 그룹장은 중견기업 승계에 따른 경영권 거래 수요와 국민성장펀드 등 정책자금 유입을 들어 내년 거래가 더...",
+          "url": "https://www.sedaily.com/article/20113433",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-11-12",
+          "published_at": "2026-11-12T15:30:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1조",
+          "title": "[단독] 국민성장펀드 사무국도 예산안 재탕…재정 투입 규모도 못 정해",
+          "summary": "“재정 투입 규모, 연말 기금운용심의회서 확정” 금융위는 또 국민성장펀드의 내년도 정부 재정 투입 규모를 1조원으로 제시했지만, 이 역시 확정되지 않은 금액이다. 금융위가 국회에 제출한 ‘국민성장펀드 운용규모...",
+          "url": "https://www.joongang.co.kr/article/25478041",
+          "source_label": "중앙일보"
         }
       ]
     },
@@ -4748,42 +4781,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-14",
-      "title": "정부 움직인다...수은, 우주항공 경쟁력 컨설팅 용역",
-      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608120954486680107112",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "'수은-한화 협력' 과도기 체제 가능성은",
-      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608131455340200102623",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "[더벨][현장 줌인] LP성장펀드 출범, 연기금·기업 벤처투자 대거 참여",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608131528465880107433",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "KDB생명 품는 한투…보험사 M&A 판도 바뀐다",
-      "url": "https://biz.heraldcorp.com/article/10841482",
-      "source_label": "헤럴드경제"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "롯데손보, 2분기 영업익·순익 흑자전환⋯기본자본 개선",
-      "url": "https://www.etoday.co.kr/news/view/2614681",
-      "source_label": "이투데이"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "6번 퇴짜맞던 KDB생명 '반전'…1조 수혈에 새 주인 찾기 눈앞",
-      "url": "https://www.news1.kr/finance/insurance-card/6259176",
-      "source_label": "뉴스1"
-    },
     {
       "date": "2026-08-16",
       "title": "신보, 투자기업 649곳 가치 재평가⋯옥석 가려 ‘회수전략’ 마련",
@@ -5047,6 +5044,42 @@
       "title": "[K바이오 점프업] ② R&D 넘어 사업화로…\"성장사다리 만들어야\"",
       "url": "https://www.yna.co.kr/view/AKR20260828165600017?input=1195m",
       "source_label": "연합뉴스"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "남궁원 하나생명 대표, 종신보험 중심 CSM 확보 가속 페달 [보험사 기본...",
+      "url": "https://www.fntimes.com/html/view.php?ud=202608282254314183dd55077bc2_18",
+      "source_label": "한국금융신문"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "은행마다 다른 보증부대출 금리…신보, '금리 견적서' 만든다",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432556",
+      "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "50년 만에 벤처로 간 수은…황기연표 '모험금융' 첫발",
+      "url": "https://dealsite.co.kr/articles/167930",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "신한은행·기보, 중기 기업승계·M&A 지원…438억 공급",
+      "url": "https://www.mt.co.kr/finance/2026/08/31/2026083115413158109",
+      "source_label": "머니투데이"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "기보, 신한은행과 기업승계·M&A 금융지원 '맞손'",
+      "url": "https://www.ajunews.com/view/20260831153932089",
+      "source_label": "아주경제"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "신한은행, 기보와 중소기업 기업승계·M&A 금융지원",
+      "url": "https://www.newsis.com/view/NISX20260831_0003770134",
+      "source_label": "뉴시스"
     }
   ]
 }

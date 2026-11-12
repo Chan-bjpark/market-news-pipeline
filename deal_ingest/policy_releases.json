@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T22:11:31.070334+00:00",
+  "generated_at": "2026-11-12T22:11:32.835168+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,84 @@
     }
   },
   "releases": [
+    {
+      "title": "가상자산사업자에 대한 최고 수준의 보안 강화 조치를 통해 이용자의 자산과 정보를 철저히 지켜나가겠습니다.",
+      "date": "2026-11-12",
+      "url": "https://www.fsc.go.kr/no010101/88133",
+      "agency": "금융위"
+    },
+    {
+      "title": "인터넷/SNS상 코스닥 추가대책에 대한 허위정보 관련 투자자 유의사항",
+      "date": "2026-11-12",
+      "url": "https://www.fsc.go.kr/no010101/88132",
+      "agency": "금융위"
+    },
+    {
+      "title": "사업보고서 등에 대한 조사·감리결과 조치",
+      "date": "2026-11-12",
+      "url": "https://www.fsc.go.kr/no010101/88127",
+      "agency": "금융위"
+    },
+    {
+      "title": "금융회사 지배구조의 공정성과 투명성을 제고합니다.",
+      "date": "2026-11-12",
+      "url": "https://www.fsc.go.kr/no010101/88125",
+      "agency": "금융위"
+    },
+    {
+      "title": "2026년 10월 가계대출 동향(잠정)",
+      "date": "2026-11-12",
+      "url": "https://www.fsc.go.kr/no010101/88124",
+      "agency": "금융위"
+    },
+    {
+      "title": "미공개 무상증자정보를 이용한 내부자등에 대한 중대범죄수사청 고발·통보 조치 의결",
+      "date": "2026-11-12",
+      "url": "https://www.fsc.go.kr/no010101/88123",
+      "agency": "금융위"
+    },
+    {
+      "title": "범부처 민생안정지원단, 청년 취업지원 현장 점검",
+      "date": "2026-11-12",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079929&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "국방분야 혁신제품 최초 지정",
+      "date": "2026-11-12",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079935&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "제18회 국제금융기구 채용설명회 개최",
+      "date": "2026-11-12",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079925&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "양극화 대응 TF 총괄반 1차 회의 개최",
+      "date": "2026-11-12",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079934&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "진에어-에어서울-에어부산 합병 인가, 27년 3월 17일부터 진에어로 통합 예정",
+      "date": "2026-11-12",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48219",
+      "agency": "공정위"
+    },
+    {
+      "title": "중견 건설사 대상 민관협의체 개최",
+      "date": "2026-11-12",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48218",
+      "agency": "공정위"
+    },
+    {
+      "title": "2026년도 공정위·한국산업조직학회 공동 정책포럼 개최",
+      "date": "2026-11-12",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48217",
+      "agency": "공정위"
+    },
     {
       "title": "건설노동자, 플랫폼노동자와 프리랜서에 대한 포용금융으로 금융이용 문턱 낮아진다",
       "date": "2026-11-11",
@@ -56,27 +134,15 @@
       "agency": "기재부"
     },
     {
+      "title": "한-ADB 고위급 연례협의 개최",
+      "date": "2026-11-11",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079942&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
       "title": "이형일 부총리, 취임 후 첫 재경관 화상회의 개최",
       "date": "2026-11-11",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079918&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "새로운 성장동력 발굴을 위한 「2026 초혁신경제 포럼」 개최",
-      "date": "2026-11-11",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079907&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "아세안+3 역내 위기 대응 역량을 강화하는 신속금융 프로그램(RFF) 시행",
-      "date": "2026-11-11",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079919&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "제13차 관계부처 합동 일자리전담반(TF) 개최",
-      "date": "2026-11-11",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079914&menuNo=4010100",
       "agency": "기재부"
     },
     {
@@ -122,21 +188,9 @@
       "agency": "금융위"
     },
     {
-      "title": "제19회 아시아 고위공무원 초청연수 실시",
-      "date": "2026-11-09",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079901&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "기업결합 시정조치 부과기준 고시 개정안 행정예고",
       "date": "2026-11-09",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48199",
-      "agency": "공정위"
-    },
-    {
-      "title": "배달앱 불공정행위 제재",
-      "date": "2026-11-09",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48198",
       "agency": "공정위"
     },
     {
@@ -149,60 +203,6 @@
       "title": "현재 유포되고 있는 부동산 대책 관련 게시글의 보도에 유의하여 주시기 바랍니다.",
       "date": "2026-11-06",
       "url": "https://www.fsc.go.kr/no010101/88099",
-      "agency": "금융위"
-    },
-    {
-      "title": "금융권은 개인정보 유출 사고에 따른 보이스피싱 예방에 총력 대응하고 있습니다.",
-      "date": "2026-11-06",
-      "url": "https://www.fsc.go.kr/no010101/88098",
-      "agency": "금융위"
-    },
-    {
-      "title": "반도체 전문가 간담회 개최",
-      "date": "2026-11-06",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079895&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "공정거래법 시행령 개정안 입법예고",
-      "date": "2026-11-06",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48192",
-      "agency": "공정위"
-    },
-    {
-      "title": "기업지배구조보고서 공시를 통해 상장회사의 주주보호와 주주환원 노력을 확대해 나가겠습니다.",
-      "date": "2026-11-05",
-      "url": "https://www.fsc.go.kr/no010101/88091",
-      "agency": "금융위"
-    },
-    {
-      "title": "AI시대, 거세지는 침해위협에 맞서 全 금융권이 튼튼한 보안체계로 무장하도록 혁신적인 정책과제를 적극 추진하겠습니다.",
-      "date": "2026-11-05",
-      "url": "https://www.fsc.go.kr/no010101/88086",
-      "agency": "금융위"
-    },
-    {
-      "title": "｢“취재정보로 매매해 ○○억 부당이득”···○○신문 조사 마무리｣ 보도 관련",
-      "date": "2026-11-05",
-      "url": "https://www.fsc.go.kr/no010101/88085",
-      "agency": "금융위"
-    },
-    {
-      "title": "결혼분야 모니터링 최종결과 및 위반 사업자에 대한 제재",
-      "date": "2026-11-05",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48190",
-      "agency": "공정위"
-    },
-    {
-      "title": "한국, 아시아지배구조협회(ACGA) 기업지배구조 순위 역대급 ‘5위’ 달성",
-      "date": "2026-11-04",
-      "url": "https://www.fsc.go.kr/no010101/88084",
-      "agency": "금융위"
-    },
-    {
-      "title": "홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치 - 제19차 금융위원회(11.4.) 의결",
-      "date": "2026-11-04",
-      "url": "https://www.fsc.go.kr/no010101/88082",
       "agency": "금융위"
     }
   ]

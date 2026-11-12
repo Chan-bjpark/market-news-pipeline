@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T22:11:17.900097+00:00",
+  "generated_at": "2026-11-12T22:11:19.898506+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-11T22:11:17.900006+00:00",
+    "sheet_synced_at": "2026-11-12T22:11:19.898420+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -1248,7 +1248,6 @@
       "approved": "2026.4",
       "methods": [
         "인프라투자",
-        "출자",
         "대출",
         "사채인수"
       ],
@@ -1972,6 +1971,16 @@
           "status_label": "검토단계",
           "url": "https://www.edaily.co.kr/News/Read?newsId=05421846645643096&mediaCodeNo=257",
           "source": "이데일리"
+        },
+        {
+          "date": "2026-11-12",
+          "event": "클러쉬, 2.4조 국가AI컴퓨팅센터 사업 참여…중소기업 유일",
+          "methods": [],
+          "amount": "4조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.sedaily.com/article/20113433",
+          "source": "서울경제"
         }
       ]
     },
@@ -3562,6 +3571,80 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "노앤파트너스",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": null,
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "timeline": [
+        {
+          "date": "2026-11-12",
+          "event": "[더벨][GP 블라인드펀드 줌인] 노앤파트너스, 과기공·수은 연속 선정…...",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611101035444360107588",
+          "source": "더벨"
+        }
+      ]
+    },
+    {
+      "company_name": "부터",
+      "sector": null,
+      "methods": [],
+      "amount": "1조",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "timeline": [
+        {
+          "date": "2026-11-12",
+          "event": "초기 투자부터 IPO까지…코오롱인베 \"기업 성장의 동반자 될 것\"",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.hankyung.com/article/202611107012r",
+          "source": "한국경제"
+        }
+      ]
+    },
+    {
+      "company_name": "변수",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "5300억",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "timeline": [
+        {
+          "date": "2026-11-12",
+          "event": "5300억 투자 연기한 LIG D&A…입찰제한소송에 방산사업 향방도 ‘변수’",
+          "methods": [
+            "출자"
+          ],
+          "amount": "5300억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.mk.co.kr/article/12206168",
+          "source": "매일경제"
+        }
+      ]
+    },
     {
       "company_name": "깜깜이",
       "sector": null,
@@ -10329,18 +10412,6 @@
   "candidates": [
     {
       "date": "2026-10-08",
-      "title": "소상공인은 안정자금, 혁신기업은 성장자금 지원…IBK 맞춤형 ‘생산적...",
-      "url": "https://biz.heraldcorp.com/article/10896475",
-      "source": "헤럴드경제"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "[국감 2026] 이억원 \"금리 인상기 대비 국민성장펀드 200조원으로 확대\"",
-      "url": "https://www.newspim.com/news/view/20261008000087",
-      "source": "뉴스핌"
-    },
-    {
-      "date": "2026-10-08",
       "title": "[2026국감]이억원 \"금리인상 대비 취약계층 지원 강화…가계부채 엄격 ...",
       "url": "https://view.asiae.co.kr/article/2026100809452168481",
       "source": "아시아경제"
@@ -10926,8 +10997,20 @@
       "title": "함영주號 하나금융, 탄소집약도 19.6% 개선…공급망 등 금융배출량 6.6%...",
       "url": "https://www.fntimes.com/html/view.php?ud=2026111118044779995e6e69892f_18",
       "source": "한국금융신문"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "“지방 정책자금 공급 차질 없이“… 대구서 두번째 ‘정책금융 동행’",
+      "url": "https://biz.chosun.com/stock/finance/2026/11/12/UEEFUOQGLZFQJNKYMEC3M4VTCU/",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "[단독] 국민성장펀드 사무국도 예산안 재탕…재정 투입 규모도 못 정해",
+      "url": "https://www.joongang.co.kr/article/25478041",
+      "source": "중앙일보"
     }
   ],
-  "matched_articles_this_run": 440,
+  "matched_articles_this_run": 443,
   "confirmed_deals_count": 16
 }
