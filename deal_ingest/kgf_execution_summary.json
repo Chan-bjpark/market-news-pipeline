@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T22:11:19.898506+00:00",
+  "generated_at": "2026-11-15T22:11:05.258634+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-12T22:11:19.898420+00:00",
+    "sheet_synced_at": "2026-11-15T22:11:05.258572+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3571,6 +3571,38 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "스틱인베스트먼트",
+      "sector": null,
+      "methods": [],
+      "amount": "1조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "timeline": [
+        {
+          "date": "2026-11-13",
+          "event": "스틱인베스트먼트, KEMI ESG 어워즈 우수상 수상",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.heraldcorp.com/article/10935808",
+          "source": "헤럴드경제"
+        },
+        {
+          "date": "2026-11-13",
+          "event": "스틱인베스트먼트, KEMI ESG 어워즈 우수상 수상",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.heraldcorp.com/article/10936218",
+          "source": "헤럴드경제"
+        }
+      ]
+    },
     {
       "company_name": "노앤파트너스",
       "sector": null,
@@ -10412,12 +10444,6 @@
   "candidates": [
     {
       "date": "2026-10-08",
-      "title": "[2026국감]이억원 \"금리인상 대비 취약계층 지원 강화…가계부채 엄격 ...",
-      "url": "https://view.asiae.co.kr/article/2026100809452168481",
-      "source": "아시아경제"
-    },
-    {
-      "date": "2026-10-08",
       "title": "이억원 \"생산적·포용적·신뢰받는 금융 3대 방향으로 정책 추진\"",
       "url": "https://www.news1.kr/finance/general-finance/6313830",
       "source": "뉴스1"
@@ -11009,8 +11035,14 @@
       "title": "[단독] 국민성장펀드 사무국도 예산안 재탕…재정 투입 규모도 못 정해",
       "url": "https://www.joongang.co.kr/article/25478041",
       "source": "중앙일보"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "[더벨][반도체 테스트 소부장 점검] CXMT 납품 앞둔 테크윙, 삼성 의존도...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611121538506080108417",
+      "source": "더벨"
     }
   ],
-  "matched_articles_this_run": 443,
+  "matched_articles_this_run": 444,
   "confirmed_deals_count": 16
 }
