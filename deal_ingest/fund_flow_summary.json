@@ -1,41 +1,19 @@
 {
-  "generated_at": "2026-11-15T22:11:03.703440+00:00",
+  "generated_at": "2026-11-16T22:11:21.768406+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 689,
+  "total_policy_articles": 697,
   "matched_funds_count": 3,
-  "unmatched_count": 257,
+  "unmatched_count": 262,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-18",
+      "first_seen": "2026-08-19",
       "last_updated": "2026-11-16",
-      "event_count": 429,
+      "event_count": 432,
       "timeline": [
-        {
-          "date": "2026-08-18",
-          "published_at": "2026-08-18T11:30:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "임상수탁 기업들 상반기 외형 회복…수익성 '양극화'",
-          "summary": "정책펀드 조성·투자 확대…하반기 수주 기대감 업계에서는 하반기부터 국내 바이오 생태계에 대규모... 정부 주도의 K-바이오·백신 메가펀드 및 바이오 3상 펀드, 국민성장펀드 등 대형 펀드들의 자금 집행이...",
-          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/08/18/0003",
-          "source_label": "비즈워치"
-        },
-        {
-          "date": "2026-08-18",
-          "published_at": "2026-08-18T12:30:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "200조",
-          "title": "[금융공기관 지방이전]②'나눠먹기식' 지역 안배에 국가 금융경쟁력 흔...",
-          "summary": "산은은 산업 구조조정과 기업금융을 비롯해 200조원 규모의 국민성장펀드 등을 통해 첨단전략산업과 벤처... 국민연금이 보여준 이전 비용…우수 인력 이탈은 '진행형' 국민연금 기금운용본부의 전주 이전은 금융기관 지방...",
-          "url": "https://view.asiae.co.kr/article/2026081418071304471",
-          "source_label": "아시아경제"
-        },
         {
           "date": "2026-08-19",
           "published_at": "2026-08-19T00:00:00+00:00",
@@ -4732,6 +4710,61 @@
           "summary": "테크윙은 동탄2공장 매각으로 595억원을 확보했으며 국민성장펀드를 통한 500억원 규모의 저리대출도 승인받았다. 올해 6월 말 기준 부채비율이 213.9%로 지난해 말보다 15.1%포인트 상승한 만큼 추가 차입에 따른 재무...",
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611121538506080108417",
           "source_label": "더벨"
+        },
+        {
+          "date": "2026-11-16",
+          "published_at": "2026-11-16T10:48:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "벤처투자 훈풍에도 주가는 제자리…상장 VC 주가 관리 '험난'",
+          "summary": "투자 집행 등의 소식이 있을 때만 주가가 뛰는 '테마주'의 굴레에서 벗어나지 못하고 있다는 분석이... 특히 인공지능(AI) 반도체와 바이오, 우주항공 분야에서 대형 투자가 이어졌다. 국민성장펀드를 비롯한...",
+          "url": "https://www.hankyung.com/article/202611135551r",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-11-16",
+          "published_at": "2026-11-16T14:02:00+09:00",
+          "stage_code": "planning",
+          "stage_label": "조성 계획",
+          "amount": null,
+          "title": "해외 핵심광물 직접투자 5년 만에 재개 추진…자원안보기금 신설",
+          "summary": "자원안보기금을 신설해 민간기업의 투자 위험을 분담하고 광산 개발부터 정·제련과 소재 생산까지... 지난 7월에는 산업부와 금융위원회가 공동으로 핵심광물 투자지원 간담회를 열고 국민성장펀드를 통한 해외자원...",
+          "url": "https://www.ajunews.com/view/20261116134824194",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-11-16",
+          "published_at": "2026-11-16T17:37:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "대규모 국비 지원했는데… ‘엔비디아와 맞짱’ 외치던 리벨리온, 엔비...",
+          "summary": "이 생태계에 올라타서 컴퓨팅 표준을 만들어보겠다는 것입니다.”(2026년 11월 9일, 엔비디아 AI 데이 서울... 금융위원회가 지난 3월 26일 국민성장펀드의 첫 직접투자 대상으로 리벨리온을 선정한 게 대표적 사례다....",
+          "url": "https://biz.chosun.com/it-science/ict/2026/11/16/MX5BO7CKQNDAZA4UUB4QIHS2GU/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-11-16",
+          "published_at": "2026-11-16T17:47:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "1000억원",
+          "title": "\"단일기업 1000억원 지원시 보고하라\"…산은법 개정 추진",
+          "summary": "첨단전략산업기금은 국민성장펀드의 핵심 재원인 만큼 일명 ‘밀실 회의’를 지속해선 안된다는 지적이다. 첨단전략산업기금 운용 논란은 지난 10월 국정감사에서도 지속됐다. 당시 박준태 의원은 “이 막대한 자금을...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03342326645646376&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-11-16",
+          "published_at": "2026-11-16T18:23:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "12조",
+          "title": "SK·LG 등 대기업, 올들어 회사채 12조 순상환",
+          "summary": "금융위원회에 따르면 지난 9월 말까지 국민성장펀드의 저리 대출 승인액은 약 6조8600억원으로, 이 가운데 86%가 대기업에 집중됐다. 증권업계에서는 내년 회사채 발행이 다시 늘어날 가능성에 주목하고 있다....",
+          "url": "https://www.hankyung.com/article/2026111601541",
+          "source_label": "한국경제"
         }
       ]
     },
@@ -4792,30 +4825,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-18",
-      "title": "[더벨]S&S인베, 모태 청년펀드 800억까지 키운다",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608130907293780103357",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "[채권-마감] 약세 스티프닝…유가 급등 속 10년 입찰 소화",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430615",
-      "source_label": "연합인포맥스"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "미래·삼성증권, 전기공사업체 신보 상장 주관사로 낙점",
-      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608121800512800106262",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "06.국내주식 고점에 판 사학·공무원연금…국민연금과 달랐다",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430492",
-      "source_label": "연합인포맥스"
-    },
     {
       "date": "2026-08-20",
       "title": "산은, 세컨더리펀드 소형 분야 GP에 '컴퍼니케이' 선정",
@@ -5091,6 +5100,30 @@
       "title": "中企 원활한 승계 돕는다…기보, 414억 원 규모 M&A 보증 제공",
       "url": "https://www.sedaily.com/article/20085435",
       "source_label": "서울경제"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "\"타다 죽인 규제 걷어내겠다\"…중기장관의 데뷔 발언",
+      "url": "https://dealsite.co.kr/articles/168105",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "[더벨]'모태펀드 강자' 토니인베, 바이아웃 데뷔전 치렀다",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608271702470880108158",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "산업은행 뉴욕, 북미 금융주선 키워 글로벌 수익 창출",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608250807502940105937",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "산업은행 공격적 대출 영업에 증권사 일감 '증발'",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608191529343080108068",
+      "source_label": "더벨"
     }
   ]
 }

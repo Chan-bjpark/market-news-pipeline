@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T22:11:05.258634+00:00",
+  "generated_at": "2026-11-16T22:11:22.610187+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-15T22:11:05.258572+00:00",
+    "sheet_synced_at": "2026-11-16T22:11:22.610105+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -1041,6 +1041,16 @@
           "status_label": "관련 동향",
           "url": "https://it.donga.com/109889/",
           "source": "동아일보"
+        },
+        {
+          "date": "2026-11-16",
+          "event": "대규모 국비 지원했는데… ‘엔비디아와 맞짱’ 외치던 리벨리온, 엔비...",
+          "methods": [],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.chosun.com/it-science/ict/2026/11/16/MX5BO7CKQNDAZA4UUB4QIHS2GU/",
+          "source": "조선일보"
         }
       ]
     },
@@ -10444,30 +10454,6 @@
   "candidates": [
     {
       "date": "2026-10-08",
-      "title": "이억원 \"생산적·포용적·신뢰받는 금융 3대 방향으로 정책 추진\"",
-      "url": "https://www.news1.kr/finance/general-finance/6313830",
-      "source": "뉴스1"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "이억원 금융위원장 \"가계부채 관리 엄격하게..실수요자 대출은 핀셋형\"",
-      "url": "https://www.fnnews.com/news/202610080918126231",
-      "source": "파이낸셜뉴스"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "이억원 위원장 \"보안 전제로 망분리 규제 해제…가계부채 엄격 관리\"",
-      "url": "https://www.mt.co.kr/finance/2026/10/08/2026100809092866707",
-      "source": "머니투데이"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "기업은행, 소상공인·지방기업에 맞춤형 ‘생산적 금융’",
-      "url": "https://biz.heraldcorp.com/article/10896838",
-      "source": "헤럴드경제"
-    },
-    {
-      "date": "2026-10-08",
       "title": "[정무위 국감] 이억원 “망분리 규제 해제, 보안 전제로 추진…주택공급...",
       "url": "https://www.g-enews.com/view.php?ud=202610081049136824a6e8311f64_1",
       "source": "글로벌이코노믹"
@@ -11041,8 +11027,32 @@
       "title": "[더벨][반도체 테스트 소부장 점검] CXMT 납품 앞둔 테크윙, 삼성 의존도...",
       "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611121538506080108417",
       "source": "더벨"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "벤처투자 훈풍에도 주가는 제자리…상장 VC 주가 관리 '험난'",
+      "url": "https://www.hankyung.com/article/202611135551r",
+      "source": "한국경제"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "해외 핵심광물 직접투자 5년 만에 재개 추진…자원안보기금 신설",
+      "url": "https://www.ajunews.com/view/20261116134824194",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "\"단일기업 1000억원 지원시 보고하라\"…산은법 개정 추진",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03342326645646376&mediaCodeNo=257",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "SK·LG 등 대기업, 올들어 회사채 12조 순상환",
+      "url": "https://www.hankyung.com/article/2026111601541",
+      "source": "한국경제"
     }
   ],
-  "matched_articles_this_run": 444,
+  "matched_articles_this_run": 447,
   "confirmed_deals_count": 16
 }
