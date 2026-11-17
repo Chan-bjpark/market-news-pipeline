@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:11:22.610187+00:00",
+  "generated_at": "2026-11-17T22:11:12.444546+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-16T22:11:22.610105+00:00",
+    "sheet_synced_at": "2026-11-17T22:11:12.444469+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3581,6 +3581,32 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "희토류 공급망",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": "1조",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "timeline": [
+        {
+          "date": "2026-11-17",
+          "event": "[단독] 희토류 공급망에 1조 투자…국민성장펀드 ‘핵심광물 1호’ 포스...",
+          "methods": [
+            "대출"
+          ],
+          "amount": "1조",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.mk.co.kr/article/12211400",
+          "source": "매일경제"
+        }
+      ]
+    },
     {
       "company_name": "스틱인베스트먼트",
       "sector": null,
@@ -10454,24 +10480,6 @@
   "candidates": [
     {
       "date": "2026-10-08",
-      "title": "[정무위 국감] 이억원 “망분리 규제 해제, 보안 전제로 추진…주택공급...",
-      "url": "https://www.g-enews.com/view.php?ud=202610081049136824a6e8311f64_1",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "국민성장펀드 투자심사 30건 모두 승인에…국감서 이해충돌·자금 배분...",
-      "url": "https://www.ajunews.com/view/20261008173228237",
-      "source": "아주경제"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "[2026 국감] 200조로 덩치 키우는 국민성장펀드…심의·쏠림·손실보전 ...",
-      "url": "https://www.newspim.com/news/view/20261008001363",
-      "source": "뉴스핌"
-    },
-    {
-      "date": "2026-10-08",
       "title": "'국민성장펀드 첫 투자' 스카이레이크, 알테오젠 투자 셈법은",
       "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610070755134440104678",
       "source": "더벨"
@@ -11051,6 +11059,24 @@
       "title": "SK·LG 등 대기업, 올들어 회사채 12조 순상환",
       "url": "https://www.hankyung.com/article/2026111601541",
       "source": "한국경제"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "자본에서 수익으로, 생산적금융·WM·디지털자산 ‘3대 축’ 넓힌다 [정...",
+      "url": "https://www.fntimes.com/html/view.php?ud=2026111617581265255e6e69892f_18",
+      "source": "한국금융신문"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "국민성장펀드, 첫해부터 삐걱…삼성전자도 대출 승인액 20% 그쳐",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1287680.html",
+      "source": "한겨레"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "[단독] 국민성장펀드 '핵심광물 1호'는 포스코인터",
+      "url": "https://www.mk.co.kr/article/12211486",
+      "source": "매일경제"
     }
   ],
   "matched_articles_this_run": 447,

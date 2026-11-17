@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:11:35.746320+00:00",
+  "generated_at": "2026-11-17T22:11:23.986544+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -26,6 +26,36 @@
   },
   "releases": [
     {
+      "title": "지역이 발굴하면 금융이 뒷받침한다. 지역 핵심 중소·중견기업에 4.5조원 공급",
+      "date": "2026-11-17",
+      "url": "https://www.fsc.go.kr/no010101/88160",
+      "agency": "금융위"
+    },
+    {
+      "title": "[보도참고] '26년 국제통화기금(IMF) 연례협의 결과",
+      "date": "2026-11-17",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079980&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "방문판매법 시행령 개정안 국무회의 통과",
+      "date": "2026-11-17",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48243",
+      "agency": "공정위"
+    },
+    {
+      "title": "2026년 후원방문판매업자 주요 정보공개",
+      "date": "2026-11-17",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48240",
+      "agency": "공정위"
+    },
+    {
+      "title": "보습크림 8종 품질 비교정보 제공",
+      "date": "2026-11-17",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48239",
+      "agency": "공정위"
+    },
+    {
       "title": "정부는 최근 발생한 금융보안원의 침해사고와 관련하여 철저한 원인조사 및 재발방지 대책 마련을 지시하였습니다.",
       "date": "2026-11-16",
       "url": "https://www.fsc.go.kr/no010101/88152",
@@ -50,15 +80,15 @@
       "agency": "기재부"
     },
     {
-      "title": "국유재산 안전관리 체계 고도화 추진",
-      "date": "2026-11-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079967&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "전략경제자문단 AI에이전트커머스분과 현장방문",
       "date": "2026-11-16",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079966&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "국유재산 안전관리 체계 고도화 추진",
+      "date": "2026-11-16",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079967&menuNo=4010100",
       "agency": "기재부"
     },
     {
@@ -122,12 +152,6 @@
       "agency": "금융위"
     },
     {
-      "title": "‘26년도 상반기 기술금융 테크평가 및 품질심사평가 결과",
-      "date": "2026-11-13",
-      "url": "https://www.fsc.go.kr/no010101/88137",
-      "agency": "금융위"
-    },
-    {
       "title": "[보도참고] 2026년 11월 최근 경제동향",
       "date": "2026-11-13",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079950&menuNo=4010100",
@@ -170,12 +194,6 @@
       "agency": "기재부"
     },
     {
-      "title": "제18회 국제금융기구 채용설명회 개최",
-      "date": "2026-11-12",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079925&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "진에어-에어서울-에어부산 합병 인가, 27년 3월 17일부터 진에어로 통합 예정",
       "date": "2026-11-12",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48219",
@@ -185,24 +203,6 @@
       "title": "중견 건설사 대상 민관협의체 개최",
       "date": "2026-11-12",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48218",
-      "agency": "공정위"
-    },
-    {
-      "title": "2026년도 공정위·한국산업조직학회 공동 정책포럼 개최",
-      "date": "2026-11-12",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48217",
-      "agency": "공정위"
-    },
-    {
-      "title": "2025년도 동반성장 지수 평가결과 발표",
-      "date": "2026-11-11",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48213",
-      "agency": "공정위"
-    },
-    {
-      "title": "국고채 입찰 관련 15개 사업자의 부당한 공동행위 제재",
-      "date": "2026-11-11",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48212",
       "agency": "공정위"
     }
   ]
