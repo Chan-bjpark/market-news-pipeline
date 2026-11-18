@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T22:11:12.444546+00:00",
+  "generated_at": "2026-11-18T22:11:13.313194+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-17T22:11:12.444469+00:00",
+    "sheet_synced_at": "2026-11-18T22:11:13.313116+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -2374,7 +2374,8 @@
       "sector": "AI 데이터센터",
       "approved": "2026.4",
       "methods": [
-        "대출"
+        "대출",
+        "출자"
       ],
       "status_code": "approved",
       "status_label": "승인확정",
@@ -2485,6 +2486,19 @@
           "status_label": "관련 동향",
           "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4425745",
           "source": "연합인포맥스"
+        },
+        {
+          "date": "2026-11-19",
+          "event": "[Invest]현대차·네이버 GPU 파이낸싱, 젠슨 황 '논란' 속 막바지 조건 조...",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "1조8000억",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/18/2026111880184.html",
+          "source": "인베스트조선"
         }
       ]
     },
@@ -3581,6 +3595,34 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "숙제",
+      "sector": null,
+      "methods": [
+        "대출",
+        "인프라투자"
+      ],
+      "amount": "2조9574억",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "timeline": [
+        {
+          "date": "2026-11-18",
+          "event": "임종룡號 우리금융, 녹색 인프라금융 27%↑…금융배출량 감축 '숙제' [기...",
+          "methods": [
+            "대출",
+            "인프라투자"
+          ],
+          "amount": "2조9574억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.fntimes.com/html/view.php?ud=2026111715420069395e6e69892f_18",
+          "source": "한국금융신문"
+        }
+      ]
+    },
     {
       "company_name": "희토류 공급망",
       "sector": null,
@@ -10479,18 +10521,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-10-08",
-      "title": "'국민성장펀드 첫 투자' 스카이레이크, 알테오젠 투자 셈법은",
-      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610070755134440104678",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "[국민성장펀드] 에이티넘 8000억 펀드 관리보수 차등화…민간은 두 배",
-      "url": "https://dealsite.co.kr/articles/170296",
-      "source": "딜인사이트"
-    },
-    {
       "date": "2026-10-12",
       "title": "[더벨][로보티즈 블록딜] 1000억 확보한 김병수 대표, 자회사 지원 촉각",
       "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610070000261110109070",
@@ -11077,8 +11107,20 @@
       "title": "[단독] 국민성장펀드 '핵심광물 1호'는 포스코인터",
       "url": "https://www.mk.co.kr/article/12211486",
       "source": "매일경제"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "이재명의 새 10조 금융사…실패한 정금공과 다른 세 가지",
+      "url": "https://dealsite.co.kr/articles/172866",
+      "source": "딜인사이트"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "[37th SRE][Worst]CJ CGV, 순위 내려갔으나…”하향 압력 여전\"",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02364886645647032&mediaCodeNo=257",
+      "source": "이데일리"
     }
   ],
-  "matched_articles_this_run": 447,
+  "matched_articles_this_run": 431,
   "confirmed_deals_count": 16
 }
