@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T22:11:12.385961+00:00",
+  "generated_at": "2026-11-19T22:11:18.764603+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 694,
+  "total_policy_articles": 695,
   "matched_funds_count": 3,
   "unmatched_count": 275,
   "funds": [
@@ -12,7 +12,7 @@
       "next_expected_event": "(완료)",
       "first_seen": "2026-08-22",
       "last_updated": "2026-11-19",
-      "event_count": 416,
+      "event_count": 417,
       "timeline": [
         {
           "date": "2026-08-22",
@@ -4589,6 +4589,17 @@
           "summary": "위해 국민성장펀드 및 민간 금융회사들과 논의를 진행하고 있다. 현대차 계열사들과 첨단전략산업기금 등에서 지분출자금 4400억원을 대고, 1조8000억원 규모의 대출도 일으키는 안이 거론되고 있다.현대차의 사업 역시...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/11/18/2026111880184.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-19",
+          "published_at": "2026-11-19T08:42:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "2000억",
+          "title": "[더벨]파라투스, 2000억 블라인드펀드 결성 마무리",
+          "summary": "사모펀드(PEF) 운용사 파라투스인베스트먼트(파라투스)가 신규 블라인드펀드 결성을 사실상 마무리했다. 국민성장펀드와 한국수출입은행 등 정책금융기관의 출자금을 확보한 데 이어 민간 자금 모집까지 완료했다....",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611121646116840101728",
+          "source_label": "더벨"
         }
       ]
     },
@@ -4649,18 +4660,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-21",
-      "title": "농식품벤처 투자심사 자격증 신설…취득시 모태펀드 GP 선정 가점 추진",
-      "url": "https://www.mt.co.kr/future/2026/08/21/2026082116442149123",
-      "source_label": "머니투데이"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "[채권-마감] 약세 스티프닝…外人 장기 매도·미래기금 영향 주시",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431286",
-      "source_label": "연합인포맥스"
-    },
     {
       "date": "2026-08-21",
       "title": "내년부터 나라 곳간에 ‘100조원’ 새 돈주머니 생긴다 [Pick코노미]",
@@ -4948,6 +4947,18 @@
       "title": "[더벨][SKS PE는 지금] 잭팟 실적도 안 통했다…벽 부딪힌 블라인드펀드...",
       "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608211627392240101268",
       "source_label": "더벨"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "'국민 돈' 맡겼다가 '화들짝'…성장펀드 2차 일정 늦어진 이유",
+      "url": "https://www.hankyung.com/article/2026090291606",
+      "source_label": "한국경제"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "김광일 홈플러스 공동대표 \"월 450억 인건비·고정비 감축\" [fn마켓워치...",
+      "url": "https://www.fnnews.com/news/202609021620420633",
+      "source_label": "파이낸셜뉴스"
     }
   ]
 }

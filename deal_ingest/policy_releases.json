@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:11:25.049801+00:00",
+  "generated_at": "2026-11-19T22:11:33.085978+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,42 @@
     }
   },
   "releases": [
+    {
+      "title": "핀테크 기업에 필요한 지원사업을 AI가 찾아드립니다.",
+      "date": "2026-11-19",
+      "url": "https://www.fsc.go.kr/no010101/88171",
+      "agency": "금융위"
+    },
+    {
+      "title": "'26.11월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
+      "date": "2026-11-19",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000080007&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "2026년 3분기말 대외채권채무 동향",
+      "date": "2026-11-19",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079995&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "전략경제자문단 우주분과 현장 방문",
+      "date": "2026-11-19",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079999&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "2026년 공시대상기업집단 내부거래 현황 분석·공개",
+      "date": "2026-11-19",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48254",
+      "agency": "공정위"
+    },
+    {
+      "title": "한 해의 끝, 공정한 동행 가을겨울호와 다시 새기는 공정의 의미",
+      "date": "2026-11-19",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48253",
+      "agency": "공정위"
+    },
     {
       "title": "全금융권이 상시적으로 철저하게 보안 관리에 임하도록 IT자산 식별·관리를 의무화하고 취약점 점검·평가 제도를 내실화하겠습니다.",
       "date": "2026-11-18",
@@ -134,12 +170,6 @@
       "agency": "기재부"
     },
     {
-      "title": "국유재산 안전관리 체계 고도화 추진",
-      "date": "2026-11-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079967&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "소비자분쟁해결기준 개정안 행정예고",
       "date": "2026-11-16",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48235",
@@ -150,18 +180,6 @@
       "date": "2026-11-16",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48234",
       "agency": "공정위"
-    },
-    {
-      "title": "경제현안간담회 개최",
-      "date": "2026-11-15",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079962&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "한국 주도로 9개국이 참여하는 글로벌 고신뢰 탄소시장(GVCM) 협력 기반 마련",
-      "date": "2026-11-15",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079961&menuNo=4010100",
-      "agency": "기재부"
     },
     {
       "title": "신진창 금융위원회 부위원장, 씨티그룹 국제부문 총 책임자 면담",
@@ -182,28 +200,10 @@
       "agency": "금융위"
     },
     {
-      "title": "서울 가격상승폭 둔화·매물 증가…수도권 내년 1분기까지 4만 호 이상 입주",
-      "date": "2026-11-13",
-      "url": "https://www.fsc.go.kr/no010101/88140",
+      "title": "깜빡 잊고 지나가버린 지난 3년간 실손보험금, ‘실손24’를 통해 한방에 청구하고 받을 수 있습니다",
+      "date": null,
+      "url": "https://www.fsc.go.kr/no010101/88173",
       "agency": "금융위"
-    },
-    {
-      "title": "신뢰받는 자본시장, 현장에서 묻고 답을 찾다",
-      "date": "2026-11-13",
-      "url": "https://www.fsc.go.kr/no010101/88139",
-      "agency": "금융위"
-    },
-    {
-      "title": "EDA 소프트웨어 관련 9개 사업자의 부당한 공동행위 제재",
-      "date": "2026-11-13",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48224",
-      "agency": "공정위"
-    },
-    {
-      "title": "제23회 카르텔 업무 설명회 개최",
-      "date": "2026-11-13",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48223",
-      "agency": "공정위"
     }
   ]
 }
