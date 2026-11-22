@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:11:33.085978+00:00",
+  "generated_at": "2026-11-22T22:11:30.152236+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,12 @@
     }
   },
   "releases": [
+    {
+      "title": "긴급 시장상황점검회의 개최",
+      "date": "2026-11-22",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000080021&menuNo=4010100",
+      "agency": "기재부"
+    },
     {
       "title": "핀테크 기업에 필요한 지원사업을 AI가 찾아드립니다.",
       "date": "2026-11-19",
@@ -68,12 +74,6 @@
       "agency": "금융위"
     },
     {
-      "title": "경남창원 수출플러스간담회 개최",
-      "date": "2026-11-18",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079984&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "대외경제협력기금-시민사회 간담회 개최",
       "date": "2026-11-18",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079991&menuNo=4010100",
@@ -83,6 +83,12 @@
       "title": "「양극화 대응 TF」 세대 격차 완화반 1차 회의 개최",
       "date": "2026-11-18",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079988&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "경남창원 수출플러스간담회 개최",
+      "date": "2026-11-18",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079984&menuNo=4010100",
       "agency": "기재부"
     },
     {
@@ -161,12 +167,6 @@
       "title": "「세무사 시험 부정행위 대응 TF」 킥오프 회의 및 세무사 시험 부정행위자 시험 무효 절차 개시",
       "date": "2026-11-16",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079971&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "전략경제자문단 AI에이전트커머스분과 현장방문",
-      "date": "2026-11-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079966&menuNo=4010100",
       "agency": "기재부"
     },
     {

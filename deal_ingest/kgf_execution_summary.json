@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:11:19.800679+00:00",
+  "generated_at": "2026-11-22T22:11:15.065886+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.09",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-19T22:11:19.800597+00:00",
+    "sheet_synced_at": "2026-11-22T22:11:15.065804+00:00",
     "approved_count": 35,
     "cumulative_amount": "21조153억원",
     "frontier_fund_amount": "8조7,685억원",
@@ -3595,6 +3595,70 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "두산",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "5000억 원",
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "timeline": [
+        {
+          "date": "2026-11-22",
+          "event": "[단독] 두산, 국민성장펀드서 5000억 조달…CCL 공장 증설 [시그널]",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": "5000억 원",
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://www.sedaily.com/article/20117359",
+          "source": "서울경제"
+        }
+      ]
+    },
+    {
+      "company_name": "웰투시",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "5000억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-11-21",
+      "timeline": [
+        {
+          "date": "2026-06-01",
+          "event": "웰투시, M&A 분야 선정…5000억 펀드레이징 돌입 [국민성장펀드 운용사...",
+          "methods": [],
+          "amount": "5000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2588669",
+          "source": "이투데이"
+        },
+        {
+          "date": "2026-11-21",
+          "event": "웰투시, 6000억 신규 블라인드 펀드 결성…5대 금융지주 총출동",
+          "methods": [
+            "출자"
+          ],
+          "amount": "6000억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.heraldcorp.com/article/10944251",
+          "source": "헤럴드경제"
+        }
+      ]
+    },
     {
       "company_name": "파라투스",
       "sector": null,
@@ -9991,28 +10055,6 @@
       ]
     },
     {
-      "company_name": "웰투시",
-      "sector": null,
-      "methods": [],
-      "amount": "5000억원",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
-      "timeline": [
-        {
-          "date": "2026-06-01",
-          "event": "웰투시, M&A 분야 선정…5000억 펀드레이징 돌입 [국민성장펀드 운용사...",
-          "methods": [],
-          "amount": "5000억원",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.etoday.co.kr/news/view/2588669",
-          "source": "이투데이"
-        }
-      ]
-    },
-    {
       "company_name": "스카이레이크",
       "sector": null,
       "methods": [
@@ -10546,48 +10588,6 @@
     }
   ],
   "candidates": [
-    {
-      "date": "2026-10-12",
-      "title": "[더벨][로보티즈 블록딜] 1000억 확보한 김병수 대표, 자회사 지원 촉각",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610070000261110109070",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-10-12",
-      "title": "알테오젠까지 가세…국민성장펀드 올라탄 바이오 기업은",
-      "url": "https://www.sedaily.com/article/20100130",
-      "source": "서울경제"
-    },
-    {
-      "date": "2026-10-12",
-      "title": "장상익의 성장금융, 李국민성장펀드 모펀드 공동출자",
-      "url": "https://dealsite.co.kr/articles/170405",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-10-12",
-      "title": "200조 성장펀드에도 담보대출 쏠림·혁신 장벽 여전…생산적금융 실효성...",
-      "url": "https://www.fntimes.com/html/view.php?ud=2026100817354783545e6e69892f_18",
-      "source": "한국금융신문"
-    },
-    {
-      "date": "2026-10-12",
-      "title": "국민성장펀드에 연기금 자금 밀물…매칭펀드 5000억 가시권 [fn마켓워치...",
-      "url": "https://www.fnnews.com/news/202610120906526518",
-      "source": "파이낸셜뉴스"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "20조 메가펀드 추진 전북도… 재원확보 불투명·재정부담 우려",
-      "url": "https://www.etoday.co.kr/news/view/2635393",
-      "source": "이투데이"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "금융위, 국민성장펀드 초장기기술투자 운용사 7곳 선정",
-      "url": "https://www.mt.co.kr/finance/2026/10/14/2026101417595169240",
-      "source": "머니투데이"
-    },
     {
       "date": "2026-10-14",
       "title": "금융위, 초장기기술투자펀드 운용사 7곳 선정…\"12월부터 투자 개시\"",
@@ -11145,8 +11145,50 @@
       "title": "[37th SRE][Worst]CJ CGV, 순위 내려갔으나…”하향 압력 여전\"",
       "url": "https://www.edaily.co.kr/News/Read?newsId=02364886645647032&mediaCodeNo=257",
       "source": "이데일리"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "국민성장펀드 쏠림에…PEF 운용사들 \"은행 돈 받기가 하늘의 별 따기\"",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/19/2026111980123.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "전북도의회, 로봇·수소 초광역특구 지정…특별법 제정 건의",
+      "url": "https://www.newspim.com/news/view/20261120000460",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445844",
+      "source": "연합인포맥스"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "AIDC 특수에 CCL 품귀…두산, 캐파 키워 공급자 우위 장세 선점 [시그널...",
+      "url": "https://www.sedaily.com/article/20117360",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "이재근號 KB금융 ‘출항ʼ…비은행 강화·생산적금융 ‘관건ʼ [이재근號...",
+      "url": "https://www.fntimes.com/html/view.php?ud=202611202241099886dd55077bc2_18",
+      "source": "한국금융신문"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "[Invest]1차 발행 안끝났는데…엘앤에프, 재차 대규모 CB 발행 검토",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/20/2026112080100.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "[Invest]8.9조 풀려도 회수 막힌 VC·IB…'기관 수급' 빠진 대통령 처방",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/22/2026112280038.html",
+      "source": "인베스트조선"
     }
   ],
-  "matched_articles_this_run": 432,
+  "matched_articles_this_run": 430,
   "confirmed_deals_count": 16
 }
