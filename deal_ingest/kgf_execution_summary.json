@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-22T22:11:15.065886+00:00",
+  "generated_at": "2026-11-23T22:11:12.468495+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
-  "aggregate_source": "구글시트 동기화 (as_of 2026.09)",
+  "aggregate_source": "구글시트 동기화 (as_of 2026.10)",
   "lookback_days": 90,
   "version": 2,
   "aggregate": {
-    "as_of": "2026.09",
+    "as_of": "2026.10",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-22T22:11:15.065804+00:00",
-    "approved_count": 35,
-    "cumulative_amount": "21조153억원",
-    "frontier_fund_amount": "8조7,685억원",
+    "sheet_synced_at": "2026-11-23T22:11:12.468417+00:00",
+    "approved_count": 38,
+    "cumulative_amount": "22조1,618억원",
+    "frontier_fund_amount": "9조2,085억원",
     "breakdown": {
       "direct_investment": {
         "count": 5,
@@ -23,16 +23,16 @@
         "amount": "9,800억원(결성 7,200억원)"
       },
       "infrastructure": {
-        "count": 5,
-        "amount": "7조6,232억원"
+        "count": 6,
+        "amount": "8조3,078억원"
       },
       "low_interest_loan": {
-        "count": 23,
-        "amount": "8조8,821억원"
+        "count": 25,
+        "amount": "9조1,340억원"
       }
     },
     "participatory_fund_committed": "7,200억원",
-    "identified_count": 35,
+    "identified_count": 38,
     "undisclosed_count": 0,
     "deals": [
       {
@@ -349,10 +349,65 @@
         "amount": "404억원",
         "method": "저리대출",
         "date": "2026.09"
+      },
+      {
+        "seq": 36,
+        "company": "해남태양광(400MW)",
+        "sector": "재생에너지",
+        "amount_num": 6846,
+        "amount": "6,846억원",
+        "method": "인프라",
+        "date": "2026.10"
+      },
+      {
+        "seq": 37,
+        "company": "피에스케이",
+        "sector": "반도체(장비)",
+        "amount_num": 1819,
+        "amount": "1,819억원",
+        "method": "저리대출",
+        "date": "2026.10"
+      },
+      {
+        "seq": 38,
+        "company": "하나마이크론",
+        "sector": "반도체(후공정)",
+        "amount_num": 700,
+        "amount": "700억원",
+        "method": "저리대출",
+        "date": "2026.10"
       }
     ]
   },
-  "new_approvals": [],
+  "new_approvals": [
+    {
+      "seq": 36,
+      "company": "해남태양광(400MW)",
+      "sector": "재생에너지",
+      "amount_num": 6846,
+      "amount": "6,846억원",
+      "method": "인프라",
+      "date": "2026.10"
+    },
+    {
+      "seq": 37,
+      "company": "피에스케이",
+      "sector": "반도체(장비)",
+      "amount_num": 1819,
+      "amount": "1,819억원",
+      "method": "저리대출",
+      "date": "2026.10"
+    },
+    {
+      "seq": 38,
+      "company": "하나마이크론",
+      "sector": "반도체(후공정)",
+      "amount_num": 700,
+      "amount": "700억원",
+      "method": "저리대출",
+      "date": "2026.10"
+    }
+  ],
   "undisclosed_count": 0,
   "confirmed_deals": [
     {
@@ -3049,6 +3104,16 @@
           "status_label": "관련 동향",
           "url": "https://www.hankyung.com/article/202611029364r",
           "source": "한국경제"
+        },
+        {
+          "date": "2026-11-23",
+          "event": "[더벨][영상 | 현장+] 8200억 투자유치, 이제 글로벌로…퓨리오사AI가 그...",
+          "methods": [],
+          "amount": "8200억",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611231548293920101434",
+          "source": "더벨"
         }
       ]
     },
@@ -3596,6 +3661,80 @@
   ],
   "news_discovered": [
     {
+      "company_name": "웰투시",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "5000억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-11-23",
+      "timeline": [
+        {
+          "date": "2026-06-01",
+          "event": "웰투시, M&A 분야 선정…5000억 펀드레이징 돌입 [국민성장펀드 운용사...",
+          "methods": [],
+          "amount": "5000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://www.etoday.co.kr/news/view/2588669",
+          "source": "이투데이"
+        },
+        {
+          "date": "2026-11-21",
+          "event": "웰투시, 6000억 신규 블라인드 펀드 결성…5대 금융지주 총출동",
+          "methods": [
+            "출자"
+          ],
+          "amount": "6000억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.heraldcorp.com/article/10944251",
+          "source": "헤럴드경제"
+        },
+        {
+          "date": "2026-11-23",
+          "event": "웰투시, 6000억 블라인드 펀드 결성…5대 금융지주 총출동",
+          "methods": [
+            "출자"
+          ],
+          "amount": "6000억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.heraldcorp.com/article/10946030",
+          "source": "헤럴드경제"
+        }
+      ]
+    },
+    {
+      "company_name": "붐이",
+      "sector": null,
+      "methods": [
+        "대출"
+      ],
+      "amount": "5000억 원",
+      "status_code": "mention",
+      "status_label": "관련 동향",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "timeline": [
+        {
+          "date": "2026-11-23",
+          "event": "美·유럽 물가 3%대 고착 우려…AI 투자 붐이 물가 자극",
+          "methods": [
+            "대출"
+          ],
+          "amount": "5000억 원",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.sedaily.com/article/20117586",
+          "source": "서울경제"
+        }
+      ]
+    },
+    {
       "company_name": "두산",
       "sector": null,
       "methods": [
@@ -3620,42 +3759,6 @@
           "status_label": "검토단계",
           "url": "https://www.sedaily.com/article/20117359",
           "source": "서울경제"
-        }
-      ]
-    },
-    {
-      "company_name": "웰투시",
-      "sector": null,
-      "methods": [
-        "출자"
-      ],
-      "amount": "5000억원",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-11-21",
-      "timeline": [
-        {
-          "date": "2026-06-01",
-          "event": "웰투시, M&A 분야 선정…5000억 펀드레이징 돌입 [국민성장펀드 운용사...",
-          "methods": [],
-          "amount": "5000억원",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://www.etoday.co.kr/news/view/2588669",
-          "source": "이투데이"
-        },
-        {
-          "date": "2026-11-21",
-          "event": "웰투시, 6000억 신규 블라인드 펀드 결성…5대 금융지주 총출동",
-          "methods": [
-            "출자"
-          ],
-          "amount": "6000억",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://biz.heraldcorp.com/article/10944251",
-          "source": "헤럴드경제"
         }
       ]
     },
@@ -10589,24 +10692,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-10-14",
-      "title": "금융위, 초장기기술투자펀드 운용사 7곳 선정…\"12월부터 투자 개시\"",
-      "url": "https://www.ajunews.com/view/20261014180054514",
-      "source": "아주경제"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "'최대 16년 투자' 국민성장펀드 첫 초장기펀드…운용사 7곳 선정",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439263",
-      "source": "연합인포맥스"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "35조원 간접투자에 자금 쏠림…PEF 운용사 '펀딩 한파' [국민성장펀드 ...",
-      "url": "https://www.etoday.co.kr/news/view/2634838",
-      "source": "이투데이"
-    },
-    {
       "date": "2026-10-15",
       "title": "정책자금 확보해도 '돈 구하기 전쟁'…민간 매칭에 발목 [국민성장펀드...",
       "url": "https://www.etoday.co.kr/news/view/2634839",
@@ -11187,8 +11272,26 @@
       "title": "[Invest]8.9조 풀려도 회수 막힌 VC·IB…'기관 수급' 빠진 대통령 처방",
       "url": "https://www.investchosun.com/site/data/html_dir/2026/11/22/2026112280038.html",
       "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "[더벨][thebell Forum | PMI 포럼 2026] \"내년 출자 규모 확대\"…금융기관...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611191603141840109073",
+      "source": "더벨"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "서학개미 하반기 68조 원 손실, SOXL 집중이 화근",
+      "url": "https://www.sedaily.com/article/20117601",
+      "source": "서울경제"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "[Invest]국민성장펀드 쏠림에…PEF 운용사들 \"은행 돈 받기가 하늘의 별...",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380130.html",
+      "source": "인베스트조선"
     }
   ],
-  "matched_articles_this_run": 430,
+  "matched_articles_this_run": 432,
   "confirmed_deals_count": 16
 }

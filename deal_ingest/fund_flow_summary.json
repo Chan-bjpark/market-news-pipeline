@@ -1,63 +1,19 @@
 {
-  "generated_at": "2026-11-22T22:11:14.294337+00:00",
+  "generated_at": "2026-11-23T22:11:11.503281+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 691,
+  "total_policy_articles": 695,
   "matched_funds_count": 3,
-  "unmatched_count": 273,
+  "unmatched_count": 275,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-25",
-      "last_updated": "2026-11-23",
-      "event_count": 415,
+      "first_seen": "2026-08-26",
+      "last_updated": "2026-11-24",
+      "event_count": 417,
       "timeline": [
-        {
-          "date": "2026-08-25",
-          "published_at": "2026-08-25T06:01:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "국민성장펀드 풍선효과... 코스닥 CB, 기본 무이자에 40% 할증 발행까지...",
-          "summary": "당시 투자도 코벤펀드를 통해 집행됐다. 자본시장 업계의 한 관계자는 “표면·만기이자 0%에 10~20% 수준의... 규모의 투자를 단행한다는 계획을 밝혔다. 국민성장펀드 자금의 일정 부분은 코스닥 기술특례상장사에 대한...",
-          "url": "https://biz.chosun.com/stock/market_trend/2026/08/25/VXSXGXU2ZVFOFFYRGSZOFEK33Q/",
-          "source_label": "조선일보"
-        },
-        {
-          "date": "2026-08-25",
-          "published_at": "2026-08-25T17:25:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "200조",
-          "title": "[단독] 200조 성장펀드 집행 더딘데 … 부처별 유사펀드 홍수",
-          "summary": "9조…20%에 그쳐 대표 정책펀드 속도 못내는데 국부펀드·미래기금 잇단 추진 \"성과 의문인데 정책펀드 과신\" 이재명 정부가 첨단전략산업에 200조원을 투자하겠다며 '국민성장펀드'를 띄웠지만, 자금 집행 실적은 더딘...",
-          "url": "https://www.mk.co.kr/article/12135966",
-          "source_label": "매일경제"
-        },
-        {
-          "date": "2026-08-25",
-          "published_at": "2026-08-25T17:52:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "150조",
-          "title": "[단독] 부처마다 정책펀드 쏟아내는데…집행실적은 가뭄에 콩나듯",
-          "summary": "150조원을 투자하겠다며 ‘국민성장펀드’를 띄웠지만, 실제 자금 집행 실적은 저조한 것으로 나타났다. 대한민국 미래 경쟁력을 키우기 위해 대규모 정책형 투자 펀드를 설립했지만 아직 속도를 내지 못하고 있는...",
-          "url": "https://www.mk.co.kr/article/12136073",
-          "source_label": "매일경제"
-        },
-        {
-          "date": "2026-08-25",
-          "published_at": "2026-08-25T21:34:32.675077+00:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "01.국민성장펀드 5호 투자에 원익로보틱스…첫 로봇기업 낙점",
-          "summary": "",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431570",
-          "source_label": "연합인포맥스"
-        },
         {
           "date": "2026-08-26",
           "published_at": "2026-08-26T07:42:00+09:00",
@@ -4578,6 +4534,72 @@
           "summary": "증시안정펀드 투입까지 거론되지만, 집행 시차(캐피털 콜)와 시장 개입 부작용 우려로 현실성이 낮다. 무리한 증시 개입 대신 국민성장펀드 일부를 활용한 코스닥 활성화 펀드 조성 등 장기 기관투자가 유인책이 병행돼야...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/11/22/2026112280038.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-23",
+          "published_at": "2026-11-23T08:32:00+09:00",
+          "stage_code": "lp_commit",
+          "stage_label": "LP 출자 확정",
+          "amount": null,
+          "title": "[더벨][thebell Forum | PMI 포럼 2026] \"내년 출자 규모 확대\"…금융기관...",
+          "summary": "국내 금융기관 출자자(LP)들이 내년 사모펀드(PEF) 출자 확대와 투자 전략 다변화를 예고했다. 국민성장펀드 등 정책금융을 중심으로 자금 공급이 확대되는 가운데 운용사(GP) 선정 과정에서는 투자 전문성과 평판...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611191603141840109073",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-11-23",
+          "published_at": "2026-11-23T09:56:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5000억",
+          "title": "美·유럽 물가 3%대 고착 우려…AI 투자 붐이 물가 자극",
+          "summary": "두산(000150), 국민성장펀드서 5000억 조달…CCL 공장 증설 - 핵심 요약: 두산이 국민성장펀드에서 5000억 원 규모의 저리 대출을 받아 동박적층판(CCL) 증평·김천 공장을 증설하는 방안이 막바지 절차를 밟고 있다....",
+          "url": "https://www.sedaily.com/article/20117586",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-11-23",
+          "published_at": "2026-11-23T10:01:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "68조",
+          "title": "서학개미 하반기 68조 원 손실, SOXL 집중이 화근",
+          "summary": "두산, 국민성장펀드서 5000억 조달…CCL 공장 증설 핵심 요약: 두산이 국민성장펀드에서 5000억 원 저리 대출을 조달해 증평(가동률 113.5%)·김천(103.6%) CCL 공장을 증설한다고 IB 업계가 전했다. 두산은 앞서 전북 김제...",
+          "url": "https://www.sedaily.com/article/20117601",
+          "source_label": "서울경제"
+        },
+        {
+          "date": "2026-11-23",
+          "published_at": "2026-11-23T11:32:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "6000억",
+          "title": "웰투시, 6000억 블라인드 펀드 결성…5대 금융지주 총출동",
+          "summary": "5월 국민성장펀드 간접투자 1차 출자사업 인수·합병(M&A) 리그 GP로 선정되며 확보한 1200억원 규모의 정책자금이 마중물이 됐다. 산업은행 등이 확약한 이 앵커 자금을 바탕으로 웰투시인베스트먼트는 민간 매칭 자금을...",
+          "url": "https://biz.heraldcorp.com/article/10946030",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-11-23",
+          "published_at": "2026-11-23T18:22:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "8200억",
+          "title": "[더벨][영상 | 현장+] 8200억 투자유치, 이제 글로벌로…퓨리오사AI가 그...",
+          "summary": "국민성장펀드가 투자의 마중물 역할을 했고, 여기에 3천억 원 규모로 국내외 신규 투자자들이 합류를... 첫째로는 독자적인 AI 컴퓨팅 아키텍처를 실제 제품으로 구현해 냈고 그 역량을 지난 9년 동안 두 세대에 걸친...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611231548293920101434",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[Invest]국민성장펀드 쏠림에…PEF 운용사들 \"은행 돈 받기가 하늘의 별...",
+          "summary": "성장펀드 운용사들은 펀드 결성이 비교적 수월하지만 선택받지 못한 대다수의 운용사들은 자금 모집에 애를 먹고 있다. 내년에도 역시 성장펀드를 향한 금융권 자금 쏠림이 예상됨에 따라 사모펀드(PEF) 펀드레이징...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380130.html",
+          "source_label": "인베스트조선"
         }
       ]
     },
@@ -4638,12 +4660,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-25",
-      "title": "‘포스트 배틀그라운드’ 찾는 크래프톤… 자회사 1년 새 40개 증가",
-      "url": "https://biz.chosun.com/it-science/ict/2026/08/25/HLHJ6RUHRBGM3JZVNLHZ3LXRBI/",
-      "source_label": "조선일보"
-    },
     {
       "date": "2026-08-26",
       "title": "산은, SLL중앙 대출 조건부 만기연장 검토…자구책 이행이 관건",
@@ -4937,6 +4953,12 @@
       "title": "국책은행, 첫 공동펀드 만든다…7000억 스케일업 자금 조성",
       "url": "https://www.etoday.co.kr/news/view/2622580",
       "source_label": "이투데이"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "하나벤처스, 2차 출자사업 시작…출자금 2배 늘려",
+      "url": "https://dealsite.co.kr/articles/168535",
+      "source_label": "딜인사이트"
     }
   ]
 }

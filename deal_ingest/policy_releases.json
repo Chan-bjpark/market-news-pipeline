@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:11:30.152236+00:00",
+  "generated_at": "2026-11-23T22:11:23.799498+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -26,10 +26,82 @@
   },
   "releases": [
     {
+      "title": "사업보고서 등에 대한 조사·감리결과 조치",
+      "date": "2026-11-23",
+      "url": "https://www.fsc.go.kr/no010101/88194",
+      "agency": "금융위"
+    },
+    {
+      "title": "상장기업의 자기주식 1일 취득한도 확대를 3개월간 시행합니다",
+      "date": "2026-11-23",
+      "url": "https://www.fsc.go.kr/no010101/88190",
+      "agency": "금융위"
+    },
+    {
+      "title": "제11회 국제금융협력포럼 개최",
+      "date": "2026-11-23",
+      "url": "https://www.fsc.go.kr/no010101/88189",
+      "agency": "금융위"
+    },
+    {
+      "title": "금융정보분석원 설립 25주년 기념 자금세탁방지 국제세미나 개최",
+      "date": "2026-11-23",
+      "url": "https://www.fsc.go.kr/no010101/88188",
+      "agency": "금융위"
+    },
+    {
+      "title": "금융정보분석원 설립 25주년 및 제20회 「자금세탁방지의 날」 기념식 개최",
+      "date": "2026-11-23",
+      "url": "https://www.fsc.go.kr/no010101/88183",
+      "agency": "금융위"
+    },
+    {
+      "title": "이억원 금융위원장, 글로벌 금융안정 공조와 한-유럽 금융협력 강화로 한국 금융의 지평 넓혀",
+      "date": "2026-11-23",
+      "url": "https://www.fsc.go.kr/no010101/88182",
+      "agency": "금융위"
+    },
+    {
+      "title": "‘쉬었음’ 청년을 다시 내:일로… 청년일자리팀, 제2회 ‘국민 체감 대상’",
+      "date": "2026-11-23",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000080028&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "㈜더캐리의 불공정하도급거래행위 제재",
+      "date": "2026-11-23",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48267",
+      "agency": "공정위"
+    },
+    {
+      "title": "은행 및 상호저축은행 분야 불공정 약관 시정",
+      "date": "2026-11-23",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48266",
+      "agency": "공정위"
+    },
+    {
       "title": "긴급 시장상황점검회의 개최",
       "date": "2026-11-22",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000080021&menuNo=4010100",
       "agency": "기재부"
+    },
+    {
+      "title": "2026년 중소기업 간 하도급거래 모범업체 선정",
+      "date": "2026-11-20",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48262",
+      "agency": "공정위"
+    },
+    {
+      "title": "2025년 대리점 분야 공정거래협약 이행평가 결과 발표",
+      "date": "2026-11-20",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48261",
+      "agency": "공정위"
+    },
+    {
+      "title": "2026년 공정거래위원회-한국유통법학회 공동 학술대회 개최",
+      "date": "2026-11-20",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48260",
+      "agency": "공정위"
     },
     {
       "title": "핀테크 기업에 필요한 지원사업을 AI가 찾아드립니다.",
@@ -126,78 +198,6 @@
       "date": "2026-11-17",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079980&menuNo=4010100",
       "agency": "기재부"
-    },
-    {
-      "title": "방문판매법 시행령 개정안 국무회의 통과",
-      "date": "2026-11-17",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48243",
-      "agency": "공정위"
-    },
-    {
-      "title": "2026년 후원방문판매업자 주요 정보공개",
-      "date": "2026-11-17",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48240",
-      "agency": "공정위"
-    },
-    {
-      "title": "보습크림 8종 품질 비교정보 제공",
-      "date": "2026-11-17",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48239",
-      "agency": "공정위"
-    },
-    {
-      "title": "정부는 최근 발생한 금융보안원의 침해사고와 관련하여 철저한 원인조사 및 재발방지 대책 마련을 지시하였습니다.",
-      "date": "2026-11-16",
-      "url": "https://www.fsc.go.kr/no010101/88152",
-      "agency": "금융위"
-    },
-    {
-      "title": "이억원 금융위원장, 글로벌 금융안정 공조 및 유럽 주요 금융당국과 협력 강화 나선다",
-      "date": "2026-11-16",
-      "url": "https://www.fsc.go.kr/no010101/88151",
-      "agency": "금융위"
-    },
-    {
-      "title": "불법사금융 원스톱 지원, 이제 센터 방문 없이도 신청 가능합니다.",
-      "date": "2026-11-16",
-      "url": "https://www.fsc.go.kr/no010101/88150",
-      "agency": "금융위"
-    },
-    {
-      "title": "「세무사 시험 부정행위 대응 TF」 킥오프 회의 및 세무사 시험 부정행위자 시험 무효 절차 개시",
-      "date": "2026-11-16",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079971&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "소비자분쟁해결기준 개정안 행정예고",
-      "date": "2026-11-16",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48235",
-      "agency": "공정위"
-    },
-    {
-      "title": "공정위, ㈜카카오모빌리티·티맵모빌리티㈜· ㈜씨엠엔피·㈜와이엘피 대상 동의의결 절차 개시",
-      "date": "2026-11-16",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48234",
-      "agency": "공정위"
-    },
-    {
-      "title": "신진창 금융위원회 부위원장, 씨티그룹 국제부문 총 책임자 면담",
-      "date": "2026-11-13",
-      "url": "https://www.fsc.go.kr/no010101/88146",
-      "agency": "금융위"
-    },
-    {
-      "title": "지역기업과의 동행, 6개 정책금융기관이 현장에서 함께 합니다.",
-      "date": "2026-11-13",
-      "url": "https://www.fsc.go.kr/no010101/88143",
-      "agency": "금융위"
-    },
-    {
-      "title": "잠자고 있는 포인트, 지역화폐로 바꿔 골목상권에서 쓴다",
-      "date": "2026-11-13",
-      "url": "https://www.fsc.go.kr/no010101/88142",
-      "agency": "금융위"
     },
     {
       "title": "깜빡 잊고 지나가버린 지난 3년간 실손보험금, ‘실손24’를 통해 한방에 청구하고 받을 수 있습니다",
