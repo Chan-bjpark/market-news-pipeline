@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:11:23.799498+00:00",
+  "generated_at": "2026-11-24T22:11:27.787160+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,54 @@
     }
   },
   "releases": [
+    {
+      "title": "공인회계사 자격·징계위원회 개최 결과 - 2027년 공인회계사 최소선발예정인원 결정",
+      "date": "2026-11-24",
+      "url": "https://www.fsc.go.kr/no010101/88212",
+      "agency": "금융위"
+    },
+    {
+      "title": "보험업법 시행령‧금융기관검사및제재에관한규정 개정안 입법예고(’26.11.25.~’27.1.4.) 실시",
+      "date": "2026-11-24",
+      "url": "https://www.fsc.go.kr/no010101/88198",
+      "agency": "금융위"
+    },
+    {
+      "title": "’27년 정책금융과 국민성장펀드의 성공적 추진을 위한 「 정부부처-지방정부-정책금융기관 실무간담회」 개최",
+      "date": "2026-11-24",
+      "url": "https://www.fsc.go.kr/no010101/88197",
+      "agency": "금융위"
+    },
+    {
+      "title": "개정 특금법에 따른 기존 가상자산사업자 신고접수 결과 및 향후 심사절차 안내",
+      "date": "2026-11-24",
+      "url": "https://www.fsc.go.kr/no010101/88195",
+      "agency": "금융위"
+    },
+    {
+      "title": "2026 다자개발은행(MDB) 프로젝트 플라자 개최",
+      "date": "2026-11-24",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000080029&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "「아세안+3 재무차관 및 중앙은행 부총재회의」 참석",
+      "date": "2026-11-24",
+      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000080035&menuNo=4010100",
+      "agency": "기재부"
+    },
+    {
+      "title": "26년 체육시설업 가격 등 표시의무 점검",
+      "date": "2026-11-24",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48270",
+      "agency": "공정위"
+    },
+    {
+      "title": "2026년도 공정위·한국경쟁포럼·산업연구원 공동 심포지엄 개최",
+      "date": "2026-11-24",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48269",
+      "agency": "공정위"
+    },
     {
       "title": "사업보고서 등에 대한 조사·감리결과 조치",
       "date": "2026-11-23",
@@ -53,12 +101,6 @@
       "title": "금융정보분석원 설립 25주년 및 제20회 「자금세탁방지의 날」 기념식 개최",
       "date": "2026-11-23",
       "url": "https://www.fsc.go.kr/no010101/88183",
-      "agency": "금융위"
-    },
-    {
-      "title": "이억원 금융위원장, 글로벌 금융안정 공조와 한-유럽 금융협력 강화로 한국 금융의 지평 넓혀",
-      "date": "2026-11-23",
-      "url": "https://www.fsc.go.kr/no010101/88182",
       "agency": "금융위"
     },
     {
@@ -104,12 +146,6 @@
       "agency": "공정위"
     },
     {
-      "title": "핀테크 기업에 필요한 지원사업을 AI가 찾아드립니다.",
-      "date": "2026-11-19",
-      "url": "https://www.fsc.go.kr/no010101/88171",
-      "agency": "금융위"
-    },
-    {
       "title": "'26.11월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
       "date": "2026-11-19",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000080007&menuNo=4010100",
@@ -140,12 +176,6 @@
       "agency": "공정위"
     },
     {
-      "title": "全금융권이 상시적으로 철저하게 보안 관리에 임하도록 IT자산 식별·관리를 의무화하고 취약점 점검·평가 제도를 내실화하겠습니다.",
-      "date": "2026-11-18",
-      "url": "https://www.fsc.go.kr/no010101/88162",
-      "agency": "금융위"
-    },
-    {
       "title": "대외경제협력기금-시민사회 간담회 개최",
       "date": "2026-11-18",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079991&menuNo=4010100",
@@ -164,45 +194,15 @@
       "agency": "기재부"
     },
     {
-      "title": "국산 중고차 수출 원산지 증명 간소화 추진",
-      "date": "2026-11-18",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079957&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
       "title": "전자상거래법에 따른 국내대리인 지정 가이드라인 제정",
       "date": "2026-11-18",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48246",
       "agency": "공정위"
     },
     {
-      "title": "한신공영(주)의 자회사 행위제한규정 위반행위 제재",
-      "date": "2026-11-18",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48245",
-      "agency": "공정위"
-    },
-    {
-      "title": "최근 3개월간 대규모기업집단 소속회사 변동 현황",
-      "date": "2026-11-18",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48244",
-      "agency": "공정위"
-    },
-    {
-      "title": "지역이 발굴하면 금융이 뒷받침한다. 지역 핵심 중소·중견기업에 4.5조원 공급",
-      "date": "2026-11-17",
-      "url": "https://www.fsc.go.kr/no010101/88160",
-      "agency": "금융위"
-    },
-    {
-      "title": "[보도참고] '26년 국제통화기금(IMF) 연례협의 결과",
-      "date": "2026-11-17",
-      "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079980&menuNo=4010100",
-      "agency": "기재부"
-    },
-    {
-      "title": "깜빡 잊고 지나가버린 지난 3년간 실손보험금, ‘실손24’를 통해 한방에 청구하고 받을 수 있습니다",
+      "title": "「디지털자산업의 혁신과 이용자 보호에 관한 법률」 제정안 입법 추진",
       "date": null,
-      "url": "https://www.fsc.go.kr/no010101/88173",
+      "url": "https://www.fsc.go.kr/no010101/88199",
       "agency": "금융위"
     }
   ]

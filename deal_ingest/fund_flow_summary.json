@@ -1,52 +1,19 @@
 {
-  "generated_at": "2026-11-23T22:11:11.503281+00:00",
+  "generated_at": "2026-11-24T22:11:13.787187+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 695,
+  "total_policy_articles": 711,
   "matched_funds_count": 3,
-  "unmatched_count": 275,
+  "unmatched_count": 274,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-26",
-      "last_updated": "2026-11-24",
-      "event_count": 417,
+      "first_seen": "2026-08-27",
+      "last_updated": "2026-11-25",
+      "event_count": 434,
       "timeline": [
-        {
-          "date": "2026-08-26",
-          "published_at": "2026-08-26T07:42:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "14조6000억",
-          "title": "[코스피 1만의 조건] 인위적 증시부양 아닌…AI 3강 투자로 李코노믹스...",
-          "summary": "국민성장펀드는 올해 상반기 17개 기업과 4개 인프라 사업 등 총 21건에 14조6000억원 규모의 자금 공급을 승인했다. 자세히 보면 ▲직접투자 2조5000억원 ▲간접투자 1조2200억원 ▲인프라 투융자 6조8700억원 ▲저리대출...",
-          "url": "https://dealsite.co.kr/articles/167493",
-          "source_label": "딜인사이트"
-        },
-        {
-          "date": "2026-08-26",
-          "published_at": "2026-08-26T10:35:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "리벨리온, 英 칼로섬과 맞손…‘이기종 AI’로 유럽 소버린 인프라 공략",
-          "summary": "‘이기종 컴퓨팅’으로 시장이 확대되는 가운데, 리벨리온은 추론 특화 NPU를 앞세워 유럽 시장 진출을... 리벨리온은 한국 국민성장펀드 직접투자 1호 기업이며, 칼로섬은 영국 소버린 AI 펀드의 첫 지분 투자...",
-          "url": "https://www.edaily.co.kr/News/Read?newsId=03266886645551256&mediaCodeNo=257",
-          "source_label": "이데일리"
-        },
-        {
-          "date": "2026-08-26",
-          "published_at": "2026-08-26T21:01:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "150조",
-          "title": "폭주하는 경제 강국들…‘닥공 재정’의 실체 [스페셜리포트]",
-          "summary": "또 다른 축은 국민성장펀드다. 정부는 당초 5년간 150조원으로 설계한 펀드를 지난 7월 200조원으로 확대하기로 했다. AI·반도체·바이오·방산·로봇 등 첨단 산업에 더해 우주항공을 비롯한 미래전략 산업까지 지원...",
-          "url": "https://www.mk.co.kr/article/12133022",
-          "source_label": "매일경제"
-        },
         {
           "date": "2026-08-27",
           "published_at": "2026-08-27T04:33:00+09:00",
@@ -4504,6 +4471,28 @@
         },
         {
           "date": "2026-11-23",
+          "published_at": "2026-11-23T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "연말 인사시즌 앞둔 은행권, 국민성장펀드 막바지 실적 쌓기 분주",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380133.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-23",
+          "published_at": "2026-11-23T00:00:00+00:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "CJ포디플렉스, 국민성장펀드만으론 역부족…민간투자 확보 난항",
+          "summary": "",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380121.html",
+          "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-23",
           "published_at": "2026-11-23T00:02:00+09:00",
           "stage_code": "lp_commit",
           "stage_label": "LP 출자 확정",
@@ -4600,6 +4589,204 @@
           "summary": "성장펀드 운용사들은 펀드 결성이 비교적 수월하지만 선택받지 못한 대다수의 운용사들은 자금 모집에 애를 먹고 있다. 내년에도 역시 성장펀드를 향한 금융권 자금 쏠림이 예상됨에 따라 사모펀드(PEF) 펀드레이징...",
           "url": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380130.html",
           "source_label": "인베스트조선"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T07:46:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "400억",
+          "title": "권대영 떠나자 무주공산 KSTP…400억 모아놓고 공회전",
+          "summary": "금융권에서는 KSTP가 출범하면 국민성장펀드의 초장기 투자 재원 가운데 상당 부분을 운용할 가능성이... 연내 법인 설립 목표를 달성하더라도 실제 투자 집행까지는 추가 시간이 필요할 수 있다는 지적이다. 결국 KSTP의...",
+          "url": "https://dealsite.co.kr/articles/173241",
+          "source_label": "딜인사이트"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T09:17:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "5000억원",
+          "title": "두산 16% 급등…장중 20% 넘게 올라 [종목NOW]",
+          "summary": "투자은행(IB) 업계에 따르면 국민성장펀드 투자심의위원회는 두산에 5000억원 규모의 저리대출을 제공하는 방안을 논의한 것으로 알려졌다. 지원이 확정되면 자금은 국내 CCL 생산시설 증설에 투입될 것으로...",
+          "url": "https://www.fnnews.com/news/202611240912330760",
+          "source_label": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T09:58:00+09:00",
+          "stage_code": "gp_selected",
+          "stage_label": "운용사 선정",
+          "amount": "800억",
+          "title": "IMM, 1천800억 펀드 조성해 산은 투자 딜 합류…삼성증권 PBS 계약",
+          "summary": "산은 주도 국민성장펀드 GP 선정서 고배…자체 역량으로 설정 마무리 IMM CI[출처: 홈페이지 캡처]... 전체 투자금 3천500억원 가운데 1천500억원은 산업은행이 관리·운용하는 첨단전략산업기금이 전환우선주(CPS) 방식으로...",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446186",
+          "source_label": "연합인포맥스"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T11:02:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": null,
+          "title": "“딥테크 기업가치 얼마죠?”…VC들, 전문 심사역 찾아나선다",
+          "summary": "국민성장펀드를 포함한 정책펀드의 위탁운용사들이 속속들이 선정되는 가운데, 국내 벤처캐피털(VC)들이 딥테크 분야에 투자를 집행할 심사역들을 찾고 있다. 인공지능(AI) 광풍을 타고 딥테크 기업들의 기업가치가...",
+          "url": "https://www.mk.co.kr/article/12216944",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T13:51:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "30조",
+          "title": "금융위, 국민성장펀드 연내 30조 공급 달성 전망…내년 40조원으로 확대",
+          "summary": "국민성장펀드는 올해 10월까지 첨단전략산업과 관련 생태계 전반에 총 22조3000억원의 자금 공급을 승인했다. 직·간접투자와 인프라 투융자, 저리대출 등의 방식으로 지원이 이뤄졌다. 금융위는 4분기 중 간접투자...",
+          "url": "https://www.newsis.com/view/NISX20261124_0003880976",
+          "source_label": "뉴시스"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T14:14:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "40조",
+          "title": "국민성장펀드 내년 40조원으로 확대…우주항공·양자도 지원 추진",
+          "summary": "국민성장펀드는 10월까지 직·간접 투자와 인프라 투융자, 저리대출 등을 통해 총 22조3000억원의 자금 공급을 승인했다. 세부적으로 직접투자 2조8300억원, 간접투자 3조9300억원, 인프라 투융자 8조3100억원, 저리대출...",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03142246645649000&mediaCodeNo=257",
+          "source_label": "이데일리"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T14:31:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "150조",
+          "title": "150조 정책금융 공급 목표치 초과 달성…국민성장펀드 40조로 확대",
+          "summary": "국민성장펀드는 올해 10월까지 첨단 전략 산업과 관련 생태계 전반에 총 22조3000억원의 자금 공급을 승인했다. 직·간접 투자와 인프라 투융자, 저리 대출 등의 방식으로 지원이 이뤄졌다. 금융위는 4분기 중 간접 투자...",
+          "url": "https://biz.chosun.com/stock/finance/2026/11/24/EGT64YN2FJAL3NLQF7I7N23TOA/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T14:34:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "40조",
+          "title": "국민성장펀드 내년 40조원으로 확대…우주항공·양자 지원 추진",
+          "summary": "같은 기간 국민성장펀드의 자금 공급 승인액은 22조3000억원으로 집계됐다. 직접투자 2조8300억원, 간접투자 3조9300억원, 인프라 투융자 8조3100억원, 저리대출 7조2200억원 등이다. 금융위는 4분기 간접투자 부문...",
+          "url": "https://www.ajunews.com/view/20261124143128269",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T14:46:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "30조",
+          "title": "국민성장펀드 올해 30조원 달성 전망…내년 40조원으로 확대",
+          "summary": "국민성장펀드 운용 방안을 마련할 계획이다. 손영채 국민성장펀드추진단장은 \"내년에는 '보다 큰 규모'로 '더 다양한 첨단산업'에 지원이 가능한 만큼, 각 부처와 지방정부가 유망 첨단전략산업과 기업 자금 수요를...",
+          "url": "https://www.yna.co.kr/view/AKR20261124122800002?input=1195m",
+          "source_label": "연합뉴스"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T14:50:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "40조",
+          "title": "국민성장펀드 내년 40조원으로 확대…우주항공·양자 지원 추진",
+          "summary": "국민성장펀드는 올해 10월 말까지 22조3000억원의 자금 공급을 승인했다. 인프라 투·융자가 8조3100억원으로 가장 많았고 저리대출 7조2200억원, 간접투자 3조9300억원, 직접투자 2조8300억원 순이었다. 금융위는 4분기...",
+          "url": "https://www.etoday.co.kr/news/view/2652312",
+          "source_label": "이투데이"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T14:50:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "40조",
+          "title": "“내년 40조 쏟는다” 정부 반도체·AI 정조준",
+          "summary": "내년도 국민성장펀드 운용 방향을 논의했다. 올해 10월까지 산업은행·기업은행·신용보증기금... 내년부터는 국민성장펀드 규모를 연간 40조원으로 확대한다. 기존 12대 첨단전략산업에 더해 우주항공·양자 등 신규...",
+          "url": "https://magazine.hankyung.com/business/article/202611246883b",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T15:15:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "40조",
+          "title": "국민성장펀드 내년 40조원으로 확대…우주항공·양자 지원 추진",
+          "summary": "올해 10월까지 국민성장펀드의 자금공급 승인액은 총 22조3000억원으로 집계됐다. 유형별로는 직접투자 2조8300억원, 간접투자 3조9300억원, 인프라 투·융자 8조3100억원, 저리대출 7조2200억원이다. 금융위는 4분기...",
+          "url": "https://biz.heraldcorp.com/article/10947663",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T15:38:00+09:00",
+          "stage_code": "size_confirmed",
+          "stage_label": "규모 확정",
+          "amount": "30조",
+          "title": "국민성장펀드 올해 30조원 달성 전망…내년엔 40조원으로 확대",
+          "summary": "산업은행과 기업은행, 신용보증기금, 기술보증기금 등 4개 정책금융기관은 올해 10월까지 총 245조2000억원의... 유망 첨단전략산업과 기업에 자금을 공급한다는 계획이다. 손영채 국민성장펀드추진단장은 “내년에는...",
+          "url": "https://www.joongang.co.kr/article/25481519",
+          "source_label": "중앙일보"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T15:42:00+09:00",
+          "stage_code": "closed",
+          "stage_label": "결성 완료",
+          "amount": "40조",
+          "title": "국민성장펀드, 내년 40조원 공급…우주항공·양자 투자 추진",
+          "summary": "국민성장펀드는 올해 10월까지 직·간접 투자, 인프라 투융자, 저리대출 등을 통해 총 22조3000억원 규모의 자금 공급을 승인했다. 금융위는 4분기 간접투자 부문의 자펀드 결성 예정 규모 등을 고려하면 연간 승인 목표인...",
+          "url": "https://view.asiae.co.kr/article/2026112415424876862",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T16:34:00+09:00",
+          "stage_code": "gp_review",
+          "stage_label": "GP 심사",
+          "amount": null,
+          "title": "딥테크 전문 심사역 채용 늘리는 VC",
+          "summary": "국민성장펀드 등 정책펀드의 위탁운용사들이 최근까지 선정되는 가운데 국내 벤처캐피털(VC)들이 딥테크 분야에 투자를 집행할 심사역 채용을 늘리고 있다. 24일 한국벤처캐피탈협회에 따르면 JB인베스트먼트...",
+          "url": "https://www.mk.co.kr/article/12217225",
+          "source_label": "매일경제"
+        },
+        {
+          "date": "2026-11-24",
+          "published_at": "2026-11-24T18:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "‘기업가형 국가’ 마추카토에 3대 메가 묻자 “K산업정책, 세계 모델 가...",
+          "summary": "에너지와 물을 훨씬 덜 쓰는 메모리와 컴퓨팅, 새로 확보한 청정전력으로 가동되는 공장이 그 예다. 둘째... 한국에는 산업은행과 국민성장펀드, 새로 조성되는 미래대응기금이라는 강력한 수단이 있다. 이를 투명하게...",
+          "url": "https://www.khan.co.kr/article/202611241800001",
+          "source_label": "경향신문"
+        },
+        {
+          "date": "2026-11-25",
+          "published_at": "2026-11-25T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "4조",
+          "title": "[더벨][2026 코리아 스타트업 어워즈] ‘국성펀 1호’ 리벨리온, 3.4조 밸...",
+          "summary": "국민성장펀드는 첨단전략산업기금 2500억원으로 리벨리온의 상환전환우선주(RCPS)를 인수하기로 했다. 데이터센터용 AI 반도체 리벨100 양산과 차세대 칩 개발에 필요한 자금을 공급하기 위해서다. 산업은행도 자체...",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611241335191480105038",
+          "source_label": "더벨"
+        },
+        {
+          "date": "2026-11-25",
+          "published_at": "2026-11-25T07:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "[Invest]CJ포디플렉스, 국민성장펀드만으론 역부족…민간투자 확보 난항",
+          "summary": "우리은행 주도로 국민성장펀드의 투자 승인을 받은 CJ포디플렉스가 다른 금융지주에도 투자 참여를... 글랜우드크레딧과 지앤피인베스트먼트가 운용사로 참여한다.당시 우리금융은 10월 중 펀드 결성과 투자 집행을...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/24/2026112480158.html",
+          "source_label": "인베스트조선"
         }
       ]
     },
@@ -4660,30 +4847,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-26",
-      "title": "산은, SLL중앙 대출 조건부 만기연장 검토…자구책 이행이 관건",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/26/2026082680115.html",
-      "source_label": "인베스트조선"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "\"벤처투자 회수시장 체질 개선하려면, 세컨더리·M&A 활성화 시급\"",
-      "url": "https://www.mt.co.kr/future/2026/08/26/2026082415200846804",
-      "source_label": "머니투데이"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[더벨]미래에셋벤처, 특허펀드 '320억' 2차 클로징…투자 시동",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608240822481180109543",
-      "source_label": "더벨"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[마켓인]TS인베, 18호 M&A펀드 순항…1500억 이상 결성 가시권",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=05166006645551256&mediaCodeNo=257",
-      "source_label": "이데일리"
-    },
     {
       "date": "2026-08-27",
       "title": "산업은행, 대출 거래처 수사 관련 금융사고 공시",
@@ -4959,6 +5122,30 @@
       "title": "하나벤처스, 2차 출자사업 시작…출자금 2배 늘려",
       "url": "https://dealsite.co.kr/articles/168535",
       "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "하나벤처스, 하반기 400억 추가 출자사업 개시",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433775",
+      "source_label": "연합인포맥스"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "수은·산은·기은 7000억 글로벌 스케일업 펀드 조성",
+      "url": "https://dealsite.co.kr/articles/168580",
+      "source_label": "딜인사이트"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "한국성장금융, '문무' 투자로 K-콘텐츠 투자 방식 다변화",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202609081016090040107486",
+      "source_label": "더벨"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "성장금융, '핀테크 스타트업 1대 1 투자밋업' 참가기업 모집",
+      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202608271448357280108561",
+      "source_label": "더벨"
     }
   ]
 }

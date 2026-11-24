@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:11:12.468495+00:00",
+  "generated_at": "2026-11-24T22:11:14.545852+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.10",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-23T22:11:12.468417+00:00",
+    "sheet_synced_at": "2026-11-24T22:11:14.545764+00:00",
     "approved_count": 38,
     "cumulative_amount": "22조1,618억원",
     "frontier_fund_amount": "9조2,085억원",
@@ -379,35 +379,7 @@
       }
     ]
   },
-  "new_approvals": [
-    {
-      "seq": 36,
-      "company": "해남태양광(400MW)",
-      "sector": "재생에너지",
-      "amount_num": 6846,
-      "amount": "6,846억원",
-      "method": "인프라",
-      "date": "2026.10"
-    },
-    {
-      "seq": 37,
-      "company": "피에스케이",
-      "sector": "반도체(장비)",
-      "amount_num": 1819,
-      "amount": "1,819억원",
-      "method": "저리대출",
-      "date": "2026.10"
-    },
-    {
-      "seq": 38,
-      "company": "하나마이크론",
-      "sector": "반도체(후공정)",
-      "amount_num": 700,
-      "amount": "700억원",
-      "method": "저리대출",
-      "date": "2026.10"
-    }
-  ],
+  "new_approvals": [],
   "undisclosed_count": 0,
   "confirmed_deals": [
     {
@@ -1106,6 +1078,18 @@
           "status_label": "승인·확정",
           "url": "https://biz.chosun.com/it-science/ict/2026/11/16/MX5BO7CKQNDAZA4UUB4QIHS2GU/",
           "source": "조선일보"
+        },
+        {
+          "date": "2026-11-25",
+          "event": "[더벨][2026 코리아 스타트업 어워즈] ‘국성펀 1호’ 리벨리온, 3.4조 밸...",
+          "methods": [
+            "출자"
+          ],
+          "amount": "4조",
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611241335191480105038",
+          "source": "더벨"
         }
       ]
     },
@@ -3660,6 +3644,60 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "IMM",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": "800억",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "timeline": [
+        {
+          "date": "2026-11-24",
+          "event": "IMM, 1천800억 펀드 조성해 산은 투자 딜 합류…삼성증권 PBS 계약",
+          "methods": [
+            "출자"
+          ],
+          "amount": "800억",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446186",
+          "source": "연합인포맥스"
+        }
+      ]
+    },
+    {
+      "company_name": "추진",
+      "sector": null,
+      "methods": [
+        "대출",
+        "인프라투자"
+      ],
+      "amount": "3000억원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "timeline": [
+        {
+          "date": "2026-11-24",
+          "event": "국민성장펀드, 내년 40조원 공급…우주항공·양자 투자 추진",
+          "methods": [
+            "대출",
+            "인프라투자"
+          ],
+          "amount": "3000억원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://view.asiae.co.kr/article/2026112415424876862",
+          "source": "아시아경제"
+        }
+      ]
+    },
     {
       "company_name": "웰투시",
       "sector": null,
@@ -10692,108 +10730,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-10-15",
-      "title": "정책자금 확보해도 '돈 구하기 전쟁'…민간 매칭에 발목 [국민성장펀드...",
-      "url": "https://www.etoday.co.kr/news/view/2634839",
-      "source": "이투데이"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "돈은 넘치는데 투자처는 한정…기업 몸값만 높이나 [국민성장펀드 병목...",
-      "url": "https://www.etoday.co.kr/news/view/2634844",
-      "source": "이투데이"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "[경제일보] 대출 넘어 투자·상장까지…농협·기업은행, 생산적금융 보...",
-      "url": "https://www.ajunews.com/view/20261015082513987",
-      "source": "아주경제"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "[서정희 칼럼] 실점 줄이고 연속 득점…전원일치 판정승 노려야",
-      "url": "https://www.ajunews.com/view/20261007190728066",
-      "source": "아주경제"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "2차 국민성장펀드, 막판 판매 독려에도 결국 완판 실패",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/10/16/2026101680002.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-10-17",
-      "title": "'정부가 손실 먼저 떠안는데'…2차 국민성장펀드 완판 실패한 이유",
-      "url": "https://www.newspim.com/news/view/20261016001020",
-      "source": "뉴스핌"
-    },
-    {
-      "date": "2026-10-18",
-      "title": "\"소파에서 극장으로\"… CJ 4D플렉스, 4DX 앞세워 '오프라인 넷플릭스' 도...",
-      "url": "https://www.g-enews.com/view.php?ud=2026101716221641710c8c1c064d_1",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "정책금융·내부통제·사고 예방…KDB·IBK, 과제 ‘산적ʼ [포스트 2026 국...",
-      "url": "https://www.fntimes.com/html/view.php?ud=202610162102256228dd55077bc2_18",
-      "source": "한국금융신문"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "[더벨]초대형 벤처펀드 시대, '차등 관리보수' 확산",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610151550060640107531",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "[더벨][노앤파트너스는 지금] 누적 약정 1.2조 돌파, 최대 4000억 후속 펀...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610140928031640101694",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "GPU 값어치 얼마나 남을까…빨라진 감가 주기에 ‘AI 투자’ 수익성 우...",
-      "url": "https://www.hani.co.kr/arti/economy/finance/1283053.html",
-      "source": "한겨레"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "“캐피탈 기업금융 100조 시대…GPU서버·데이터센터 등 자산관리 역할...",
-      "url": "https://biz.heraldcorp.com/article/10907665",
-      "source": "헤럴드경제"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "캐피탈사 모빌리티·AI 인프라 기업 생산적금융 가능하려면…\"반납차량...",
-      "url": "https://www.fntimes.com/html/view.php?ud=20261019153738158a55064dd1_18",
-      "source": "한국금융신문"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "[Invest]최초 수익률 마이너스에도 '제로금리 CB'에 뭉칫돈…운용사들, ...",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/10/19/2026101980192.html",
-      "source": "인베스트조선"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "[국민성장펀드] 미래-브레인 합작 1호 출격…국민연금 분리가 신의 한수",
-      "url": "https://dealsite.co.kr/articles/170920",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "[2026 M&A 포럼] “국민성장펀드…블라인드만 8조, 민간 출자 마중물 성...",
-      "url": "https://dealsite.co.kr/articles/170830",
-      "source": "딜인사이트"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "[단독] “국민성장펀드에 사활 걸었다”…베일 벗은 정관 살펴보니",
-      "url": "https://biz.heraldcorp.com/article/10908011",
-      "source": "헤럴드경제"
-    },
-    {
       "date": "2026-10-21",
       "title": "국민성장펀드 리스크위 첫 회의... 통과의례 비판에 검증 강화",
       "url": "https://biz.chosun.com/stock/finance/2026/10/21/RRQJMPSFHZFWFNDWUXRDQ6MVQI/",
@@ -11257,6 +11193,18 @@
     },
     {
       "date": "2026-11-23",
+      "title": "CJ포디플렉스, 국민성장펀드만으론 역부족…민간투자 확보 난항",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380121.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "연말 인사시즌 앞둔 은행권, 국민성장펀드 막바지 실적 쌓기 분주",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380133.html",
+      "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-23",
       "title": "이재근號 KB금융 ‘출항ʼ…비은행 강화·생산적금융 ‘관건ʼ [이재근號...",
       "url": "https://www.fntimes.com/html/view.php?ud=202611202241099886dd55077bc2_18",
       "source": "한국금융신문"
@@ -11290,8 +11238,98 @@
       "title": "[Invest]국민성장펀드 쏠림에…PEF 운용사들 \"은행 돈 받기가 하늘의 별...",
       "url": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380130.html",
       "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "권대영 떠나자 무주공산 KSTP…400억 모아놓고 공회전",
+      "url": "https://dealsite.co.kr/articles/173241",
+      "source": "딜인사이트"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "두산 16% 급등…장중 20% 넘게 올라 [종목NOW]",
+      "url": "https://www.fnnews.com/news/202611240912330760",
+      "source": "파이낸셜뉴스"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "“딥테크 기업가치 얼마죠?”…VC들, 전문 심사역 찾아나선다",
+      "url": "https://www.mk.co.kr/article/12216944",
+      "source": "매일경제"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "금융위, 국민성장펀드 연내 30조 공급 달성 전망…내년 40조원으로 확대",
+      "url": "https://www.newsis.com/view/NISX20261124_0003880976",
+      "source": "뉴시스"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "국민성장펀드 내년 40조원으로 확대…우주항공·양자도 지원 추진",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03142246645649000&mediaCodeNo=257",
+      "source": "이데일리"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "150조 정책금융 공급 목표치 초과 달성…국민성장펀드 40조로 확대",
+      "url": "https://biz.chosun.com/stock/finance/2026/11/24/EGT64YN2FJAL3NLQF7I7N23TOA/",
+      "source": "조선일보"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "국민성장펀드 내년 40조원으로 확대…우주항공·양자 지원 추진",
+      "url": "https://www.ajunews.com/view/20261124143128269",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "국민성장펀드 올해 30조원 달성 전망…내년 40조원으로 확대",
+      "url": "https://www.yna.co.kr/view/AKR20261124122800002?input=1195m",
+      "source": "연합뉴스"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "“내년 40조 쏟는다” 정부 반도체·AI 정조준",
+      "url": "https://magazine.hankyung.com/business/article/202611246883b",
+      "source": "한국경제"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "국민성장펀드 내년 40조원으로 확대…우주항공·양자 지원 추진",
+      "url": "https://www.etoday.co.kr/news/view/2652312",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "국민성장펀드 내년 40조원으로 확대…우주항공·양자 지원 추진",
+      "url": "https://biz.heraldcorp.com/article/10947663",
+      "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "국민성장펀드 올해 30조원 달성 전망…내년엔 40조원으로 확대",
+      "url": "https://www.joongang.co.kr/article/25481519",
+      "source": "중앙일보"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "딥테크 전문 심사역 채용 늘리는 VC",
+      "url": "https://www.mk.co.kr/article/12217225",
+      "source": "매일경제"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "‘기업가형 국가’ 마추카토에 3대 메가 묻자 “K산업정책, 세계 모델 가...",
+      "url": "https://www.khan.co.kr/article/202611241800001",
+      "source": "경향신문"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "[Invest]CJ포디플렉스, 국민성장펀드만으론 역부족…민간투자 확보 난항",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/24/2026112480158.html",
+      "source": "인베스트조선"
     }
   ],
-  "matched_articles_this_run": 432,
+  "matched_articles_this_run": 449,
   "confirmed_deals_count": 16
 }
