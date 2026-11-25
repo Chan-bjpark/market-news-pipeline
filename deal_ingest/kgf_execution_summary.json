@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:11:14.545852+00:00",
+  "generated_at": "2026-11-25T22:11:17.903408+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.10",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-24T22:11:14.545764+00:00",
+    "sheet_synced_at": "2026-11-25T22:11:17.903319+00:00",
     "approved_count": 38,
     "cumulative_amount": "22조1,618억원",
     "frontier_fund_amount": "9조2,085억원",
@@ -3644,6 +3644,32 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "막바지",
+      "sector": null,
+      "methods": [
+        "출자"
+      ],
+      "amount": null,
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "timeline": [
+        {
+          "date": "2026-11-25",
+          "event": "국민성장펀드 GP 펀드레이징 ‘막바지’…대형·중소형 PEF 연내 결성 속...",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.heraldcorp.com/article/10949215",
+          "source": "헤럴드경제"
+        }
+      ]
+    },
     {
       "company_name": "IMM",
       "sector": null,
@@ -10731,24 +10757,6 @@
   "candidates": [
     {
       "date": "2026-10-21",
-      "title": "국민성장펀드 리스크위 첫 회의... 통과의례 비판에 검증 강화",
-      "url": "https://biz.chosun.com/stock/finance/2026/10/21/RRQJMPSFHZFWFNDWUXRDQ6MVQI/",
-      "source": "조선일보"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "오리온 6735억·국민성장펀드 5000억 실탄, 리가켐 '직접 임상' 승부수",
-      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=365005",
-      "source": "이데일리"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "초광역특구법에 ‘SK 맞춤’ 특례…‘반도체 합작회사’ 길 열리나",
-      "url": "https://www.hani.co.kr/arti/economy/marketing/1283470.html",
-      "source": "한겨레"
-    },
-    {
-      "date": "2026-10-21",
       "title": "소규모 바이오텍 국민성장펀드 받는다 \"운용사 펀드 활용\"",
       "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610211400366840102080",
       "source": "더벨"
@@ -11328,8 +11336,26 @@
       "title": "[Invest]CJ포디플렉스, 국민성장펀드만으론 역부족…민간투자 확보 난항",
       "url": "https://www.investchosun.com/site/data/html_dir/2026/11/24/2026112480158.html",
       "source": "인베스트조선"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "iM증권 \"리가켐바이오, 8300억 실탄에 플랫폼 경쟁력까지…목표가 하향...",
+      "url": "https://www.etoday.co.kr/news/view/2652530",
+      "source": "이투데이"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "LG도 뛰어든 양자산업…40조 국민성장펀드, 코스닥 소부장 향한다",
+      "url": "https://www.newspim.com/news/view/20261125000360",
+      "source": "뉴스핌"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "국민성장펀드 위탁운용사, 연말 출범 ‘준비 끝’",
+      "url": "https://biz.heraldcorp.com/article/10948831",
+      "source": "헤럴드경제"
     }
   ],
-  "matched_articles_this_run": 449,
+  "matched_articles_this_run": 433,
   "confirmed_deals_count": 16
 }

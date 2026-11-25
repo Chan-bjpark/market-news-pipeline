@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:11:27.787160+00:00",
+  "generated_at": "2026-11-25T22:11:30.395758+00:00",
   "ok": true,
   "recent_days": 14,
   "sources": {
@@ -25,6 +25,48 @@
     }
   },
   "releases": [
+    {
+      "title": "언론사 기자 등의 부정거래행위 등 불공정거래 행위에 대한 조치 의결(2건)",
+      "date": "2026-11-25",
+      "url": "https://www.fsc.go.kr/no010101/88228",
+      "agency": "금융위"
+    },
+    {
+      "title": "금융시장 위기 대비체계를 한층 더 강화하였습니다. - 자체정상화·부실정리계획(RRP)을 연계한 관계기관 합동 모의훈련 최초 실시",
+      "date": "2026-11-25",
+      "url": "https://www.fsc.go.kr/no010101/88224",
+      "agency": "금융위"
+    },
+    {
+      "title": "금융회사가 기업의 저탄소 전환에 필요한 자금을 지원할 수 있도록 실무기준을 마련하였습니다.",
+      "date": "2026-11-25",
+      "url": "https://www.fsc.go.kr/no010101/88223",
+      "agency": "금융위"
+    },
+    {
+      "title": "국민성장펀드는 중소기업에 대한 지원을 확대할 계획입니다.",
+      "date": "2026-11-25",
+      "url": "https://www.fsc.go.kr/no010101/88220",
+      "agency": "금융위"
+    },
+    {
+      "title": "“다음 금융은 이미 시작됐다” 제8회 「코리아 핀테크 위크 2026」 개막",
+      "date": "2026-11-25",
+      "url": "https://www.fsc.go.kr/no010101/88216",
+      "agency": "금융위"
+    },
+    {
+      "title": "씨제이프레시웨이(주)의 부당한 고객유인행위 사건 심의 절차 개시",
+      "date": "2026-11-25",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48273",
+      "agency": "공정위"
+    },
+    {
+      "title": "입찰에 있어서의 부당한 공동행위 및 입찰참가자격 제한요청에 관한 지침」 개정",
+      "date": "2026-11-25",
+      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48272",
+      "agency": "공정위"
+    },
     {
       "title": "공인회계사 자격·징계위원회 개최 결과 - 2027년 공인회계사 최소선발예정인원 결정",
       "date": "2026-11-24",
@@ -72,36 +114,6 @@
       "date": "2026-11-24",
       "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48269",
       "agency": "공정위"
-    },
-    {
-      "title": "사업보고서 등에 대한 조사·감리결과 조치",
-      "date": "2026-11-23",
-      "url": "https://www.fsc.go.kr/no010101/88194",
-      "agency": "금융위"
-    },
-    {
-      "title": "상장기업의 자기주식 1일 취득한도 확대를 3개월간 시행합니다",
-      "date": "2026-11-23",
-      "url": "https://www.fsc.go.kr/no010101/88190",
-      "agency": "금융위"
-    },
-    {
-      "title": "제11회 국제금융협력포럼 개최",
-      "date": "2026-11-23",
-      "url": "https://www.fsc.go.kr/no010101/88189",
-      "agency": "금융위"
-    },
-    {
-      "title": "금융정보분석원 설립 25주년 기념 자금세탁방지 국제세미나 개최",
-      "date": "2026-11-23",
-      "url": "https://www.fsc.go.kr/no010101/88188",
-      "agency": "금융위"
-    },
-    {
-      "title": "금융정보분석원 설립 25주년 및 제20회 「자금세탁방지의 날」 기념식 개최",
-      "date": "2026-11-23",
-      "url": "https://www.fsc.go.kr/no010101/88183",
-      "agency": "금융위"
     },
     {
       "title": "‘쉬었음’ 청년을 다시 내:일로… 청년일자리팀, 제2회 ‘국민 체감 대상’",
@@ -170,12 +182,6 @@
       "agency": "공정위"
     },
     {
-      "title": "한 해의 끝, 공정한 동행 가을겨울호와 다시 새기는 공정의 의미",
-      "date": "2026-11-19",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48253",
-      "agency": "공정위"
-    },
-    {
       "title": "대외경제협력기금-시민사회 간담회 개최",
       "date": "2026-11-18",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079991&menuNo=4010100",
@@ -192,12 +198,6 @@
       "date": "2026-11-18",
       "url": "https://www.mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079984&menuNo=4010100",
       "agency": "기재부"
-    },
-    {
-      "title": "전자상거래법에 따른 국내대리인 지정 가이드라인 제정",
-      "date": "2026-11-18",
-      "url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48246",
-      "agency": "공정위"
     },
     {
       "title": "「디지털자산업의 혁신과 이용자 보호에 관한 법률」 제정안 입법 추진",
