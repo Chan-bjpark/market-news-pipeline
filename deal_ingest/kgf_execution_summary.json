@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:11:17.903408+00:00",
+  "generated_at": "2026-11-26T22:11:24.614512+00:00",
   "fund_name": "국민성장펀드",
   "confirmed_as_of": "2026.1~2026.5",
   "baseline_source": "정본=구글시트(국민성장펀드_집행현황) → dashboard. 시트 fetch 성공 시 aggregate 자동 갱신, 실패 시 상수 fallback (발송지침 4-B).",
@@ -9,7 +9,7 @@
   "aggregate": {
     "as_of": "2026.10",
     "source": "구글시트(국민성장펀드_집행현황) → dashboard",
-    "sheet_synced_at": "2026-11-25T22:11:17.903319+00:00",
+    "sheet_synced_at": "2026-11-26T22:11:24.614435+00:00",
     "approved_count": 38,
     "cumulative_amount": "22조1,618억원",
     "frontier_fund_amount": "9조2,085억원",
@@ -1090,6 +1090,16 @@
           "status_label": "관련 동향",
           "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611241335191480105038",
           "source": "더벨"
+        },
+        {
+          "date": "2026-11-26",
+          "event": "커지는 해킹 위험에… 국민성장펀드, AI 보안 기업에 투자",
+          "methods": [],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://biz.chosun.com/stock/finance/2026/11/26/BFVFH744YZDENDUN62CXHRJZAU/",
+          "source": "조선일보"
         }
       ]
     },
@@ -3644,6 +3654,108 @@
     }
   ],
   "news_discovered": [
+    {
+      "company_name": "증권",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": "500억 원",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-11-26",
+      "timeline": [
+        {
+          "date": "2026-07-10",
+          "event": "금융위, 중기특화 증권사 7곳 지정…리딩투자증권 신규 진입",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": null,
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "http://www.fnnews.com/news/202607091926016050",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "date": "2026-07-10",
+          "event": "금융위, 제6기 중기특화 증권사 7곳 지정…리딩투자증권 신규 진입",
+          "methods": [
+            "출자"
+          ],
+          "amount": "500억 원",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4424277",
+          "source": "연합인포맥스"
+        },
+        {
+          "date": "2026-11-26",
+          "event": "\"IPO가 끝이 아니다\"…한화투자증권, 기업 성장 전 주기 지원하는 VC 모...",
+          "methods": [
+            "출자"
+          ],
+          "amount": null,
+          "status_code": "mention",
+          "status_label": "관련 동향",
+          "url": "https://www.hankyung.com/article/202611259493r",
+          "source": "한국경제"
+        }
+      ]
+    },
+    {
+      "company_name": "A등급",
+      "sector": null,
+      "methods": [],
+      "amount": "1조",
+      "status_code": "committed",
+      "status_label": "승인·확정",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "timeline": [
+        {
+          "date": "2026-11-26",
+          "event": "스틱인베스트먼트, ESG 평가 ‘A등급’…3년 연속 최상위",
+          "methods": [],
+          "amount": "1조",
+          "status_code": "committed",
+          "status_label": "승인·확정",
+          "url": "https://biz.heraldcorp.com/article/10949577",
+          "source": "헤럴드경제"
+        }
+      ]
+    },
+    {
+      "company_name": "겨냥",
+      "sector": null,
+      "methods": [
+        "출자",
+        "대출"
+      ],
+      "amount": null,
+      "status_code": "review",
+      "status_label": "검토단계",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "timeline": [
+        {
+          "date": "2026-11-26",
+          "event": "美 '과잉생산 관세'에 호남 반도체 투자 겨냥…15% 유지 속 25% 압박",
+          "methods": [
+            "출자",
+            "대출"
+          ],
+          "amount": null,
+          "status_code": "review",
+          "status_label": "검토단계",
+          "url": "https://view.asiae.co.kr/article/2026112609564288580",
+          "source": "아시아경제"
+        }
+      ]
+    },
     {
       "company_name": "막바지",
       "sector": null,
@@ -8713,46 +8825,6 @@
       ]
     },
     {
-      "company_name": "증권",
-      "sector": null,
-      "methods": [
-        "출자",
-        "대출"
-      ],
-      "amount": "500억 원",
-      "status_code": "committed",
-      "status_label": "승인·확정",
-      "first_seen": "2026-07-10",
-      "last_seen": "2026-07-10",
-      "timeline": [
-        {
-          "date": "2026-07-10",
-          "event": "금융위, 중기특화 증권사 7곳 지정…리딩투자증권 신규 진입",
-          "methods": [
-            "출자",
-            "대출"
-          ],
-          "amount": null,
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "http://www.fnnews.com/news/202607091926016050",
-          "source": "파이낸셜뉴스"
-        },
-        {
-          "date": "2026-07-10",
-          "event": "금융위, 제6기 중기특화 증권사 7곳 지정…리딩투자증권 신규 진입",
-          "methods": [
-            "출자"
-          ],
-          "amount": "500억 원",
-          "status_code": "committed",
-          "status_label": "승인·확정",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4424277",
-          "source": "연합인포맥스"
-        }
-      ]
-    },
-    {
       "company_name": "뤼튼테크놀로지스",
       "sector": null,
       "methods": [],
@@ -10756,18 +10828,6 @@
   ],
   "candidates": [
     {
-      "date": "2026-10-21",
-      "title": "소규모 바이오텍 국민성장펀드 받는다 \"운용사 펀드 활용\"",
-      "url": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610211400366840102080",
-      "source": "더벨"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "[더벨][thebell Forum | 2026 제약·바이오 컨퍼런스] K-바이오 성장 해법...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610211432403840105838",
-      "source": "더벨"
-    },
-    {
       "date": "2026-10-22",
       "title": "생산적금융 향해 달리는 우리금융…런던인맥 총력전",
       "url": "https://dealsite.co.kr/articles/171048",
@@ -11354,8 +11414,20 @@
       "title": "국민성장펀드 위탁운용사, 연말 출범 ‘준비 끝’",
       "url": "https://biz.heraldcorp.com/article/10948831",
       "source": "헤럴드경제"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "[통상전쟁 2라운드] 석화 구조조정도 직격…메가특구·첨단산업 지원 불...",
+      "url": "https://www.ajunews.com/view/20261126154555915",
+      "source": "아주경제"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "[Invest]연말 인사시즌 앞둔 은행권, 국민성장펀드 막바지 실적 쌓기 분...",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/26/2026112680206.html",
+      "source": "인베스트조선"
     }
   ],
-  "matched_articles_this_run": 433,
+  "matched_articles_this_run": 428,
   "confirmed_deals_count": 16
 }

@@ -1,140 +1,19 @@
 {
-  "generated_at": "2026-11-25T22:11:17.003324+00:00",
+  "generated_at": "2026-11-26T22:11:23.689693+00:00",
   "lookback_days": 90,
-  "total_policy_articles": 686,
+  "total_policy_articles": 680,
   "matched_funds_count": 3,
-  "unmatched_count": 264,
+  "unmatched_count": 263,
   "funds": [
     {
       "fund_name": "국민성장펀드",
       "current_stage_code": "closed",
       "current_stage_label": "결성 완료",
       "next_expected_event": "(완료)",
-      "first_seen": "2026-08-27",
-      "last_updated": "2026-11-25",
-      "event_count": 419,
+      "first_seen": "2026-08-30",
+      "last_updated": "2026-11-27",
+      "event_count": 414,
       "timeline": [
-        {
-          "date": "2026-08-27",
-          "published_at": "2026-08-27T23:40:20.738677+00:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "500억",
-          "title": "06.국민성장펀드, 원익로보틱스에 3천500억 투자…K-콘텐츠도 자금지원",
-          "summary": "",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432268",
-          "source_label": "연합인포맥스"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T05:08:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "[단독] LG는 왜 주니어 AI 연구자 이직 막나…‘독파모’ 인재전쟁 법정...",
-          "summary": "그는 “리벨리온, 퓨리오사AI, 업스테이지 등 국민성장펀드로부터 자금 지원을 받은 AI 기업들이 같은... 정부가 막대한 국가 예산과 컴퓨팅 자원을 투입해 AI 생태계를 키우는 상황에서 기업의 R&D 투자와 영업비밀은...",
-          "url": "https://www.edaily.co.kr/News/Read?newsId=01735126645551912&mediaCodeNo=257",
-          "source_label": "이데일리"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T07:02:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "93조",
-          "title": "실적·밸류업 넘어 미래전략까지···양종희 연임 '마지막 관문' [2026 K...",
-          "summary": "93조 생산적금융···국민성장펀드 1호서 2.9조 금융주선 생산적금융은 양 회장의 다음 임기 적합성을... 규모의 대출 조달 구조를 책임진다는 점이 중요하다. 단순 출자에 그치는 것이 아니라, 대형 인프라...",
-          "url": "https://www.fntimes.com/html/view.php?ud=202608271915391659b4a7c6999c_18",
-          "source_label": "한국금융신문"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T07:51:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "3조",
-          "title": "남들보다 한발 앞서 투자…DSC인베의 ‘홈런’ 스윙[대형VC 대해부]⑧",
-          "summary": "집중적으로 펀드를 결성·집행한 것\"이라고 말했다. \"좋은 빈티지는 결국 언제, 어떤 환경에서... 퓨리오사AI의 기업가치는 3조원을 넘어섰고, 국민성장펀드는 지난 5월 28일 이 회사에 8000억원 투자를 승인했다. 대표...",
-          "url": "https://view.asiae.co.kr/article/2026082610564246914",
-          "source_label": "아시아경제"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T09:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "200조",
-          "title": "[2026 증권포럼] \"국민성장펀드 200조 확대…민간투자 난제 푼다\"",
-          "summary": "국민성장펀드는 속도감 있게 자금을 집행하고 있다\"며 \"이에 최초 계획한 자금 규모도 부족할 것으로 예상돼 5년간 운영규모를 200조원으로 확대할 계획을 가지고 있다\"고 말했다. 이어 \"신기술에 적극적으로 투자를 해야...",
-          "url": "https://dealsite.co.kr/articles/167870",
-          "source_label": "딜인사이트"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T09:02:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": "150조",
-          "title": "[2026 증권포럼] \"코스피 1만 시대 향한 도약…투자자 중심 질서 회복 관...",
-          "summary": "지난해 12월 출범한 국민성장펀드는 5년간 150조원 규모로, 첨단전략산업기금 75조원과 민간자금 75조원으로 구성된다. 자금은 직접투자·간접투자·인프라투자·대출프로그램 네 갈래로 집행된다. 출범 7개월 만에 23개...",
-          "url": "https://dealsite.co.kr/articles/167856",
-          "source_label": "딜인사이트"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T09:14:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "국민성장펀드 원익로보 투자금 회수는?…'중복상장 이슈' 주목",
-          "summary": "28일 금융투자업계에 따르면 전일 열린 국민성장펀드 기금운용심의회는 원익로보틱스 등 총 7건 사업에 대한 지분투자와 저리대출 지원을 승인했다. 원익로보틱스는 전북 완주에 로봇핸드 생산공장과 AX센터를 신축하기...",
-          "url": "https://www.yna.co.kr/view/AKR20260828023900008?input=1195m",
-          "source_label": "연합뉴스"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T10:01:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "5600억 원",
-          "title": "AI가 대출금리 깎아준다…뱅크샐러드 “연 이자 930만원 절감”",
-          "summary": "저리 대출 등 자금 지원 7건을 의결했다고 밝혔다. 두 기업은 올해 4월 국민성장펀드 전략위원회가... 원을 출자한다. 또한 두산테스나(131970) 신공장 증설에 5600억 원, LG에너지솔루션(373220) 충북 차세대 이차전지...",
-          "url": "https://www.sedaily.com/article/20084319",
-          "source_label": "서울경제"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T10:46:00+09:00",
-          "stage_code": "lp_commit",
-          "stage_label": "LP 출자 확정",
-          "amount": "17조9000억",
-          "title": "전북 로봇공장 원익로보틱스에 3500억 지원 CJ포디플렉스엔 2200억 투자 ...",
-          "summary": "이중 첨단전략산업기금은 500억원을 프로젝트펀드에 출자한다. 이번 투자로 관련 생태계 경쟁력이 강화될... 1700억원 대출도 지원한다. 이로써 국민성장펀드는 이달 말까지 총 31건, 누적 17조9000억원의 자금지원을...",
-          "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=362358",
-          "source_label": "이데일리"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T13:01:00+09:00",
-          "stage_code": "planning",
-          "stage_label": "조성 계획",
-          "amount": "200억",
-          "title": "경보제약, 국민성장펀드 200억 대출 승인…바이오 4호 투자",
-          "summary": "금융위원회는 지난 27일 국민성장펀드 기금운용심의회를 열고 충남 소재 경보제약에 첨단전략산업기금 200억원을 대출하기로 승인했다. 지원 대상은 경보제약이 추진 중인 ADC 전용 생산설비 신설 사업 몫으로...",
-          "url": "https://news.bizwatch.co.kr/article/healthcare/2026/08/28/0016",
-          "source_label": "비즈워치"
-        },
-        {
-          "date": "2026-08-28",
-          "published_at": "2026-08-28T17:20:00+09:00",
-          "stage_code": "uncategorized",
-          "stage_label": "단계 미상",
-          "amount": null,
-          "title": "유동시총 상위 10개 기업 투자 1개월 수익률 15%로 1위 [ETF 줌인]",
-          "summary": "기업에 투자하는 상장지수펀드(ETF)가 주목받고 있다. 정부의 코스닥시장 활성화 정책과 국민성장펀드 집행에 대한 기대가 더해지며 관련 ETF도 우수한 수익률을 기록했다. 28일 한국거래소에 따르면 ‘SOL 코스닥TOP10’의...",
-          "url": "https://www.sedaily.com/article/20084567",
-          "source_label": "서울경제"
-        },
         {
           "date": "2026-08-30",
           "published_at": "2026-08-30T09:17:00+09:00",
@@ -4622,6 +4501,72 @@
           "summary": "선정된 사모펀드(PEF) 운용사들의 펀드레이징이 막바지 단계에 접어들었다. 정책자금 매칭 효과에 금융권의 출자 수요가 더해지면서, 대형 하우스부터 중·소형사까지 당초 계획한 목표액을 채우고 연내 결성을...",
           "url": "https://biz.heraldcorp.com/article/10949215",
           "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-11-26",
+          "published_at": "2026-11-26T07:24:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": "1조",
+          "title": "스틱인베스트먼트, ESG 평가 ‘A등급’…3년 연속 최상위",
+          "summary": "사모펀드(PEF) 운용사 스틱인베스트먼트가 ESG(환경·사회·지배구조) 평가기관 서스틴베스트로부터 최상위... 국민성장펀드 스케일업 위탁운용사(GP) 선정을 발판 삼아 1조원대 신규 펀드 결성을 추진 중이며, 크레딧...",
+          "url": "https://biz.heraldcorp.com/article/10949577",
+          "source_label": "헤럴드경제"
+        },
+        {
+          "date": "2026-11-26",
+          "published_at": "2026-11-26T09:59:00+09:00",
+          "stage_code": "gp_open",
+          "stage_label": "GP 모집",
+          "amount": null,
+          "title": "\"IPO가 끝이 아니다\"…한화투자증권, 기업 성장 전 주기 지원하는 VC 모...",
+          "summary": "올 초 남우진 VC 팀장이 지휘봉을 잡은 이후 국민성장펀드 초장기 기술투자펀드 소형 부문 위탁운용사(GP)로... 실제로 한화투자증권은 펀드 결성에 필요한 자금 대부분을 GP 커밋(운용사가 펀드에 자기자금을 출자하기로...",
+          "url": "https://www.hankyung.com/article/202611259493r",
+          "source_label": "한국경제"
+        },
+        {
+          "date": "2026-11-26",
+          "published_at": "2026-11-26T11:06:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": null,
+          "title": "커지는 해킹 위험에… 국민성장펀드, AI 보안 기업에 투자",
+          "summary": "내년부터 AI 투자 틀에서 발굴 금융권 연쇄 해킹 사태를 계기로 국민성장펀드가 인공지능(AI·Artificial... 리벨리온·업스테이지 등 AI 기업에 투자한 것과 같은 방식으로, 보안 기업을 발굴해 기금운용심의회 심의를...",
+          "url": "https://biz.chosun.com/stock/finance/2026/11/26/BFVFH744YZDENDUN62CXHRJZAU/",
+          "source_label": "조선일보"
+        },
+        {
+          "date": "2026-11-26",
+          "published_at": "2026-11-26T12:49:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "美 '과잉생산 관세'에 호남 반도체 투자 겨냥…15% 유지 속 25% 압박",
+          "summary": "USTR은 150조원 규모의 국민성장펀드와 산업은행의 12대 국가전략산업 50조원 지원계획, 한국수출입은행과 한국무역보험공사의 수출금융 등을 문제로 지적했다. 국책금융기관이 특정 산업에 저리대출과 지분투자 등을...",
+          "url": "https://view.asiae.co.kr/article/2026112609564288580",
+          "source_label": "아시아경제"
+        },
+        {
+          "date": "2026-11-26",
+          "published_at": "2026-11-26T16:02:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "150조",
+          "title": "[통상전쟁 2라운드] 석화 구조조정도 직격…메가특구·첨단산업 지원 불...",
+          "summary": "150조원 규모의 국민성장펀드를 통한 전략산업 투자와 저리 대출 등 정책금융 지원도 거론됐다. 반도체 생산능력 확대 속도 역시 미국이 한국의 산업정책을 문제 삼는 근거로 활용됐다. 특히 USTR은 지난 20년간 한국의...",
+          "url": "https://www.ajunews.com/view/20261126154555915",
+          "source_label": "아주경제"
+        },
+        {
+          "date": "2026-11-27",
+          "published_at": "2026-11-27T07:00:00+09:00",
+          "stage_code": "uncategorized",
+          "stage_label": "단계 미상",
+          "amount": "10조",
+          "title": "[Invest]연말 인사시즌 앞둔 은행권, 국민성장펀드 막바지 실적 쌓기 분...",
+          "summary": "그보다는 각각 제시한 10조원 규모의 국민성장펀드 관련 실적이 중요하게 받아들여졌다. 각자 발굴한 사업을 첨단전략산업기금과 연계시키는 것이 핵심 과제였다. 은행들이 핵심 사업자로 나섰다.국민성장펀드 관련...",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/11/26/2026112680206.html",
+          "source_label": "인베스트조선"
         }
       ]
     },
@@ -4682,18 +4627,6 @@
     }
   ],
   "unmatched_titles": [
-    {
-      "date": "2026-08-28",
-      "title": "[단독]FI로부터 지분 장기보유 약속받았다는 인제니아…오버행 우려 완...",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02761766645551912&mediaCodeNo=257",
-      "source_label": "이데일리"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "[금리 3% 후폭풍]④자산·부채 듀레이션에 엇갈리는 보험사 킥스",
-      "url": "https://view.asiae.co.kr/article/2026082808153914511",
-      "source_label": "아시아경제"
-    },
     {
       "date": "2026-08-30",
       "title": "[K바이오 점프업] ② R&D 넘어 사업화로…\"성장사다리 만들어야\"",
@@ -4981,6 +4914,18 @@
       "title": "‘사업 키운 뒤 엑시트’ 창업가의 로망…완전히 손 떼기보다 함께 키워...",
       "url": "https://www.joongang.co.kr/article/25461233",
       "source_label": "중앙일보"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "김성환 한투증권 사장 \"글로벌 금융사가 가장 일하고 싶은 파트너 될 것...",
+      "url": "https://www.newspim.com/news/view/20260912000018",
+      "source_label": "뉴스핌"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "45년간 '자산 396배·매출 112배' 키운 김승연 한화 회장",
+      "url": "https://magazine.hankyung.com/business/article/202609077945b",
+      "source_label": "한국경제"
     }
   ]
 }
